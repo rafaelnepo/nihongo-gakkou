@@ -168,6 +168,7 @@ Irasutoya.
 | `house-style.md` | series identity, the voice/Persona plan, duration standards |
 | `findings.md` | measured Suno behaviour — read before generating |
 | `reference/comprehensible-input.md` | Krashen's CI theory (the *why*), applied to how we make songs |
+| `video-format.md` | how each video is structured (immersion-first) + where the word list goes |
 | `reference/music-glossary.html` | music terms + a "what you feel → what to say" phrasebook |
 | `video/WORKFLOW.md` | the Remotion engine: parametric template, add-a-song, timing |
 | `tools/align/README.md` | WhisperX forced alignment (per-character timing) |
