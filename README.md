@@ -174,12 +174,12 @@ Irasutoya.
 
 ---
 
-## Status (2026-08-27)
+## Status & history — see `sessions/`
 
-- **Songs:** `01-aisatsu` generated; `03-aiueo` audition done (**house voice =
-  city-pop female**), v3 (3-min) written; `02-gojuon` written; both personal songs
-  written (one has a shipped lyric video).
-- **Engine:** Remotion parametric lyric-video template + WhisperX aligner both
-  built and proven on the first song.
-- **Site:** dashboard + generated sheets + glossary built. **GitHub + Pages:
-  pending** — set up the repo, confirm the Privacy handling, then push.
+Current state and the running log of what changed each session live in
+**[`sessions/`](sessions/)** — this keeps the README stable instead of letting
+status pile up here. **Starting a session? Open `sessions/README.md`** (start /
+close routines), then the newest dated log and its **Next** section.
+
+Live: **https://rafaelnepo.github.io/nihongo-gakkou/** · CI auto-runs the sheet
+generator on every push.
