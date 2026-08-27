@@ -88,22 +88,54 @@ out/              renders (gitignored)
 
 ## Timing — the layered controls
 
-Timing lives in `timing/<id>.json` and has four levers, from coarse to fine:
+Timing lives in `timing/<id>.json` and has these levers, from coarse to fine:
 
 | Lever | Where | Use when |
 |---|---|---|
 | **WhisperX alignment** | `../tools/align/align_song.py --write` | the base — per-character sync from the audio |
-| **`offsetSeconds`** (whole song) | top of the JSON | ball is uniformly early/late. `+` = later |
-| **`delay`** (one line) | on a line object | the song pauses/holds and one line drifts |
+| **`offsetSeconds`** (whole song) | top of the JSON | fill is uniformly early/late. `+` = later |
+| **`delay`** (one line) | on a line object | the song pauses/holds and one whole line drifts |
+| **`startShift` / `endShift`** (one line) | on a line object | one END of a line drifts — move just its in- or out-point; the aligned syllables re-space to fill. `+` = later. This is what the **nudge GUI** writes |
 | **hand-timed line** | set a line's `start`/`end`, delete its `chars[]` | the aligner mistimes it (held/sustained notes); the template even-distributes glyphs across the window |
+
+All nudges (`delay` / `startShift` / `endShift`) are **non-destructive** — the
+template bakes them onto a copy of the aligned `chars[]` at render time
+(`withShift` in `LearningVideo.tsx`), so the source `chars[]` are never mutated,
+every nudge is reversible, and a re-align resets the slate.
 
 **Known aligner limit:** WhisperX **bunches characters on sustained/held sung
 notes** (a lullaby holds line-ends). `align_song.py` has a `debunch` pass that
 spreads bunched lines, but a badly-held tail is best hand-timed (see the note in
 a song timing JSON — its last lines may be hand-timed for exactly this).
 
-**The visual editor is Studio.** `npm start`, scrub with the audio, read the
-timecode, edit the JSON — it hot-reloads.
+### The nudge GUI — fine-tune sync visually (`npm run nudge`)
+
+The fastest way to dial in the last few lines. `npm run nudge` opens a single
+page (`nudge-gui/`, port 3010) with a **live `@remotion/player`** of the video on
+the left and every line on the right, each with **Start** and **End** ◀ ▶ arrows.
+Tapping an arrow updates the preview instantly, cues the player to that spot, and
+auto-saves the shift to the timing JSON (which the final render then reads). It
+passes the edited timing to `LearningVideo` via the `timingOverride` prop, so
+preview == render.
+
+Keyboard workflow (select a line by clicking it, then):
+
+| Key | Action |
+|---|---|
+| `←` / `→` | Start earlier / later (by the step size) |
+| `⇧`+`←` / `⇧`+`→` | End earlier / later |
+| `↑` / `↓` | Previous / next line (selects + cues to its start) |
+| `R` | Replay the current line from its start (auto-stops at its end) |
+| `Space` | Play / pause |
+| `[` / `]` | Step size (0.02–0.2s) |
+
+**Headless alternative — `../tools/nudge.mjs`.** Same shifts from the CLI when a
+GUI is overkill: `node tools/nudge.mjs <id> --list`, then
+`--line N --by +0.1` (start), or `--offset ±s` for the whole song. `--by`
+accumulates; a shift back to 0 removes the field, keeping git diffs clean.
+
+**Studio still works too:** `npm start`, scrub with the audio, read the timecode,
+edit the JSON by hand — it hot-reloads. The GUI just makes the loop tighter.
 
 ---
 

@@ -66,6 +66,14 @@ export type LearningLine = {
   // whole karaoke fill together. + = later, - = earlier. For fine work, edit
   // `start`/`end` directly; for uniform drift use the timing's `offsetSeconds`.
   delay?: number;
+  // Independent fine-tune handles for THIS line (seconds, + = later / - = earlier),
+  // the levers the nudge GUI drives. `startShift` moves only where the line BEGINS,
+  // `endShift` moves only where it ENDS; the aligned syllables in between re-space
+  // proportionally to fill the new window. Non-destructive — the original `chars[]`
+  // stay untouched, so any nudge is reversible and a re-align resets cleanly.
+  // (`delay` above == moving both by the same amount.)
+  startShift?: number;
+  endShift?: number;
 };
 
 export type LearningTiming = {

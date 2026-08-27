@@ -52,6 +52,28 @@ const evenTimes = (n: number, start: number, end: number): CharTime[] => {
   }));
 };
 
+// Bake a line's manual nudges into its timing. `delay` shifts both ends equally;
+// `startShift`/`endShift` move each end independently. The aligned `chars[]` are
+// re-mapped PROPORTIONALLY into the new [start, end] window, so the karaoke fill
+// keeps its internal rhythm while landing where the nudges put it. Pure and
+// non-destructive: the source line's original chars are never mutated.
+const withShift = (line: LearningLine): LearningLine => {
+  const d = line.delay ?? 0;
+  const os = line.start;
+  const oe = line.end;
+  const ns = os + d + (line.startShift ?? 0);
+  const ne = Math.max(ns + 1e-3, oe + d + (line.endShift ?? 0));
+  if (ns === os && ne === oe) return line; // untouched — no work, no new object
+  const span = Math.max(1e-6, oe - os);
+  const remap = (x: number) => ns + ((x - os) / span) * (ne - ns);
+  return {
+    ...line,
+    start: ns,
+    end: ne,
+    chars: line.chars?.map((c) => ({ start: remap(c.start), end: remap(c.end) })),
+  };
+};
+
 // One illustration with a graceful placeholder fallback (missing art never
 // cancels the render — it shows a neutral card so the gap is obvious but safe).
 const IlloImg: React.FC<{ src: string; size: number }> = ({ src, size }) => {
@@ -90,10 +112,11 @@ const Strip: React.FC<{
   pulse: number;
   size: number; // tile size (aspect-aware, computed by the parent)
   tiles: number; // how many across the band
+  marginFrac: number; // side inset as a fraction of width (bigger in portrait)
   offset?: number; // shift the repeating pattern (bottom band starts one over)
-}> = ({ keys, base, yFrac, w, h, t, pulse, size, tiles, offset = 0 }) => {
+}> = ({ keys, base, yFrac, w, h, t, pulse, size, tiles, marginFrac, offset = 0 }) => {
   if (!keys.length) return null;
-  const margin = w * 0.11;
+  const margin = w * marginFrac;
   const inner = w - margin * 2;
   return (
     <>
@@ -139,11 +162,18 @@ const LogoMark: React.FC<{ h: number }> = ({ h }) => {
   );
 };
 
-// The track label (top-left): track no, play, hiragana name, row badge.
-const MediaPlayer: React.FC<{ t: LearningTiming; h: number }> = ({ t, h }) => {
+// The track label (top-left): track no, play, hiragana row. In portrait the song
+// name stacks on a second line, left-aligned directly under the row kana (it
+// shares the row's column, so both start at the same x).
+const MediaPlayer: React.FC<{ t: LearningTiming; h: number; isPortrait: boolean }> = ({ t, h, isPortrait }) => {
   const pad = h * 0.055;
+  const rowSpan = (
+    <span style={{ fontFamily, fontWeight: 700, fontSize: h * 0.027, color: P.metaName, letterSpacing: "0.06em", whiteSpace: "nowrap" }}>
+      {t.row}
+    </span>
+  );
   return (
-    <div style={{ position: "absolute", top: pad, left: pad * 1.9, display: "flex", alignItems: "center", gap: h * 0.016 }}>
+    <div style={{ position: "absolute", top: pad, left: pad * 1.9, display: "flex", alignItems: "flex-start", gap: h * 0.016 }}>
       <span
         style={{
           fontFamily: "ui-monospace, monospace",
@@ -158,15 +188,24 @@ const MediaPlayer: React.FC<{ t: LearningTiming; h: number }> = ({ t, h }) => {
         {t.trackNo}
       </span>
       <span style={{ color: P.sung, fontSize: h * 0.022 }}>▶</span>
-      <span style={{ fontFamily, fontWeight: 700, fontSize: h * 0.027, color: P.metaName, letterSpacing: "0.06em", whiteSpace: "nowrap" }}>
-        {t.row}
-      </span>
+      {isPortrait ? (
+        <div style={{ display: "flex", flexDirection: "column", gap: h * 0.007 }}>
+          {rowSpan}
+          <span style={{ fontFamily, fontWeight: 700, fontSize: h * 0.027, color: P.metaName, letterSpacing: "0.03em", whiteSpace: "nowrap" }}>
+            {t.trackName}
+          </span>
+        </div>
+      ) : (
+        rowSpan
+      )}
     </div>
   );
 };
 
-// The song name (hiragana), centered along the top between the row and the logo.
-const RowBadge: React.FC<{ t: LearningTiming; h: number }> = ({ t, h }) => {
+// The song name (hiragana), centered along the top BETWEEN the row and the logo.
+// Landscape only — in portrait the name lives under the row inside MediaPlayer.
+const RowBadge: React.FC<{ t: LearningTiming; h: number; isPortrait: boolean }> = ({ t, h, isPortrait }) => {
+  if (isPortrait) return null;
   const pad = h * 0.055;
   return (
     <div style={{ position: "absolute", top: pad, left: 0, right: 0, display: "flex", justifyContent: "center" }}>
@@ -177,24 +216,29 @@ const RowBadge: React.FC<{ t: LearningTiming; h: number }> = ({ t, h }) => {
   );
 };
 
-// The progress bar + time, centered along the bottom, level with the corners.
-const BottomProgress: React.FC<{ h: number; w: number; now: number; dur: number }> = ({ h, w, now, dur }) => {
+// The progress bar + time, centered along the bottom. Landscape keeps it level
+// with the corners; portrait lifts it to its own line ABOVE the corner metadata
+// (style·bpm / ©channel) so the narrow frame doesn't collide the three centred.
+const BottomProgress: React.FC<{ h: number; w: number; now: number; dur: number; isPortrait: boolean }> = ({ h, w, now, dur, isPortrait }) => {
   const pad = h * 0.055;
+  const bottom = isPortrait ? pad + h * 0.05 : pad;
   const prog = Math.max(0, Math.min(1, now / dur));
   return (
     <div
       style={{
         position: "absolute",
-        bottom: pad,
-        left: 0,
-        right: 0,
+        bottom,
+        // portrait: span the padded width so the bar reads full-width; landscape
+        // stays a centred fixed-width control level with the corners.
+        left: isPortrait ? pad * 1.9 : 0,
+        right: isPortrait ? pad * 1.9 : 0,
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
         gap: h * 0.016,
       }}
     >
-      <div style={{ position: "relative", width: w * 0.17, height: h * 0.006, borderRadius: h * 0.004, background: P.dotOff }}>
+      <div style={{ position: "relative", flex: isPortrait ? 1 : "0 0 auto", width: isPortrait ? "auto" : w * 0.17, height: h * 0.006, borderRadius: h * 0.004, background: P.dotOff }}>
         <div style={{ width: `${prog * 100}%`, height: "100%", borderRadius: h * 0.004, background: P.metaName }} />
         <div
           style={{
@@ -238,14 +282,39 @@ const Corners: React.FC<{ t: LearningTiming; h: number }> = ({ t, h }) => {
   );
 };
 
+// Break a line into up to two visual rows at the comma (portrait only), so each
+// row is shorter and the font can grow. Returns arrays of GLOBAL glyph indices —
+// karaoke timing stays indexed against the whole line, whichever row a glyph sits
+// in. A line with no comma (or an unsplittable one) stays a single row.
+const splitRows = (glyphs: string[], multiline: boolean): number[][] => {
+  const all = glyphs.map((_, i) => i);
+  if (!multiline) return [all];
+  const commaAt = glyphs.findIndex((g) => g === "、" || g === "，");
+  if (commaAt < 0 || commaAt === glyphs.length - 1) return [all];
+  const first = all.slice(0, commaAt + 1);
+  let second = all.slice(commaAt + 1);
+  while (second.length && glyphs[second[0]] === " ") second = second.slice(1);
+  if (!second.length) return [all];
+  return [first, second];
+};
+
+// The text of each visual row a line would render as — used by the font-fit pass
+// so it can size against the widest ROW (portrait) rather than the whole line.
+const rowTextsOf = (text: string, multiline: boolean): string[] => {
+  const g = Array.from(text);
+  return splitRows(g, multiline).map((idxs) => idxs.map((i) => g[i]).join(""));
+};
+
 // A centered line. The active line colours each glyph as it is sung (red, or gold
-// on a refrain); the previewed line stays grey. Both roles fill IN PLACE.
+// on a refrain); the previewed line stays grey. Both roles fill IN PLACE. In
+// portrait a long line stacks onto a second row at the comma.
 const Line: React.FC<{
   line: LearningLine;
   t: number;
   fontPx: number;
   role: "active" | "preview";
-}> = ({ line, t, fontPx, role }) => {
+  multiline: boolean;
+}> = ({ line, t, fontPx, role, multiline }) => {
   const glyphs = useMemo(() => Array.from(line.text), [line.text]);
   const times =
     line.chars && line.chars.length === glyphs.length
@@ -256,39 +325,51 @@ const Line: React.FC<{
       ? P.gold
       : P.sung;
   const rest = role === "active" ? P.cur : P.next;
+  const rows = useMemo(() => splitRows(glyphs, multiline), [glyphs, multiline]);
+  const glyph = (i: number) => {
+    if (glyphs[i] === " ") return <span key={i} style={{ width: fontPx * 0.42 }} />;
+    const sung = role === "active" && t >= times[i].start;
+    return (
+      <span
+        key={i}
+        style={{
+          color: sung ? lit : rest,
+          textShadow: sung ? `0 0 ${fontPx * 0.14}px rgba(231,72,28,0.22)` : "none",
+        }}
+      >
+        {glyphs[i]}
+      </span>
+    );
+  };
   return (
-    <div
-      style={{
-        display: "inline-flex",
-        justifyContent: "center",
-        whiteSpace: "nowrap",
-        fontFamily,
-        fontWeight: 900,
-        fontSize: fontPx,
-        lineHeight: 1.14,
-      }}
-    >
-      {glyphs.map((g, i) => {
-        if (g === " ") return <span key={i} style={{ width: fontPx * 0.42 }} />;
-        const sung = role === "active" && t >= times[i].start;
-        return (
-          <span
-            key={i}
-            style={{
-              color: sung ? lit : rest,
-              textShadow: sung ? `0 0 ${fontPx * 0.14}px rgba(231,72,28,0.22)` : "none",
-            }}
-          >
-            {g}
-          </span>
-        );
-      })}
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: fontPx * 0.06 }}>
+      {rows.map((row, r) => (
+        <div
+          key={r}
+          style={{
+            display: "inline-flex",
+            justifyContent: "center",
+            whiteSpace: "nowrap",
+            fontFamily,
+            fontWeight: 900,
+            fontSize: fontPx,
+            lineHeight: 1.14,
+          }}
+        >
+          {row.map(glyph)}
+        </div>
+      ))}
     </div>
   );
 };
 
-export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
-  const timing = getLearningTiming(songId);
+export const LearningVideo: React.FC<{ songId: string; timingOverride?: LearningTiming }> = ({
+  songId,
+  timingOverride,
+}) => {
+  // Normally the timing is resolved from the registry by id. The nudge GUI passes
+  // a live `timingOverride` instead, so tweaking a shift re-renders instantly.
+  const timing = timingOverride ?? getLearningTiming(songId);
   const frame = useCurrentFrame();
   const { fps, width, height } = useVideoConfig();
   const t = frame / fps - (timing.offsetSeconds ?? 0);
@@ -299,7 +380,10 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
   const S = Math.min(width, height);
   const isPortrait = height > width;
   const tiles = isPortrait ? 3 : 6;
-  const illoSize = isPortrait ? width * 0.2 : height * 0.132;
+  const illoSize = isPortrait ? width * 0.17 : height * 0.132;
+  // Portrait pulls the two edge tiles well inside the frame; landscape spreads
+  // across six with a slimmer inset.
+  const illoMarginFrac = isPortrait ? 0.2 : 0.11;
 
   const [fontReady, setFontReady] = useState(false);
   const [handle] = useState(() => delayRender("load-font"));
@@ -323,10 +407,12 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
     ? 1 + Math.min(0.07, bass * 1.2)
     : 1 + 0.035 * (0.5 + 0.5 * Math.sin(beatPhase * Math.PI));
 
-  const lines = timing.lines;
-  const lineStart = (k: number) => lines[k].start + (lines[k].delay ?? 0);
+  // Bake every line's manual nudges (delay / start-/endShift) into its timing up
+  // front, so the rest of the renderer just reads plain start/end/chars.
+  const lines = useMemo(() => timing.lines.map(withShift), [timing]);
+  const lineStart = (k: number) => lines[k].start;
 
-  // Active line = the latest line that has STARTED (honouring per-line delay).
+  // Active line = the latest line that has STARTED (nudges already baked in).
   // Holding the most-recent line through the gaps between lines is what stops
   // the old bug where a musical gap briefly flashed the final line's content.
   let i = 0;
@@ -351,21 +437,26 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
       extrapolateRight: "clamp",
     });
   };
-  // each line reads its own clock so a per-line `delay` shifts its fill too
-  const ltOf = (idx: number) => t - (lines[idx]?.delay ?? 0);
 
   const topLine = topIdx < lines.length ? lines[topIdx] : undefined;
   const bottomLine = bottomIdx < lines.length ? lines[bottomIdx] : undefined;
 
-  // fit: both slots share one size, shrunk so the wider line fits, floored.
-  const maxFont = S * 0.086;
+  // fit: both slots share one size, shrunk so the widest VISUAL ROW fits, floored.
+  // Portrait breaks long lines at the comma, so it fits shorter rows and lifts the
+  // cap — the content after the comma can then be read at a bigger size.
+  const maxFont = S * (isPortrait ? 0.11 : 0.086);
   const minFont = S * 0.05;
-  const availW = width * 0.84;
+  const availW = width * (isPortrait ? 0.8 : 0.84);
   const fontPx = useMemo(() => {
     if (!fontReady) return maxFont;
-    const sizeFor = (text?: string) =>
-      text ? fitText({ text, withinWidth: availW, fontFamily, fontWeight: 900 }).fontSize : maxFont;
-    return Math.max(minFont, Math.min(maxFont, sizeFor(topLine?.text), sizeFor(bottomLine?.text)));
+    const rows = [topLine?.text, bottomLine?.text]
+      .filter((s): s is string => Boolean(s))
+      .flatMap((text) => rowTextsOf(text, isPortrait));
+    if (!rows.length) return maxFont;
+    const sizes = rows.map(
+      (text) => fitText({ text, withinWidth: availW, fontFamily, fontWeight: 900 }).fontSize
+    );
+    return Math.max(minFont, Math.min(maxFont, ...sizes));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [topLine?.text, bottomLine?.text, fontReady, height, width]);
 
@@ -393,14 +484,14 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
     <AbsoluteFill style={{ backgroundColor: P.paper, fontFamily }}>
       <Audio src={staticFile(timing.audio)} />
       <Corners t={timing} h={S} />
-      <MediaPlayer t={timing} h={S} />
-      <RowBadge t={timing} h={S} />
-      <BottomProgress h={S} w={width} now={t} dur={timing.durationSeconds ?? 180} />
+      <MediaPlayer t={timing} h={S} isPortrait={isPortrait} />
+      <RowBadge t={timing} h={S} isPortrait={isPortrait} />
+      <BottomProgress h={S} w={width} now={t} dur={timing.durationSeconds ?? 180} isPortrait={isPortrait} />
       <LogoMark h={S} />
 
       {/* two illustration bands — bottom offset by one so the rows don't line up */}
-      <Strip keys={illos} base={timing.ilBase} yFrac={0.218} w={width} h={height} t={t} pulse={pulse} size={illoSize} tiles={tiles} offset={0} />
-      <Strip keys={illos} base={timing.ilBase} yFrac={0.772} w={width} h={height} t={t} pulse={pulse} size={illoSize} tiles={tiles} offset={1} />
+      <Strip keys={illos} base={timing.ilBase} yFrac={0.218} w={width} h={height} t={t} pulse={pulse} size={illoSize} tiles={tiles} marginFrac={illoMarginFrac} offset={0} />
+      <Strip keys={illos} base={timing.ilBase} yFrac={0.772} w={width} h={height} t={t} pulse={pulse} size={illoSize} tiles={tiles} marginFrac={illoMarginFrac} offset={1} />
 
       {/* count-in dots, just above the top lyric slot */}
       {inCountIn ? (
@@ -442,7 +533,7 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
         }}
       >
         {topLine ? (
-          <Line line={topLine} t={ltOf(topIdx)} fontPx={fontPx} role={topActive ? "active" : "preview"} />
+          <Line line={topLine} t={t} fontPx={fontPx} role={topActive ? "active" : "preview"} multiline={isPortrait} />
         ) : null}
       </div>
 
@@ -459,7 +550,7 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
         }}
       >
         {bottomLine ? (
-          <Line line={bottomLine} t={ltOf(bottomIdx)} fontPx={fontPx} role={topActive ? "preview" : "active"} />
+          <Line line={bottomLine} t={t} fontPx={fontPx} role={topActive ? "preview" : "active"} multiline={isPortrait} />
         ) : null}
       </div>
 
