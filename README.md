@@ -1,5 +1,8 @@
 # Nihongo Gakkou 日本語学校 — Sing It Twice
 
+[![Build song sheets](https://github.com/rafaelnepo/nihongo-gakkou/actions/workflows/build-sheets.yml/badge.svg)](https://github.com/rafaelnepo/nihongo-gakkou/actions/workflows/build-sheets.yml)
+[![Live site](https://img.shields.io/badge/live-rafaelnepo.github.io%2Fnihongo--gakkou-4a7a5e)](https://rafaelnepo.github.io/nihongo-gakkou/)
+
 **Japanese-learning songs and sing-along lyric videos, made with Suno and
 Remotion.** The premise: a song teaches the two things a classroom can't — the
 sound system and mora timing — because Japanese conjugation already rhymes and
