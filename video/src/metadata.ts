@@ -54,3 +54,12 @@ export const calculateLearningMetadata: CalculateMetadataFunction<LearningProps>
     height: timing.height,
   };
 };
+
+// Vertical (9:16) cut — same timing/audio, portrait frame. LearningVideo is
+// aspect-aware, so it re-flows at 1080x1920.
+export const calculateLearningMetadataVertical: CalculateMetadataFunction<LearningProps> = async (
+  ctx
+) => {
+  const base = await calculateLearningMetadata(ctx);
+  return { ...base, width: 1080, height: 1920 };
+};

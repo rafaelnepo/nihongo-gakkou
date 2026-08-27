@@ -40,11 +40,9 @@ const P = {
 };
 
 // ---- illustration sizing policy --------------------------------------------
-// Art lives in two horizontal bands (top + bottom), tiled small and repeated.
-// One clamped size keeps every verse's set visually even regardless of how many
-// words it has; a missing file degrades to a neutral placeholder card.
-const STRIP_TILES = 6; // slots across each band (the verse's art repeats to fill)
-const illoSizeOf = (h: number) => Math.max(h * 0.1, Math.min(h * 0.15, h * 0.132));
+// Art lives in two horizontal bands (top + bottom), tiled small and repeated; a
+// missing file degrades to a neutral placeholder card. Tile size and count are
+// aspect-aware (computed by the parent): 6 across in landscape, 3 in portrait.
 
 const evenTimes = (n: number, start: number, end: number): CharTime[] => {
   const step = (end - start) / Math.max(1, n);
@@ -90,17 +88,18 @@ const Strip: React.FC<{
   h: number;
   t: number;
   pulse: number;
+  size: number; // tile size (aspect-aware, computed by the parent)
+  tiles: number; // how many across the band
   offset?: number; // shift the repeating pattern (bottom band starts one over)
-}> = ({ keys, base, yFrac, w, h, t, pulse, offset = 0 }) => {
+}> = ({ keys, base, yFrac, w, h, t, pulse, size, tiles, offset = 0 }) => {
   if (!keys.length) return null;
-  const size = illoSizeOf(h);
   const margin = w * 0.11;
   const inner = w - margin * 2;
   return (
     <>
-      {Array.from({ length: STRIP_TILES }, (_, i) => {
+      {Array.from({ length: tiles }, (_, i) => {
         const key = keys[(i + offset) % keys.length];
-        const x = margin + (i / (STRIP_TILES - 1)) * inner;
+        const x = margin + (i / (tiles - 1)) * inner;
         const sway = 4 * Math.sin(t * 1.5 + i * 0.9); // degrees
         const bob = h * 0.006 * Math.sin(t * 1.9 + i * 0.6);
         return (
@@ -294,6 +293,14 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
   const { fps, width, height } = useVideoConfig();
   const t = frame / fps - (timing.offsetSeconds ?? 0);
 
+  // Sizing keys off the SHORT edge (S) so the same template works landscape and
+  // portrait; positions stay fractions of width/height. Portrait uses fewer,
+  // larger illustration tiles per band.
+  const S = Math.min(width, height);
+  const isPortrait = height > width;
+  const tiles = isPortrait ? 3 : 6;
+  const illoSize = isPortrait ? width * 0.2 : height * 0.132;
+
   const [fontReady, setFontReady] = useState(false);
   const [handle] = useState(() => delayRender("load-font"));
   useEffect(() => {
@@ -351,8 +358,8 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
   const bottomLine = bottomIdx < lines.length ? lines[bottomIdx] : undefined;
 
   // fit: both slots share one size, shrunk so the wider line fits, floored.
-  const maxFont = height * 0.086;
-  const minFont = height * 0.05;
+  const maxFont = S * 0.086;
+  const minFont = S * 0.05;
   const availW = width * 0.84;
   const fontPx = useMemo(() => {
     if (!fontReady) return maxFont;
@@ -385,15 +392,15 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: P.paper, fontFamily }}>
       <Audio src={staticFile(timing.audio)} />
-      <Corners t={timing} h={height} />
-      <MediaPlayer t={timing} h={height} />
-      <RowBadge t={timing} h={height} />
-      <BottomProgress h={height} w={width} now={t} dur={timing.durationSeconds ?? 180} />
-      <LogoMark h={height} />
+      <Corners t={timing} h={S} />
+      <MediaPlayer t={timing} h={S} />
+      <RowBadge t={timing} h={S} />
+      <BottomProgress h={S} w={width} now={t} dur={timing.durationSeconds ?? 180} />
+      <LogoMark h={S} />
 
       {/* two illustration bands — bottom offset by one so the rows don't line up */}
-      <Strip keys={illos} base={timing.ilBase} yFrac={0.218} w={width} h={height} t={t} pulse={pulse} offset={0} />
-      <Strip keys={illos} base={timing.ilBase} yFrac={0.772} w={width} h={height} t={t} pulse={pulse} offset={1} />
+      <Strip keys={illos} base={timing.ilBase} yFrac={0.218} w={width} h={height} t={t} pulse={pulse} size={illoSize} tiles={tiles} offset={0} />
+      <Strip keys={illos} base={timing.ilBase} yFrac={0.772} w={width} h={height} t={t} pulse={pulse} size={illoSize} tiles={tiles} offset={1} />
 
       {/* count-in dots, just above the top lyric slot */}
       {inCountIn ? (
@@ -405,15 +412,15 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
             right: 0,
             display: "flex",
             justifyContent: "center",
-            gap: height * 0.022,
+            gap: S * 0.022,
           }}
         >
           {[0, 1, 2].map((k) => (
             <div
               key={k}
               style={{
-                width: height * 0.022,
-                height: height * 0.022,
+                width: S * 0.022,
+                height: S * 0.022,
                 borderRadius: "50%",
                 background: k < dotsLit ? P.dotOn : P.dotOff,
               }}
@@ -456,7 +463,7 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
         ) : null}
       </div>
 
-      <LineWave h={height} w={width} audioData={audioData} t={t} />
+      <LineWave h={height} w={width} s={S} audioData={audioData} t={t} />
 
       {timing.placeholder ? (
         <div
@@ -484,11 +491,12 @@ export const LearningVideo: React.FC<{ songId: string }> = ({ songId }) => {
 const LineWave: React.FC<{
   h: number;
   w: number;
+  s: number; // short-edge size unit (band height / amplitude)
   audioData: AudioData | null;
   t: number;
-}> = ({ h, w, audioData, t }) => {
+}> = ({ h, w, s, audioData, t }) => {
   const width = w; // edge to edge
-  const height = h * 0.08;
+  const height = s * 0.08;
   const cy = height / 2;
   const amp = height * 0.46;
   const N = 220;

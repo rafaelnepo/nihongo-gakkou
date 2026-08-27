@@ -3,7 +3,11 @@ import { Composition } from "remotion";
 import { LyricVideo } from "./LyricVideo";
 import { LearningVideo } from "./LearningVideo";
 import { videoSchema, learningSchema } from "./schema";
-import { calculateMetadata, calculateLearningMetadata } from "./metadata";
+import {
+  calculateMetadata,
+  calculateLearningMetadata,
+  calculateLearningMetadataVertical,
+} from "./metadata";
 import { SONGS } from "./songs/registry";
 import { LEARNING_SONGS } from "./songs/learning-registry";
 import { durationInFramesOf, learningDurationInFrames } from "./types";
@@ -48,6 +52,22 @@ export const RemotionRoot: React.FC = () => {
           fps={timing.fps}
           width={timing.width}
           height={timing.height}
+        />
+      ))}
+
+      {/* Vertical (9:16) cut of each learning song — same template, re-flowed. */}
+      {LEARNING_SONGS.map(({ id, timing }) => (
+        <Composition
+          key={`${id}-vertical`}
+          id={`${id}-vertical`}
+          component={LearningVideo}
+          schema={learningSchema}
+          defaultProps={{ songId: id }}
+          calculateMetadata={calculateLearningMetadataVertical}
+          durationInFrames={learningDurationInFrames(timing)}
+          fps={timing.fps}
+          width={1080}
+          height={1920}
         />
       ))}
     </>
