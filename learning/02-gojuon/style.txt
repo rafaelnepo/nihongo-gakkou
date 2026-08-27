@@ -1,0 +1,42 @@
+五十音 — STYLE PROMPTS
+Nepô's idea: restyle the traditional chants. Four directions, most-recommended
+first. All four keep the same lyric file — only the style prompt changes, which
+is exactly what makes this a good series slot.
+
+--- A · BOOM-BAP HIP HOP  ★ the non-obvious one, and the best fit ---
+五十音 IS a flow exercise. Rappers drill articulation with tongue twisters for
+the same reason actors do, and a consonant row is alliteration practice by
+construction. The twister lines want to be rapped; the kana run wants to be the
+hook. This is the version that could actually get listened to for pleasure.
+boom bap hip hop, 88 BPM, clear-voiced rapper on the verses
+with a full group chanting the hook in unison,
+dusty upright bass, crisp snare, minimal piano loop,
+dry forward vocal, no reverb on the lead, no autotune,
+extremely clear consonants, hard rhythmic diction,
+space between the verse and the chant, no ad-libs
+
+--- B · MATSURI ONDO — the traditional shape ---
+This is how a chant like this actually gets drilled: one voice calls, everybody
+answers. Hand claps on the kana. Comes with dance steps.
+Japanese matsuri ondo, 92 BPM,
+one lead singer calling and a large group answering in unison,
+taiko drum, shinobue flute, shamisen, hand claps,
+festive and driving but unhurried, dry vocals,
+extremely clear enunciation, big gap before each group answer, no ad-libs
+
+--- C · GOSPEL CHOIR — makes the kana run enormous ---
+Leader and congregation. The unison answer becomes the emotional payoff rather
+than a drill, which is a real argument for it: nobody resents singing this one.
+gospel call and response, 84 BPM,
+solo lead vocal answered by a full choir in unison,
+Hammond organ, tambourine, hand claps, upright piano,
+joyful and warm, dry lead vocal, very clear enunciation,
+big choir answers, no ad-libs
+
+--- D · BOSSA NOVA — the one with a real cost ---
+Warm, adult, and personal to this project. But bossa's syncopation pulls
+AGAINST the mora grid, and mora-timing is half of what this song teaches.
+Generate it for pleasure, not for the drill.
+bossa nova, 96 BPM, soft male vocal with a group answering,
+nylon string guitar, brushed drums, light upright bass, subtle flute,
+relaxed and warm, dry vocal, very clear enunciation, no ad-libs

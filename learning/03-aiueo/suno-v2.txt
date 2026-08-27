@@ -1,0 +1,80 @@
+あいうえお — SUNO SCORE v2  (UNTESTED as of 2026-08-27)
+learning/ strand — PUBLIC. Gojuon ROW 1 (あ行). CONTEXTUAL version.
+
+WHY v2 (findings F-10): v1 was words-only and Nepô found (a) same-onset word
+lists BLEND — "あ あさ あめ あお" runs together — and (b) words with no context
+don't teach production. v2 fixes both: each word is SAID, then USED in a short
+sentence, and words RECOMBINE across the song. It also reads as a tiny day:
+morning → home & dog → out to the sea → an errand → a snack.
+
+PATTERN per word:  the WORD (isolated, clear)  →  a short SENTENCE using it.
+The sentence after a word never starts with that same word, so no two look-alike
+lines are adjacent (F-08). The row refrain あいうえお closes every verse (F-07).
+
+PHONETIC FIXES (findings F-02) — v2 HAS PARTICLES, so unlike v1 it needs them:
+  は (topic) → ワ      を → オ      へ (direction) → エ
+  Only the PARTICLE changes: はらう / はやい keep their は. Applied below.
+LONG VOWEL (F-05): おはよう — if the う is articulated as its own syllable
+instead of lengthening (o-ha-yo-U), and ONLY then, change to おはよー here.
+ALL HIRAGANA, no kanji — this is a kana-reading song.
+
+DURATION: aim ~3:00 (Custom). If one pass won't reach it, use Suno EXTEND
+(F-09) — never split-and-merge.
+
+[A bright, clear solo vocal. Every syllable crisply enunciated. Tempo ~92.
+ Warm and friendly, like a patient teacher. No ad-libs.]
+
+[Intro]
+あ い う え お
+
+[Verse]
+あさ
+おはよう
+あめ
+あさ から あめ
+あお
+あめ の あと、そら ワ あおい
+あ い う え お
+
+[Verse]
+いえ
+ただいま
+いぬ
+いえ に いぬ が いる
+いく
+いぬ と さんぽ に いく
+あ い う え お
+
+[Verse]
+うみ
+うみ エ いく
+うた
+うた オ うたう
+うさぎ
+うさぎ が いる
+あ い う え お
+
+[Verse]
+えき
+えき エ いく
+えんぴつ
+えんぴつ オ かう
+えん
+えんぴつ ワ ひゃくえん
+あ い う え お
+
+[Verse]
+おにぎり
+おにぎり オ たべる
+おちゃ
+おちゃ オ のむ
+おかね
+おかね オ はらう
+あ い う え お
+
+[Chorus]
+あ い う え お
+あ い う え お
+
+[Outro]
+あ い う え お

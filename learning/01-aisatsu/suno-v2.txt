@@ -1,0 +1,90 @@
+あいさつ — SUNO SCORE v2  (DUET FIX — UNTESTED as of 2026-08-27)
+CHANGE FROM v1: every line is doubled, so each voice holds TWO lines before
+handing over. v1 alternated every single line, which is finer than Suno can
+switch — it either keeps one voice or degrades into 朗読劇 (a reading play).
+Practitioner consensus is that a part change must sit in a 2-line block.
+The doubling is not a compromise: it doubles the repetition, which is the
+method. See ../findings.md F-04.
+ALSO: named-voice tags per section, and a duet declaration at the top.
+
+[This song is a duet: one male vocalist and one female vocalist,
+ trading two lines each]
+
+[Intro]
+いってきます
+
+[Chorus: Male Vocal]
+いってきます
+いってきます
+[Chorus: Female Vocal]
+いってらっしゃい
+いってらっしゃい
+[Chorus: Male Vocal]
+ただいま
+ただいま
+[Chorus: Female Vocal]
+おかえりなさい
+おかえりなさい
+
+[Verse: Male Vocal]
+あさの あいさつ
+あさの あいさつ
+[Verse: Female Vocal]
+おはようございます
+おはようございます
+[Verse: Male Vocal]
+ひるの あいさつ
+よるの あいさつ
+[Verse: Female Vocal]
+こんにちワ
+こんばんワ
+[Verse: Male Vocal]
+さいごに
+さいごに
+[Verse: Female Vocal]
+おやすみなさい
+おやすみなさい
+
+[Chorus: Male Vocal]
+いってきます
+いってきます
+[Chorus: Female Vocal]
+いってらっしゃい
+いってらっしゃい
+[Chorus: Male Vocal]
+ただいま
+ただいま
+[Chorus: Female Vocal]
+おかえりなさい
+おかえりなさい
+
+[Verse: Male Vocal]
+ともだちに おはよう
+ともだちに ありがとう
+[Verse: Female Vocal]
+せんせいに おはようございます
+せんせいに ありがとうございます
+[Verse: Male Vocal]
+ともだちに おめでとう
+ともだちに おめでとう
+[Verse: Female Vocal]
+せんせいに おめでとうございます
+せんせいに おめでとうございます
+
+[Bridge: Female Vocal]
+こんどワ あなた
+こんどワ あなた
+[Bridge: Male Vocal]
+いってらっしゃい
+おかえりなさい
+
+[Chorus: Male Vocal]
+いってきます
+いってきます
+[Chorus: Female Vocal]
+いってらっしゃい
+いってらっしゃい
+
+[Outro]
+ただいま
+おかえりなさい

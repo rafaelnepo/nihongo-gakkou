@@ -1,0 +1,81 @@
+あいうえお — LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 1 (あ行). CONTEXTUAL version (v2). Written 2026-08-27.
+
+CONCEPT: say the word, then see it USED. Each あ-row word is taught through a
+short, natural sentence, and the words recombine across the song into a tiny
+day — morning → home → out → errand → snack. Words-only was tried first (v1) and
+Nepô found it blends and doesn't teach production (findings F-10); v2 is context
+from the start. All hiragana — the point is reading kana; kanji shown here only
+for meaning.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+あ  ── MORNING
+  あさ        (asa)   morning (朝)
+     → おはよう              (ohayō)                 good morning
+  あめ        (ame)   rain (雨)
+     → あさ から あめ        (asa kara ame)          rain since morning
+  あお        (ao)    blue (青)
+     → あめ の あと、そら は あおい
+                              (ame no ato, sora wa aoi)   after the rain, the sky is blue
+
+い  ── HOME & THE DOG
+  いえ        (ie)    house (家)
+     → ただいま              (tadaima)               I'm home
+  いぬ        (inu)   dog (犬)
+     → いえ に いぬ が いる  (ie ni inu ga iru)      there's a dog at home
+  いく        (iku)   to go (行く)
+     → いぬ と さんぽ に いく (inu to sanpo ni iku)   go for a walk with the dog
+
+う  ── OUT TO THE SEA
+  うみ        (umi)   sea (海)
+     → うみ へ いく          (umi e iku)             go to the sea
+  うた        (uta)   song (歌)
+     → うた を うたう        (uta o utau)            sing a song
+  うさぎ      (usagi) rabbit (兎)
+     → うさぎ が いる        (usagi ga iru)          there's a rabbit
+
+え  ── AT THE STATION
+  えき        (eki)   station (駅)
+     → えき へ いく          (eki e iku)             go to the station
+  えんぴつ    (enpitsu) pencil (鉛筆)
+     → えんぴつ を かう      (enpitsu o kau)         buy a pencil
+  えん        (en)    yen (円)
+     → えんぴつ は ひゃくえん (enpitsu wa hyaku-en)   the pencil is 100 yen
+
+お  ── A SNACK
+  おにぎり    (onigiri) rice ball (おにぎり)
+     → おにぎり を たべる    (onigiri o taberu)      eat a rice ball
+  おちゃ      (ocha)  tea (お茶)
+     → おちゃ を のむ        (ocha o nomu)           drink tea
+  おかね      (okane) money (お金)
+     → おかね を はらう      (okane o harau)         pay the money
+
+REFRAIN
+  あ い う え お  (a i u e o)   the あ-row
+────────────────────────────────────────────────────────────────────────
+
+WHAT THIS SONG QUIETLY TEACHES BEYOND THE 15 NOUNS:
+· Verbs (dictionary form, all high-frequency): いく go, いる be/exist, うたう
+  sing, かう buy, たべる eat, のむ drink, はらう pay.
+· Particles: から (from/since), の (of), に (at/to), と (with), へ (to/toward,
+  read "e"), を (object, read "o"), は (topic, read "wa").
+· Extra everyday nouns met in context: さんぽ (a walk/stroll), ひゃく (hundred).
+· Word recombination: いく recurs (いぬと さんぽに〜, うみへ〜, えきへ〜); いる
+  recurs (いぬ, うさぎ). Seeing a word again in a new sentence is the practice.
+
+These are context (comprehensible input), not the test — the learner isn't
+expected to parse every particle on day one. The TARGET is the あ-row words; the
+sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 above (learn) → a BRIDGE that strings the words
+into one day → a REVIEW of the sentences only (sing along). The short vertical
+cut is PART 1 only. A few extra connective forms appear in the bridge/review:
+  かえって   (kaette)   …return home AND (て-form, "and then")
+  だよ       (da yo)    …it is / (casual "it's ~")
+  です       (desu)     …is / it's (polite) — ひゃくえん です = "it's 100 yen"
+The day (bridge), in order: 朝 morning → 家 home & dog → 海 sea → 駅 station →
+snack. Same words, now flowing as a scene — the little RPG-rich payoff.
+

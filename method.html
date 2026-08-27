@@ -1,0 +1,980 @@
+<title>Sing It Twice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=swap">
+
+<style>
+:root{
+  --ground:#f2f4f0;
+  --surface:#fbfcfa;
+  --surface-2:#e9ede8;
+  --ink:#1a2320;
+  --ink-2:#556158;
+  --ink-3:#7d8a81;
+  --rule:#c6d4c8;
+  --rule-soft:#dde5dc;
+  --green:#4a7a5e;
+  --green-deep:#2e5540;
+  --shu:#bc4630;
+  --shu-ink:#a03a26;
+  --shu-soft:#f2e0da;
+  --shadow:0 1px 2px rgba(26,35,32,.05),0 8px 24px -16px rgba(26,35,32,.28);
+
+  --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
+  --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
+  --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
+  --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#121715;
+    --surface:#1a201d;
+    --surface-2:#222926;
+    --ink:#e7ede8;
+    --ink-2:#a3b0a7;
+    --ink-3:#7d8a82;
+    --rule:#313d36;
+    --rule-soft:#262e2a;
+    --green:#7fb493;
+    --green-deep:#a5d2b5;
+    --shu:#e57d63;
+    --shu-ink:#f09077;
+    --shu-soft:#39231d;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#121715;
+  --surface:#1a201d;
+  --surface-2:#222926;
+  --ink:#e7ede8;
+  --ink-2:#a3b0a7;
+  --ink-3:#7d8a82;
+  --rule:#313d36;
+  --rule-soft:#262e2a;
+  --green:#7fb493;
+  --green-deep:#a5d2b5;
+  --shu:#e57d63;
+  --shu-ink:#f09077;
+  --shu-soft:#39231d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:var(--f-body);
+  font-size:16.5px;
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1060px;margin:0 auto;padding:0 24px 96px}
+.col{max-width:70ch}
+
+/* ---------- masthead ---------- */
+.mast{
+  padding:76px 0 40px;
+  border-bottom:1px solid var(--rule);
+  margin-bottom:56px;
+}
+.eyebrow{
+  font-family:var(--f-mono);
+  font-size:11.5px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--green);
+  display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+  margin-bottom:22px;
+}
+.eyebrow span:not(:last-child)::after{content:"／";margin-left:10px;color:var(--rule)}
+h1{
+  font-family:var(--f-display);
+  font-weight:800;
+  font-size:clamp(2.6rem,7vw,4.4rem);
+  line-height:1.04;
+  letter-spacing:-.015em;
+  margin:0 0 6px;
+  text-wrap:balance;
+}
+.h1-jp{
+  font-family:var(--f-jp);
+  font-weight:600;
+  font-size:clamp(1.05rem,2.6vw,1.35rem);
+  color:var(--shu);
+  letter-spacing:.12em;
+  margin:0 0 24px;
+}
+.standfirst{
+  font-size:clamp(1.06rem,2vw,1.22rem);
+  line-height:1.62;
+  color:var(--ink-2);
+  max-width:60ch;
+  margin:0;
+}
+.standfirst strong{color:var(--ink);font-weight:700}
+
+/* ---------- sections ---------- */
+section{margin:0 0 76px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+.sec-mark{
+  font-family:var(--f-mono);
+  font-size:11px;letter-spacing:.14em;
+  color:var(--shu);
+  border:1px solid var(--rule);
+  border-radius:2px;
+  padding:2px 7px;
+  white-space:nowrap;
+}
+h2{
+  font-family:var(--f-display);
+  font-weight:700;
+  font-size:clamp(1.5rem,3.4vw,2rem);
+  line-height:1.22;
+  letter-spacing:-.01em;
+  margin:0;
+  text-wrap:balance;
+}
+h3{
+  font-family:var(--f-display);
+  font-weight:700;
+  font-size:1.14rem;
+  line-height:1.35;
+  margin:36px 0 8px;
+  text-wrap:balance;
+}
+.sec-sub{color:var(--ink-3);margin:0 0 30px;max-width:64ch;font-size:.965rem}
+p{margin:0 0 18px}
+a{color:var(--green-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+strong{font-weight:700}
+em{font-style:normal;color:var(--shu-ink);font-weight:500}
+
+/* repeat-sign divider — the page's own thesis as a rule */
+.repeat{
+  display:flex;align-items:center;gap:12px;
+  margin:0 0 34px;color:var(--rule);
+}
+.repeat::before,.repeat::after{content:"";height:1px;background:var(--rule);flex:1}
+.repeat span{
+  font-size:15px;color:var(--shu);letter-spacing:.3em;
+  font-family:var(--f-mono);
+}
+
+/* ---------- callout ---------- */
+.claim{
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-left:3px solid var(--shu);
+  border-radius:3px;
+  padding:26px 28px;
+  margin:0 0 28px;
+  box-shadow:var(--shadow);
+}
+.claim p:last-child{margin-bottom:0}
+.claim .lead{
+  font-family:var(--f-display);
+  font-weight:700;font-size:1.16rem;line-height:1.45;
+  margin-bottom:12px;text-wrap:balance;
+}
+
+/* ---------- conjugation rhyme demo ---------- */
+.rhyme{
+  display:grid;
+  grid-template-columns:auto auto 1fr;
+  gap:0 14px;
+  align-items:baseline;
+  font-family:var(--f-jp);
+  font-size:1.22rem;
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-radius:3px;
+  padding:22px 26px;
+  margin:0 0 22px;
+  overflow-x:auto;
+}
+.rhyme .stem{color:var(--ink-3);text-align:right;white-space:nowrap}
+.rhyme .tail{color:var(--shu);font-weight:600;white-space:nowrap}
+.rhyme .glo{
+  font-family:var(--f-body);font-size:.85rem;color:var(--ink-3);
+  line-height:2.6;white-space:nowrap;
+}
+
+/* ---------- mora grid ---------- */
+.mora-stage{
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-radius:3px;
+  padding:34px 28px 28px;
+  margin:0 0 22px;
+  overflow-x:auto;
+}
+.mora-row{display:flex;gap:16px;align-items:flex-start;margin-bottom:22px;min-width:min-content}
+.mora-group{display:flex;flex-direction:column;gap:8px}
+.mora-cells{display:flex}
+.cell{
+  width:44px;height:44px;
+  border:1px solid var(--rule);
+  margin-left:-1px;
+  display:grid;place-items:center;
+  font-family:var(--f-jp);font-size:1.24rem;
+  color:var(--ink);
+  background:var(--ground);
+}
+.cell:first-child{margin-left:0}
+.cell.beat{background:var(--shu-soft);color:var(--shu-ink);font-weight:600}
+.mora-label{
+  font-family:var(--f-mono);font-size:10.5px;letter-spacing:.13em;
+  color:var(--green);text-transform:uppercase;
+}
+.mora-caption{
+  font-size:.9rem;color:var(--ink-3);margin:0;
+  border-top:1px dashed var(--rule);padding-top:16px;
+}
+
+/* ---------- topic cards ---------- */
+.slate{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(285px,1fr));
+  gap:16px;
+}
+.card{
+  background:var(--surface);
+  border:1px solid var(--rule);
+  border-radius:3px;
+  padding:20px 20px 18px;
+  display:flex;flex-direction:column;gap:10px;
+  box-shadow:var(--shadow);
+}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.card-jp{
+  font-family:var(--f-jp);font-weight:600;font-size:1.16rem;
+  line-height:1.3;margin:0;color:var(--ink);
+}
+.card-en{
+  font-family:var(--f-mono);font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--ink-3);margin:2px 0 0;
+}
+.chip{
+  font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;
+  text-transform:uppercase;padding:3px 7px;border-radius:2px;
+  white-space:nowrap;border:1px solid transparent;
+}
+.chip.start{background:var(--shu);color:#fff}
+.chip.strong{background:transparent;color:var(--green-deep);border-color:var(--green)}
+.chip.later{background:transparent;color:var(--ink-3);border-color:var(--rule)}
+.card dl{margin:0;display:grid;grid-template-columns:auto 1fr;gap:5px 12px;font-size:.885rem}
+.card dt{
+  font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);padding-top:5px;white-space:nowrap;
+}
+.card dd{margin:0;color:var(--ink-2);line-height:1.5}
+.card dd .jp{font-family:var(--f-jp);color:var(--ink);font-size:.98rem}
+.subcats{
+  margin-top:auto;padding-top:12px;border-top:1px dashed var(--rule);
+  font-family:var(--f-mono);font-size:10px;color:var(--ink-3);
+  letter-spacing:.03em;line-height:1.8;
+}
+.subcats b{color:var(--green-deep);font-weight:400}
+
+/* ---------- device list ---------- */
+.devices{display:flex;flex-direction:column;gap:2px;margin:0 0 8px}
+.device{
+  display:grid;grid-template-columns:186px 1fr;gap:26px;
+  padding:22px 0;border-top:1px solid var(--rule-soft);
+}
+.device:last-child{border-bottom:1px solid var(--rule-soft)}
+.device-name{margin:0}
+.device-name .n{
+  font-family:var(--f-display);font-weight:700;font-size:1.02rem;
+  display:block;line-height:1.3;
+}
+.device-name .src{
+  font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--ink-3);display:block;margin-top:5px;
+}
+.device-body p{margin:0 0 10px;font-size:.955rem}
+.device-body p:last-child{margin-bottom:0}
+.device-body .jp-ex{
+  font-family:var(--f-jp);font-size:1.04rem;color:var(--shu-ink);
+  display:block;margin:4px 0 10px;line-height:1.7;
+}
+
+/* ---------- architecture ---------- */
+.arch{display:flex;flex-direction:column;gap:0;margin:0 0 26px}
+.step{
+  display:grid;grid-template-columns:52px 1fr;gap:20px;
+  padding:16px 0;border-top:1px solid var(--rule-soft);
+}
+.step:last-child{border-bottom:1px solid var(--rule-soft)}
+.step-n{
+  font-family:var(--f-mono);font-size:11px;color:var(--shu);
+  letter-spacing:.08em;padding-top:4px;
+}
+.step-b h4{
+  margin:0 0 4px;font-family:var(--f-display);font-weight:700;font-size:1rem;
+}
+.step-b p{margin:0;font-size:.93rem;color:var(--ink-2)}
+.step-b .bars{
+  font-family:var(--f-mono);font-size:10px;color:var(--ink-3);
+  letter-spacing:.1em;margin-left:8px;text-transform:uppercase;
+}
+
+/* ---------- two-doc / code ---------- */
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:0 0 22px}
+.doc{
+  background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+  overflow:hidden;display:flex;flex-direction:column;
+}
+.doc-head{
+  padding:11px 16px;border-bottom:1px solid var(--rule);
+  background:var(--surface-2);
+  display:flex;justify-content:space-between;align-items:center;gap:10px;
+}
+.doc-head .t{
+  font-family:var(--f-mono);font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--ink-2);
+}
+.doc-head .who{font-family:var(--f-mono);font-size:9.5px;color:var(--ink-3);letter-spacing:.08em}
+.doc-body{padding:18px 16px;font-family:var(--f-jp);font-size:1.02rem;line-height:2.05}
+.doc-body .tag{
+  font-family:var(--f-mono);font-size:10px;color:var(--green);
+  letter-spacing:.1em;display:block;margin:0 0 6px;
+}
+.doc-body .tag:not(:first-child){margin-top:16px}
+.doc-body .mark{color:var(--shu);font-weight:600}
+.doc-body .role{
+  font-family:var(--f-mono);font-size:9.5px;color:var(--ink-3);
+  letter-spacing:.06em;margin-right:8px;
+}
+pre{
+  margin:0;padding:18px 16px;background:var(--surface);
+  border:1px solid var(--rule);border-radius:3px;
+  font-family:var(--f-mono);font-size:12.5px;line-height:1.8;
+  color:var(--ink-2);overflow-x:auto;white-space:pre-wrap;
+}
+code{font-family:var(--f-mono);font-size:.88em;background:var(--surface-2);padding:1px 5px;border-radius:2px}
+
+/* ---------- rules table ---------- */
+.tbl-wrap{overflow-x:auto;margin:0 0 22px;border:1px solid var(--rule);border-radius:3px}
+table{border-collapse:collapse;width:100%;min-width:520px;background:var(--surface)}
+th,td{text-align:left;padding:12px 16px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+th{
+  font-family:var(--f-mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);background:var(--surface-2);border-bottom:1px solid var(--rule);
+  font-weight:400;
+}
+tr:last-child td{border-bottom:none}
+td .jp{font-family:var(--f-jp);font-size:1.04rem;color:var(--ink)}
+td .bad{color:var(--ink-3);text-decoration:line-through}
+td .good{color:var(--shu-ink);font-weight:600}
+td.why{font-size:.885rem;color:var(--ink-2)}
+
+/* ---------- style track ---------- */
+.genres{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin:0 0 26px}
+.genre{
+  border:1px solid var(--rule);border-radius:3px;padding:16px 17px;
+  background:var(--surface);
+}
+.genre h4{
+  margin:0 0 6px;font-family:var(--f-display);font-weight:700;font-size:.99rem;
+}
+.genre .jp{font-family:var(--f-jp);color:var(--shu);font-size:.9rem;margin-left:6px;font-weight:400}
+.genre p{margin:0;font-size:.885rem;color:var(--ink-2);line-height:1.55}
+
+.constraints{list-style:none;padding:0;margin:0 0 22px;display:flex;flex-direction:column;gap:0}
+.constraints li{
+  padding:13px 0 13px 0;border-top:1px solid var(--rule-soft);
+  display:grid;grid-template-columns:132px 1fr;gap:20px;font-size:.94rem;
+}
+.constraints li:last-child{border-bottom:1px solid var(--rule-soft)}
+.constraints .k{
+  font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--green);padding-top:4px;
+}
+.constraints .v{color:var(--ink-2)}
+.constraints .v b{color:var(--ink)}
+
+/* ---------- limits ---------- */
+.limits{display:flex;flex-direction:column;gap:0}
+.limit{padding:20px 0;border-top:1px solid var(--rule-soft)}
+.limit:last-child{border-bottom:1px solid var(--rule-soft)}
+.limit h4{
+  margin:0 0 6px;font-family:var(--f-display);font-weight:700;font-size:1.02rem;
+  display:flex;align-items:baseline;gap:10px;
+}
+.limit h4 .sev{
+  font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:2px 7px;border-radius:2px;border:1px solid var(--rule);color:var(--ink-3);
+  white-space:nowrap;
+}
+.limit h4 .sev.real{border-color:var(--shu);color:var(--shu)}
+.limit p{margin:0;font-size:.945rem;color:var(--ink-2)}
+
+/* ---------- next ---------- */
+.next{
+  background:var(--surface);border:1px solid var(--rule);
+  border-top:3px solid var(--shu);border-radius:3px;
+  padding:30px 30px 26px;box-shadow:var(--shadow);
+}
+.next h3{margin-top:0}
+.next ol{margin:0;padding-left:1.2em}
+.next li{margin-bottom:12px;color:var(--ink-2)}
+.next li b{color:var(--ink)}
+.next li:last-child{margin-bottom:0}
+
+footer{
+  margin-top:20px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);
+  display:flex;flex-wrap:wrap;gap:8px 20px;
+}
+
+@media (max-width:760px){
+  .device{grid-template-columns:1fr;gap:10px}
+  .two-up{grid-template-columns:1fr}
+  .constraints li{grid-template-columns:1fr;gap:2px}
+  .mast{padding-top:52px}
+}
+@media (prefers-reduced-motion:no-preference){
+  a{transition:color .15s ease}
+}
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow">
+    <span>Irasutoya Visual Encyclopedia</span>
+    <span>Song series — planning</span>
+    <span>N5 · Japanese-only · standalone</span>
+  </div>
+  <h1>Sing It Twice</h1>
+  <p class="h1-jp">おぼえる うた ― 計画</p>
+  <p class="standfirst">A Japanese-learning song series built from the Irasutoya catalog, using the memory techniques that predate writing. The premise is narrow on purpose: <strong>a beginner who already reads kana should be able to sing along on the first listen, and use a whole sentence pattern by the third.</strong></p>
+</header>
+
+<!-- ============ 1. THE CASE ============ -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head">
+    <span class="sec-mark">01</span>
+    <h2>Why this works better in Japanese than in English</h2>
+  </div>
+  <p class="sec-sub">Before picking topics, it's worth being clear about why a song is a good container for this particular language — because it isn't equally true of every language.</p>
+
+  <div class="col">
+    <div class="claim">
+      <p class="lead">Japanese conjugation already rhymes. English mnemonic songs have to force rhyme onto the grammar; in Japanese the grammar <em>is</em> the rhyme scheme.</p>
+      <p style="margin-bottom:0">Japanese is a suffixing language. Meaning changes at the <em>end</em> of the word — which is exactly where a song lands its rhyme. So a verse that hammers one ending isn't a gimmick wrapped around a grammar point. It's the grammar point, sung.</p>
+    </div>
+
+    <div class="rhyme">
+      <div class="stem">たべ</div><div class="tail">ます</div><div class="glo">I eat</div>
+      <div class="stem">たべ</div><div class="tail">ません</div><div class="glo">I don't eat</div>
+      <div class="stem">たべ</div><div class="tail">ました</div><div class="glo">I ate</div>
+      <div class="stem">たべ</div><div class="tail">たい</div><div class="glo">I want to eat</div>
+      <div class="stem">たべ</div><div class="tail">ましょう</div><div class="glo">let's eat</div>
+    </div>
+
+    <p>Five grammar points, one melodic figure, one syllable of difference each time. A learner who can hum that shape can swap <span style="font-family:var(--f-jp)">たべ</span> for <span style="font-family:var(--f-jp)">のみ</span>, <span style="font-family:var(--f-jp)">いき</span>, <span style="font-family:var(--f-jp)">かい</span> and generate two dozen sentences they were never taught. That transfer is the whole product.</p>
+
+    <h3>The second gift: mora-timing</h3>
+    <p>Japanese is <strong>mora-timed</strong>, not stress-timed. Every kana gets one beat — including the small <span style="font-family:var(--f-jp)">っ</span> (a beat of silence) and the long vowel <span style="font-family:var(--f-jp)">ー</span> (a beat of held sound). Beginners almost universally get this wrong, because their ear imports English stress timing.</p>
+    <p>You cannot lecture someone into mora-timing. You can put them on a grid and let the beat do it. <strong>A song is a mora metronome</strong> — arguably the single thing songs teach better than any classroom method.</p>
+    <p>And Japanese has a native meter waiting for you: <strong>七五調</strong> (<em>shichigochō</em>), the seven-five pattern underneath folk song, school song, enka, and most classical verse. Write to 7–5 and the lines land as Japanese instead of as English wearing kana.</p>
+
+    <div class="mora-stage">
+      <div class="mora-row">
+        <div class="mora-group">
+          <div class="mora-label">7 mora</div>
+          <div class="mora-cells">
+            <div class="cell">ひ</div><div class="cell">が</div><div class="cell">し</div><div class="cell">の</div><div class="cell">そ</div><div class="cell">ら</div><div class="cell">が</div>
+          </div>
+        </div>
+        <div class="mora-group">
+          <div class="mora-label">5 mora</div>
+          <div class="mora-cells">
+            <div class="cell">あ</div><div class="cell">か</div><div class="cell">く</div><div class="cell">な</div><div class="cell">る</div>
+          </div>
+        </div>
+      </div>
+      <div class="mora-row">
+        <div class="mora-group">
+          <div class="mora-label">Where beginners drop a beat</div>
+          <div class="mora-cells">
+            <div class="cell">が</div><div class="cell">っ</div><div class="cell">こ</div><div class="cell">う</div>
+          </div>
+        </div>
+        <div class="mora-group">
+          <div class="mora-label">Four beats, not two</div>
+          <div class="mora-cells">
+            <div class="cell">コ</div><div class="cell">ー</div><div class="cell">ヒ</div><div class="cell">ー</div>
+          </div>
+        </div>
+      </div>
+      <p class="mora-caption">One kana, one cell, one beat. The grid is <span style="font-family:var(--f-jp)">原稿用紙</span> — the squared manuscript paper Japanese children learn to write on. It is already a counting device; a song just adds the tempo.</p>
+    </div>
+
+    <h3>You are joining a tradition, not inventing one</h3>
+    <p>Japan has taught by chant for a thousand years. <span style="font-family:var(--f-jp)">いろは歌</span> is a poem that uses every kana exactly once — a pangram built as a memory song. <span style="font-family:var(--f-jp)">九九</span> is the multiplication table as a rhythmic chant every Japanese child still learns aloud. <span style="font-family:var(--f-jp)">語呂合わせ</span> turns numbers into phrases so they can be remembered as language. This is a live pedagogical form there, not an import.</p>
+  </div>
+</section>
+
+<!-- ============ 2. TOOLKIT ============ -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head">
+    <span class="sec-mark">02</span>
+    <h2>The toolkit: seven devices, each with a job</h2>
+  </div>
+  <p class="sec-sub">These are the rhetorical figures that oral cultures used to carry long texts without writing. Each one below is paired with the specific thing it does to Japanese — a device that doesn't earn its keep grammatically shouldn't be in the song.</p>
+
+  <div class="devices">
+
+    <div class="device">
+      <p class="device-name"><span class="n">Anaphora</span><span class="src">Same head, changing tail</span></p>
+      <div class="device-body">
+        <p>Repeat the opening, vary the ending. In most languages this is a stylistic flourish. In Japanese it is <em>the shape of the conjugation table</em>, which is why it's the single highest-value device here.</p>
+        <span class="jp-ex">みずを のみます ／ みずを のみません ／ みずを のみました</span>
+        <p><b>Use for:</b> any verb-form song, politeness levels, negation.</p>
+      </div>
+    </div>
+
+    <div class="device">
+      <p class="device-name"><span class="n">Antiphony</span><span class="src">Call and response · 掛け合い</span></p>
+      <div class="device-body">
+        <p>Two voices, one asks and one answers. The oldest teaching form there is — work songs, liturgy, military cadence, Bon-odori. Japanese hands you this for free, because the question particle <span style="font-family:var(--f-jp)">か</span> makes every question audibly a question.</p>
+        <p>Crucially, it teaches <strong>both sides of a real exchange</strong>. A learner who only ever practises the customer's line freezes when they're asked something.</p>
+        <p><b>Use for:</b> shop, restaurant, station, directions — anything with two roles.</p>
+      </div>
+    </div>
+
+    <div class="device">
+      <p class="device-name"><span class="n">The slot swap</span><span class="src">Repetition with one variable</span></p>
+      <div class="device-body">
+        <p>The most important idea on this page. Repetition without variation teaches <em>a sentence</em>. Repetition with exactly one thing swapped teaches <em>a pattern</em> — and a pattern is generative.</p>
+        <span class="jp-ex">おはしは いりますか ／ スプーンは いりますか ／ レシートは いりますか</span>
+        <p>Hold the frame rock steady, change one noun per line. By the third line the learner has stopped hearing a phrase and started hearing a blank.</p>
+        <p><b>Rule:</b> never swap two things at once. Two variables and the frame dissolves.</p>
+      </div>
+    </div>
+
+    <div class="device">
+      <p class="device-name"><span class="n">Loci</span><span class="src">Memory palace · Simonides</span></p>
+      <div class="device-body">
+        <p>Attach items to positions in a remembered space, then walk the space to recall them in order. The song becomes a <em>route</em>: verse 1 the entrance, verse 2 the kitchen, verse 3 the bath.</p>
+        <p>This is where Irasutoya stops being decoration and becomes the method — every location already has its illustration set, so the palace can actually be seen.</p>
+        <p><b>Use for:</b> morning routine, the house, the station, asking directions.</p>
+      </div>
+    </div>
+
+    <div class="device">
+      <p class="device-name"><span class="n">Enumeratio</span><span class="src">Catalogue &amp; cumulative song</span></p>
+      <div class="device-body">
+        <p>Each verse adds an item and re-recites everything before it. Brutal, effective, and the reason cumulative songs survive centuries. Expensive in runtime — spend it on lists that genuinely must be memorised whole.</p>
+        <p><b>Use for:</b> counters (<span style="font-family:var(--f-jp)">助数詞</span>), days of the week, numbers, months — the closed sets where there's no pattern to infer, only a list to hold.</p>
+      </div>
+    </div>
+
+    <div class="device">
+      <p class="device-name"><span class="n">Mimetic hook</span><span class="src">擬音語・擬態語</span></p>
+      <div class="device-body">
+        <p>Japanese has an enormous vocabulary of sound-and-manner words, most of them <em>reduplicated</em> — which means they are already hooks before you write any melody.</p>
+        <span class="jp-ex">どきどき ／ ぺこぺこ ／ ぐるぐる ／ きらきら ／ わくわく</span>
+        <p>These are the stickiest possible Japanese chorus material, and textbooks systematically underteach them even though native speech is saturated with them.</p>
+        <p><b>Use for:</b> the chorus of almost anything. Feelings, weather, body.</p>
+      </div>
+    </div>
+
+    <div class="device">
+      <p class="device-name"><span class="n">The gap</span><span class="src">Leave the line unfinished</span></p>
+      <div class="device-body">
+        <p>An unfinished phrase is stickier than a complete one — the brain will not leave it alone. Sing the frame, drop the last beat, let the learner fall into it.</p>
+        <span class="jp-ex">コーヒーを ＿＿＿＿</span>
+        <p>The third repeat of a chorus should have a hole in it. This is also your only honest test of whether the song is teaching: if they can't fill the gap, they were listening, not learning.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 3. TOPIC SLATE ============ -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head">
+    <span class="sec-mark">03</span>
+    <h2>Topic slate</h2>
+  </div>
+  <p class="sec-sub">Selected against four filters: it must be a <strong>situation with a script</strong> rather than a bag of nouns; it must be high-frequency for a real beginner; it must contain a naturally repeating structure so the repetition is honest; and it must map to Irasutoya subcategories deep enough to illustrate. Counts are live from the catalog index.</p>
+
+  <div class="slate">
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">コンビニ</p><p class="card-en">Convenience store</p></div>
+        <span class="chip start">Start here</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>The most reliably scripted exchange in Japan. Bag? Chopsticks? Heat it up? Point card?</dd>
+        <dt>Payload</dt><dd><span class="jp">〜は いりますか</span> + the two legal answers</dd>
+        <dt>Device</dt><dd>Antiphony → slot swap</dd>
+      </dl>
+      <p class="subcats"><b>convenience</b> 157 · <b>shopping</b> 744 · <b>supermarket</b> 15 · <b>money</b> 1,119</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">あいさつ</p><p class="card-en">Greetings around the clock</p></div>
+        <span class="chip start">Start here</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>Greetings that come in <em>pairs</em> — one person says, the other must answer. Morning to night, out the door and back.</dd>
+        <dt>Payload</dt><dd>Fixed phrases; no grammar. The 90-second format proof.</dd>
+        <dt>Device</dt><dd>Antiphony, pure</dd>
+      </dl>
+      <p class="subcats"><b>greetings</b> 102 · <b>family</b> 700 · <b>daily-life</b> 517</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">あさの じゅんび</p><p class="card-en">Morning routine</p></div>
+        <span class="chip strong">Strong</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>Wake, wash, brush, dress, eat, out. A route through the house, in fixed order.</dd>
+        <dt>Payload</dt><dd><span class="jp">〜ます</span> on six everyday verbs; sequencing with <span class="jp">それから</span></dd>
+        <dt>Device</dt><dd>Loci + anaphora</dd>
+      </dl>
+      <p class="subcats"><b>daily-life</b> 517 · <b>bath</b> 284 · <b>sleep</b> 363 · <b>beauty</b> 369 · <b>toilet</b> 115</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">えき・でんしゃ</p><p class="card-en">Station &amp; train</p></div>
+        <span class="chip strong">Strong</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>Platform announcements are already half-sung. Which line, which platform, where do I change.</dd>
+        <dt>Payload</dt><dd><span class="jp">〜ゆき</span>, <span class="jp">なんばんせん</span>, <span class="jp">つぎは</span>, transfer verbs</dd>
+        <dt>Device</dt><dd>Loci (the route <em>is</em> the palace)</dd>
+      </dl>
+      <p class="subcats"><b>train</b> 302 · <b>station</b> 85 · <b>vehicles</b> 376 · <b>manners</b> 551</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">ちゅうもん</p><p class="card-en">Ordering food</p></div>
+        <span class="chip strong">Strong</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>Sit, ask what they have, order, receive, thank. Bookended by <span class="jp">いただきます／ごちそうさま</span>.</dd>
+        <dt>Payload</dt><dd><span class="jp">〜を ください</span> · <span class="jp">〜は ありますか</span></dd>
+        <dt>Device</dt><dd>Epistrophe (every line ends the same)</dd>
+      </dl>
+      <p class="subcats"><b>restaurant</b> 80 · <b>dining</b> 541 · <b>ramen</b> 87 · <b>sushi</b> 175 · <b>cafe</b> 162</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">かぞく</p><p class="card-en">My family / your family</p></div>
+        <span class="chip strong">Strong</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>The <span class="jp">うち／そと</span> double set — <span class="jp">ちち</span> for mine, <span class="jp">おとうさん</span> for yours. A genuinely hard beginner concept that the song form <em>solves</em>: two voices, sung against each other.</dd>
+        <dt>Payload</dt><dd>Humble vs. honorific family terms</dd>
+        <dt>Device</dt><dd>Antithesis in parallel structure</dd>
+      </dl>
+      <p class="subcats"><b>family</b> 700 · <b>generations</b> 769 · <b>elderly</b> 656 · <b>baby</b> 343</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">きもち</p><p class="card-en">Feelings</p></div>
+        <span class="chip strong">Strong</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>Faces you can point at. The one topic where Irasutoya's expression sets do the teaching almost unaided.</dd>
+        <dt>Payload</dt><dd>い-adjectives + the mimetic layer under them</dd>
+        <dt>Device</dt><dd>Mimetic hook — the stickiest chorus available</dd>
+      </dl>
+      <p class="subcats"><b>facial-expressions</b> 1,103 · <b>happy</b> 316 · <b>angry</b> 140 · <b>crying</b> 112 · <b>face-icons</b> 209</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">みちを きく</p><p class="card-en">Asking directions</p></div>
+        <span class="chip strong">Strong</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>Straight, right, left, past the crossing, next to the post office. The song is literally a walked route.</dd>
+        <dt>Payload</dt><dd>Position nouns + <span class="jp">の</span>: <span class="jp">〜の となり／まえ／うしろ</span></dd>
+        <dt>Device</dt><dd>Loci, in its original form</dd>
+      </dl>
+      <p class="subcats"><b>scenes-urban</b> 21 · <b>buildings-gen</b> 59 · <b>scenery</b> 309 · <b>marks-general</b> 1,960</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">てんき・きせつ</p><p class="card-en">Weather &amp; the four seasons</p></div>
+        <span class="chip strong">Strong</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>A cycle, so the song can be a round. Irasutoya's deepest territory by far — seasonality is the catalog's spine.</dd>
+        <dt>Payload</dt><dd><span class="jp">あつい／さむい</span>, weather nouns, <span class="jp">〜に なります</span></dd>
+        <dt>Device</dt><dd>Cyclical refrain, one verse per season</dd>
+      </dl>
+      <p class="subcats"><b>summer</b> 767 · <b>winter</b> 407 · <b>rainy-season</b> 229 · <b>weather</b> 164 · <b>spring</b> 159 · <b>autumn</b> 148</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">からだ・びょういん</p><p class="card-en">Body &amp; the doctor</p></div>
+        <span class="chip later">Later</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>Point at it, name it, say it hurts. Head-shoulders-knees-toes has a very long track record for a reason.</dd>
+        <dt>Payload</dt><dd><span class="jp">〜が いたいです</span> — one frame, every body part</dd>
+        <dt>Device</dt><dd>Anaphora + physical gesture</dd>
+      </dl>
+      <p class="subcats"><b>illness</b> 1,224 · <b>medical</b> 1,316 · <b>human-body</b> 532 · <b>hospital</b> 73 · <b>dentist</b> 55</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">かぞえかた</p><p class="card-en">Counters</p></div>
+        <span class="chip later">Later</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>The nightmare. <span class="jp">ひとつ・ふたつ</span>, then <span class="jp">ひとり・ふたり</span>, then <span class="jp">いちまい・にまい</span>. No pattern to infer — pure list.</dd>
+        <dt>Payload</dt><dd>Five common counters + the sound changes</dd>
+        <dt>Device</dt><dd>Cumulative catalogue, <span class="jp">九九</span>-style</dd>
+      </dl>
+      <p class="subcats"><b>finger-counting-marks</b> 13 · <b>marks-general</b> 1,960 · <b>text-general</b> 2,420</p>
+    </article>
+
+    <article class="card">
+      <div class="card-top">
+        <div><p class="card-jp">しりとり</p><p class="card-en">Word-chain game</p></div>
+        <span class="chip later">Later</span>
+      </div>
+      <dl>
+        <dt>Script</dt><dd>Each word starts on the last kana of the one before. A native Japanese game that <em>is</em> a chain mnemonic — recall one link, the next arrives free.</dd>
+        <dt>Payload</dt><dd>Pure vocabulary breadth + kana-ending awareness</dd>
+        <dt>Device</dt><dd>Chain / catena</dd>
+      </dl>
+      <p class="subcats">Any subcategory — this one is a <em>format</em>, and could be run as a recurring series slot</p>
+    </article>
+
+  </div>
+</section>
+
+<!-- ============ 4. ARCHITECTURE ============ -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head">
+    <span class="sec-mark">04</span>
+    <h2>One song architecture, reused every time</h2>
+  </div>
+  <p class="sec-sub">A series needs a shape a listener recognises by episode three, so their attention goes to the Japanese instead of to the song. Roughly 2:00–2:30 at 90–100 BPM. The numbering here is real — this is a fixed running order, not a list.</p>
+
+  <div class="col">
+  <div class="arch">
+    <div class="step"><div class="step-n">00</div><div class="step-b"><h4>Cold open <span class="bars">2 bars</span></h4><p>The sound of the situation, then the one phrase the episode is named for. No music yet.</p></div></div>
+    <div class="step"><div class="step-n">01</div><div class="step-b"><h4>Hook <span class="bars">8 bars</span></h4><p>Four lines, sung twice. This is the entire product — everything else is scaffolding around it. Under seven words per line.</p></div></div>
+    <div class="step"><div class="step-n">02</div><div class="step-b"><h4>Verse — the script <span class="bars">16 bars</span></h4><p>The exchange as it actually happens, slow enough to shadow. Two voices if the situation has two roles.</p></div></div>
+    <div class="step"><div class="step-n">03</div><div class="step-b"><h4>Hook <span class="bars">8 bars</span></h4><p>Identical. Resist the urge to develop it.</p></div></div>
+    <div class="step"><div class="step-n">04</div><div class="step-b"><h4>Verse — the slot swap <span class="bars">16 bars</span></h4><p>Same frame, one noun changed per line. The generalisation step, and the difference between a jingle and a grammar.</p></div></div>
+    <div class="step"><div class="step-n">05</div><div class="step-b"><h4>Bridge — role reversal <span class="bars">8 bars</span></h4><p>The learner now sings the <em>other</em> person's part. Half the reason people freeze in Japan is that they only ever rehearsed their own line.</p></div></div>
+    <div class="step"><div class="step-n">06</div><div class="step-b"><h4>Hook with the gap <span class="bars">8 bars</span></h4><p>Last repeat, last beat missing. The listener finishes it or they don't — and that's your test.</p></div></div>
+    <div class="step"><div class="step-n">07</div><div class="step-b"><h4>Tag <span class="bars">2 bars</span></h4><p>The single phrase they should still have tomorrow. Spoken, not sung.</p></div></div>
+  </div>
+  </div>
+</section>
+
+<!-- ============ 5. STYLE TRACK ============ -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head">
+    <span class="sec-mark">05</span>
+    <h2>Style track</h2>
+  </div>
+  <p class="sec-sub">The half of the Suno prompt that isn't words. Genre is a real pedagogical choice here, not decoration — it decides tempo, how many voices you get, and how much silence sits between phrases for the learner to breathe into.</p>
+
+  <h3 style="margin-top:0">Genre candidates</h3>
+  <div class="genres">
+    <div class="genre"><h4>Shōwa kayōkyoku<span class="jp">歌謡曲</span></h4><p>Warm, mid-tempo, unhurried, natural room for a male–female duet. The most forgiving bed for call-and-response, and it sounds like Japan without sounding like a textbook CD.</p></div>
+    <div class="genre"><h4>Ondo / minyō<span class="jp">音頭</span></h4><p>Bon-odori festival music. Call-and-response is <em>structural</em>, the meter is natively 7–5, and it comes with dance steps — which is free gesture-memory.</p></div>
+    <div class="genre"><h4>Dōyō<span class="jp">童謡</span></h4><p>Children's song. Simplest melodies, clearest diction, highest stick. The risk is condescension — fine for a kid, potentially insulting to an adult learner.</p></div>
+    <div class="genre"><h4>City pop<span class="jp">シティ・ポップ</span></h4><p>Adult, cool, currently beloved outside Japan. Buys you an audience who'd never click a "learn Japanese" video. Watch the tempo — it wants to run fast.</p></div>
+    <div class="genre"><h4>Doo-wop / soul revue</h4><p>Call-and-response is the genre's native grammar, and backing vocals repeating the hook behind the lead is <em>exactly</em> the pedagogy you want, for free.</p></div>
+    <div class="genre"><h4>Reggae / dub</h4><p>Enormous space between phrases, slow by nature, and the echo repeats your line for you. Structurally the best fit on this list; the cultural distance from the subject is the only cost.</p></div>
+  </div>
+
+  <h3>Non-negotiable production constraints</h3>
+  <ul class="constraints">
+    <li><span class="k">Tempo</span><span class="v"><b>85–100 BPM.</b> If a learner can't sing along on first listen, the song has failed regardless of how good it is. Suno defaults faster than this — say the number.</span></li>
+    <li><span class="k">Voices</span><span class="v"><b>Two, clearly different.</b> One is the world, one is the learner. Keeping the roles audibly distinct is what makes the bridge's role-reversal land.</span></li>
+    <li><span class="k">Vocal</span><span class="v"><b>Dry and forward.</b> Explicitly ask for minimal reverb and clear enunciation. Reverb is the enemy of a consonant.</span></li>
+    <li><span class="k">Arrangement</span><span class="v"><b>Sparse.</b> Every instrument competing with the vocal is a word lost. Bass, drums, one harmony instrument.</span></li>
+    <li><span class="k">Silence</span><span class="v"><b>Leave room after each phrase.</b> A learner needs a beat to echo into. Ask for space between lines.</span></li>
+  </ul>
+
+  <h3>Anatomy of a style prompt</h3>
+  <pre>Shōwa kayōkyoku, 96 BPM, male and female call-and-response duet,
+upright bass, brushed drums, electric piano, warm and slightly comic,
+dry forward vocals, minimal reverb, very clear enunciation,
+sparse arrangement, space between phrases, no ad-libs</pre>
+</section>
+
+<!-- ============ 6. LYRICS TRACK ============ -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head">
+    <span class="sec-mark">06</span>
+    <h2>Lyrics track — and the trap in it</h2>
+  </div>
+  <p class="sec-sub">This is the part that will bite you three songs in if it isn't settled now, so it's worth stating plainly before any lyrics get written.</p>
+
+  <div class="col">
+    <div class="claim">
+      <p class="lead">Every song needs <em>two</em> lyric documents, and they must never be the same file.</p>
+      <p style="margin-bottom:0">Suno is an English-trained model reading Japanese text more or less literally. To make it pronounce Japanese correctly you have to <strong>misspell the Japanese</strong> — write the particle <span style="font-family:var(--f-jp)">は</span> as <span style="font-family:var(--f-jp)">ワ</span>, push ambiguous kanji into katakana, spell numbers out phonetically. Those are exactly the spellings a learner must <em>never</em> see. So: one <strong>Suno score</strong> (phonetic, for the machine) and one <strong>learner sheet</strong> (correct orthography, for the human). Same song, two encodings.</p>
+    </div>
+
+    <h3>The pronunciation rules that matter</h3>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>Problem</th><th>Write instead</th><th>Why</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="jp">は</span> as a particle</td>
+            <td><span class="jp"><span class="bad">は</span> <span class="good">ワ</span></span></td>
+            <td class="why">Sung literally as <em>ha</em> otherwise. Same for <span class="jp">へ→エ</span> and <span class="jp">を→オ</span>. Protect the real <span class="jp">は</span> inside words like <span class="jp">はし</span>.</td>
+          </tr>
+          <tr>
+            <td>Multi-reading kanji</td>
+            <td><span class="jp"><span class="bad">空</span> <span class="good">ソラ</span></span></td>
+            <td class="why">Suno guesses the reading from context and guesses wrong. Push the ambiguous ones to katakana; leave unambiguous kanji alone.</td>
+          </tr>
+          <tr>
+            <td>Digits</td>
+            <td><span class="jp"><span class="bad">２人</span> <span class="good">フタリ</span></span></td>
+            <td class="why">Numerals get read in English. Japanese number readings also shift by counter, so spell the intended one.</td>
+          </tr>
+          <tr>
+            <td>Latin letters</td>
+            <td><span class="jp"><span class="bad">AI</span> <span class="good">エーアイ</span></span></td>
+            <td class="why">Read as English words. <span class="jp">アイ</span> alone would be sung as <em>ai</em> — "love".</td>
+          </tr>
+          <tr>
+            <td>Long vowels &amp; small tsu</td>
+            <td><span class="jp"><span class="good">コーヒー ／ がっこう</span></span></td>
+            <td class="why">Write them explicitly and let them own a beat. This is where a song either teaches mora-timing or teaches it wrong.</td>
+          </tr>
+          <tr>
+            <td>Long lines</td>
+            <td>10–20 characters</td>
+            <td class="why">Short lines with a break per phrase; commas as breath marks. Section tags <code>[Verse]</code> <code>[Chorus]</code> steer the structure.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:.9rem;color:var(--ink-3)">Don't convert wholesale to katakana — it stabilises pronunciation but flattens the singing into something robotic. The working compromise is hybrid: fix the particles and the ambiguous kanji, leave hiragana verb endings alone.</p>
+  </div>
+
+  <h3>Worked example — the コンビニ hook, in both encodings</h3>
+  <div class="two-up">
+    <div class="doc">
+      <div class="doc-head"><span class="t">Learner sheet</span><span class="who">for the human</span></div>
+      <div class="doc-body">
+        <span class="tag">[HOOK]</span>
+        <div><span class="role">店員</span>ふくろは いりますか</div>
+        <div><span class="role">客</span>いいえ、けっこうです</div>
+        <div><span class="role">店員</span>ふくろは いりますか</div>
+        <div><span class="role">客</span>はい、おねがいします</div>
+        <span class="tag">[VERSE — SLOT SWAP]</span>
+        <div>おはしは いりますか</div>
+        <div>スプーンは いりますか</div>
+        <div>レシートは いりますか</div>
+      </div>
+    </div>
+    <div class="doc">
+      <div class="doc-head"><span class="t">Suno score</span><span class="who">for the machine</span></div>
+      <div class="doc-body">
+        <span class="tag">[Chorus]</span>
+        <div>ふくろ <span class="mark">ワ</span> いりますか</div>
+        <div>いいえ、けっこうです</div>
+        <div>ふくろ <span class="mark">ワ</span> いりますか</div>
+        <div>はい、おねがいします</div>
+        <span class="tag">[Verse]</span>
+        <div>おはし <span class="mark">ワ</span> いりますか</div>
+        <div>スプーン <span class="mark">ワ</span> いりますか</div>
+        <div>レシート <span class="mark">ワ</span> いりますか</div>
+      </div>
+    </div>
+  </div>
+  <p class="col" style="font-size:.93rem;color:var(--ink-2)">Four lines carrying one question and <em>both</em> of its legal answers, back to back — so the learner never has to guess which reply is safe. Then the same frame with the noun swapped three times, until <span style="font-family:var(--f-jp)">〜は いりますか</span> stops being a phrase and becomes a slot they can put anything into. That is the whole method in eleven lines.</p>
+</section>
+
+<!-- ============ 7. LIMITS ============ -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head">
+    <span class="sec-mark">07</span>
+    <h2>What songs can't do</h2>
+  </div>
+  <p class="sec-sub">Worth being straight about, because two of these are real and one of them is a genuine cost you'd be choosing to accept.</p>
+
+  <div class="col">
+  <div class="limits">
+    <div class="limit">
+      <h4>Pitch accent <span class="sev real">Real cost</span></h4>
+      <p>Japanese has lexical pitch accent — <span style="font-family:var(--f-jp)">はし</span> means bridge or chopsticks depending on the contour. A melody <em>overwrites</em> that contour completely. Songs are excellent for vocabulary, phrase-shape and mora-timing, and they will actively teach wrong pitch accent while doing it. There's no way around this; the only honest responses are to accept it, or to put the tag line and the cold open in <strong>speech, not song</strong>, so at least the takeaway phrase carries a correct contour. Recommend the second.</p>
+    </div>
+    <div class="limit">
+      <h4>Productive grammar <span class="sev">Manageable</span></h4>
+      <p>Songs are strong at storing chunks and weak at teaching someone to build a novel sentence under pressure. The slot-swap verse is the mitigation — it's the only part of the architecture that pushes toward production rather than recall. Don't cut it to save runtime.</p>
+    </div>
+    <div class="limit">
+      <h4>The fossilised phrase <span class="sev">Manageable</span></h4>
+      <p>A phrase learned inside a melody can stay welded to that melody, and come out sing-song in real speech. The spoken tag at the end of each song is partly there to break the weld — hear it once without music before you leave.</p>
+    </div>
+    <div class="limit">
+      <h4>Depth <span class="sev">By design</span></h4>
+      <p>Twelve songs is maybe 150 words and eight patterns. That's a real N5 foundation and it is not a course. Positioning this as "the thing you play in the car until the phrases are automatic" is honest; positioning it as a curriculum isn't.</p>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- ============ 8. NEXT ============ -->
+<section style="margin-bottom:32px">
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head">
+    <span class="sec-mark">08</span>
+    <h2>What to build first</h2>
+  </div>
+  <p class="sec-sub">One recommendation, and the argument for keeping the slate closed until it's tested.</p>
+
+  <div class="col">
+  <div class="next">
+    <h3 style="margin-top:0">Build one song all the way through before writing a second.</h3>
+    <p>There are twelve good topics above and every one of them will feel like it should be written today. The thing that decides whether this series is worth twelve songs is whether <em>one</em> song makes a phrase stick — and you can find that out in an afternoon, not a month.</p>
+    <ol>
+      <li><b>Write コンビニ, complete.</b> Learner sheet, Suno score, style prompt. It's the funniest, the most useful, and the best showcase of antiphony plus slot swap — and it has 157 illustrations sitting behind it.</li>
+      <li><b>Generate three takes at different tempos</b> — 88, 96, 104 — and keep the slowest one you can stand. The instinct will be to keep the most musical take; resist it.</li>
+      <li><b>Run the gap test on a real person.</b> Play it twice, wait a day, then sing <span style="font-family:var(--f-jp)">ふくろは ＿＿＿</span> and see what comes back. If they fill it, the format works. If they don't, the format is wrong and no amount of additional topics fixes that.</li>
+      <li><b>Only then</b> decide whether あいさつ is episode 0 (a 90-second format proof) or whether コンビニ opens the series outright.</li>
+    </ol>
+  </div>
+  </div>
+</section>
+
+<footer>
+  <span>Planning document · 2026-08-27</span>
+  <span>Topic counts live from tools/pipeline/index/q.py</span>
+  <span>Written with Claude</span>
+</footer>
+
+</div>

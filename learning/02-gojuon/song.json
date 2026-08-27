@@ -1,0 +1,14 @@
+{
+  "id": "02-gojuon",
+  "title": "Amenbo no Uta",
+  "jp": "五十音 ・ Hakushū",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "bespoke": true,
+  "meta": ["boom-bap", "88 BPM", "call & response"],
+  "blurb": "Hakushū's classic articulation chant, restyled. Teaches the mouth, not vocabulary. The kana row is the refrain.",
+  "styles": [
+    { "label": "Boom-bap hip hop", "text": "boom bap hip hop, 88 BPM, clear-voiced rapper on the verses with a full group chanting the hook in unison, dusty upright bass, crisp snare, minimal piano loop, dry forward vocal, no reverb on the lead, no autotune, extremely clear consonants, hard rhythmic diction, space between the verse and the chant, no ad-libs" }
+  ]
+}

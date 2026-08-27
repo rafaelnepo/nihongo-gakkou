@@ -1,0 +1,93 @@
+あいうえお — SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya illustration, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+(いく, いる) can flash their earlier illustration — the "you've seen this" beat.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   あ い う え お
+
+═══ PART 1 · LEARN ═══
+あさ
+おはよう
+あめ
+あさ から あめ
+あお
+あめ の あと、そら は あおい
+あ い う え お
+
+いえ
+ただいま
+いぬ
+いえ に いぬ が いる
+いく
+いぬ と さんぽ に いく
+あ い う え お
+
+うみ
+うみ へ いく
+うた
+うた を うたう
+うさぎ
+うさぎ が いる
+あ い う え お
+
+えき
+えき へ いく
+えんぴつ
+えんぴつ を かう
+えん
+えんぴつ は ひゃくえん
+あ い う え お
+
+おにぎり
+おにぎり を たべる
+おちゃ
+おちゃ を のむ
+おかね
+おかね を はらう
+あ い う え お
+
+═══ BRIDGE · THE DAY ═══
+おはよう、あさ だよ
+あめ の あと、そら は あおい
+いえ に かえって、いぬ と さんぽ
+うみ で うた を うたう
+えき で えんぴつ、ひゃくえん
+おにぎり と おちゃ
+あ い う え お
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+おはよう
+あさ から あめ
+あめ の あと、そら は あおい
+ただいま
+いえ に いぬ が いる
+いぬ と さんぽ に いく
+うみ へ いく
+うた を うたう
+うさぎ が いる
+えき へ いく
+えんぴつ を かう
+ひゃくえん です
+おにぎり を たべる
+おちゃ を のむ
+おかね を はらう
+あ い う え お
+
+(outro)   あ い う え お
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/pipeline/index/q.py, hi-res into video public/):
+あさ=sunrise/morning · おはよう=greeting/wave · あめ=rain · あお=blue sky ·
+いえ=house · ただいま=coming home · いぬ=dog · いく／さんぽ=walking the dog · うみ=sea ·
+うた=singing/music note · うさぎ=rabbit · えき=train station · えんぴつ=pencil ·
+えん=100-yen coin · おにぎり=rice ball · おちゃ=green tea · おかね=money/wallet ·
+verbs: かう=shopping · たべる=eating · のむ=drinking · はらう=paying/register.

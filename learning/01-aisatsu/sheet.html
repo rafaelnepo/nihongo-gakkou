@@ -1,0 +1,650 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Out the Door and Back</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=swap">
+
+<style>
+:root{
+  --ground:#f2f4f0; --surface:#fbfcfa; --surface-2:#e9ede8;
+  --ink:#1a2320; --ink-2:#556158; --ink-3:#7d8a81;
+  --rule:#c6d4c8; --rule-soft:#dde5dc;
+  --green:#4a7a5e; --green-deep:#2e5540;
+  --shu:#bc4630; --shu-ink:#a03a26; --shu-soft:#f2e0da;
+  --shadow:0 1px 2px rgba(26,35,32,.05),0 8px 24px -16px rgba(26,35,32,.28);
+  --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
+  --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
+  --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
+  --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#121715; --surface:#1a201d; --surface-2:#222926;
+    --ink:#e7ede8; --ink-2:#a3b0a7; --ink-3:#7d8a82;
+    --rule:#313d36; --rule-soft:#262e2a;
+    --green:#7fb493; --green-deep:#a5d2b5;
+    --shu:#e57d63; --shu-ink:#f09077; --shu-soft:#39231d;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#121715; --surface:#1a201d; --surface-2:#222926;
+  --ink:#e7ede8; --ink-2:#a3b0a7; --ink-3:#7d8a82;
+  --rule:#313d36; --rule-soft:#262e2a;
+  --green:#7fb493; --green-deep:#a5d2b5;
+  --shu:#e57d63; --shu-ink:#f09077; --shu-soft:#39231d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-body);
+  font-size:16.5px;line-height:1.75;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px 90px}
+.col{max-width:68ch}
+
+.mast{padding:70px 0 34px;border-bottom:1px solid var(--rule);margin-bottom:50px}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--green);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:20px}
+.eyebrow span:not(:last-child)::after{content:"／";margin-left:10px;color:var(--rule)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(2.3rem,6.2vw,3.8rem);
+  line-height:1.06;letter-spacing:-.015em;margin:0 0 6px;text-wrap:balance}
+.h1-jp{font-family:var(--f-jp);font-weight:600;font-size:clamp(1rem,2.5vw,1.28rem);
+  color:var(--shu);letter-spacing:.14em;margin:0 0 22px}
+.standfirst{font-size:clamp(1.03rem,2vw,1.16rem);line-height:1.62;color:var(--ink-2);max-width:58ch;margin:0}
+.standfirst strong{color:var(--ink);font-weight:700}
+
+section{margin:0 0 68px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+.sec-mark{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--shu);
+  border:1px solid var(--rule);border-radius:2px;padding:2px 7px;white-space:nowrap}
+h2{font-family:var(--f-display);font-weight:700;font-size:clamp(1.42rem,3.2vw,1.85rem);
+  line-height:1.22;margin:0;text-wrap:balance}
+h3{font-family:var(--f-display);font-weight:700;font-size:1.1rem;margin:34px 0 10px;text-wrap:balance}
+.sec-sub{color:var(--ink-3);margin:0 0 28px;max-width:62ch;font-size:.955rem}
+p{margin:0 0 18px}
+strong{font-weight:700}
+em{font-style:normal;color:var(--shu-ink);font-weight:500}
+.repeat{display:flex;align-items:center;gap:12px;margin:0 0 32px;color:var(--rule)}
+.repeat::before,.repeat::after{content:"";height:1px;background:var(--rule);flex:1}
+.repeat span{font-size:15px;color:var(--shu);letter-spacing:.3em;font-family:var(--f-mono)}
+
+/* ---- teaches ---- */
+.teaches{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:0 0 8px}
+.teach{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--green);
+  border-radius:3px;padding:17px 18px}
+.teach h4{margin:0 0 6px;font-family:var(--f-display);font-weight:700;font-size:.98rem}
+.teach .jp{font-family:var(--f-jp);color:var(--shu-ink);font-size:1rem;display:block;margin:0 0 6px}
+.teach p{margin:0;font-size:.88rem;color:var(--ink-2);line-height:1.55}
+
+/* ---- score ---- */
+.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:0 0 22px}
+button{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.11em;text-transform:uppercase;
+  padding:7px 13px;border-radius:2px;border:1px solid var(--rule);background:var(--surface);
+  color:var(--ink-2);cursor:pointer}
+button:hover{border-color:var(--green);color:var(--green-deep)}
+button[aria-pressed="true"]{background:var(--shu);border-color:var(--shu);color:#fff}
+@media (prefers-reduced-motion:no-preference){button{transition:border-color .15s,color .15s,background .15s}}
+
+.part{margin:0 0 6px;border-top:1px solid var(--rule-soft);padding:20px 0 4px}
+.part:last-of-type{border-bottom:1px solid var(--rule-soft);padding-bottom:20px}
+.part-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+.part-n{font-family:var(--f-mono);font-size:10.5px;color:var(--shu);letter-spacing:.1em}
+.part-t{font-family:var(--f-display);font-weight:700;font-size:1.02rem}
+.part-bars{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);border:1px solid var(--rule);border-radius:2px;padding:2px 6px}
+.part-note{font-size:.88rem;color:var(--ink-3);margin:0 0 16px;max-width:60ch;font-style:italic}
+
+.lines{display:flex;flex-direction:column;gap:11px;margin:0 0 4px}
+.line{display:grid;grid-template-columns:74px 1fr;gap:16px;align-items:baseline}
+.role{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.08em;color:var(--ink-3);
+  text-align:right;padding-top:8px;white-space:nowrap}
+.role.a{color:var(--green)}
+.role.b{color:var(--shu)}
+.txt .jp{font-family:var(--f-jp);font-size:1.42rem;line-height:1.35;color:var(--ink);display:block}
+.txt .rj{font-family:var(--f-mono);font-size:11px;letter-spacing:.05em;color:var(--ink-3);
+  display:block;margin-top:3px}
+.txt .gl{font-size:.85rem;color:var(--ink-2);display:block;margin-top:1px}
+body.bare .rj,body.bare .gl{display:none}
+body.bare .lines{gap:8px}
+.gapmark{color:var(--shu);letter-spacing:.1em;opacity:.7}
+.spoken .txt .jp{color:var(--green-deep);font-style:italic}
+.sfx{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.06em;
+  padding-left:90px;margin:0 0 10px}
+
+/* ---- pasteable ---- */
+.paste{background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+  overflow:hidden;margin:0 0 18px;box-shadow:var(--shadow)}
+.paste-head{padding:10px 14px;border-bottom:1px solid var(--rule);background:var(--surface-2);
+  display:flex;justify-content:space-between;align-items:center;gap:10px}
+.paste-head .t{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.11em;
+  text-transform:uppercase;color:var(--ink-2)}
+.paste pre{margin:0;padding:18px 16px;font-family:var(--f-mono);font-size:12.5px;line-height:1.95;
+  color:var(--ink-2);overflow-x:auto;white-space:pre-wrap;background:transparent;border:none}
+.paste pre .tag{color:var(--green)}
+.paste pre .jpl{font-family:var(--f-jp);font-size:15px;color:var(--ink)}
+.paste pre .mark{color:var(--shu);font-weight:600}
+
+/* ---- rules ---- */
+.tbl-wrap{overflow-x:auto;margin:0 0 20px;border:1px solid var(--rule);border-radius:3px}
+table{border-collapse:collapse;width:100%;min-width:520px;background:var(--surface)}
+th,td{text-align:left;padding:12px 15px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+th{font-family:var(--f-mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);background:var(--surface-2);border-bottom:1px solid var(--rule);font-weight:400}
+tr:last-child td{border-bottom:none}
+td .jp{font-family:var(--f-jp);font-size:1.06rem;color:var(--ink)}
+td .bad{color:var(--ink-3);text-decoration:line-through}
+td .good{color:var(--shu-ink);font-weight:600}
+td.why{font-size:.885rem;color:var(--ink-2)}
+
+/* ---- listen-for ---- */
+.checks{list-style:none;padding:0;margin:0 0 20px}
+.checks li{padding:15px 0;border-top:1px solid var(--rule-soft);
+  display:grid;grid-template-columns:150px 1fr;gap:20px;font-size:.94rem}
+.checks li:last-child{border-bottom:1px solid var(--rule-soft)}
+.checks .k{font-family:var(--f-jp);font-size:1.06rem;color:var(--shu-ink);padding-top:2px}
+.checks .v{color:var(--ink-2)}
+.checks .v b{color:var(--ink);display:block}
+.checks .v .ok,.checks .v .bad-b,.checks .v .unt{
+  font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:2px 7px;border-radius:2px;display:inline-block;margin:0 8px 6px 0;border:1px solid}
+.checks .v .ok{color:var(--green-deep);border-color:var(--green)}
+.checks .v .bad-b{color:#fff;background:var(--shu);border-color:var(--shu)}
+.checks .v .unt{color:var(--ink-3);border-color:var(--rule)}
+
+.callout{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--shu);
+  border-radius:3px;padding:24px 26px;margin:0 0 24px;box-shadow:var(--shadow)}
+.callout .lead{font-family:var(--f-display);font-weight:700;font-size:1.12rem;line-height:1.45;
+  margin-bottom:11px;text-wrap:balance}
+.callout p:last-child{margin-bottom:0}
+.callout ol{margin:0;padding-left:1.2em}
+.callout li{margin-bottom:10px;color:var(--ink-2)}
+.callout li:last-child{margin-bottom:0}
+.callout li b{color:var(--ink)}
+
+.badge-used{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--green-deep);border:1px solid var(--green);border-radius:2px;padding:2px 7px;
+  margin-left:8px;vertical-align:middle;font-weight:400}
+.parked{border:1px dashed var(--rule);border-radius:3px;padding:24px 26px;background:transparent}
+.parked h3{margin-top:0}
+
+footer{margin-top:16px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);
+  display:flex;flex-wrap:wrap;gap:8px 20px}
+
+@media (max-width:700px){
+  .line{grid-template-columns:1fr;gap:2px}
+  .role{text-align:left;padding-top:0}
+  .sfx{padding-left:0}
+  .checks li{grid-template-columns:1fr;gap:4px}
+  .mast{padding-top:48px}
+}
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow">
+    <span>Sing It Twice</span><span>Episode 1</span><span>あいさつ</span><span>Generated 2026-08-27</span>
+  </div>
+  <h1>Out the Door and Back</h1>
+  <p class="h1-jp">いってきます／ただいま</p>
+  <p class="standfirst">The song is one day. It opens with a door closing and ends with the same door opening — and everything in between is a greeting that <strong>somebody else has to answer</strong>. That's the whole reason あいさつ works as a song: these phrases already come in pairs.</p>
+</header>
+
+<!-- 01 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">01</span><h2>Three structures, one song</h2></div>
+  <p class="sec-sub">あいさつ looks like a vocabulary list and isn't. There are three different shapes hiding in it, and each one gets its own section of the song.</p>
+
+  <div class="teaches">
+    <div class="teach">
+      <h4>The door — pairs</h4>
+      <span class="jp">いってきます／いってらっしゃい</span>
+      <p>True call-and-response. One person says it, the other <em>must</em> answer. This is the hook, and it's the whole product.</p>
+    </div>
+    <div class="teach">
+      <h4>The clock — a cycle</h4>
+      <span class="jp">あさ・ひる・よる・ねるまえ</span>
+      <p>Four greetings walked through one day, in fixed order. The day is the memory palace.</p>
+    </div>
+    <div class="teach">
+      <h4>The register — a suffix</h4>
+      <span class="jp">おはよう ⟶ おはようございます</span>
+      <p>Same word, two politeness levels, chosen by who you're talking to. One suffix, three greetings.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">02</span><h2>The song</h2></div>
+  <p class="sec-sub">Two voices throughout. <strong style="color:var(--green)">A</strong> is the one going out; <strong style="color:var(--shu)">B</strong> is the one staying home. In the clock verse A sings the frame and B fills the slot, so the learner hears the frame and the fill as two different things.</p>
+
+  <div class="toolbar">
+    <button id="bare" aria-pressed="false">See it as a learner would</button>
+    <span style="font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.06em">hides romaji &amp; gloss</span>
+  </div>
+
+  <div class="part">
+    <div class="part-head"><span class="part-n">00</span><span class="part-t">Cold open</span><span class="part-bars">2 bars · spoken</span></div>
+    <p class="sfx">[sfx] a door closing, keys</p>
+    <div class="lines">
+      <div class="line spoken"><span class="role a">A · spoken</span><span class="txt">
+        <span class="jp">いってきます</span><span class="rj">ittekimasu</span><span class="gl">I'm off</span></span></div>
+    </div>
+  </div>
+
+  <div class="part">
+    <div class="part-head"><span class="part-n">01</span><span class="part-t">Hook</span><span class="part-bars">8 bars · ×2</span></div>
+    <p class="part-note">Four phrases. If a listener remembers nothing else, it has to be these four — so nothing else in the song is allowed to be catchier.</p>
+    <div class="lines">
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">いってきます</span><span class="rj">ittekimasu</span><span class="gl">I'm off</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">いってらっしゃい</span><span class="rj">itterasshai</span><span class="gl">off you go</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">ただいま</span><span class="rj">tadaima</span><span class="gl">I'm home</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">おかえりなさい</span><span class="rj">okaerinasai</span><span class="gl">welcome back</span></span></div>
+    </div>
+  </div>
+
+  <div class="part">
+    <div class="part-head"><span class="part-n">02</span><span class="part-t">Verse — the clock</span><span class="part-bars">16 bars</span></div>
+    <p class="part-note">The frame 〜の あいさつ is 7 mora every time, which is native meter doing the work for you. A sings the frame, B answers with the greeting.</p>
+    <div class="lines">
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">あさの あいさつ</span><span class="rj">asa no aisatsu</span><span class="gl">the morning greeting</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">おはようございます</span><span class="rj">ohayō gozaimasu</span><span class="gl">good morning</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">ひるの あいさつ</span><span class="rj">hiru no aisatsu</span><span class="gl">the midday greeting</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">こんにちは</span><span class="rj">konnichiwa</span><span class="gl">hello / good day</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">よるの あいさつ</span><span class="rj">yoru no aisatsu</span><span class="gl">the evening greeting</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">こんばんは</span><span class="rj">konbanwa</span><span class="gl">good evening</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">さいごに</span><span class="rj">saigo ni</span><span class="gl">and last</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">おやすみなさい</span><span class="rj">oyasuminasai</span><span class="gl">good night</span></span></div>
+    </div>
+  </div>
+
+  <div class="part">
+    <div class="part-head"><span class="part-n">03</span><span class="part-t">Hook</span><span class="part-bars">8 bars · identical</span></div>
+    <p class="part-note">Do not develop it. The temptation to add a harmony here is exactly the temptation to make it less memorable.</p>
+  </div>
+
+  <div class="part">
+    <div class="part-head"><span class="part-n">04</span><span class="part-t">Verse — the register</span><span class="part-bars">16 bars</span></div>
+    <p class="part-note">A is casual, B is polite — the same two voices now carrying two politeness levels. One variable per pair: the greeting changes, the frame never does.</p>
+    <div class="lines">
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">ともだちに おはよう</span><span class="rj">tomodachi ni ohayō</span><span class="gl">to a friend — morning</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">せんせいに おはようございます</span><span class="rj">sensei ni ohayō gozaimasu</span><span class="gl">to a teacher — good morning</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">ともだちに ありがとう</span><span class="rj">tomodachi ni arigatō</span><span class="gl">to a friend — thanks</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">せんせいに ありがとうございます</span><span class="rj">sensei ni arigatō gozaimasu</span><span class="gl">to a teacher — thank you</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">ともだちに おめでとう</span><span class="rj">tomodachi ni omedetō</span><span class="gl">to a friend — congrats</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">せんせいに おめでとうございます</span><span class="rj">sensei ni omedetō gozaimasu</span><span class="gl">to a teacher — congratulations</span></span></div>
+    </div>
+  </div>
+
+  <div class="part">
+    <div class="part-head"><span class="part-n">05</span><span class="part-t">Bridge — role reversal</span><span class="part-bars">8 bars</span></div>
+    <p class="part-note">The voices swap. The learner has spent two minutes being the one who leaves; now they're the one at home, saying the harder half.</p>
+    <div class="lines">
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">こんどは あなた</span><span class="rj">kondo wa anata</span><span class="gl">now it's you</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">いってらっしゃい</span><span class="rj">itterasshai</span><span class="gl">off you go</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">こんどは あなた</span><span class="rj">kondo wa anata</span><span class="gl">now it's you</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">おかえりなさい</span><span class="rj">okaerinasai</span><span class="gl">welcome back</span></span></div>
+    </div>
+  </div>
+
+  <div class="part">
+    <div class="part-head"><span class="part-n">06</span><span class="part-t">Hook with the gap</span><span class="part-bars">8 bars</span></div>
+    <p class="part-note">The last beat goes missing. おかえりなさい is the right thing to withhold — it's the line you have to <em>produce</em> for someone else, not the one you recognise.</p>
+    <div class="lines">
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">いってきます</span><span class="rj">ittekimasu</span></span></div>
+      <div class="line"><span class="role b">B</span><span class="txt">
+        <span class="jp">いってらっしゃい</span><span class="rj">itterasshai</span></span></div>
+      <div class="line"><span class="role a">A</span><span class="txt">
+        <span class="jp">ただいま</span><span class="rj">tadaima</span></span></div>
+      <div class="line"><span class="role b">B · silent</span><span class="txt">
+        <span class="jp gapmark">＿＿＿＿＿＿＿</span><span class="gl">the listener fills it, or they don't</span></span></div>
+    </div>
+  </div>
+
+  <div class="part">
+    <div class="part-head"><span class="part-n">07</span><span class="part-t">Tag</span><span class="part-bars">2 bars · spoken</span></div>
+    <p class="part-note">Spoken, not sung — this is the pitch-accent mitigation. At least the phrase they walk away with carries a correct contour.</p>
+    <p class="sfx">[sfx] a door opening</p>
+    <div class="lines">
+      <div class="line spoken"><span class="role a">A · spoken</span><span class="txt">
+        <span class="jp">ただいま。</span><span class="rj">tadaima.</span></span></div>
+      <div class="line spoken"><span class="role b">B · spoken</span><span class="txt">
+        <span class="jp">おかえりなさい。</span><span class="rj">okaerinasai.</span></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">03</span><h2>Suno score</h2></div>
+  <p class="sec-sub">The same song, spelled for the machine. Only one thing changes from the learner sheet — every particle <span style="font-family:var(--f-jp)">は</span> becomes <span style="font-family:var(--f-jp);color:var(--shu)">ワ</span>, marked in red below. Everything else is already kana, so there's no kanji for Suno to guess wrong.</p>
+
+  <div class="paste">
+    <div class="paste-head"><span class="t">Lyrics — paste into Suno</span><button data-copy="score">Copy</button></div>
+    <pre id="score"><span class="tag">[Intro]</span>
+<span class="jpl">いってきます</span>
+
+<span class="tag">[Chorus]</span>
+<span class="jpl">いってきます</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">ただいま</span>
+<span class="jpl">おかえりなさい</span>
+<span class="jpl">いってきます</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">ただいま</span>
+<span class="jpl">おかえりなさい</span>
+
+<span class="tag">[Verse]</span>
+<span class="jpl">あさの あいさつ</span>
+<span class="jpl">おはようございます</span>
+<span class="jpl">ひるの あいさつ</span>
+<span class="jpl">こんにち<span class="mark">ワ</span></span>
+<span class="jpl">よるの あいさつ</span>
+<span class="jpl">こんばん<span class="mark">ワ</span></span>
+<span class="jpl">さいごに</span>
+<span class="jpl">おやすみなさい</span>
+
+<span class="tag">[Chorus]</span>
+<span class="jpl">いってきます</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">ただいま</span>
+<span class="jpl">おかえりなさい</span>
+
+<span class="tag">[Verse]</span>
+<span class="jpl">ともだちに おはよう</span>
+<span class="jpl">せんせいに おはようございます</span>
+<span class="jpl">ともだちに ありがとう</span>
+<span class="jpl">せんせいに ありがとうございます</span>
+<span class="jpl">ともだちに おめでとう</span>
+<span class="jpl">せんせいに おめでとうございます</span>
+
+<span class="tag">[Bridge]</span>
+<span class="jpl">こんど<span class="mark">ワ</span> あなた</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">こんど<span class="mark">ワ</span> あなた</span>
+<span class="jpl">おかえりなさい</span>
+
+<span class="tag">[Chorus]</span>
+<span class="jpl">いってきます</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">ただいま</span>
+<span class="jpl">おかえりなさい</span>
+
+<span class="tag">[Outro]</span>
+<span class="jpl">ただいま</span>
+<span class="jpl">おかえりなさい</span></pre>
+  </div>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>Line</th><th>Learner sheet</th><th>Suno score</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td class="why">midday</td><td><span class="jp bad">こんにちは</span></td><td><span class="jp good">こんにちワ</span></td><td class="why">Historically the topic particle. Sung literally it becomes <em>konnichi-ha</em>.</td></tr>
+        <tr><td class="why">evening</td><td><span class="jp bad">こんばんは</span></td><td><span class="jp good">こんばんワ</span></td><td class="why">Same.</td></tr>
+        <tr><td class="why">bridge</td><td><span class="jp bad">こんどは あなた</span></td><td><span class="jp good">こんどワ あなた</span></td><td class="why">A live topic particle.</td></tr>
+        <tr><td class="why">everything else</td><td colspan="2"><span class="jp">unchanged</span></td><td class="why">All kana, no ambiguous readings, no digits, no Latin. This song is unusually safe.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p style="font-size:.9rem;color:var(--ink-3);max-width:62ch">Every one of these rules held on the first generation. See section 05.</p>
+
+  <h3>v2 — the duet fix</h3>
+  <p style="font-size:.93rem;color:var(--ink-2);max-width:62ch">Untested. Same song, every line doubled so each voice holds two before handing over, plus named voice tags and a duet declaration at the top. Pair it with style prompt A2 below.</p>
+  <div class="paste">
+    <div class="paste-head"><span class="t">Lyrics v2 — doubled lines</span><button data-copy="score2">Copy</button></div>
+    <pre id="score2"><span class="tag">[This song is a duet: one male vocalist and one female vocalist, trading two lines each]</span>
+
+<span class="tag">[Intro]</span>
+<span class="jpl">いってきます</span>
+
+<span class="tag">[Chorus: Male Vocal]</span>
+<span class="jpl">いってきます</span>
+<span class="jpl">いってきます</span>
+<span class="tag">[Chorus: Female Vocal]</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="tag">[Chorus: Male Vocal]</span>
+<span class="jpl">ただいま</span>
+<span class="jpl">ただいま</span>
+<span class="tag">[Chorus: Female Vocal]</span>
+<span class="jpl">おかえりなさい</span>
+<span class="jpl">おかえりなさい</span>
+
+<span class="tag">[Verse: Male Vocal]</span>
+<span class="jpl">あさの あいさつ</span>
+<span class="jpl">あさの あいさつ</span>
+<span class="tag">[Verse: Female Vocal]</span>
+<span class="jpl">おはようございます</span>
+<span class="jpl">おはようございます</span>
+<span class="tag">[Verse: Male Vocal]</span>
+<span class="jpl">ひるの あいさつ</span>
+<span class="jpl">よるの あいさつ</span>
+<span class="tag">[Verse: Female Vocal]</span>
+<span class="jpl">こんにち<span class="mark">ワ</span></span>
+<span class="jpl">こんばん<span class="mark">ワ</span></span>
+<span class="tag">[Verse: Male Vocal]</span>
+<span class="jpl">さいごに</span>
+<span class="jpl">さいごに</span>
+<span class="tag">[Verse: Female Vocal]</span>
+<span class="jpl">おやすみなさい</span>
+<span class="jpl">おやすみなさい</span>
+
+<span class="tag">[Chorus: Male Vocal]</span>
+<span class="jpl">いってきます</span>
+<span class="jpl">いってきます</span>
+<span class="tag">[Chorus: Female Vocal]</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="tag">[Chorus: Male Vocal]</span>
+<span class="jpl">ただいま</span>
+<span class="jpl">ただいま</span>
+<span class="tag">[Chorus: Female Vocal]</span>
+<span class="jpl">おかえりなさい</span>
+<span class="jpl">おかえりなさい</span>
+
+<span class="tag">[Verse: Male Vocal]</span>
+<span class="jpl">ともだちに おはよう</span>
+<span class="jpl">ともだちに ありがとう</span>
+<span class="tag">[Verse: Female Vocal]</span>
+<span class="jpl">せんせいに おはようございます</span>
+<span class="jpl">せんせいに ありがとうございます</span>
+<span class="tag">[Verse: Male Vocal]</span>
+<span class="jpl">ともだちに おめでとう</span>
+<span class="jpl">ともだちに おめでとう</span>
+<span class="tag">[Verse: Female Vocal]</span>
+<span class="jpl">せんせいに おめでとうございます</span>
+<span class="jpl">せんせいに おめでとうございます</span>
+
+<span class="tag">[Bridge: Female Vocal]</span>
+<span class="jpl">こんど<span class="mark">ワ</span> あなた</span>
+<span class="jpl">こんど<span class="mark">ワ</span> あなた</span>
+<span class="tag">[Bridge: Male Vocal]</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">おかえりなさい</span>
+
+<span class="tag">[Chorus: Male Vocal]</span>
+<span class="jpl">いってきます</span>
+<span class="jpl">いってきます</span>
+<span class="tag">[Chorus: Female Vocal]</span>
+<span class="jpl">いってらっしゃい</span>
+<span class="jpl">いってらっしゃい</span>
+
+<span class="tag">[Outro]</span>
+<span class="jpl">ただいま</span>
+<span class="jpl">おかえりなさい</span></pre>
+  </div>
+</section>
+
+<!-- 04 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">04</span><h2>Style — three to race</h2></div>
+  <p class="sec-sub">Generate all three before deciding. They're not variations on a look; they're three different answers to the question of how much silence sits between a call and its response, which is the only thing that actually matters here.</p>
+
+  <h3 style="margin-top:0">A · Shōwa kayōkyoku — the warm house <span class="badge-used">Used for v1</span></h3>
+  <p style="font-size:.93rem;color:var(--ink-2);max-width:62ch">This is what generated. Tempo, diction and mora-timing all landed — only the voice-swap failed, and that was the lyrics' fault rather than the style's. <strong>Use A2 below with the v2 lyrics.</strong></p>
+  <div class="paste">
+    <div class="paste-head"><span class="t">Style prompt A</span><button data-copy="styleA">Copy</button></div>
+    <pre id="styleA">Shōwa kayōkyoku, 92 BPM, male and female duet trading lines,
+upright bass, brushed drums, warm electric piano, nylon guitar,
+gentle and domestic, dry forward vocals, minimal reverb,
+very clear enunciation, sparse arrangement,
+space between phrases, no ad-libs</pre>
+  </div>
+
+  <h3>A2 · Same, with the duet reinforced</h3>
+  <p style="font-size:.93rem;color:var(--ink-2);max-width:62ch">Names the duet twice and says the voices are separate. Pair this with the v2 lyrics — the lyric doubling is the real fix, this just stops the style prompt from arguing with it.</p>
+  <div class="paste">
+    <div class="paste-head"><span class="t">Style prompt A2</span><button data-copy="styleA2">Copy</button></div>
+    <pre id="styleA2">Shōwa kayōkyoku duet, 92 BPM, one male vocalist and one female
+vocalist singing alternating parts, male and female voices clearly
+separate, upright bass, brushed drums, warm electric piano,
+nylon guitar, gentle and domestic, dry forward vocals,
+minimal reverb, very clear enunciation, sparse arrangement,
+space between phrases, no ad-libs</pre>
+  </div>
+
+  <h3>B · Doo-wop — the texture workaround <span class="badge-used" style="border-color:var(--shu);color:var(--shu)">Promoted</span></h3>
+  <p style="font-size:.93rem;color:var(--ink-2);max-width:62ch">Now the second choice rather than the third. If the duet keeps failing, stop fighting timbre: answering <em>group</em> vocals are an arrangement texture, not a second soloist, so Suno handles them reliably — and the learner joins the group rather than watching two other people talk. The cost is that it sounds nothing like Japan.</p>
+  <div class="paste">
+    <div class="paste-head"><span class="t">Style prompt B</span><button data-copy="styleB">Copy</button></div>
+    <pre id="styleB">1950s doo-wop, 88 BPM, lead vocal with answering group vocals,
+walking bass, finger snaps, soft brushed snare, tenor sax pad,
+sweet and simple, dry lead vocal, minimal reverb,
+extremely clear enunciation,
+wide space between call and response, no ad-libs</pre>
+  </div>
+
+  <h3>C · Ondo — the festival version</h3>
+  <p style="font-size:.93rem;color:var(--ink-2);max-width:62ch">Call-and-response is structural, the meter is natively 7–5, and it comes with dance steps — which is the gesture layer arriving free rather than being designed.</p>
+  <div class="paste">
+    <div class="paste-head"><span class="t">Style prompt C</span><button data-copy="styleC">Copy</button></div>
+    <pre id="styleC">Japanese ondo festival song, 90 BPM,
+call and response between a lead singer and a group,
+taiko drum, shinobue flute, shamisen, hand claps,
+celebratory but unhurried, dry vocals, very clear enunciation,
+big gaps between call and response, no ad-libs</pre>
+  </div>
+</section>
+
+<!-- 05 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">05</span><h2>What take one proved</h2></div>
+  <p class="sec-sub">Generated 27 August 2026 with style prompt A. Three of the four risks named in advance came back clean; one broke, and it broke for a reason worth knowing.</p>
+
+  <ul class="checks">
+    <li><span class="k">Tempo</span><span class="v"><span class="ok">Confirmed</span><b>92 BPM is right.</b> "Super easy to follow along." Don't let a more musical take at a faster tempo win — that trade is the whole failure mode of this genre.</span></li>
+    <li><span class="k">いってきます</span><span class="v"><span class="ok">Confirmed</span><b>The っ survived.</b> A real beat of silence — <em>it-te</em>, not <em>ite</em>. This was the main risk to the entire premise: a song that swallows the sokuon teaches wrong mora-timing, which is worse than teaching nothing. The reserve fix (<span style="font-family:var(--f-jp)">いっ てきます</span> with a space) wasn't needed.</span></li>
+    <li><span class="k">こんにちワ</span><span class="v"><span class="ok">Confirmed</span><b>The particle fix works and doesn't sound robotic.</b> Mixed hiragana/katakana mid-word didn't degrade the singing. The two-document rule is real, and for a kana-only song it costs exactly three changed lines.</span></li>
+    <li><span class="k">A ⟷ B</span><span class="v"><span class="bad-b">Broke</span><b>The voices never alternated.</b> One singer throughout. Not a mystery and probably not a tier limit — see below.</span></li>
+    <li><span class="k">おはよう</span><span class="v"><span class="unt">Untested</span>The long-vowel risk didn't surface, but wasn't specifically listened for. If the う ever articulates as its own syllable: <span style="font-family:var(--f-jp)">おはよーございます</span>, in the score only.</span></li>
+    <li><span class="k">Intro / Outro</span><span class="v"><span class="unt">Untested</span>Suno will most likely sing these rather than speak them. That matters more than it looks — the spoken tag is the pitch-accent mitigation. If it sings, record those four seconds separately and edit them on.</span></li>
+  </ul>
+
+  <h3>Why the duet failed — and why the fix makes the song better</h3>
+  <div class="col">
+    <div class="callout">
+      <p class="lead">The song asked Suno to change voice every single line. That's finer than it can switch.</p>
+      <p>Practitioner consensus is that a part change has to sit in a block of roughly <strong>two lines</strong>. Finer than that and the model either holds one voice — what happened here — or degrades into <span style="font-family:var(--f-jp)">朗読劇</span>, a reading play rather than a song. Nothing observed points at the free tier; the granularity explains it completely.</p>
+      <p style="margin-bottom:0">So: <strong>double every line.</strong> Each voice holds two before handing over. And that isn't a compromise — doubling the line doubles the repetition, which <em>is</em> the method. The learner now hears each phrase twice in one voice before the answer arrives. The constraint improved the song.</p>
+    </div>
+    <p><strong>If it still fails, stop fighting timbre and change texture instead.</strong> Make the response a <em>group</em> answering a lead, doo-wop style. Backing vocals are an arrangement texture rather than a second soloist, so Suno handles them reliably — and a group answering the lead is arguably better pedagogy anyway, because the learner joins the group instead of watching two other people talk. That's style prompt B, and it just went from third choice to second.</p>
+    <p style="font-size:.9rem;color:var(--ink-3)">Paid Personas would give a further lever — lock a voice per role — but they shouldn't be bought to solve this particular symptom until the doubling and the texture swap have both been tried.</p>
+  </div>
+</section>
+
+<!-- 06 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">06</span><h2>One judgment call I'd flag</h2></div>
+  <div class="col">
+    <div class="callout">
+      <p class="lead">Verse 2 — the ございます layer — is arguably a different song.</p>
+      <p>The hook and the clock verse teach a <em>situation</em>. Verse 2 teaches a <em>rule about politeness</em>, which is a grammar lesson wearing the same clothes. It's the strongest single idea in the draft and it may be the thing that makes this song too full: eleven phrases plus a register rule is a lot for two minutes at N5.</p>
+      <p style="margin-bottom:0">I've left it in because it's cheap to cut and expensive to invent twice. <strong>If the gap test comes back weak, verse 2 is the first thing out</strong> — and it becomes its own episode, where one suffix and three greetings would carry a whole song comfortably.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 07 -->
+<section style="margin-bottom:34px">
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">07</span><h2>Your traditional-chant idea, parked properly</h2></div>
+  <div class="col">
+    <div class="parked">
+      <h3>It's a second strand, not a second topic — and it's a good one.</h3>
+      <p>いろは歌 and 北原白秋's 五十音 (「あめんぼ赤いな あいうえお」) are doing something the situational songs can't. They're not teaching phrases; they're teaching <em>the sound system itself</em>. 五十音 in particular was built as an articulation exercise — it's still what voice actors and announcers use to warm up, and it walks every row of the gojūon deliberately. That's the one thing a song can teach better than anything else, and it's the exact gap the pitch-accent problem leaves open.</p>
+      <p>Both are public domain — いろは is a thousand years old, and Hakushū's 五十音 is on 青空文庫 and Wikisource, which only carry expired copyright. So restyling them is clean.</p>
+      <p style="margin-bottom:0"><strong>Why park it anyway:</strong> it's a different product with a different test. A situational song succeeds if someone can fill the gap; a chant succeeds if someone's <em>mouth</em> moves better afterwards. Those need separate formats and separate proof. Get one situational song working first, then this strand gets its own planning pass — and it deserves one, because "五十音 as a series of style exercises" is genuinely a better idea than another vocabulary song.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>Episode 1 · あいさつ · draft 1 · 2026-08-27</span>
+  <span>Series plan: Sing It Twice</span>
+  <span>Written with Claude</span>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('bare');
+  if(b){b.addEventListener('click',function(){
+    var on=document.body.classList.toggle('bare');
+    b.setAttribute('aria-pressed',on?'true':'false');
+    b.textContent=on?'Show romaji & gloss':'See it as a learner would';
+  });}
+  document.querySelectorAll('button[data-copy]').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var el=document.getElementById(btn.getAttribute('data-copy'));
+      if(!el)return;
+      var t=el.innerText;
+      var done=function(){var o=btn.textContent;btn.textContent='Copied';
+        setTimeout(function(){btn.textContent=o;},1400);};
+      try{
+        navigator.clipboard.writeText(t).then(done,function(){fallback(t,done);});
+      }catch(e){fallback(t,done);}
+    });
+  });
+  function fallback(t,done){
+    try{
+      var ta=document.createElement('textarea');
+      ta.value=t;ta.style.position='fixed';ta.style.opacity='0';
+      document.body.appendChild(ta);ta.select();
+      document.execCommand('copy');document.body.removeChild(ta);done();
+    }catch(e){}
+  }
+})();
+</script>

@@ -1,0 +1,56 @@
+{
+  "id": "03-aiueo",
+  "title": "あいうえお",
+  "jp": "あ行 ・ gojuon row 1",
+  "strand": "learning",
+  "status": "generated",
+  "private": false,
+  "eyebrow": ["Sing It Twice", "Gojuon by words", "Row 1 · あ行"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 1 of the gojuon, taught not as bare vowels but through small, high-frequency <strong>daily words in context</strong> — say the word, then hear it used. It reads as a tiny day: morning → home &amp; dog → the sea → an errand → a snack.",
+  "concept": [
+    "Words alone teach recognition, not production — and a list of same-onset words even <em>blends</em> together (findings F-10). So every target word is shown <strong>in a short sentence</strong>, and the words recombine across the song (いく is taught with いえ, then reused at the sea and the station).",
+    "The five-kana row <em>あ い う え お</em> closes every verse as the sung-together refrain — where Suno's unison habit recruits the listener (F-07). The 3-minute cut reaches length by adding a <strong>day bridge</strong> and a <strong>review pass</strong>, not by looping (F-12)."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" },
+    { "label": "Suno score — v1 (words-only, superseded)", "file": "suno-v1.txt", "note": "kept as the record" }
+  ],
+  "vocab": [
+    { "vowel": "あ", "theme": "morning", "items": [
+      { "w": "あさ", "r": "asa", "m": "morning", "s": "おはよう", "sm": "good morning" },
+      { "w": "あめ", "r": "ame", "m": "rain", "s": "あさ から あめ", "sm": "rain since morning" },
+      { "w": "あお", "r": "ao", "m": "blue", "s": "あめ の あと、そら は あおい", "sm": "after the rain, the sky is blue" }
+    ]},
+    { "vowel": "い", "theme": "home & the dog", "items": [
+      { "w": "いえ", "r": "ie", "m": "house", "s": "ただいま", "sm": "I'm home" },
+      { "w": "いぬ", "r": "inu", "m": "dog", "s": "いえ に いぬ が いる", "sm": "there's a dog at home" },
+      { "w": "いく", "r": "iku", "m": "to go", "s": "いぬ と さんぽ に いく", "sm": "go for a walk with the dog" }
+    ]},
+    { "vowel": "う", "theme": "out to the sea", "items": [
+      { "w": "うみ", "r": "umi", "m": "sea", "s": "うみ へ いく", "sm": "go to the sea" },
+      { "w": "うた", "r": "uta", "m": "song", "s": "うた を うたう", "sm": "sing a song" },
+      { "w": "うさぎ", "r": "usagi", "m": "rabbit", "s": "うさぎ が いる", "sm": "there's a rabbit" }
+    ]},
+    { "vowel": "え", "theme": "at the station", "items": [
+      { "w": "えき", "r": "eki", "m": "station", "s": "えき へ いく", "sm": "go to the station" },
+      { "w": "えんぴつ", "r": "enpitsu", "m": "pencil", "s": "えんぴつ を かう", "sm": "buy a pencil" },
+      { "w": "えん", "r": "en", "m": "yen", "s": "えんぴつ は ひゃくえん", "sm": "the pencil is 100 yen" }
+    ]},
+    { "vowel": "お", "theme": "a snack", "items": [
+      { "w": "おにぎり", "r": "onigiri", "m": "rice ball", "s": "おにぎり を たべる", "sm": "eat a rice ball" },
+      { "w": "おちゃ", "r": "ocha", "m": "tea", "s": "おちゃ を のむ", "sm": "drink tea" },
+      { "w": "おかね", "r": "okane", "m": "money", "s": "おかね を はらう", "sm": "pay the money" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

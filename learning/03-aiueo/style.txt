@@ -1,0 +1,97 @@
+あいうえお — STYLE PROMPTS + VOICE TESTS
+learning/ strand. This song is ALSO the audition for the SERIES VOICE — see
+"Defining the main voice" below. Test 2–3 styles, pick the take whose voice we
+want to live with, then make a Persona from it.
+
+FIVE constants across every option (learning-series clarity rules):
+  · SINGLE clear vocalist for these tests — no duet, no group (Persona-seed
+    reasons; house-style.md). The unison あいうえお refrain comes later.
+  · Mid-range, warm, friendly. Not childish, not breathy — a good teacher's voice.
+  · EXTREMELY clear enunciation; every kana distinct, especially the five vowels.
+  · Tempo 88–96 (F-01: 92 validated as easy to follow). Never trade clarity for
+    a more musical faster take.
+  · Dry, forward vocal, minimal reverb, space between phrases.
+
+════════════════════════════════════════════════════════════════════════
+SUNO PANEL SETTINGS (the "More Options" panel) — lock these for the audition.
+The point is to REDUCE randomness so each take is judged on the voice, not luck.
+
+  Lyrics:          Write  (paste suno-v2.txt — the contextual version)
+  Exclude styles:  autotune, heavy reverb, ad-libs, whisper, distortion
+  Vocal Gender:    SET EXPLICITLY — never Auto. This IS the main-voice choice.
+  Weirdness:       ~20%   (low = predictable, clean vowels; high mangles mora)
+  Style Influence: ~50–60% (on-genre without burying the vocal)
+  Duration:        Custom → ~3:00 for the YouTube version (see below).
+                   If one pass won't reach it, use Suno EXTEND (F-09).
+
+CHANGE EXACTLY ONE VARIABLE PER TAKE (house-style's controlled-variation test —
+the slot-swap idea applied to production). Keep everything else identical:
+  Take 1 — Style A (lo-fi),  Female,  weirdness 20%
+  Take 2 — Style A (lo-fi),  Male                 ← judges VOICE, nothing else moved
+  Take 3 — Style B (city pop), preferred gender   ← judges STYLE
+Three takes that cleanly answer "which voice" and "which sound," instead of
+three that differ in everything and settle nothing.
+
+DURATION STANDARD (Nepô, 2026-08-27): learning songs get FIXED lengths so the
+series isn't all over the place — **~1:00 for the vertical Stories/Reels cut**
+and **~3:00 for the YouTube version**, where the long one is filled with the
+contextual SENTENCES (not a repeated loop). Mirrored in ../../house-style.md.
+The audition takes below can be the ~3:00 YouTube cut.
+
+LOG every take's full recipe (style, gender, weirdness, style-influence,
+duration, what happened) into ../../findings.md — the winning numbers become the
+house defaults.
+════════════════════════════════════════════════════════════════════════
+
+--- A · LO-FI HIP HOP  ★ recommended house sound ---
+The study-music aesthetic — this is literally what people put on to study. Calm,
+modern, adult, endlessly listenable, and the clear vocal sits perfectly on top.
+Great "general daily life" feel, zero childishness.
+lo-fi hip hop, 86 BPM, single warm clear vocalist,
+dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle,
+relaxed and cozy, dry forward vocal, no autotune,
+extremely clear enunciation of every kana, space between phrases, no ad-libs
+
+--- B · CITY POP / LIGHT J-POP ---
+Bright, catchy, adult. The most "song you'd actually replay" option.
+Japanese city pop, 96 BPM, single bright clear female vocalist,
+warm electric piano, clean funk guitar, smooth bass, light 80s drums,
+cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs
+
+--- C · ACOUSTIC CAFÉ FOLK ---
+Warm, gentle, human. The safest for clarity; nothing competes with the voice.
+warm acoustic folk pop, 92 BPM, single gentle clear vocalist,
+nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel,
+kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs
+
+--- D · KOTO × MODERN BEAT (classic × modern) ---
+Ties the series to a Japanese identity — the traditional-meets-modern idea.
+modern Japanese pop with traditional koto, 90 BPM, single clear vocalist,
+koto, shakuhachi accents, soft modern beat, warm bass,
+elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs
+
+────────────────────────────────────────────────────────────────────────
+DEFINING THE MAIN VOICE (house-style.md, the strategic fork → option 3:
+"one voice, many arrangements")
+
+Plan:
+1. Generate this song with a SINGLE clear voice in 2–3 of the styles above
+   (A and B are the strongest contrast to judge on).
+2. Pick the VOICE we want to hear across the whole series — judge the singer,
+   not the arrangement.
+3. Make a PERSONA from that take (Suno → Personas). This words-only, single-voice
+   song is a GOOD Persona seed (no duet, no register jumps, plain neutral
+   lyrics) — exactly what house-style.md says a seed should be.
+4. From then on: hold the Persona CONSTANT, let the genre/arrangement vary per
+   song (city pop one week, lo-fi the next) — that is how one artist ranges wide
+   and still sounds like themselves.
+
+Voice character to aim for: warm, mid-range, friendly, unmistakably CLEAR — a
+patient teacher who is also pleasant to replay. Gender is open; test both if
+unsure (A female vs A male) and let the ear decide.
+
+WORKFLOW (house-style.md / PIPELINE):
+· Custom mode. Paste suno-v2.txt into lyrics, one style prompt into style.
+· One pass — do NOT split and merge (F-09).
+· Read screen.txt while it plays and check no line was dropped (F-08 / stage 4).
+· Log what happened for each style into ../../findings.md (every take teaches).

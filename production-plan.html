@@ -1,0 +1,394 @@
+<title>Three Strands</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=swap">
+
+<style>
+:root{
+  --ground:#f2f4f0; --surface:#fbfcfa; --surface-2:#e9ede8;
+  --ink:#1a2320; --ink-2:#556158; --ink-3:#7d8a81;
+  --rule:#c6d4c8; --rule-soft:#dde5dc;
+  --green:#4a7a5e; --green-deep:#2e5540;
+  --shu:#bc4630; --shu-ink:#a03a26; --shu-soft:#f2e0da;
+  --shadow:0 1px 2px rgba(26,35,32,.05),0 8px 24px -16px rgba(26,35,32,.28);
+  --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
+  --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
+  --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
+  --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#121715; --surface:#1a201d; --surface-2:#222926;
+    --ink:#e7ede8; --ink-2:#a3b0a7; --ink-3:#7d8a82;
+    --rule:#313d36; --rule-soft:#262e2a;
+    --green:#7fb493; --green-deep:#a5d2b5;
+    --shu:#e57d63; --shu-ink:#f09077; --shu-soft:#39231d;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#121715; --surface:#1a201d; --surface-2:#222926;
+  --ink:#e7ede8; --ink-2:#a3b0a7; --ink-3:#7d8a82;
+  --rule:#313d36; --rule-soft:#262e2a;
+  --green:#7fb493; --green-deep:#a5d2b5;
+  --shu:#e57d63; --shu-ink:#f09077; --shu-soft:#39231d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-body);
+  font-size:16.5px;line-height:1.75;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1020px;margin:0 auto;padding:0 24px 90px}
+.col{max-width:68ch}
+
+.mast{padding:70px 0 34px;border-bottom:1px solid var(--rule);margin-bottom:50px}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--green);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:20px}
+.eyebrow span:not(:last-child)::after{content:"／";margin-left:10px;color:var(--rule)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(2.3rem,6.2vw,3.8rem);
+  line-height:1.06;letter-spacing:-.015em;margin:0 0 6px;text-wrap:balance}
+.h1-jp{font-family:var(--f-jp);font-weight:600;font-size:clamp(1rem,2.5vw,1.28rem);
+  color:var(--shu);letter-spacing:.14em;margin:0 0 22px}
+.standfirst{font-size:clamp(1.03rem,2vw,1.16rem);line-height:1.62;color:var(--ink-2);max-width:60ch;margin:0}
+.standfirst strong{color:var(--ink);font-weight:700}
+
+section{margin:0 0 68px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+.sec-mark{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--shu);
+  border:1px solid var(--rule);border-radius:2px;padding:2px 7px;white-space:nowrap}
+h2{font-family:var(--f-display);font-weight:700;font-size:clamp(1.42rem,3.2vw,1.85rem);
+  line-height:1.22;margin:0;text-wrap:balance}
+h3{font-family:var(--f-display);font-weight:700;font-size:1.1rem;margin:34px 0 10px;text-wrap:balance}
+.sec-sub{color:var(--ink-3);margin:0 0 28px;max-width:64ch;font-size:.955rem}
+p{margin:0 0 18px}
+a{color:var(--green-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+em{font-style:normal;color:var(--shu-ink);font-weight:500}
+.repeat{display:flex;align-items:center;gap:12px;margin:0 0 32px;color:var(--rule)}
+.repeat::before,.repeat::after{content:"";height:1px;background:var(--rule);flex:1}
+.repeat span{font-size:15px;color:var(--shu);letter-spacing:.3em;font-family:var(--f-mono)}
+
+.callout{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--shu);
+  border-radius:3px;padding:24px 26px;margin:0 0 24px;box-shadow:var(--shadow)}
+.callout .lead{font-family:var(--f-display);font-weight:700;font-size:1.12rem;line-height:1.45;
+  margin-bottom:11px;text-wrap:balance}
+.callout p:last-child{margin-bottom:0}
+.callout.q{border-left-color:var(--green)}
+
+/* figure */
+figure{margin:0 0 26px;background:var(--surface);border:1px solid var(--rule);
+  border-radius:3px;padding:26px 24px 20px;box-shadow:var(--shadow);overflow-x:auto}
+figure svg{max-width:100%;height:auto;display:block;margin:0 auto;min-width:640px}
+figcaption{font-size:.885rem;color:var(--ink-3);margin-top:18px;padding-top:14px;
+  border-top:1px dashed var(--rule);max-width:68ch}
+.dg-box{fill:none;stroke:currentColor;stroke-width:1.2}
+.dg-box-lit{fill:none;stroke:currentColor;stroke-width:1.2;opacity:.42}
+.dg-t{fill:currentColor;font-family:ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.06em}
+.dg-t-sm{fill:currentColor;font-family:ui-monospace,Menlo,monospace;font-size:9.5px;
+  letter-spacing:.08em;opacity:.55}
+.dg-line{stroke:currentColor;stroke-width:1.2;fill:none}
+.dg-exit{stroke:var(--shu);stroke-width:1.6;fill:none}
+.dg-exit-t{fill:var(--shu);font-family:ui-monospace,Menlo,monospace;font-size:11px;
+  letter-spacing:.06em;font-weight:600}
+.dg-dim{opacity:.42}
+
+/* strands */
+.strands{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:16px;margin:0 0 26px}
+.strand{background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+  padding:20px;display:flex;flex-direction:column;gap:12px;box-shadow:var(--shadow)}
+.strand.private{border-color:var(--shu)}
+.strand h3{margin:0;font-size:1.06rem;display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+.strand h3 code{font-family:var(--f-mono);font-size:.72em;background:var(--surface-2);
+  padding:2px 6px;border-radius:2px;color:var(--ink-2);font-weight:400}
+.strand .who{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3)}
+.strand p{margin:0;font-size:.9rem;color:var(--ink-2);line-height:1.6}
+.pubtag{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  padding:3px 8px;border-radius:2px;align-self:flex-start;margin-top:auto;border:1px solid}
+.pubtag.yes{color:var(--green-deep);border-color:var(--green)}
+.pubtag.no{color:#fff;background:var(--shu);border-color:var(--shu)}
+.pubtag.maybe{color:var(--ink-3);border-color:var(--rule)}
+
+/* docs table */
+.tbl-wrap{overflow-x:auto;margin:0 0 22px;border:1px solid var(--rule);border-radius:3px}
+table{border-collapse:collapse;width:100%;min-width:560px;background:var(--surface)}
+th,td{text-align:left;padding:13px 16px;border-bottom:1px solid var(--rule-soft);vertical-align:top}
+th{font-family:var(--f-mono);font-size:10px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--ink-3);background:var(--surface-2);border-bottom:1px solid var(--rule);font-weight:400}
+tr:last-child td{border-bottom:none}
+td code{font-family:var(--f-mono);font-size:.83em;background:var(--surface-2);padding:2px 6px;
+  border-radius:2px;color:var(--ink)}
+td.why{font-size:.885rem;color:var(--ink-2)}
+tr.hot td{background:var(--shu-soft)}
+tr.hot td code{background:transparent;color:var(--shu-ink);font-weight:600}
+
+pre{margin:0 0 20px;padding:18px 16px;background:var(--surface);border:1px solid var(--rule);
+  border-radius:3px;font-family:var(--f-mono);font-size:12.5px;line-height:1.75;
+  color:var(--ink-2);overflow-x:auto}
+pre b{color:var(--shu);font-weight:600}
+
+.decks{display:flex;flex-direction:column;gap:0}
+.deck{padding:22px 0;border-top:1px solid var(--rule-soft)}
+.deck:last-child{border-bottom:1px solid var(--rule-soft)}
+.deck h4{margin:0 0 7px;font-family:var(--f-display);font-weight:700;font-size:1.04rem;
+  display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.deck h4 .pick{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:#fff;background:var(--shu);border-radius:2px;padding:2px 7px}
+.deck p{margin:0 0 9px;font-size:.93rem;color:var(--ink-2);max-width:66ch}
+.deck p:last-child{margin-bottom:0}
+
+.next{background:var(--surface);border:1px solid var(--rule);border-top:3px solid var(--shu);
+  border-radius:3px;padding:28px 30px 24px;box-shadow:var(--shadow)}
+.next h3{margin-top:0}
+.next ol{margin:0;padding-left:1.3em}
+.next li{margin-bottom:13px;color:var(--ink-2)}
+.next li b{color:var(--ink)}
+.next li:last-child{margin-bottom:0}
+
+footer{margin-top:16px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);
+  display:flex;flex-wrap:wrap;gap:8px 20px}
+@media (max-width:700px){ .mast{padding-top:48px} }
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow"><span>Sing It Twice</span><span>Production plan</span><span>2026-08-27</span></div>
+  <h1>Three Strands</h1>
+  <p class="h1-jp">うた ― せいさく の みちすじ</p>
+  <p class="standfirst">The project just became three products with three audiences, and only one of them is published. <strong>The pipeline is a cost. Deciding which strand pays it is the most consequential thing on this page</strong> — everything else is machinery.</p>
+</header>
+
+<!-- 01 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">01</span><h2>Rule zero: where each strand exits</h2></div>
+  <p class="sec-sub">Eleven stages carry a learning episode from a blank page to YouTube. A song for Satie passes through four of them and then it is finished.</p>
+
+  <figure>
+    <svg viewBox="0 0 990 330" role="img" aria-label="A production pipeline: three strands enter at Write; after the Assemble stage the personal and yuba strands exit, and only the learning strand continues through Timing, Video, Thumbnail and Publish.">
+      <defs>
+        <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,1 L9,5 L0,9 z" fill="currentColor"/>
+        </marker>
+        <marker id="arx" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+          <path d="M0,1 L9,5 L0,9 z" fill="var(--shu)"/>
+        </marker>
+      </defs>
+
+      <!-- entries -->
+      <text class="dg-t" x="8" y="82">learning</text>
+      <text class="dg-t" x="8" y="127">personal</text>
+      <text class="dg-t" x="8" y="172">yuba</text>
+      <path class="dg-line" d="M64,78 L76,78 L76,118" marker-end="url(#ar)"/>
+      <path class="dg-line" d="M64,123 L76,123" marker-end="url(#ar)"/>
+      <path class="dg-line" d="M64,168 L76,168 L76,128" marker-end="url(#ar)"/>
+
+      <!-- shared stages -->
+      <rect class="dg-box" x="86"  y="100" width="96" height="46" rx="2"/>
+      <text class="dg-t" x="134" y="121" text-anchor="middle">WRITE</text>
+      <text class="dg-t-sm" x="134" y="136" text-anchor="middle">1–2</text>
+
+      <rect class="dg-box" x="198" y="100" width="96" height="46" rx="2"/>
+      <text class="dg-t" x="246" y="121" text-anchor="middle">GENERATE</text>
+      <text class="dg-t-sm" x="246" y="136" text-anchor="middle">3–4</text>
+
+      <rect class="dg-box" x="310" y="100" width="96" height="46" rx="2"/>
+      <text class="dg-t" x="358" y="121" text-anchor="middle">REPAIR</text>
+      <text class="dg-t-sm" x="358" y="136" text-anchor="middle">5 · paid</text>
+
+      <rect class="dg-box" x="422" y="100" width="96" height="46" rx="2"/>
+      <text class="dg-t" x="470" y="121" text-anchor="middle">ASSEMBLE</text>
+      <text class="dg-t-sm" x="470" y="136" text-anchor="middle">6</text>
+
+      <path class="dg-line" d="M182,123 L196,123" marker-end="url(#ar)"/>
+      <path class="dg-line" d="M294,123 L308,123" marker-end="url(#ar)"/>
+      <path class="dg-line" d="M406,123 L420,123" marker-end="url(#ar)"/>
+
+      <!-- exits -->
+      <path class="dg-exit" d="M518,123 L546,123 L546,214 L664,214" marker-end="url(#arx)"/>
+      <path class="dg-exit" d="M518,123 L546,123 L546,268 L664,268" marker-end="url(#arx)"/>
+      <text class="dg-exit-t" x="676" y="218">personal — SENT</text>
+      <text class="dg-exit-t" x="676" y="272">yuba — decide</text>
+      <text class="dg-t-sm" x="676" y="234">no video · no thumbnail · no audit</text>
+      <text class="dg-t-sm" x="676" y="288">case by case</text>
+
+      <!-- learning-only continuation -->
+      <path class="dg-line" d="M518,123 L570,123 L570,60 L586,60" marker-end="url(#ar)"/>
+      <g class="dg-dim">
+        <rect class="dg-box-lit" x="596" y="38" width="82" height="44" rx="2"/>
+        <text class="dg-t" x="637" y="58" text-anchor="middle">TIME</text>
+        <text class="dg-t-sm" x="637" y="72" text-anchor="middle">7</text>
+        <rect class="dg-box-lit" x="692" y="38" width="82" height="44" rx="2"/>
+        <text class="dg-t" x="733" y="58" text-anchor="middle">VIDEO</text>
+        <text class="dg-t-sm" x="733" y="72" text-anchor="middle">8</text>
+        <rect class="dg-box-lit" x="788" y="38" width="82" height="44" rx="2"/>
+        <text class="dg-t" x="829" y="58" text-anchor="middle">THUMB</text>
+        <text class="dg-t-sm" x="829" y="72" text-anchor="middle">9</text>
+        <path class="dg-line" d="M678,60 L690,60" marker-end="url(#ar)"/>
+        <path class="dg-line" d="M774,60 L786,60" marker-end="url(#ar)"/>
+      </g>
+      <path class="dg-line" d="M870,60 L900,60 L900,100" marker-end="url(#ar)"/>
+      <rect class="dg-box" x="852" y="106" width="96" height="46" rx="2"/>
+      <text class="dg-t" x="900" y="127" text-anchor="middle">PUBLISH</text>
+      <text class="dg-t-sm" x="900" y="142" text-anchor="middle">10–11</text>
+
+      <text class="dg-t-sm" x="596" y="20">built for the series, unbuilt today</text>
+    </svg>
+    <figcaption>Three strands enter and one reaches publication. The branch sits immediately after <strong>Assemble</strong>, stage 6 — the moment the audio is finished. Everything to the right of it exists to serve strangers on YouTube, and nothing to the right of it makes a song for your wife any better.</figcaption>
+  </figure>
+
+  <div class="col">
+    <div class="callout">
+      <p class="lead">The risk to the family songs isn't quality. It's that they never get sent.</p>
+      <p style="margin-bottom:0">If a song for Satie has to clear a kanji audit, a timing pass and a thumbnail template before it counts as done, it will sit in a folder. <strong>Write it, generate it, listen once, send it.</strong> That strand's whole value is that it arrives while the feeling is still true.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">02</span><h2>The three strands</h2></div>
+  <p class="sec-sub">Different audience, different privacy, different success test. Mixing them would wreck all three — which is why they are now separate folders rather than a naming convention.</p>
+
+  <div class="strands">
+    <div class="strand">
+      <h3>Learning <code>learning/</code></h3>
+      <span class="who">Japanese learners · N5 · strangers</span>
+      <p>Situational songs plus restyled traditional chants. Sing along on the first listen, use the pattern by the third. Japanese-only lyrics — the illustration carries the meaning, never a translation.</p>
+      <p><strong>Test:</strong> can they fill the gap a day later?</p>
+      <span class="pubtag yes">Public · full pipeline</span>
+    </div>
+    <div class="strand private">
+      <h3>Personal <code>personal/</code></h3>
+      <span class="who">Satie · your son</span>
+      <p>An English journal entry becoming a short Japanese song — a thought shared in her language. Something new for your boy.</p>
+      <p><strong>Test:</strong> did it land?</p>
+      <span class="pubtag no">Private · never published</span>
+    </div>
+    <div class="strand">
+      <h3>Yuba <code>yuba/</code></h3>
+      <span class="who">The farm · the community</span>
+      <p>Moods and feelings. Not a whimsical fit: Yuba is an eighty-year-old Japanese-Brazilian community with <em>its own theatre</em>, choir and arts tradition. Music is already what the place does — this strand joins something rather than importing it.</p>
+      <p><strong>Scope undecided:</strong> for the community, or about it.</p>
+      <span class="pubtag maybe">Case by case</span>
+    </div>
+  </div>
+
+  <div class="col">
+    <h3>Three things the personal strand needs that the others don't</h3>
+    <p><strong>Adapt, don't translate.</strong> A journal entry is English prose; a song is compressed and rhythmic. Translating the entry faithfully will produce awkward Japanese and a stiff song. Carry the <em>one true feeling</em> in six lines and it lands far harder than twenty accurate ones.</p>
+    <p><strong>Have the Japanese read by a native speaker before sending.</strong> The stakes are simply different. A learning song with an odd phrase is a curiosity; a love letter with one is something else.</p>
+    <p><strong>Single voice, short, and no phonetic tricks that leak into meaning.</strong> The <span style="font-family:var(--f-jp)">は</span>→<span style="font-family:var(--f-jp)">ワ</span> misspellings exist to fix a machine. In a drill a mispronounced syllable is a footnote; in a song meant to carry feeling it costs more.</p>
+  </div>
+</section>
+
+<!-- 03 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">03</span><h2>The two-document rule just became three</h2></div>
+  <p class="sec-sub">Your video spec — no romaji, no furigana, kanji held to a grade — created a third lyric encoding that didn't exist before, and it's the strictest of them.</p>
+
+  <div class="tbl-wrap">
+    <table>
+      <thead><tr><th>File</th><th>For</th><th>Rules</th></tr></thead>
+      <tbody>
+        <tr><td><code>learner.txt</code></td><td class="why">Study</td><td class="why">Correct orthography, romaji, gloss. Kanji is fine — it's a page, you can stare at it.</td></tr>
+        <tr><td><code>suno.txt</code></td><td class="why">The machine</td><td class="why">Deliberately misspelled. <span style="font-family:var(--f-jp)">は</span>→<span style="font-family:var(--f-jp)">ワ</span>, ambiguous kanji→katakana, digits spelled out.</td></tr>
+        <tr class="hot"><td><code>screen.txt</code></td><td class="why"><strong>The video</strong></td><td class="why">Correct orthography, <strong>no romaji, no furigana, no gloss</strong>, kanji held to the song's grade. Read in real time with zero support.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="col">
+    <p><code>screen.txt</code> is the one that decides whether the video teaches anything. Everything a learner cannot decode in the second it is on screen is wasted — which makes "limit the kanji" the single highest-leverage constraint in the whole video spec.</p>
+
+    <h3>So it's now a machine check, not a vibe</h3>
+    <p>Your grade idea maps onto a real system: the MEXT <span style="font-family:var(--f-jp)">学年別漢字配当表</span>, which assigns every one of the 1,026 kyōiku kanji to a school year. That means a song's reading level is <strong>a fact a script can verify</strong>. I built it — <code>songs/tools/kanji_grade.py</code>:</p>
+    <pre>$ python3 tools/kanji_grade.py learning/01-aisatsu/screen.txt --grade 1
+
+8 distinct kanji in screen.txt
+
+  grade 1   ( 7)  日月人先生学校
+  UNKNOWN   ( 1)  <b>調</b>
+            ^ not in any loaded grade list. Do not assume.
+
+<b>FAILS grade 1: 調</b>
+Fix by rewriting those words in kana, or raise the song's grade.
+
+Fixed kanji panel for the video (copy as-is):
+  日  月  人  先  生  学  校</pre>
+    <p>It also prints the video's fixed kanji panel, so <strong>that list is generated rather than hand-kept</strong> — which is the difference between a feature and a chore you'll abandon by episode four.</p>
+    <p style="font-size:.9rem;color:var(--ink-3)">One deliberate choice in the data: grade 1 ships complete and verified at 80 kanji; <strong>grades 2–6 are empty stubs</strong>. A wrong kanji in a linter is a silent bug that teaches the wrong thing, so it reports UNKNOWN rather than guessing. Fill them from the MEXT table when a song needs a higher grade.</p>
+  </div>
+</section>
+
+<!-- 04 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">04</span><h2>The video, and what actually builds it</h2></div>
+  <p class="sec-sub">Suno doesn't do video. Your spec — words highlighting as sung, waveform, timecodes, elements pulsing to the beat, a fixed kanji panel — is a template problem, not an editing problem.</p>
+
+  <div class="decks">
+    <div class="deck">
+      <h4>Timing <span class="pick">Do it by hand first</span></h4>
+      <p>The word-level timing file — not the video — is the pipeline's real artifact. It decouples <em>when each word is sung</em> from <em>how the video looks</em>, so you can rebuild the video a hundred times without re-timing a thing.</p>
+      <p><strong>Hand-time song one.</strong> Forty lines, twenty minutes in any audio editor. Automating this before the format has proven itself is exactly the mistake I made with the split-and-merge advice — engineering around a problem nobody had measured.</p>
+      <p>When you do automate: this is <strong>forced alignment, not transcription</strong>. You already know the text, which is a much easier problem than guessing it. WhisperX gives word-level timestamps; Montreal Forced Aligner is reported more accurate for precisely this case.</p>
+    </div>
+    <div class="deck">
+      <h4>Video <span class="pick">Remotion</span></h4>
+      <p>React, programmatic, renders MP4, and word-level caption libraries already exist for it. The right tool because the series needs <em>the same video a dozen times with different content</em> — which is what a template engine does well and what a timeline editor does badly.</p>
+      <p>It also puts the video in the same language as the rest of your work, so the kanji panel, the waveform and the beat-pulse are components rather than keyframes you re-draw per episode.</p>
+    </div>
+    <div class="deck">
+      <h4>The visuals — and this is the good one</h4>
+      <p><strong>They should come from the Irasutoya catalogue.</strong> Thirty-six thousand illustrations, already indexed, already mapped to every topic on the slate, already queryable by <code>tools/pipeline/index/q.py</code> for the exact word being sung.</p>
+      <p>Right now the song series only <em>borrows</em> from the encyclopedia — it takes the topic list and the counts. Sourcing the video frames and the thumbnails from the catalogue is the step where it stops borrowing and <strong>starts being made of it</strong>. Same for stage 9: thumbnail = illustration + the song's kanji + the series mark, generated from a template, never hand-made.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 05 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">05</span><h2>Style stays open, on purpose</h2></div>
+  <div class="col">
+    <p>Koto and traditional, kids' songs, classic crossed with modern — that exploration is the right call and it shouldn't be closed early. But two decisions are quietly in tension and it's worth naming before it bites:</p>
+    <div class="callout q">
+      <p class="lead">"Nail down one style so it sounds like a set" and "try a bunch of things" pull opposite ways.</p>
+      <p style="margin-bottom:0">The resolution in <code>house-style.md</code>: <strong>one voice, many arrangements.</strong> Hold the Persona constant and let the genre move. That's how a single artist's record can range widely and stay unmistakably theirs — and it's what a Persona is actually built to do, since vocal character travels across genres better than arrangement does. Explore freely; just explore <em>under one voice</em>.</p>
+    </div>
+    <p>Which is why the <strong>seed track comes first</strong>. It's a throwaway — one short single-voice generation whose only job is to be a clean identity source, because duets make poor Persona seeds and both existing songs are duets. Nothing else can be locked until that exists.</p>
+    <p>And the two cheapest identity devices are still unbuilt: the <strong>sting</strong> and the <strong>sign-off</strong>. Three seconds each, generated once as standalone assets and edited onto every episode. They cost almost nothing, they do more for "this is a series" than any voice-locking feature, and unlike a Persona they survive every Suno model change.</p>
+    <p style="font-size:.9rem;color:var(--ink-3)">The paid tier is now justified by a measured need rather than a guess: mid-song pronunciation repair is paid-only, and without it one bad syllable costs a full regeneration — which then arrives with a fresh set of random defects.</p>
+  </div>
+</section>
+
+<!-- 06 -->
+<section style="margin-bottom:34px">
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">06</span><h2>Next four things, in this order</h2></div>
+  <div class="col">
+    <div class="next">
+      <h3 style="margin-top:0">Each one is cheap and de-risks the next.</h3>
+      <ol>
+        <li><b>Seed track → Persona.</b> One single-voice throwaway. Until this exists, every generation is a different band.</li>
+        <li><b>Sting + sign-off into <code>assets/</code>.</b> Three seconds each. The door from あいさつ is already sitting there.</li>
+        <li><b>Write <code>screen.txt</code> for あいさつ</b> and lint it at grade 1. This is the first time the video spec touches a real song, and it will change the lyric.</li>
+        <li><b>Hand-time that one song.</b> Twenty minutes. <em>Only then</em> build anything in Remotion.</li>
+      </ol>
+      <p style="margin:16px 0 0;font-size:.93rem"><strong>The Remotion template is deliberately last.</strong> It's the most expensive thing here and the easiest to build wrong — and it can't be designed properly until a real timing file exists to build it against.</p>
+    </div>
+    <p style="margin-top:26px"><strong>And the one still outstanding from two sessions ago:</strong> the gap test on あいさつ. Play it twice, wait a day, say <span style="font-family:var(--f-jp)">ただいま</span>, see whether <span style="font-family:var(--f-jp)">おかえりなさい</span> comes back. Everything on this page assumes the format works, and that assumption is still untested.</p>
+  </div>
+</section>
+
+<footer>
+  <span>Production plan · 2026-08-27</span>
+  <span>songs/README.md · PIPELINE.md · house-style.md · findings.md</span>
+  <span>Written with Claude</span>
+</footer>
+
+</div>

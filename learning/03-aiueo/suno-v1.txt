@@ -1,0 +1,52 @@
+あいうえお — SUNO SCORE v1  (UNTESTED as of 2026-08-27)
+learning/ strand — PUBLIC. Gojuon ROW 1 (あ行).
+
+PHONETIC FIXES (findings.md F-02): NONE NEEDED. This song has no particles
+(は/を/へ), no kanji, no digits, no Latin — it is the safest possible case
+(F-02: kana-only songs are unusually safe). suno = screen here.
+
+SPACING: the row refrain is written "あ い う え お" with spaces so Suno keeps
+the five vowels SEPARATE and clear — clarity is the whole product of a kana song.
+Each verse's word line leads with the vowel, then its three words.
+
+STRUCTURE (findings): the row refrain closes every verse, because Suno sings a
+verse's last line in unison and that is exactly where the learner joins in
+(F-07). Word lines are all distinct and never adjacent to a near-identical line
+(F-08). Refrains are identical and repeat harmlessly.
+
+VOICE: generate SINGLE VOICE for the style/voice tests (see style.txt) — no duet,
+no group. This song is a good Persona seed precisely because it is one clear
+voice. The group-unison refrain is a LATER arrangement layer, added once the
+house voice is locked.
+
+[A bright, clear solo vocal. Every syllable crisply enunciated. Tempo 92.]
+
+[Intro]
+あ い う え お
+
+[Verse]
+あ あさ あめ あお
+あ い う え お
+
+[Verse]
+い いえ いぬ いく
+あ い う え お
+
+[Verse]
+う うみ うた うさぎ
+あ い う え お
+
+[Verse]
+え えき えん えんぴつ
+あ い う え お
+
+[Verse]
+お おちゃ おにぎり おかね
+あ い う え お
+
+[Chorus]
+あ い う え お
+あ い う え お
+
+[Outro]
+あ い う え お

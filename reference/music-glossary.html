@@ -1,0 +1,303 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Sound Words</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=swap">
+
+<style>
+:root{
+  --ground:#f2f4f0; --surface:#fbfcfa; --surface-2:#e9ede8;
+  --ink:#1a2320; --ink-2:#556158; --ink-3:#7d8a81;
+  --rule:#c6d4c8; --rule-soft:#dde5dc;
+  --green:#4a7a5e; --green-deep:#2e5540;
+  --shu:#bc4630; --shu-ink:#a03a26; --shu-soft:#f2e0da;
+  --shadow:0 1px 2px rgba(26,35,32,.05),0 8px 24px -16px rgba(26,35,32,.28);
+  --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
+  --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
+  --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
+  --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#121715; --surface:#1a201d; --surface-2:#222926;
+  --ink:#e7ede8; --ink-2:#a3b0a7; --ink-3:#7d8a82;
+  --rule:#313d36; --rule-soft:#262e2a;
+  --green:#7fb493; --green-deep:#a5d2b5;
+  --shu:#e57d63; --shu-ink:#f09077; --shu-soft:#39231d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
+}}
+:root[data-theme="dark"]{
+  --ground:#121715; --surface:#1a201d; --surface-2:#222926;
+  --ink:#e7ede8; --ink-2:#a3b0a7; --ink-3:#7d8a82;
+  --rule:#313d36; --rule-soft:#262e2a;
+  --green:#7fb493; --green-deep:#a5d2b5;
+  --shu:#e57d63; --shu-ink:#f09077; --shu-soft:#39231d;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-body);
+  font-size:16.5px;line-height:1.75;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px 90px}
+.col{max-width:70ch}
+
+.mast{padding:70px 0 34px;border-bottom:1px solid var(--rule);margin-bottom:50px}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--green);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:20px}
+.eyebrow span:not(:last-child)::after{content:"／";margin-left:10px;color:var(--rule)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(2.3rem,6.2vw,3.8rem);
+  line-height:1.06;letter-spacing:-.015em;margin:0 0 6px;text-wrap:balance}
+.h1-jp{font-family:var(--f-jp);font-weight:600;font-size:clamp(1rem,2.5vw,1.28rem);
+  color:var(--shu);letter-spacing:.14em;margin:0 0 22px}
+.standfirst{font-size:clamp(1.03rem,2vw,1.16rem);line-height:1.62;color:var(--ink-2);max-width:62ch;margin:0}
+.standfirst strong{color:var(--ink);font-weight:700}
+
+section{margin:0 0 64px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:10px;flex-wrap:wrap}
+.sec-mark{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--shu);
+  border:1px solid var(--rule);border-radius:2px;padding:2px 7px;white-space:nowrap}
+h2{font-family:var(--f-display);font-weight:700;font-size:clamp(1.42rem,3.2vw,1.85rem);
+  line-height:1.22;margin:0;text-wrap:balance}
+h3{font-family:var(--f-mono);font-weight:400;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--green);margin:36px 0 14px}
+.sec-sub{color:var(--ink-3);margin:0 0 28px;max-width:66ch;font-size:.955rem}
+p{margin:0 0 18px}
+a{color:var(--green-deep);text-decoration-thickness:1px;text-underline-offset:3px}
+strong{font-weight:700}
+em{font-style:normal;color:var(--shu-ink);font-weight:500}
+.repeat{display:flex;align-items:center;gap:12px;margin:0 0 32px;color:var(--rule)}
+.repeat::before,.repeat::after{content:"";height:1px;background:var(--rule);flex:1}
+.repeat span{font-size:15px;color:var(--shu);letter-spacing:.3em;font-family:var(--f-mono)}
+
+.callout{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--shu);
+  border-radius:3px;padding:22px 24px;margin:0 0 24px;box-shadow:var(--shadow)}
+.callout .lead{font-family:var(--f-display);font-weight:700;font-size:1.08rem;line-height:1.45;margin-bottom:9px}
+.callout p:last-child{margin-bottom:0}
+.callout.warn{border-left-color:var(--green)}
+
+/* structure diagram (reused) */
+.struct{background:var(--surface);border:1px solid var(--rule);border-radius:3px;
+  padding:18px 22px;margin:0 0 22px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.struct .blk{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink-2);background:var(--surface-2);border:1px solid var(--rule);border-radius:2px;padding:6px 11px}
+.struct .blk.hl{background:var(--shu-soft);color:var(--shu-ink);border-color:var(--shu);font-weight:600}
+.struct .arw{color:var(--ink-3);font-family:var(--f-mono);font-size:12px}
+.struct .lbl{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);width:100%;margin-bottom:2px}
+
+/* glossary terms */
+.terms{display:grid;grid-template-columns:1fr 1fr;gap:0 40px;margin:0 0 8px}
+.term{padding:15px 0;border-top:1px solid var(--rule-soft);break-inside:avoid}
+.term .n{font-family:var(--f-display);font-weight:700;font-size:1.03rem;color:var(--ink);
+  display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin-bottom:3px}
+.term .n .jp{font-family:var(--f-jp);font-size:.82rem;color:var(--shu);font-weight:600;letter-spacing:.04em}
+.term .d{font-size:.9rem;color:var(--ink-2);margin:0}
+.term .d b{color:var(--ink);font-weight:600}
+.term .ex{font-size:.82rem;color:var(--ink-3);margin:5px 0 0;font-style:italic}
+.term .ex::before{content:"“";}.term .ex::after{content:"”";}
+
+/* knob rows */
+.knobs{display:flex;flex-direction:column;gap:0;margin:0 0 8px}
+.knob{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:14px 0;border-top:1px solid var(--rule-soft);align-items:baseline}
+.knob:last-child{border-bottom:1px solid var(--rule-soft)}
+.knob .k{font-family:var(--f-display);font-weight:700;font-size:.98rem}
+.knob .k small{display:block;font-family:var(--f-mono);font-size:9.5px;letter-spacing:.08em;
+  text-transform:uppercase;color:var(--ink-3);font-weight:400;margin-top:2px}
+.knob .v{font-size:.9rem;color:var(--ink-2)}
+.knob .v .poles{font-family:var(--f-mono);font-size:11px;color:var(--shu-ink);letter-spacing:.02em}
+
+/* feedback phrasebook table */
+.phrase{width:100%;border-collapse:collapse;margin:0 0 8px;font-size:.9rem}
+.phrase th{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);text-align:left;font-weight:400;padding:0 16px 10px 0;border-bottom:1px solid var(--rule)}
+.phrase td{padding:12px 16px 12px 0;border-bottom:1px solid var(--rule-soft);vertical-align:top;color:var(--ink-2)}
+.phrase td.feel{color:var(--ink);font-weight:600;width:30%}
+.phrase td.knob{font-family:var(--f-mono);font-size:11px;color:var(--shu-ink);width:22%;white-space:nowrap}
+
+footer{margin-top:20px;padding-top:24px;border-top:1px solid var(--rule);
+  font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);
+  display:flex;flex-wrap:wrap;gap:8px 20px}
+footer a{color:var(--green)}
+
+@media (max-width:720px){
+  .terms{grid-template-columns:1fr}
+  .knob{grid-template-columns:1fr;gap:3px}
+  .phrase td.feel,.phrase td.knob{width:auto}
+  .mast{padding-top:48px}
+}
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}
+</style>
+
+<div class="wrap">
+
+<header class="mast">
+  <div class="eyebrow"><span>Songs</span><span>Reference</span><span>Producer's glossary</span></div>
+  <h1>Sound Words</h1>
+  <p class="h1-jp">音楽のことば</p>
+  <p class="standfirst">A plain-language map of how a song is built and the knobs you can turn — so you can name exactly what you are hearing, <strong>finding, or missing</strong>. Skip to §4 when a take feels off and you want the word for it.</p>
+</header>
+
+<!-- 01 -->
+<section>
+  <div class="repeat"><span>&#x1D106;</span></div>
+  <div class="sec-head"><span class="sec-mark">01</span><h2>The parts of a song</h2></div>
+  <p class="sec-sub">The building blocks. A song is these blocks put in an order — that order is the <em>structure</em> (§2).</p>
+
+  <div class="struct">
+    <span class="lbl">a common pop shape</span>
+    <span class="blk">Intro</span><span class="arw">→</span>
+    <span class="blk">Verse</span><span class="arw">→</span>
+    <span class="blk hl">Chorus</span><span class="arw">→</span>
+    <span class="blk">Verse</span><span class="arw">→</span>
+    <span class="blk hl">Chorus</span><span class="arw">→</span>
+    <span class="blk">Bridge</span><span class="arw">→</span>
+    <span class="blk hl">Chorus</span><span class="arw">→</span>
+    <span class="blk">Outro</span>
+  </div>
+
+  <div class="terms">
+    <div class="term"><div class="n">Intro</div><p class="d">The opening. Sets tempo and mood before the singing. Ours is the spoken/​sung <b>cold open</b>.</p></div>
+    <div class="term"><div class="n">Verse</div><p class="d">The storytelling section. New words each time, usually the <b>same music</b>. Where our lesson content lives.</p></div>
+    <div class="term"><div class="n">Pre-chorus</div><p class="d">A short ramp that builds tension and hands you into the chorus.</p></div>
+    <div class="term"><div class="n">Chorus <span class="jp">hook</span></div><p class="d">The <b>repeating high point</b> — same words and music each time. The bit you remember. Our <em>あいうえお</em> refrain plays this role.</p></div>
+    <div class="term"><div class="n">Hook</div><p class="d">The single stickiest phrase — often the chorus, but any line designed to lodge in your head.</p></div>
+    <div class="term"><div class="n">Refrain</div><p class="d">A recurring line, shorter than a full chorus, often closing each verse.</p></div>
+    <div class="term"><div class="n">Bridge</div><p class="d">A <b>contrasting</b> section, usually once, late — new melody or feel to break the pattern before the final chorus. Our v3 "day" bridge.</p></div>
+    <div class="term"><div class="n">Outro</div><p class="d">The ending — a wind-down, a repeat of the hook, or a <b>tag</b>.</p></div>
+    <div class="term"><div class="n">Tag</div><p class="d">A tiny repeated phrase at the very end to button the song shut.</p></div>
+    <div class="term"><div class="n">Breakdown</div><p class="d">Strip most parts away, leave one or two — makes space, then rebuild.</p></div>
+    <div class="term"><div class="n">Drop</div><p class="d">The release after a build — the moment the full arrangement/beat lands.</p></div>
+    <div class="term"><div class="n">Vamp</div><p class="d">A short chord/rhythm figure repeated to hold a groove (often under ad-libs).</p></div>
+  </div>
+</section>
+
+<!-- 02 -->
+<section>
+  <div class="sec-head"><span class="sec-mark">02</span><h2>Common shapes</h2></div>
+  <p class="sec-sub">How the blocks get ordered. Naming the shape tells everyone what to expect.</p>
+
+  <div class="struct"><span class="lbl">Verse–Chorus (most pop)</span>
+    <span class="blk">V</span><span class="arw">→</span><span class="blk hl">C</span><span class="arw">→</span>
+    <span class="blk">V</span><span class="arw">→</span><span class="blk hl">C</span><span class="arw">→</span>
+    <span class="blk">Bridge</span><span class="arw">→</span><span class="blk hl">C</span></div>
+
+  <div class="struct"><span class="lbl">Strophic — same music, new words (our lesson verses)</span>
+    <span class="blk">V1</span><span class="arw">→</span><span class="blk">V2</span><span class="arw">→</span>
+    <span class="blk">V3</span><span class="arw">→</span><span class="blk">V4</span><span class="arw">→</span><span class="blk">V5</span></div>
+
+  <div class="struct"><span class="lbl">AABA — 32-bar / standards</span>
+    <span class="blk">A</span><span class="arw">→</span><span class="blk">A</span><span class="arw">→</span>
+    <span class="blk hl">B</span><span class="arw">→</span><span class="blk">A</span></div>
+
+  <div class="struct"><span class="lbl">Through-composed — no repeats (五十音)</span>
+    <span class="blk">A</span><span class="arw">→</span><span class="blk">B</span><span class="arw">→</span>
+    <span class="blk">C</span><span class="arw">→</span><span class="blk">D</span><span class="arw">→</span><span class="blk">…</span></div>
+
+  <div class="callout warn">
+    <p class="lead">Our lesson songs are strophic verses + a returning refrain.</p>
+    <p style="margin-bottom:0">The v3 long cut adds a <b>bridge</b> (the day) and a <b>review</b> pass so it can run 3 minutes without looping — that's <em>structure</em> doing the work, not repetition.</p>
+  </div>
+</section>
+
+<!-- 03 -->
+<section>
+  <div class="sec-head"><span class="sec-mark">03</span><h2>The variables — the knobs you can turn</h2></div>
+  <p class="sec-sub">Change one at a time and you can hear what it did. Each knob below has two poles you can push toward.</p>
+
+  <h3>Time — how it moves</h3>
+  <div class="knobs">
+    <div class="knob"><div class="k">Tempo <small>BPM</small></div><div class="v">Speed, in beats per minute. <span class="poles">slow ↔ fast</span>. Ours sits ~92 for singability.</div></div>
+    <div class="knob"><div class="k">Meter <small>time signature</small></div><div class="v">Beats per bar — 4/4 (march/pop), 3/4 (waltz/lullaby sway), 6/8 (rolling).</div></div>
+    <div class="knob"><div class="k">Groove <small>feel</small></div><div class="v">How the beat leans. <span class="poles">straight ↔ swung</span>; tight ↔ laid-back.</div></div>
+    <div class="knob"><div class="k">Syncopation</div><div class="v">Accents landing off the main beat — more = funkier/less predictable.</div></div>
+    <div class="knob"><div class="k">Density <small>note rate</small></div><div class="v">How many notes/words per second. <span class="poles">sparse ↔ busy</span>. Busy blurs diction.</div></div>
+  </div>
+
+  <h3>Pitch — the notes</h3>
+  <div class="knobs">
+    <div class="knob"><div class="k">Key</div><div class="v">The home note/chord family the song centres on.</div></div>
+    <div class="knob"><div class="k">Scale <small>mode</small></div><div class="v"><span class="poles">major (bright) ↔ minor (moody)</span>. The quickest mood switch there is.</div></div>
+    <div class="knob"><div class="k">Register</div><div class="v">How high or low. <span class="poles">low (calm) ↔ high (bright/urgent)</span>.</div></div>
+    <div class="knob"><div class="k">Melody</div><div class="v">The tune — the line you'd hum.</div></div>
+    <div class="knob"><div class="k">Harmony</div><div class="v">Notes stacked <b>under</b> the melody. Two singers a third apart = harmony.</div></div>
+    <div class="knob"><div class="k">Chord progression</div><div class="v">The order the chords move in — the emotional "road" beneath everything.</div></div>
+  </div>
+
+  <h3>Sound — the colour</h3>
+  <div class="knobs">
+    <div class="knob"><div class="k">Timbre <small>tone</small></div><div class="v">The <b>character</b> of a sound regardless of pitch — warm, bright, dusty, glassy.</div></div>
+    <div class="knob"><div class="k">Instrumentation</div><div class="v">Which instruments play. Our lever for genre (koto vs Rhodes vs guitar).</div></div>
+    <div class="knob"><div class="k">Texture <small>density</small></div><div class="v">How many layers at once. <span class="poles">thin/bare ↔ thick/lush</span>.</div></div>
+    <div class="knob"><div class="k">Arrangement</div><div class="v">Who plays <b>what, when</b> — the plan of parts across the song. The biggest lever after melody.</div></div>
+  </div>
+
+  <h3>Voice — how it's sung</h3>
+  <div class="knobs">
+    <div class="knob"><div class="k">Lead</div><div class="v">The main vocal carrying the melody/words.</div></div>
+    <div class="knob"><div class="k">Backing <small>BGV</small></div><div class="v">Support vocals — harmonies, echoes, "oohs." A <b>texture</b>, not a second lead.</div></div>
+    <div class="knob"><div class="k">Unison</div><div class="v">Two+ voices on the <b>same</b> note/words. Where a listener joins in — our F-07 refrain.</div></div>
+    <div class="knob"><div class="k">Call &amp; response</div><div class="v">A lead sings, a group answers. Good pedagogy; Suno handles the group as texture.</div></div>
+    <div class="knob"><div class="k">Diction <small>enunciation</small></div><div class="v">How clearly words are pronounced. <b>The whole product of a teaching song.</b></div></div>
+    <div class="knob"><div class="k">Phrasing</div><div class="v">Where the singer breathes and stresses — the "punctuation" of a melody.</div></div>
+    <div class="knob"><div class="k">Ad-lib</div><div class="v">Improvised extras (runs, "yeah"s). We exclude these — they blur a lesson.</div></div>
+    <div class="knob"><div class="k">Melisma</div><div class="v">One syllable stretched over many notes. Beautiful, but it <b>hides mora timing</b>.</div></div>
+    <div class="knob"><div class="k">Vibrato</div><div class="v">A gentle wobble in pitch held on a note.</div></div>
+    <div class="knob"><div class="k">Falsetto / head vs chest</div><div class="v">Light airy high voice vs. full grounded voice.</div></div>
+  </div>
+
+  <h3>Space &amp; energy — the mix and the arc</h3>
+  <div class="knobs">
+    <div class="knob"><div class="k">Dynamics</div><div class="v">Loud vs soft, and the <b>change</b> between them. Flat dynamics = dull.</div></div>
+    <div class="knob"><div class="k">Reverb <small>wet/dry</small></div><div class="v">Sense of room/space. <span class="poles">dry (close, clear) ↔ wet (distant, washy)</span>. Wet blurs words.</div></div>
+    <div class="knob"><div class="k">Delay <small>echo</small></div><div class="v">Repeats of a sound — rhythmic space.</div></div>
+    <div class="knob"><div class="k">Mix</div><div class="v">The balance of everything. "Vocal is buried" = a mix note.</div></div>
+    <div class="knob"><div class="k">EQ <small>tone balance</small></div><div class="v">Bright vs dark; thin vs boomy; "muddy" = too much low-mid.</div></div>
+    <div class="knob"><div class="k">Build / riser</div><div class="v">Rising energy toward a drop or chorus.</div></div>
+    <div class="knob"><div class="k">Tension &amp; release</div><div class="v">The core of feeling in music — set up an expectation, then pay it off.</div></div>
+    <div class="knob"><div class="k">Contrast / variation</div><div class="v">Making a section <b>differ</b> from its neighbour. The cure for "boring."</div></div>
+  </div>
+</section>
+
+<!-- 04 -->
+<section>
+  <div class="sec-head"><span class="sec-mark">04</span><h2>Saying what you mean</h2></div>
+  <p class="sec-sub">You already hear these. This is the word for each, and the knob it points at — so a note lands precisely instead of "something's off."</p>
+  <table class="phrase">
+    <thead><tr><th class="feel">What you feel</th><th>What to say</th><th class="knob">The knob</th></tr></thead>
+    <tbody>
+      <tr><td class="feel">The words blur together</td><td>"Diction isn't clear — more space between phrases, less reverb."</td><td class="knob">diction · density · reverb</td></tr>
+      <tr><td class="feel">It drags / sleepy</td><td>"Lift the energy — it may be dynamics or arrangement, not tempo."</td><td class="knob">energy · dynamics</td></tr>
+      <tr><td class="feel">Too fast to follow</td><td>"Drop the tempo a little; it's outrunning the lesson."</td><td class="knob">tempo</td></tr>
+      <tr><td class="feel">Gets boring after a bit</td><td>"Needs contrast — a bridge, or change the texture in round 2."</td><td class="knob">arrangement · variation</td></tr>
+      <tr><td class="feel">Too repetitive</td><td>"Vary one thing each pass — don't loop the same block."</td><td class="knob">variation</td></tr>
+      <tr><td class="feel">Voice is buried</td><td>"Vocal needs to sit on top — more presence, less wash behind it."</td><td class="knob">mix · reverb</td></tr>
+      <tr><td class="feel">Feels childish</td><td>"Warmer timbre, calmer groove — less bright and bouncy."</td><td class="knob">timbre · feel</td></tr>
+      <tr><td class="feel">Feels cold / robotic</td><td>"More human phrasing and dynamics; a touch of warmth."</td><td class="knob">phrasing · dynamics</td></tr>
+      <tr><td class="feel">The ending just stops</td><td>"Give it an outro or a tag to land on."</td><td class="knob">structure</td></tr>
+      <tr><td class="feel">Muddy / cluttered</td><td>"Thin the texture; clean up the low-mids."</td><td class="knob">texture · EQ</td></tr>
+      <tr><td class="feel">I can't tell the words apart in the list</td><td>"Same-onset words blur — put them in sentences." (our F-10)</td><td class="knob">density · diction</td></tr>
+      <tr><td class="feel">It didn't feel like a conversation</td><td>"Suno makes a duet trade sections, not talk — need texture or two takes." (F-07)</td><td class="knob">arrangement</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- 05 -->
+<section>
+  <div class="sec-head"><span class="sec-mark">05</span><h2>How this maps to what we've learned</h2></div>
+  <p class="sec-sub">The vocabulary above, tied to the project's own findings — so a term and a finding point at the same thing.</p>
+  <div class="terms">
+    <div class="term"><div class="n">Unison → F-07</div><p class="d">Suno sings a verse's <b>last line in unison</b>. Put the phrase everyone should sing there.</p></div>
+    <div class="term"><div class="n">Density/diction → F-10</div><p class="d">A list of same-onset words <b>blends</b>. Sentences add space and context — clarity and pedagogy at once.</p></div>
+    <div class="term"><div class="n">Structure → F-12</div><p class="d">Suno performs pasted lyrics <b>once</b>, so length = lyric quantity. Reach 3 min by adding a bridge + review, not a loop.</p></div>
+    <div class="term"><div class="n">Timbre/feel → the voice</div><p class="d">City-pop female is the house voice for basic songs; lo-fi and koto are kept for moodier content.</p></div>
+    <div class="term"><div class="n">Arrangement → F-04</div><p class="d">A part change needs a <b>~2-line block</b> — finer than that and Suno holds one voice or turns it into a reading.</p></div>
+    <div class="term"><div class="n">Groove → the mora grid</div><p class="d">Bossa/​swing pulls <b>against</b> even mora timing; straight grooves protect the rhythm the song teaches.</p></div>
+  </div>
+</section>
+
+<footer>
+  <span>Sound Words</span>
+  <span>songs/reference/music-glossary.html</span>
+  <span>Companion to findings.md &amp; house-style.md</span>
+</footer>
+
+</div>

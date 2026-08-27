@@ -1,0 +1,24 @@
+# ── PRIVACY: the family songs never enter the repo / GitHub / Pages ──
+personal/
+
+# ── Reference library — copyrighted books / notes, kept local only ──
+books/
+
+# ── Heavy, reproducible ──
+node_modules/
+tools/align/.venv/
+__pycache__/
+*.pyc
+video/out/
+.remotion/
+
+# ── Media (audio/video) — large, regenerated from Suno/Remotion, not source ──
+*.wav
+*.mp3
+*.mp4
+*.m4a
+video/public/*
+
+# ── OS / editor ──
+.DS_Store
+*.log
