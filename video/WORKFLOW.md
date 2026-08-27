@@ -117,7 +117,7 @@ the tools, all native:
 |---|---|---|
 | **Text measuring** | `@remotion/layout-utils` `measureText` / `fitText` / `fillTextBox` | already used in `LyricVideo.tsx`; `fitText` sizes a line to a width |
 | **Waveform / beat-pulsing** | `@remotion/media-utils` `useAudioData` + `visualizeAudio` | per-frame frequency amplitudes → bars, or pulse the moon/illustration/kana |
-| **Illustration per word** | `<Img src={staticFile(...)}>` | pull Irasutoya hi-res webp (find via `tools/pipeline/index/q.py`), copy into `public/`. This is where the video is "made of the encyclopedia." |
+| **Illustration per word** | `<Img src={staticFile(...)}>` | pull Irasutoya hi-res webp (find via `q.py` in the **sibling Irasutoya project** — see README → External dependency), copy into `public/`. This is where the video is "made of the encyclopedia." |
 | **Scene transitions** | `@remotion/transitions` `<TransitionSeries>` | fade/slide/wipe between intro→verse→outro or slot-swaps |
 | **Kanji panel held to grade** | `songs/tools/kanji_grade.py` | already generates the fixed panel; render as a static sidebar |
 | **Captions data shape** | `@remotion/captions` `Caption` type | standard structure if we grow beyond our JSON |
