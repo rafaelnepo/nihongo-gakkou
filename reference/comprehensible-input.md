@@ -52,6 +52,18 @@ is exactly why **F-10** ("words alone don't teach; put them in sentences") is tr
   supported.
 - **Rule:** deliver the +1 with a picture and a scene, not a gloss on screen.
 
+> **The canonical example.** A learner hears 「昨日、電車で学校に行きました」
+> (*yesterday I went to school by train*) and already knows every part except
+> **電車** (train). Draw a **picture of a train** and the whole sentence lands —
+> and 電車 is acquired, with no translation. One new word (*+1*) inside an
+> otherwise-known sentence (*i*), made comprehensible by an image. **That is our
+> word → sentence → illustration design, exactly.**
+>
+> **And you don't need 100%.** "Comprehensible" means *almost* understood — mostly
+> known with one new piece — not fully understood. So a song can carry a little
+> unknown material without losing the learner; aim for **mostly-clear, not
+> all-clear**.
+
 ### 3 · The Monitor Hypothesis
 **Theory.** Consciously learned rules act only as an internal **editor** — a
 "monitor" that can polish output, but only when the learner has (a) enough time,
@@ -71,6 +83,13 @@ the monitor.
 confidence, or weak motivation **raise the filter** and stop input from reaching
 the brain's processing systems. A safe, low-stress, motivating environment keeps
 the filter **low** and lets input through.
+
+**Compelling, not merely comprehensible.** The strongest input isn't just
+*non-threatening* — it's genuinely **interesting**, enjoyable enough that the
+learner forgets it's a foreign language. Low anxiety is the floor; *wanting to
+replay it* is the goal. This is the real case for the warm house voice, the
+pleasant arrangements, and the RPG-rich narrative: **a song people love is more
+input, freely taken.**
 
 **For our songs.** Songs are naturally low-filter, and we protect that:
 - **No test, no correction.** The video never quizzes and never corrects — a wrong
@@ -109,6 +128,21 @@ acquisition take its own order, rather than forcing a grammar sequence.
 
 ---
 
+## Scaffolding techniques we borrow
+
+A CI teacher makes the unknown understandable with four moves — each maps onto a
+song/video choice:
+
+| CI teaching move | Our version |
+|---|---|
+| Speak **slowly and clearly** | ~92 BPM, diction-first, dry forward vocal |
+| **Show a picture** | one Irasutoya illustration per word |
+| **Gesture / motion** | the bouncing ball, the animated scene |
+| **Paraphrase hard words into simpler known ones** | build the *+1* sentence out of words the learner already has — surround the new word with the familiar |
+
+That last one is a writing rule: when a target word is above level, keep the rest
+of its sentence made of already-acquired words, so the sentence itself stays *i*.
+
 ## What this changes — and what it deliberately doesn't
 
 - **Songs ask for output (singing).** That looks like "production," which Krashen
@@ -143,3 +177,8 @@ Input (i + 1), Monitor, Affective Filter, and Natural Order hypotheses, and his
 classroom applications. Primary texts (kept in the local, git-excluded `books/`):
 *The Natural Approach* and *Principles and Practice in Second Language
 Acquisition*.
+
+See also the **Comprehensible Japanese** channel's explainer 「理解可能なインプット
+とは？」 — a clear worked demonstration of *i + 1* with a drawn picture (the 電車
+example above is theirs). It's the same idea our project delivers through **songs**
+rather than narrated video — and it's itself a good model of *compelling* input.
