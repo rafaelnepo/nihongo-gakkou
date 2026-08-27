@@ -25,7 +25,7 @@ We already have most of that and have not been treating it as an asset:
 | Cold open → spoken tag bookend | architecture 00 / 07 |
 | Two-document rule | `findings.md` F-02 |
 | Japanese-only, no translation in the lyric | `README.md` |
-| **Learning-song duration** (fixed so the series isn't all over the place — Nepô, 2026-08-27): **~1:00 vertical Stories/Reels cut · ~3:00 YouTube** (the long version is filled with contextual sentences, NOT a repeated loop — findings F-10) | `learning/03-aiueo/style.txt` |
+| **Learning-song duration** (fixed so the series isn't all over the place — Nepô, 2026-08-27): **~1:00 vertical Stories/Reels cut · ~3:00 YouTube** (the long version is filled with contextual sentences, NOT a repeated loop — findings F-10) | `learning/01-aiueo/style.txt` |
 
 **Two things are missing, and both are cheap.** Adding them will do more for
 "this is a set" than any voice-locking feature:

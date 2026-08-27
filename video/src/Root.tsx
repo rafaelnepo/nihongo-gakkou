@@ -1,10 +1,12 @@
 import React from "react";
 import { Composition } from "remotion";
 import { LyricVideo } from "./LyricVideo";
-import { videoSchema } from "./schema";
-import { calculateMetadata } from "./metadata";
+import { LearningVideo } from "./LearningVideo";
+import { videoSchema, learningSchema } from "./schema";
+import { calculateMetadata, calculateLearningMetadata } from "./metadata";
 import { SONGS } from "./songs/registry";
-import { durationInFramesOf } from "./types";
+import { LEARNING_SONGS } from "./songs/learning-registry";
+import { durationInFramesOf, learningDurationInFrames } from "./types";
 
 // One <Composition> per song, all driven by the SAME template, schema and
 // metadata. Adding a song is one line in songs/registry.ts. The id is also the
@@ -28,6 +30,21 @@ export const RemotionRoot: React.FC = () => {
           calculateMetadata={calculateMetadata}
           // Fallbacks shown before calculateMetadata resolves the real length.
           durationInFrames={durationInFramesOf(timing)}
+          fps={timing.fps}
+          width={timing.width}
+          height={timing.height}
+        />
+      ))}
+
+      {LEARNING_SONGS.map(({ id, timing }) => (
+        <Composition
+          key={id}
+          id={id}
+          component={LearningVideo}
+          schema={learningSchema}
+          defaultProps={{ songId: id }}
+          calculateMetadata={calculateLearningMetadata}
+          durationInFrames={learningDurationInFrames(timing)}
           fps={timing.fps}
           width={timing.width}
           height={timing.height}

@@ -1,4 +1,4 @@
-# 03-aiueo — the gojuon-by-words series, ROW 1 (あ行)
+# 01-aiueo — the gojuon-by-words series, ROW 1 (あ行)
 
 Each vowel is taught through small, high-frequency **daily-life words that start
 with it**, and — as of v2 — **each word is shown IN USE** in a short sentence,

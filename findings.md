@@ -205,7 +205,7 @@ This matters more than it looks: the spoken tag is the **pitch-accent mitigation
 a melody. If Suno sings it, record those four seconds separately and edit them on.
 
 ## F-10 · A LIST of same-onset words BLENDS — put words in sentences instead — CONFIRMED
-*2026-08-27, 03-aiueo v1. Found by Nepô listening.*
+*2026-08-27, 01-aiueo v1. Found by Nepô listening.*
 
 Nepô: *"it's hard to know when it's changing words. あ あさ あめ あお the
 pronunciation is too close together and it kind of blends together."*
@@ -230,13 +230,13 @@ same-onset words from ever being adjacent — the F-08 collapse guard, for free.
 **Format/duration also learned here (Nepô):** the 1-minute words-only cut is a
 good **vertical Stories/Reels** short; the **YouTube** version wants ~3 minutes,
 and the way to fill it *without repeating a section* is the contextual sentences,
-not a loop. See `house-style.md` (duration standard) and `03-aiueo/` v2.
+not a loop. See `house-style.md` (duration standard) and `01-aiueo/` v2.
 
-## F-11 · Series-voice audition on 03-aiueo v2 — VALIDATED (in progress)
+## F-11 · Series-voice audition on 01-aiueo v2 — VALIDATED (in progress)
 *2026-08-27. Auditioning the house voice — see `house-style.md` "Defining the
 main voice." One variable per take (the controlled-variation test).*
 
-Sliders per the `03-aiueo/style.txt` recipe (weirdness ~20%, Vocal Gender set
+Sliders per the `01-aiueo/style.txt` recipe (weirdness ~20%, Vocal Gender set
 explicitly, style influence ~50–60%). **Confirm the exact per-take numbers when
 picking the winner** — this log has the combos, not yet the precise slider values.
 
@@ -254,7 +254,7 @@ make the **Persona from the city-pop-female take** (clean single-voice seed) and
 record its exact sliders here.
 
 ## F-12 · Suno performs pasted lyrics ONCE through — length is PREDICTABLE — VALIDATED
-*2026-08-27, 03-aiueo v2. Nepô: "Suno is very literal when we paste in the
+*2026-08-27, 01-aiueo v2. Nepô: "Suno is very literal when we paste in the
 lyrics. It goes through it one time and ends the song."*
 
 Custom lyrics are **not** padded or looped — Suno performs them once and stops.
@@ -273,7 +273,7 @@ exact lyric is the crudest fill and risks Suno collapsing the identical repeat
 the words into the little narrative (the RPG-rich payoff), and/or a **second pass
 of the SENTENCES ONLY** (drop the isolated word calls — the learner already has
 them), which varies round 2 from round 1 and consolidates in context. See
-`03-aiueo/` for the 3-min test structure.
+`01-aiueo/` for the 3-min test structure.
 
 ---
 

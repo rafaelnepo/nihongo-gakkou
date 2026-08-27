@@ -21,7 +21,7 @@ open index.html                              # the dashboard — filter, copy st
 
 # Regenerate the song sheets + dashboard from the .txt/song.json source:
 node tools/build_sheets.mjs                   # all songs
-node tools/build_sheets.mjs learning/03-aiueo # one song
+node tools/build_sheets.mjs learning/01-aiueo # one song
 
 # The lyric-video engine (Remotion):
 cd video && npm install && npm start          # Studio; see video/WORKFLOW.md
@@ -45,7 +45,7 @@ No monorepo build; each sub-tool (`video/`, `tools/align/`) has its own deps.
 **These are three different products and mixing them would wreck all three.**
 
 ### learning/ — the series
-`01-aisatsu` (greetings), `02-gojuon` (the restyled Amenbo chant), `03-aiueo`
+`01-aisatsu` (greetings), `02-gojuon` (the restyled Amenbo chant), `01-aiueo`
 (the gojuon-by-words series, row 1). A beginner who reads kana should sing along
 on the **first** listen and use a whole sentence pattern by the **third**.
 
@@ -95,7 +95,7 @@ nihongo-gakkou/
 │   └── align/            ← WhisperX forced-alignment (Python venv) — see align/README.md
 ├── video/            ← Remotion lyric-video engine — see video/WORKFLOW.md
 ├── assets/           ← the sting and the sign-off (EMPTY — build these)
-├── learning/  01-aisatsu · 02-gojuon · 03-aiueo
+├── learning/  01-aisatsu · 02-gojuon · 01-aiueo
 ├── personal/  (private songs for his wife & son)   ← PRIVATE, git-excluded
 └── yuba/      (empty)
 ```

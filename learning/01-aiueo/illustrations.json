@@ -1,0 +1,128 @@
+{
+  "song": "01-aiueo",
+  "note": "Word -> Irasutoya illustration map. The chosen source files live in the sibling Irasutoya catalog (../../Irasutoya/images/<src>); tools/illustrations/fetch.mjs copies them into video/public/il/01-aiueo/<r>.png (git-ignored). Credit: illustrations by Irasutoya (いらすとや) — goes in the video description. Swap a pick by changing its `src` and re-running fetch.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/01-aiueo",
+  "items": [
+    {
+      "w": "あさ",
+      "r": "asa",
+      "m": "morning",
+      "s": "おはよう",
+      "cue": "morning / sunrise",
+      "src": "sun_yellow1.png"
+    },
+    {
+      "w": "あめ",
+      "r": "ame",
+      "m": "rain",
+      "s": "あさ から あめ",
+      "cue": "rain",
+      "src": "tenki_mark06_kurmoriame.png"
+    },
+    {
+      "w": "あお",
+      "r": "ao",
+      "m": "blue",
+      "s": "あめ の あと、そら は あおい",
+      "cue": "blue sky",
+      "src": "sora_aozora.png"
+    },
+    {
+      "w": "いえ",
+      "r": "ie",
+      "m": "house",
+      "s": "ただいま",
+      "cue": "house",
+      "src": "building_house1.png"
+    },
+    {
+      "w": "いぬ",
+      "r": "inu",
+      "m": "dog",
+      "s": "いえ に いぬ が いる",
+      "cue": "dog",
+      "src": "pet_dog_sit.png"
+    },
+    {
+      "w": "いく",
+      "r": "iku",
+      "m": "to go",
+      "s": "いぬ と さんぽ に いく",
+      "cue": "walking the dog",
+      "src": "pet_dog_sanpo_woman.png"
+    },
+    {
+      "w": "うみ",
+      "r": "umi",
+      "m": "sea",
+      "s": "うみ へ いく",
+      "cue": "sea / wave",
+      "src": "wave_nami2.png"
+    },
+    {
+      "w": "うた",
+      "r": "uta",
+      "m": "song",
+      "s": "うた を うたう",
+      "cue": "singing / music note",
+      "src": "gassyou_onpu.png"
+    },
+    {
+      "w": "うさぎ",
+      "r": "usagi",
+      "m": "rabbit",
+      "s": "うさぎ が いる",
+      "cue": "rabbit",
+      "src": "animal_usagi_nihon_nousagi.png"
+    },
+    {
+      "w": "えき",
+      "r": "eki",
+      "m": "station",
+      "s": "えき へ いく",
+      "cue": "train station",
+      "src": "tatemono_station.png"
+    },
+    {
+      "w": "えんぴつ",
+      "r": "enpitsu",
+      "m": "pencil",
+      "s": "えんぴつ を かう",
+      "cue": "pencil (single item)",
+      "src": "bunbougu_enpitsu.png"
+    },
+    {
+      "w": "えん",
+      "r": "en",
+      "m": "yen",
+      "s": "えんぴつ は ひゃくえん",
+      "cue": "100-yen coin",
+      "src": "money_coin_heisei_100.png"
+    },
+    {
+      "w": "おにぎり",
+      "r": "onigiri",
+      "m": "rice ball",
+      "s": "おにぎり を たべる",
+      "cue": "rice ball",
+      "src": "onigiri_ume.png"
+    },
+    {
+      "w": "おちゃ",
+      "r": "ocha",
+      "m": "tea",
+      "s": "おちゃ を のむ",
+      "cue": "green tea",
+      "src": "agari_yunomi.png"
+    },
+    {
+      "w": "おかね",
+      "r": "okane",
+      "m": "money",
+      "s": "おかね を はらう",
+      "cue": "money / cash",
+      "src": "money_genkin.png"
+    }
+  ]
+}

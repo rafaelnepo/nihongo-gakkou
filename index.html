@@ -7,31 +7,31 @@
 
 <style>
 :root{
-  --ground:#f2f4f0; --surface:#fbfcfa; --surface-2:#e9ede8;
-  --ink:#1a2320; --ink-2:#556158; --ink-3:#7d8a81;
-  --rule:#c6d4c8; --rule-soft:#dde5dc;
-  --green:#4a7a5e; --green-deep:#2e5540;
-  --shu:#bc4630; --shu-ink:#a03a26; --shu-soft:#f2e0da;
-  --shadow:0 1px 2px rgba(26,35,32,.05),0 8px 24px -16px rgba(26,35,32,.28);
+  --ground:#0b1226; --surface:#14203c; --surface-2:#1a2747;
+  --ink:#eef2fb; --ink-2:#a4b3d3; --ink-3:#6f7ea3;
+  --rule:#26345a; --rule-soft:#1a2748;
+  --green:#ff5c48; --green-deep:#ff8574;
+  --shu:#ff5c48; --shu-ink:#ff8574; --shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -16px rgba(0,0,0,.7);
   --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
   --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
   --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
   --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --ground:#121715; --surface:#1a201d; --surface-2:#222926;
-  --ink:#e7ede8; --ink-2:#a3b0a7; --ink-3:#7d8a82;
-  --rule:#313d36; --rule-soft:#262e2a;
-  --green:#7fb493; --green-deep:#a5d2b5;
-  --shu:#e57d63; --shu-ink:#f09077; --shu-soft:#39231d;
+  --ground:#0b1226; --surface:#14203c; --surface-2:#1a2747;
+  --ink:#eef2fb; --ink-2:#a4b3d3; --ink-3:#6f7ea3;
+  --rule:#26345a; --rule-soft:#1a2748;
+  --green:#ff5c48; --green-deep:#ff8574;
+  --shu:#ff5c48; --shu-ink:#ff8574; --shu-soft:#3a1912;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
 }}
 :root[data-theme="dark"]{
-  --ground:#121715; --surface:#1a201d; --surface-2:#222926;
-  --ink:#e7ede8; --ink-2:#a3b0a7; --ink-3:#7d8a82;
-  --rule:#313d36; --rule-soft:#262e2a;
-  --green:#7fb493; --green-deep:#a5d2b5;
-  --shu:#e57d63; --shu-ink:#f09077; --shu-soft:#39231d;
+  --ground:#0b1226; --surface:#14203c; --surface-2:#1a2747;
+  --ink:#eef2fb; --ink-2:#a4b3d3; --ink-3:#6f7ea3;
+  --rule:#26345a; --rule-soft:#1a2748;
+  --green:#ff5c48; --green-deep:#ff8574;
+  --shu:#ff5c48; --shu-ink:#ff8574; --shu-soft:#3a1912;
   --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);
 }
 *{box-sizing:border-box}
@@ -141,9 +141,7 @@ footer{margin-top:30px;font-family:var(--f-mono);font-size:11px;letter-spacing:.
 <script>
 const SONGS = [
     /* @generated:start — from song.json via build_sheets.mjs; do not edit */
-    {"id":"01-aisatsu","title":"Out the Door and Back","jp":"あいさつ ・ greetings","strand":"learning","status":"generated","priv":false,"meta":["Shōwa kayōkyoku","92 BPM","duet"],"blurb":"Everyday greetings as call-and-response — いってきます／ただいま. Episode 1; the tempo and particle-fix proofs came from here.","sheet":"learning/01-aisatsu/sheet.html","folder":"learning/01-aisatsu/","style":"Shōwa kayōkyoku, 92 BPM, male and female duet trading lines, upright bass, brushed drums, warm electric piano, nylon guitar, gentle and domestic, dry forward vocals, minimal reverb, very clear enunciation, sparse arrangement, space between phrases, no ad-libs"},
-    {"id":"02-gojuon","title":"Amenbo no Uta","jp":"五十音 ・ Hakushū","strand":"learning","status":"written","priv":false,"meta":["boom-bap","88 BPM","call & response"],"blurb":"Hakushū's classic articulation chant, restyled. Teaches the mouth, not vocabulary. The kana row is the refrain.","sheet":"learning/02-gojuon/sheet.html","folder":"learning/02-gojuon/","style":"boom bap hip hop, 88 BPM, clear-voiced rapper on the verses with a full group chanting the hook in unison, dusty upright bass, crisp snare, minimal piano loop, dry forward vocal, no reverb on the lead, no autotune, extremely clear consonants, hard rhythmic diction, space between the verse and the chant, no ad-libs"},
-    {"id":"03-aiueo","title":"あいうえお","jp":"あ行 ・ gojuon row 1","strand":"learning","status":"generated","priv":false,"meta":["City pop · female (house voice)","~92 BPM","Comprehensible input","YouTube ~3:00 · vertical ~1:00"],"blurb":"Row 1 of the gojuon, taught not as bare vowels but through small, high-frequency daily words in context — say the word, then hear it used. It reads as a tiny day: morning → home &amp; dog → the sea → an errand → a snack.","sheet":"learning/03-aiueo/sheet.html","folder":"learning/03-aiueo/","style":"Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs"}
+    {"id":"01-aiueo","title":"あいうえお","jp":"あ行 ・ gojuon row 1","strand":"learning","status":"generated","priv":false,"meta":["City pop · female (house voice)","~92 BPM","Comprehensible input","YouTube ~3:00 · vertical ~1:00"],"blurb":"Row 1 of the gojuon, taught not as bare vowels but through small, high-frequency daily words in context — say the word, then hear it used. It reads as a tiny day: morning → home &amp; dog → the sea → an errand → a snack.","sheet":"learning/01-aiueo/sheet.html","folder":"learning/01-aiueo/","style":"Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs"}
     /* @generated:end */
 ];
 
