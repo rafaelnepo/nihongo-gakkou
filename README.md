@@ -35,7 +35,7 @@ No monorepo build; each sub-tool (`video/`, `tools/align/`) has its own deps.
 
 | | `learning/` | `personal/` | `yuba/` |
 |---|---|---|---|
-| **Who for** | Japanese learners, N5 | Satie and Yuuto (family) | Yuba Farm |
+| **Who for** | Japanese learners, N5 | family (his wife & son) | Yuba Farm |
 | **Public?** | Yes — YouTube / GitHub Page | **Never — see Privacy** | Case by case |
 | **Pipeline** | All 11 stages | **Stops at stage 6 (sent)** | 0–6, then decide |
 
@@ -54,7 +54,7 @@ F-10). So a learning song reads as a tiny scene (a day, an errand) from the very
 first row.
 
 ### personal/ — songs for family
-Short Japanese songs for Nepô's wife (Satie) and son (Yuuto). **PRIVATE, never
+Short Japanese songs for his wife and son. **PRIVATE, never
 published** (see Privacy). Adapt, don't translate; single voice; get the Japanese
 read by a native speaker before sending.
 
@@ -92,7 +92,7 @@ nihongo-gakkou/
 ├── video/            ← Remotion lyric-video engine — see video/WORKFLOW.md
 ├── assets/           ← the sting and the sign-off (EMPTY — build these)
 ├── learning/  01-aisatsu · 02-gojuon · 03-aiueo
-├── personal/  te-extrano (Satie) · onaji-tsuki (Yuuto)   ← PRIVATE, git-excluded
+├── personal/  (private songs for his wife & son)   ← PRIVATE, git-excluded
 └── yuba/      (empty)
 ```
 
@@ -173,8 +173,8 @@ Irasutoya.
 
 - **Songs:** `01-aisatsu` generated; `03-aiueo` audition done (**house voice =
   city-pop female**), v3 (3-min) written; `02-gojuon` written; both personal songs
-  written (`onaji-tsuki` has a shipped lyric video).
+  written (one has a shipped lyric video).
 - **Engine:** Remotion parametric lyric-video template + WhisperX aligner both
-  built and proven on `onaji-tsuki`.
+  built and proven on the first song.
 - **Site:** dashboard + generated sheets + glossary built. **GitHub + Pages:
   pending** — set up the repo, confirm the Privacy handling, then push.

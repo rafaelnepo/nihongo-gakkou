@@ -4,6 +4,9 @@ personal/
 # ── Reference library — copyrighted books / notes, kept local only ──
 books/
 
+# ── Private song timing (family lullaby lyrics) — kept local, engine uses aiueo-demo ──
+video/timing/onaji-tsuki.json
+
 # ── Heavy, reproducible ──
 node_modules/
 tools/align/.venv/
@@ -22,3 +25,6 @@ video/public/*
 # ── OS / editor ──
 .DS_Store
 *.log
+
+# keep the public/ folder in the repo (audio itself stays ignored)
+!video/public/.gitkeep

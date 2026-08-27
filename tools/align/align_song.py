@@ -11,8 +11,8 @@ alignment text and interpolated back afterwards.
 
 Usage:
     .venv/bin/python align_song.py \
-        --audio ../../video/public/onaji-tsuki.wav \
-        --timing ../../video/timing/onaji-tsuki.json \
+        --audio ../../video/public/my-song.wav \
+        --timing ../../video/timing/my-song.json \
         [--write]
 
 Without --write it aligns and prints a report but does not touch the JSON.

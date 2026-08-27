@@ -10,7 +10,7 @@
 | **yuba/** | 0 → 6, then case-by-case | Depends who it's for |
 | **personal/** | 0 → 6. **That's it.** | Sent |
 
-**A song for Satie or for your son does not need a lyric video, a thumbnail,
+**A song for your wife or for your son does not need a lyric video, a thumbnail,
 or a grade audit.** It needs to be good and it needs to arrive. If a song for
 your family has to clear eleven stages, you will never send one — and that is
 the actual risk to this strand, not quality. Write it, generate it, listen once,

@@ -8,7 +8,7 @@ import { durationInFramesOf } from "./types";
 
 // One <Composition> per song, all driven by the SAME template, schema and
 // metadata. Adding a song is one line in songs/registry.ts. The id is also the
-// render target: `npx remotion render onaji-tsuki out.mp4`.
+// render target: `npx remotion render aiueo-demo out.mp4`.
 export const RemotionRoot: React.FC = () => {
   return (
     <>

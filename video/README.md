@@ -18,11 +18,11 @@ npm start            # opens Remotion Studio — scrub the timeline live
 
 ## Render an MP4
 ```bash
-npx remotion render onaji-tsuki out/onaji-tsuki.mp4
+npx remotion render aiueo-demo out/aiueo-demo.mp4
 ```
 A single still (fast visual check):
 ```bash
-npx remotion still onaji-tsuki out/frame.png --frame=250
+npx remotion still aiueo-demo out/frame.png --frame=250
 ```
 
 ## How a song is wired (parametric)
@@ -38,9 +38,9 @@ template (`src/LyricVideo.tsx`, `NightSky.tsx`, `palettes.ts`) is shared; props
 `src/metadata.ts`. See `WORKFLOW.md`.
 
 ## When the audio is ready (turning the placeholder into the real thing)
-1. Generate the song (see `../personal/onaji-tsuki/`).
-2. Put the file in `public/` (e.g. `public/onaji-tsuki.mp3`).
-3. In `timing/onaji-tsuki.json`: set `"audio":"onaji-tsuki.mp3"`,
+1. Generate your song.
+2. Put the file in `public/` (e.g. `public/my-song.mp3`).
+3. In `timing/my-song.json`: set `"audio":"my-song.mp3"`,
    `"placeholder":false`.
 4. Get the timings automatically with **`../tools/align/`** (WhisperX forced
    alignment) — it writes per-line `start`/`end` **and** per-character `chars[]`
@@ -54,6 +54,8 @@ from the timing JSON (from the aligner); with no `chars` it distributes glyphs
 evenly across the line, so the ball works even before alignment.
 
 ## Scope note
-`onaji-tsuki` is a **personal/ strand** song — PRIVATE, for Yuuto, never
-published. The video is a thing to send him, not a YouTube deliverable. The same
-template will serve the `learning/` series, which is where stage 8 formally belongs.
+The engine ships `aiueo-demo` (a placeholder, no audio) as its public example.
+It was first proven on a **personal/ strand** song — those are PRIVATE and kept
+local only (their timing JSON is git-ignored; add them to the registry locally
+when working on them). The same template serves the `learning/` series, which is
+where stage 8 formally belongs.

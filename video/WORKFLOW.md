@@ -2,7 +2,7 @@
 
 How to make a lyric video for the songs project. This is PIPELINE stages 7–9.
 Agent-facing (like the rest of the repo's `.md`); the `.html`/deliverables are
-for Nepô. Written 2026-08-27, after the first video (`onaji-tsuki`, a personal
+for Nepô. Written 2026-08-27, after the first video (a personal
 lullaby) proved the format.
 
 The engine is **parametric**: ONE template renders every song, driven by data +
@@ -17,7 +17,7 @@ typed props. Adding a song is a line in a registry and a timing JSON — no new
 cd songs/video
 npm install                 # first time
 npm start                   # Remotion Studio — pick a song, scrub, edit props live
-npx remotion render onaji-tsuki out/onaji-tsuki.mp4 --crf=16   # final
+npx remotion render aiueo-demo out/aiueo-demo.mp4 --crf=16   # final
 ```
 
 To add a song: drop `<audio>` in `public/`, write `timing/<id>.json`, align it
@@ -100,7 +100,7 @@ Timing lives in `timing/<id>.json` and has four levers, from coarse to fine:
 **Known aligner limit:** WhisperX **bunches characters on sustained/held sung
 notes** (a lullaby holds line-ends). `align_song.py` has a `debunch` pass that
 spreads bunched lines, but a badly-held tail is best hand-timed (see the note in
-`onaji-tsuki.json` — its last three lines are hand-timed for exactly this).
+a song timing JSON — its last lines may be hand-timed for exactly this).
 
 **The visual editor is Studio.** `npm start`, scrub with the audio, read the
 timecode, edit the JSON — it hot-reloads.

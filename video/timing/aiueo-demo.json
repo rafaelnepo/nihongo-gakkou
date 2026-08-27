@@ -1,0 +1,18 @@
+{
+  "song": "aiueo-demo",
+  "title": "あいうえお",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": null,
+  "placeholder": true,
+  "_note": "Public demo of the lyric-video engine — placeholder timing, no audio. Add a real song by dropping its audio in public/, writing a timing JSON, aligning it (tools/align), and registering it in src/songs/registry.ts.",
+  "titleCard": { "start": 0.0, "end": 3.0 },
+  "tailSeconds": 2.0,
+  "lines": [
+    { "text": "あさ あめ あお", "start": 4.0, "end": 8.0, "section": "verse" },
+    { "text": "あ い う え お", "start": 8.5, "end": 12.0, "section": "chorus" },
+    { "text": "いえ いぬ いく", "start": 13.0, "end": 17.0, "section": "verse" },
+    { "text": "あ い う え お", "start": 17.5, "end": 21.0, "section": "chorus" }
+  ]
+}

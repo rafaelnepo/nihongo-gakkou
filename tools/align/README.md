@@ -22,8 +22,8 @@ after.
 ```bash
 cd songs/tools/align
 .venv/bin/python align_song.py \
-  --audio  ../../video/public/onaji-tsuki.wav \
-  --timing ../../video/timing/onaji-tsuki.json          # dry run: prints a report
+  --audio  ../../video/public/my-song.wav \
+  --timing ../../video/timing/my-song.json          # dry run: prints a report
 # add --write to save the chars[] back into the timing JSON
 ```
 
