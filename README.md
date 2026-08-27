@@ -51,7 +51,8 @@ say the word, then show it USED in a short sentence, supported by the audio and
 the illustration — never isolated word-drills. Words alone teach recognition,
 not production, and a list of same-onset words even blends together (`findings.md`
 F-10). So a learning song reads as a tiny scene (a day, an errand) from the very
-first row.
+first row. Full theory (Krashen's five hypotheses) and how each part applies:
+`reference/comprehensible-input.md`.
 
 ### personal/ — songs for family
 Short Japanese songs for his wife and son. **PRIVATE, never
@@ -163,6 +164,7 @@ Irasutoya.
 | `PIPELINE.md` | idea → publication, the 11 stages (rule zero: only `learning/` pays the full cost) |
 | `house-style.md` | series identity, the voice/Persona plan, duration standards |
 | `findings.md` | measured Suno behaviour — read before generating |
+| `reference/comprehensible-input.md` | Krashen's CI theory (the *why*), applied to how we make songs |
 | `reference/music-glossary.html` | music terms + a "what you feel → what to say" phrasebook |
 | `video/WORKFLOW.md` | the Remotion engine: parametric template, add-a-song, timing |
 | `tools/align/README.md` | WhisperX forced alignment (per-character timing) |
