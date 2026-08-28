@@ -7,6 +7,7 @@ import type { LearningTiming } from "../src/types";
 
 const SONG_ID = "01-aiueo";
 const STEPS = [0.02, 0.05, 0.1, 0.2]; // seconds per arrow tap
+const PANE_PAD = 30; // left/right inset — title, video and shortcuts all start here
 
 const fmt = (s: number) => {
   const sec = Math.max(0, s);
@@ -389,7 +390,7 @@ const App: React.FC = () => {
 
   const compW = vertical ? 1080 : 1920;
   const compH = vertical ? 1920 : 1080;
-  const previewW = Math.min(1100, leftW - 36); // follows the pane width (drag)
+  const previewW = Math.min(1100, leftW - 2 * PANE_PAD); // follows the pane width (drag)
 
   const activeIdx = windows.reduce((acc, w, k) => (nowT >= w.s ? k : acc), -1);
 
@@ -690,7 +691,7 @@ const Legend: React.FC<{ k: string[]; d: string }> = ({ k, d }) => (
 const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React.CSSProperties> } = {
   app: { position: "fixed", inset: 0, display: "flex", flexDirection: "column", fontFamily: "ui-sans-serif, system-ui, sans-serif", background: "#f4efe4", color: "#3a352c" },
   center: { position: "fixed", inset: 0, display: "grid", placeItems: "center", fontFamily: "ui-sans-serif, system-ui", color: "#3a352c", background: "#f4efe4" },
-  header: { display: "flex", alignItems: "center", gap: 12, padding: "10px 16px", borderBottom: "1px solid #ddd3bf", background: "#faf6ec" },
+  header: { display: "flex", alignItems: "center", gap: 12, padding: `12px ${PANE_PAD}px`, borderBottom: "1px solid #ddd3bf", background: "#faf6ec" },
   spacer: { flex: 1 },
   control: { display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: "#6f685c" },
   select: { fontSize: 13, padding: "2px 4px", borderRadius: 5, border: "1px solid #cbc1ac", background: "#fff" },
@@ -703,7 +704,7 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
     error: { background: "#f4cfc7", color: "#b23a22" },
   },
   body: { flex: 1, display: "flex", minHeight: 0 },
-  left: { flex: "0 0 auto", padding: 18, display: "flex", flexDirection: "column", alignItems: "center", overflowY: "auto", background: "#f7f2e7" },
+  left: { flex: "0 0 auto", padding: `18px ${PANE_PAD}px`, display: "flex", flexDirection: "column", alignItems: "flex-start", overflowY: "auto", background: "#f7f2e7" },
   divider: { flex: "0 0 auto", width: 8, cursor: "col-resize", background: "#e7dcc6", borderLeft: "1px solid #ddd3bf", borderRight: "1px solid #ddd3bf", display: "flex", alignItems: "center", justifyContent: "center" },
   dividerGrip: { width: 2, height: 34, borderRadius: 2, background: "#b6ab92" },
   controls: { display: "flex", alignItems: "center", gap: 10, marginTop: 10, width: "100%" },
