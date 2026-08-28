@@ -27,6 +27,8 @@ elegant and calm, dry forward vocal, extremely clear enunciation of every kana, 
 あ い う え お
 か き く け こ
 さ し す せ そ
+た ち つ て と
+な に ぬ ね の
 
 ─── THEN ──────────────────────────────────────────────────────────────────────────
 Generate → pick the cleanest SOLO take → create a Persona → name it "Iconotes — Male".

@@ -12,10 +12,22 @@ kept out and re-added per episode as arrangement. Full rationale: [`../personas.
 | [`male-seed.txt`](male-seed.txt) | **Iconotes — Male** (P2) | koto × modern | ready to run |
 | [`kids-seed.txt`](kids-seed.txt) | **Iconotes Kids** (P3) | toy-box (mallets + hand percussion) | voice validated (findings F-14) |
 
-**All three share the same neutral lyric** — a plain count (`いち に さん …`) and two kana
-rows (`あ い う え お / か き く け こ / さ し す せ そ`). Nothing to lean on, so the *only*
-variable between the three seeds is the voice and its style — which also makes generating
-all three a built-in recognition test (do they come out as three distinct, clean voices?).
+## The lyric — neutral, not a real song
+
+**All three share the same neutral lyric** — a plain count (`いち に さん …`) and the gojūon
+rows (`あ い う え お / か き く け こ / さ し す せ そ / た ち つ て と / な に ぬ ね の`).
+
+**Why neutral, not one of our songs:** a Persona averages its source and carries melody/
+phrasing forward. A real song would bake in its melody *and* its refrain-unison (a group
+vocal = the mixed-identity we strip from seeds). A neutral lyric leaves only the voice. And
+for *this* project the neutral choice is also perfectly on-domain: kana-reading is what the
+series teaches, so the seed doubles as a **pure diction test** — every kana enunciated
+clearly, our #1 vocal requirement. Same lyric across all three = the only variable is the
+voice, so generating all three is a built-in **recognition test**.
+
+**To nail a clean take:** keep it short (~20–40s is plenty); tag sections `[Verse]` only —
+**never `[Chorus]`/`[Hook]`** (that's what recruits Suno's group-unison, the thing we're
+avoiding); and keep the one-voice direction at the top. Don't stack identity controls.
 
 **The loop:** run a seed once → save the Persona → then, for every real song, select the
 Persona and add only what it doesn't carry (the chorus / call-and-response / tempo). Seed =

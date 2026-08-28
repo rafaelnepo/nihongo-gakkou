@@ -170,9 +170,11 @@ only thing the Persona averages in the *voice* is one clean singer. Both are in
   `female voice, solo — no chorus, no backing vocals — toy piano, xylophone, marimba,`
   `ukulele, hand claps, woodblock, light upright bass, warm and playful, dry forward`
   `vocal, extremely clear enunciation of every kana, no ad-libs`
-- **Seed lyric (neutral):** a plain count and two kana rows — `いち に さん / し ご ろく /`
-  `なな はち きゅう / じゅう`, then `あ い う え お / か き く け こ`. No meaning to lean on,
-  one voice, no duet.
+- **Seed lyric (neutral):** a plain count and the gojūon rows — `いち に さん / し ご ろく /`
+  `なな はち きゅう / じゅう`, then `あ い う え お / か き く け こ / さ し す せ そ / た ち つ`
+  `て と / な に ぬ ね の`. No meaning to lean on (a real song would bake in its melody +
+  refrain-unison), yet perfectly on-domain — a pure diction test of every kana. Tag it
+  `[Verse]` only, never `[Chorus]` (that recruits a group vocal). See [`seeds/`](seeds/README.md).
 
 **2 · Make the Persona.** Custom mode → generate the seed → pick the cleanest **single-
 voice** take → create a Persona from it. Name it **"Iconotes Kids"** (parallel to the
