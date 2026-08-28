@@ -1,0 +1,103 @@
+かきくけこ（しぜん）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 2 (か行), NATURE variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (findings F-12), so to reach
+~3:00 we ADD VARIED content: TEACH (word→sentence) → a seasons-walk BRIDGE → a REVIEW
+of the SENTENCES ONLY. Round 2 differs from round 1, dodging the identical-repeat
+collapse (F-08) and consolidating in context.
+  · The ~2:00 short / vertical cut = PART 1 only (this file's teach = v2).
+  · This full file = the YouTube version.
+
+VOICE: house voice — this is the CALM cut, so KOTO × MODERN + female Persona (F-11).
+Custom mode; do not re-specify gender on top of the Persona.
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+LONG VOWEL (F-05): こうえん / こおり — if a long vowel detaches, write こーえん / こおり
+in the Suno doc ONLY. Leave as written unless it breaks.
+DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
+
+[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+[Intro]
+か き く け こ
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+かぜ
+かぜ が ふく
+かわ
+かわ で あそぶ
+かい
+うみ の かい
+か き く け こ
+
+[Verse]
+き
+おおきい き
+きいろ
+きいろい はっぱ
+きのこ
+もり の きのこ
+か き く け こ
+
+[Verse]
+くも
+そら に くも
+くさ
+みどりの くさ
+くだもの
+あまい くだもの
+か き く け こ
+
+[Verse]
+けさ
+けさ ワ はれ
+けしき
+きれいな けしき
+けむり
+えんとつ の けむり
+か き く け こ
+
+[Verse]
+こおり
+つめたい こおり
+こえ
+とり の こえ
+こうえん
+こうえん オ あるく
+か き く け こ
+
+# ═══ BRIDGE · きせつ の さんぽ (recombine — new, flowing) ═══
+
+[Bridge]
+けさ ワ はれ、そと エ
+かぜ が ふいて、かわ の おと
+もり の き、きいろい はっぱ
+そら の くも、みどりの くさ
+えんとつ の けむり、とおく に
+こうえん オ あるいて、とり の こえ
+か き く け こ
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+かぜ が ふく
+かわ で あそぶ
+うみ の かい
+おおきい き
+きいろい はっぱ
+もり の きのこ
+そら に くも
+みどりの くさ
+あまい くだもの
+けさ ワ はれ
+きれいな けしき
+えんとつ の けむり
+つめたい こおり
+とり の こえ
+こうえん オ あるく
+か き く け こ
+
+[Outro]
+か き く け こ

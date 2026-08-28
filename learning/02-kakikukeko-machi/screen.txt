@@ -1,0 +1,94 @@
+かきくけこ（まち）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from row 1 (あめ, いえ, えき, えんぴつ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   か き く け こ
+
+═══ PART 1 · LEARN ═══
+かお
+かお を あらう
+かさ
+あめ だから かさ
+かぎ
+いえ の かぎ
+か き く け こ
+
+きる
+ふく を きる
+きいろ
+きいろい ぼうし
+きっぷ
+きっぷ を かう
+か き く け こ
+
+くつ
+くつ を はく
+くるま
+くるま に のる
+くも
+そら に くも
+か き く け こ
+
+けしごむ
+えんぴつ と けしごむ
+けいと
+あかい けいと
+けさ
+けさ は あめ
+か き く け こ
+
+こうえん
+こうえん で あそぶ
+こども
+こども が わらう
+こえ
+おおきい こえ
+か き く け こ
+
+═══ BRIDGE · まち の いちにち ═══
+けさ は あめ、かさ を もつ
+ふく を きて、くつ を はく
+くるま に のって、まちへ
+えき で きっぷ を かう
+えんぴつ と けしごむ、かう
+こうえん で こども が あそぶ
+か き く け こ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+かお を あらう
+あめ だから かさ
+いえ の かぎ
+ふく を きる
+きいろい ぼうし
+きっぷ を かう
+くつ を はく
+くるま に のる
+そら に くも
+えんぴつ と けしごむ
+あかい けいと
+けさ は あめ
+こうえん で あそぶ
+こども が わらう
+おおきい こえ
+か き く け こ
+
+(outro)   か き く け こ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+かお=face · かさ=umbrella · かぎ=key · きる=putting on clothes · きいろ=yellow hat ·
+きっぷ=ticket · くつ=shoes · くるま=car · くも=cloud · けしごむ=eraser · けいと=ball of
+yarn · けさ=morning (rain) · こうえん=park · こども=child · こえ=speaking/shout.
+Verbs/adjs in context: あらう wash · きる wear · かう buy · はく wear(shoes) · のる
+ride · あそぶ play · わらう laugh · おおきい big. Recombined from row 1: あめ rain ·
+いえ house · そら sky · えき station · えんぴつ pencil.

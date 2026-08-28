@@ -1,0 +1,70 @@
+{
+  "id": "02-kakikukeko-shizen",
+  "title": "かきくけこ",
+  "jp": "か行 ・ gojuon row 2 ・ nature",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "02-kakikukeko", "theme": "nature", "index": 3, "siblings": ["doubutsu", "machi"] },
+  "render": {
+    "trackName": "きせつ の さんぽ",
+    "trackNo": "02",
+    "row": "かきくけこ",
+    "channel": "iconotes",
+    "style": "Koto × modern",
+    "bpm": 90,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the か-row", "Gojuon by words", "Row 2 · か行 · Nature"],
+  "meta": ["Koto × modern · female (house voice)", "~90 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 2 of the gojuon — か き く け こ — through the outdoors: wind and a river, a tree and yellow leaves, clouds and grass, a clear morning, ice and birdsong. Say the thing, then <strong>see it in the scene</strong>. The calm variation of three か-row songs (animals · town · nature).",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small image</strong> — かぜ が ふく, もり の きのこ, とり の こえ — and it recombines with <em>row 1</em> (うみ, そら, はっぱ return). The illustration carries the meaning; the sentence is the <em>+1</em>.",
+    "The five-kana row <em>か き く け こ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>seasons-walk bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>nature</strong> variation — the calm one, written for a koto × modern arrangement rather than city pop. It also solves the か-row's hard け verse most gracefully: <em>けさ</em> (this morning) · <em>けしき</em> (scenery) · <em>けむり</em> (smoke) are fully on-theme, a quiet morning view. Sing it beside the animals and town cuts to read か行 cold."
+  ],
+  "styles": [
+    { "label": "Koto × modern beat — the calm house take", "rec": true, "text": "modern Japanese pop with traditional koto, 90 BPM, single clear female vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "City pop — the house voice", "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → seasons-walk bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "か", "theme": "wind & water", "items": [
+      { "w": "かぜ", "r": "kaze", "m": "wind", "s": "かぜ が ふく", "sm": "the wind blows" },
+      { "w": "かわ", "r": "kawa", "m": "river", "s": "かわ で あそぶ", "sm": "play by the river" },
+      { "w": "かい", "r": "kai", "m": "seashell", "s": "うみ の かい", "sm": "shells at the sea" }
+    ]},
+    { "vowel": "き", "theme": "the forest", "items": [
+      { "w": "き", "r": "ki", "m": "tree", "s": "おおきい き", "sm": "a big tree" },
+      { "w": "きいろ", "r": "kiiro", "m": "yellow", "s": "きいろい はっぱ", "sm": "yellow leaves" },
+      { "w": "きのこ", "r": "kinoko", "m": "mushroom", "s": "もり の きのこ", "sm": "mushrooms in the forest" }
+    ]},
+    { "vowel": "く", "theme": "sky & field", "items": [
+      { "w": "くも", "r": "kumo", "m": "cloud", "s": "そら に くも", "sm": "a cloud in the sky" },
+      { "w": "くさ", "r": "kusa", "m": "grass", "s": "みどりの くさ", "sm": "green grass" },
+      { "w": "くだもの", "r": "kudamono", "m": "fruit", "s": "あまい くだもの", "sm": "sweet fruit" }
+    ]},
+    { "vowel": "け", "theme": "a clear morning", "items": [
+      { "w": "けさ", "r": "kesa", "m": "this morning", "s": "けさ は はれ", "sm": "this morning is clear" },
+      { "w": "けしき", "r": "keshiki", "m": "scenery", "s": "きれいな けしき", "sm": "beautiful scenery" },
+      { "w": "けむり", "r": "kemuri", "m": "smoke", "s": "えんとつ の けむり", "sm": "smoke from a chimney" }
+    ]},
+    { "vowel": "こ", "theme": "cool & calm", "items": [
+      { "w": "こおり", "r": "koori", "m": "ice", "s": "つめたい こおり", "sm": "cold ice" },
+      { "w": "こえ", "r": "koe", "m": "voice", "s": "とり の こえ", "sm": "a bird's voice" },
+      { "w": "こうえん", "r": "kouen", "m": "park", "s": "こうえん を あるく", "sm": "walk through the park" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

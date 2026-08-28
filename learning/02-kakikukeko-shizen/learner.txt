@@ -1,0 +1,83 @@
+かきくけこ（しぜん）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 2 (か行). NATURE variation. Written 2026-08-28.
+
+CONCEPT: say the thing, then see it in the scene. Each か-row word is taught through a
+short, natural sentence, and the words gather into one quiet walk outdoors — wind and
+water, the forest, the sky and field, a clear morning, cool things. One of THREE か-row
+songs (animals · town · nature) that teach the same five kana with different words, so
+the row gets practised without a song repeating. Row 1's words come back (うみ, そら,
+はっぱ). All hiragana — the point is reading kana; kanji shown here only for meaning.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+か  ── WIND & WATER
+  かぜ        (kaze)   wind (風)
+     → かぜ が ふく          (kaze ga fuku)          the wind blows
+  かわ        (kawa)   river (川)
+     → かわ で あそぶ        (kawa de asobu)         play by the river
+  かい        (kai)    seashell (貝)
+     → うみ の かい          (umi no kai)            shells at the sea
+
+き  ── THE FOREST
+  き          (ki)     tree (木)
+     → おおきい き          (ōkii ki)               a big tree
+  きいろ      (kiiro)  yellow (黄色)
+     → きいろい はっぱ        (kiiroi happa)          yellow leaves
+  きのこ      (kinoko) mushroom (きのこ)
+     → もり の きのこ        (mori no kinoko)        mushrooms in the forest
+
+く  ── SKY & FIELD
+  くも        (kumo)   cloud (雲)
+     → そら に くも          (sora ni kumo)          a cloud in the sky
+  くさ        (kusa)   grass (草)
+     → みどりの くさ        (midori no kusa)        green grass
+  くだもの    (kudamono) fruit (果物)
+     → あまい くだもの      (amai kudamono)         sweet fruit
+
+け  ── A CLEAR MORNING   (nature makes the か-row's hard け verse fully on-theme)
+  けさ        (kesa)   this morning (今朝)
+     → けさ は はれ          (kesa wa hare)          this morning is clear
+  けしき      (keshiki) scenery (景色)
+     → きれいな けしき      (kirei na keshiki)      beautiful scenery
+  けむり      (kemuri) smoke (煙)
+     → えんとつ の けむり    (entotsu no kemuri)     smoke from a chimney
+
+こ  ── COOL & CALM
+  こおり      (kōri)   ice (氷)
+     → つめたい こおり      (tsumetai kōri)         cold ice
+  こえ        (koe)    voice (声)
+     → とり の こえ          (tori no koe)           a bird's voice
+  こうえん    (kōen)   park (公園)
+     → こうえん を あるく    (kōen o aruku)          walk through the park
+
+REFRAIN
+  か き く け こ  (ka ki ku ke ko)   the か-row
+────────────────────────────────────────────────────────────────────────
+
+WHAT THIS SONG QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs (dictionary form): ふく blow, あそぶ play, あるく walk.
+· Adjectives: おおきい big, きいろい yellow, みどりの green, あまい sweet, きれいな
+  pretty/clean, つめたい cold.
+· Nouns met in context: もり (forest), はっぱ (leaf), とり (bird), えんとつ (chimney),
+  はれ (clear weather), おと (sound).
+· Particles: が (subject), で (place of action), の (of), に (in/at), は (topic, "wa"),
+  を (object, "o").
+· Word recombination WITH ROW 1: うみ (sea), そら (sky), はっぱ (leaf) return in new
+  sentences — that re-meeting is the practice.
+
+These are context (comprehensible input), not the test — the TARGET is the か-row
+words; the sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 above (learn) → a BRIDGE that walks the scenes into
+one morning outdoors → a REVIEW of the sentences only (sing along). A few extra
+connective forms appear:
+  そと へ    (soto e)   …outside / out (へ read "e")
+  ふいて / あるいて  (fuite / aruite)  …and (て-form, chaining)
+  とおく に   (tōku ni)  …far off / in the distance
+The walk (bridge): 今朝は晴れ a clear morning → wind & river → the forest → sky & field
+→ chimney smoke far off → the park and birdsong. Same words, now a flowing scene.
+
+SIBLINGS (same five kana, different worlds): 02-kakikukeko-doubutsu (animals) and
+02-kakikukeko-machi (a town day). Sing all three to read か行 cold.

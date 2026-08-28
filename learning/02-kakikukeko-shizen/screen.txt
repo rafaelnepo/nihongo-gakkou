@@ -1,0 +1,94 @@
+かきくけこ（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from row 1 (うみ, そら, はっぱ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   か き く け こ
+
+═══ PART 1 · LEARN ═══
+かぜ
+かぜ が ふく
+かわ
+かわ で あそぶ
+かい
+うみ の かい
+か き く け こ
+
+き
+おおきい き
+きいろ
+きいろい はっぱ
+きのこ
+もり の きのこ
+か き く け こ
+
+くも
+そら に くも
+くさ
+みどりの くさ
+くだもの
+あまい くだもの
+か き く け こ
+
+けさ
+けさ は はれ
+けしき
+きれいな けしき
+けむり
+えんとつ の けむり
+か き く け こ
+
+こおり
+つめたい こおり
+こえ
+とり の こえ
+こうえん
+こうえん を あるく
+か き く け こ
+
+═══ BRIDGE · きせつ の さんぽ ═══
+けさ は はれ、そと へ
+かぜ が ふいて、かわ の おと
+もり の き、きいろい はっぱ
+そら の くも、みどりの くさ
+えんとつ の けむり、とおく に
+こうえん を あるいて、とり の こえ
+か き く け こ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+かぜ が ふく
+かわ で あそぶ
+うみ の かい
+おおきい き
+きいろい はっぱ
+もり の きのこ
+そら に くも
+みどりの くさ
+あまい くだもの
+けさ は はれ
+きれいな けしき
+えんとつ の けむり
+つめたい こおり
+とり の こえ
+こうえん を あるく
+か き く け こ
+
+(outro)   か き く け こ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+かぜ=wind · かわ=river · かい=seashell · き=tree · きいろ=yellow leaves · きのこ=
+mushroom · くも=cloud · くさ=grass · くだもの=fruit · けさ=clear morning sun ·
+けしき=landscape/scenery · けむり=chimney smoke · こおり=ice · こえ=bird singing ·
+こうえん=park. Adjs/verbs in context: ふく blow · あそぶ play · あるく walk · おおきい
+big · みどりの green · あまい sweet · きれいな pretty · つめたい cold. Recombined from
+row 1: うみ sea · そら sky · はっぱ leaf.

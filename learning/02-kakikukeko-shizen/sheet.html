@@ -1,0 +1,415 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>かきくけこ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=swap">
+<style>:root{
+  --ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;
+  --ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;
+  --rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;
+  --shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -16px rgba(0,0,0,.7);
+  --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
+  --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
+  --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
+  --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;--ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;
+  --rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;
+  --shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);}}
+:root[data-theme="dark"]{--ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;--ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;--rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;--shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px 90px}
+.back{display:inline-block;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-decoration:none;padding:26px 0 0}
+.back:hover{color:var(--green-deep)}
+.mast{padding:22px 0 30px;border-bottom:1px solid var(--rule);margin-bottom:44px}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+.eyebrow span:not(:last-child)::after{content:"／";margin-left:10px;color:var(--rule)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(2.1rem,5.6vw,3.4rem);line-height:1.06;letter-spacing:-.015em;margin:0 0 6px}
+.h1-jp{font-family:var(--f-jp);font-weight:600;font-size:clamp(.98rem,2.5vw,1.22rem);color:var(--shu);letter-spacing:.14em;margin:0 0 18px}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px}
+.tag{font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:2px;border:1px solid var(--rule);color:var(--ink-3)}
+.tag.strand{color:var(--green-deep);border-color:var(--green)}
+.tag.hot{color:#fff;background:var(--shu);border-color:var(--shu)}
+.tag.priv{color:var(--shu-ink);border-color:var(--shu);border-style:dashed}
+.standfirst{font-size:1.04rem;color:var(--ink-2);max-width:62ch;margin:0}
+.meta{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.04em;display:flex;flex-wrap:wrap;gap:5px 16px;margin:16px 0 0}
+section{margin:0 0 54px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+.sec-mark{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--shu);border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
+h2{font-family:var(--f-display);font-weight:700;font-size:clamp(1.34rem,3vw,1.7rem);line-height:1.22;margin:0}
+.sec-sub{color:var(--ink-3);margin:0 0 24px;max-width:64ch;font-size:.94rem}
+p{margin:0 0 16px}
+strong{font-weight:700}em{font-style:normal;color:var(--shu-ink);font-weight:500}
+.paste{background:var(--surface);border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin:0 0 16px;box-shadow:var(--shadow)}
+.paste-head{padding:9px 12px 9px 15px;border-bottom:1px solid var(--rule);background:var(--surface-2);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.paste-head .t{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.paste-head .t .rec{color:var(--shu);margin-left:6px}
+.copy{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:2px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.copy:hover{border-color:var(--green);color:var(--green-deep)}
+.copy.done{color:var(--green-deep);border-color:var(--green)}
+@media (prefers-reduced-motion:no-preference){.copy{transition:border-color .15s,color .15s}}
+.paste pre{margin:0;padding:15px 15px;font-family:var(--f-mono);font-size:12.5px;line-height:1.85;color:var(--ink-2);overflow-x:auto;white-space:pre-wrap;max-height:560px}
+.paste pre .tag{color:var(--green)}
+.paste pre .mark{color:var(--shu);font-weight:600}
+.paste pre .cmt{color:var(--ink-3)}
+.paste.style pre{font-family:var(--f-body);font-size:13.5px;line-height:1.6;color:var(--ink)}
+/* vocab table */
+.vgroup{margin:0 0 22px}
+.vgroup .vh{font-family:var(--f-jp);font-weight:600;font-size:1.2rem;color:var(--green-deep);display:flex;align-items:baseline;gap:12px;margin:0 0 6px}
+.vgroup .vh small{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:400}
+.vtab{width:100%;border-collapse:collapse}
+.vtab td{padding:9px 14px 9px 0;border-top:1px solid var(--rule-soft);vertical-align:baseline}
+.vtab .w{font-family:var(--f-jp);font-size:1.1rem;color:var(--ink);white-space:nowrap}
+.vtab .r{font-family:var(--f-mono);font-size:10px;color:var(--ink-3);white-space:nowrap}
+.vtab .m{font-size:.86rem;color:var(--ink-2)}
+.vtab .arrow{color:var(--shu);font-family:var(--f-mono);font-size:11px}
+.vtab .s{font-family:var(--f-jp);font-size:1.02rem;color:var(--ink)}
+.vtab .sm{font-size:.8rem;color:var(--ink-3)}
+footer{margin-top:20px;padding-top:24px;border-top:1px solid var(--rule);font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px}
+@media (max-width:640px){.vtab td{display:block;padding:2px 0;border:none}.vgroup{border-top:1px solid var(--rule-soft);padding-top:12px}.vtab tr{display:block;padding:10px 0;border-top:1px solid var(--rule-soft)}}
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}</style>
+<div class="wrap">
+<a class="back" href="../../index.html">&larr; All songs</a>
+<header class="mast">
+  <div class="eyebrow"><span>Read the か-row</span><span>Gojuon by words</span><span>Row 2 · か行 · Nature</span></div>
+  <h1>かきくけこ</h1>
+  <p class="h1-jp">か行 ・ gojuon row 2 ・ nature</p>
+  <div class="tags"><span class="tag strand">learning</span><span class="tag ">written</span></div>
+  <p class="standfirst">Row 2 of the gojuon — か き く け こ — through the outdoors: wind and a river, a tree and yellow leaves, clouds and grass, a clear morning, ice and birdsong. Say the thing, then <strong>see it in the scene</strong>. The calm variation of three か-row songs (animals · town · nature).</p>
+  <div class="meta"><span>Koto × modern · female (house voice)</span><span>~90 BPM</span><span>Comprehensible input</span><span>YouTube ~3:00 · vertical ~1:00</span></div>
+</header>
+<section><div class="sec-head"><span class="sec-mark">01</span><h2>The idea</h2></div><p>Words alone blend (findings F-10), so every target sits <strong>in a small image</strong> — かぜ が ふく, もり の きのこ, とり の こえ — and it recombines with <em>row 1</em> (うみ, そら, はっぱ return). The illustration carries the meaning; the sentence is the <em>+1</em>.</p>
+<p>The five-kana row <em>か き く け こ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>seasons-walk bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).</p>
+<p>This is the <strong>nature</strong> variation — the calm one, written for a koto × modern arrangement rather than city pop. It also solves the か-row's hard け verse most gracefully: <em>けさ</em> (this morning) · <em>けしき</em> (scenery) · <em>けむり</em> (smoke) are fully on-theme, a quiet morning view. Sing it beside the animals and town cuts to read か行 cold.</p></section>
+<section><div class="sec-head"><span class="sec-mark">02</span><h2>Style prompts</h2></div><p class="sec-sub">Paste one into Suno's style box. Copy buttons at right.</p>
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Koto × modern beat — the calm house take <span class="rec">★ house</span></span><button class="copy">Copy</button></div>
+      <pre>modern Japanese pop with traditional koto, 90 BPM, single clear female vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">City pop — the house voice</span><button class="copy">Copy</button></div>
+      <pre>Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Acoustic café folk</span><button class="copy">Copy</button></div>
+      <pre>warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Lo-fi hip hop (kept for other content)</span><button class="copy">Copy</button></div>
+      <pre>lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs</pre>
+    </div></section>
+<section><div class="sec-head"><span class="sec-mark">03</span><h2>Lyrics &mdash; paste into Suno</h2></div><p class="sec-sub">Pulled live from the suno-*.txt scores. <span class="mark" style="font-family:var(--f-mono)">ワ/オ/エ</span> are the particle fixes (は/を/へ).</p>
+    <div class="paste">
+      <div class="paste-head"><span class="t">Suno score — v3 (3-min YouTube cut) &middot; teach → seasons-walk bridge → review</span><button class="copy">Copy</button></div>
+      <pre>[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+<span class="tag">[Intro]</span>
+か き く け こ
+
+<span class="cmt"># ═══ PART 1 · LEARN (word → sentence) ═══</span>
+
+<span class="tag">[Verse]</span>
+かぜ
+かぜ が ふく
+かわ
+かわ で あそぶ
+かい
+うみ の かい
+か き く け こ
+
+<span class="tag">[Verse]</span>
+き
+おおきい き
+きいろ
+きいろい はっぱ
+きのこ
+もり の きのこ
+か き く け こ
+
+<span class="tag">[Verse]</span>
+くも
+そら に くも
+くさ
+みどりの くさ
+くだもの
+あまい くだもの
+か き く け こ
+
+<span class="tag">[Verse]</span>
+けさ
+けさ <span class="mark">ワ</span> はれ
+けしき
+きれいな けしき
+けむり
+えんとつ の けむり
+か き く け こ
+
+<span class="tag">[Verse]</span>
+こおり
+つめたい こおり
+こえ
+とり の こえ
+こうえん
+こうえん <span class="mark">オ</span> あるく
+か き く け こ
+
+<span class="cmt"># ═══ BRIDGE · きせつ の さんぽ (recombine — new, flowing) ═══</span>
+
+<span class="tag">[Bridge]</span>
+けさ <span class="mark">ワ</span> はれ、そと <span class="mark">エ</span>
+かぜ が ふいて、かわ の おと
+もり の き、きいろい はっぱ
+そら の くも、みどりの くさ
+えんとつ の けむり、とおく に
+こうえん <span class="mark">オ</span> あるいて、とり の こえ
+か き く け こ
+
+<span class="cmt"># ═══ PART 2 · REVIEW (sentences only, sing along) ═══</span>
+
+<span class="tag">[Chorus]</span>
+かぜ が ふく
+かわ で あそぶ
+うみ の かい
+おおきい き
+きいろい はっぱ
+もり の きのこ
+そら に くも
+みどりの くさ
+あまい くだもの
+けさ <span class="mark">ワ</span> はれ
+きれいな けしき
+えんとつ の けむり
+つめたい こおり
+とり の こえ
+こうえん <span class="mark">オ</span> あるく
+か き く け こ
+
+<span class="tag">[Outro]</span>
+か き く け こ</pre>
+    </div>
+
+    <div class="paste">
+      <div class="paste-head"><span class="t">Suno score — v2 (~2-min short / vertical) &middot; the teach only</span><button class="copy">Copy</button></div>
+      <pre>[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+<span class="tag">[Intro]</span>
+か き く け こ
+
+<span class="tag">[Verse]</span>
+かぜ
+かぜ が ふく
+かわ
+かわ で あそぶ
+かい
+うみ の かい
+か き く け こ
+
+<span class="tag">[Verse]</span>
+き
+おおきい き
+きいろ
+きいろい はっぱ
+きのこ
+もり の きのこ
+か き く け こ
+
+<span class="tag">[Verse]</span>
+くも
+そら に くも
+くさ
+みどりの くさ
+くだもの
+あまい くだもの
+か き く け こ
+
+<span class="tag">[Verse]</span>
+けさ
+けさ <span class="mark">ワ</span> はれ
+けしき
+きれいな けしき
+けむり
+えんとつ の けむり
+か き く け こ
+
+<span class="tag">[Verse]</span>
+こおり
+つめたい こおり
+こえ
+とり の こえ
+こうえん
+こうえん <span class="mark">オ</span> あるく
+か き く け こ
+
+<span class="tag">[Outro]</span>
+か き く け こ</pre>
+    </div></section>
+<section><div class="sec-head"><span class="sec-mark">04</span><h2>What it teaches</h2></div><p class="sec-sub">Say the word, then see it used. Target word &rarr; a sentence in context.</p><div class="vgroup"><div class="vh">か <small>wind &amp; water</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">かぜ</td><td class="r">kaze</td><td class="m">wind</td>
+        <td class="arrow">&rarr;</td><td class="s">かぜ が ふく</td><td class="sm">the wind blows</td></tr>
+<tr>
+        <td class="w">かわ</td><td class="r">kawa</td><td class="m">river</td>
+        <td class="arrow">&rarr;</td><td class="s">かわ で あそぶ</td><td class="sm">play by the river</td></tr>
+<tr>
+        <td class="w">かい</td><td class="r">kai</td><td class="m">seashell</td>
+        <td class="arrow">&rarr;</td><td class="s">うみ の かい</td><td class="sm">shells at the sea</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">き <small>the forest</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">き</td><td class="r">ki</td><td class="m">tree</td>
+        <td class="arrow">&rarr;</td><td class="s">おおきい き</td><td class="sm">a big tree</td></tr>
+<tr>
+        <td class="w">きいろ</td><td class="r">kiiro</td><td class="m">yellow</td>
+        <td class="arrow">&rarr;</td><td class="s">きいろい はっぱ</td><td class="sm">yellow leaves</td></tr>
+<tr>
+        <td class="w">きのこ</td><td class="r">kinoko</td><td class="m">mushroom</td>
+        <td class="arrow">&rarr;</td><td class="s">もり の きのこ</td><td class="sm">mushrooms in the forest</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">く <small>sky &amp; field</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">くも</td><td class="r">kumo</td><td class="m">cloud</td>
+        <td class="arrow">&rarr;</td><td class="s">そら に くも</td><td class="sm">a cloud in the sky</td></tr>
+<tr>
+        <td class="w">くさ</td><td class="r">kusa</td><td class="m">grass</td>
+        <td class="arrow">&rarr;</td><td class="s">みどりの くさ</td><td class="sm">green grass</td></tr>
+<tr>
+        <td class="w">くだもの</td><td class="r">kudamono</td><td class="m">fruit</td>
+        <td class="arrow">&rarr;</td><td class="s">あまい くだもの</td><td class="sm">sweet fruit</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">け <small>a clear morning</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">けさ</td><td class="r">kesa</td><td class="m">this morning</td>
+        <td class="arrow">&rarr;</td><td class="s">けさ は はれ</td><td class="sm">this morning is clear</td></tr>
+<tr>
+        <td class="w">けしき</td><td class="r">keshiki</td><td class="m">scenery</td>
+        <td class="arrow">&rarr;</td><td class="s">きれいな けしき</td><td class="sm">beautiful scenery</td></tr>
+<tr>
+        <td class="w">けむり</td><td class="r">kemuri</td><td class="m">smoke</td>
+        <td class="arrow">&rarr;</td><td class="s">えんとつ の けむり</td><td class="sm">smoke from a chimney</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">こ <small>cool &amp; calm</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">こおり</td><td class="r">koori</td><td class="m">ice</td>
+        <td class="arrow">&rarr;</td><td class="s">つめたい こおり</td><td class="sm">cold ice</td></tr>
+<tr>
+        <td class="w">こえ</td><td class="r">koe</td><td class="m">voice</td>
+        <td class="arrow">&rarr;</td><td class="s">とり の こえ</td><td class="sm">a bird's voice</td></tr>
+<tr>
+        <td class="w">こうえん</td><td class="r">kouen</td><td class="m">park</td>
+        <td class="arrow">&rarr;</td><td class="s">こうえん を あるく</td><td class="sm">walk through the park</td></tr></tbody></table></div></section>
+<section><div class="sec-head"><span class="sec-mark">05</span><h2>More</h2></div>
+    <div class="paste">
+      <div class="paste-head"><span class="t">Screen text (the video)</span><button class="copy">Copy</button></div>
+      <pre>かきくけこ（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from row 1 (うみ, そら, はっぱ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   か き く け こ
+
+═══ PART 1 · LEARN ═══
+かぜ
+かぜ が ふく
+かわ
+かわ で あそぶ
+かい
+うみ の かい
+か き く け こ
+
+き
+おおきい き
+きいろ
+きいろい はっぱ
+きのこ
+もり の きのこ
+か き く け こ
+
+くも
+そら に くも
+くさ
+みどりの くさ
+くだもの
+あまい くだもの
+か き く け こ
+
+けさ
+けさ は はれ
+けしき
+きれいな けしき
+けむり
+えんとつ の けむり
+か き く け こ
+
+こおり
+つめたい こおり
+こえ
+とり の こえ
+こうえん
+こうえん を あるく
+か き く け こ
+
+═══ BRIDGE · きせつ の さんぽ ═══
+けさ は はれ、そと へ
+かぜ が ふいて、かわ の おと
+もり の き、きいろい はっぱ
+そら の くも、みどりの くさ
+えんとつ の けむり、とおく に
+こうえん を あるいて、とり の こえ
+か き く け こ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+かぜ が ふく
+かわ で あそぶ
+うみ の かい
+おおきい き
+きいろい はっぱ
+もり の きのこ
+そら に くも
+みどりの くさ
+あまい くだもの
+けさ は はれ
+きれいな けしき
+えんとつ の けむり
+つめたい こおり
+とり の こえ
+こうえん を あるく
+か き く け こ
+
+(outro)   か き く け こ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+かぜ=wind · かわ=river · かい=seashell · き=tree · きいろ=yellow leaves · きのこ=
+mushroom · くも=cloud · くさ=grass · くだもの=fruit · けさ=clear morning sun ·
+けしき=landscape/scenery · けむり=chimney smoke · こおり=ice · こえ=bird singing ·
+こうえん=park. Adjs/verbs in context: ふく blow · あそぶ play · あるく walk · おおきい
+big · みどりの green · あまい sweet · きれいな pretty · つめたい cold. Recombined from
+row 1: うみ sea · そら sky · はっぱ leaf.</pre>
+    </div></section>
+<footer><span>かきくけこ</span><span>generated from song.json + *.txt</span><span>build_sheets.mjs</span></footer>
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const pre=btn.closest('.paste').querySelector('pre');
+    const text=pre.innerText;
+    const done=()=>{const o=btn.textContent;btn.textContent='Copied \u2713';btn.classList.add('done');setTimeout(()=>{btn.textContent=o;btn.classList.remove('done')},1400)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(done).catch(()=>fb(text,done))}else fb(text,done);
+  });
+});
+function fb(text,done){const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(_){}document.body.removeChild(ta)}
+</script>

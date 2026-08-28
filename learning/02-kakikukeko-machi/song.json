@@ -1,0 +1,70 @@
+{
+  "id": "02-kakikukeko-machi",
+  "title": "かきくけこ",
+  "jp": "か行 ・ gojuon row 2 ・ a town day",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "02-kakikukeko", "theme": "town", "index": 2, "siblings": ["doubutsu", "shizen"] },
+  "render": {
+    "trackName": "まちへ おでかけ",
+    "trackNo": "02",
+    "row": "かきくけこ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the か-row", "Gojuon by words", "Row 2 · か行 · A town day"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 2 of the gojuon — か き く け こ — through the everyday things of a trip into town: an umbrella, a key, shoes, the car, a ticket, the park. Say the thing, then <strong>use it</strong>. The town variation of three か-row songs (animals · town · nature), the same five kana practised without a song repeating.",
+  "concept": [
+    "Words alone blend (findings F-10), so every target is taught <strong>in a small action</strong> — かさ を もつ, きっぷ を かう, くつ を はく — and it recombines with <em>row 1</em> (あめ, いえ, そら, えき, えんぴつ and かう return), so か行 reviews あ行 as it goes.",
+    "The five-kana row <em>か き く け こ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>town-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>town</strong> variation — the closest in spirit to 01-aiueo's 'little day'. It teaches the highest-utility everyday words of the three か-row songs; sing it beside the <em>animals</em> and <em>nature</em> cuts to read the row cold. The け verse is the loose 'small errands' slot (けしごむ・けいと・けさ), the same role え held in row 1."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → town-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "か", "theme": "getting ready", "items": [
+      { "w": "かお", "r": "kao", "m": "face", "s": "かお を あらう", "sm": "wash your face" },
+      { "w": "かさ", "r": "kasa", "m": "umbrella", "s": "あめ だから かさ", "sm": "rain — so, an umbrella" },
+      { "w": "かぎ", "r": "kagi", "m": "key", "s": "いえ の かぎ", "sm": "the house key" }
+    ]},
+    { "vowel": "き", "theme": "heading out", "items": [
+      { "w": "きる", "r": "kiru", "m": "to wear", "s": "ふく を きる", "sm": "put on clothes" },
+      { "w": "きいろ", "r": "kiiro", "m": "yellow", "s": "きいろい ぼうし", "sm": "a yellow hat" },
+      { "w": "きっぷ", "r": "kippu", "m": "ticket", "s": "きっぷ を かう", "sm": "buy a ticket" }
+    ]},
+    { "vowel": "く", "theme": "on the way", "items": [
+      { "w": "くつ", "r": "kutsu", "m": "shoes", "s": "くつ を はく", "sm": "put on your shoes" },
+      { "w": "くるま", "r": "kuruma", "m": "car", "s": "くるま に のる", "sm": "get in the car" },
+      { "w": "くも", "r": "kumo", "m": "cloud", "s": "そら に くも", "sm": "a cloud in the sky" }
+    ]},
+    { "vowel": "け", "theme": "little errands", "items": [
+      { "w": "けしごむ", "r": "keshigomu", "m": "eraser", "s": "えんぴつ と けしごむ", "sm": "a pencil and an eraser" },
+      { "w": "けいと", "r": "keito", "m": "yarn", "s": "あかい けいと", "sm": "red yarn" },
+      { "w": "けさ", "r": "kesa", "m": "this morning", "s": "けさ は あめ", "sm": "this morning it's raining" }
+    ]},
+    { "vowel": "こ", "theme": "the park", "items": [
+      { "w": "こうえん", "r": "kouen", "m": "park", "s": "こうえん で あそぶ", "sm": "play in the park" },
+      { "w": "こども", "r": "kodomo", "m": "child", "s": "こども が わらう", "sm": "a child laughs" },
+      { "w": "こえ", "r": "koe", "m": "voice", "s": "おおきい こえ", "sm": "a loud voice" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

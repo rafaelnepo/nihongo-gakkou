@@ -1,0 +1,83 @@
+かきくけこ（どうぶつ）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 2 (か行). ANIMALS variation. Written 2026-08-28.
+
+CONCEPT: say the animal, then see it DO something. Each か-row word is taught
+through a short, natural sentence, and the words gather into a little day at the
+zoo/pond. This is one of THREE か-row songs (animals · town · nature) so the same
+five kana — か き く け こ — get practised again and again with fresh words, never
+by repeating a song. Row 1's words come back (うみ, さんぽ, はっぱ, and the verbs
+みる・いる), so か行 also reviews あ行. All hiragana — the point is reading kana;
+kanji shown here only for meaning.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+か  ── AT THE POND
+  かに        (kani)   crab (蟹)
+     → かに が あるく        (kani ga aruku)         a crab walks
+  かえる      (kaeru)  frog (蛙)
+     → かえる が いる        (kaeru ga iru)          there's a frog
+  かめ        (kame)   turtle (亀)
+     → かめ は おそい        (kame wa osoi)          the turtle is slow
+
+き  ── TALL & BRIGHT
+  きつね      (kitsune) fox (狐)
+     → きつね を みる        (kitsune o miru)        see a fox
+  きんぎょ    (kingyo) goldfish (金魚)
+     → きんぎょ が およぐ    (kingyo ga oyogu)       a goldfish swims
+  きりん      (kirin)  giraffe (キリン)
+     → きりん は おおきい    (kirin wa ōkii)         the giraffe is big
+
+く  ── THE BIG SWIMMERS
+  くま        (kuma)   bear (熊)
+     → くま は つよい        (kuma wa tsuyoi)        the bear is strong
+  くじら      (kujira) whale (鯨)
+     → うみ に くじら        (umi ni kujira)         a whale in the sea
+  くらげ      (kurage) jellyfish (クラゲ)
+     → くらげ が およぐ      (kurage ga oyogu)       a jellyfish drifts
+
+け  ── THE KITTEN'S MORNING   (か行 has no beginner け animal — a small detour)
+  けさ        (kesa)   this morning (今朝)
+     → けさ の さんぽ        (kesa no sanpo)         this morning's walk
+  けむし      (kemushi) caterpillar (毛虫)
+     → はっぱ に けむし      (happa ni kemushi)      a caterpillar on a leaf
+  けいと      (keito)  yarn (毛糸)
+     → あかい けいと        (akai keito)            red yarn
+
+こ  ── THE LITTLE ONES
+  こねこ      (koneko) kitten (子猫)
+     → こねこ が かわいい    (koneko ga kawaii)      the kitten is cute
+  こいぬ      (koinu)  puppy (子犬)
+     → こいぬ と あそぶ      (koinu to asobu)        play with the puppy
+  ことり      (kotori) little bird (小鳥)
+     → ことり が なく        (kotori ga naku)        the little bird chirps
+
+REFRAIN
+  か き く け こ  (ka ki ku ke ko)   the か-row
+────────────────────────────────────────────────────────────────────────
+
+WHAT THIS SONG QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs (dictionary form, high-frequency): あるく walk, いる be/exist, みる see,
+  およぐ swim, あそぶ play, なく chirp/cry.
+· Adjectives: おそい slow, おおきい big, つよい strong, かわいい cute, あかい red.
+· Particles: が (subject), は (topic, read "wa"), を (object, read "o"), に (in/at),
+  と (with/and), の (of).
+· Word recombination WITH ROW 1: うみ (sea), さんぽ (a walk), はっぱ (leaf) return;
+  the verb みる and the existence verb いる are re-met. Seeing a known word again in
+  a new sentence is the practice.
+
+These are context (comprehensible input), not the test — the learner isn't expected
+to parse every particle. The TARGET is the か-row words; the sentence, the audio and
+the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 above (learn) → a BRIDGE that walks the animals
+into one morning at the zoo → a REVIEW of the sentences only (sing along). The short
+vertical cut is PART 1 only. A couple of extra connective forms appear:
+  も         (mo)      …too / also  (かめ も いる = "a turtle too")
+  みどりいろ  (midori-iro) green      (はっぱ の けむし、みどりいろ)
+The day (bridge), in order: 今朝の散歩 morning walk → 池 the pond → the tall ones
+→ the big swimmers → the little ones. Same animals, now a flowing scene.
+
+SIBLINGS (same five kana, different worlds): 02-kakikukeko-machi (a town day) and
+02-kakikukeko-shizen (nature). Sing all three to read か行 cold.

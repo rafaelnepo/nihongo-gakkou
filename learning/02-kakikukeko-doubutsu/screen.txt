@@ -1,0 +1,94 @@
+かきくけこ（どうぶつ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya animal, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+(いる, および, さんぽ) can flash their earlier illustration — the "you've seen this" beat.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   か き く け こ
+
+═══ PART 1 · LEARN ═══
+かに
+かに が あるく
+かえる
+かえる が いる
+かめ
+かめ は おそい
+か き く け こ
+
+きつね
+きつね を みる
+きんぎょ
+きんぎょ が およぐ
+きりん
+きりん は おおきい
+か き く け こ
+
+くま
+くま は つよい
+くじら
+うみ に くじら
+くらげ
+くらげ が およぐ
+か き く け こ
+
+けさ
+けさ の さんぽ
+けむし
+はっぱ に けむし
+けいと
+あかい けいと
+か き く け こ
+
+こねこ
+こねこ が かわいい
+こいぬ
+こいぬ と あそぶ
+ことり
+ことり が なく
+か き く け こ
+
+═══ BRIDGE · どうぶつえん の ひ ═══
+けさ の さんぽ、いけ へ
+かに と かえる、かめ も いる
+きつね と きりん、おおきいな
+くま は つよい、くじら も おおきい
+はっぱ の けむし、みどりいろ
+こねこ と こいぬ、ことり も
+か き く け こ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+かに が あるく
+かえる が いる
+かめ は おそい
+きつね を みる
+きんぎょ が およぐ
+きりん は おおきい
+くま は つよい
+うみ に くじら
+くらげ が およぐ
+けさ の さんぽ
+はっぱ に けむし
+あかい けいと
+こねこ が かわいい
+こいぬ と あそぶ
+ことり が なく
+か き く け こ
+
+(outro)   か き く け こ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+かに=crab · かえる=frog · かめ=turtle · きつね=fox · きんぎょ=goldfish ·
+きりん=giraffe · くま=bear · くじら=whale · くらげ=jellyfish · けさ=morning sun ·
+けむし=caterpillar (on a leaf) · けいと=ball of yarn · こねこ=kitten · こいぬ=puppy ·
+ことり=little bird. Verbs/adjs met in context: あるく walk · いる be · みる see ·
+およぐ swim · おそい slow · おおきい big · つよい strong · かわいい cute · あそぶ play ·
+なく chirp. Recombined from row 1: うみ sea · さんぽ walk · はっぱ leaf.

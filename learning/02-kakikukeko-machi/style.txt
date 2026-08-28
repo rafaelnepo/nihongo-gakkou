@@ -1,0 +1,20 @@
+かきくけこ（まち）— STYLE NOTES
+
+HOUSE VOICE (findings F-11): city pop + single clear FEMALE vocalist is the house
+sound for the basic learning songs. Reuse the 01-aiueo city-pop Persona so the voice
+is constant across the series ("one voice, many arrangements", house-style.md). Set
+the Persona in Custom mode; do NOT also specify gender on top of it.
+
+RECOMMENDED PROMPT (see song.json styles[0] for the exact string):
+  Japanese city pop, ~92–96 BPM, single bright clear female vocalist, warm electric
+  piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry
+  forward vocal, very clear enunciation, no ad-libs.
+
+TEMPO: 92 is the floor and correct (F-01) — sing-along on first listen.
+
+ACROSS THE THREE か-ROW SIBLINGS: keep animals + town on the same city-pop house
+voice (they're the everyday, kid-friendly cuts); the nature cut (shizen) is the one
+to try on koto × modern (styles[1]) if you want a calmer arrangement for variety.
+
+ALTERNATIVES kept for other content: koto × modern, acoustic café folk, lo-fi. Full
+strings in song.json.styles[].

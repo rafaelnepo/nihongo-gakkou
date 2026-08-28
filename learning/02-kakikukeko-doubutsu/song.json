@@ -1,0 +1,70 @@
+{
+  "id": "02-kakikukeko-doubutsu",
+  "title": "かきくけこ",
+  "jp": "か行 ・ gojuon row 2 ・ animals",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "02-kakikukeko", "theme": "animals", "index": 1, "siblings": ["machi", "shizen"] },
+  "render": {
+    "trackName": "ちいさな どうぶつえん",
+    "trackNo": "02",
+    "row": "かきくけこ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the か-row", "Gojuon by words", "Row 2 · か行 · Animals"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 2 of the gojuon — か き く け こ — taught through animals a child already loves: a crab, a fox, a whale, a caterpillar, a puppy. Say the animal, then watch it <strong>do something</strong>. The first of three か-row songs (animals · town · nature) so the same five kana get practiced without a song ever repeating itself.",
+  "concept": [
+    "Words alone blend and don't teach production (findings F-10), so every target animal is shown <strong>in a tiny action</strong> — かに が あるく, きんぎょ が およぐ — and the row recombines with <em>row 1</em> (うみ, いぬ, さんぽ and the verbs いく・いる・みる come back), so か行 also practices あ行.",
+    "The five-kana row <em>か き く け こ</em> closes every verse as the sung-together refrain, where Suno's unison habit recruits the singer (F-07). The 3-minute cut reaches length with a <strong>zoo-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>animals</strong> variation. か行 gets two more songs — <em>まち</em> (a town day) and <em>しぜん</em> (nature) — teaching the identical five kana with fresh vocabulary, so a learner can practice reading the row several times over without the input ever going stale. Honest note: か行 has no beginner け <em>animal</em>, so the け verse is a small 'kitten's morning' detour (けさ・けむし・けいと)."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → zoo-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "か", "theme": "at the pond", "items": [
+      { "w": "かに", "r": "kani", "m": "crab", "s": "かに が あるく", "sm": "a crab walks" },
+      { "w": "かえる", "r": "kaeru", "m": "frog", "s": "かえる が いる", "sm": "there's a frog" },
+      { "w": "かめ", "r": "kame", "m": "turtle", "s": "かめ は おそい", "sm": "the turtle is slow" }
+    ]},
+    { "vowel": "き", "theme": "tall & bright", "items": [
+      { "w": "きつね", "r": "kitsune", "m": "fox", "s": "きつね を みる", "sm": "see a fox" },
+      { "w": "きんぎょ", "r": "kingyo", "m": "goldfish", "s": "きんぎょ が およぐ", "sm": "a goldfish swims" },
+      { "w": "きりん", "r": "kirin", "m": "giraffe", "s": "きりん は おおきい", "sm": "the giraffe is big" }
+    ]},
+    { "vowel": "く", "theme": "the big swimmers", "items": [
+      { "w": "くま", "r": "kuma", "m": "bear", "s": "くま は つよい", "sm": "the bear is strong" },
+      { "w": "くじら", "r": "kujira", "m": "whale", "s": "うみ に くじら", "sm": "a whale in the sea" },
+      { "w": "くらげ", "r": "kurage", "m": "jellyfish", "s": "くらげ が およぐ", "sm": "a jellyfish drifts" }
+    ]},
+    { "vowel": "け", "theme": "the kitten's morning", "items": [
+      { "w": "けさ", "r": "kesa", "m": "this morning", "s": "けさ の さんぽ", "sm": "this morning's walk" },
+      { "w": "けむし", "r": "kemushi", "m": "caterpillar", "s": "はっぱ に けむし", "sm": "a caterpillar on a leaf" },
+      { "w": "けいと", "r": "keito", "m": "yarn", "s": "あかい けいと", "sm": "red yarn" }
+    ]},
+    { "vowel": "こ", "theme": "the little ones", "items": [
+      { "w": "こねこ", "r": "koneko", "m": "kitten", "s": "こねこ が かわいい", "sm": "the kitten is cute" },
+      { "w": "こいぬ", "r": "koinu", "m": "puppy", "s": "こいぬ と あそぶ", "sm": "play with the puppy" },
+      { "w": "ことり", "r": "kotori", "m": "little bird", "s": "ことり が なく", "sm": "the little bird chirps" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

@@ -1,0 +1,102 @@
+かきくけこ（まち）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 2 (か行), TOWN variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (findings F-12), so to reach
+~3:00 we ADD VARIED content: TEACH (word→sentence) → a town-day BRIDGE → a REVIEW of
+the SENTENCES ONLY. Round 2 differs from round 1, which dodges the identical-repeat
+collapse (F-08) and consolidates in context.
+  · The ~2:00 short / vertical cut = PART 1 only (this file's teach = v2).
+  · This full file = the YouTube version.
+
+VOICE: house voice — city-pop + female Persona (F-11). Custom mode; don't re-set gender.
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+LONG VOWEL (F-05): こうえん — if the う detaches into こ-う-え-ん, write こーえん in the
+Suno doc ONLY. Leave as こうえん unless it actually breaks.
+DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+か き く け こ
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+かお
+かお オ あらう
+かさ
+あめ だから かさ
+かぎ
+いえ の かぎ
+か き く け こ
+
+[Verse]
+きる
+ふく オ きる
+きいろ
+きいろい ぼうし
+きっぷ
+きっぷ オ かう
+か き く け こ
+
+[Verse]
+くつ
+くつ オ はく
+くるま
+くるま に のる
+くも
+そら に くも
+か き く け こ
+
+[Verse]
+けしごむ
+えんぴつ と けしごむ
+けいと
+あかい けいと
+けさ
+けさ ワ あめ
+か き く け こ
+
+[Verse]
+こうえん
+こうえん で あそぶ
+こども
+こども が わらう
+こえ
+おおきい こえ
+か き く け こ
+
+# ═══ BRIDGE · まち の いちにち (recombine — new, flowing) ═══
+
+[Bridge]
+けさ ワ あめ、かさ オ もつ
+ふく オ きて、くつ オ はく
+くるま に のって、まちエ
+えき で きっぷ オ かう
+えんぴつ と けしごむ、かう
+こうえん で こども が あそぶ
+か き く け こ
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+かお オ あらう
+あめ だから かさ
+いえ の かぎ
+ふく オ きる
+きいろい ぼうし
+きっぷ オ かう
+くつ オ はく
+くるま に のる
+そら に くも
+えんぴつ と けしごむ
+あかい けいと
+けさ ワ あめ
+こうえん で あそぶ
+こども が わらう
+おおきい こえ
+か き く け こ
+
+[Outro]
+か き く け こ

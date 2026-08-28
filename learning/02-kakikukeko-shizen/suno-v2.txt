@@ -1,0 +1,64 @@
+かきくけこ（しぜん）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 2 (か行), NATURE variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+The full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: the CALM house cut — koto × modern + female Persona (F-11). Custom mode; don't
+re-set gender.
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+DURATION: ~15 pairs ≈ ~1:50 at this pace (F-12). Custom, one pass.
+
+[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+[Intro]
+か き く け こ
+
+[Verse]
+かぜ
+かぜ が ふく
+かわ
+かわ で あそぶ
+かい
+うみ の かい
+か き く け こ
+
+[Verse]
+き
+おおきい き
+きいろ
+きいろい はっぱ
+きのこ
+もり の きのこ
+か き く け こ
+
+[Verse]
+くも
+そら に くも
+くさ
+みどりの くさ
+くだもの
+あまい くだもの
+か き く け こ
+
+[Verse]
+けさ
+けさ ワ はれ
+けしき
+きれいな けしき
+けむり
+えんとつ の けむり
+か き く け こ
+
+[Verse]
+こおり
+つめたい こおり
+こえ
+とり の こえ
+こうえん
+こうえん オ あるく
+か き く け こ
+
+[Outro]
+か き く け こ

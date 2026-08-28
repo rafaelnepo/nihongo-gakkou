@@ -1,0 +1,82 @@
+かきくけこ（まち）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 2 (か行). TOWN variation. Written 2026-08-28.
+
+CONCEPT: say the everyday thing, then USE it. Each か-row word is taught through a
+short, natural sentence, and the words gather into a small day out — getting ready,
+heading out, the ride, a couple of errands, the park. One of THREE か-row songs
+(animals · town · nature) that teach the same five kana with different words, so the
+row gets practised without a song repeating. Row 1's words come back (あめ, いえ, そら,
+えき, えんぴつ, かう), so か行 also reviews あ行. All hiragana — the point is reading
+kana; kanji shown here only for meaning.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+か  ── GETTING READY
+  かお        (kao)    face (顔)
+     → かお を あらう        (kao o arau)            wash your face
+  かさ        (kasa)   umbrella (傘)
+     → あめ だから かさ      (ame dakara kasa)       rain — so, an umbrella
+  かぎ        (kagi)   key (鍵)
+     → いえ の かぎ          (ie no kagi)            the house key
+
+き  ── HEADING OUT
+  きる        (kiru)   to wear (着る)
+     → ふく を きる          (fuku o kiru)           put on clothes
+  きいろ      (kiiro)  yellow (黄色)
+     → きいろい ぼうし        (kiiroi bōshi)          a yellow hat
+  きっぷ      (kippu)  ticket (切符)
+     → きっぷ を かう        (kippu o kau)           buy a ticket
+
+く  ── ON THE WAY
+  くつ        (kutsu)  shoes (靴)
+     → くつ を はく          (kutsu o haku)          put on your shoes
+  くるま      (kuruma) car (車)
+     → くるま に のる        (kuruma ni noru)        get in the car
+  くも        (kumo)   cloud (雲)
+     → そら に くも          (sora ni kumo)          a cloud in the sky
+
+け  ── LITTLE ERRANDS   (the loose slot — same role え held in row 1)
+  けしごむ    (keshigomu) eraser (消しゴム)
+     → えんぴつ と けしごむ  (enpitsu to keshigomu)  a pencil and an eraser
+  けいと      (keito)  yarn (毛糸)
+     → あかい けいと        (akai keito)            red yarn
+  けさ        (kesa)   this morning (今朝)
+     → けさ は あめ          (kesa wa ame)           this morning it's raining
+
+こ  ── THE PARK
+  こうえん    (kōen)   park (公園)
+     → こうえん で あそぶ    (kōen de asobu)         play in the park
+  こども      (kodomo) child (子ども)
+     → こども が わらう      (kodomo ga warau)       a child laughs
+  こえ        (koe)    voice (声)
+     → おおきい こえ        (ōkii koe)              a loud voice
+
+REFRAIN
+  か き く け こ  (ka ki ku ke ko)   the か-row
+────────────────────────────────────────────────────────────────────────
+
+WHAT THIS SONG QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs (dictionary form, high-frequency): あらう wash, きる wear, かう buy, はく
+  wear (shoes/trousers), のる ride/get on, あそぶ play, わらう laugh.
+· Adjectives: きいろい yellow, あかい red, おおきい big.
+· Particles: を (object, read "o"), の (of), に (in/at), で (at/in — place of action),
+  は (topic, read "wa"), と (with/and).
+· Word recombination WITH ROW 1: あめ (rain), いえ (house), そら (sky), えき (station),
+  えんぴつ (pencil), and the verb かう all return in new sentences — that re-meeting is
+  the practice.
+
+These are context (comprehensible input), not the test — the TARGET is the か-row
+words; the sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 above (learn) → a BRIDGE that strings the errands
+into one morning out → a REVIEW of the sentences only (sing along). A few extra
+connective forms appear:
+  だから     (dakara)   …so / therefore
+  きて / のって / はいて  (kite / notte …)  …and then (て-form, chaining actions)
+The day (bridge): 今朝の雨 rainy morning → dressed & shod → the car → the station
+ticket → the shop → the park. Same words, now a flowing scene.
+
+SIBLINGS (same five kana, different worlds): 02-kakikukeko-doubutsu (animals) and
+02-kakikukeko-shizen (nature). Sing all three to read か行 cold.

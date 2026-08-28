@@ -1,0 +1,104 @@
+かきくけこ（どうぶつ）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 2 (か行), ANIMALS variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (findings F-12), so to reach
+~3:00 we ADD VARIED content rather than loop: TEACH (word→sentence) → a zoo-day
+BRIDGE that walks the animals together → a REVIEW of the SENTENCES ONLY (isolated
+word calls dropped — already learned). Round 2 differs from round 1, which dodges the
+identical-repeat collapse (F-08) and consolidates in context.
+  · The ~2:00 short / vertical cut = PART 1 only (this file's teach section = v2).
+  · This full file = the YouTube version.
+
+VOICE: the house voice — city-pop + female Persona (findings F-11). Set the Persona
+in Custom mode; do not re-specify gender on top of it.
+
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Only particles;
+adjective/word-internal は stays. ALL HIRAGANA (kana-reading song).
+DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+か き く け こ
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+かに
+かに が あるく
+かえる
+かえる が いる
+かめ
+かめ ワ おそい
+か き く け こ
+
+[Verse]
+きつね
+きつね オ みる
+きんぎょ
+きんぎょ が およぐ
+きりん
+きりん ワ おおきい
+か き く け こ
+
+[Verse]
+くま
+くま ワ つよい
+くじら
+うみ に くじら
+くらげ
+くらげ が およぐ
+か き く け こ
+
+[Verse]
+けさ
+けさ の さんぽ
+けむし
+はっぱ に けむし
+けいと
+あかい けいと
+か き く け こ
+
+[Verse]
+こねこ
+こねこ が かわいい
+こいぬ
+こいぬ と あそぶ
+ことり
+ことり が なく
+か き く け こ
+
+# ═══ BRIDGE · どうぶつえん の ひ (recombine — new, flowing) ═══
+
+[Bridge]
+けさ の さんぽ、いけ エ
+かに と かえる、かめ も いる
+きつね と きりん、おおきいな
+くま ワ つよい、くじら も おおきい
+はっぱ の けむし、みどりいろ
+こねこ と こいぬ、ことり も
+か き く け こ
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+かに が あるく
+かえる が いる
+かめ ワ おそい
+きつね オ みる
+きんぎょ が およぐ
+きりん ワ おおきい
+くま ワ つよい
+うみ に くじら
+くらげ が およぐ
+けさ の さんぽ
+はっぱ に けむし
+あかい けいと
+こねこ が かわいい
+こいぬ と あそぶ
+ことり が なく
+か き く け こ
+
+[Outro]
+か き く け こ

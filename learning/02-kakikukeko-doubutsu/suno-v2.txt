@@ -1,0 +1,64 @@
+かきくけこ（どうぶつ）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 2 (か行), ANIMALS variation. The TEACH only.
+
+This is PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min
+vertical Stories/Reels cut. The full YouTube version (teach → bridge → review) is
+suno-v3.txt. Same voice + phonetic rules as v3.
+
+VOICE: house voice — city-pop + female Persona (F-11). Custom mode; don't re-set gender.
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+DURATION: ~15 word→sentence pairs ≈ ~1:50 at this pace (F-12). Custom, one pass.
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+か き く け こ
+
+[Verse]
+かに
+かに が あるく
+かえる
+かえる が いる
+かめ
+かめ ワ おそい
+か き く け こ
+
+[Verse]
+きつね
+きつね オ みる
+きんぎょ
+きんぎょ が およぐ
+きりん
+きりん ワ おおきい
+か き く け こ
+
+[Verse]
+くま
+くま ワ つよい
+くじら
+うみ に くじら
+くらげ
+くらげ が およぐ
+か き く け こ
+
+[Verse]
+けさ
+けさ の さんぽ
+けむし
+はっぱ に けむし
+けいと
+あかい けいと
+か き く け こ
+
+[Verse]
+こねこ
+こねこ が かわいい
+こいぬ
+こいぬ と あそぶ
+ことり
+ことり が なく
+か き く け こ
+
+[Outro]
+か き く け こ
