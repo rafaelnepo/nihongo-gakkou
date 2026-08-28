@@ -150,19 +150,26 @@ the whole kids playlist, not re-rolled per song — build a seed, following the
 -and-response, which is a poor Persona source** (mixed identity averages badly). So split
 the two jobs:
 
-> **The seed carries the VOICE. The chorus + call-and-response are added back per episode
-> as ARRANGEMENT.** The Persona only needs to lock "bright, youthful, clear, cheerful,
-> mid-range single voice"; every episode's style prompt re-adds the kids chorus.
+> **The seed carries the VOICE *and* the toy-box PALETTE. Only the chorus +
+> call-and-response are held back.** A chorus is *mixed vocal identity* — the one thing a
+> Persona sources badly (house-style.md ⚠, F-04/F-07), so it's the thing that must be a
+> single voice in the seed. But a Persona carries **instrumentation as a tendency**, and
+> the xylophone / marimba / toy piano / ukulele / claps / woodblock **are** part of P3's
+> identity — keep them *in* the seed so the Persona learns that sound. Only the kids
+> chorus is re-added per episode. (Contrast P1, the female voice: it spans many genres, so
+> *its* seed stays genre-neutral. "Sparse seed" means sparse in *vocal identity*, not a
+> thin palette — the two personas want opposite things from their beds.)
 
-**1 · The seed track** (never ships; its only job is identity). A short, deliberately
+**1 · The seed track** (never ships; its only job is identity). A deliberately
 **single-voice** kids take — no chorus, no second singer, no register jumps — over the
-plainest possible bed, with emotionally-neutral, all-kana lyrics so there's nothing for
-the Persona to average. Both are in [`seeds/kids-seed.txt`](seeds/kids-seed.txt):
+**toy-box palette we want P3 to carry**, with emotionally-neutral, all-kana lyrics so the
+only thing the Persona averages in the *voice* is one clean singer. Both are in
+[`seeds/kids-seed.txt`](seeds/kids-seed.txt):
 
-- **Seed style prompt:** `Japanese children's song, 96 BPM, ONE bright cheerful youthful`
-  `female voice, solo — no chorus, no backing vocals, light toy piano and soft shaker,`
-  `warm and clear, dry forward vocal, extremely clear enunciation of every kana, gentle`
-  `and unhurried, no ad-libs`
+- **Seed style prompt:** `Japanese children's song, 100 BPM, ONE bright cheerful youthful`
+  `female voice, solo — no chorus, no backing vocals — toy piano, xylophone, marimba,`
+  `ukulele, hand claps, woodblock, light upright bass, warm and playful, dry forward`
+  `vocal, extremely clear enunciation of every kana, no ad-libs`
 - **Seed lyric (neutral):** a plain count and two kana rows — `いち に さん / し ご ろく /`
   `なな はち きゅう / じゅう`, then `あ い う え お / か き く け こ`. No meaning to lean on,
   one voice, no duet.

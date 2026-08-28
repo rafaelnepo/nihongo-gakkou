@@ -1,23 +1,27 @@
 ICONOTES KIDS — PERSONA SEED  (does NOT ship — its only job is to be the P3 identity source)
 See personas.md → "The seed plan". Method from house-style.md. Written 2026-08-28.
 
-WHY THIS EXISTS: the kids songs are lead + children's chorus + call-and-response, which is
-a POOR Persona source (mixed identity averages badly — house-style.md ⚠). So the seed is
-deliberately a SINGLE voice with nothing to average: one bright youthful voice, plain
-all-kana lyrics, sparse bed, mid tempo. It carries the VOICE only. The chorus and
-call-and-response are added back per episode as arrangement (the ~104 BPM episode prompt in
-each animals song.json styles[]).
+WHY THIS EXISTS: the kids songs are lead + children's chorus + call-and-response. The
+CHORUS is the poison for a Persona source (mixed vocal identity averages badly —
+house-style.md ⚠, F-04/F-07), so the seed is ONE solo voice. But a Persona carries
+INSTRUMENTATION as a tendency, and the toy-box palette (xylophone/marimba/toy piano/
+ukulele/claps/woodblock) IS part of P3's identity — so KEEP those in the seed. What's held
+back for per-episode is ONLY the kids chorus + call-and-response (the ~104 BPM episode
+prompt in each animals song.json styles[]). Rule of thumb: sparse in VOICE, rich in the
+palette we want carried.
 
 RULES: ONE voice — no chorus, no second singer, no register jumps. Emotionally neutral,
-all hiragana (F-02 not needed here — no particles). Unhurried, dry, clear. Never released.
+all hiragana (F-02 not needed here — no particles). Dry, clear, playful. Never released.
 
 ─── SEED STYLE PROMPT (Custom mode) ───────────────────────────────────────────────
-Japanese children's song, 96 BPM, ONE bright cheerful youthful female voice, solo — no
-chorus, no backing vocals, light toy piano and soft shaker, warm and clear, dry forward
-vocal, extremely clear enunciation of every kana, gentle and unhurried, no ad-libs
+Japanese children's song, 100 BPM, ONE bright cheerful youthful female voice, solo — no
+chorus, no backing vocals — toy piano, xylophone, marimba, ukulele, hand claps, woodblock,
+light upright bass, warm and playful, dry forward vocal, extremely clear enunciation of
+every kana, no ad-libs
 
 ─── SEED LYRIC ────────────────────────────────────────────────────────────────────
-[One bright, youthful voice, solo. Warm and clear. Unhurried. ~96 BPM. No chorus.]
+[One bright, youthful voice, solo — no chorus. Warm, playful, clear. ~100 BPM.
+ Toy piano, xylophone, marimba, ukulele, hand claps, woodblock.]
 
 [Verse]
 いち に さん
