@@ -211,6 +211,29 @@ whenever you want the full cast.
 
 ---
 
+## Episode prompts (Voice selected)
+
+Once the Voice is saved and **selected**, it carries the singer — so the Styles box drops
+the voice-description words and describes only the **band** (arrangement + instruments +
+tempo). Voice = the singer; Style = everything around them. Reusable per-voice arrangements
+(the Voices in Suno: `Female JP (City Pop)` · `Male JP (Koto Pop)` · `Kodomo JP`):
+
+- **Female / city pop:** `Japanese city pop, 94 BPM, warm electric piano, clean funk`
+  `guitar, smooth bass, light soft drums, cheerful and polished, clear enunciation of`
+  `every kana, no ad-libs`
+- **Male / koto:** `modern Japanese pop with traditional koto, 90 BPM, koto, soft`
+  `shakuhachi accents, gentle modern beat, warm bass, elegant and calm, clear enunciation`
+  `of every kana, no ad-libs`
+- **Kids / playful:** `Japanese children's song, 104 BPM, toy piano, xylophone, marimba,`
+  `ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and`
+  `joyful, clear enunciation of every kana, no ad-libs` — **add** `with a children's`
+  `chorus answering, call-and-response` for real episodes (drop it for a clean recognition
+  test so the lead is audible alone).
+
+Recognition test: run a voice on a *different* lyric in its home genre (`[Verse]`-only, no
+`[Chorus]`); it passes if it sounds like the same singer on new words. Log drift to
+`findings.md`.
+
 ## Avatars (voice art)
 
 Each Voice gets an avatar image. Keep them a **matching set** — one illustration system,
