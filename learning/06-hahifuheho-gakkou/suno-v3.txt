@@ -6,7 +6,7 @@ content: TEACH → a craft-day BRIDGE → a REVIEW of the SENTENCES ONLY. Round 
 round 1, dodging the identical-repeat collapse (F-08).
 
 VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Word-internal は (はこ, はた,
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ(direction)→エ. Word-internal は (はこ, はた,
 はさみ) stays は. ALL HIRAGANA.  DURATION: Auto (F-15).
 
 [A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
@@ -21,7 +21,7 @@ PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Word-i
 はさみ
 はさみ で きる
 はこ
-はこ オ あける
+はこ を あける
 はた
 あかい はた
 は ひ ふ へ ほ
@@ -41,7 +41,7 @@ PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Word-i
 ふうせん
 まるい ふうせん
 ふえ
-ふえ オ ふく
+ふえ を ふく
 は ひ ふ へ ほ
 
 [Verse]
@@ -55,7 +55,7 @@ PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Word-i
 
 [Verse]
 ほん
-ほん オ よむ
+ほん を よむ
 ほうき
 ほうき で はく
 ほし
@@ -65,30 +65,30 @@ PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Word-i
 # ═══ BRIDGE · つくって あそぶ ひ (recombine — new, flowing) ═══
 
 [Bridge]
-はさみ で きって、はこ オ あける
+はさみ で きって、はこ を あける
 かみ の ひこうき、ながい ひも
 ふで で かく、まるい ふうせん
-ふえ オ ふく、あかい はた
+ふえ を ふく、あかい はた
 あかるい へや、しろい へい
-ほん オ よむ、よる の ほし
+ほん を よむ、よる の ほし
 は ひ ふ へ ほ
 
 # ═══ PART 2 · REVIEW (sentences only, sing along) ═══
 
 [Chorus]
 はさみ で きる
-はこ オ あける
+はこ を あける
 あかい はた
 かみ の ひこうき
 ながい ひも
 あかるい ひかり
 ふで で かく
 まるい ふうせん
-ふえ オ ふく
+ふえ を ふく
 あかるい へや
 しろい へい
 みどりの へちま
-ほん オ よむ
+ほん を よむ
 ほうき で はく
 よる の ほし
 は ひ ふ へ ほ

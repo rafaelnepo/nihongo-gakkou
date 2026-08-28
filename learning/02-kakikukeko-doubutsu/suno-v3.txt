@@ -12,7 +12,7 @@ identical-repeat collapse (F-08) and consolidates in context.
 VOICE: the house voice — city-pop + female Persona (findings F-11). Set the Persona
 in Custom mode; do not re-specify gender on top of it.
 
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Only particles;
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ(direction)→エ. Only particles;
 adjective/word-internal は stays. ALL HIRAGANA (kana-reading song).
 DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 
@@ -35,7 +35,7 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 
 [Verse]
 きつね
-きつね オ みる
+きつね を みる
 きんぎょ
 きんぎょ が およぐ
 きりん
@@ -86,7 +86,7 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 かに が あるく
 かえる が いる
 かめ ワ おそい
-きつね オ みる
+きつね を みる
 きんぎょ が およぐ
 きりん ワ おおきい
 くま ワ つよい

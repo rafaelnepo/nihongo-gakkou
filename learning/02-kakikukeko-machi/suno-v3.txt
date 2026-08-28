@@ -9,7 +9,7 @@ collapse (F-08) and consolidates in context.
   · This full file = the YouTube version.
 
 VOICE: house voice — city-pop + female Persona (F-11). Custom mode; don't re-set gender.
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ→エ. ALL HIRAGANA.
 LONG VOWEL (F-05): こうえん — if the う detaches into こ-う-え-ん, write こーえん in the
 Suno doc ONLY. Leave as こうえん unless it actually breaks.
 DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
@@ -24,7 +24,7 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 
 [Verse]
 かお
-かお オ あらう
+かお を あらう
 かさ
 あめ だから かさ
 かぎ
@@ -33,16 +33,16 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 
 [Verse]
 きる
-ふく オ きる
+ふく を きる
 きいろ
 きいろい ぼうし
 きっぷ
-きっぷ オ かう
+きっぷ を かう
 か き く け こ
 
 [Verse]
 くつ
-くつ オ はく
+くつ を はく
 くるま
 くるま に のる
 くも
@@ -70,10 +70,10 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 # ═══ BRIDGE · まち の いちにち (recombine — new, flowing) ═══
 
 [Bridge]
-けさ ワ あめ、かさ オ もつ
-ふく オ きて、くつ オ はく
+けさ ワ あめ、かさ を もつ
+ふく を きて、くつ を はく
 くるま に のって、まちエ
-えき で きっぷ オ かう
+えき で きっぷ を かう
 えんぴつ と けしごむ、かう
 こうえん で こども が あそぶ
 か き く け こ
@@ -81,13 +81,13 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 # ═══ PART 2 · REVIEW (sentences only, sing along) ═══
 
 [Chorus]
-かお オ あらう
+かお を あらう
 あめ だから かさ
 いえ の かぎ
-ふく オ きる
+ふく を きる
 きいろい ぼうし
-きっぷ オ かう
-くつ オ はく
+きっぷ を かう
+くつ を はく
 くるま に のる
 そら に くも
 えんぴつ と けしごむ

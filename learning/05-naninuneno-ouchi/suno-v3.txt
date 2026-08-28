@@ -6,7 +6,7 @@ content: TEACH → a day-at-home BRIDGE → a REVIEW of the SENTENCES ONLY. Roun
 from round 1, dodging the identical-repeat collapse (F-08).
 
 VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
-PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+PHONETIC FIXES (F-02): は→ワ, を stays を, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
 
 [A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
  Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
@@ -27,9 +27,9 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 
 [Verse]
 にく
-にく オ やく
+にく を やく
 にんじん
-にんじん オ きる
+にんじん を きる
 にわ
 にわ の はな
 な に ぬ ね の
@@ -38,7 +38,7 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 ぬいぐるみ
 くまの ぬいぐるみ
 ぬりえ
-ぬりえ オ する
+ぬりえ を する
 ぬの
 あおい ぬの
 な に ぬ ね の
@@ -47,7 +47,7 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 ねこ
 ねこ が ねる
 ねぎ
-ねぎ オ きる
+ねぎ を きる
 ねんど
 ねんど で あそぶ
 な に ぬ ね の
@@ -64,8 +64,8 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 # ═══ BRIDGE · おうち の いちにち (recombine — new, flowing) ═══
 
 [Bridge]
-なべ で にく オ やく
-にんじん オ きる、ねぎ も
+なべ で にく を やく
+にんじん を きる、ねぎ も
 くまの ぬいぐるみ、ぬりえ も
 ねこ が ねる、にわ で
 のり の おにぎり、つめたい のみもの
@@ -78,14 +78,14 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 なべ で つくる
 むらさきの なす
 あまい なし
-にく オ やく
-にんじん オ きる
+にく を やく
+にんじん を きる
 にわ の はな
 くまの ぬいぐるみ
-ぬりえ オ する
+ぬりえ を する
 あおい ぬの
 ねこ が ねる
-ねぎ オ きる
+ねぎ を きる
 ねんど で あそぶ
 のり の おにぎり
 つめたい のみもの

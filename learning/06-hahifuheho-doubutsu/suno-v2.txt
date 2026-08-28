@@ -6,7 +6,7 @@ Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + 
 
 VOICE: pairs with the KIDS voice (Persona "Kodomo JP"); add "children's chorus answering,
 call-and-response" for the kids sound; city-pop fallback. Custom mode.
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. Word-internal は stays. ALL HIRAGANA.
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ→エ. Word-internal は stays. ALL HIRAGANA.
 DURATION: Auto (F-15).
 
 [A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.

@@ -336,6 +336,28 @@ anything past that is padding.
    v3 bridge/review), don't raise the slider.
 3. A short instrumental tail is fine as a sign-off; 30s of filler is not — Auto avoids it.
 
+## F-16 · を is NEVER swapped — only the AMBIGUOUS particles (は→ワ, へ→エ) get katakana-ized — VALIDATED
+*2026-08-28. Nepô found it.*
+
+The earlier convention (an over-reach of F-02) also swapped **を→オ** in the Suno doc.
+**Wrong.** Nepô heard `くつ オ はく` sung as *"kutsu **wa** haku"*; changing オ back to を
+fixed it instantly — *"kutsu **o** haku"*, perfect.
+
+**Why.** を is **not** a dual-reading particle — it is only ever the object marker and is
+always read **"o"**. Katakana-izing it was pointless AND it broke: Suno, expecting the
+familiar を, mis-sang the unexpected オ.
+
+**The corrected rule (supersedes the を half of F-02).** Katakana-ize a particle **only when
+it genuinely has two readings**:
+- **は** (ha / **wa**) → ワ  — topic particle only; word-internal は stays. VALIDATED (F-02).
+- **へ** (he / **e**) → エ  — direction particle. Justified by the は precedent; still to be
+  heard on the first song that uses it (if it mis-sings, revert it too).
+- **を** → **stays を**. Never swap it.
+
+All 18 drafted songs were reverted (116 lyric `オ`→`を`); the ワ/エ swaps were left intact.
+Lesson beyond を: a katakana particle-swap is a targeted fix for ambiguity, not a blanket
+habit — an *unnecessary* swap can itself cause a misreading.
+
 ---
 
 ## Sources

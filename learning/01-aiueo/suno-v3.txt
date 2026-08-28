@@ -13,7 +13,7 @@ and consolidates in context.
 VOICE: the house voice — city-pop + female Persona (findings F-11). Set the
 Persona in Custom mode; do not re-specify gender on top of it.
 
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Only particles;
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ(direction)→エ. Only particles;
 はらう/あおい keep は/… as written. ALL HIRAGANA (kana-reading song).
 LONG VOWEL (F-05): おはよう → おはよー ONLY if the う detaches.
 DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
@@ -48,7 +48,7 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 うみ
 うみ エ いく
 うた
-うた オ うたう
+うた を うたう
 うさぎ
 うさぎ が いる
 あ い う え お
@@ -57,18 +57,18 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 えき
 えき エ いく
 えんぴつ
-えんぴつ オ かう
+えんぴつ を かう
 えん
 えんぴつ ワ ひゃくえん
 あ い う え お
 
 [Verse]
 おにぎり
-おにぎり オ たべる
+おにぎり を たべる
 おちゃ
-おちゃ オ のむ
+おちゃ を のむ
 おかね
-おかね オ はらう
+おかね を はらう
 あ い う え お
 
 # ═══ BRIDGE · THE DAY (recombine — new, flowing) ═══
@@ -77,7 +77,7 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 おはよう、あさ だよ
 あめ の あと、そら ワ あおい
 いえ に かえって、いぬ と さんぽ
-うみ で うた オ うたう
+うみ で うた を うたう
 えき で えんぴつ、ひゃくえん
 おにぎり と おちゃ
 あ い う え お
@@ -92,14 +92,14 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 いえ に いぬ が いる
 いぬ と さんぽ に いく
 うみ エ いく
-うた オ うたう
+うた を うたう
 うさぎ が いる
 えき エ いく
-えんぴつ オ かう
+えんぴつ を かう
 ひゃくえん です
-おにぎり オ たべる
-おちゃ オ のむ
-おかね オ はらう
+おにぎり を たべる
+おちゃ を のむ
+おかね を はらう
 あ い う え お
 
 [Outro]

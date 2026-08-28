@@ -12,7 +12,7 @@ The sentence after a word never starts with that same word, so no two look-alike
 lines are adjacent (F-08). The row refrain あいうえお closes every verse (F-07).
 
 PHONETIC FIXES (findings F-02) — v2 HAS PARTICLES, so unlike v1 it needs them:
-  は (topic) → ワ      を → オ      へ (direction) → エ
+  は (topic) → ワ      を → を      へ (direction) → エ
   Only the PARTICLE changes: はらう / はやい keep their は. Applied below.
 LONG VOWEL (F-05): おはよう — if the う is articulated as its own syllable
 instead of lengthening (o-ha-yo-U), and ONLY then, change to おはよー here.
@@ -49,7 +49,7 @@ DURATION: aim ~3:00 (Custom). If one pass won't reach it, use Suno EXTEND
 うみ
 うみ エ いく
 うた
-うた オ うたう
+うた を うたう
 うさぎ
 うさぎ が いる
 あ い う え お
@@ -58,18 +58,18 @@ DURATION: aim ~3:00 (Custom). If one pass won't reach it, use Suno EXTEND
 えき
 えき エ いく
 えんぴつ
-えんぴつ オ かう
+えんぴつ を かう
 えん
 えんぴつ ワ ひゃくえん
 あ い う え お
 
 [Verse]
 おにぎり
-おにぎり オ たべる
+おにぎり を たべる
 おちゃ
-おちゃ オ のむ
+おちゃ を のむ
 おかね
-おかね オ はらう
+おかね を はらう
 あ い う え お
 
 [Chorus]

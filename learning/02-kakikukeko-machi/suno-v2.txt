@@ -5,7 +5,7 @@ PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min ver
 The full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
 
 VOICE: house voice — city-pop + female Persona (F-11). Custom mode; don't re-set gender.
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ→エ. ALL HIRAGANA.
 DURATION: ~15 pairs ≈ ~1:50 at this pace (F-12). Custom, one pass.
 
 [A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
@@ -16,7 +16,7 @@ DURATION: ~15 pairs ≈ ~1:50 at this pace (F-12). Custom, one pass.
 
 [Verse]
 かお
-かお オ あらう
+かお を あらう
 かさ
 あめ だから かさ
 かぎ
@@ -25,16 +25,16 @@ DURATION: ~15 pairs ≈ ~1:50 at this pace (F-12). Custom, one pass.
 
 [Verse]
 きる
-ふく オ きる
+ふく を きる
 きいろ
 きいろい ぼうし
 きっぷ
-きっぷ オ かう
+きっぷ を かう
 か き く け こ
 
 [Verse]
 くつ
-くつ オ はく
+くつ を はく
 くるま
 くるま に のる
 くも

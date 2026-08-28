@@ -7,7 +7,7 @@ content: TEACH (word→sentence) → a meal-day BRIDGE → a REVIEW of the SENTE
   · The ~2:00 short / vertical cut = PART 1 only (this file's teach = v2).
 
 VOICE: house voice — city-pop + female Persona (F-11). Custom mode; don't re-set gender.
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ→エ. ALL HIRAGANA.
 DURATION: Auto (ends on the [Outro]); do not pad to 3:00 with a longer Custom (F-15).
 
 [A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
@@ -20,20 +20,20 @@ DURATION: Auto (ends on the [Outro]); do not pad to 3:00 with a longer Custom (F
 
 [Verse]
 さいふ
-さいふ オ もつ
+さいふ を もつ
 さかな
-さかな オ かう
+さかな を かう
 さとう
 さとう ワ あまい
 さ し す せ そ
 
 [Verse]
 しお
-しお オ いれる
+しお を いれる
 しる
 あつい しる
 しめじ
-しめじ オ たべる
+しめじ を たべる
 さ し す せ そ
 
 [Verse]
@@ -47,7 +47,7 @@ DURATION: Auto (ends on the [Outro]); do not pad to 3:00 with a longer Custom (F
 
 [Verse]
 せんべい
-せんべい オ たべる
+せんべい を たべる
 せき
 せき に すわる
 せっけん
@@ -66,9 +66,9 @@ DURATION: Auto (ends on the [Outro]); do not pad to 3:00 with a longer Custom (F
 # ═══ BRIDGE · ごはん の いちにち (recombine — new, flowing) ═══
 
 [Bridge]
-さいふ オ もって、かいもの
+さいふ を もって、かいもの
 さかな と しめじ、かう
-しお オ いれて、しる オ つくる
+しお を いれて、しる を つくる
 すし と すいか、おいしい
 せき に すわって、たべる
 そぼ の そば、ゆうやけ
@@ -77,16 +77,16 @@ DURATION: Auto (ends on the [Outro]); do not pad to 3:00 with a longer Custom (F
 # ═══ PART 2 · REVIEW (sentences only, sing along) ═══
 
 [Chorus]
-さいふ オ もつ
-さかな オ かう
+さいふ を もつ
+さかな を かう
 さとう ワ あまい
-しお オ いれる
+しお を いれる
 あつい しる
-しめじ オ たべる
+しめじ を たべる
 おいしい すし
 あまい すいか
 す ワ すっぱい
-せんべい オ たべる
+せんべい を たべる
 せき に すわる
 せっけん で あらう
 あたたかい そば

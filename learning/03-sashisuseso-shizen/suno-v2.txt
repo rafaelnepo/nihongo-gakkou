@@ -5,7 +5,7 @@ PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min ver
 Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
 
 VOICE: the CALM cut — koto × modern + Persona (F-11, male koto). Custom mode.
-PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ — none occur (all が/の). ALL HIRAGANA.
+PHONETIC FIXES (F-02): は→ワ, を stays を, へ→エ — none occur (all が/の). ALL HIRAGANA.
 DURATION: Auto (F-15).
 
 [A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.

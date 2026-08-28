@@ -6,7 +6,7 @@ content: TEACH → a day-at-home BRIDGE → a REVIEW of the SENTENCES ONLY. Roun
 from round 1, dodging the identical-repeat collapse (F-08).
 
 VOICE: house voice — city-pop + female Persona (F-11; "Female JP (City Pop)"). Custom mode.
-PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+PHONETIC FIXES (F-02): は→ワ, を stays を, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
 
 [A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
  Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
@@ -18,20 +18,20 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 
 [Verse]
 たまご
-たまご オ たべる
+たまご を たべる
 たおる
 しろい たおる
 たいこ
-たいこ オ たたく
+たいこ を たたく
 た ち つ て と
 
 [Verse]
 ちゃ
-ちゃ オ のむ
+ちゃ を のむ
 ちゃわん
 ちゃわん の ごはん
 ちず
-ちず オ みる
+ちず を みる
 た ち つ て と
 
 [Verse]
@@ -45,51 +45,51 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 
 [Verse]
 て
-て オ あらう
+て を あらう
 てがみ
-てがみ オ かく
+てがみ を かく
 てぶくろ
 あたたかい てぶくろ
 た ち つ て と
 
 [Verse]
 とけい
-とけい オ みる
+とけい を みる
 とまと
 あかい とまと
 とびら
-とびら オ あける
+とびら を あける
 た ち つ て と
 
 # ═══ BRIDGE · おうち の いちにち (recombine — new, flowing) ═══
 
 [Bridge]
-たまご オ たべて、ちゃ オ のむ
-つくえ で てがみ オ かく
+たまご を たべて、ちゃ を のむ
+つくえ で てがみ を かく
 つみき で あそぶ、たいこ も
-とけい オ みる、おひる だ
+とけい を みる、おひる だ
 あかい とまと、しろい たおる
-よる の つき、とびら オ しめる
+よる の つき、とびら を しめる
 た ち つ て と
 
 # ═══ PART 2 · REVIEW (sentences only, sing along) ═══
 
 [Chorus]
-たまご オ たべる
+たまご を たべる
 しろい たおる
-たいこ オ たたく
-ちゃ オ のむ
+たいこ を たたく
+ちゃ を のむ
 ちゃわん の ごはん
-ちず オ みる
+ちず を みる
 つくえ で かく
 つみき で あそぶ
 よる の つき
-て オ あらう
-てがみ オ かく
+て を あらう
+てがみ を かく
 あたたかい てぶくろ
-とけい オ みる
+とけい を みる
 あかい とまと
-とびら オ あける
+とびら を あける
 た ち つ て と
 
 [Outro]

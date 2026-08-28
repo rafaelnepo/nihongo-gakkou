@@ -10,7 +10,7 @@ collapse (F-08) and consolidating in context.
 
 VOICE: house voice — this is the CALM cut, so KOTO × MODERN + female Persona (F-11).
 Custom mode; do not re-specify gender on top of the Persona.
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ→エ. ALL HIRAGANA.
 LONG VOWEL (F-05): こうえん / こおり — if a long vowel detaches, write こーえん / こおり
 in the Suno doc ONLY. Leave as written unless it breaks.
 DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
@@ -65,7 +65,7 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 こえ
 とり の こえ
 こうえん
-こうえん オ あるく
+こうえん を あるく
 か き く け こ
 
 # ═══ BRIDGE · きせつ の さんぽ (recombine — new, flowing) ═══
@@ -76,7 +76,7 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 もり の き、きいろい はっぱ
 そら の くも、みどりの くさ
 えんとつ の けむり、とおく に
-こうえん オ あるいて、とり の こえ
+こうえん を あるいて、とり の こえ
 か き く け こ
 
 # ═══ PART 2 · REVIEW (sentences only, sing along) ═══
@@ -96,7 +96,7 @@ DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
 えんとつ の けむり
 つめたい こおり
 とり の こえ
-こうえん オ あるく
+こうえん を あるく
 か き く け こ
 
 [Outro]

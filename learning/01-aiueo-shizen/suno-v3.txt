@@ -10,7 +10,7 @@ collapse (F-08) and consolidating in context.
 
 VOICE: house voice — the CALM cut, so KOTO × MODERN + female Persona (F-11). Custom
 mode; do not re-specify gender on top of the Persona.
-PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. This lyric happens to use none of
+PHONETIC FIXES (F-02): は(topic)→ワ, を stays を, へ→エ. This lyric happens to use none of
 those particles (all が/の), so no swaps are needed. ALL HIRAGANA.
 LONG VOWEL (F-05): おおぞら / あさひ — if a long vowel detaches oddly, adjust in the
 Suno doc ONLY. Leave as written unless it breaks.

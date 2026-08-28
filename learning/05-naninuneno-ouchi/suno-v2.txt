@@ -5,7 +5,7 @@ PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min ver
 Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
 
 VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
-PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+PHONETIC FIXES (F-02): は→ワ, を stays を, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
 
 [A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
  Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
@@ -24,9 +24,9 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 
 [Verse]
 にく
-にく オ やく
+にく を やく
 にんじん
-にんじん オ きる
+にんじん を きる
 にわ
 にわ の はな
 な に ぬ ね の
@@ -35,7 +35,7 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 ぬいぐるみ
 くまの ぬいぐるみ
 ぬりえ
-ぬりえ オ する
+ぬりえ を する
 ぬの
 あおい ぬの
 な に ぬ ね の
@@ -44,7 +44,7 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 ねこ
 ねこ が ねる
 ねぎ
-ねぎ オ きる
+ねぎ を きる
 ねんど
 ねんど で あそぶ
 な に ぬ ね の

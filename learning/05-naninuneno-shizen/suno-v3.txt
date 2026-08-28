@@ -6,7 +6,7 @@ content: TEACH → a day-in-nature BRIDGE → a REVIEW of the SENTENCES ONLY. Ro
 from round 1, dodging the identical-repeat collapse (F-08).
 
 VOICE: the CALM cut — koto × modern + Persona ("Male JP (Koto Pop)"). Custom mode.
-PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ — none occur (all が/の/adjectives). ALL HIRAGANA.
+PHONETIC FIXES (F-02): は→ワ, を stays を, へ→エ — none occur (all が/の/adjectives). ALL HIRAGANA.
 DURATION: Auto (F-15).
 
 [A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.

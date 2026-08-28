@@ -5,7 +5,7 @@ PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min ver
 Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
 
 VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
-PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+PHONETIC FIXES (F-02): は→ワ, を stays を, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
 
 [A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
  Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
@@ -15,20 +15,20 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 
 [Verse]
 たまご
-たまご オ たべる
+たまご を たべる
 たおる
 しろい たおる
 たいこ
-たいこ オ たたく
+たいこ を たたく
 た ち つ て と
 
 [Verse]
 ちゃ
-ちゃ オ のむ
+ちゃ を のむ
 ちゃわん
 ちゃわん の ごはん
 ちず
-ちず オ みる
+ちず を みる
 た ち つ て と
 
 [Verse]
@@ -42,20 +42,20 @@ PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION:
 
 [Verse]
 て
-て オ あらう
+て を あらう
 てがみ
-てがみ オ かく
+てがみ を かく
 てぶくろ
 あたたかい てぶくろ
 た ち つ て と
 
 [Verse]
 とけい
-とけい オ みる
+とけい を みる
 とまと
 あかい とまと
 とびら
-とびら オ あける
+とびら を あける
 た ち つ て と
 
 [Outro]
