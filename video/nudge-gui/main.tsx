@@ -460,19 +460,8 @@ const App: React.FC = () => {
             </div>
           </div>
 
-          {/* nudge levels + shortcuts, below the video (full pane width) */}
+          {/* shortcuts | nudge levels, below the video (full pane width) */}
           <div style={S.bottomPanels}>
-            <div style={S.panel}>
-              <div style={S.panelTitle}>Nudge levels</div>
-              <LevelsPanel
-                line={selected != null ? timing.lines[selected] : null}
-                selectedWord={selectedWord}
-                onPickWord={setSelectedWord}
-                onBlock={nudgeBlock}
-                onLine={(which, dir) => selected != null && nudge(selected, which, dir)}
-                onWord={nudgeWord}
-              />
-            </div>
             <div style={S.panel}>
               <div style={S.panelTitle}>Shortcuts</div>
               <div style={S.legend}>
@@ -483,6 +472,18 @@ const App: React.FC = () => {
                 <Legend k={["Space"]} d="play / pause" />
                 <Legend k={["[", "/", "]"]} d="step size" />
               </div>
+            </div>
+            <div style={S.panelSep} />
+            <div style={S.panel}>
+              <div style={S.panelTitle}>Nudge levels</div>
+              <LevelsPanel
+                line={selected != null ? timing.lines[selected] : null}
+                selectedWord={selectedWord}
+                onPickWord={setSelectedWord}
+                onBlock={nudgeBlock}
+                onLine={(which, dir) => selected != null && nudge(selected, which, dir)}
+                onWord={nudgeWord}
+              />
             </div>
           </div>
         </div>
@@ -695,8 +696,9 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   scrub: { flex: 1, accentColor: "#e7481c", cursor: "pointer" },
   time: { fontFamily: "ui-monospace, monospace", fontSize: 12, color: "#6f685c", minWidth: 96, textAlign: "right" },
   playhead: { marginTop: 10, fontSize: 13, fontFamily: "ui-monospace, monospace", color: "#6f685c" },
-  bottomPanels: { marginTop: 18, width: "100%", display: "flex", flexWrap: "wrap", gap: 28, alignItems: "flex-start" },
+  bottomPanels: { marginTop: 18, width: "100%", display: "flex", flexWrap: "wrap", gap: 28, alignItems: "stretch" },
   panel: { minWidth: 260 },
+  panelSep: { alignSelf: "stretch", width: 1, background: "#e0d6c1" },
   panelTitle: { fontSize: 11, textTransform: "uppercase", letterSpacing: "0.08em", color: "#a99f8c", fontWeight: 700, marginBottom: 10 },
   levels: { display: "flex", flexDirection: "column", gap: 12 },
   levelsHint: { fontSize: 12, color: "#a99f8c", padding: "4px 0", maxWidth: 260 },
