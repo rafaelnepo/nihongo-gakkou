@@ -21,7 +21,8 @@ video/out/
 *.mp4
 *.m4a
 video/public/*
-assets/            # local Suno exports (art/video), kept out of the repo
+# local Suno exports (art/video), kept out of the repo
+assets/
 
 # ── OS / editor ──
 .DS_Store
