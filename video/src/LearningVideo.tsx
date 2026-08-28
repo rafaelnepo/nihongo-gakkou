@@ -78,20 +78,38 @@ const bakeLines = (raw: LearningLine[]): LearningLine[] => {
     floor = e;
     return { s, e };
   });
-  // 3) re-map each line's original chars into its final window
+  // 3) re-map each line's original chars into its final window, then apply any
+  //    per-word micro-shifts on top.
   return raw.map((l, k) => {
     const { s, e } = finals[k];
     const os = l.start;
     const oe = l.end;
-    if (s === os && e === oe) return l; // untouched — no work, no new object
-    const span = Math.max(1e-6, oe - os);
-    const remap = (x: number) => s + ((x - os) / span) * (e - s);
-    return {
-      ...l,
-      start: s,
-      end: e,
-      chars: l.chars?.map((c) => ({ start: remap(c.start), end: remap(c.end) })),
-    };
+    const windowMoved = s !== os || e !== oe;
+    const hasWords = !!l.wordShifts?.some((x) => x);
+    if (!windowMoved && !hasWords) return l; // untouched — no work, no new object
+    let chars = l.chars;
+    if (chars && windowMoved) {
+      const span = Math.max(1e-6, oe - os);
+      const remap = (x: number) => s + ((x - os) / span) * (e - s);
+      chars = chars.map((c) => ({ start: remap(c.start), end: remap(c.end) }));
+    }
+    if (chars && hasWords) chars = applyWordShifts(l.text, chars, l.wordShifts!);
+    return { ...l, start: s, end: e, chars };
+  });
+};
+
+// Offset each word's characters by its wordShifts[] entry. A "word" is a maximal
+// run of non-space display glyphs; spaces carry no shift. Missing entries = 0.
+const applyWordShifts = (text: string, chars: CharTime[], shifts: number[]): CharTime[] => {
+  const glyphs = Array.from(text);
+  let w = -1;
+  let prevSpace = true;
+  return chars.map((c, i) => {
+    const isSpace = glyphs[i] === " ";
+    if (!isSpace && prevSpace) w++;
+    prevSpace = isSpace;
+    const sh = isSpace ? 0 : shifts[w] ?? 0;
+    return sh ? { start: c.start + sh, end: c.end + sh } : c;
   });
 };
 

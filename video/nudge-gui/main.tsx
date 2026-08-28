@@ -31,6 +31,49 @@ const bakeWindows = (lines: LearningTiming["lines"]) => {
   });
 };
 
+type Line = LearningTiming["lines"][number];
+
+// space-separated words, same split the template uses for wordShifts
+const wordsOf = (text: string) => text.split(" ").filter((w) => w.length > 0);
+
+// the contiguous run of same-section lines containing idx (a "block")
+const blockRange = (lines: Line[], idx: number): [number, number] => {
+  const sec = lines[idx].section;
+  let a = idx;
+  let b = idx;
+  while (a > 0 && lines[a - 1].section === sec) a--;
+  while (b < lines.length - 1 && lines[b + 1].section === sec) b++;
+  return [a, b];
+};
+
+// drop trailing zeros so a cleared wordShifts array disappears from the JSON
+const trimZeros = (arr: number[]): number[] | undefined => {
+  let n = arr.length;
+  while (n > 0 && !arr[n - 1]) n--;
+  return n ? arr.slice(0, n) : undefined;
+};
+
+// approx time of a word's first glyph inside the line's baked window (for cueing)
+const wordSeek = (line: Line, wi: number, win: { s: number; e: number }) => {
+  const glyphs = Array.from(line.text);
+  let w = -1;
+  let prevSpace = true;
+  let gi = 0;
+  for (let i = 0; i < glyphs.length; i++) {
+    const sp = glyphs[i] === " ";
+    if (!sp && prevSpace) {
+      w++;
+      if (w === wi) {
+        gi = i;
+        break;
+      }
+    }
+    prevSpace = sp;
+  }
+  const frac = glyphs.length ? gi / glyphs.length : 0;
+  return win.s + frac * (win.e - win.s) + (line.wordShifts?.[wi] ?? 0);
+};
+
 const App: React.FC = () => {
   const [timing, setTiming] = useState<LearningTiming | null>(null);
   const [err, setErr] = useState<string | null>(null);
@@ -40,6 +83,8 @@ const App: React.FC = () => {
   const [frame, setFrame] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [selected, setSelected] = useState<number | null>(null);
+  const [selectedWord, setSelectedWord] = useState<number | null>(null);
+  useEffect(() => setSelectedWord(null), [selected]); // reset word pick per line
   const [leftW, setLeftW] = useState(() => {
     // width of the player pane (drag to resize) — remembered per browser
     try {
@@ -179,6 +224,7 @@ const App: React.FC = () => {
           const copy = { ...l };
           delete copy.startShift;
           delete copy.endShift;
+          delete copy.wordShifts;
           return copy;
         });
         const next = { ...prev, lines };
@@ -187,6 +233,58 @@ const App: React.FC = () => {
       });
     },
     [persist]
+  );
+
+  // BLOCK level: shift a whole section (every line in the selected line's run)
+  // together, by bumping each line's `delay`.
+  const nudgeBlock = useCallback(
+    (dir: 1 | -1) => {
+      if (selected == null) return;
+      setTiming((prev) => {
+        if (!prev) return prev;
+        const [a, b] = blockRange(prev.lines, selected);
+        const lines = prev.lines.map((l, k) => {
+          if (k < a || k > b) return l;
+          const val = Math.round(((l.delay ?? 0) + dir * step) * 1000) / 1000;
+          const copy = { ...l };
+          if (Math.abs(val) < 1e-6) delete copy.delay;
+          else copy.delay = val;
+          return copy;
+        });
+        const next = { ...prev, lines };
+        persist(next);
+        seekToT(bakeWindows(next.lines)[a].s);
+        return next;
+      });
+    },
+    [selected, step, persist, seekToT]
+  );
+
+  // WORD level: micro-shift one word inside the selected line.
+  const nudgeWord = useCallback(
+    (dir: 1 | -1) => {
+      if (selected == null || selectedWord == null) return;
+      const wi = selectedWord;
+      setTiming((prev) => {
+        if (!prev) return prev;
+        const lines = prev.lines.map((l, k) => {
+          if (k !== selected) return l;
+          const arr = (l.wordShifts ?? []).slice();
+          while (arr.length <= wi) arr.push(0);
+          arr[wi] = Math.round(((arr[wi] ?? 0) + dir * step) * 1000) / 1000;
+          const copy = { ...l };
+          const trimmed = trimZeros(arr);
+          if (trimmed) copy.wordShifts = trimmed;
+          else delete copy.wordShifts;
+          return copy;
+        });
+        const next = { ...prev, lines };
+        persist(next);
+        seekToT(wordSeek(next.lines[selected], wi, bakeWindows(next.lines)[selected]));
+        return next;
+      });
+    },
+    [selected, selectedWord, step, persist, seekToT]
   );
 
   // Move the selection (clamped) and cue the player to that line's start.
@@ -360,13 +458,31 @@ const App: React.FC = () => {
                 </>
               ) : null}
             </div>
-            <div style={S.legend}>
-              <Legend k={["←", "/", "→"]} d="start − / +" />
-              <Legend k={["⇧", "+", "←", "/", "→"]} d="end − / +" />
-              <Legend k={["↑", "/", "↓"]} d="prev / next line" />
-              <Legend k={["R"]} d="replay current line" />
-              <Legend k={["Space"]} d="play / pause" />
-              <Legend k={["[", "/", "]"]} d="step size" />
+          </div>
+
+          {/* nudge levels + shortcuts, below the video (full pane width) */}
+          <div style={S.bottomPanels}>
+            <div style={S.panel}>
+              <div style={S.panelTitle}>Nudge levels</div>
+              <LevelsPanel
+                line={selected != null ? timing.lines[selected] : null}
+                selectedWord={selectedWord}
+                onPickWord={setSelectedWord}
+                onBlock={nudgeBlock}
+                onLine={(which, dir) => selected != null && nudge(selected, which, dir)}
+                onWord={nudgeWord}
+              />
+            </div>
+            <div style={S.panel}>
+              <div style={S.panelTitle}>Shortcuts</div>
+              <div style={S.legend}>
+                <Legend k={["←", "/", "→"]} d="start − / +" />
+                <Legend k={["⇧", "+", "←", "/", "→"]} d="end − / +" />
+                <Legend k={["↑", "/", "↓"]} d="prev / next line" />
+                <Legend k={["R"]} d="replay current line" />
+                <Legend k={["Space"]} d="play / pause" />
+                <Legend k={["[", "/", "]"]} d="step size" />
+              </div>
             </div>
           </div>
         </div>
@@ -389,16 +505,23 @@ const App: React.FC = () => {
             const w = windows[idx];
             const ss = l.startShift ?? 0;
             const es = l.endShift ?? 0;
-            const touched = ss !== 0 || es !== 0;
+            const touched = ss !== 0 || es !== 0 || !!l.wordShifts?.some((x) => x);
             const isSel = selected === idx;
             const isActive = activeIdx === idx;
+            const newSection = idx === 0 || timing.lines[idx - 1].section !== l.section;
             return (
-              <div
-                key={idx}
-                onClick={() => {
-                  setSelected(idx);
-                  seekToT(w.s);
-                }}
+              <React.Fragment key={idx}>
+                {newSection ? (
+                  <div style={S.section}>
+                    <span style={S.sectionLabel}>{l.section}</span>
+                    <span style={S.sectionRule} />
+                  </div>
+                ) : null}
+                <div
+                  onClick={() => {
+                    setSelected(idx);
+                    seekToT(w.s);
+                  }}
                 style={{
                   ...S.row,
                   ...(isSel ? S.rowSel : null),
@@ -433,7 +556,8 @@ const App: React.FC = () => {
                 >
                   ⟲
                 </button>
-              </div>
+                </div>
+              </React.Fragment>
             );
           })}
         </div>
@@ -463,6 +587,67 @@ const Group: React.FC<{
     </div>
   </div>
 );
+
+// The 3-level nudge controls for the selected line: Block (whole section) →
+// Line (start/end) → Word (micro-shift one word). Coarse-to-fine, top to bottom.
+const LevelsPanel: React.FC<{
+  line: Line | null;
+  selectedWord: number | null;
+  onPickWord: (wi: number) => void;
+  onBlock: (dir: 1 | -1) => void;
+  onLine: (which: "start" | "end", dir: 1 | -1) => void;
+  onWord: (dir: 1 | -1) => void;
+}> = ({ line, selectedWord, onPickWord, onBlock, onLine, onWord }) => {
+  if (!line) return <div style={S.levelsHint}>Select a line to nudge its block · line · words.</div>;
+  const words = wordsOf(line.text);
+  return (
+    <div style={S.levels}>
+      <div style={S.levelRow}>
+        <div style={S.levelName}>
+          Block<span style={S.levelSub}>{line.section}</span>
+        </div>
+        <Group label="section" value={line.delay ?? 0} onLeft={() => onBlock(-1)} onRight={() => onBlock(1)} />
+      </div>
+      <div style={S.levelRow}>
+        <div style={S.levelName}>Line</div>
+        <div style={{ display: "flex", gap: 14 }}>
+          <Group label="start" value={line.startShift ?? 0} onLeft={() => onLine("start", -1)} onRight={() => onLine("start", 1)} />
+          <Group label="end" value={line.endShift ?? 0} onLeft={() => onLine("end", -1)} onRight={() => onLine("end", 1)} />
+        </div>
+      </div>
+      <div style={S.levelRow}>
+        <div style={S.levelName}>Word</div>
+        <div style={{ display: "flex", flexDirection: "column", gap: 7, minWidth: 0 }}>
+          <div style={S.wordChips}>
+            {words.map((wd, wi) => {
+              const sh = line.wordShifts?.[wi] ?? 0;
+              return (
+                <button
+                  key={wi}
+                  onClick={() => onPickWord(wi)}
+                  style={{ ...S.wordChip, ...(selectedWord === wi ? S.wordChipSel : null), ...(sh ? S.wordChipTouched : null) }}
+                >
+                  {wd}
+                  {sh ? <span style={S.wordChipVal}>{signed(sh)}</span> : null}
+                </button>
+              );
+            })}
+          </div>
+          {selectedWord != null && selectedWord < words.length ? (
+            <Group
+              label={words[selectedWord]}
+              value={line.wordShifts?.[selectedWord] ?? 0}
+              onLeft={() => onWord(-1)}
+              onRight={() => onWord(1)}
+            />
+          ) : (
+            <div style={S.levelsHint}>pick a word to shift it</div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 // A legend row: each token is one key (→ its own <kbd>) or a separator ("+" / "/").
 const SEPARATORS = new Set(["+", "/"]);
@@ -502,7 +687,7 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
     error: { background: "#f4cfc7", color: "#b23a22" },
   },
   body: { flex: 1, display: "flex", minHeight: 0 },
-  left: { flex: "0 0 auto", padding: 18, display: "flex", justifyContent: "center", alignItems: "flex-start", overflowY: "auto", background: "#f7f2e7" },
+  left: { flex: "0 0 auto", padding: 18, display: "flex", flexDirection: "column", alignItems: "center", overflowY: "auto", background: "#f7f2e7" },
   divider: { flex: "0 0 auto", width: 8, cursor: "col-resize", background: "#e7dcc6", borderLeft: "1px solid #ddd3bf", borderRight: "1px solid #ddd3bf", display: "flex", alignItems: "center", justifyContent: "center" },
   dividerGrip: { width: 2, height: 34, borderRadius: 2, background: "#b6ab92" },
   controls: { display: "flex", alignItems: "center", gap: 10, marginTop: 10, width: "100%" },
@@ -510,13 +695,29 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   scrub: { flex: 1, accentColor: "#e7481c", cursor: "pointer" },
   time: { fontFamily: "ui-monospace, monospace", fontSize: 12, color: "#6f685c", minWidth: 96, textAlign: "right" },
   playhead: { marginTop: 10, fontSize: 13, fontFamily: "ui-monospace, monospace", color: "#6f685c" },
-  legend: { marginTop: 16, display: "flex", flexDirection: "column", gap: 9 },
+  bottomPanels: { marginTop: 18, width: "100%", display: "flex", flexWrap: "wrap", gap: 28, alignItems: "flex-start" },
+  panel: { minWidth: 260 },
+  panelTitle: { fontSize: 11, textTransform: "uppercase", letterSpacing: "0.08em", color: "#a99f8c", fontWeight: 700, marginBottom: 10 },
+  levels: { display: "flex", flexDirection: "column", gap: 12 },
+  levelsHint: { fontSize: 12, color: "#a99f8c", padding: "4px 0", maxWidth: 260 },
+  levelRow: { display: "flex", alignItems: "flex-start", gap: 14 },
+  levelName: { width: 52, paddingTop: 4, fontSize: 13, fontWeight: 700, color: "#5a5348", display: "flex", flexDirection: "column", gap: 1 },
+  levelSub: { fontSize: 9, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "#a99f8c" },
+  wordChips: { display: "flex", flexWrap: "wrap", gap: 5, maxWidth: 300 },
+  wordChip: { fontFamily: "'Zen Maru Gothic', ui-sans-serif, system-ui", fontSize: 15, padding: "3px 9px", borderRadius: 6, border: "1px solid #cbc1ac", background: "#fff", cursor: "pointer", color: "#41403a", lineHeight: 1.3 },
+  wordChipSel: { borderColor: "#e7481c", boxShadow: "inset 0 0 0 1px #e7481c" },
+  wordChipTouched: { background: "#fbeee6" },
+  wordChipVal: { fontSize: 9, color: "#e7481c", marginLeft: 3, verticalAlign: "super", fontFamily: "ui-monospace, monospace" },
+  legend: { display: "flex", flexDirection: "column", gap: 9 },
   legendRow: { display: "flex", alignItems: "center", gap: 12 },
   legendDesc: { fontSize: 13, color: "#8c8578" },
   keys: { display: "flex", alignItems: "center", gap: 6, minWidth: 132 },
   sep: { fontSize: 13, color: "#b6ab92", padding: "0 1px" },
   kbd: { fontFamily: "ui-monospace, monospace", fontSize: 15, lineHeight: 1, minWidth: 30, height: 30, display: "inline-flex", alignItems: "center", justifyContent: "center", padding: "0 10px", borderRadius: 7, border: "1px solid #cbc1ac", borderBottomWidth: 3, background: "#fff", color: "#41403a", boxShadow: "0 1px 0 rgba(0,0,0,0.03)" },
   right: { flex: 1, overflowY: "auto", padding: "6px 10px" },
+  section: { display: "flex", alignItems: "center", gap: 10, padding: "14px 10px 4px" },
+  sectionLabel: { fontSize: 10, fontWeight: 800, textTransform: "uppercase", letterSpacing: "0.12em", color: "#b6ab92", whiteSpace: "nowrap" },
+  sectionRule: { flex: 1, height: 1, background: "#e6dcc7" },
   row: { display: "flex", alignItems: "center", gap: 12, padding: "8px 10px", borderRadius: 8, cursor: "pointer", borderBottom: "1px solid #eee5d3" },
   rowSel: { background: "#fff", boxShadow: "inset 0 0 0 2px #e7481c" },
   rowActive: { background: "#fbf3df" },

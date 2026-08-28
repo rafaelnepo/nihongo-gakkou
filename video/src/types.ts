@@ -71,9 +71,15 @@ export type LearningLine = {
   // `endShift` moves only where it ENDS; the aligned syllables in between re-space
   // proportionally to fill the new window. Non-destructive — the original `chars[]`
   // stay untouched, so any nudge is reversible and a re-align resets cleanly.
-  // (`delay` above == moving both by the same amount.)
+  // (`delay` above == moving both by the same amount — the "block" level bulk-sets
+  // it across a whole section.)
   startShift?: number;
   endShift?: number;
+  // WORD level: one offset (seconds) per space-separated word in `text`, applied
+  // to that word's characters AFTER the line is placed. For sung lines where the
+  // singer holds or rushes a word in the middle so it drifts against the line.
+  // Sparse/short arrays are fine (missing entries = 0). Also non-destructive.
+  wordShifts?: number[];
 };
 
 export type LearningTiming = {

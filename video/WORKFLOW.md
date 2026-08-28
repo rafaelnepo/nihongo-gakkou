@@ -94,8 +94,9 @@ Timing lives in `timing/<id>.json` and has these levers, from coarse to fine:
 |---|---|---|
 | **WhisperX alignment** | `../tools/align/align_song.py --write` | the base — per-character sync from the audio |
 | **`offsetSeconds`** (whole song) | top of the JSON | fill is uniformly early/late. `+` = later |
-| **`delay`** (one line) | on a line object | the song pauses/holds and one whole line drifts |
-| **`startShift` / `endShift`** (one line) | on a line object | one END of a line drifts — move just its in- or out-point; the aligned syllables re-space to fill. `+` = later. This is what the **nudge GUI** writes |
+| **`delay`** (one line) | on a line object | one whole line drifts. The nudge GUI's **Block** level bulk-sets it across a whole section (verse/refrain/…) |
+| **`startShift` / `endShift`** (one line) | on a line object | one END of a line drifts — move just its in- or out-point; the aligned syllables re-space to fill. `+` = later. The nudge GUI's **Line** level |
+| **`wordShifts[]`** (one word) | on a line object | a single WORD drifts inside a line (held/rushed sung note); one offset per space-separated word. The nudge GUI's **Word** level |
 | **hand-timed line** | set a line's `start`/`end`, delete its `chars[]` | the aligner mistimes it (held/sustained notes); the template even-distributes glyphs across the window |
 
 All nudges (`delay` / `startShift` / `endShift`) are **non-destructive** — the

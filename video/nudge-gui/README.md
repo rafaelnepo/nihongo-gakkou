@@ -16,20 +16,25 @@ npm run nudge     # → http://localhost:3010
 
 Open it in a normal browser (you need the audio). Pick a line, nudge, repeat.
 
-## What a nudge is
+## Three levels of nudging
 
-The aligner gives every character an absolute timestamp; the fill lights up on
-those. When a line leads or lags, you shift it:
+Sung timing drifts differently from spoken: a held or rushed note pushes one word
+out of place even when the line as a whole is right. So nudging is **hierarchical**
+— work coarse to fine, from the "Nudge levels" panel:
 
-- **Start** moves where the line's fill *begins*.
-- **End** moves where it *ends*.
-- The syllables in between **re-space proportionally** to fill the new window.
+1. **Block** — shift a whole **section** (all lines of a verse / refrain / bridge)
+   together. Stored as `delay` on each line in the section.
+2. **Line** — shift one line's **Start** or **End** independently; the syllables
+   between re-space proportionally. Stored as `startShift` / `endShift`.
+3. **Word** — micro-shift a single **word** inside a line, for the one that drifts
+   on a held/rushed note. Stored as `wordShifts[]` (one offset per space-separated
+   word).
 
-Shifts are stored as a non-destructive overlay (`startShift` / `endShift`, plus
-the older whole-line `delay`) on each line in `../timing/<id>.learning.json`. The
-aligner's `chars[]` are never mutated — the template bakes the shift onto a copy
-at render time (`bakeLines` in `../src/LearningVideo.tsx`), so every nudge is
-reversible and a re-align resets the slate.
+All three are a **non-destructive overlay** on `../timing/<id>.learning.json`. The
+aligner's `chars[]` are never mutated — the template bakes the overlay onto a copy
+at render time (`bakeLines` in `../src/LearningVideo.tsx`, which also applies
+`applyWordShifts`), so every nudge is reversible and a re-align resets the slate.
+The list groups lines by section with separators so blocks are easy to see.
 
 ### Cascade
 
