@@ -44,6 +44,12 @@ Do these first. They cost nothing and they survive every Suno model change.
 
 ## Then the voice half: Personas
 
+> **Evolved 2026-08-28 → see [`personas.md`](personas.md).** This section argues for
+> **one** Persona for cohesion. `personas.md` keeps everything below true *per persona*
+> but turns voice into a product axis: a small **cast** (P1 female city-pop · P2 male
+> koto · P3 kids), with each voice its own coherent playlist. Cohesion lives *within* a
+> persona; variety lives *across* them. Read this section first, then that doc.
+
 **Personas are the right Suno feature for this** — a recurring generated project
 identity, reusable across songs. Not "upload audio", not "add inspiration".
 
