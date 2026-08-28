@@ -1,0 +1,70 @@
+まみむめも（おうち）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 7 (ま行). HOME variation. Written 2026-08-28.
+
+CONCEPT: say the thing, then USE it. Each ま-row word is taught through a short sentence,
+gathered into a cosy day at home — the window, a snack, small things, glasses, a nap. One of
+THREE ま-row songs (home · nature · animals). Recombines earlier rows (あける, たべる, うさぎ,
+あまい, つめたい, あたたかい) — the F-13 ladder. All hiragana; kanji here only for meaning.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+ま  ── THE WINDOW
+  まど        (mado)   window (窓)
+     → まど を あける        (mado o akeru)          open the window
+  まくら      (makura) pillow (枕)
+     → しろい まくら        (shiroi makura)         a white pillow
+  まめ        (mame)   bean (豆)
+     → まめ を たべる        (mame o taberu)         eat beans
+
+み  ── A SNACK & WATER
+  みかん      (mikan)  mandarin (蜜柑)
+     → あまい みかん        (amai mikan)            a sweet mandarin
+  みず        (mizu)   water (水)
+     → つめたい みず        (tsumetai mizu)         cold water
+  みみ        (mimi)   ear (耳)
+     → うさぎ の みみ        (usagi no mimi)         a rabbit's ears
+
+む  ── LITTLE THINGS
+  むし        (mushi)  bug (虫)
+     → ちいさい むし        (chiisai mushi)         a little bug
+  むらさき    (murasaki) purple (紫)
+     → むらさきの はな      (murasaki no hana)      a purple flower
+  むぎ        (mugi)   barley (麦)
+     → むぎ の ちゃ          (mugi no cha)           barley tea
+
+め  ── EYES & GLASSES
+  め          (me)     eye (目)
+     → おおきい め          (ōkii me)               big eyes
+  めがね      (megane) glasses (眼鏡)
+     → まるい めがね        (marui megane)          round glasses
+  めだか      (medaka) killifish (めだか)
+     → めだか が およぐ      (medaka ga oyogu)       a killifish swims
+
+も  ── A SWEET & A NAP
+  もも        (momo)   peach (桃)
+     → あまい もも          (amai momo)             a sweet peach
+  もち        (mochi)  rice cake (餅)
+     → しろい もち          (shiroi mochi)          white mochi
+  もうふ      (mōfu)   blanket (毛布)
+     → あたたかい もうふ    (atatakai mōfu)         a warm blanket
+
+REFRAIN
+  ま み む め も  (ma mi mu me mo)   the ま-row
+────────────────────────────────────────────────────────────────────────
+
+QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs: あける open, たべる eat, およぐ swim.
+· Adjectives: しろい white, あまい sweet, つめたい cold, ちいさい small, まるい round,
+  おおきい big, あたたかい warm.
+· Particles: を (object, always "o" — never swap it, F-16), の (of).
+· Recombination WITH EARLIER ROWS: あける, たべる, うさぎ all return.
+
+The TARGET is the ま-row words; the sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 (learn) → a BRIDGE through one day at home → a REVIEW of
+the sentences only (sing along).
+
+SIBLINGS (same five kana): 07-mamimumemo-shizen (nature) and 07-mamimumemo-doubutsu (animals).
+Sing all three to read ま行 cold.

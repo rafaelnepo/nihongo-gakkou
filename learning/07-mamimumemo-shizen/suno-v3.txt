@@ -1,0 +1,97 @@
+まみむめも（しぜん）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 7 (ま行), NATURE variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH → a day-in-nature BRIDGE → a REVIEW of the SENTENCES ONLY. Round 2 differs
+from round 1, dodging the identical-repeat collapse (F-08).
+
+VOICE: the CALM cut — koto × modern + Persona ("Male JP (Koto Pop)"). Custom mode.
+PHONETIC FIXES (F-02/F-16): は→ワ, へ→エ — none occur (all が/の). を STAYS を. ALL HIRAGANA.
+DURATION: Auto (F-15).
+
+[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+[Intro]
+ま み む め も
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+まつ
+みどりの まつ
+まりも
+みずうみ の まりも
+まき
+やま の まき
+ま み む め も
+
+[Verse]
+みずうみ
+しずかな みずうみ
+みず
+つめたい みず
+みなと
+ふね の みなと
+ま み む め も
+
+[Verse]
+むし
+はっぱ の むし
+むぎ
+きいろい むぎ
+むら
+やま の むら
+ま み む め も
+
+[Verse]
+め
+き の め
+めばえ
+はる の めばえ
+めじろ
+えだ の めじろ
+ま み む め も
+
+[Verse]
+もり
+ふかい もり
+もみじ
+あかい もみじ
+もや
+あさ の もや
+ま み む め も
+
+# ═══ BRIDGE · しぜん の いちにち (recombine — new, flowing) ═══
+
+[Bridge]
+みどりの まつ、みずうみ の まりも
+しずかな みずうみ、ふね の みなと
+はっぱ の むし、きいろい むぎ
+き の め、はる の めばえ
+ふかい もり、あかい もみじ
+あさ の もや、やま の むら
+ま み む め も
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+みどりの まつ
+みずうみ の まりも
+やま の まき
+しずかな みずうみ
+つめたい みず
+ふね の みなと
+はっぱ の むし
+きいろい むぎ
+やま の むら
+き の め
+はる の めばえ
+えだ の めじろ
+ふかい もり
+あかい もみじ
+あさ の もや
+ま み む め も
+
+[Outro]
+ま み む め も

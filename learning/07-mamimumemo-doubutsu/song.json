@@ -1,0 +1,70 @@
+{
+  "id": "07-mamimumemo-doubutsu",
+  "title": "まみむめも",
+  "jp": "ま行 ・ gojuon row 7 ・ animals",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "07-mamimumemo", "theme": "animals", "index": 3, "siblings": ["ouchi", "shizen"] },
+  "render": {
+    "trackName": "げんきな どうぶつたち",
+    "trackNo": "07",
+    "row": "まみむめも",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the ま-row", "Gojuon by words", "Row 7 · ま行 · Animals"],
+  "meta": ["Kids / city pop · playful (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 7 of the gojuon — ま み む め も — through animals: a tuna and a sunfish, a honeybee and a horned owl, a bug and a centipede, a killifish and a white-eye, a mole and a butterfly. Say the animal, then watch it <strong>do something</strong>. The animals variation of three ま-row songs — a clean row, an animal in every kana.",
+  "concept": [
+    "Words alone blend (findings F-10), so every animal is taught <strong>in a small action</strong> — まぐろ が およぐ, もぐら が いる — and it recombines with earlier rows (うみ, いけ, つち, はな, はっぱ, えだ + verbs およぐ・とぶ・いる return), keeping the ladder (F-13).",
+    "The five-kana row <em>ま み む め も</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>zoo-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>animals</strong> variation — ま行 is a clean animal row (a real creature in every kana, no detours): fish, bees, bugs, a mole, a butterfly. Pairs with the <strong>kids</strong> voice — a lively land-sea-and-sky dance-along."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Kids — playful (call & response + kids chorus) · try me", "text": "Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → zoo-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "ま", "theme": "in the sea & sky", "items": [
+      { "w": "まぐろ", "r": "maguro", "m": "tuna", "s": "まぐろ が およぐ", "sm": "a tuna swims" },
+      { "w": "まんぼう", "r": "manbou", "m": "ocean sunfish", "s": "まんぼう は まるい", "sm": "a sunfish is round" },
+      { "w": "まがも", "r": "magamo", "m": "mallard duck", "s": "まがも が とぶ", "sm": "a mallard flies" }
+    ]},
+    { "vowel": "み", "theme": "bees & owls", "items": [
+      { "w": "みつばち", "r": "mitsubachi", "m": "honeybee", "s": "みつばち が とぶ", "sm": "a honeybee flies" },
+      { "w": "みみずく", "r": "mimizuku", "m": "horned owl", "s": "みみずく が いる", "sm": "there's a horned owl" },
+      { "w": "みのむし", "r": "minomushi", "m": "bagworm", "s": "えだ の みのむし", "sm": "a bagworm on a branch" }
+    ]},
+    { "vowel": "む", "theme": "creepy crawlies", "items": [
+      { "w": "むし", "r": "mushi", "m": "bug", "s": "ちいさい むし", "sm": "a little bug" },
+      { "w": "むかで", "r": "mukade", "m": "centipede", "s": "むかで が あるく", "sm": "a centipede walks" },
+      { "w": "むささび", "r": "musasabi", "m": "flying squirrel", "s": "むささび が とぶ", "sm": "a flying squirrel glides" }
+    ]},
+    { "vowel": "め", "theme": "fish, bird & cow", "items": [
+      { "w": "めだか", "r": "medaka", "m": "killifish", "s": "めだか が およぐ", "sm": "a killifish swims" },
+      { "w": "めじろ", "r": "mejiro", "m": "white-eye (bird)", "s": "めじろ が なく", "sm": "a white-eye chirps" },
+      { "w": "めうし", "r": "meushi", "m": "cow", "s": "しろい めうし", "sm": "a white cow" }
+    ]},
+    { "vowel": "も", "theme": "mole & butterfly", "items": [
+      { "w": "もぐら", "r": "mogura", "m": "mole", "s": "もぐら が いる", "sm": "there's a mole" },
+      { "w": "もず", "r": "mozu", "m": "shrike (bird)", "s": "もず が なく", "sm": "a shrike cries" },
+      { "w": "もんしろちょう", "r": "monshirochou", "m": "cabbage white butterfly", "s": "もんしろちょう が とぶ", "sm": "a cabbage white flies" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

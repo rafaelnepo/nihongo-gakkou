@@ -1,0 +1,63 @@
+まみむめも（しぜん）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 7 (ま行), NATURE variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: the CALM cut — koto × modern + Persona ("Male JP (Koto Pop)"). Custom mode.
+PHONETIC FIXES (F-02/F-16): は→ワ, へ→エ — none occur. を STAYS を. ALL HIRAGANA.
+DURATION: Auto (F-15).
+
+[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+[Intro]
+ま み む め も
+
+[Verse]
+まつ
+みどりの まつ
+まりも
+みずうみ の まりも
+まき
+やま の まき
+ま み む め も
+
+[Verse]
+みずうみ
+しずかな みずうみ
+みず
+つめたい みず
+みなと
+ふね の みなと
+ま み む め も
+
+[Verse]
+むし
+はっぱ の むし
+むぎ
+きいろい むぎ
+むら
+やま の むら
+ま み む め も
+
+[Verse]
+め
+き の め
+めばえ
+はる の めばえ
+めじろ
+えだ の めじろ
+ま み む め も
+
+[Verse]
+もり
+ふかい もり
+もみじ
+あかい もみじ
+もや
+あさ の もや
+ま み む め も
+
+[Outro]
+ま み む め も

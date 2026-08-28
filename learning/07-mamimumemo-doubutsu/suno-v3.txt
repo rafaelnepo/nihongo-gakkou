@@ -1,0 +1,98 @@
+まみむめも（どうぶつ）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 7 (ま行), ANIMALS variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH → a zoo-day BRIDGE → a REVIEW of the SENTENCES ONLY. Round 2 differs from
+round 1, dodging the identical-repeat collapse (F-08).
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP"). For the kids sound add "children's
+chorus answering, call-and-response" to the style; city-pop fallback. Custom mode.
+PHONETIC FIXES (F-02/F-16): は(topic)→ワ, へ(direction)→エ. を STAYS を (never swap — F-16).
+ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+ま み む め も
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+まぐろ
+まぐろ が およぐ
+まんぼう
+まんぼう ワ まるい
+まがも
+まがも が とぶ
+ま み む め も
+
+[Verse]
+みつばち
+みつばち が とぶ
+みみずく
+みみずく が いる
+みのむし
+えだ の みのむし
+ま み む め も
+
+[Verse]
+むし
+ちいさい むし
+むかで
+むかで が あるく
+むささび
+むささび が とぶ
+ま み む め も
+
+[Verse]
+めだか
+めだか が およぐ
+めじろ
+めじろ が なく
+めうし
+しろい めうし
+ま み む め も
+
+[Verse]
+もぐら
+もぐら が いる
+もず
+もず が なく
+もんしろちょう
+もんしろちょう が とぶ
+ま み む め も
+
+# ═══ BRIDGE · どうぶつえん の ひ (recombine — new, flowing) ═══
+
+[Bridge]
+まぐろ と まんぼう、うみ の なか
+みつばち が とぶ、はな エ
+むし と むかで、はっぱ の うえ
+めだか が およぐ、いけ で
+もぐら が いる、つち の なか
+まんぼう ワ まるい、めうし ワ しろい
+ま み む め も
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+まぐろ が およぐ
+まんぼう ワ まるい
+まがも が とぶ
+みつばち が とぶ
+みみずく が いる
+えだ の みのむし
+ちいさい むし
+むかで が あるく
+むささび が とぶ
+めだか が およぐ
+めじろ が なく
+しろい めうし
+もぐら が いる
+もず が なく
+もんしろちょう が とぶ
+ま み む め も
+
+[Outro]
+ま み む め も

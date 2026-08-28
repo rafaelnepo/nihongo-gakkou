@@ -1,0 +1,93 @@
+まみむめも（どうぶつ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya animal, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (うみ, いけ, つち, えだ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   ま み む め も
+
+═══ PART 1 · LEARN ═══
+まぐろ
+まぐろ が およぐ
+まんぼう
+まんぼう は まるい
+まがも
+まがも が とぶ
+ま み む め も
+
+みつばち
+みつばち が とぶ
+みみずく
+みみずく が いる
+みのむし
+えだ の みのむし
+ま み む め も
+
+むし
+ちいさい むし
+むかで
+むかで が あるく
+むささび
+むささび が とぶ
+ま み む め も
+
+めだか
+めだか が およぐ
+めじろ
+めじろ が なく
+めうし
+しろい めうし
+ま み む め も
+
+もぐら
+もぐら が いる
+もず
+もず が なく
+もんしろちょう
+もんしろちょう が とぶ
+ま み む め も
+
+═══ BRIDGE · どうぶつえん の ひ ═══
+まぐろ と まんぼう、うみ の なか
+みつばち が とぶ、はな へ
+むし と むかで、はっぱ の うえ
+めだか が およぐ、いけ で
+もぐら が いる、つち の なか
+まんぼう は まるい、めうし は しろい
+ま み む め も
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+まぐろ が およぐ
+まんぼう は まるい
+まがも が とぶ
+みつばち が とぶ
+みみずく が いる
+えだ の みのむし
+ちいさい むし
+むかで が あるく
+むささび が とぶ
+めだか が およぐ
+めじろ が なく
+しろい めうし
+もぐら が いる
+もず が なく
+もんしろちょう が とぶ
+ま み む め も
+
+(outro)   ま み む め も
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+まぐろ=tuna · まんぼう=ocean sunfish · まがも=mallard · みつばち=honeybee · みみずく=horned
+owl · みのむし=bagworm · むし=bug · むかで=centipede · むささび=flying squirrel · めだか=
+killifish · めじろ=white-eye bird · めうし=cow · もぐら=mole · もず=shrike · もんしろちょう=
+cabbage white butterfly. Verbs/adjs: およぐ swim · とぶ fly · いる be · あるく walk · なく cry
+· まるい round · ちいさい small · しろい white. Recombined: うみ · いけ · つち · えだ · はっぱ.

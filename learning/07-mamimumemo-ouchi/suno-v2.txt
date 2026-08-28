@@ -1,0 +1,63 @@
+まみむめも（おうち）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 7 (ま行), HOME variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
+PHONETIC FIXES (F-02/F-16): は→ワ, へ→エ. を STAYS を (never swap — F-16). ALL HIRAGANA.
+DURATION: Auto (F-15). (This lyric uses no particle swaps.)
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+ま み む め も
+
+[Verse]
+まど
+まど を あける
+まくら
+しろい まくら
+まめ
+まめ を たべる
+ま み む め も
+
+[Verse]
+みかん
+あまい みかん
+みず
+つめたい みず
+みみ
+うさぎ の みみ
+ま み む め も
+
+[Verse]
+むし
+ちいさい むし
+むらさき
+むらさきの はな
+むぎ
+むぎ の ちゃ
+ま み む め も
+
+[Verse]
+め
+おおきい め
+めがね
+まるい めがね
+めだか
+めだか が およぐ
+ま み む め も
+
+[Verse]
+もも
+あまい もも
+もち
+しろい もち
+もうふ
+あたたかい もうふ
+ま み む め も
+
+[Outro]
+ま み む め も

@@ -1,0 +1,70 @@
+{
+  "id": "07-mamimumemo-shizen",
+  "title": "まみむめも",
+  "jp": "ま行 ・ gojuon row 7 ・ nature",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "07-mamimumemo", "theme": "nature", "index": 2, "siblings": ["ouchi", "doubutsu"] },
+  "render": {
+    "trackName": "もり と みずうみ",
+    "trackNo": "07",
+    "row": "まみむめも",
+    "channel": "iconotes",
+    "style": "Koto × modern",
+    "bpm": 90,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the ま-row", "Gojuon by words", "Row 7 · ま行 · Nature"],
+  "meta": ["Koto × modern · male (house voice)", "~90 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 7 of the gojuon — ま み む め も — through the outdoors: a green pine and marimo in the lake, a quiet lake and a harbour, a leaf bug and golden wheat, a tree bud and spring sprouts, a deep forest and red maples. A calm nature variation of three ま-row songs.",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small image</strong> — しずかな みずうみ, き の め, ふかい もり — and it recombines with earlier rows (みず, やま, はっぱ, ふね, えだ, はる return), keeping the ladder (F-13).",
+    "The five-kana row <em>ま み む め も</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>day-in-nature bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>nature</strong> variation — the calm one, for koto × modern. ま行 has forest-and-water words (まつ, みずうみ, もり, もみじ) that suit it. め uses the tree-bud reading of 芽 (a sprout) — a tidy fit for a seasonal cut."
+  ],
+  "styles": [
+    { "label": "Koto × modern beat — the calm house take", "rec": true, "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "City pop — the house voice", "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → day-in-nature bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "ま", "theme": "pine & lake", "items": [
+      { "w": "まつ", "r": "matsu", "m": "pine tree", "s": "みどりの まつ", "sm": "a green pine" },
+      { "w": "まりも", "r": "marimo", "m": "marimo (algae ball)", "s": "みずうみ の まりも", "sm": "marimo in the lake" },
+      { "w": "まき", "r": "maki", "m": "firewood", "s": "やま の まき", "sm": "firewood in the mountains" }
+    ]},
+    { "vowel": "み", "theme": "water & harbour", "items": [
+      { "w": "みずうみ", "r": "mizuumi", "m": "lake", "s": "しずかな みずうみ", "sm": "a quiet lake" },
+      { "w": "みず", "r": "mizu", "m": "water", "s": "つめたい みず", "sm": "cold water" },
+      { "w": "みなと", "r": "minato", "m": "harbour", "s": "ふね の みなと", "sm": "a harbour with boats" }
+    ]},
+    { "vowel": "む", "theme": "field & village", "items": [
+      { "w": "むし", "r": "mushi", "m": "bug", "s": "はっぱ の むし", "sm": "a bug on a leaf" },
+      { "w": "むぎ", "r": "mugi", "m": "wheat", "s": "きいろい むぎ", "sm": "golden wheat" },
+      { "w": "むら", "r": "mura", "m": "village", "s": "やま の むら", "sm": "a mountain village" }
+    ]},
+    { "vowel": "め", "theme": "buds & birds", "items": [
+      { "w": "め", "r": "me", "m": "bud / sprout (芽)", "s": "き の め", "sm": "a tree bud" },
+      { "w": "めばえ", "r": "mebae", "m": "sprouting", "s": "はる の めばえ", "sm": "spring sprouts" },
+      { "w": "めじろ", "r": "mejiro", "m": "white-eye (bird)", "s": "えだ の めじろ", "sm": "a white-eye on a branch" }
+    ]},
+    { "vowel": "も", "theme": "forest & mist", "items": [
+      { "w": "もり", "r": "mori", "m": "forest", "s": "ふかい もり", "sm": "a deep forest" },
+      { "w": "もみじ", "r": "momiji", "m": "maple leaves", "s": "あかい もみじ", "sm": "red maple leaves" },
+      { "w": "もや", "r": "moya", "m": "mist / haze", "s": "あさ の もや", "sm": "morning mist" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

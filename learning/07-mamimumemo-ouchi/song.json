@@ -1,0 +1,70 @@
+{
+  "id": "07-mamimumemo-ouchi",
+  "title": "まみむめも",
+  "jp": "ま行 ・ gojuon row 7 ・ a day at home",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "07-mamimumemo", "theme": "home", "index": 1, "siblings": ["shizen", "doubutsu"] },
+  "render": {
+    "trackName": "おへや の いちにち",
+    "trackNo": "07",
+    "row": "まみむめも",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the ま-row", "Gojuon by words", "Row 7 · ま行 · At home"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 7 of the gojuon — ま み む め も — through a cosy day at home: open the window, eat beans, a sweet mandarin and cold water, round glasses, a sweet peach and white mochi under a warm blanket. Say the thing, then <strong>use it</strong>. The home variation of three ま-row songs (home · nature · animals).",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small action</strong> — まど を あける, まめ を たべる, めだか が およぐ — and it recombines with earlier rows (あける, たべる, うさぎ, あまい, つめたい, あたたかい return), keeping the ladder (F-13).",
+    "The five-kana row <em>ま み む め も</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>day-at-home bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>home</strong> variation — small comforts of a day indoors, with a snack or two. Pairs with the <strong>Female (city pop)</strong> voice."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → day-at-home bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "ま", "theme": "the window", "items": [
+      { "w": "まど", "r": "mado", "m": "window", "s": "まど を あける", "sm": "open the window" },
+      { "w": "まくら", "r": "makura", "m": "pillow", "s": "しろい まくら", "sm": "a white pillow" },
+      { "w": "まめ", "r": "mame", "m": "bean", "s": "まめ を たべる", "sm": "eat beans" }
+    ]},
+    { "vowel": "み", "theme": "a snack & water", "items": [
+      { "w": "みかん", "r": "mikan", "m": "mandarin", "s": "あまい みかん", "sm": "a sweet mandarin" },
+      { "w": "みず", "r": "mizu", "m": "water", "s": "つめたい みず", "sm": "cold water" },
+      { "w": "みみ", "r": "mimi", "m": "ear", "s": "うさぎ の みみ", "sm": "a rabbit's ears" }
+    ]},
+    { "vowel": "む", "theme": "little things", "items": [
+      { "w": "むし", "r": "mushi", "m": "bug", "s": "ちいさい むし", "sm": "a little bug" },
+      { "w": "むらさき", "r": "murasaki", "m": "purple", "s": "むらさきの はな", "sm": "a purple flower" },
+      { "w": "むぎ", "r": "mugi", "m": "barley", "s": "むぎ の ちゃ", "sm": "barley tea" }
+    ]},
+    { "vowel": "め", "theme": "eyes & glasses", "items": [
+      { "w": "め", "r": "me", "m": "eye", "s": "おおきい め", "sm": "big eyes" },
+      { "w": "めがね", "r": "megane", "m": "glasses", "s": "まるい めがね", "sm": "round glasses" },
+      { "w": "めだか", "r": "medaka", "m": "killifish", "s": "めだか が およぐ", "sm": "a killifish swims" }
+    ]},
+    { "vowel": "も", "theme": "a sweet & a nap", "items": [
+      { "w": "もも", "r": "momo", "m": "peach", "s": "あまい もも", "sm": "a sweet peach" },
+      { "w": "もち", "r": "mochi", "m": "rice cake", "s": "しろい もち", "sm": "white mochi" },
+      { "w": "もうふ", "r": "moufu", "m": "blanket", "s": "あたたかい もうふ", "sm": "a warm blanket" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

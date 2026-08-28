@@ -1,0 +1,93 @@
+まみむめも（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (みず, やま, はっぱ, ふね) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   ま み む め も
+
+═══ PART 1 · LEARN ═══
+まつ
+みどりの まつ
+まりも
+みずうみ の まりも
+まき
+やま の まき
+ま み む め も
+
+みずうみ
+しずかな みずうみ
+みず
+つめたい みず
+みなと
+ふね の みなと
+ま み む め も
+
+むし
+はっぱ の むし
+むぎ
+きいろい むぎ
+むら
+やま の むら
+ま み む め も
+
+め
+き の め
+めばえ
+はる の めばえ
+めじろ
+えだ の めじろ
+ま み む め も
+
+もり
+ふかい もり
+もみじ
+あかい もみじ
+もや
+あさ の もや
+ま み む め も
+
+═══ BRIDGE · しぜん の いちにち ═══
+みどりの まつ、みずうみ の まりも
+しずかな みずうみ、ふね の みなと
+はっぱ の むし、きいろい むぎ
+き の め、はる の めばえ
+ふかい もり、あかい もみじ
+あさ の もや、やま の むら
+ま み む め も
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+みどりの まつ
+みずうみ の まりも
+やま の まき
+しずかな みずうみ
+つめたい みず
+ふね の みなと
+はっぱ の むし
+きいろい むぎ
+やま の むら
+き の め
+はる の めばえ
+えだ の めじろ
+ふかい もり
+あかい もみじ
+あさ の もや
+ま み む め も
+
+(outro)   ま み む め も
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+まつ=pine · まりも=marimo ball · まき=firewood · みずうみ=lake · みず=water · みなと=
+harbour · むし=bug · むぎ=wheat · むら=village · め=tree bud · めばえ=sprout · めじろ=
+white-eye bird · もり=forest · もみじ=maple · もや=mist. Adjs: みどりの green · しずかな
+quiet · つめたい cold · きいろい yellow · ふかい deep · あかい red. Recombined: みず · やま ·
+はっぱ · ふね · えだ · はる.

@@ -1,0 +1,93 @@
+まみむめも（おうち）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (あける, たべる, うさぎ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   ま み む め も
+
+═══ PART 1 · LEARN ═══
+まど
+まど を あける
+まくら
+しろい まくら
+まめ
+まめ を たべる
+ま み む め も
+
+みかん
+あまい みかん
+みず
+つめたい みず
+みみ
+うさぎ の みみ
+ま み む め も
+
+むし
+ちいさい むし
+むらさき
+むらさきの はな
+むぎ
+むぎ の ちゃ
+ま み む め も
+
+め
+おおきい め
+めがね
+まるい めがね
+めだか
+めだか が およぐ
+ま み む め も
+
+もも
+あまい もも
+もち
+しろい もち
+もうふ
+あたたかい もうふ
+ま み む め も
+
+═══ BRIDGE · おへや の いちにち ═══
+まど を あける、あさ だ
+あまい みかん、つめたい みず
+ちいさい むし、むらさきの はな
+まるい めがね、おおきい め
+あまい もも、しろい もち
+あたたかい もうふ、しろい まくら
+ま み む め も
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+まど を あける
+しろい まくら
+まめ を たべる
+あまい みかん
+つめたい みず
+うさぎ の みみ
+ちいさい むし
+むらさきの はな
+むぎ の ちゃ
+おおきい め
+まるい めがね
+めだか が およぐ
+あまい もも
+しろい もち
+あたたかい もうふ
+ま み む め も
+
+(outro)   ま み む め も
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+まど=window · まくら=pillow · まめ=beans · みかん=mandarin · みず=water · みみ=rabbit ears
+· むし=bug · むらさき=purple flower · むぎ=barley/mugicha · め=eye · めがね=glasses · めだか=
+killifish · もも=peach · もち=mochi · もうふ=blanket. Verbs/adjs: あける open · たべる eat ·
+およぐ swim · しろい white · あまい sweet · つめたい cold · ちいさい small · まるい round ·
+おおきい big · あたたかい warm. Recombined: あける · たべる · うさぎ.
