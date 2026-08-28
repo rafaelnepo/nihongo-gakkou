@@ -701,48 +701,53 @@ const LevelsPanel: React.FC<{
       <div style={S.levelRow}>
         <div style={S.levelName}>Word</div>
         <div style={{ display: "flex", flexDirection: "column", gap: 7, minWidth: 0 }}>
-          {/* chips; the selected word is flanked by its own ◀ ▶ (value hangs below) */}
-          <div style={S.wordChips}>
-            {words.map((wd, wi) => {
-              const sh = line.wordShifts?.[wi] ?? 0;
-              // first/last word == the line's start/end — nudge those at the Line
-              // level; only the MIDDLE words get independent word shifts.
-              const isEdge = wi === 0 || wi === words.length - 1;
-              const isSel = selectedWord === wi;
-              return (
-                <div key={wi} style={S.wordUnit}>
-                  {isSel ? (
-                    <button style={S.wordArrow} onClick={() => onWord(-1)} title="earlier">
-                      ◀
-                    </button>
-                  ) : null}
+          {/* fixed arrows at the ends (they don't move); they act on the selected
+              word and light up only when one is picked. Value hangs below each chip. */}
+          <div style={S.wordRow}>
+            <button
+              style={{ ...S.arrow, ...(wordSelected ? S.arrowActive : S.arrowDisabled) }}
+              disabled={!wordSelected}
+              onClick={() => onWord(-1)}
+              title="selected word earlier"
+            >
+              ◀
+            </button>
+            <div style={S.wordChips}>
+              {words.map((wd, wi) => {
+                const sh = line.wordShifts?.[wi] ?? 0;
+                // first/last word == the line's start/end — nudge those at the Line
+                // level; only the MIDDLE words get independent word shifts.
+                const isEdge = wi === 0 || wi === words.length - 1;
+                return (
                   <button
+                    key={wi}
                     onClick={isEdge ? undefined : () => onPickWord(wi)}
                     disabled={isEdge}
                     title={isEdge ? "first/last word — use Line start / end" : undefined}
                     style={{
                       ...S.wordChip,
                       ...(isEdge ? S.wordChipEdge : null),
-                      ...(isSel ? S.wordChipSel : null),
+                      ...(selectedWord === wi ? S.wordChipSel : null),
                       ...(sh ? S.wordChipTouched : null),
                     }}
                   >
                     {wd}
                     {sh ? <span style={S.wordChipVal}>{signed(sh)}</span> : null}
                   </button>
-                  {isSel ? (
-                    <button style={S.wordArrow} onClick={() => onWord(1)} title="later">
-                      ▶
-                    </button>
-                  ) : null}
-                </div>
-              );
-            })}
-          </div>
-          {!wordSelected ? (
-            <div style={S.levelsHint}>
-              {words.length > 2 ? "pick a middle word to shift it" : "edge words = Line start / end"}
+                );
+              })}
             </div>
+            <button
+              style={{ ...S.arrow, ...(wordSelected ? S.arrowActive : S.arrowDisabled) }}
+              disabled={!wordSelected}
+              onClick={() => onWord(1)}
+              title="selected word later"
+            >
+              ▶
+            </button>
+          </div>
+          {!wordSelected && words.length <= 2 ? (
+            <div style={S.levelsHint}>edge words = Line start / end</div>
           ) : null}
           {win ? (
             <WordTimeline line={line} win={win} words={words} selectedWord={selectedWord} onPick={onPickWord} />
@@ -808,9 +813,10 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   levelRow: { display: "flex", alignItems: "flex-start", gap: 14 },
   levelName: { width: 52, paddingTop: 4, fontSize: 13, fontWeight: 700, color: "#5a5348", display: "flex", flexDirection: "column", gap: 1 },
   levelSub: { fontSize: 9, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "#a99f8c" },
-  wordChips: { display: "flex", flexWrap: "wrap", columnGap: 6, rowGap: 22, maxWidth: 340, paddingBottom: 12 },
-  wordUnit: { display: "inline-flex", alignItems: "center", gap: 3, position: "relative" },
-  wordArrow: { width: 20, height: 26, borderRadius: 5, border: "1px solid #cbc1ac", background: "#fff", cursor: "pointer", fontSize: 9, color: "#5a5348", display: "grid", placeItems: "center", flex: "0 0 auto" },
+  wordRow: { display: "flex", alignItems: "flex-start", gap: 8 },
+  wordChips: { display: "flex", flexWrap: "wrap", columnGap: 6, rowGap: 22, maxWidth: 300, paddingBottom: 12 },
+  arrowActive: { borderColor: "#e7481c", color: "#e7481c" },
+  arrowDisabled: { opacity: 0.4, cursor: "default" },
   timeline: { position: "relative", width: "100%", maxWidth: 340, height: 34, background: "#efe7d6", borderRadius: 6, marginTop: 6 },
   timelineRect: { position: "absolute", top: 3, bottom: 3, borderRadius: 4, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", boxSizing: "border-box", border: "1px solid rgba(0,0,0,0.06)" },
   timelineRectSel: { outline: "2px solid #e7481c", outlineOffset: -1, zIndex: 2 },
