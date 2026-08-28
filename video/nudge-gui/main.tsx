@@ -263,8 +263,11 @@ const App: React.FC = () => {
   // WORD level: micro-shift one word inside the selected line.
   const nudgeWord = useCallback(
     (dir: 1 | -1) => {
-      if (selected == null || selectedWord == null) return;
+      if (selected == null || selectedWord == null || !timing) return;
       const wi = selectedWord;
+      // guard: only middle words are shiftable (edges == Line start/end)
+      const wc = wordsOf(timing.lines[selected].text).length;
+      if (wi <= 0 || wi >= wc - 1) return;
       setTiming((prev) => {
         if (!prev) return prev;
         const lines = prev.lines.map((l, k) => {
@@ -284,7 +287,7 @@ const App: React.FC = () => {
         return next;
       });
     },
-    [selected, selectedWord, step, persist, seekToT]
+    [selected, selectedWord, step, persist, seekToT, timing]
   );
 
   // Move the selection (clamped) and cue the player to that line's start.
@@ -622,11 +625,21 @@ const LevelsPanel: React.FC<{
           <div style={S.wordChips}>
             {words.map((wd, wi) => {
               const sh = line.wordShifts?.[wi] ?? 0;
+              // first/last word == the line's start/end — nudge those at the Line
+              // level; only the MIDDLE words get independent word shifts.
+              const isEdge = wi === 0 || wi === words.length - 1;
               return (
                 <button
                   key={wi}
-                  onClick={() => onPickWord(wi)}
-                  style={{ ...S.wordChip, ...(selectedWord === wi ? S.wordChipSel : null), ...(sh ? S.wordChipTouched : null) }}
+                  onClick={isEdge ? undefined : () => onPickWord(wi)}
+                  disabled={isEdge}
+                  title={isEdge ? "first/last word — use Line start / end" : undefined}
+                  style={{
+                    ...S.wordChip,
+                    ...(isEdge ? S.wordChipEdge : null),
+                    ...(selectedWord === wi ? S.wordChipSel : null),
+                    ...(sh ? S.wordChipTouched : null),
+                  }}
                 >
                   {wd}
                   {sh ? <span style={S.wordChipVal}>{signed(sh)}</span> : null}
@@ -634,7 +647,7 @@ const LevelsPanel: React.FC<{
               );
             })}
           </div>
-          {selectedWord != null && selectedWord < words.length ? (
+          {selectedWord != null && selectedWord > 0 && selectedWord < words.length - 1 ? (
             <Group
               label={words[selectedWord]}
               value={line.wordShifts?.[selectedWord] ?? 0}
@@ -642,7 +655,9 @@ const LevelsPanel: React.FC<{
               onRight={() => onWord(1)}
             />
           ) : (
-            <div style={S.levelsHint}>pick a word to shift it</div>
+            <div style={S.levelsHint}>
+              {words.length > 2 ? "pick a middle word to shift it" : "edge words = Line start / end"}
+            </div>
           )}
         </div>
       </div>
@@ -707,6 +722,7 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   levelSub: { fontSize: 9, fontWeight: 700, textTransform: "uppercase", letterSpacing: "0.06em", color: "#a99f8c" },
   wordChips: { display: "flex", flexWrap: "wrap", gap: 5, maxWidth: 300 },
   wordChip: { fontFamily: "'Zen Maru Gothic', ui-sans-serif, system-ui", fontSize: 15, padding: "3px 9px", borderRadius: 6, border: "1px solid #cbc1ac", background: "#fff", cursor: "pointer", color: "#41403a", lineHeight: 1.3 },
+  wordChipEdge: { opacity: 0.45, cursor: "default", background: "#f2ecdf", color: "#8c8578" },
   wordChipSel: { borderColor: "#e7481c", boxShadow: "inset 0 0 0 1px #e7481c" },
   wordChipTouched: { background: "#fbeee6" },
   wordChipVal: { fontSize: 9, color: "#e7481c", marginLeft: 3, verticalAlign: "super", fontFamily: "ui-monospace, monospace" },
