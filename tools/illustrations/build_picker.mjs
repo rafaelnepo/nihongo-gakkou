@@ -142,7 +142,7 @@ function songBlock(s) {
           <input type="text" spellcheck="false" autocapitalize="off" autocomplete="off"
                  placeholder="paste Irasutoya filename, e.g. animal_wani.png"
                  data-id="${esc(s.id)}" data-r="${esc(it.r)}" value="${val}">
-          <a class="prev" target="_blank" rel="noopener" title="open the full image in a new tab"><img alt="" loading="lazy"></a>
+          <a class="prev" target="_blank" rel="noopener" title="open the full image in a new tab"><img alt=""></a>
         </div>
       </div>
     </div>`;
@@ -230,7 +230,13 @@ function updatePreview(inp){
 document.querySelectorAll('input[data-r]').forEach(inp=>{
   const saved=lsGet(K(inp.dataset.id,inp.dataset.r));
   if(saved!==null) inp.value=saved;
-  updatePreview(inp);
+});
+// Load a song's preview images only when its <details> is open (keeps the initial
+// page light — no eager fetch of all ~400 thumbs; not lazy-blocked either).
+function loadPreviews(det){det.querySelectorAll('input[data-r]').forEach(updatePreview)}
+document.querySelectorAll('.song').forEach(det=>{
+  det.addEventListener('toggle',()=>{if(det.open)loadPreviews(det)});
+  if(det.open)loadPreviews(det);
 });
 
 function refreshSong(det){
