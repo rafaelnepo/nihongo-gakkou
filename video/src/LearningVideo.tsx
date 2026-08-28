@@ -98,17 +98,37 @@ const bakeLines = (raw: LearningLine[]): LearningLine[] => {
   });
 };
 
-// Offset each word's characters by its wordShifts[] entry. A "word" is a maximal
-// run of non-space display glyphs; spaces carry no shift. Missing entries = 0.
-const applyWordShifts = (text: string, chars: CharTime[], shifts: number[]): CharTime[] => {
-  const glyphs = Array.from(text);
+// Word index for each display glyph (-1 for spaces). A new word starts at the
+// first non-space after a space OR after a comma — the comma stays with the word
+// it follows (so "あと、そら" is two words). MUST match wordOfGlyphs in the nudge
+// GUI (nudge-gui/main.tsx) so wordShifts indices line up.
+const wordOfGlyphs = (glyphs: string[]): number[] => {
+  const out: number[] = [];
   let w = -1;
-  let prevSpace = true;
+  let boundary = true;
+  for (const g of glyphs) {
+    if (g === " ") {
+      out.push(-1);
+      boundary = true;
+      continue;
+    }
+    if (boundary) {
+      w++;
+      boundary = false;
+    }
+    out.push(w);
+    if (g === "、" || g === "，") boundary = true;
+  }
+  return out;
+};
+
+// Offset each word's characters by its wordShifts[] entry; spaces carry no shift,
+// missing entries = 0. Word boundaries follow wordOfGlyphs (spaces and commas).
+const applyWordShifts = (text: string, chars: CharTime[], shifts: number[]): CharTime[] => {
+  const wmap = wordOfGlyphs(Array.from(text));
   return chars.map((c, i) => {
-    const isSpace = glyphs[i] === " ";
-    if (!isSpace && prevSpace) w++;
-    prevSpace = isSpace;
-    const sh = isSpace ? 0 : shifts[w] ?? 0;
+    const w = wmap[i];
+    const sh = w >= 0 ? shifts[w] ?? 0 : 0;
     return sh ? { start: c.start + sh, end: c.end + sh } : c;
   });
 };

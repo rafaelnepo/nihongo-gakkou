@@ -34,8 +34,40 @@ const bakeWindows = (lines: LearningTiming["lines"]) => {
 
 type Line = LearningTiming["lines"][number];
 
-// space-separated words, same split the template uses for wordShifts
-const wordsOf = (text: string) => text.split(" ").filter((w) => w.length > 0);
+// Word index for each display glyph (-1 for spaces). A new word starts at the
+// first non-space after a space OR after a comma — the comma stays attached to
+// the word it follows (so "あと、そら" splits into "あと、" and "そら"). MUST match
+// wordOfGlyphs in LearningVideo.tsx so word indices line up with wordShifts.
+const wordOfGlyphs = (glyphs: string[]): number[] => {
+  const out: number[] = [];
+  let w = -1;
+  let boundary = true;
+  for (const g of glyphs) {
+    if (g === " ") {
+      out.push(-1);
+      boundary = true;
+      continue;
+    }
+    if (boundary) {
+      w++;
+      boundary = false;
+    }
+    out.push(w);
+    if (g === "、" || g === "，") boundary = true; // next non-space begins a word
+  }
+  return out;
+};
+
+// the display words of a line, split on spaces and after commas
+const wordsOf = (text: string): string[] => {
+  const glyphs = Array.from(text);
+  const map = wordOfGlyphs(glyphs);
+  const words: string[] = [];
+  map.forEach((w, i) => {
+    if (w >= 0) words[w] = (words[w] ?? "") + glyphs[i];
+  });
+  return words;
+};
 
 // the contiguous run of same-section lines containing idx (a "block")
 const blockRange = (lines: Line[], idx: number): [number, number] => {
@@ -57,20 +89,7 @@ const trimZeros = (arr: number[]): number[] | undefined => {
 // approx time of a word's first glyph inside the line's baked window (for cueing)
 const wordSeek = (line: Line, wi: number, win: { s: number; e: number }) => {
   const glyphs = Array.from(line.text);
-  let w = -1;
-  let prevSpace = true;
-  let gi = 0;
-  for (let i = 0; i < glyphs.length; i++) {
-    const sp = glyphs[i] === " ";
-    if (!sp && prevSpace) {
-      w++;
-      if (w === wi) {
-        gi = i;
-        break;
-      }
-    }
-    prevSpace = sp;
-  }
+  const gi = Math.max(0, wordOfGlyphs(glyphs).indexOf(wi));
   const frac = glyphs.length ? gi / glyphs.length : 0;
   return win.s + frac * (win.e - win.s) + (line.wordShifts?.[wi] ?? 0);
 };
@@ -85,24 +104,20 @@ const wordSpans = (line: Line, win: { s: number; e: number }): WordSpan[] => {
   const oe = line.end;
   const span = Math.max(1e-6, oe - os);
   const remap = (x: number) => win.s + ((x - os) / span) * (win.e - win.s);
+  const wmap = wordOfGlyphs(glyphs);
   const out: WordSpan[] = [];
-  let w = -1;
-  let prevSpace = true;
   glyphs.forEach((g, i) => {
-    const sp = g === " ";
-    if (!sp && prevSpace) {
-      w++;
-      out[w] = { wi: w, start: Infinity, end: -Infinity };
-    }
+    const w = wmap[i];
+    if (w < 0) return;
+    if (!out[w]) out[w] = { wi: w, start: Infinity, end: -Infinity };
     const c = line.chars?.[i];
-    if (!sp && c) {
+    if (c) {
       const sh = line.wordShifts?.[w] ?? 0;
       out[w].start = Math.min(out[w].start, remap(c.start) + sh);
       out[w].end = Math.max(out[w].end, remap(c.end) + sh);
     }
-    prevSpace = sp;
   });
-  return out.filter((s) => Number.isFinite(s.start));
+  return out.filter((s) => s && Number.isFinite(s.start));
 };
 
 const App: React.FC = () => {
