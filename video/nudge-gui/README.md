@@ -27,8 +27,11 @@ out of place even when the line as a whole is right. So nudging is **hierarchica
 2. **Line** — shift one line's **Start** or **End** independently; the syllables
    between re-space proportionally. Stored as `startShift` / `endShift`.
 3. **Word** — micro-shift a single **word** inside a line, for the one that drifts
-   on a held/rushed note. Stored as `wordShifts[]` (one offset per space-separated
-   word).
+   on a held/rushed note. Stored as `wordShifts[]` (one offset per word; words
+   split on spaces *and* commas, the `、` staying with the word it follows). Every
+   word is nudgeable — including the first and last — and word shifts **cascade
+   forward** within the line: a word pushed into the next carries it along, so
+   words never overlap. The word-timeline bar shows each word's duration.
 
 All three are a **non-destructive overlay** on `../timing/<id>.learning.json`. The
 aligner's `chars[]` are never mutated — the template bakes the overlay onto a copy

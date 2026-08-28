@@ -122,14 +122,35 @@ const wordOfGlyphs = (glyphs: string[]): number[] => {
   return out;
 };
 
-// Offset each word's characters by its wordShifts[] entry; spaces carry no shift,
-// missing entries = 0. Word boundaries follow wordOfGlyphs (spaces and commas).
+// Offset each word's characters by its wordShifts[] entry, then CASCADE within
+// the line: a word can't start before the previous word ends, so a word shifted
+// so far it runs into the next pushes that next word forward (rippling on). Word
+// boundaries follow wordOfGlyphs (spaces and commas); missing shifts = 0.
 const applyWordShifts = (text: string, chars: CharTime[], shifts: number[]): CharTime[] => {
   const wmap = wordOfGlyphs(Array.from(text));
+  const nWords = wmap.reduce((m, w) => Math.max(m, w), -1) + 1;
+  // each word's [start, end] after its own shift
+  const wStart = new Array<number>(nWords).fill(Infinity);
+  const wEnd = new Array<number>(nWords).fill(-Infinity);
+  chars.forEach((c, i) => {
+    const w = wmap[i];
+    if (w < 0) return;
+    const sh = shifts[w] ?? 0;
+    wStart[w] = Math.min(wStart[w], c.start + sh);
+    wEnd[w] = Math.max(wEnd[w], c.end + sh);
+  });
+  // forward push so words never overlap; total per-word offset = own shift + push
+  const push = new Array<number>(nWords).fill(0);
+  let floor = -Infinity;
+  for (let w = 0; w < nWords; w++) {
+    if (!Number.isFinite(wStart[w])) continue;
+    push[w] = Math.max(0, floor - wStart[w]);
+    floor = wEnd[w] + push[w];
+  }
   return chars.map((c, i) => {
     const w = wmap[i];
-    const sh = w >= 0 ? shifts[w] ?? 0 : 0;
-    return sh ? { start: c.start + sh, end: c.end + sh } : c;
+    const total = w >= 0 ? (shifts[w] ?? 0) + push[w] : 0;
+    return total ? { start: c.start + total, end: c.end + total } : c;
   });
 };
 

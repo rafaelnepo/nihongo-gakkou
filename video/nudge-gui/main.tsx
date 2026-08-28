@@ -105,19 +105,28 @@ const wordSpans = (line: Line, win: { s: number; e: number }): WordSpan[] => {
   const span = Math.max(1e-6, oe - os);
   const remap = (x: number) => win.s + ((x - os) / span) * (win.e - win.s);
   const wmap = wordOfGlyphs(glyphs);
-  const out: WordSpan[] = [];
+  const nWords = wmap.reduce((m, w) => Math.max(m, w), -1) + 1;
+  const wStart = new Array<number>(nWords).fill(Infinity);
+  const wEnd = new Array<number>(nWords).fill(-Infinity);
   glyphs.forEach((g, i) => {
     const w = wmap[i];
     if (w < 0) return;
-    if (!out[w]) out[w] = { wi: w, start: Infinity, end: -Infinity };
     const c = line.chars?.[i];
-    if (c) {
-      const sh = line.wordShifts?.[w] ?? 0;
-      out[w].start = Math.min(out[w].start, remap(c.start) + sh);
-      out[w].end = Math.max(out[w].end, remap(c.end) + sh);
-    }
+    if (!c) return;
+    const sh = line.wordShifts?.[w] ?? 0;
+    wStart[w] = Math.min(wStart[w], remap(c.start) + sh);
+    wEnd[w] = Math.max(wEnd[w], remap(c.end) + sh);
   });
-  return out.filter((s) => s && Number.isFinite(s.start));
+  // push-forward cascade (mirrors applyWordShifts) so bars never overlap
+  const out: WordSpan[] = [];
+  let floor = -Infinity;
+  for (let w = 0; w < nWords; w++) {
+    if (!Number.isFinite(wStart[w])) continue;
+    const p = Math.max(0, floor - wStart[w]);
+    out.push({ wi: w, start: wStart[w] + p, end: wEnd[w] + p });
+    floor = wEnd[w] + p;
+  }
+  return out;
 };
 
 const App: React.FC = () => {
@@ -311,9 +320,8 @@ const App: React.FC = () => {
     (dir: 1 | -1) => {
       if (selected == null || selectedWord == null || !timing) return;
       const wi = selectedWord;
-      // guard: only middle words are shiftable (edges == Line start/end)
       const wc = wordsOf(timing.lines[selected].text).length;
-      if (wi <= 0 || wi >= wc - 1) return;
+      if (wi < 0 || wi >= wc) return;
       setTiming((prev) => {
         if (!prev) return prev;
         const lines = prev.lines.map((l, k) => {
@@ -658,21 +666,20 @@ const WordTimeline: React.FC<{
     <div style={S.timeline}>
       {spans.map((sp) => {
         const wi = sp.wi;
-        const isEdge = wi === 0 || wi === words.length - 1;
         const touched = (line.wordShifts?.[wi] ?? 0) !== 0;
         const left = ((sp.start - t0) / dur) * 100;
         const width = Math.max(0.8, ((sp.end - sp.start) / dur) * 100);
         return (
           <div
             key={wi}
-            onClick={isEdge ? undefined : () => onPick(wi)}
+            onClick={() => onPick(wi)}
             title={`${words[wi]} · ${(sp.end - sp.start).toFixed(2)}s`}
             style={{
               ...S.timelineRect,
               left: `${left}%`,
               width: `${width}%`,
-              background: isEdge ? "#d8ccb2" : touched ? "#eaa588" : wi % 2 ? "#c9b487" : "#bda876",
-              cursor: isEdge ? "default" : "pointer",
+              background: touched ? "#eaa588" : wi % 2 ? "#c9b487" : "#bda876",
+              cursor: "pointer",
               ...(selectedWord === wi ? S.timelineRectSel : null),
             }}
           >
@@ -697,7 +704,7 @@ const LevelsPanel: React.FC<{
 }> = ({ line, win, selectedWord, onPickWord, onBlock, onLine, onWord }) => {
   if (!line) return <div style={S.levelsHint}>Select a line to nudge its block · line · words.</div>;
   const words = wordsOf(line.text);
-  const wordSelected = selectedWord != null && selectedWord > 0 && selectedWord < words.length - 1;
+  const wordSelected = selectedWord != null && selectedWord >= 0 && selectedWord < words.length;
   return (
     <div style={S.levels}>
       <div style={S.levelRow}>
@@ -730,18 +737,12 @@ const LevelsPanel: React.FC<{
             <div style={S.wordChips}>
               {words.map((wd, wi) => {
                 const sh = line.wordShifts?.[wi] ?? 0;
-                // first/last word == the line's start/end — nudge those at the Line
-                // level; only the MIDDLE words get independent word shifts.
-                const isEdge = wi === 0 || wi === words.length - 1;
                 return (
                   <button
                     key={wi}
-                    onClick={isEdge ? undefined : () => onPickWord(wi)}
-                    disabled={isEdge}
-                    title={isEdge ? "first/last word — use Line start / end" : undefined}
+                    onClick={() => onPickWord(wi)}
                     style={{
                       ...S.wordChip,
-                      ...(isEdge ? S.wordChipEdge : null),
                       ...(selectedWord === wi ? S.wordChipSel : null),
                       ...(sh ? S.wordChipTouched : null),
                     }}
@@ -761,9 +762,6 @@ const LevelsPanel: React.FC<{
               ▶
             </button>
           </div>
-          {!wordSelected && words.length <= 2 ? (
-            <div style={S.levelsHint}>edge words = Line start / end</div>
-          ) : null}
           {win ? (
             <WordTimeline line={line} win={win} words={words} selectedWord={selectedWord} onPick={onPickWord} />
           ) : null}
@@ -837,7 +835,6 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   timelineRectSel: { outline: "2px solid #e7481c", outlineOffset: -1, zIndex: 2 },
   timelineLabel: { fontFamily: "'Zen Maru Gothic', ui-sans-serif, system-ui", fontSize: 11, color: "#3a352c", whiteSpace: "nowrap", padding: "0 3px", pointerEvents: "none" },
   wordChip: { position: "relative", fontFamily: "'Zen Maru Gothic', ui-sans-serif, system-ui", fontSize: 15, padding: "3px 9px", borderRadius: 6, border: "1px solid #cbc1ac", background: "#fff", cursor: "pointer", color: "#41403a", lineHeight: 1.3 },
-  wordChipEdge: { opacity: 0.45, cursor: "default", background: "#f2ecdf", color: "#8c8578" },
   wordChipSel: { borderColor: "#e7481c", boxShadow: "inset 0 0 0 1px #e7481c" },
   wordChipTouched: { background: "#fbeee6", borderColor: "#eab9a5" },
   // hung below the chip (absolute) so the value never changes the chip's width
