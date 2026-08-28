@@ -1,0 +1,128 @@
+{
+  "song": "05-naninuneno-ouchi",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/05-naninuneno-ouchi",
+  "items": [
+    {
+      "w": "なべ",
+      "r": "nabe",
+      "m": "pot",
+      "s": "なべ で つくる",
+      "cue": "pot",
+      "src": null
+    },
+    {
+      "w": "なす",
+      "r": "nasu",
+      "m": "eggplant",
+      "s": "むらさきの なす",
+      "cue": "eggplant",
+      "src": null
+    },
+    {
+      "w": "なし",
+      "r": "nashi",
+      "m": "pear",
+      "s": "あまい なし",
+      "cue": "pear",
+      "src": null
+    },
+    {
+      "w": "にく",
+      "r": "niku",
+      "m": "meat",
+      "s": "にく を やく",
+      "cue": "meat",
+      "src": null
+    },
+    {
+      "w": "にんじん",
+      "r": "ninjin",
+      "m": "carrot",
+      "s": "にんじん を きる",
+      "cue": "carrot",
+      "src": null
+    },
+    {
+      "w": "にわ",
+      "r": "niwa",
+      "m": "garden",
+      "s": "にわ の はな",
+      "cue": "garden",
+      "src": null
+    },
+    {
+      "w": "ぬいぐるみ",
+      "r": "nuigurumi",
+      "m": "stuffed toy",
+      "s": "くまの ぬいぐるみ",
+      "cue": "stuffed toy",
+      "src": null
+    },
+    {
+      "w": "ぬりえ",
+      "r": "nurie",
+      "m": "colouring book",
+      "s": "ぬりえ を する",
+      "cue": "colouring book",
+      "src": null
+    },
+    {
+      "w": "ぬの",
+      "r": "nuno",
+      "m": "cloth",
+      "s": "あおい ぬの",
+      "cue": "cloth",
+      "src": null
+    },
+    {
+      "w": "ねこ",
+      "r": "neko",
+      "m": "cat",
+      "s": "ねこ が ねる",
+      "cue": "cat",
+      "src": null
+    },
+    {
+      "w": "ねぎ",
+      "r": "negi",
+      "m": "green onion",
+      "s": "ねぎ を きる",
+      "cue": "green onion",
+      "src": null
+    },
+    {
+      "w": "ねんど",
+      "r": "nendo",
+      "m": "clay",
+      "s": "ねんど で あそぶ",
+      "cue": "clay",
+      "src": null
+    },
+    {
+      "w": "のり",
+      "r": "nori",
+      "m": "seaweed",
+      "s": "のり の おにぎり",
+      "cue": "seaweed",
+      "src": null
+    },
+    {
+      "w": "のみもの",
+      "r": "nomimono",
+      "m": "a drink",
+      "s": "つめたい のみもの",
+      "cue": "a drink",
+      "src": null
+    },
+    {
+      "w": "のはら",
+      "r": "nohara",
+      "m": "field",
+      "s": "ひろい のはら",
+      "cue": "field",
+      "src": null
+    }
+  ]
+}

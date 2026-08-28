@@ -1,0 +1,104 @@
+{
+  "song": "10-wawon-male",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/10-wawon-male",
+  "items": [
+    {
+      "w": "わに",
+      "r": "wani",
+      "m": "crocodile",
+      "s": "わに が いる",
+      "cue": "crocodile",
+      "src": null
+    },
+    {
+      "w": "わし",
+      "r": "washi",
+      "m": "eagle",
+      "s": "おおきい わし",
+      "cue": "eagle",
+      "src": null
+    },
+    {
+      "w": "わかめ",
+      "r": "wakame",
+      "m": "wakame seaweed",
+      "s": "わかめ を たべる",
+      "cue": "wakame seaweed",
+      "src": null
+    },
+    {
+      "w": "わた",
+      "r": "wata",
+      "m": "cotton",
+      "s": "ふわふわ の わた",
+      "cue": "cotton",
+      "src": null
+    },
+    {
+      "w": "わふく",
+      "r": "wafuku",
+      "m": "kimono (wafuku)",
+      "s": "わふく を きる",
+      "cue": "kimono (wafuku)",
+      "src": null
+    },
+    {
+      "w": "わっか",
+      "r": "wakka",
+      "m": "a hoop / ring",
+      "s": "ちいさい わっか",
+      "cue": "a hoop / ring",
+      "src": null
+    },
+    {
+      "w": "りんご",
+      "r": "ringo",
+      "m": "apple",
+      "s": "りんご を たべる",
+      "cue": "apple",
+      "src": null
+    },
+    {
+      "w": "うた",
+      "r": "uta",
+      "m": "a song",
+      "s": "うた を うたう",
+      "cue": "a song",
+      "src": null
+    },
+    {
+      "w": "え",
+      "r": "e",
+      "m": "a picture",
+      "s": "え を かく",
+      "cue": "a picture",
+      "src": null
+    },
+    {
+      "w": "ぱん",
+      "r": "pan",
+      "m": "bread",
+      "s": "おいしい ぱん",
+      "cue": "bread",
+      "src": null
+    },
+    {
+      "w": "みかん",
+      "r": "mikan",
+      "m": "mandarin",
+      "s": "あまい みかん",
+      "cue": "mandarin",
+      "src": null
+    },
+    {
+      "w": "きりん",
+      "r": "kirin",
+      "m": "giraffe",
+      "s": "おおきい きりん",
+      "cue": "giraffe",
+      "src": null
+    }
+  ]
+}

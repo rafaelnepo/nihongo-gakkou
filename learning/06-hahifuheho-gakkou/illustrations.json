@@ -1,0 +1,128 @@
+{
+  "song": "06-hahifuheho-gakkou",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/06-hahifuheho-gakkou",
+  "items": [
+    {
+      "w": "はさみ",
+      "r": "hasami",
+      "m": "scissors",
+      "s": "はさみ で きる",
+      "cue": "scissors",
+      "src": null
+    },
+    {
+      "w": "はこ",
+      "r": "hako",
+      "m": "box",
+      "s": "はこ を あける",
+      "cue": "box",
+      "src": null
+    },
+    {
+      "w": "はた",
+      "r": "hata",
+      "m": "flag",
+      "s": "あかい はた",
+      "cue": "flag",
+      "src": null
+    },
+    {
+      "w": "ひこうき",
+      "r": "hikouki",
+      "m": "airplane",
+      "s": "かみ の ひこうき",
+      "cue": "airplane",
+      "src": null
+    },
+    {
+      "w": "ひも",
+      "r": "himo",
+      "m": "string",
+      "s": "ながい ひも",
+      "cue": "string",
+      "src": null
+    },
+    {
+      "w": "ひかり",
+      "r": "hikari",
+      "m": "light",
+      "s": "あかるい ひかり",
+      "cue": "light",
+      "src": null
+    },
+    {
+      "w": "ふで",
+      "r": "fude",
+      "m": "brush",
+      "s": "ふで で かく",
+      "cue": "brush",
+      "src": null
+    },
+    {
+      "w": "ふうせん",
+      "r": "fuusen",
+      "m": "balloon",
+      "s": "まるい ふうせん",
+      "cue": "balloon",
+      "src": null
+    },
+    {
+      "w": "ふえ",
+      "r": "fue",
+      "m": "whistle / flute",
+      "s": "ふえ を ふく",
+      "cue": "whistle / flute",
+      "src": null
+    },
+    {
+      "w": "へや",
+      "r": "heya",
+      "m": "room",
+      "s": "あかるい へや",
+      "cue": "room",
+      "src": null
+    },
+    {
+      "w": "へい",
+      "r": "hei",
+      "m": "fence / wall",
+      "s": "しろい へい",
+      "cue": "fence / wall",
+      "src": null
+    },
+    {
+      "w": "へちま",
+      "r": "hechima",
+      "m": "loofah gourd",
+      "s": "みどりの へちま",
+      "cue": "loofah gourd",
+      "src": null
+    },
+    {
+      "w": "ほん",
+      "r": "hon",
+      "m": "book",
+      "s": "ほん を よむ",
+      "cue": "book",
+      "src": null
+    },
+    {
+      "w": "ほうき",
+      "r": "houki",
+      "m": "broom",
+      "s": "ほうき で はく",
+      "cue": "broom",
+      "src": null
+    },
+    {
+      "w": "ほし",
+      "r": "hoshi",
+      "m": "star",
+      "s": "よる の ほし",
+      "cue": "star",
+      "src": null
+    }
+  ]
+}

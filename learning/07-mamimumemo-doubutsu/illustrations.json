@@ -1,0 +1,128 @@
+{
+  "song": "07-mamimumemo-doubutsu",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/07-mamimumemo-doubutsu",
+  "items": [
+    {
+      "w": "まぐろ",
+      "r": "maguro",
+      "m": "tuna",
+      "s": "まぐろ が およぐ",
+      "cue": "tuna",
+      "src": null
+    },
+    {
+      "w": "まんぼう",
+      "r": "manbou",
+      "m": "ocean sunfish",
+      "s": "まんぼう は まるい",
+      "cue": "ocean sunfish",
+      "src": null
+    },
+    {
+      "w": "まがも",
+      "r": "magamo",
+      "m": "mallard duck",
+      "s": "まがも が とぶ",
+      "cue": "mallard duck",
+      "src": null
+    },
+    {
+      "w": "みつばち",
+      "r": "mitsubachi",
+      "m": "honeybee",
+      "s": "みつばち が とぶ",
+      "cue": "honeybee",
+      "src": null
+    },
+    {
+      "w": "みみずく",
+      "r": "mimizuku",
+      "m": "horned owl",
+      "s": "みみずく が いる",
+      "cue": "horned owl",
+      "src": null
+    },
+    {
+      "w": "みのむし",
+      "r": "minomushi",
+      "m": "bagworm",
+      "s": "えだ の みのむし",
+      "cue": "bagworm",
+      "src": null
+    },
+    {
+      "w": "むし",
+      "r": "mushi",
+      "m": "bug",
+      "s": "ちいさい むし",
+      "cue": "bug",
+      "src": null
+    },
+    {
+      "w": "むかで",
+      "r": "mukade",
+      "m": "centipede",
+      "s": "むかで が あるく",
+      "cue": "centipede",
+      "src": null
+    },
+    {
+      "w": "むささび",
+      "r": "musasabi",
+      "m": "flying squirrel",
+      "s": "むささび が とぶ",
+      "cue": "flying squirrel",
+      "src": null
+    },
+    {
+      "w": "めだか",
+      "r": "medaka",
+      "m": "killifish",
+      "s": "めだか が およぐ",
+      "cue": "killifish",
+      "src": null
+    },
+    {
+      "w": "めじろ",
+      "r": "mejiro",
+      "m": "white-eye (bird)",
+      "s": "めじろ が なく",
+      "cue": "white-eye (bird)",
+      "src": null
+    },
+    {
+      "w": "めうし",
+      "r": "meushi",
+      "m": "cow",
+      "s": "しろい めうし",
+      "cue": "cow",
+      "src": null
+    },
+    {
+      "w": "もぐら",
+      "r": "mogura",
+      "m": "mole",
+      "s": "もぐら が いる",
+      "cue": "mole",
+      "src": null
+    },
+    {
+      "w": "もず",
+      "r": "mozu",
+      "m": "shrike (bird)",
+      "s": "もず が なく",
+      "cue": "shrike (bird)",
+      "src": null
+    },
+    {
+      "w": "もんしろちょう",
+      "r": "monshirochou",
+      "m": "cabbage white butterfly",
+      "s": "もんしろちょう が とぶ",
+      "cue": "cabbage white butterfly",
+      "src": null
+    }
+  ]
+}

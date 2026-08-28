@@ -1,0 +1,128 @@
+{
+  "song": "09-rarirurero-doubutsu",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/09-rarirurero-doubutsu",
+  "items": [
+    {
+      "w": "らくだ",
+      "r": "rakuda",
+      "m": "camel",
+      "s": "らくだ が あるく",
+      "cue": "camel",
+      "src": null
+    },
+    {
+      "w": "らいおん",
+      "r": "raion",
+      "m": "lion",
+      "s": "らいおん が いる",
+      "cue": "lion",
+      "src": null
+    },
+    {
+      "w": "らっこ",
+      "r": "rakko",
+      "m": "sea otter",
+      "s": "らっこ が およぐ",
+      "cue": "sea otter",
+      "src": null
+    },
+    {
+      "w": "りす",
+      "r": "risu",
+      "m": "squirrel",
+      "s": "りす が いる",
+      "cue": "squirrel",
+      "src": null
+    },
+    {
+      "w": "りくがめ",
+      "r": "rikugame",
+      "m": "tortoise",
+      "s": "りくがめ は おそい",
+      "cue": "tortoise",
+      "src": null
+    },
+    {
+      "w": "りゅう",
+      "r": "ryuu",
+      "m": "dragon",
+      "s": "りゅう が とぶ",
+      "cue": "dragon",
+      "src": null
+    },
+    {
+      "w": "るりびたき",
+      "r": "ruribitaki",
+      "m": "azure-winged bird",
+      "s": "あおい るりびたき",
+      "cue": "azure-winged bird",
+      "src": null
+    },
+    {
+      "w": "るり",
+      "r": "ruri",
+      "m": "azure / lapis blue",
+      "s": "るり いろ の はね",
+      "cue": "azure / lapis blue",
+      "src": null
+    },
+    {
+      "w": "るーぺ",
+      "r": "rupe",
+      "m": "magnifier",
+      "s": "るーぺ で みる",
+      "cue": "magnifier",
+      "src": null
+    },
+    {
+      "w": "れっさーぱんだ",
+      "r": "ressapanda",
+      "m": "red panda",
+      "s": "れっさーぱんだ が いる",
+      "cue": "red panda",
+      "src": null
+    },
+    {
+      "w": "れいちょう",
+      "r": "reichou",
+      "m": "ptarmigan",
+      "s": "れいちょう が とぶ",
+      "cue": "ptarmigan",
+      "src": null
+    },
+    {
+      "w": "れいよう",
+      "r": "reiyou",
+      "m": "antelope",
+      "s": "れいよう が はしる",
+      "cue": "antelope",
+      "src": null
+    },
+    {
+      "w": "ろば",
+      "r": "roba",
+      "m": "donkey",
+      "s": "ろば が あるく",
+      "cue": "donkey",
+      "src": null
+    },
+    {
+      "w": "ろじ",
+      "r": "roji",
+      "m": "alley",
+      "s": "ろじ の ねこ",
+      "cue": "alley",
+      "src": null
+    },
+    {
+      "w": "ろうか",
+      "r": "rouka",
+      "m": "corridor",
+      "s": "ろうか の いぬ",
+      "cue": "corridor",
+      "src": null
+    }
+  ]
+}

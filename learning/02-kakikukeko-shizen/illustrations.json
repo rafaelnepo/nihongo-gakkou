@@ -1,0 +1,128 @@
+{
+  "song": "02-kakikukeko-shizen",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/02-kakikukeko-shizen",
+  "items": [
+    {
+      "w": "かぜ",
+      "r": "kaze",
+      "m": "wind",
+      "s": "かぜ が ふく",
+      "cue": "wind",
+      "src": null
+    },
+    {
+      "w": "かわ",
+      "r": "kawa",
+      "m": "river",
+      "s": "かわ で あそぶ",
+      "cue": "river",
+      "src": null
+    },
+    {
+      "w": "かい",
+      "r": "kai",
+      "m": "seashell",
+      "s": "うみ の かい",
+      "cue": "seashell",
+      "src": null
+    },
+    {
+      "w": "き",
+      "r": "ki",
+      "m": "tree",
+      "s": "おおきい き",
+      "cue": "tree",
+      "src": null
+    },
+    {
+      "w": "きいろ",
+      "r": "kiiro",
+      "m": "yellow",
+      "s": "きいろい はっぱ",
+      "cue": "yellow",
+      "src": null
+    },
+    {
+      "w": "きのこ",
+      "r": "kinoko",
+      "m": "mushroom",
+      "s": "もり の きのこ",
+      "cue": "mushroom",
+      "src": null
+    },
+    {
+      "w": "くも",
+      "r": "kumo",
+      "m": "cloud",
+      "s": "そら に くも",
+      "cue": "cloud",
+      "src": null
+    },
+    {
+      "w": "くさ",
+      "r": "kusa",
+      "m": "grass",
+      "s": "みどりの くさ",
+      "cue": "grass",
+      "src": null
+    },
+    {
+      "w": "くだもの",
+      "r": "kudamono",
+      "m": "fruit",
+      "s": "あまい くだもの",
+      "cue": "fruit",
+      "src": null
+    },
+    {
+      "w": "けさ",
+      "r": "kesa",
+      "m": "this morning",
+      "s": "けさ は はれ",
+      "cue": "this morning",
+      "src": null
+    },
+    {
+      "w": "けしき",
+      "r": "keshiki",
+      "m": "scenery",
+      "s": "きれいな けしき",
+      "cue": "scenery",
+      "src": null
+    },
+    {
+      "w": "けむり",
+      "r": "kemuri",
+      "m": "smoke",
+      "s": "えんとつ の けむり",
+      "cue": "smoke",
+      "src": null
+    },
+    {
+      "w": "こおり",
+      "r": "koori",
+      "m": "ice",
+      "s": "つめたい こおり",
+      "cue": "ice",
+      "src": null
+    },
+    {
+      "w": "こえ",
+      "r": "koe",
+      "m": "voice",
+      "s": "とり の こえ",
+      "cue": "voice",
+      "src": null
+    },
+    {
+      "w": "こうえん",
+      "r": "kouen",
+      "m": "park",
+      "s": "こうえん を あるく",
+      "cue": "park",
+      "src": null
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "song": "04-tachitsuteto-shizen",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/04-tachitsuteto-shizen",
+  "items": [
+    {
+      "w": "たいよう",
+      "r": "taiyou",
+      "m": "the sun",
+      "s": "あかい たいよう",
+      "cue": "the sun",
+      "src": null
+    },
+    {
+      "w": "たけ",
+      "r": "take",
+      "m": "bamboo",
+      "s": "たかい たけ",
+      "cue": "bamboo",
+      "src": null
+    },
+    {
+      "w": "たき",
+      "r": "taki",
+      "m": "waterfall",
+      "s": "やま の たき",
+      "cue": "waterfall",
+      "src": null
+    },
+    {
+      "w": "ちきゅう",
+      "r": "chikyuu",
+      "m": "the earth",
+      "s": "あおい ちきゅう",
+      "cue": "the earth",
+      "src": null
+    },
+    {
+      "w": "ちょう",
+      "r": "chou",
+      "m": "butterfly",
+      "s": "ちょう が とぶ",
+      "cue": "butterfly",
+      "src": null
+    },
+    {
+      "w": "ちり",
+      "r": "chiri",
+      "m": "fallen petals / specks",
+      "s": "はな の ちり",
+      "cue": "fallen petals / specks",
+      "src": null
+    },
+    {
+      "w": "つき",
+      "r": "tsuki",
+      "m": "moon",
+      "s": "よる の つき",
+      "cue": "moon",
+      "src": null
+    },
+    {
+      "w": "つち",
+      "r": "tsuchi",
+      "m": "soil / earth",
+      "s": "くろい つち",
+      "cue": "soil / earth",
+      "src": null
+    },
+    {
+      "w": "つゆ",
+      "r": "tsuyu",
+      "m": "dew",
+      "s": "はな の つゆ",
+      "cue": "dew",
+      "src": null
+    },
+    {
+      "w": "てんき",
+      "r": "tenki",
+      "m": "weather",
+      "s": "いい てんき",
+      "cue": "weather",
+      "src": null
+    },
+    {
+      "w": "てんとうむし",
+      "r": "tentoumushi",
+      "m": "ladybug",
+      "s": "はっぱ の てんとうむし",
+      "cue": "ladybug",
+      "src": null
+    },
+    {
+      "w": "てら",
+      "r": "tera",
+      "m": "temple",
+      "s": "やま の てら",
+      "cue": "temple",
+      "src": null
+    },
+    {
+      "w": "とり",
+      "r": "tori",
+      "m": "bird",
+      "s": "そら の とり",
+      "cue": "bird",
+      "src": null
+    },
+    {
+      "w": "とんぼ",
+      "r": "tonbo",
+      "m": "dragonfly",
+      "s": "あかい とんぼ",
+      "cue": "dragonfly",
+      "src": null
+    },
+    {
+      "w": "とげ",
+      "r": "toge",
+      "m": "thorn",
+      "s": "ばら の とげ",
+      "cue": "thorn",
+      "src": null
+    }
+  ]
+}

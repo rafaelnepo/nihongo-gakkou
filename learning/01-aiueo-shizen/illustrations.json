@@ -1,0 +1,128 @@
+{
+  "song": "01-aiueo-shizen",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/01-aiueo-shizen",
+  "items": [
+    {
+      "w": "あめ",
+      "r": "ame",
+      "m": "rain",
+      "s": "あめ が ふる",
+      "cue": "rain",
+      "src": null
+    },
+    {
+      "w": "あさひ",
+      "r": "asahi",
+      "m": "morning sun",
+      "s": "あさひ が のぼる",
+      "cue": "morning sun",
+      "src": null
+    },
+    {
+      "w": "あき",
+      "r": "aki",
+      "m": "autumn",
+      "s": "あき の はっぱ",
+      "cue": "autumn",
+      "src": null
+    },
+    {
+      "w": "いけ",
+      "r": "ike",
+      "m": "pond",
+      "s": "いけ の みず",
+      "cue": "pond",
+      "src": null
+    },
+    {
+      "w": "いし",
+      "r": "ishi",
+      "m": "stone",
+      "s": "おおきい いし",
+      "cue": "stone",
+      "src": null
+    },
+    {
+      "w": "いずみ",
+      "r": "izumi",
+      "m": "spring (water)",
+      "s": "つめたい いずみ",
+      "cue": "spring (water)",
+      "src": null
+    },
+    {
+      "w": "うみ",
+      "r": "umi",
+      "m": "sea",
+      "s": "あおい うみ",
+      "cue": "sea",
+      "src": null
+    },
+    {
+      "w": "うめ",
+      "r": "ume",
+      "m": "plum blossom",
+      "s": "うめ の はな",
+      "cue": "plum blossom",
+      "src": null
+    },
+    {
+      "w": "うず",
+      "r": "uzu",
+      "m": "swirl / eddy",
+      "s": "みず の うず",
+      "cue": "swirl / eddy",
+      "src": null
+    },
+    {
+      "w": "えだ",
+      "r": "eda",
+      "m": "branch",
+      "s": "き の えだ",
+      "cue": "branch",
+      "src": null
+    },
+    {
+      "w": "え",
+      "r": "e",
+      "m": "cove / inlet",
+      "s": "しずかな え",
+      "cue": "cove / inlet",
+      "src": null
+    },
+    {
+      "w": "えのき",
+      "r": "enoki",
+      "m": "hackberry tree",
+      "s": "おおきい えのき",
+      "cue": "hackberry tree",
+      "src": null
+    },
+    {
+      "w": "おか",
+      "r": "oka",
+      "m": "hill",
+      "s": "みどりの おか",
+      "cue": "hill",
+      "src": null
+    },
+    {
+      "w": "おおぞら",
+      "r": "oozora",
+      "m": "the big sky",
+      "s": "あおい おおぞら",
+      "cue": "the big sky",
+      "src": null
+    },
+    {
+      "w": "おちば",
+      "r": "ochiba",
+      "m": "fallen leaves",
+      "s": "あき の おちば",
+      "cue": "fallen leaves",
+      "src": null
+    }
+  ]
+}

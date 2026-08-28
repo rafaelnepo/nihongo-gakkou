@@ -1,0 +1,128 @@
+{
+  "song": "03-sashisuseso-doubutsu",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/03-sashisuseso-doubutsu",
+  "items": [
+    {
+      "w": "さる",
+      "r": "saru",
+      "m": "monkey",
+      "s": "さる が あそぶ",
+      "cue": "monkey",
+      "src": null
+    },
+    {
+      "w": "さい",
+      "r": "sai",
+      "m": "rhinoceros",
+      "s": "さい は おおきい",
+      "cue": "rhinoceros",
+      "src": null
+    },
+    {
+      "w": "さかな",
+      "r": "sakana",
+      "m": "fish",
+      "s": "さかな が およぐ",
+      "cue": "fish",
+      "src": null
+    },
+    {
+      "w": "しか",
+      "r": "shika",
+      "m": "deer",
+      "s": "しか が いる",
+      "cue": "deer",
+      "src": null
+    },
+    {
+      "w": "しまうま",
+      "r": "shimauma",
+      "m": "zebra",
+      "s": "しまうま が はしる",
+      "cue": "zebra",
+      "src": null
+    },
+    {
+      "w": "しろくま",
+      "r": "shirokuma",
+      "m": "polar bear",
+      "s": "しろくま は しろい",
+      "cue": "polar bear",
+      "src": null
+    },
+    {
+      "w": "すずめ",
+      "r": "suzume",
+      "m": "sparrow",
+      "s": "すずめ が とぶ",
+      "cue": "sparrow",
+      "src": null
+    },
+    {
+      "w": "すずむし",
+      "r": "suzumushi",
+      "m": "bell cricket",
+      "s": "すずむし が なく",
+      "cue": "bell cricket",
+      "src": null
+    },
+    {
+      "w": "す",
+      "r": "su",
+      "m": "nest",
+      "s": "とり の す",
+      "cue": "nest",
+      "src": null
+    },
+    {
+      "w": "せみ",
+      "r": "semi",
+      "m": "cicada",
+      "s": "せみ が なく",
+      "cue": "cicada",
+      "src": null
+    },
+    {
+      "w": "せいうち",
+      "r": "seiuchi",
+      "m": "walrus",
+      "s": "せいうち が およぐ",
+      "cue": "walrus",
+      "src": null
+    },
+    {
+      "w": "せなか",
+      "r": "senaka",
+      "m": "back (of the body)",
+      "s": "くま の せなか",
+      "cue": "back (of the body)",
+      "src": null
+    },
+    {
+      "w": "そら",
+      "r": "sora",
+      "m": "sky",
+      "s": "そら の とり",
+      "cue": "sky",
+      "src": null
+    },
+    {
+      "w": "そこ",
+      "r": "soko",
+      "m": "the depths / bottom",
+      "s": "うみ の そこ",
+      "cue": "the depths / bottom",
+      "src": null
+    },
+    {
+      "w": "そと",
+      "r": "soto",
+      "m": "outside",
+      "s": "そと の いぬ",
+      "cue": "outside",
+      "src": null
+    }
+  ]
+}

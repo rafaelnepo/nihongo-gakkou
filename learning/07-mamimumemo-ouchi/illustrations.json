@@ -1,0 +1,128 @@
+{
+  "song": "07-mamimumemo-ouchi",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/07-mamimumemo-ouchi",
+  "items": [
+    {
+      "w": "まど",
+      "r": "mado",
+      "m": "window",
+      "s": "まど を あける",
+      "cue": "window",
+      "src": null
+    },
+    {
+      "w": "まくら",
+      "r": "makura",
+      "m": "pillow",
+      "s": "しろい まくら",
+      "cue": "pillow",
+      "src": null
+    },
+    {
+      "w": "まめ",
+      "r": "mame",
+      "m": "bean",
+      "s": "まめ を たべる",
+      "cue": "bean",
+      "src": null
+    },
+    {
+      "w": "みかん",
+      "r": "mikan",
+      "m": "mandarin",
+      "s": "あまい みかん",
+      "cue": "mandarin",
+      "src": null
+    },
+    {
+      "w": "みず",
+      "r": "mizu",
+      "m": "water",
+      "s": "つめたい みず",
+      "cue": "water",
+      "src": null
+    },
+    {
+      "w": "みみ",
+      "r": "mimi",
+      "m": "ear",
+      "s": "うさぎ の みみ",
+      "cue": "ear",
+      "src": null
+    },
+    {
+      "w": "むし",
+      "r": "mushi",
+      "m": "bug",
+      "s": "ちいさい むし",
+      "cue": "bug",
+      "src": null
+    },
+    {
+      "w": "むらさき",
+      "r": "murasaki",
+      "m": "purple",
+      "s": "むらさきの はな",
+      "cue": "purple",
+      "src": null
+    },
+    {
+      "w": "むぎ",
+      "r": "mugi",
+      "m": "barley",
+      "s": "むぎ の ちゃ",
+      "cue": "barley",
+      "src": null
+    },
+    {
+      "w": "め",
+      "r": "me",
+      "m": "eye",
+      "s": "おおきい め",
+      "cue": "eye",
+      "src": null
+    },
+    {
+      "w": "めがね",
+      "r": "megane",
+      "m": "glasses",
+      "s": "まるい めがね",
+      "cue": "glasses",
+      "src": null
+    },
+    {
+      "w": "めだか",
+      "r": "medaka",
+      "m": "killifish",
+      "s": "めだか が およぐ",
+      "cue": "killifish",
+      "src": null
+    },
+    {
+      "w": "もも",
+      "r": "momo",
+      "m": "peach",
+      "s": "あまい もも",
+      "cue": "peach",
+      "src": null
+    },
+    {
+      "w": "もち",
+      "r": "mochi",
+      "m": "rice cake",
+      "s": "しろい もち",
+      "cue": "rice cake",
+      "src": null
+    },
+    {
+      "w": "もうふ",
+      "r": "moufu",
+      "m": "blanket",
+      "s": "あたたかい もうふ",
+      "cue": "blanket",
+      "src": null
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "song": "06-hahifuheho-shizen",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/06-hahifuheho-shizen",
+  "items": [
+    {
+      "w": "はな",
+      "r": "hana",
+      "m": "flower",
+      "s": "あかい はな",
+      "cue": "flower",
+      "src": null
+    },
+    {
+      "w": "はっぱ",
+      "r": "happa",
+      "m": "leaf",
+      "s": "みどりの はっぱ",
+      "cue": "leaf",
+      "src": null
+    },
+    {
+      "w": "はやし",
+      "r": "hayashi",
+      "m": "woods / grove",
+      "s": "しずかな はやし",
+      "cue": "woods / grove",
+      "src": null
+    },
+    {
+      "w": "ひかり",
+      "r": "hikari",
+      "m": "light",
+      "s": "つき の ひかり",
+      "cue": "light",
+      "src": null
+    },
+    {
+      "w": "ひまわり",
+      "r": "himawari",
+      "m": "sunflower",
+      "s": "きいろい ひまわり",
+      "cue": "sunflower",
+      "src": null
+    },
+    {
+      "w": "ひ",
+      "r": "hi",
+      "m": "sun / fire",
+      "s": "あかい ひ",
+      "cue": "sun / fire",
+      "src": null
+    },
+    {
+      "w": "ふじ",
+      "r": "fuji",
+      "m": "Mt. Fuji",
+      "s": "たかい ふじ",
+      "cue": "Mt. Fuji",
+      "src": null
+    },
+    {
+      "w": "ふゆ",
+      "r": "fuyu",
+      "m": "winter",
+      "s": "さむい ふゆ",
+      "cue": "winter",
+      "src": null
+    },
+    {
+      "w": "ふうりん",
+      "r": "fuurin",
+      "m": "wind chime",
+      "s": "なつ の ふうりん",
+      "cue": "wind chime",
+      "src": null
+    },
+    {
+      "w": "へちま",
+      "r": "hechima",
+      "m": "loofah gourd",
+      "s": "みどりの へちま",
+      "cue": "loofah gourd",
+      "src": null
+    },
+    {
+      "w": "へび",
+      "r": "hebi",
+      "m": "snake",
+      "s": "くさ の へび",
+      "cue": "snake",
+      "src": null
+    },
+    {
+      "w": "へいや",
+      "r": "heiya",
+      "m": "a plain / flatland",
+      "s": "ひろい へいや",
+      "cue": "a plain / flatland",
+      "src": null
+    },
+    {
+      "w": "ほし",
+      "r": "hoshi",
+      "m": "star",
+      "s": "よる の ほし",
+      "cue": "star",
+      "src": null
+    },
+    {
+      "w": "ほたる",
+      "r": "hotaru",
+      "m": "firefly",
+      "s": "なつ の ほたる",
+      "cue": "firefly",
+      "src": null
+    },
+    {
+      "w": "ほのお",
+      "r": "honoo",
+      "m": "flame",
+      "s": "たきび の ほのお",
+      "cue": "flame",
+      "src": null
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "song": "09-rarirurero-ie",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/09-rarirurero-ie",
+  "items": [
+    {
+      "w": "らじお",
+      "r": "rajio",
+      "m": "radio",
+      "s": "らじお を きく",
+      "cue": "radio",
+      "src": null
+    },
+    {
+      "w": "らんぷ",
+      "r": "ranpu",
+      "m": "lamp",
+      "s": "あかるい らんぷ",
+      "cue": "lamp",
+      "src": null
+    },
+    {
+      "w": "らっぱ",
+      "r": "rappa",
+      "m": "trumpet",
+      "s": "らっぱ を ふく",
+      "cue": "trumpet",
+      "src": null
+    },
+    {
+      "w": "りんご",
+      "r": "ringo",
+      "m": "apple",
+      "s": "あかい りんご",
+      "cue": "apple",
+      "src": null
+    },
+    {
+      "w": "りぼん",
+      "r": "ribon",
+      "m": "ribbon",
+      "s": "かわいい りぼん",
+      "cue": "ribbon",
+      "src": null
+    },
+    {
+      "w": "りょうり",
+      "r": "ryouri",
+      "m": "cooking",
+      "s": "りょうり を する",
+      "cue": "cooking",
+      "src": null
+    },
+    {
+      "w": "るす",
+      "r": "rusu",
+      "m": "being out / away",
+      "s": "いえ が るす",
+      "cue": "being out / away",
+      "src": null
+    },
+    {
+      "w": "るーぺ",
+      "r": "rupe",
+      "m": "magnifier",
+      "s": "るーぺ で みる",
+      "cue": "magnifier",
+      "src": null
+    },
+    {
+      "w": "るびー",
+      "r": "rubi",
+      "m": "ruby",
+      "s": "ひかる るびー",
+      "cue": "ruby",
+      "src": null
+    },
+    {
+      "w": "れいぞうこ",
+      "r": "reizouko",
+      "m": "fridge",
+      "s": "つめたい れいぞうこ",
+      "cue": "fridge",
+      "src": null
+    },
+    {
+      "w": "れもん",
+      "r": "remon",
+      "m": "lemon",
+      "s": "すっぱい れもん",
+      "cue": "lemon",
+      "src": null
+    },
+    {
+      "w": "れんが",
+      "r": "renga",
+      "m": "brick",
+      "s": "かたい れんが",
+      "cue": "brick",
+      "src": null
+    },
+    {
+      "w": "ろうそく",
+      "r": "rousoku",
+      "m": "candle",
+      "s": "ろうそく を つける",
+      "cue": "candle",
+      "src": null
+    },
+    {
+      "w": "ろぼっと",
+      "r": "robotto",
+      "m": "robot",
+      "s": "おおきい ろぼっと",
+      "cue": "robot",
+      "src": null
+    },
+    {
+      "w": "ろけっと",
+      "r": "roketto",
+      "m": "rocket",
+      "s": "ろけっと が とぶ",
+      "cue": "rocket",
+      "src": null
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "song": "04-tachitsuteto-doubutsu",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/04-tachitsuteto-doubutsu",
+  "items": [
+    {
+      "w": "たぬき",
+      "r": "tanuki",
+      "m": "raccoon dog",
+      "s": "たぬき が いる",
+      "cue": "raccoon dog",
+      "src": null
+    },
+    {
+      "w": "たこ",
+      "r": "tako",
+      "m": "octopus",
+      "s": "たこ が およぐ",
+      "cue": "octopus",
+      "src": null
+    },
+    {
+      "w": "たか",
+      "r": "taka",
+      "m": "hawk",
+      "s": "たか が とぶ",
+      "cue": "hawk",
+      "src": null
+    },
+    {
+      "w": "ちょう",
+      "r": "chou",
+      "m": "butterfly",
+      "s": "ちょう が とぶ",
+      "cue": "butterfly",
+      "src": null
+    },
+    {
+      "w": "ちどり",
+      "r": "chidori",
+      "m": "plover",
+      "s": "ちどり が あるく",
+      "cue": "plover",
+      "src": null
+    },
+    {
+      "w": "ちんあなご",
+      "r": "chinanago",
+      "m": "garden eel",
+      "s": "すな の ちんあなご",
+      "cue": "garden eel",
+      "src": null
+    },
+    {
+      "w": "つる",
+      "r": "tsuru",
+      "m": "crane",
+      "s": "つる が おどる",
+      "cue": "crane",
+      "src": null
+    },
+    {
+      "w": "つばめ",
+      "r": "tsubame",
+      "m": "swallow",
+      "s": "つばめ の す",
+      "cue": "swallow",
+      "src": null
+    },
+    {
+      "w": "つの",
+      "r": "tsuno",
+      "m": "horn / antler",
+      "s": "しか の つの",
+      "cue": "horn / antler",
+      "src": null
+    },
+    {
+      "w": "てんとうむし",
+      "r": "tentoumushi",
+      "m": "ladybug",
+      "s": "はっぱ の てんとうむし",
+      "cue": "ladybug",
+      "src": null
+    },
+    {
+      "w": "てながざる",
+      "r": "tenagazaru",
+      "m": "gibbon",
+      "s": "てながざる が あそぶ",
+      "cue": "gibbon",
+      "src": null
+    },
+    {
+      "w": "て",
+      "r": "te",
+      "m": "hand / paw",
+      "s": "さる の て",
+      "cue": "hand / paw",
+      "src": null
+    },
+    {
+      "w": "とり",
+      "r": "tori",
+      "m": "bird",
+      "s": "そら の とり",
+      "cue": "bird",
+      "src": null
+    },
+    {
+      "w": "とんぼ",
+      "r": "tonbo",
+      "m": "dragonfly",
+      "s": "とんぼ が とぶ",
+      "cue": "dragonfly",
+      "src": null
+    },
+    {
+      "w": "とら",
+      "r": "tora",
+      "m": "tiger",
+      "s": "とら は つよい",
+      "cue": "tiger",
+      "src": null
+    }
+  ]
+}

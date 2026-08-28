@@ -1,6 +1,6 @@
 {
   "song": "01-aiueo",
-  "note": "Word -> Irasutoya illustration map. The chosen source files live in the sibling Irasutoya catalog (../../Irasutoya/images/<src>); tools/illustrations/fetch.mjs copies them into video/public/il/01-aiueo/<r>.png (git-ignored). Credit: illustrations by Irasutoya (いらすとや) — goes in the video description. Swap a pick by changing its `src` and re-running fetch.",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
   "dest": "video/public/il/01-aiueo",
   "items": [

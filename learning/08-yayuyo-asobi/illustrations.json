@@ -1,0 +1,80 @@
+{
+  "song": "08-yayuyo-asobi",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/08-yayuyo-asobi",
+  "items": [
+    {
+      "w": "やきゅう",
+      "r": "yakyuu",
+      "m": "baseball",
+      "s": "やきゅう を する",
+      "cue": "baseball",
+      "src": null
+    },
+    {
+      "w": "やぎ",
+      "r": "yagi",
+      "m": "goat",
+      "s": "やぎ が いる",
+      "cue": "goat",
+      "src": null
+    },
+    {
+      "w": "やたい",
+      "r": "yatai",
+      "m": "festival stall",
+      "s": "まつり の やたい",
+      "cue": "festival stall",
+      "src": null
+    },
+    {
+      "w": "ゆうえんち",
+      "r": "yuuenchi",
+      "m": "amusement park",
+      "s": "たのしい ゆうえんち",
+      "cue": "amusement park",
+      "src": null
+    },
+    {
+      "w": "ゆきだるま",
+      "r": "yukidaruma",
+      "m": "snowman",
+      "s": "おおきい ゆきだるま",
+      "cue": "snowman",
+      "src": null
+    },
+    {
+      "w": "ゆびわ",
+      "r": "yubiwa",
+      "m": "ring",
+      "s": "ひかる ゆびわ",
+      "cue": "ring",
+      "src": null
+    },
+    {
+      "w": "よっと",
+      "r": "yotto",
+      "m": "yacht",
+      "s": "うみ の よっと",
+      "cue": "yacht",
+      "src": null
+    },
+    {
+      "w": "ようちえん",
+      "r": "youchien",
+      "m": "kindergarten",
+      "s": "ようちえん へ いく",
+      "cue": "kindergarten",
+      "src": null
+    },
+    {
+      "w": "ようかん",
+      "r": "youkan",
+      "m": "yokan (sweet)",
+      "s": "あまい ようかん",
+      "cue": "yokan (sweet)",
+      "src": null
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "song": "08-yayuyo-shizen",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/08-yayuyo-shizen",
+  "items": [
+    {
+      "w": "やま",
+      "r": "yama",
+      "m": "mountain",
+      "s": "たかい やま",
+      "cue": "mountain",
+      "src": null
+    },
+    {
+      "w": "やなぎ",
+      "r": "yanagi",
+      "m": "willow",
+      "s": "かわ の やなぎ",
+      "cue": "willow",
+      "src": null
+    },
+    {
+      "w": "やぶ",
+      "r": "yabu",
+      "m": "thicket",
+      "s": "みどりの やぶ",
+      "cue": "thicket",
+      "src": null
+    },
+    {
+      "w": "ゆき",
+      "r": "yuki",
+      "m": "snow",
+      "s": "しろい ゆき",
+      "cue": "snow",
+      "src": null
+    },
+    {
+      "w": "ゆり",
+      "r": "yuri",
+      "m": "lily",
+      "s": "にわ の ゆり",
+      "cue": "lily",
+      "src": null
+    },
+    {
+      "w": "ゆうやけ",
+      "r": "yuuyake",
+      "m": "sunset",
+      "s": "あかい ゆうやけ",
+      "cue": "sunset",
+      "src": null
+    },
+    {
+      "w": "よぞら",
+      "r": "yozora",
+      "m": "night sky",
+      "s": "ほし の よぞら",
+      "cue": "night sky",
+      "src": null
+    },
+    {
+      "w": "よもぎ",
+      "r": "yomogi",
+      "m": "mugwort",
+      "s": "はる の よもぎ",
+      "cue": "mugwort",
+      "src": null
+    },
+    {
+      "w": "よつば",
+      "r": "yotsuba",
+      "m": "four-leaf clover",
+      "s": "よつば を さがす",
+      "cue": "four-leaf clover",
+      "src": null
+    }
+  ]
+}

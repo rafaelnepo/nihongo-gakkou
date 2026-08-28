@@ -1,0 +1,128 @@
+{
+  "song": "03-sashisuseso-shizen",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/03-sashisuseso-shizen",
+  "items": [
+    {
+      "w": "さくら",
+      "r": "sakura",
+      "m": "cherry blossom",
+      "s": "さくら の はな",
+      "cue": "cherry blossom",
+      "src": null
+    },
+    {
+      "w": "さか",
+      "r": "saka",
+      "m": "slope / hill",
+      "s": "ながい さか",
+      "cue": "slope / hill",
+      "src": null
+    },
+    {
+      "w": "さんぽ",
+      "r": "sanpo",
+      "m": "a walk",
+      "s": "やま の さんぽ",
+      "cue": "a walk",
+      "src": null
+    },
+    {
+      "w": "しま",
+      "r": "shima",
+      "m": "island",
+      "s": "うみ の しま",
+      "cue": "island",
+      "src": null
+    },
+    {
+      "w": "しずく",
+      "r": "shizuku",
+      "m": "droplet",
+      "s": "あめ の しずく",
+      "cue": "droplet",
+      "src": null
+    },
+    {
+      "w": "しみず",
+      "r": "shimizu",
+      "m": "spring water",
+      "s": "つめたい しみず",
+      "cue": "spring water",
+      "src": null
+    },
+    {
+      "w": "すな",
+      "r": "suna",
+      "m": "sand",
+      "s": "しろい すな",
+      "cue": "sand",
+      "src": null
+    },
+    {
+      "w": "すみれ",
+      "r": "sumire",
+      "m": "violet",
+      "s": "むらさきの すみれ",
+      "cue": "violet",
+      "src": null
+    },
+    {
+      "w": "すすき",
+      "r": "susuki",
+      "m": "pampas grass",
+      "s": "あき の すすき",
+      "cue": "pampas grass",
+      "src": null
+    },
+    {
+      "w": "せせらぎ",
+      "r": "seseragi",
+      "m": "a babbling brook",
+      "s": "やま の せせらぎ",
+      "cue": "a babbling brook",
+      "src": null
+    },
+    {
+      "w": "せみ",
+      "r": "semi",
+      "m": "cicada",
+      "s": "なつ の せみ",
+      "cue": "cicada",
+      "src": null
+    },
+    {
+      "w": "せかい",
+      "r": "sekai",
+      "m": "the world",
+      "s": "ひろい せかい",
+      "cue": "the world",
+      "src": null
+    },
+    {
+      "w": "そら",
+      "r": "sora",
+      "m": "sky",
+      "s": "あおい そら",
+      "cue": "sky",
+      "src": null
+    },
+    {
+      "w": "そよかぜ",
+      "r": "soyokaze",
+      "m": "a gentle breeze",
+      "s": "はる の そよかぜ",
+      "cue": "a gentle breeze",
+      "src": null
+    },
+    {
+      "w": "そこ",
+      "r": "soko",
+      "m": "the depths / bottom",
+      "s": "うみ の そこ",
+      "cue": "the depths / bottom",
+      "src": null
+    }
+  ]
+}

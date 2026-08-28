@@ -1,0 +1,128 @@
+{
+  "song": "03-sashisuseso-gohan",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/03-sashisuseso-gohan",
+  "items": [
+    {
+      "w": "さいふ",
+      "r": "saifu",
+      "m": "wallet",
+      "s": "さいふ を もつ",
+      "cue": "wallet",
+      "src": null
+    },
+    {
+      "w": "さかな",
+      "r": "sakana",
+      "m": "fish",
+      "s": "さかな を かう",
+      "cue": "fish",
+      "src": null
+    },
+    {
+      "w": "さとう",
+      "r": "satou",
+      "m": "sugar",
+      "s": "さとう は あまい",
+      "cue": "sugar",
+      "src": null
+    },
+    {
+      "w": "しお",
+      "r": "shio",
+      "m": "salt",
+      "s": "しお を いれる",
+      "cue": "salt",
+      "src": null
+    },
+    {
+      "w": "しる",
+      "r": "shiru",
+      "m": "soup",
+      "s": "あつい しる",
+      "cue": "soup",
+      "src": null
+    },
+    {
+      "w": "しめじ",
+      "r": "shimeji",
+      "m": "shimeji mushroom",
+      "s": "しめじ を たべる",
+      "cue": "shimeji mushroom",
+      "src": null
+    },
+    {
+      "w": "すし",
+      "r": "sushi",
+      "m": "sushi",
+      "s": "おいしい すし",
+      "cue": "sushi",
+      "src": null
+    },
+    {
+      "w": "すいか",
+      "r": "suika",
+      "m": "watermelon",
+      "s": "あまい すいか",
+      "cue": "watermelon",
+      "src": null
+    },
+    {
+      "w": "す",
+      "r": "su",
+      "m": "vinegar",
+      "s": "す は すっぱい",
+      "cue": "vinegar",
+      "src": null
+    },
+    {
+      "w": "せんべい",
+      "r": "senbei",
+      "m": "rice cracker",
+      "s": "せんべい を たべる",
+      "cue": "rice cracker",
+      "src": null
+    },
+    {
+      "w": "せき",
+      "r": "seki",
+      "m": "seat",
+      "s": "せき に すわる",
+      "cue": "seat",
+      "src": null
+    },
+    {
+      "w": "せっけん",
+      "r": "sekken",
+      "m": "soap",
+      "s": "せっけん で あらう",
+      "cue": "soap",
+      "src": null
+    },
+    {
+      "w": "そば",
+      "r": "soba",
+      "m": "soba noodles",
+      "s": "あたたかい そば",
+      "cue": "soba noodles",
+      "src": null
+    },
+    {
+      "w": "そぼ",
+      "r": "sobo",
+      "m": "grandmother",
+      "s": "そぼ の ごはん",
+      "cue": "grandmother",
+      "src": null
+    },
+    {
+      "w": "そら",
+      "r": "sora",
+      "m": "sky",
+      "s": "ゆうやけ の そら",
+      "cue": "sky",
+      "src": null
+    }
+  ]
+}

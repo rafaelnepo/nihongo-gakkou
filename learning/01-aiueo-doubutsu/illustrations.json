@@ -1,0 +1,128 @@
+{
+  "song": "01-aiueo-doubutsu",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/01-aiueo-doubutsu",
+  "items": [
+    {
+      "w": "あり",
+      "r": "ari",
+      "m": "ant",
+      "s": "あり が あるく",
+      "cue": "ant",
+      "src": null
+    },
+    {
+      "w": "あひる",
+      "r": "ahiru",
+      "m": "duck",
+      "s": "あひる が およぐ",
+      "cue": "duck",
+      "src": null
+    },
+    {
+      "w": "あざらし",
+      "r": "azarashi",
+      "m": "seal",
+      "s": "あざらし が ねる",
+      "cue": "seal",
+      "src": null
+    },
+    {
+      "w": "いぬ",
+      "r": "inu",
+      "m": "dog",
+      "s": "いぬ が はしる",
+      "cue": "dog",
+      "src": null
+    },
+    {
+      "w": "いるか",
+      "r": "iruka",
+      "m": "dolphin",
+      "s": "いるか が とぶ",
+      "cue": "dolphin",
+      "src": null
+    },
+    {
+      "w": "いのしし",
+      "r": "inoshishi",
+      "m": "wild boar",
+      "s": "いのしし は はやい",
+      "cue": "wild boar",
+      "src": null
+    },
+    {
+      "w": "うさぎ",
+      "r": "usagi",
+      "m": "rabbit",
+      "s": "うさぎ が はねる",
+      "cue": "rabbit",
+      "src": null
+    },
+    {
+      "w": "うし",
+      "r": "ushi",
+      "m": "cow",
+      "s": "うし は おおきい",
+      "cue": "cow",
+      "src": null
+    },
+    {
+      "w": "うま",
+      "r": "uma",
+      "m": "horse",
+      "s": "うま に のる",
+      "cue": "horse",
+      "src": null
+    },
+    {
+      "w": "えび",
+      "r": "ebi",
+      "m": "shrimp",
+      "s": "うみ の えび",
+      "cue": "shrimp",
+      "src": null
+    },
+    {
+      "w": "えい",
+      "r": "ei",
+      "m": "ray",
+      "s": "えい が およぐ",
+      "cue": "ray",
+      "src": null
+    },
+    {
+      "w": "えさ",
+      "r": "esa",
+      "m": "animal feed",
+      "s": "えさ を たべる",
+      "cue": "animal feed",
+      "src": null
+    },
+    {
+      "w": "おおかみ",
+      "r": "ookami",
+      "m": "wolf",
+      "s": "おおかみ が なく",
+      "cue": "wolf",
+      "src": null
+    },
+    {
+      "w": "おうむ",
+      "r": "oumu",
+      "m": "parrot",
+      "s": "おうむ が うたう",
+      "cue": "parrot",
+      "src": null
+    },
+    {
+      "w": "おんどり",
+      "r": "ondori",
+      "m": "rooster",
+      "s": "あさ の おんどり",
+      "cue": "rooster",
+      "src": null
+    }
+  ]
+}

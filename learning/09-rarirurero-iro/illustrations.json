@@ -1,0 +1,128 @@
+{
+  "song": "09-rarirurero-iro",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/09-rarirurero-iro",
+  "items": [
+    {
+      "w": "らん",
+      "r": "ran",
+      "m": "orchid",
+      "s": "しろい らん",
+      "cue": "orchid",
+      "src": null
+    },
+    {
+      "w": "らっぱずいせん",
+      "r": "rappazuisen",
+      "m": "daffodil",
+      "s": "きいろい らっぱずいせん",
+      "cue": "daffodil",
+      "src": null
+    },
+    {
+      "w": "らくよう",
+      "r": "rakuyou",
+      "m": "fallen leaves",
+      "s": "あき の らくよう",
+      "cue": "fallen leaves",
+      "src": null
+    },
+    {
+      "w": "りんどう",
+      "r": "rindou",
+      "m": "gentian (flower)",
+      "s": "あおい りんどう",
+      "cue": "gentian (flower)",
+      "src": null
+    },
+    {
+      "w": "りん",
+      "r": "rin",
+      "m": "a little bell",
+      "s": "ちいさい りん",
+      "cue": "a little bell",
+      "src": null
+    },
+    {
+      "w": "りぼん",
+      "r": "ribon",
+      "m": "ribbon",
+      "s": "あかい りぼん",
+      "cue": "ribbon",
+      "src": null
+    },
+    {
+      "w": "るり",
+      "r": "ruri",
+      "m": "azure / lapis",
+      "s": "るり の いし",
+      "cue": "azure / lapis",
+      "src": null
+    },
+    {
+      "w": "るびー",
+      "r": "rubi",
+      "m": "ruby",
+      "s": "あかい るびー",
+      "cue": "ruby",
+      "src": null
+    },
+    {
+      "w": "るーぺ",
+      "r": "rupe",
+      "m": "loupe",
+      "s": "るーぺ で みる",
+      "cue": "loupe",
+      "src": null
+    },
+    {
+      "w": "れんげ",
+      "r": "renge",
+      "m": "lotus flower",
+      "s": "いけ の れんげ",
+      "cue": "lotus flower",
+      "src": null
+    },
+    {
+      "w": "れんこん",
+      "r": "renkon",
+      "m": "lotus root",
+      "s": "しろい れんこん",
+      "cue": "lotus root",
+      "src": null
+    },
+    {
+      "w": "れーす",
+      "r": "resu",
+      "m": "lace",
+      "s": "しろい れーす",
+      "cue": "lace",
+      "src": null
+    },
+    {
+      "w": "ろうそく",
+      "r": "rousoku",
+      "m": "candle",
+      "s": "ろうそく の ひ",
+      "cue": "candle",
+      "src": null
+    },
+    {
+      "w": "ろじ",
+      "r": "roji",
+      "m": "alley",
+      "s": "しずかな ろじ",
+      "cue": "alley",
+      "src": null
+    },
+    {
+      "w": "ろうか",
+      "r": "rouka",
+      "m": "corridor",
+      "s": "ながい ろうか",
+      "cue": "corridor",
+      "src": null
+    }
+  ]
+}

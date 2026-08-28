@@ -1,0 +1,128 @@
+{
+  "song": "07-mamimumemo-shizen",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/07-mamimumemo-shizen",
+  "items": [
+    {
+      "w": "まつ",
+      "r": "matsu",
+      "m": "pine tree",
+      "s": "みどりの まつ",
+      "cue": "pine tree",
+      "src": null
+    },
+    {
+      "w": "まりも",
+      "r": "marimo",
+      "m": "marimo (algae ball)",
+      "s": "みずうみ の まりも",
+      "cue": "marimo (algae ball)",
+      "src": null
+    },
+    {
+      "w": "まき",
+      "r": "maki",
+      "m": "firewood",
+      "s": "やま の まき",
+      "cue": "firewood",
+      "src": null
+    },
+    {
+      "w": "みずうみ",
+      "r": "mizuumi",
+      "m": "lake",
+      "s": "しずかな みずうみ",
+      "cue": "lake",
+      "src": null
+    },
+    {
+      "w": "みず",
+      "r": "mizu",
+      "m": "water",
+      "s": "つめたい みず",
+      "cue": "water",
+      "src": null
+    },
+    {
+      "w": "みなと",
+      "r": "minato",
+      "m": "harbour",
+      "s": "ふね の みなと",
+      "cue": "harbour",
+      "src": null
+    },
+    {
+      "w": "むし",
+      "r": "mushi",
+      "m": "bug",
+      "s": "はっぱ の むし",
+      "cue": "bug",
+      "src": null
+    },
+    {
+      "w": "むぎ",
+      "r": "mugi",
+      "m": "wheat",
+      "s": "きいろい むぎ",
+      "cue": "wheat",
+      "src": null
+    },
+    {
+      "w": "むら",
+      "r": "mura",
+      "m": "village",
+      "s": "やま の むら",
+      "cue": "village",
+      "src": null
+    },
+    {
+      "w": "め",
+      "r": "me",
+      "m": "bud / sprout (芽)",
+      "s": "き の め",
+      "cue": "bud / sprout (芽)",
+      "src": null
+    },
+    {
+      "w": "めばえ",
+      "r": "mebae",
+      "m": "sprouting",
+      "s": "はる の めばえ",
+      "cue": "sprouting",
+      "src": null
+    },
+    {
+      "w": "めじろ",
+      "r": "mejiro",
+      "m": "white-eye (bird)",
+      "s": "えだ の めじろ",
+      "cue": "white-eye (bird)",
+      "src": null
+    },
+    {
+      "w": "もり",
+      "r": "mori",
+      "m": "forest",
+      "s": "ふかい もり",
+      "cue": "forest",
+      "src": null
+    },
+    {
+      "w": "もみじ",
+      "r": "momiji",
+      "m": "maple leaves",
+      "s": "あかい もみじ",
+      "cue": "maple leaves",
+      "src": null
+    },
+    {
+      "w": "もや",
+      "r": "moya",
+      "m": "mist / haze",
+      "s": "あさ の もや",
+      "cue": "mist / haze",
+      "src": null
+    }
+  ]
+}

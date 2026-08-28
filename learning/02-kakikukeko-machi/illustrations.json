@@ -1,0 +1,128 @@
+{
+  "song": "02-kakikukeko-machi",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/02-kakikukeko-machi",
+  "items": [
+    {
+      "w": "かお",
+      "r": "kao",
+      "m": "face",
+      "s": "かお を あらう",
+      "cue": "face",
+      "src": null
+    },
+    {
+      "w": "かさ",
+      "r": "kasa",
+      "m": "umbrella",
+      "s": "あめ だから かさ",
+      "cue": "umbrella",
+      "src": null
+    },
+    {
+      "w": "かぎ",
+      "r": "kagi",
+      "m": "key",
+      "s": "いえ の かぎ",
+      "cue": "key",
+      "src": null
+    },
+    {
+      "w": "きる",
+      "r": "kiru",
+      "m": "to wear",
+      "s": "ふく を きる",
+      "cue": "to wear",
+      "src": null
+    },
+    {
+      "w": "きいろ",
+      "r": "kiiro",
+      "m": "yellow",
+      "s": "きいろい ぼうし",
+      "cue": "yellow",
+      "src": null
+    },
+    {
+      "w": "きっぷ",
+      "r": "kippu",
+      "m": "ticket",
+      "s": "きっぷ を かう",
+      "cue": "ticket",
+      "src": null
+    },
+    {
+      "w": "くつ",
+      "r": "kutsu",
+      "m": "shoes",
+      "s": "くつ を はく",
+      "cue": "shoes",
+      "src": null
+    },
+    {
+      "w": "くるま",
+      "r": "kuruma",
+      "m": "car",
+      "s": "くるま に のる",
+      "cue": "car",
+      "src": null
+    },
+    {
+      "w": "くも",
+      "r": "kumo",
+      "m": "cloud",
+      "s": "そら に くも",
+      "cue": "cloud",
+      "src": null
+    },
+    {
+      "w": "けしごむ",
+      "r": "keshigomu",
+      "m": "eraser",
+      "s": "えんぴつ と けしごむ",
+      "cue": "eraser",
+      "src": null
+    },
+    {
+      "w": "けいと",
+      "r": "keito",
+      "m": "yarn",
+      "s": "あかい けいと",
+      "cue": "yarn",
+      "src": null
+    },
+    {
+      "w": "けさ",
+      "r": "kesa",
+      "m": "this morning",
+      "s": "けさ は あめ",
+      "cue": "this morning",
+      "src": null
+    },
+    {
+      "w": "こうえん",
+      "r": "kouen",
+      "m": "park",
+      "s": "こうえん で あそぶ",
+      "cue": "park",
+      "src": null
+    },
+    {
+      "w": "こども",
+      "r": "kodomo",
+      "m": "child",
+      "s": "こども が わらう",
+      "cue": "child",
+      "src": null
+    },
+    {
+      "w": "こえ",
+      "r": "koe",
+      "m": "voice",
+      "s": "おおきい こえ",
+      "cue": "voice",
+      "src": null
+    }
+  ]
+}

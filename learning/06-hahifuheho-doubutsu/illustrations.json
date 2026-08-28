@@ -1,0 +1,128 @@
+{
+  "song": "06-hahifuheho-doubutsu",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/06-hahifuheho-doubutsu",
+  "items": [
+    {
+      "w": "はち",
+      "r": "hachi",
+      "m": "bee",
+      "s": "はち が とぶ",
+      "cue": "bee",
+      "src": null
+    },
+    {
+      "w": "はと",
+      "r": "hato",
+      "m": "pigeon / dove",
+      "s": "はと が あるく",
+      "cue": "pigeon / dove",
+      "src": null
+    },
+    {
+      "w": "はりねずみ",
+      "r": "harinezumi",
+      "m": "hedgehog",
+      "s": "はりねずみ が いる",
+      "cue": "hedgehog",
+      "src": null
+    },
+    {
+      "w": "ひつじ",
+      "r": "hitsuji",
+      "m": "sheep",
+      "s": "しろい ひつじ",
+      "cue": "sheep",
+      "src": null
+    },
+    {
+      "w": "ひよこ",
+      "r": "hiyoko",
+      "m": "chick",
+      "s": "ひよこ が なく",
+      "cue": "chick",
+      "src": null
+    },
+    {
+      "w": "ひょう",
+      "r": "hyou",
+      "m": "leopard",
+      "s": "ひょう が はしる",
+      "cue": "leopard",
+      "src": null
+    },
+    {
+      "w": "ふくろう",
+      "r": "fukurou",
+      "m": "owl",
+      "s": "ふくろう が とぶ",
+      "cue": "owl",
+      "src": null
+    },
+    {
+      "w": "ふぐ",
+      "r": "fugu",
+      "m": "pufferfish",
+      "s": "ふぐ が およぐ",
+      "cue": "pufferfish",
+      "src": null
+    },
+    {
+      "w": "ふな",
+      "r": "funa",
+      "m": "crucian carp",
+      "s": "いけ の ふな",
+      "cue": "crucian carp",
+      "src": null
+    },
+    {
+      "w": "へび",
+      "r": "hebi",
+      "m": "snake",
+      "s": "へび が ながい",
+      "cue": "snake",
+      "src": null
+    },
+    {
+      "w": "へい",
+      "r": "hei",
+      "m": "fence",
+      "s": "へい の ねこ",
+      "cue": "fence",
+      "src": null
+    },
+    {
+      "w": "へや",
+      "r": "heya",
+      "m": "room",
+      "s": "へや の いぬ",
+      "cue": "room",
+      "src": null
+    },
+    {
+      "w": "ほたる",
+      "r": "hotaru",
+      "m": "firefly",
+      "s": "ほたる が ひかる",
+      "cue": "firefly",
+      "src": null
+    },
+    {
+      "w": "ほたて",
+      "r": "hotate",
+      "m": "scallop",
+      "s": "うみ の ほたて",
+      "cue": "scallop",
+      "src": null
+    },
+    {
+      "w": "ほっきょくぐま",
+      "r": "hokkyokuguma",
+      "m": "polar bear",
+      "s": "ほっきょくぐま は しろい",
+      "cue": "polar bear",
+      "src": null
+    }
+  ]
+}

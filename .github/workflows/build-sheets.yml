@@ -33,6 +33,9 @@ jobs:
       - name: Generate sheets + dashboard
         run: node tools/build_sheets.mjs
 
+      - name: Rebuild the illustration picker (word lists change with vocab)
+        run: node tools/illustrations/build_picker.mjs
+
       - name: Commit regenerated output (only if something changed)
         run: |
           if [[ -n "$(git status --porcelain)" ]]; then

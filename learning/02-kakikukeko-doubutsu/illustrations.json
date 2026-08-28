@@ -1,0 +1,128 @@
+{
+  "song": "02-kakikukeko-doubutsu",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/02-kakikukeko-doubutsu",
+  "items": [
+    {
+      "w": "かに",
+      "r": "kani",
+      "m": "crab",
+      "s": "かに が あるく",
+      "cue": "crab",
+      "src": null
+    },
+    {
+      "w": "かえる",
+      "r": "kaeru",
+      "m": "frog",
+      "s": "かえる が いる",
+      "cue": "frog",
+      "src": null
+    },
+    {
+      "w": "かめ",
+      "r": "kame",
+      "m": "turtle",
+      "s": "かめ は おそい",
+      "cue": "turtle",
+      "src": null
+    },
+    {
+      "w": "きつね",
+      "r": "kitsune",
+      "m": "fox",
+      "s": "きつね を みる",
+      "cue": "fox",
+      "src": null
+    },
+    {
+      "w": "きんぎょ",
+      "r": "kingyo",
+      "m": "goldfish",
+      "s": "きんぎょ が およぐ",
+      "cue": "goldfish",
+      "src": null
+    },
+    {
+      "w": "きりん",
+      "r": "kirin",
+      "m": "giraffe",
+      "s": "きりん は おおきい",
+      "cue": "giraffe",
+      "src": null
+    },
+    {
+      "w": "くま",
+      "r": "kuma",
+      "m": "bear",
+      "s": "くま は つよい",
+      "cue": "bear",
+      "src": null
+    },
+    {
+      "w": "くじら",
+      "r": "kujira",
+      "m": "whale",
+      "s": "うみ に くじら",
+      "cue": "whale",
+      "src": null
+    },
+    {
+      "w": "くらげ",
+      "r": "kurage",
+      "m": "jellyfish",
+      "s": "くらげ が およぐ",
+      "cue": "jellyfish",
+      "src": null
+    },
+    {
+      "w": "けさ",
+      "r": "kesa",
+      "m": "this morning",
+      "s": "けさ の さんぽ",
+      "cue": "this morning",
+      "src": null
+    },
+    {
+      "w": "けむし",
+      "r": "kemushi",
+      "m": "caterpillar",
+      "s": "はっぱ に けむし",
+      "cue": "caterpillar",
+      "src": null
+    },
+    {
+      "w": "けいと",
+      "r": "keito",
+      "m": "yarn",
+      "s": "あかい けいと",
+      "cue": "yarn",
+      "src": null
+    },
+    {
+      "w": "こねこ",
+      "r": "koneko",
+      "m": "kitten",
+      "s": "こねこ が かわいい",
+      "cue": "kitten",
+      "src": null
+    },
+    {
+      "w": "こいぬ",
+      "r": "koinu",
+      "m": "puppy",
+      "s": "こいぬ と あそぶ",
+      "cue": "puppy",
+      "src": null
+    },
+    {
+      "w": "ことり",
+      "r": "kotori",
+      "m": "little bird",
+      "s": "ことり が なく",
+      "cue": "little bird",
+      "src": null
+    }
+  ]
+}

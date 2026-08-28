@@ -1,0 +1,128 @@
+{
+  "song": "04-tachitsuteto-ouchi",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/04-tachitsuteto-ouchi",
+  "items": [
+    {
+      "w": "たまご",
+      "r": "tamago",
+      "m": "egg",
+      "s": "たまご を たべる",
+      "cue": "egg",
+      "src": null
+    },
+    {
+      "w": "たおる",
+      "r": "taoru",
+      "m": "towel",
+      "s": "しろい たおる",
+      "cue": "towel",
+      "src": null
+    },
+    {
+      "w": "たいこ",
+      "r": "taiko",
+      "m": "drum",
+      "s": "たいこ を たたく",
+      "cue": "drum",
+      "src": null
+    },
+    {
+      "w": "ちゃ",
+      "r": "cha",
+      "m": "tea",
+      "s": "ちゃ を のむ",
+      "cue": "tea",
+      "src": null
+    },
+    {
+      "w": "ちゃわん",
+      "r": "chawan",
+      "m": "rice bowl",
+      "s": "ちゃわん の ごはん",
+      "cue": "rice bowl",
+      "src": null
+    },
+    {
+      "w": "ちず",
+      "r": "chizu",
+      "m": "map",
+      "s": "ちず を みる",
+      "cue": "map",
+      "src": null
+    },
+    {
+      "w": "つくえ",
+      "r": "tsukue",
+      "m": "desk",
+      "s": "つくえ で かく",
+      "cue": "desk",
+      "src": null
+    },
+    {
+      "w": "つみき",
+      "r": "tsumiki",
+      "m": "building blocks",
+      "s": "つみき で あそぶ",
+      "cue": "building blocks",
+      "src": null
+    },
+    {
+      "w": "つき",
+      "r": "tsuki",
+      "m": "moon",
+      "s": "よる の つき",
+      "cue": "moon",
+      "src": null
+    },
+    {
+      "w": "て",
+      "r": "te",
+      "m": "hand",
+      "s": "て を あらう",
+      "cue": "hand",
+      "src": null
+    },
+    {
+      "w": "てがみ",
+      "r": "tegami",
+      "m": "letter",
+      "s": "てがみ を かく",
+      "cue": "letter",
+      "src": null
+    },
+    {
+      "w": "てぶくろ",
+      "r": "tebukuro",
+      "m": "gloves",
+      "s": "あたたかい てぶくろ",
+      "cue": "gloves",
+      "src": null
+    },
+    {
+      "w": "とけい",
+      "r": "tokei",
+      "m": "clock",
+      "s": "とけい を みる",
+      "cue": "clock",
+      "src": null
+    },
+    {
+      "w": "とまと",
+      "r": "tomato",
+      "m": "tomato",
+      "s": "あかい とまと",
+      "cue": "tomato",
+      "src": null
+    },
+    {
+      "w": "とびら",
+      "r": "tobira",
+      "m": "door",
+      "s": "とびら を あける",
+      "cue": "door",
+      "src": null
+    }
+  ]
+}

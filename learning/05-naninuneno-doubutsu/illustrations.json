@@ -1,0 +1,128 @@
+{
+  "song": "05-naninuneno-doubutsu",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/05-naninuneno-doubutsu",
+  "items": [
+    {
+      "w": "なまず",
+      "r": "namazu",
+      "m": "catfish",
+      "s": "なまず が およぐ",
+      "cue": "catfish",
+      "src": null
+    },
+    {
+      "w": "なまけもの",
+      "r": "namakemono",
+      "m": "sloth",
+      "s": "なまけもの が ねる",
+      "cue": "sloth",
+      "src": null
+    },
+    {
+      "w": "なめくじ",
+      "r": "namekuji",
+      "m": "slug",
+      "s": "はっぱ の なめくじ",
+      "cue": "slug",
+      "src": null
+    },
+    {
+      "w": "にわとり",
+      "r": "niwatori",
+      "m": "chicken",
+      "s": "にわとり が なく",
+      "cue": "chicken",
+      "src": null
+    },
+    {
+      "w": "にほんざる",
+      "r": "nihonzaru",
+      "m": "Japanese macaque",
+      "s": "にほんざる が いる",
+      "cue": "Japanese macaque",
+      "src": null
+    },
+    {
+      "w": "にしきへび",
+      "r": "nishikihebi",
+      "m": "python",
+      "s": "にしきへび は ながい",
+      "cue": "python",
+      "src": null
+    },
+    {
+      "w": "ぬいぐるみ",
+      "r": "nuigurumi",
+      "m": "stuffed animal",
+      "s": "くまの ぬいぐるみ",
+      "cue": "stuffed animal",
+      "src": null
+    },
+    {
+      "w": "ぬま",
+      "r": "numa",
+      "m": "pond / marsh",
+      "s": "ぬま の かえる",
+      "cue": "pond / marsh",
+      "src": null
+    },
+    {
+      "w": "ぬの",
+      "r": "nuno",
+      "m": "cloth",
+      "s": "ふわふわの ぬの",
+      "cue": "cloth",
+      "src": null
+    },
+    {
+      "w": "ねこ",
+      "r": "neko",
+      "m": "cat",
+      "s": "ねこ が ねる",
+      "cue": "cat",
+      "src": null
+    },
+    {
+      "w": "ねずみ",
+      "r": "nezumi",
+      "m": "mouse",
+      "s": "ねずみ が はしる",
+      "cue": "mouse",
+      "src": null
+    },
+    {
+      "w": "ねぐら",
+      "r": "negura",
+      "m": "roost / den",
+      "s": "とり の ねぐら",
+      "cue": "roost / den",
+      "src": null
+    },
+    {
+      "w": "のねずみ",
+      "r": "nonezumi",
+      "m": "field mouse",
+      "s": "のねずみ が いる",
+      "cue": "field mouse",
+      "src": null
+    },
+    {
+      "w": "のうさぎ",
+      "r": "nousagi",
+      "m": "hare",
+      "s": "のうさぎ が はねる",
+      "cue": "hare",
+      "src": null
+    },
+    {
+      "w": "のらねこ",
+      "r": "noraneko",
+      "m": "stray cat",
+      "s": "のらねこ が あるく",
+      "cue": "stray cat",
+      "src": null
+    }
+  ]
+}

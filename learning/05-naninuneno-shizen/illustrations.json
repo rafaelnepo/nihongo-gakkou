@@ -1,0 +1,128 @@
+{
+  "song": "05-naninuneno-shizen",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/05-naninuneno-shizen",
+  "items": [
+    {
+      "w": "なつ",
+      "r": "natsu",
+      "m": "summer",
+      "s": "あつい なつ",
+      "cue": "summer",
+      "src": null
+    },
+    {
+      "w": "なみ",
+      "r": "nami",
+      "m": "wave",
+      "s": "うみ の なみ",
+      "cue": "wave",
+      "src": null
+    },
+    {
+      "w": "なのはな",
+      "r": "nanohana",
+      "m": "canola flower",
+      "s": "きいろい なのはな",
+      "cue": "canola flower",
+      "src": null
+    },
+    {
+      "w": "にじ",
+      "r": "niji",
+      "m": "rainbow",
+      "s": "そら の にじ",
+      "cue": "rainbow",
+      "src": null
+    },
+    {
+      "w": "にわ",
+      "r": "niwa",
+      "m": "garden",
+      "s": "はな の にわ",
+      "cue": "garden",
+      "src": null
+    },
+    {
+      "w": "にっこう",
+      "r": "nikkou",
+      "m": "sunlight",
+      "s": "あさ の にっこう",
+      "cue": "sunlight",
+      "src": null
+    },
+    {
+      "w": "ぬま",
+      "r": "numa",
+      "m": "marsh / pond",
+      "s": "しずかな ぬま",
+      "cue": "marsh / pond",
+      "src": null
+    },
+    {
+      "w": "ぬかるみ",
+      "r": "nukarumi",
+      "m": "mud",
+      "s": "あめ の ぬかるみ",
+      "cue": "mud",
+      "src": null
+    },
+    {
+      "w": "ぬくもり",
+      "r": "nukumori",
+      "m": "warmth",
+      "s": "たいよう の ぬくもり",
+      "cue": "warmth",
+      "src": null
+    },
+    {
+      "w": "ねっこ",
+      "r": "nekko",
+      "m": "roots",
+      "s": "き の ねっこ",
+      "cue": "roots",
+      "src": null
+    },
+    {
+      "w": "ねこやなぎ",
+      "r": "nekoyanagi",
+      "m": "pussy willow",
+      "s": "はる の ねこやなぎ",
+      "cue": "pussy willow",
+      "src": null
+    },
+    {
+      "w": "ねぐら",
+      "r": "negura",
+      "m": "roost",
+      "s": "とり の ねぐら",
+      "cue": "roost",
+      "src": null
+    },
+    {
+      "w": "のはら",
+      "r": "nohara",
+      "m": "field",
+      "s": "ひろい のはら",
+      "cue": "field",
+      "src": null
+    },
+    {
+      "w": "のぎく",
+      "r": "nogiku",
+      "m": "wild daisy",
+      "s": "しろい のぎく",
+      "cue": "wild daisy",
+      "src": null
+    },
+    {
+      "w": "のやま",
+      "r": "noyama",
+      "m": "hills & fields",
+      "s": "とおい のやま",
+      "cue": "hills & fields",
+      "src": null
+    }
+  ]
+}

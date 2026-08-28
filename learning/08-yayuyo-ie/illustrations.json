@@ -1,0 +1,80 @@
+{
+  "song": "08-yayuyo-ie",
+  "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
+  "srcRoot": "../../Irasutoya/images",
+  "dest": "video/public/il/08-yayuyo-ie",
+  "items": [
+    {
+      "w": "やね",
+      "r": "yane",
+      "m": "roof",
+      "s": "あかい やね",
+      "cue": "roof",
+      "src": null
+    },
+    {
+      "w": "やかん",
+      "r": "yakan",
+      "m": "kettle",
+      "s": "やかん の ゆげ",
+      "cue": "kettle",
+      "src": null
+    },
+    {
+      "w": "やさい",
+      "r": "yasai",
+      "m": "vegetables",
+      "s": "やさい を たべる",
+      "cue": "vegetables",
+      "src": null
+    },
+    {
+      "w": "ゆび",
+      "r": "yubi",
+      "m": "finger",
+      "s": "ちいさい ゆび",
+      "cue": "finger",
+      "src": null
+    },
+    {
+      "w": "ゆか",
+      "r": "yuka",
+      "m": "floor",
+      "s": "きれいな ゆか",
+      "cue": "floor",
+      "src": null
+    },
+    {
+      "w": "ゆのみ",
+      "r": "yunomi",
+      "m": "teacup",
+      "s": "ゆのみ の おちゃ",
+      "cue": "teacup",
+      "src": null
+    },
+    {
+      "w": "よる",
+      "r": "yoru",
+      "m": "night",
+      "s": "しずかな よる",
+      "cue": "night",
+      "src": null
+    },
+    {
+      "w": "よこ",
+      "r": "yoko",
+      "m": "side / beside",
+      "s": "いえ の よこ",
+      "cue": "side / beside",
+      "src": null
+    },
+    {
+      "w": "ようふく",
+      "r": "youfuku",
+      "m": "clothes",
+      "s": "あたらしい ようふく",
+      "cue": "clothes",
+      "src": null
+    }
+  ]
+}
