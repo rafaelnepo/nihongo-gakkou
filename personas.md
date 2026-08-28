@@ -211,6 +211,33 @@ whenever you want the full cast.
 
 ---
 
+## Avatars (voice art)
+
+Each Voice gets an avatar image. Keep them a **matching set** — one illustration system,
+three color worlds — mirroring the cast. Shared style token (paste into all three):
+
+> `clean modern flat illustration, soft gradients, friendly and approachable, centered`
+> `square bust portrait of a single character, simple geometric shapes, warm cinematic`
+> `lighting, solid color-field background, one warm coral-orange accent (#e7481c) as a`
+> `unifying touch, contemporary Japanese design sensibility, crisp at small sizes, 1:1`
+> `square, no text, no logo, no watermark`
+
+- **P1 Female (city pop):** a bright cheerful young Japanese woman, warm smile, 1980s
+  city-pop styling (soft wavy hair, pastel retro top); sunset palette — coral/peach/
+  magenta/teal, soft 80s gradient; dusk city-skyline silhouette + a small electric-piano
+  motif.
+- **P2 Male (koto):** a calm elegant young Japanese man, serene smile; modern-traditional
+  jacket; seated beside a koto, a hint of shakuhachi; deep indigo + gold + a coral accent;
+  indigo-to-navy gradient.
+- **P3 Kids (playful):** a joyful cartoon child singing, arms up, rounded crayon-toy look;
+  toy piano / xylophone / ukulele, floating notes, a tiny crab sidekick (animals nod);
+  candy primaries + coral; confetti-dot field.
+
+The coral (#e7481c) + flat-illustration system unify them; the color world (sunset /
+indigo / candy) + instrument distinguish them. A symbolic instrument-only variant (koto /
+city-pop sunset / toy xylophone on the color fields, no figure) is an alternative if a
+figureless set is preferred.
+
 ## Open questions (Nepô's call)
 - Is **P2 (male koto)** a full Persona, or just an arrangement of P1? Decide after the
   recognition test.
