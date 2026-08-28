@@ -1,0 +1,34 @@
+ICONOTES — MALE (P2)  PERSONA SEED  (does NOT ship — identity source only)
+See personas.md → "The seed plan". Method from house-style.md. Written 2026-08-28.
+
+VOICE: the calm cut — koto × modern, single clear MALE (findings F-11 auditioned this and
+it "came out great"). Same anti-chorus rule as the others: ONE solo voice in the seed (the
+shipped songs' refrain-unison is added per episode). The koto/shakuhachi palette IS part
+of P2's identity, so it stays in the seed.
+
+RULES: ONE voice — no chorus, no second voice, no register jumps. Neutral all-kana lyric
+(shared across all three seeds). Dry, clear, calm.
+
+─── SEED STYLE PROMPT (Custom mode) ───────────────────────────────────────────────
+modern Japanese pop with traditional koto, 90 BPM, ONE calm clear male voice, solo — no
+chorus, no backing vocals, koto, soft shakuhachi accents, gentle modern beat, warm bass,
+elegant and calm, dry forward vocal, extremely clear enunciation of every kana, no ad-libs
+
+─── SEED LYRIC (shared) ───────────────────────────────────────────────────────────
+[One calm, clear male voice, solo — no chorus. Elegant, unhurried. ~90 BPM. Koto.]
+
+[Verse]
+いち に さん
+し ご ろく
+なな はち きゅう
+じゅう
+
+[Verse]
+あ い う え お
+か き く け こ
+さ し す せ そ
+
+─── THEN ──────────────────────────────────────────────────────────────────────────
+Generate → pick the cleanest SOLO take → create a Persona → name it "Iconotes — Male".
+Apply per episode (select Persona → add only what it doesn't carry: any refrain-unison,
+tempo). Don't stack identity controls; don't name a second singer.

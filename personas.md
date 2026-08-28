@@ -191,10 +191,21 @@ the same kid voice?), controlled variation (hold Persona + lyric, change one thi
 the boundary test (how far the arrangement can move before the voice stops being
 dependable). Log each to `findings.md`.
 
-**P1 and P2 get the same treatment later.** P1 (female city-pop) already has a de-facto
-identity from 01-aiueo; a seed would formalize it. P2 (male koto) needs a seed before it's
-a true Persona rather than just an arrangement. Do P3 first — it's the one with a live win
-and an eager audience of one.
+### All three seeds
+
+Every persona gets a seed built the same way — solo voice, no chorus, its own signature
+palette — and **all three share one neutral lyric** (a count + two kana rows), so the only
+variable across the seeds is the voice + style. Generating all three is itself a
+recognition test. The paste-ready files live in [`seeds/`](seeds/README.md):
+
+| Seed | Save as | Signature palette | Status |
+|---|---|---|---|
+| [`seeds/female-seed.txt`](seeds/female-seed.txt) | **Iconotes — Female** (P1) | city pop | ready |
+| [`seeds/male-seed.txt`](seeds/male-seed.txt) | **Iconotes — Male** (P2) | koto × modern | ready |
+| [`seeds/kids-seed.txt`](seeds/kids-seed.txt) | **Iconotes Kids** (P3) | toy-box | voice validated (F-14) |
+
+P3 is the one with a live win and an eager audience of one — but all three are ready to run
+whenever you want the full cast.
 
 ---
 

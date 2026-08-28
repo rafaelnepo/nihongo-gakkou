@@ -1,0 +1,36 @@
+ICONOTES — FEMALE (P1)  PERSONA SEED  (does NOT ship — identity source only)
+See personas.md → "The seed plan". Method from house-style.md. Written 2026-08-28.
+
+VOICE: the validated house voice (findings F-11) — city pop, single bright warm clear
+FEMALE. The learning songs recruit a unison/second voice on the refrain (F-07), which is
+MIXED vocal identity and a poor Persona source (house-style.md ⚠) — so the seed is ONE
+solo voice. The city-pop palette IS part of P1's identity, so it stays in the seed; only
+the refrain-unison / any answering voice is added back per episode.
+
+RULES: ONE voice — no chorus, no second voice, no register jumps. Neutral all-kana lyric
+(shared across all three seeds, so voice+style is the only variable). Dry, clear.
+
+─── SEED STYLE PROMPT (Custom mode) ───────────────────────────────────────────────
+Japanese city pop, 94 BPM, ONE bright warm clear female voice, solo — no chorus, no
+backing vocals, warm electric piano, clean funk guitar, smooth bass, light soft drums,
+polished and friendly, dry forward vocal, extremely clear enunciation of every kana,
+no ad-libs
+
+─── SEED LYRIC (shared) ───────────────────────────────────────────────────────────
+[One bright, warm, clear female voice, solo — no chorus. Polished, friendly. ~94 BPM.]
+
+[Verse]
+いち に さん
+し ご ろく
+なな はち きゅう
+じゅう
+
+[Verse]
+あ い う え お
+か き く け こ
+さ し す せ そ
+
+─── THEN ──────────────────────────────────────────────────────────────────────────
+Generate → pick the cleanest SOLO take → create a Persona → name it "Iconotes — Female".
+Apply per episode (select Persona → add only what it doesn't carry: any refrain-unison,
+tempo). Don't stack identity controls; don't name a second singer.
