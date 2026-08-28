@@ -1,0 +1,70 @@
+{
+  "id": "06-hahifuheho-doubutsu",
+  "title": "はひふへほ",
+  "jp": "は行 ・ gojuon row 6 ・ animals",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "06-hahifuheho", "theme": "animals", "index": 3, "siblings": ["gakkou", "shizen"] },
+  "render": {
+    "trackName": "にぎやかな どうぶつえん",
+    "trackNo": "06",
+    "row": "はひふへほ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the は-row", "Gojuon by words", "Row 6 · は行 · Animals"],
+  "meta": ["Kids / city pop · playful (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 6 of the gojuon — は ひ ふ へ ほ — through animals: a bee and a pigeon and a hedgehog, a sheep and a chick, an owl and a pufferfish, a snake, a firefly and a polar bear. Say the animal, then watch it <strong>do something</strong>. The animals variation of three は-row songs.",
+  "concept": [
+    "Words alone blend (findings F-10), so every animal is taught <strong>in a small action</strong> — はち が とぶ, ほたる が ひかる — and it recombines with earlier rows (ねこ, いぬ, いけ, うみ, なつ, よる + verbs とぶ・いる・はしる return), keeping the ladder (F-13).",
+    "The five-kana row <em>は ひ ふ へ ほ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>zoo-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>animals</strong> variation — は行 has strong animal coverage (a bee, a hedgehog, a sheep, an owl, a pufferfish, a polar bear). Only <em>へ</em> is thin: へび (snake) is the one へ animal, so its verse adds a cat on a fence and a dog in a room. Pairs with the <strong>kids</strong> voice — a lively zoo dance-along."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Kids — playful (call & response + kids chorus) · try me", "text": "Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → zoo-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "は", "theme": "small & spiky", "items": [
+      { "w": "はち", "r": "hachi", "m": "bee", "s": "はち が とぶ", "sm": "a bee flies" },
+      { "w": "はと", "r": "hato", "m": "pigeon / dove", "s": "はと が あるく", "sm": "a pigeon walks" },
+      { "w": "はりねずみ", "r": "harinezumi", "m": "hedgehog", "s": "はりねずみ が いる", "sm": "there's a hedgehog" }
+    ]},
+    { "vowel": "ひ", "theme": "the farm & wild", "items": [
+      { "w": "ひつじ", "r": "hitsuji", "m": "sheep", "s": "しろい ひつじ", "sm": "a white sheep" },
+      { "w": "ひよこ", "r": "hiyoko", "m": "chick", "s": "ひよこ が なく", "sm": "a chick peeps" },
+      { "w": "ひょう", "r": "hyou", "m": "leopard", "s": "ひょう が はしる", "sm": "a leopard runs" }
+    ]},
+    { "vowel": "ふ", "theme": "birds & fish", "items": [
+      { "w": "ふくろう", "r": "fukurou", "m": "owl", "s": "ふくろう が とぶ", "sm": "an owl flies" },
+      { "w": "ふぐ", "r": "fugu", "m": "pufferfish", "s": "ふぐ が およぐ", "sm": "a pufferfish swims" },
+      { "w": "ふな", "r": "funa", "m": "crucian carp", "s": "いけ の ふな", "sm": "a carp in the pond" }
+    ]},
+    { "vowel": "へ", "theme": "snake, cat & dog", "items": [
+      { "w": "へび", "r": "hebi", "m": "snake", "s": "へび が ながい", "sm": "a snake is long" },
+      { "w": "へい", "r": "hei", "m": "fence", "s": "へい の ねこ", "sm": "a cat on the fence" },
+      { "w": "へや", "r": "heya", "m": "room", "s": "へや の いぬ", "sm": "a dog in the room" }
+    ]},
+    { "vowel": "ほ", "theme": "glow & the cold", "items": [
+      { "w": "ほたる", "r": "hotaru", "m": "firefly", "s": "ほたる が ひかる", "sm": "a firefly glows" },
+      { "w": "ほたて", "r": "hotate", "m": "scallop", "s": "うみ の ほたて", "sm": "scallops in the sea" },
+      { "w": "ほっきょくぐま", "r": "hokkyokuguma", "m": "polar bear", "s": "ほっきょくぐま は しろい", "sm": "the polar bear is white" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

@@ -1,0 +1,93 @@
+はひふへほ（どうぶつ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya animal, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (ねこ, いぬ, いけ, うみ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   は ひ ふ へ ほ
+
+═══ PART 1 · LEARN ═══
+はち
+はち が とぶ
+はと
+はと が あるく
+はりねずみ
+はりねずみ が いる
+は ひ ふ へ ほ
+
+ひつじ
+しろい ひつじ
+ひよこ
+ひよこ が なく
+ひょう
+ひょう が はしる
+は ひ ふ へ ほ
+
+ふくろう
+ふくろう が とぶ
+ふぐ
+ふぐ が およぐ
+ふな
+いけ の ふな
+は ひ ふ へ ほ
+
+へび
+へび が ながい
+へい
+へい の ねこ
+へや
+へや の いぬ
+は ひ ふ へ ほ
+
+ほたる
+ほたる が ひかる
+ほたて
+うみ の ほたて
+ほっきょくぐま
+ほっきょくぐま は しろい
+は ひ ふ へ ほ
+
+═══ BRIDGE · どうぶつえん の ひ ═══
+はち と はと、はりねずみ
+しろい ひつじ、ひょう が はしる
+ふくろう が とぶ、よる に
+へい の ねこ、へや の いぬ
+ほたる が ひかる、なつ の よる
+ほっきょくぐま は しろい、うみ の ほたて
+は ひ ふ へ ほ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+はち が とぶ
+はと が あるく
+はりねずみ が いる
+しろい ひつじ
+ひよこ が なく
+ひょう が はしる
+ふくろう が とぶ
+ふぐ が およぐ
+いけ の ふな
+へび が ながい
+へい の ねこ
+へや の いぬ
+ほたる が ひかる
+うみ の ほたて
+ほっきょくぐま は しろい
+は ひ ふ へ ほ
+
+(outro)   は ひ ふ へ ほ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+はち=bee · はと=pigeon · はりねずみ=hedgehog · ひつじ=sheep · ひよこ=chick · ひょう=
+leopard · ふくろう=owl · ふぐ=pufferfish · ふな=carp · へび=snake · へい=cat on a fence ·
+へや=dog in a room · ほたる=firefly · ほたて=scallop · ほっきょくぐま=polar bear. Verbs/adjs:
+とぶ fly · あるく walk · いる be · なく peep · はしる run · およぐ swim · ひかる glow ·
+ながい long · しろい white. Recombined: ねこ · いぬ · いけ · うみ · なつ · よる.

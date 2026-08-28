@@ -1,0 +1,64 @@
+はひふへほ（どうぶつ）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 6 (は行), ANIMALS variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP"); add "children's chorus answering,
+call-and-response" for the kids sound; city-pop fallback. Custom mode.
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. Word-internal は stays. ALL HIRAGANA.
+DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+は ひ ふ へ ほ
+
+[Verse]
+はち
+はち が とぶ
+はと
+はと が あるく
+はりねずみ
+はりねずみ が いる
+は ひ ふ へ ほ
+
+[Verse]
+ひつじ
+しろい ひつじ
+ひよこ
+ひよこ が なく
+ひょう
+ひょう が はしる
+は ひ ふ へ ほ
+
+[Verse]
+ふくろう
+ふくろう が とぶ
+ふぐ
+ふぐ が およぐ
+ふな
+いけ の ふな
+は ひ ふ へ ほ
+
+[Verse]
+へび
+へび が ながい
+へい
+へい の ねこ
+へや
+へや の いぬ
+は ひ ふ へ ほ
+
+[Verse]
+ほたる
+ほたる が ひかる
+ほたて
+うみ の ほたて
+ほっきょくぐま
+ほっきょくぐま ワ しろい
+は ひ ふ へ ほ
+
+[Outro]
+は ひ ふ へ ほ

@@ -1,0 +1,97 @@
+はひふへほ（つくる）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 6 (は行), MAKING variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH → a craft-day BRIDGE → a REVIEW of the SENTENCES ONLY. Round 2 differs from
+round 1, dodging the identical-repeat collapse (F-08).
+
+VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ(direction)→エ. Word-internal は (はこ, はた,
+はさみ) stays は. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+は ひ ふ へ ほ
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+はさみ
+はさみ で きる
+はこ
+はこ オ あける
+はた
+あかい はた
+は ひ ふ へ ほ
+
+[Verse]
+ひこうき
+かみ の ひこうき
+ひも
+ながい ひも
+ひかり
+あかるい ひかり
+は ひ ふ へ ほ
+
+[Verse]
+ふで
+ふで で かく
+ふうせん
+まるい ふうせん
+ふえ
+ふえ オ ふく
+は ひ ふ へ ほ
+
+[Verse]
+へや
+あかるい へや
+へい
+しろい へい
+へちま
+みどりの へちま
+は ひ ふ へ ほ
+
+[Verse]
+ほん
+ほん オ よむ
+ほうき
+ほうき で はく
+ほし
+よる の ほし
+は ひ ふ へ ほ
+
+# ═══ BRIDGE · つくって あそぶ ひ (recombine — new, flowing) ═══
+
+[Bridge]
+はさみ で きって、はこ オ あける
+かみ の ひこうき、ながい ひも
+ふで で かく、まるい ふうせん
+ふえ オ ふく、あかい はた
+あかるい へや、しろい へい
+ほん オ よむ、よる の ほし
+は ひ ふ へ ほ
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+はさみ で きる
+はこ オ あける
+あかい はた
+かみ の ひこうき
+ながい ひも
+あかるい ひかり
+ふで で かく
+まるい ふうせん
+ふえ オ ふく
+あかるい へや
+しろい へい
+みどりの へちま
+ほん オ よむ
+ほうき で はく
+よる の ほし
+は ひ ふ へ ほ
+
+[Outro]
+は ひ ふ へ ほ

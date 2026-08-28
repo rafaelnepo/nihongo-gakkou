@@ -1,0 +1,414 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>はひふへほ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=swap">
+<style>:root{
+  --ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;
+  --ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;
+  --rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;
+  --shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -16px rgba(0,0,0,.7);
+  --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
+  --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
+  --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
+  --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;--ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;
+  --rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;
+  --shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);}}
+:root[data-theme="dark"]{--ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;--ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;--rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;--shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px 90px}
+.back{display:inline-block;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-decoration:none;padding:26px 0 0}
+.back:hover{color:var(--green-deep)}
+.mast{padding:22px 0 30px;border-bottom:1px solid var(--rule);margin-bottom:44px}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+.eyebrow span:not(:last-child)::after{content:"／";margin-left:10px;color:var(--rule)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(2.1rem,5.6vw,3.4rem);line-height:1.06;letter-spacing:-.015em;margin:0 0 6px}
+.h1-jp{font-family:var(--f-jp);font-weight:600;font-size:clamp(.98rem,2.5vw,1.22rem);color:var(--shu);letter-spacing:.14em;margin:0 0 18px}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px}
+.tag{font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:2px;border:1px solid var(--rule);color:var(--ink-3)}
+.tag.strand{color:var(--green-deep);border-color:var(--green)}
+.tag.hot{color:#fff;background:var(--shu);border-color:var(--shu)}
+.tag.priv{color:var(--shu-ink);border-color:var(--shu);border-style:dashed}
+.standfirst{font-size:1.04rem;color:var(--ink-2);max-width:62ch;margin:0}
+.meta{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.04em;display:flex;flex-wrap:wrap;gap:5px 16px;margin:16px 0 0}
+section{margin:0 0 54px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+.sec-mark{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--shu);border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
+h2{font-family:var(--f-display);font-weight:700;font-size:clamp(1.34rem,3vw,1.7rem);line-height:1.22;margin:0}
+.sec-sub{color:var(--ink-3);margin:0 0 24px;max-width:64ch;font-size:.94rem}
+p{margin:0 0 16px}
+strong{font-weight:700}em{font-style:normal;color:var(--shu-ink);font-weight:500}
+.paste{background:var(--surface);border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin:0 0 16px;box-shadow:var(--shadow)}
+.paste-head{padding:9px 12px 9px 15px;border-bottom:1px solid var(--rule);background:var(--surface-2);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.paste-head .t{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.paste-head .t .rec{color:var(--shu);margin-left:6px}
+.copy{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:2px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.copy:hover{border-color:var(--green);color:var(--green-deep)}
+.copy.done{color:var(--green-deep);border-color:var(--green)}
+@media (prefers-reduced-motion:no-preference){.copy{transition:border-color .15s,color .15s}}
+.paste pre{margin:0;padding:15px 15px;font-family:var(--f-mono);font-size:12.5px;line-height:1.85;color:var(--ink-2);overflow-x:auto;white-space:pre-wrap;max-height:560px}
+.paste pre .tag{color:var(--green)}
+.paste pre .mark{color:var(--shu);font-weight:600}
+.paste pre .cmt{color:var(--ink-3)}
+.paste.style pre{font-family:var(--f-body);font-size:13.5px;line-height:1.6;color:var(--ink)}
+/* vocab table */
+.vgroup{margin:0 0 22px}
+.vgroup .vh{font-family:var(--f-jp);font-weight:600;font-size:1.2rem;color:var(--green-deep);display:flex;align-items:baseline;gap:12px;margin:0 0 6px}
+.vgroup .vh small{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:400}
+.vtab{width:100%;border-collapse:collapse}
+.vtab td{padding:9px 14px 9px 0;border-top:1px solid var(--rule-soft);vertical-align:baseline}
+.vtab .w{font-family:var(--f-jp);font-size:1.1rem;color:var(--ink);white-space:nowrap}
+.vtab .r{font-family:var(--f-mono);font-size:10px;color:var(--ink-3);white-space:nowrap}
+.vtab .m{font-size:.86rem;color:var(--ink-2)}
+.vtab .arrow{color:var(--shu);font-family:var(--f-mono);font-size:11px}
+.vtab .s{font-family:var(--f-jp);font-size:1.02rem;color:var(--ink)}
+.vtab .sm{font-size:.8rem;color:var(--ink-3)}
+footer{margin-top:20px;padding-top:24px;border-top:1px solid var(--rule);font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px}
+@media (max-width:640px){.vtab td{display:block;padding:2px 0;border:none}.vgroup{border-top:1px solid var(--rule-soft);padding-top:12px}.vtab tr{display:block;padding:10px 0;border-top:1px solid var(--rule-soft)}}
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}</style>
+<div class="wrap">
+<a class="back" href="../../index.html">&larr; All songs</a>
+<header class="mast">
+  <div class="eyebrow"><span>Read the は-row</span><span>Gojuon by words</span><span>Row 6 · は行 · Animals</span></div>
+  <h1>はひふへほ</h1>
+  <p class="h1-jp">は行 ・ gojuon row 6 ・ animals</p>
+  <div class="tags"><span class="tag strand">learning</span><span class="tag ">written</span></div>
+  <p class="standfirst">Row 6 of the gojuon — は ひ ふ へ ほ — through animals: a bee and a pigeon and a hedgehog, a sheep and a chick, an owl and a pufferfish, a snake, a firefly and a polar bear. Say the animal, then watch it <strong>do something</strong>. The animals variation of three は-row songs.</p>
+  <div class="meta"><span>Kids / city pop · playful (house voice)</span><span>~92 BPM</span><span>Comprehensible input</span><span>YouTube ~3:00 · vertical ~1:00</span></div>
+</header>
+<section><div class="sec-head"><span class="sec-mark">01</span><h2>The idea</h2></div><p>Words alone blend (findings F-10), so every animal is taught <strong>in a small action</strong> — はち が とぶ, ほたる が ひかる — and it recombines with earlier rows (ねこ, いぬ, いけ, うみ, なつ, よる + verbs とぶ・いる・はしる return), keeping the ladder (F-13).</p>
+<p>The five-kana row <em>は ひ ふ へ ほ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>zoo-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).</p>
+<p>This is the <strong>animals</strong> variation — は行 has strong animal coverage (a bee, a hedgehog, a sheep, an owl, a pufferfish, a polar bear). Only <em>へ</em> is thin: へび (snake) is the one へ animal, so its verse adds a cat on a fence and a dog in a room. Pairs with the <strong>kids</strong> voice — a lively zoo dance-along.</p></section>
+<section><div class="sec-head"><span class="sec-mark">02</span><h2>Style prompts</h2></div><p class="sec-sub">Paste one into Suno's style box. Copy buttons at right.</p>
+    <div class="paste style">
+      <div class="paste-head"><span class="t">City pop — the house voice <span class="rec">★ house</span></span><button class="copy">Copy</button></div>
+      <pre>Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Kids — playful (call &amp; response + kids chorus) · try me</span><button class="copy">Copy</button></div>
+      <pre>Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Koto × modern beat (classic × modern)</span><button class="copy">Copy</button></div>
+      <pre>modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Acoustic café folk</span><button class="copy">Copy</button></div>
+      <pre>warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs</pre>
+    </div></section>
+<section><div class="sec-head"><span class="sec-mark">03</span><h2>Lyrics &mdash; paste into Suno</h2></div><p class="sec-sub">Pulled live from the suno-*.txt scores. <span class="mark" style="font-family:var(--f-mono)">ワ/オ/エ</span> are the particle fixes (は/を/へ).</p>
+    <div class="paste">
+      <div class="paste-head"><span class="t">Suno score — v3 (3-min YouTube cut) &middot; teach → zoo-day bridge → review</span><button class="copy">Copy</button></div>
+      <pre>[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+<span class="tag">[Intro]</span>
+は ひ ふ へ ほ
+
+<span class="cmt"># ═══ PART 1 · LEARN (word → sentence) ═══</span>
+
+<span class="tag">[Verse]</span>
+はち
+はち が とぶ
+はと
+はと が あるく
+はりねずみ
+はりねずみ が いる
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+ひつじ
+しろい ひつじ
+ひよこ
+ひよこ が なく
+ひょう
+ひょう が はしる
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+ふくろう
+ふくろう が とぶ
+ふぐ
+ふぐ が およぐ
+ふな
+いけ の ふな
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+へび
+へび が ながい
+へい
+へい の ねこ
+へや
+へや の いぬ
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+ほたる
+ほたる が ひかる
+ほたて
+うみ の ほたて
+ほっきょくぐま
+ほっきょくぐま <span class="mark">ワ</span> しろい
+は ひ ふ へ ほ
+
+<span class="cmt"># ═══ BRIDGE · どうぶつえん の ひ (recombine — new, flowing) ═══</span>
+
+<span class="tag">[Bridge]</span>
+はち と はと、はりねずみ
+しろい ひつじ、ひょう が はしる
+ふくろう が とぶ、よる に
+へい の ねこ、へや の いぬ
+ほたる が ひかる、なつ の よる
+ほっきょくぐま <span class="mark">ワ</span> しろい、うみ の ほたて
+は ひ ふ へ ほ
+
+<span class="cmt"># ═══ PART 2 · REVIEW (sentences only, sing along) ═══</span>
+
+<span class="tag">[Chorus]</span>
+はち が とぶ
+はと が あるく
+はりねずみ が いる
+しろい ひつじ
+ひよこ が なく
+ひょう が はしる
+ふくろう が とぶ
+ふぐ が およぐ
+いけ の ふな
+へび が ながい
+へい の ねこ
+へや の いぬ
+ほたる が ひかる
+うみ の ほたて
+ほっきょくぐま <span class="mark">ワ</span> しろい
+は ひ ふ へ ほ
+
+<span class="tag">[Outro]</span>
+は ひ ふ へ ほ</pre>
+    </div>
+
+    <div class="paste">
+      <div class="paste-head"><span class="t">Suno score — v2 (~2-min short / vertical) &middot; the teach only</span><button class="copy">Copy</button></div>
+      <pre>[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+<span class="tag">[Intro]</span>
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+はち
+はち が とぶ
+はと
+はと が あるく
+はりねずみ
+はりねずみ が いる
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+ひつじ
+しろい ひつじ
+ひよこ
+ひよこ が なく
+ひょう
+ひょう が はしる
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+ふくろう
+ふくろう が とぶ
+ふぐ
+ふぐ が およぐ
+ふな
+いけ の ふな
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+へび
+へび が ながい
+へい
+へい の ねこ
+へや
+へや の いぬ
+は ひ ふ へ ほ
+
+<span class="tag">[Verse]</span>
+ほたる
+ほたる が ひかる
+ほたて
+うみ の ほたて
+ほっきょくぐま
+ほっきょくぐま <span class="mark">ワ</span> しろい
+は ひ ふ へ ほ
+
+<span class="tag">[Outro]</span>
+は ひ ふ へ ほ</pre>
+    </div></section>
+<section><div class="sec-head"><span class="sec-mark">04</span><h2>What it teaches</h2></div><p class="sec-sub">Say the word, then see it used. Target word &rarr; a sentence in context.</p><div class="vgroup"><div class="vh">は <small>small &amp; spiky</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">はち</td><td class="r">hachi</td><td class="m">bee</td>
+        <td class="arrow">&rarr;</td><td class="s">はち が とぶ</td><td class="sm">a bee flies</td></tr>
+<tr>
+        <td class="w">はと</td><td class="r">hato</td><td class="m">pigeon / dove</td>
+        <td class="arrow">&rarr;</td><td class="s">はと が あるく</td><td class="sm">a pigeon walks</td></tr>
+<tr>
+        <td class="w">はりねずみ</td><td class="r">harinezumi</td><td class="m">hedgehog</td>
+        <td class="arrow">&rarr;</td><td class="s">はりねずみ が いる</td><td class="sm">there's a hedgehog</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">ひ <small>the farm &amp; wild</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">ひつじ</td><td class="r">hitsuji</td><td class="m">sheep</td>
+        <td class="arrow">&rarr;</td><td class="s">しろい ひつじ</td><td class="sm">a white sheep</td></tr>
+<tr>
+        <td class="w">ひよこ</td><td class="r">hiyoko</td><td class="m">chick</td>
+        <td class="arrow">&rarr;</td><td class="s">ひよこ が なく</td><td class="sm">a chick peeps</td></tr>
+<tr>
+        <td class="w">ひょう</td><td class="r">hyou</td><td class="m">leopard</td>
+        <td class="arrow">&rarr;</td><td class="s">ひょう が はしる</td><td class="sm">a leopard runs</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">ふ <small>birds &amp; fish</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">ふくろう</td><td class="r">fukurou</td><td class="m">owl</td>
+        <td class="arrow">&rarr;</td><td class="s">ふくろう が とぶ</td><td class="sm">an owl flies</td></tr>
+<tr>
+        <td class="w">ふぐ</td><td class="r">fugu</td><td class="m">pufferfish</td>
+        <td class="arrow">&rarr;</td><td class="s">ふぐ が およぐ</td><td class="sm">a pufferfish swims</td></tr>
+<tr>
+        <td class="w">ふな</td><td class="r">funa</td><td class="m">crucian carp</td>
+        <td class="arrow">&rarr;</td><td class="s">いけ の ふな</td><td class="sm">a carp in the pond</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">へ <small>snake, cat &amp; dog</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">へび</td><td class="r">hebi</td><td class="m">snake</td>
+        <td class="arrow">&rarr;</td><td class="s">へび が ながい</td><td class="sm">a snake is long</td></tr>
+<tr>
+        <td class="w">へい</td><td class="r">hei</td><td class="m">fence</td>
+        <td class="arrow">&rarr;</td><td class="s">へい の ねこ</td><td class="sm">a cat on the fence</td></tr>
+<tr>
+        <td class="w">へや</td><td class="r">heya</td><td class="m">room</td>
+        <td class="arrow">&rarr;</td><td class="s">へや の いぬ</td><td class="sm">a dog in the room</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">ほ <small>glow &amp; the cold</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">ほたる</td><td class="r">hotaru</td><td class="m">firefly</td>
+        <td class="arrow">&rarr;</td><td class="s">ほたる が ひかる</td><td class="sm">a firefly glows</td></tr>
+<tr>
+        <td class="w">ほたて</td><td class="r">hotate</td><td class="m">scallop</td>
+        <td class="arrow">&rarr;</td><td class="s">うみ の ほたて</td><td class="sm">scallops in the sea</td></tr>
+<tr>
+        <td class="w">ほっきょくぐま</td><td class="r">hokkyokuguma</td><td class="m">polar bear</td>
+        <td class="arrow">&rarr;</td><td class="s">ほっきょくぐま は しろい</td><td class="sm">the polar bear is white</td></tr></tbody></table></div></section>
+<section><div class="sec-head"><span class="sec-mark">05</span><h2>More</h2></div>
+    <div class="paste">
+      <div class="paste-head"><span class="t">Screen text (the video)</span><button class="copy">Copy</button></div>
+      <pre>はひふへほ（どうぶつ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya animal, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (ねこ, いぬ, いけ, うみ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   は ひ ふ へ ほ
+
+═══ PART 1 · LEARN ═══
+はち
+はち が とぶ
+はと
+はと が あるく
+はりねずみ
+はりねずみ が いる
+は ひ ふ へ ほ
+
+ひつじ
+しろい ひつじ
+ひよこ
+ひよこ が なく
+ひょう
+ひょう が はしる
+は ひ ふ へ ほ
+
+ふくろう
+ふくろう が とぶ
+ふぐ
+ふぐ が およぐ
+ふな
+いけ の ふな
+は ひ ふ へ ほ
+
+へび
+へび が ながい
+へい
+へい の ねこ
+へや
+へや の いぬ
+は ひ ふ へ ほ
+
+ほたる
+ほたる が ひかる
+ほたて
+うみ の ほたて
+ほっきょくぐま
+ほっきょくぐま は しろい
+は ひ ふ へ ほ
+
+═══ BRIDGE · どうぶつえん の ひ ═══
+はち と はと、はりねずみ
+しろい ひつじ、ひょう が はしる
+ふくろう が とぶ、よる に
+へい の ねこ、へや の いぬ
+ほたる が ひかる、なつ の よる
+ほっきょくぐま は しろい、うみ の ほたて
+は ひ ふ へ ほ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+はち が とぶ
+はと が あるく
+はりねずみ が いる
+しろい ひつじ
+ひよこ が なく
+ひょう が はしる
+ふくろう が とぶ
+ふぐ が およぐ
+いけ の ふな
+へび が ながい
+へい の ねこ
+へや の いぬ
+ほたる が ひかる
+うみ の ほたて
+ほっきょくぐま は しろい
+は ひ ふ へ ほ
+
+(outro)   は ひ ふ へ ほ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+はち=bee · はと=pigeon · はりねずみ=hedgehog · ひつじ=sheep · ひよこ=chick · ひょう=
+leopard · ふくろう=owl · ふぐ=pufferfish · ふな=carp · へび=snake · へい=cat on a fence ·
+へや=dog in a room · ほたる=firefly · ほたて=scallop · ほっきょくぐま=polar bear. Verbs/adjs:
+とぶ fly · あるく walk · いる be · なく peep · はしる run · およぐ swim · ひかる glow ·
+ながい long · しろい white. Recombined: ねこ · いぬ · いけ · うみ · なつ · よる.</pre>
+    </div></section>
+<footer><span>はひふへほ</span><span>generated from song.json + *.txt</span><span>build_sheets.mjs</span></footer>
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const pre=btn.closest('.paste').querySelector('pre');
+    const text=pre.innerText;
+    const done=()=>{const o=btn.textContent;btn.textContent='Copied \u2713';btn.classList.add('done');setTimeout(()=>{btn.textContent=o;btn.classList.remove('done')},1400)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(done).catch(()=>fb(text,done))}else fb(text,done);
+  });
+});
+function fb(text,done){const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(_){}document.body.removeChild(ta)}
+</script>

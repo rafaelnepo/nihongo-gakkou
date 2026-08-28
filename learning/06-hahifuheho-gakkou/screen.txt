@@ -1,0 +1,94 @@
+はひふへほ（つくる）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (きる, あける, かく, ふく, よる) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   は ひ ふ へ ほ
+
+═══ PART 1 · LEARN ═══
+はさみ
+はさみ で きる
+はこ
+はこ を あける
+はた
+あかい はた
+は ひ ふ へ ほ
+
+ひこうき
+かみ の ひこうき
+ひも
+ながい ひも
+ひかり
+あかるい ひかり
+は ひ ふ へ ほ
+
+ふで
+ふで で かく
+ふうせん
+まるい ふうせん
+ふえ
+ふえ を ふく
+は ひ ふ へ ほ
+
+へや
+あかるい へや
+へい
+しろい へい
+へちま
+みどりの へちま
+は ひ ふ へ ほ
+
+ほん
+ほん を よむ
+ほうき
+ほうき で はく
+ほし
+よる の ほし
+は ひ ふ へ ほ
+
+═══ BRIDGE · つくって あそぶ ひ ═══
+はさみ で きって、はこ を あける
+かみ の ひこうき、ながい ひも
+ふで で かく、まるい ふうせん
+ふえ を ふく、あかい はた
+あかるい へや、しろい へい
+ほん を よむ、よる の ほし
+は ひ ふ へ ほ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+はさみ で きる
+はこ を あける
+あかい はた
+かみ の ひこうき
+ながい ひも
+あかるい ひかり
+ふで で かく
+まるい ふうせん
+ふえ を ふく
+あかるい へや
+しろい へい
+みどりの へちま
+ほん を よむ
+ほうき で はく
+よる の ほし
+は ひ ふ へ ほ
+
+(outro)   は ひ ふ へ ほ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+はさみ=scissors · はこ=box · はた=flag · ひこうき=paper airplane · ひも=string · ひかり=
+light/beam · ふで=brush · ふうせん=balloon · ふえ=whistle · へや=room · へい=fence/wall ·
+へちま=loofah gourd · ほん=book · ほうき=broom · ほし=star. Verbs/adjs: きる cut · あける
+open · かく write/paint · ふく blow · よむ read · はく sweep · あかい red · ながい long ·
+あかるい bright · まるい round · しろい white · みどりの green. Recombined: きる · あける ·
+かく · ふく · よる.

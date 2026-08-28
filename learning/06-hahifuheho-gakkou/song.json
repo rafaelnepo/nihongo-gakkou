@@ -1,0 +1,70 @@
+{
+  "id": "06-hahifuheho-gakkou",
+  "title": "はひふへほ",
+  "jp": "は行 ・ gojuon row 6 ・ making & school",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "06-hahifuheho", "theme": "making", "index": 1, "siblings": ["shizen", "doubutsu"] },
+  "render": {
+    "trackName": "つくって あそぼう",
+    "trackNo": "06",
+    "row": "はひふへほ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the は-row", "Gojuon by words", "Row 6 · は行 · Making & school"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 6 of the gojuon — は ひ ふ へ ほ — through a day of making things: cut with scissors, fold a paper airplane, paint with a brush, blow a whistle, read a book under the stars. Say the thing, then <strong>use it</strong>. The making variation of three は-row songs (making · nature · animals).",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small action</strong> — はさみ で きる, ふで で かく, ほん を よむ — and it recombines with earlier rows (きる, あける, かく, ふく, あかい, しろい, みどり, よる return), keeping the ladder (F-13).",
+    "The five-kana row <em>は ひ ふ へ ほ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>craft-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>making</strong> variation — は行 is rich in craft and classroom things, so the everyday cut is a busy day of scissors, brushes and books. Honest note: <em>へ</em> is a thin row (a room, a fence, a loofah). Pairs with the <strong>Female (city pop)</strong> voice."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → craft-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "は", "theme": "cut & fold", "items": [
+      { "w": "はさみ", "r": "hasami", "m": "scissors", "s": "はさみ で きる", "sm": "cut with scissors" },
+      { "w": "はこ", "r": "hako", "m": "box", "s": "はこ を あける", "sm": "open the box" },
+      { "w": "はた", "r": "hata", "m": "flag", "s": "あかい はた", "sm": "a red flag" }
+    ]},
+    { "vowel": "ひ", "theme": "paper & light", "items": [
+      { "w": "ひこうき", "r": "hikouki", "m": "airplane", "s": "かみ の ひこうき", "sm": "a paper airplane" },
+      { "w": "ひも", "r": "himo", "m": "string", "s": "ながい ひも", "sm": "a long string" },
+      { "w": "ひかり", "r": "hikari", "m": "light", "s": "あかるい ひかり", "sm": "a bright light" }
+    ]},
+    { "vowel": "ふ", "theme": "brush & whistle", "items": [
+      { "w": "ふで", "r": "fude", "m": "brush", "s": "ふで で かく", "sm": "paint with a brush" },
+      { "w": "ふうせん", "r": "fuusen", "m": "balloon", "s": "まるい ふうせん", "sm": "a round balloon" },
+      { "w": "ふえ", "r": "fue", "m": "whistle / flute", "s": "ふえ を ふく", "sm": "blow a whistle" }
+    ]},
+    { "vowel": "へ", "theme": "the room", "items": [
+      { "w": "へや", "r": "heya", "m": "room", "s": "あかるい へや", "sm": "a bright room" },
+      { "w": "へい", "r": "hei", "m": "fence / wall", "s": "しろい へい", "sm": "a white fence" },
+      { "w": "へちま", "r": "hechima", "m": "loofah gourd", "s": "みどりの へちま", "sm": "a green loofah" }
+    ]},
+    { "vowel": "ほ", "theme": "read & tidy", "items": [
+      { "w": "ほん", "r": "hon", "m": "book", "s": "ほん を よむ", "sm": "read a book" },
+      { "w": "ほうき", "r": "houki", "m": "broom", "s": "ほうき で はく", "sm": "sweep with a broom" },
+      { "w": "ほし", "r": "hoshi", "m": "star", "s": "よる の ほし", "sm": "stars at night" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

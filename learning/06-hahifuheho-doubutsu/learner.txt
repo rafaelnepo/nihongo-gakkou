@@ -1,0 +1,71 @@
+はひふへほ（どうぶつ）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 6 (は行). ANIMALS variation. Written 2026-08-28.
+
+CONCEPT: say the animal, then see it DO something. Each は-row word is taught through a short
+sentence, gathered into a lively zoo day. One of THREE は-row songs (making · nature ·
+animals). Recombines earlier rows (ねこ, いぬ, いけ, うみ, なつ, よる + verbs とぶ・いる・
+はしる) — the F-13 ladder. All hiragana; kanji here only for meaning.
+
+NOTE: は行 has strong animal coverage; only へ is thin — へび (snake) is the one へ animal,
+so the へ verse adds a cat on a fence (へい) and a dog in a room (へや).
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+は  ── SMALL & SPIKY
+  はち        (hachi)  bee (蜂)
+     → はち が とぶ          (hachi ga tobu)         a bee flies
+  はと        (hato)   pigeon / dove (鳩)
+     → はと が あるく        (hato ga aruku)         a pigeon walks
+  はりねずみ  (harinezumi) hedgehog (針鼠)
+     → はりねずみ が いる    (harinezumi ga iru)     there's a hedgehog
+
+ひ  ── THE FARM & WILD
+  ひつじ      (hitsuji) sheep (羊)
+     → しろい ひつじ        (shiroi hitsuji)        a white sheep
+  ひよこ      (hiyoko) chick (雛)
+     → ひよこ が なく        (hiyoko ga naku)        a chick peeps
+  ひょう      (hyō)    leopard (豹)
+     → ひょう が はしる      (hyō ga hashiru)        a leopard runs
+
+ふ  ── BIRDS & FISH
+  ふくろう    (fukurō) owl (梟)
+     → ふくろう が とぶ      (fukurō ga tobu)        an owl flies
+  ふぐ        (fugu)   pufferfish (河豚)
+     → ふぐ が およぐ        (fugu ga oyogu)         a pufferfish swims
+  ふな        (funa)   crucian carp (鮒)
+     → いけ の ふな          (ike no funa)           a carp in the pond
+
+へ  ── SNAKE, CAT & DOG   (へび is the one へ animal — the rest are a small detour)
+  へび        (hebi)   snake (蛇)
+     → へび が ながい        (hebi ga nagai)         a snake is long
+  へい        (hei)    fence (塀)
+     → へい の ねこ          (hei no neko)           a cat on the fence
+  へや        (heya)   room (部屋)
+     → へや の いぬ          (heya no inu)           a dog in the room
+
+ほ  ── GLOW & THE COLD
+  ほたる      (hotaru) firefly (蛍)
+     → ほたる が ひかる      (hotaru ga hikaru)      a firefly glows
+  ほたて      (hotate) scallop (帆立)
+     → うみ の ほたて        (umi no hotate)         scallops in the sea
+  ほっきょくぐま (hokkyokuguma) polar bear (北極熊)
+     → ほっきょくぐま は しろい (hokkyokuguma wa shiroi) the polar bear is white
+
+REFRAIN
+  は ひ ふ へ ほ  (ha hi fu he ho)   the は-row
+────────────────────────────────────────────────────────────────────────
+
+QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs: とぶ fly, あるく walk, いる be, なく peep/cry, はしる run, およぐ swim, ひかる glow.
+· Adjectives: しろい white, ながい long. Particles: が (subject), は (topic, "wa"), の (of).
+· Recombination WITH EARLIER ROWS: ねこ, いぬ (あ行), いけ (な行), うみ, なつ, よる all return.
+
+The TARGET is the は-row words; the sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 (learn) → a zoo-day BRIDGE → a REVIEW of the sentences only
+(sing along).
+
+SIBLINGS (same five kana): 06-hahifuheho-gakkou (making) and 06-hahifuheho-shizen (nature).
+Sing all three to read は行 cold.

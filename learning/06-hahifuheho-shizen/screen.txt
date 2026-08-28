@@ -1,0 +1,93 @@
+はひふへほ（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (つき, なつ, よる, くさ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   は ひ ふ へ ほ
+
+═══ PART 1 · LEARN ═══
+はな
+あかい はな
+はっぱ
+みどりの はっぱ
+はやし
+しずかな はやし
+は ひ ふ へ ほ
+
+ひかり
+つき の ひかり
+ひまわり
+きいろい ひまわり
+ひ
+あかい ひ
+は ひ ふ へ ほ
+
+ふじ
+たかい ふじ
+ふゆ
+さむい ふゆ
+ふうりん
+なつ の ふうりん
+は ひ ふ へ ほ
+
+へちま
+みどりの へちま
+へび
+くさ の へび
+へいや
+ひろい へいや
+は ひ ふ へ ほ
+
+ほし
+よる の ほし
+ほたる
+なつ の ほたる
+ほのお
+たきび の ほのお
+は ひ ふ へ ほ
+
+═══ BRIDGE · しぜん の いちにち ═══
+あかい はな、みどりの はっぱ
+つき の ひかり、きいろい ひまわり
+たかい ふじ、さむい ふゆ
+くさ の へび、ひろい へいや
+よる の ほし、なつ の ほたる
+しずかな はやし、たきび の ほのお
+は ひ ふ へ ほ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+あかい はな
+みどりの はっぱ
+しずかな はやし
+つき の ひかり
+きいろい ひまわり
+あかい ひ
+たかい ふじ
+さむい ふゆ
+なつ の ふうりん
+みどりの へちま
+くさ の へび
+ひろい へいや
+よる の ほし
+なつ の ほたる
+たきび の ほのお
+は ひ ふ へ ほ
+
+(outro)   は ひ ふ へ ほ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+はな=flower · はっぱ=leaf · はやし=woods · ひかり=moonlight · ひまわり=sunflower · ひ=
+setting sun · ふじ=Mt. Fuji · ふゆ=winter (snow) · ふうりん=wind chime · へちま=loofah ·
+へび=snake · へいや=plain/flatland · ほし=star · ほたる=firefly · ほのお=flame/bonfire.
+Adjs: あかい red · みどりの green · しずかな quiet · きいろい yellow · たかい tall · さむい
+cold · ひろい wide. Recombined: つき · なつ · よる · くさ.

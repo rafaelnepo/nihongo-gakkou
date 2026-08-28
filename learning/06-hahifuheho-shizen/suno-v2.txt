@@ -1,0 +1,63 @@
+はひふへほ（しぜん）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 6 (は行), NATURE variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: the CALM cut — koto × modern + Persona ("Male JP (Koto Pop)"). Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ — none occur (all が/の; word-internal は stays).
+ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+[Intro]
+は ひ ふ へ ほ
+
+[Verse]
+はな
+あかい はな
+はっぱ
+みどりの はっぱ
+はやし
+しずかな はやし
+は ひ ふ へ ほ
+
+[Verse]
+ひかり
+つき の ひかり
+ひまわり
+きいろい ひまわり
+ひ
+あかい ひ
+は ひ ふ へ ほ
+
+[Verse]
+ふじ
+たかい ふじ
+ふゆ
+さむい ふゆ
+ふうりん
+なつ の ふうりん
+は ひ ふ へ ほ
+
+[Verse]
+へちま
+みどりの へちま
+へび
+くさ の へび
+へいや
+ひろい へいや
+は ひ ふ へ ほ
+
+[Verse]
+ほし
+よる の ほし
+ほたる
+なつ の ほたる
+ほのお
+たきび の ほのお
+は ひ ふ へ ほ
+
+[Outro]
+は ひ ふ へ ほ
