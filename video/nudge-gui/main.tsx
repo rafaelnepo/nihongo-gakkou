@@ -704,7 +704,7 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
     error: { background: "#f4cfc7", color: "#b23a22" },
   },
   body: { flex: 1, display: "flex", minHeight: 0 },
-  left: { flex: "0 0 auto", padding: `18px ${PANE_PAD}px`, display: "flex", flexDirection: "column", alignItems: "flex-start", overflowY: "auto", background: "#f7f2e7" },
+  left: { flex: "0 0 auto", boxSizing: "border-box", padding: `18px ${PANE_PAD}px`, display: "flex", flexDirection: "column", alignItems: "flex-start", overflowY: "auto", background: "#f7f2e7" },
   divider: { flex: "0 0 auto", width: 8, cursor: "col-resize", background: "#e7dcc6", borderLeft: "1px solid #ddd3bf", borderRight: "1px solid #ddd3bf", display: "flex", alignItems: "center", justifyContent: "center" },
   dividerGrip: { width: 2, height: 34, borderRadius: 2, background: "#b6ab92" },
   controls: { display: "flex", alignItems: "center", gap: 10, marginTop: 10, width: "100%" },
