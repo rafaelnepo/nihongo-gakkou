@@ -32,3 +32,20 @@ avoiding); and keep the one-voice direction at the top. Don't stack identity con
 **The loop:** run a seed once → save the Persona → then, for every real song, select the
 Persona and add only what it doesn't carry (the chorus / call-and-response / tempo). Seed =
 make-and-save the voice; episode = use the saved voice.
+
+## Saving the Voice in Suno ("Create a Voice")
+
+When you turn a seed take into a reusable Voice:
+
+- **Selection** ("select the part of the vocals you like best") — the Voice is built from
+  the highlighted segment, so pick a **clean, purely SOLO** stretch: skip any instrumental
+  intro/outro (koto/piano often plays before the vocal enters — move the start to where the
+  singing begins) and any backing/group moment. ~15–20s of the clearest diction is plenty.
+- **Public → OFF.** Keep the house voice **private** (yours, stable) unless you deliberately
+  want to share it for others to sing with.
+- **Styles box** — keep the seed's style prompt; the signature palette (koto / city-pop /
+  toy-box) is part of the identity and should ride along.
+- **Name** consistently — e.g. `Iconotes — Male (Koto Pop)` / `Iconotes — Female` /
+  `Iconotes Kids` — so the three sit together.
+- **After saving, recognition test:** select the Voice on a normal song and generate a few
+  seconds — it should sound like the same singer. Log surprises to `findings.md`.
