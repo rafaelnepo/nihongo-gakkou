@@ -1,0 +1,60 @@
+{
+  "id": "08-yayuyo-ie",
+  "title": "やゆよ",
+  "jp": "や行 ・ gojuon row 8 (short row) ・ at home",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "08-yayuyo", "theme": "home", "index": 1, "siblings": ["shizen", "asobi"] },
+  "render": {
+    "trackName": "やね の した",
+    "trackNo": "08",
+    "row": "やゆよ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the や-row", "Gojuon by words", "Row 8 · や行 · At home"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Short row (や ゆ よ)", "Vertical ~0:45 · YouTube ~2:00"],
+  "blurb": "Row 8 of the gojuon — や ゆ よ — a SHORT row (three kana), taught at home: a red roof and the kettle's steam, little fingers on a clean floor, tea in a cup, a quiet night. Say the thing, then <strong>use it</strong>. The home variation of three や-row songs (home · nature · a fun day out).",
+  "concept": [
+    "<strong>や行 is a short row</strong> — only three kana (や ゆ よ; the い/え slots are borrowed from あ行). So this song is 3 groups of 3 words (9 targets) instead of the usual 15, and the refrain is just <em>や ゆ よ</em>. Naturally a shorter song — the vertical cut is the sweet spot.",
+    "Words alone blend (findings F-10), so every target sits in a small action — やさい を たべる, ゆのみ の おちゃ — recombining earlier rows (たべる, おちゃ, いえ return; F-13). The row closes every verse for the sung-together refrain (F-07); the longer cut adds a bridge + sentences-only review, not a loop (F-12).",
+    "This is the <strong>home</strong> variation. Pairs with the <strong>Female (city pop)</strong> voice."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (YouTube cut ~2:00)", "file": "suno-v3.txt", "note": "teach → bridge → review" },
+    { "label": "Suno score — v2 (~0:45 short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "や", "theme": "the house", "items": [
+      { "w": "やね", "r": "yane", "m": "roof", "s": "あかい やね", "sm": "a red roof" },
+      { "w": "やかん", "r": "yakan", "m": "kettle", "s": "やかん の ゆげ", "sm": "steam from the kettle" },
+      { "w": "やさい", "r": "yasai", "m": "vegetables", "s": "やさい を たべる", "sm": "eat vegetables" }
+    ]},
+    { "vowel": "ゆ", "theme": "hands & tea", "items": [
+      { "w": "ゆび", "r": "yubi", "m": "finger", "s": "ちいさい ゆび", "sm": "little fingers" },
+      { "w": "ゆか", "r": "yuka", "m": "floor", "s": "きれいな ゆか", "sm": "a clean floor" },
+      { "w": "ゆのみ", "r": "yunomi", "m": "teacup", "s": "ゆのみ の おちゃ", "sm": "tea in the teacup" }
+    ]},
+    { "vowel": "よ", "theme": "evening", "items": [
+      { "w": "よる", "r": "yoru", "m": "night", "s": "しずかな よる", "sm": "a quiet night" },
+      { "w": "よこ", "r": "yoko", "m": "side / beside", "s": "いえ の よこ", "sm": "beside the house" },
+      { "w": "ようふく", "r": "youfuku", "m": "clothes", "s": "あたらしい ようふく", "sm": "new clothes" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

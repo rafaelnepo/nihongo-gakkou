@@ -1,0 +1,70 @@
+やゆよ（あそび）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+The ya-row is a SHORT row — three kana (や ゆ よ), three verses, nine target words.
+This cut takes the "animals slot" as a FUN DAY OUT (ゆ/よ have no beginner animals).
+  · SHORT (~0:45, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~2:00) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (まつり, うみ, いく) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   や ゆ よ
+
+═══ PART 1 · LEARN ═══
+やきゅう
+やきゅう を する
+やぎ
+やぎ が いる
+やたい
+まつり の やたい
+や ゆ よ
+
+ゆうえんち
+たのしい ゆうえんち
+ゆきだるま
+おおきい ゆきだるま
+ゆびわ
+ひかる ゆびわ
+や ゆ よ
+
+よっと
+うみ の よっと
+ようちえん
+ようちえん へ いく
+ようかん
+あまい ようかん
+や ゆ よ
+
+═══ BRIDGE · たのしい ひ ═══
+やきゅう を する、やぎ も いる
+まつり の やたい、たのしい ゆうえんち
+おおきい ゆきだるま、ひかる ゆびわ
+うみ の よっと、ようちえん へ いく
+あまい ようかん
+や ゆ よ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+やきゅう を する
+やぎ が いる
+まつり の やたい
+たのしい ゆうえんち
+おおきい ゆきだるま
+ひかる ゆびわ
+うみ の よっと
+ようちえん へ いく
+あまい ようかん
+や ゆ よ
+
+(outro)   や ゆ よ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+やきゅう=baseball · やぎ=goat · やたい=festival stall · ゆうえんち=amusement park ·
+ゆきだるま=snowman · ゆびわ=ring · よっと=yacht · ようちえん=kindergarten · ようかん=yokan.
+Verbs/adjs: する do/play · いる be · いく go · たのしい fun · おおきい big · ひかる shiny ·
+あまい sweet. Recombined: まつり · うみ · いく.

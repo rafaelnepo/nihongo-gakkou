@@ -1,0 +1,60 @@
+{
+  "id": "08-yayuyo-asobi",
+  "title": "やゆよ",
+  "jp": "や行 ・ gojuon row 8 (short row) ・ a fun day out",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "08-yayuyo", "theme": "fun", "index": 3, "siblings": ["ie", "shizen"] },
+  "render": {
+    "trackName": "たのしい おでかけ",
+    "trackNo": "08",
+    "row": "やゆよ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the や-row", "Gojuon by words", "Row 8 · や行 · A fun day"],
+  "meta": ["Kids / city pop · playful (house voice)", "~92 BPM", "Short row (や ゆ よ)", "Vertical ~0:45 · YouTube ~2:00"],
+  "blurb": "Row 8 of the gojuon — や ゆ よ — a SHORT row (three kana), through a fun day out: play baseball, meet a goat, a festival stall, the amusement park, a big snowman, a yacht on the sea, off to kindergarten. Say the thing, then <strong>use it</strong>. The fun-day variation of three や-row songs.",
+  "concept": [
+    "<strong>や行 is a short row</strong> — three kana (や ゆ よ) — so 3 groups of 3 words (9 targets), refrain や ゆ よ, a naturally shorter song.",
+    "Words alone blend (findings F-10), so every target sits in a small action — やきゅう を する, ようちえん へ いく — recombining earlier rows (する, まつり, うみ, いく return; F-13). Row closes every verse (F-07); the longer cut adds a bridge + review, not a loop (F-12).",
+    "This is the <strong>fun day out</strong> variation — it takes the <em>animals slot</em> for this short row, because <em>ゆ</em> and <em>よ</em> have no beginner animals, so a playful outing (baseball, the fair, the amusement park, a yacht) fits the <strong>kids</strong> voice better. This is also the one song with a <em>へ</em> direction particle — ようちえん へ いく — read \"e\"."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Kids — playful (call & response + kids chorus) · try me", "text": "Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (YouTube cut ~2:00)", "file": "suno-v3.txt", "note": "teach → bridge → review" },
+    { "label": "Suno score — v2 (~0:45 short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "や", "theme": "at the fair", "items": [
+      { "w": "やきゅう", "r": "yakyuu", "m": "baseball", "s": "やきゅう を する", "sm": "play baseball" },
+      { "w": "やぎ", "r": "yagi", "m": "goat", "s": "やぎ が いる", "sm": "there's a goat" },
+      { "w": "やたい", "r": "yatai", "m": "festival stall", "s": "まつり の やたい", "sm": "a festival stall" }
+    ]},
+    { "vowel": "ゆ", "theme": "the amusement park", "items": [
+      { "w": "ゆうえんち", "r": "yuuenchi", "m": "amusement park", "s": "たのしい ゆうえんち", "sm": "a fun amusement park" },
+      { "w": "ゆきだるま", "r": "yukidaruma", "m": "snowman", "s": "おおきい ゆきだるま", "sm": "a big snowman" },
+      { "w": "ゆびわ", "r": "yubiwa", "m": "ring", "s": "ひかる ゆびわ", "sm": "a shiny ring" }
+    ]},
+    { "vowel": "よ", "theme": "off we go", "items": [
+      { "w": "よっと", "r": "yotto", "m": "yacht", "s": "うみ の よっと", "sm": "a yacht on the sea" },
+      { "w": "ようちえん", "r": "youchien", "m": "kindergarten", "s": "ようちえん へ いく", "sm": "go to kindergarten" },
+      { "w": "ようかん", "r": "youkan", "m": "yokan (sweet)", "s": "あまい ようかん", "sm": "sweet yokan" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "08-yayuyo-shizen",
+  "title": "やゆよ",
+  "jp": "や行 ・ gojuon row 8 (short row) ・ nature",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "08-yayuyo", "theme": "nature", "index": 2, "siblings": ["ie", "asobi"] },
+  "render": {
+    "trackName": "やま と ゆき",
+    "trackNo": "08",
+    "row": "やゆよ",
+    "channel": "iconotes",
+    "style": "Koto × modern",
+    "bpm": 90,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the や-row", "Gojuon by words", "Row 8 · や行 · Nature"],
+  "meta": ["Koto × modern · male (house voice)", "~90 BPM", "Short row (や ゆ よ)", "Vertical ~0:45 · YouTube ~2:00"],
+  "blurb": "Row 8 of the gojuon — や ゆ よ — a SHORT row (three kana), through the outdoors: a tall mountain and a riverside willow, white snow and a red sunset, a lily in the garden, a starry night sky and a four-leaf clover. A calm nature variation of three や-row songs.",
+  "concept": [
+    "<strong>や行 is a short row</strong> — three kana (や ゆ よ; い/え borrowed from あ行) — so this is 3 groups of 3 words (9 targets), refrain や ゆ よ, and a naturally shorter song.",
+    "Words alone blend (findings F-10), so every target sits in a small image — かわ の やなぎ, ほし の よぞら — recombining earlier rows (かわ, にわ, ほし, はる return; F-13). Row closes every verse (F-07); the longer cut adds a bridge + review, not a loop (F-12).",
+    "This is the <strong>nature</strong> variation — the calm one, for koto × modern. や行 is rich in seasonal nature (やなぎ, ゆき, ゆうやけ, よぞら). Pairs with the <strong>Male (koto)</strong> voice."
+  ],
+  "styles": [
+    { "label": "Koto × modern beat — the calm house take", "rec": true, "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "City pop — the house voice", "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (YouTube cut ~2:00)", "file": "suno-v3.txt", "note": "teach → bridge → review" },
+    { "label": "Suno score — v2 (~0:45 short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "や", "theme": "mountain & river", "items": [
+      { "w": "やま", "r": "yama", "m": "mountain", "s": "たかい やま", "sm": "a tall mountain" },
+      { "w": "やなぎ", "r": "yanagi", "m": "willow", "s": "かわ の やなぎ", "sm": "a willow by the river" },
+      { "w": "やぶ", "r": "yabu", "m": "thicket", "s": "みどりの やぶ", "sm": "a green thicket" }
+    ]},
+    { "vowel": "ゆ", "theme": "snow & sunset", "items": [
+      { "w": "ゆき", "r": "yuki", "m": "snow", "s": "しろい ゆき", "sm": "white snow" },
+      { "w": "ゆり", "r": "yuri", "m": "lily", "s": "にわ の ゆり", "sm": "a lily in the garden" },
+      { "w": "ゆうやけ", "r": "yuuyake", "m": "sunset", "s": "あかい ゆうやけ", "sm": "a red sunset" }
+    ]},
+    { "vowel": "よ", "theme": "night sky & clover", "items": [
+      { "w": "よぞら", "r": "yozora", "m": "night sky", "s": "ほし の よぞら", "sm": "a starry night sky" },
+      { "w": "よもぎ", "r": "yomogi", "m": "mugwort", "s": "はる の よもぎ", "sm": "spring mugwort" },
+      { "w": "よつば", "r": "yotsuba", "m": "four-leaf clover", "s": "よつば を さがす", "sm": "look for a four-leaf clover" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

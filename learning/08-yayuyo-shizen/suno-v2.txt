@@ -1,0 +1,45 @@
+やゆよ（しぜん）— SUNO SCORE v2  (the ~0:45 short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 8 (や行, SHORT row). NATURE variation. The TEACH only.
+
+や行 is a SHORT row (three kana), so this teach is 3 verses / 9 targets (~0:45). Full version
+(teach → bridge → review, ~2:00) is suno-v3.txt. Same voice + rules.
+
+VOICE: the CALM cut — koto × modern + Persona ("Male JP (Koto Pop)"). Custom mode.
+PHONETIC FIXES (F-02/F-16): は→ワ, へ→エ — none occur. を STAYS を. ALL HIRAGANA.
+DURATION: Auto (F-15).
+
+[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+[Intro]
+や ゆ よ
+
+[Verse]
+やま
+たかい やま
+やなぎ
+かわ の やなぎ
+やぶ
+みどりの やぶ
+や ゆ よ
+
+[Verse]
+ゆき
+しろい ゆき
+ゆり
+にわ の ゆり
+ゆうやけ
+あかい ゆうやけ
+や ゆ よ
+
+[Verse]
+よぞら
+ほし の よぞら
+よもぎ
+はる の よもぎ
+よつば
+よつば を さがす
+や ゆ よ
+
+[Outro]
+や ゆ よ

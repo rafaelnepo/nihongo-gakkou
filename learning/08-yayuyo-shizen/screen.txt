@@ -1,0 +1,68 @@
+やゆよ（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+The ya-row is a SHORT row — three kana (や ゆ よ), three verses, nine target words.
+  · SHORT (~0:45, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~2:00) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (かわ, にわ, ほし) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   や ゆ よ
+
+═══ PART 1 · LEARN ═══
+やま
+たかい やま
+やなぎ
+かわ の やなぎ
+やぶ
+みどりの やぶ
+や ゆ よ
+
+ゆき
+しろい ゆき
+ゆり
+にわ の ゆり
+ゆうやけ
+あかい ゆうやけ
+や ゆ よ
+
+よぞら
+ほし の よぞら
+よもぎ
+はる の よもぎ
+よつば
+よつば を さがす
+や ゆ よ
+
+═══ BRIDGE · やま の いちにち ═══
+たかい やま、かわ の やなぎ
+しろい ゆき、あかい ゆうやけ
+にわ の ゆり、みどりの やぶ
+ほし の よぞら、はる の よもぎ
+よつば を さがす
+や ゆ よ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+たかい やま
+かわ の やなぎ
+みどりの やぶ
+しろい ゆき
+にわ の ゆり
+あかい ゆうやけ
+ほし の よぞら
+はる の よもぎ
+よつば を さがす
+や ゆ よ
+
+(outro)   や ゆ よ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+やま=mountain · やなぎ=willow · やぶ=thicket/bush · ゆき=snow · ゆり=lily · ゆうやけ=sunset
+· よぞら=night sky · よもぎ=mugwort · よつば=four-leaf clover. Adjs/verbs: さがす search ·
+たかい tall · みどりの green · しろい white · あかい red. Recombined: かわ · にわ · ほし · はる.

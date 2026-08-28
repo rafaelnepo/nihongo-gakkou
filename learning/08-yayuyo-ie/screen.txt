@@ -1,0 +1,68 @@
+やゆよ（いえ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+The ya-row is a SHORT row — three kana (や ゆ よ), three verses, nine target words.
+  · SHORT (~0:45, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~2:00) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (たべる, おちゃ, いえ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   や ゆ よ
+
+═══ PART 1 · LEARN ═══
+やね
+あかい やね
+やかん
+やかん の ゆげ
+やさい
+やさい を たべる
+や ゆ よ
+
+ゆび
+ちいさい ゆび
+ゆか
+きれいな ゆか
+ゆのみ
+ゆのみ の おちゃ
+や ゆ よ
+
+よる
+しずかな よる
+よこ
+いえ の よこ
+ようふく
+あたらしい ようふく
+や ゆ よ
+
+═══ BRIDGE · やね の した ═══
+あかい やね、やかん の ゆげ
+やさい を たべる、ゆのみ の おちゃ
+ちいさい ゆび、きれいな ゆか
+あたらしい ようふく、いえ の よこ
+しずかな よる
+や ゆ よ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+あかい やね
+やかん の ゆげ
+やさい を たべる
+ちいさい ゆび
+きれいな ゆか
+ゆのみ の おちゃ
+しずかな よる
+いえ の よこ
+あたらしい ようふく
+や ゆ よ
+
+(outro)   や ゆ よ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+やね=roof · やかん=kettle · やさい=vegetables · ゆび=finger · ゆか=floor · ゆのみ=teacup ·
+よる=night · よこ=beside a house · ようふく=clothes. Verbs/adjs: たべる eat · あかい red ·
+ちいさい small · きれいな clean · しずかな quiet · あたらしい new. Recombined: たべる · おちゃ · いえ.

@@ -1,0 +1,18 @@
+やゆよ（あそび）— STYLE NOTES
+
+PAIRS WITH THE KIDS VOICE. Use the saved Persona "Kodomo JP". This short row's "animals slot"
+is a fun day out instead (ゆ/よ have no beginner animals) — playful outing content still suits
+the kids voice. Select the Persona in Custom mode.
+
+EPISODE STYLE (Kids Persona selected — describe the band + the chorus, not the voice):
+  Japanese children's song, 104 BPM, toy piano, xylophone, marimba, ukulele, hand claps,
+  woodblock, bouncy upright bass, simple happy drums, with a children's chorus answering,
+  call-and-response, playful and joyful, clear enunciation of every kana, no ad-libs
+
+FALLBACK: the city-pop house voice (Female JP) — see song.json styles[0].
+
+SETTINGS (house-style.md → Generation settings): Write lyrics; exclude autotune, heavy
+reverb, ad-libs, whisper, distortion, melisma, vocal runs; Weirdness ~20%; Style Influence
+~50–60%; Duration Auto (F-15) — a SHORT row; don't pad.
+
+TEMPO: ~104 for the kids cut. The refrain や ゆ よ is the whole kids chorus (F-07).

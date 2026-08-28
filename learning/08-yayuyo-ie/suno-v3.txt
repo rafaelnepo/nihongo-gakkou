@@ -1,0 +1,72 @@
+やゆよ（いえ）— SUNO SCORE v3  (the YouTube cut ~2:00 · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 8 (や行, SHORT row). HOME variation. CONTEXTUAL.
+
+や行 is a SHORT row — three kana (や ゆ よ), so this is 3 verses / 9 targets and the
+song is naturally shorter (~2:00 full, ~0:45 teach). TEACH → a small BRIDGE → a REVIEW of
+the SENTENCES ONLY (F-12). Round 2 differs from round 1 (dodges F-08).
+
+VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
+PHONETIC FIXES (F-02/F-16): は(topic)→ワ, へ(direction)→エ. を STAYS を (never swap — F-16).
+ALL HIRAGANA.  DURATION: Auto (F-15) — let it end short; do not pad.
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+や ゆ よ
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+やね
+あかい やね
+やかん
+やかん の ゆげ
+やさい
+やさい を たべる
+や ゆ よ
+
+[Verse]
+ゆび
+ちいさい ゆび
+ゆか
+きれいな ゆか
+ゆのみ
+ゆのみ の おちゃ
+や ゆ よ
+
+[Verse]
+よる
+しずかな よる
+よこ
+いえ の よこ
+ようふく
+あたらしい ようふく
+や ゆ よ
+
+# ═══ BRIDGE · やね の した (recombine — new, flowing) ═══
+
+[Bridge]
+あかい やね、やかん の ゆげ
+やさい を たべる、ゆのみ の おちゃ
+ちいさい ゆび、きれいな ゆか
+あたらしい ようふく、いえ の よこ
+しずかな よる
+や ゆ よ
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+あかい やね
+やかん の ゆげ
+やさい を たべる
+ちいさい ゆび
+きれいな ゆか
+ゆのみ の おちゃ
+しずかな よる
+いえ の よこ
+あたらしい ようふく
+や ゆ よ
+
+[Outro]
+や ゆ よ

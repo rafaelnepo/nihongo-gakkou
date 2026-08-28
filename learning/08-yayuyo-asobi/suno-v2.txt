@@ -1,0 +1,46 @@
+やゆよ（あそび）— SUNO SCORE v2  (the ~0:45 short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 8 (や行, SHORT row). FUN-DAY variation. The TEACH only.
+
+や行 is a SHORT row (three kana), so this teach is 3 verses / 9 targets (~0:45). Full version
+(teach → bridge → review, ~2:00) is suno-v3.txt. Same voice + rules.
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP"); add "children's chorus answering,
+call-and-response" for the kids sound; city-pop fallback. Custom mode.
+PHONETIC FIXES (F-02/F-16): は→ワ, へ(direction)→エ (ようちえん エ いく). を STAYS を. ALL HIRAGANA.
+DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+や ゆ よ
+
+[Verse]
+やきゅう
+やきゅう を する
+やぎ
+やぎ が いる
+やたい
+まつり の やたい
+や ゆ よ
+
+[Verse]
+ゆうえんち
+たのしい ゆうえんち
+ゆきだるま
+おおきい ゆきだるま
+ゆびわ
+ひかる ゆびわ
+や ゆ よ
+
+[Verse]
+よっと
+うみ の よっと
+ようちえん
+ようちえん エ いく
+ようかん
+あまい ようかん
+や ゆ よ
+
+[Outro]
+や ゆ よ

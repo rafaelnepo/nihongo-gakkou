@@ -1,0 +1,45 @@
+やゆよ（いえ）— SUNO SCORE v2  (the ~0:45 short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 8 (や行, SHORT row). HOME variation. The TEACH only.
+
+や行 is a SHORT row (three kana), so this teach is 3 verses / 9 targets (~0:45). The full
+YouTube version (teach → bridge → review, ~2:00) is suno-v3.txt. Same voice + rules.
+
+VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
+PHONETIC FIXES (F-02/F-16): は→ワ, へ→エ. を STAYS を (never swap — F-16). ALL HIRAGANA.
+DURATION: Auto (F-15) — let it end short.
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+や ゆ よ
+
+[Verse]
+やね
+あかい やね
+やかん
+やかん の ゆげ
+やさい
+やさい を たべる
+や ゆ よ
+
+[Verse]
+ゆび
+ちいさい ゆび
+ゆか
+きれいな ゆか
+ゆのみ
+ゆのみ の おちゃ
+や ゆ よ
+
+[Verse]
+よる
+しずかな よる
+よこ
+いえ の よこ
+ようふく
+あたらしい ようふく
+や ゆ よ
+
+[Outro]
+や ゆ よ
