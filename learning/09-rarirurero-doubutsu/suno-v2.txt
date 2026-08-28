@@ -1,0 +1,64 @@
+らりるれろ（どうぶつ）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 9 (ら行), ANIMALS variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP"); add "children's chorus answering,
+call-and-response" for the kids sound; city-pop fallback. Custom mode.
+PHONETIC FIXES (F-02/F-16): は→ワ, へ→エ. を STAYS を (never swap — F-16). ALL HIRAGANA.
+DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+ら り る れ ろ
+
+[Verse]
+らくだ
+らくだ が あるく
+らいおん
+らいおん が いる
+らっこ
+らっこ が およぐ
+ら り る れ ろ
+
+[Verse]
+りす
+りす が いる
+りくがめ
+りくがめ ワ おそい
+りゅう
+りゅう が とぶ
+ら り る れ ろ
+
+[Verse]
+るりびたき
+あおい るりびたき
+るり
+るり いろ の はね
+るーぺ
+るーぺ で みる
+ら り る れ ろ
+
+[Verse]
+れっさーぱんだ
+れっさーぱんだ が いる
+れいちょう
+れいちょう が とぶ
+れいよう
+れいよう が はしる
+ら り る れ ろ
+
+[Verse]
+ろば
+ろば が あるく
+ろじ
+ろじ の ねこ
+ろうか
+ろうか の いぬ
+ら り る れ ろ
+
+[Outro]
+ら り る れ ろ

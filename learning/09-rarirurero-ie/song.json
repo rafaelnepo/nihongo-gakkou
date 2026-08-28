@@ -1,0 +1,70 @@
+{
+  "id": "09-rarirurero-ie",
+  "title": "らりるれろ",
+  "jp": "ら行 ・ gojuon row 9 ・ things at home",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "09-rarirurero", "theme": "home", "index": 1, "siblings": ["doubutsu", "iro"] },
+  "render": {
+    "trackName": "おうち の もの",
+    "trackNo": "09",
+    "row": "らりるれろ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the ら-row", "Gojuon by words", "Row 9 · ら行 · Things at home"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 9 of the gojuon — ら り る れ ろ — through everyday things: listen to the radio, a bright lamp, a red apple, cooking, a cold fridge and a sour lemon, light a candle, a rocket flies. Say the thing, then <strong>use it</strong>. The home variation of three ら-row songs. ら行 is the modern-objects row — lots of familiar loanwords, read here in kana.",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits in a small action — らじお を きく, りょうり を する, ろうそく を つける — recombining earlier rows (きく, ふく, する, つめたい, すっぱい return; F-13). The row closes every verse (F-07); the longer cut adds a bridge + review (F-12).",
+    "The five-kana row <em>ら り る れ ろ</em> is the sung-together refrain. ら行 is full of everyday and imported words (らじお, ろぼっと, ろけっと) — written in hiragana here, since the point is reading the kana.",
+    "Honest note: <em>る</em> is one of the gojuon's hardest kana (only a handful of beginner words), so its verse leans on being-out (るす), a magnifier (るーぺ) and a ruby (るびー). Pairs with the <strong>Female (city pop)</strong> voice."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → day-with-things bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "ら", "theme": "sound & light", "items": [
+      { "w": "らじお", "r": "rajio", "m": "radio", "s": "らじお を きく", "sm": "listen to the radio" },
+      { "w": "らんぷ", "r": "ranpu", "m": "lamp", "s": "あかるい らんぷ", "sm": "a bright lamp" },
+      { "w": "らっぱ", "r": "rappa", "m": "trumpet", "s": "らっぱ を ふく", "sm": "blow a trumpet" }
+    ]},
+    { "vowel": "り", "theme": "apple & ribbon", "items": [
+      { "w": "りんご", "r": "ringo", "m": "apple", "s": "あかい りんご", "sm": "a red apple" },
+      { "w": "りぼん", "r": "ribon", "m": "ribbon", "s": "かわいい りぼん", "sm": "a cute ribbon" },
+      { "w": "りょうり", "r": "ryouri", "m": "cooking", "s": "りょうり を する", "sm": "do the cooking" }
+    ]},
+    { "vowel": "る", "theme": "out & shiny (a hard kana)", "items": [
+      { "w": "るす", "r": "rusu", "m": "being out / away", "s": "いえ が るす", "sm": "nobody's home" },
+      { "w": "るーぺ", "r": "rupe", "m": "magnifier", "s": "るーぺ で みる", "sm": "look with a magnifier" },
+      { "w": "るびー", "r": "rubi", "m": "ruby", "s": "ひかる るびー", "sm": "a shiny ruby" }
+    ]},
+    { "vowel": "れ", "theme": "the kitchen", "items": [
+      { "w": "れいぞうこ", "r": "reizouko", "m": "fridge", "s": "つめたい れいぞうこ", "sm": "a cold fridge" },
+      { "w": "れもん", "r": "remon", "m": "lemon", "s": "すっぱい れもん", "sm": "a sour lemon" },
+      { "w": "れんが", "r": "renga", "m": "brick", "s": "かたい れんが", "sm": "a hard brick" }
+    ]},
+    { "vowel": "ろ", "theme": "candle & rocket", "items": [
+      { "w": "ろうそく", "r": "rousoku", "m": "candle", "s": "ろうそく を つける", "sm": "light a candle" },
+      { "w": "ろぼっと", "r": "robotto", "m": "robot", "s": "おおきい ろぼっと", "sm": "a big robot" },
+      { "w": "ろけっと", "r": "roketto", "m": "rocket", "s": "ろけっと が とぶ", "sm": "a rocket flies" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

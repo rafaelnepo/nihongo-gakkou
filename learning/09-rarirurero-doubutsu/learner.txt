@@ -1,0 +1,73 @@
+らりるれろ（どうぶつ）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 9 (ら行). ANIMALS variation. Written 2026-08-28.
+
+CONCEPT: say the animal, then see it DO something. Each ら-row word is taught through a short
+sentence, gathered into a big zoo day. One of THREE ら-row songs (things · animals · colours).
+Recombines earlier rows (ねこ, いぬ, おそい + verbs あるく・いる・とぶ) — the F-13 ladder.
+
+HONEST NOTE: ら行 is a hard row for animals. ら/り/れ are strong (camel, lion, otter,
+squirrel, tortoise, red panda, antelope), but る has NO beginner animal (its verse borrows a
+blue azure-bird, its colour, and a magnifier) and ろ has only ろば (donkey), so its verse adds
+a cat in an alley and a dog in a corridor. Two documented detours — the things and colours
+cuts are cleaner.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+ら  ── THE BIG ZOO
+  らくだ      (rakuda) camel (駱駝)
+     → らくだ が あるく      (rakuda ga aruku)       a camel walks
+  らいおん    (raion)  lion (ライオン)
+     → らいおん が いる      (raion ga iru)          there's a lion
+  らっこ      (rakko)  sea otter (ラッコ)
+     → らっこ が およぐ      (rakko ga oyogu)        a sea otter swims
+
+り  ── SMALL & SLOW
+  りす        (risu)   squirrel (栗鼠)
+     → りす が いる          (risu ga iru)           there's a squirrel
+  りくがめ    (rikugame) tortoise (陸亀)
+     → りくがめ は おそい    (rikugame wa osoi)      the tortoise is slow
+  りゅう      (ryū)    dragon (竜)
+     → りゅう が とぶ        (ryū ga tobu)           a dragon flies
+
+る  ── NO る ANIMAL — A BLUE BIRD   (る is a near-wall kana; no beginner animal exists)
+  るりびたき  (ruribitaki) azure-winged bird (瑠璃鶲)
+     → あおい るりびたき    (aoi ruribitaki)        a blue azure-bird
+  るり        (ruri)   azure / lapis blue (瑠璃)
+     → るり いろ の はね    (ruri iro no hane)      azure-coloured feathers
+  るーぺ      (rūpe)   magnifier (ルーペ)
+     → るーぺ で みる        (rūpe de miru)          look closely with a magnifier
+
+れ  ── THE MOUNTAIN & WILD
+  れっさーぱんだ (ressā-panda) red panda (レッサーパンダ)
+     → れっさーぱんだ が いる (ressā-panda ga iru)   there's a red panda
+  れいちょう  (raichō) ptarmigan (雷鳥)
+     → れいちょう が とぶ    (raichō ga tobu)        a ptarmigan flies
+  れいよう    (reiyō)  antelope (羚羊)
+     → れいよう が はしる    (reiyō ga hashiru)      an antelope runs
+
+ろ  ── DONKEY, CAT & DOG   (ろ has only ろば — the rest are a small detour)
+  ろば        (roba)   donkey (驢馬)
+     → ろば が あるく        (roba ga aruku)         a donkey walks
+  ろじ        (roji)   alley (路地)
+     → ろじ の ねこ          (roji no neko)          a cat in the alley
+  ろうか      (rōka)   corridor (廊下)
+     → ろうか の いぬ        (rōka no inu)           a dog in the corridor
+
+REFRAIN
+  ら り る れ ろ  (ra ri ru re ro)   the ら-row
+────────────────────────────────────────────────────────────────────────
+
+QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs: あるく walk, いる be, およぐ swim, とぶ fly, はしる run.
+· Adjectives: おそい slow, あおい blue. Particles: が (subject), は (topic, "wa"), の (of).
+· Recombination WITH EARLIER ROWS: ねこ, いぬ (あ行), おそい (か行) all return.
+
+The TARGET is the ら-row words; the sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 (learn) → a zoo-day BRIDGE → a REVIEW of the sentences only
+(sing along).
+
+SIBLINGS (same five kana): 09-rarirurero-ie (things) and 09-rarirurero-iro (colours & pretty
+things) — the cleaner two ら-row cuts. Sing all three to read ら行 cold.

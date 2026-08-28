@@ -1,0 +1,94 @@
+らりるれろ（いえ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+Loanwords (らじお, ろぼっと…) are written in hiragana here — the point is reading kana.
+The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (きく, ふく, する, つめたい) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   ら り る れ ろ
+
+═══ PART 1 · LEARN ═══
+らじお
+らじお を きく
+らんぷ
+あかるい らんぷ
+らっぱ
+らっぱ を ふく
+ら り る れ ろ
+
+りんご
+あかい りんご
+りぼん
+かわいい りぼん
+りょうり
+りょうり を する
+ら り る れ ろ
+
+るす
+いえ が るす
+るーぺ
+るーぺ で みる
+るびー
+ひかる るびー
+ら り る れ ろ
+
+れいぞうこ
+つめたい れいぞうこ
+れもん
+すっぱい れもん
+れんが
+かたい れんが
+ら り る れ ろ
+
+ろうそく
+ろうそく を つける
+ろぼっと
+おおきい ろぼっと
+ろけっと
+ろけっと が とぶ
+ら り る れ ろ
+
+═══ BRIDGE · もの の いちにち ═══
+らじお を きく、らっぱ を ふく
+あかい りんご、かわいい りぼん
+るーぺ で みる、ひかる るびー
+つめたい れいぞうこ、すっぱい れもん
+ろうそく を つける、おおきい ろぼっと
+ろけっと が とぶ、たかい そら
+ら り る れ ろ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+らじお を きく
+あかるい らんぷ
+らっぱ を ふく
+あかい りんご
+かわいい りぼん
+りょうり を する
+いえ が るす
+るーぺ で みる
+ひかる るびー
+つめたい れいぞうこ
+すっぱい れもん
+かたい れんが
+ろうそく を つける
+おおきい ろぼっと
+ろけっと が とぶ
+ら り る れ ろ
+
+(outro)   ら り る れ ろ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+らじお=radio · らんぷ=lamp · らっぱ=trumpet · りんご=apple · りぼん=ribbon · りょうり=
+cooking · るす=empty house · るーぺ=magnifier · るびー=ruby · れいぞうこ=fridge · れもん=
+lemon · れんが=brick · ろうそく=candle · ろぼっと=robot · ろけっと=rocket. Verbs/adjs: きく
+listen · ふく blow · する do · みる look · つける light · あかるい bright · あかい red ·
+かわいい cute · ひかる shiny · つめたい cold · すっぱい sour · かたい hard · おおきい big ·
+とぶ fly. Recombined: きく · ふく · する · つめたい · すっぱい.

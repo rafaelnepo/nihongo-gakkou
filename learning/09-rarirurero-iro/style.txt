@@ -1,0 +1,15 @@
+らりるれろ（いろ）— STYLE NOTES
+
+THE CALM CUT — render on KOTO × MODERN. Use the saved Persona "Male JP (Koto Pop)". Select
+the Persona in Custom mode; do NOT also specify gender.
+
+EPISODE STYLE (Persona selected — describe only the band, not the voice):
+  modern Japanese pop with traditional koto, 90 BPM, koto, soft shakuhachi accents, gentle
+  modern beat, warm bass, elegant and calm, clear enunciation of every kana, no ad-libs
+
+SETTINGS (house-style.md → Generation settings): Write lyrics; exclude autotune, heavy
+reverb, ad-libs, whisper, distortion, melisma, vocal runs; Weirdness ~20%; Style Influence
+~50–60%; Duration Auto (F-15).
+
+TEMPO: ~90 — calm. This is the ら-row's "in place of nature" cut (ら行 lacks nature words), so
+the koto's gentleness does extra work carrying the pretty-things theme (らん, りんどう, れんげ).

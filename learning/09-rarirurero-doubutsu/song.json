@@ -1,0 +1,70 @@
+{
+  "id": "09-rarirurero-doubutsu",
+  "title": "らりるれろ",
+  "jp": "ら行 ・ gojuon row 9 ・ animals",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "09-rarirurero", "theme": "animals", "index": 2, "siblings": ["ie", "iro"] },
+  "render": {
+    "trackName": "らくだ と らいおん",
+    "trackNo": "09",
+    "row": "らりるれろ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the ら-row", "Gojuon by words", "Row 9 · ら行 · Animals"],
+  "meta": ["Kids / city pop · playful (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 9 of the gojuon — ら り る れ ろ — through animals: a camel and a lion and a sea otter, a squirrel and a tortoise, a red panda and an antelope, a donkey. Say the animal, then watch it <strong>do something</strong>. The animals variation of three ら-row songs — the toughest yet at る and ろ.",
+  "concept": [
+    "Words alone blend (findings F-10), so every animal is taught in a small action — らくだ が あるく, れいよう が はしる — recombining earlier rows (ねこ, いぬ, おそい + verbs あるく・いる・とぶ return; F-13). Row closes every verse (F-07); the longer cut adds a bridge + review (F-12).",
+    "The five-kana row <em>ら り る れ ろ</em> is the sung-together refrain. ら/り/れ carry strong animals (camel, lion, otter, squirrel, tortoise, red panda, antelope).",
+    "Honest note: <em>る</em> has NO beginner animal (its verse borrows a blue azure-bird, its colour, and a magnifier), and <em>ろ</em> has only ろば (donkey), so its verse adds a cat in an alley and a dog in a corridor. Two documented detours, like か行's け or な行's ぬ. The <em>things</em> and <em>colours</em> cuts are the cleaner ら-row songs. Pairs with the <strong>kids</strong> voice."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Kids — playful (call & response + kids chorus) · try me", "text": "Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → zoo-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "ら", "theme": "the big zoo", "items": [
+      { "w": "らくだ", "r": "rakuda", "m": "camel", "s": "らくだ が あるく", "sm": "a camel walks" },
+      { "w": "らいおん", "r": "raion", "m": "lion", "s": "らいおん が いる", "sm": "there's a lion" },
+      { "w": "らっこ", "r": "rakko", "m": "sea otter", "s": "らっこ が およぐ", "sm": "a sea otter swims" }
+    ]},
+    { "vowel": "り", "theme": "small & slow", "items": [
+      { "w": "りす", "r": "risu", "m": "squirrel", "s": "りす が いる", "sm": "there's a squirrel" },
+      { "w": "りくがめ", "r": "rikugame", "m": "tortoise", "s": "りくがめ は おそい", "sm": "the tortoise is slow" },
+      { "w": "りゅう", "r": "ryuu", "m": "dragon", "s": "りゅう が とぶ", "sm": "a dragon flies" }
+    ]},
+    { "vowel": "る", "theme": "no る animal — a blue bird", "items": [
+      { "w": "るりびたき", "r": "ruribitaki", "m": "azure-winged bird", "s": "あおい るりびたき", "sm": "a blue azure-bird" },
+      { "w": "るり", "r": "ruri", "m": "azure / lapis blue", "s": "るり いろ の はね", "sm": "azure-coloured feathers" },
+      { "w": "るーぺ", "r": "rupe", "m": "magnifier", "s": "るーぺ で みる", "sm": "look closely with a magnifier" }
+    ]},
+    { "vowel": "れ", "theme": "the mountain & wild", "items": [
+      { "w": "れっさーぱんだ", "r": "ressapanda", "m": "red panda", "s": "れっさーぱんだ が いる", "sm": "there's a red panda" },
+      { "w": "れいちょう", "r": "reichou", "m": "ptarmigan", "s": "れいちょう が とぶ", "sm": "a ptarmigan flies" },
+      { "w": "れいよう", "r": "reiyou", "m": "antelope", "s": "れいよう が はしる", "sm": "an antelope runs" }
+    ]},
+    { "vowel": "ろ", "theme": "donkey, cat & dog", "items": [
+      { "w": "ろば", "r": "roba", "m": "donkey", "s": "ろば が あるく", "sm": "a donkey walks" },
+      { "w": "ろじ", "r": "roji", "m": "alley", "s": "ろじ の ねこ", "sm": "a cat in the alley" },
+      { "w": "ろうか", "r": "rouka", "m": "corridor", "s": "ろうか の いぬ", "sm": "a dog in the corridor" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

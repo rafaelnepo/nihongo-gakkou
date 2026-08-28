@@ -1,0 +1,415 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>らりるれろ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=swap">
+<style>:root{
+  --ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;
+  --ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;
+  --rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;
+  --shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -16px rgba(0,0,0,.7);
+  --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
+  --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
+  --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
+  --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;--ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;
+  --rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;
+  --shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);}}
+:root[data-theme="dark"]{--ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;--ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;--rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;--shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px 90px}
+.back{display:inline-block;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-decoration:none;padding:26px 0 0}
+.back:hover{color:var(--green-deep)}
+.mast{padding:22px 0 30px;border-bottom:1px solid var(--rule);margin-bottom:44px}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+.eyebrow span:not(:last-child)::after{content:"／";margin-left:10px;color:var(--rule)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(2.1rem,5.6vw,3.4rem);line-height:1.06;letter-spacing:-.015em;margin:0 0 6px}
+.h1-jp{font-family:var(--f-jp);font-weight:600;font-size:clamp(.98rem,2.5vw,1.22rem);color:var(--shu);letter-spacing:.14em;margin:0 0 18px}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px}
+.tag{font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:2px;border:1px solid var(--rule);color:var(--ink-3)}
+.tag.strand{color:var(--green-deep);border-color:var(--green)}
+.tag.hot{color:#fff;background:var(--shu);border-color:var(--shu)}
+.tag.priv{color:var(--shu-ink);border-color:var(--shu);border-style:dashed}
+.standfirst{font-size:1.04rem;color:var(--ink-2);max-width:62ch;margin:0}
+.meta{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.04em;display:flex;flex-wrap:wrap;gap:5px 16px;margin:16px 0 0}
+section{margin:0 0 54px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+.sec-mark{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--shu);border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
+h2{font-family:var(--f-display);font-weight:700;font-size:clamp(1.34rem,3vw,1.7rem);line-height:1.22;margin:0}
+.sec-sub{color:var(--ink-3);margin:0 0 24px;max-width:64ch;font-size:.94rem}
+p{margin:0 0 16px}
+strong{font-weight:700}em{font-style:normal;color:var(--shu-ink);font-weight:500}
+.paste{background:var(--surface);border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin:0 0 16px;box-shadow:var(--shadow)}
+.paste-head{padding:9px 12px 9px 15px;border-bottom:1px solid var(--rule);background:var(--surface-2);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.paste-head .t{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.paste-head .t .rec{color:var(--shu);margin-left:6px}
+.copy{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:2px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.copy:hover{border-color:var(--green);color:var(--green-deep)}
+.copy.done{color:var(--green-deep);border-color:var(--green)}
+@media (prefers-reduced-motion:no-preference){.copy{transition:border-color .15s,color .15s}}
+.paste pre{margin:0;padding:15px 15px;font-family:var(--f-mono);font-size:12.5px;line-height:1.85;color:var(--ink-2);overflow-x:auto;white-space:pre-wrap;max-height:560px}
+.paste pre .tag{color:var(--green)}
+.paste pre .mark{color:var(--shu);font-weight:600}
+.paste pre .cmt{color:var(--ink-3)}
+.paste.style pre{font-family:var(--f-body);font-size:13.5px;line-height:1.6;color:var(--ink)}
+/* vocab table */
+.vgroup{margin:0 0 22px}
+.vgroup .vh{font-family:var(--f-jp);font-weight:600;font-size:1.2rem;color:var(--green-deep);display:flex;align-items:baseline;gap:12px;margin:0 0 6px}
+.vgroup .vh small{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:400}
+.vtab{width:100%;border-collapse:collapse}
+.vtab td{padding:9px 14px 9px 0;border-top:1px solid var(--rule-soft);vertical-align:baseline}
+.vtab .w{font-family:var(--f-jp);font-size:1.1rem;color:var(--ink);white-space:nowrap}
+.vtab .r{font-family:var(--f-mono);font-size:10px;color:var(--ink-3);white-space:nowrap}
+.vtab .m{font-size:.86rem;color:var(--ink-2)}
+.vtab .arrow{color:var(--shu);font-family:var(--f-mono);font-size:11px}
+.vtab .s{font-family:var(--f-jp);font-size:1.02rem;color:var(--ink)}
+.vtab .sm{font-size:.8rem;color:var(--ink-3)}
+footer{margin-top:20px;padding-top:24px;border-top:1px solid var(--rule);font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px}
+@media (max-width:640px){.vtab td{display:block;padding:2px 0;border:none}.vgroup{border-top:1px solid var(--rule-soft);padding-top:12px}.vtab tr{display:block;padding:10px 0;border-top:1px solid var(--rule-soft)}}
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}</style>
+<div class="wrap">
+<a class="back" href="../../index.html">&larr; All songs</a>
+<header class="mast">
+  <div class="eyebrow"><span>Read the ら-row</span><span>Gojuon by words</span><span>Row 9 · ら行 · Things at home</span></div>
+  <h1>らりるれろ</h1>
+  <p class="h1-jp">ら行 ・ gojuon row 9 ・ things at home</p>
+  <div class="tags"><span class="tag strand">learning</span><span class="tag ">written</span></div>
+  <p class="standfirst">Row 9 of the gojuon — ら り る れ ろ — through everyday things: listen to the radio, a bright lamp, a red apple, cooking, a cold fridge and a sour lemon, light a candle, a rocket flies. Say the thing, then <strong>use it</strong>. The home variation of three ら-row songs. ら行 is the modern-objects row — lots of familiar loanwords, read here in kana.</p>
+  <div class="meta"><span>City pop · female (house voice)</span><span>~92 BPM</span><span>Comprehensible input</span><span>YouTube ~3:00 · vertical ~1:00</span></div>
+</header>
+<section><div class="sec-head"><span class="sec-mark">01</span><h2>The idea</h2></div><p>Words alone blend (findings F-10), so every target sits in a small action — らじお を きく, りょうり を する, ろうそく を つける — recombining earlier rows (きく, ふく, する, つめたい, すっぱい return; F-13). The row closes every verse (F-07); the longer cut adds a bridge + review (F-12).</p>
+<p>The five-kana row <em>ら り る れ ろ</em> is the sung-together refrain. ら行 is full of everyday and imported words (らじお, ろぼっと, ろけっと) — written in hiragana here, since the point is reading the kana.</p>
+<p>Honest note: <em>る</em> is one of the gojuon's hardest kana (only a handful of beginner words), so its verse leans on being-out (るす), a magnifier (るーぺ) and a ruby (るびー). Pairs with the <strong>Female (city pop)</strong> voice.</p></section>
+<section><div class="sec-head"><span class="sec-mark">02</span><h2>Style prompts</h2></div><p class="sec-sub">Paste one into Suno's style box. Copy buttons at right.</p>
+    <div class="paste style">
+      <div class="paste-head"><span class="t">City pop — the house voice <span class="rec">★ house</span></span><button class="copy">Copy</button></div>
+      <pre>Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Koto × modern beat (classic × modern)</span><button class="copy">Copy</button></div>
+      <pre>modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Acoustic café folk</span><button class="copy">Copy</button></div>
+      <pre>warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Lo-fi hip hop (kept for other content)</span><button class="copy">Copy</button></div>
+      <pre>lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs</pre>
+    </div></section>
+<section><div class="sec-head"><span class="sec-mark">03</span><h2>Lyrics &mdash; paste into Suno</h2></div><p class="sec-sub">Pulled live from the suno-*.txt scores. <span class="mark" style="font-family:var(--f-mono)">ワ/オ/エ</span> are the particle fixes (は/を/へ).</p>
+    <div class="paste">
+      <div class="paste-head"><span class="t">Suno score — v3 (3-min YouTube cut) &middot; teach → day-with-things bridge → review</span><button class="copy">Copy</button></div>
+      <pre>[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+<span class="tag">[Intro]</span>
+ら り る れ ろ
+
+<span class="cmt"># ═══ PART 1 · LEARN (word → sentence) ═══</span>
+
+<span class="tag">[Verse]</span>
+らじお
+らじお を きく
+らんぷ
+あかるい らんぷ
+らっぱ
+らっぱ を ふく
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+りんご
+あかい りんご
+りぼん
+かわいい りぼん
+りょうり
+りょうり を する
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+るす
+いえ が るす
+るーぺ
+るーぺ で みる
+るびー
+ひかる るびー
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+れいぞうこ
+つめたい れいぞうこ
+れもん
+すっぱい れもん
+れんが
+かたい れんが
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+ろうそく
+ろうそく を つける
+ろぼっと
+おおきい ろぼっと
+ろけっと
+ろけっと が とぶ
+ら り る れ ろ
+
+<span class="cmt"># ═══ BRIDGE · もの の いちにち (recombine — new, flowing) ═══</span>
+
+<span class="tag">[Bridge]</span>
+らじお を きく、らっぱ を ふく
+あかい りんご、かわいい りぼん
+るーぺ で みる、ひかる るびー
+つめたい れいぞうこ、すっぱい れもん
+ろうそく を つける、おおきい ろぼっと
+ろけっと が とぶ、たかい そら
+ら り る れ ろ
+
+<span class="cmt"># ═══ PART 2 · REVIEW (sentences only, sing along) ═══</span>
+
+<span class="tag">[Chorus]</span>
+らじお を きく
+あかるい らんぷ
+らっぱ を ふく
+あかい りんご
+かわいい りぼん
+りょうり を する
+いえ が るす
+るーぺ で みる
+ひかる るびー
+つめたい れいぞうこ
+すっぱい れもん
+かたい れんが
+ろうそく を つける
+おおきい ろぼっと
+ろけっと が とぶ
+ら り る れ ろ
+
+<span class="tag">[Outro]</span>
+ら り る れ ろ</pre>
+    </div>
+
+    <div class="paste">
+      <div class="paste-head"><span class="t">Suno score — v2 (~2-min short / vertical) &middot; the teach only</span><button class="copy">Copy</button></div>
+      <pre>[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+<span class="tag">[Intro]</span>
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+らじお
+らじお を きく
+らんぷ
+あかるい らんぷ
+らっぱ
+らっぱ を ふく
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+りんご
+あかい りんご
+りぼん
+かわいい りぼん
+りょうり
+りょうり を する
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+るす
+いえ が るす
+るーぺ
+るーぺ で みる
+るびー
+ひかる るびー
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+れいぞうこ
+つめたい れいぞうこ
+れもん
+すっぱい れもん
+れんが
+かたい れんが
+ら り る れ ろ
+
+<span class="tag">[Verse]</span>
+ろうそく
+ろうそく を つける
+ろぼっと
+おおきい ろぼっと
+ろけっと
+ろけっと が とぶ
+ら り る れ ろ
+
+<span class="tag">[Outro]</span>
+ら り る れ ろ</pre>
+    </div></section>
+<section><div class="sec-head"><span class="sec-mark">04</span><h2>What it teaches</h2></div><p class="sec-sub">Say the word, then see it used. Target word &rarr; a sentence in context.</p><div class="vgroup"><div class="vh">ら <small>sound &amp; light</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">らじお</td><td class="r">rajio</td><td class="m">radio</td>
+        <td class="arrow">&rarr;</td><td class="s">らじお を きく</td><td class="sm">listen to the radio</td></tr>
+<tr>
+        <td class="w">らんぷ</td><td class="r">ranpu</td><td class="m">lamp</td>
+        <td class="arrow">&rarr;</td><td class="s">あかるい らんぷ</td><td class="sm">a bright lamp</td></tr>
+<tr>
+        <td class="w">らっぱ</td><td class="r">rappa</td><td class="m">trumpet</td>
+        <td class="arrow">&rarr;</td><td class="s">らっぱ を ふく</td><td class="sm">blow a trumpet</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">り <small>apple &amp; ribbon</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">りんご</td><td class="r">ringo</td><td class="m">apple</td>
+        <td class="arrow">&rarr;</td><td class="s">あかい りんご</td><td class="sm">a red apple</td></tr>
+<tr>
+        <td class="w">りぼん</td><td class="r">ribon</td><td class="m">ribbon</td>
+        <td class="arrow">&rarr;</td><td class="s">かわいい りぼん</td><td class="sm">a cute ribbon</td></tr>
+<tr>
+        <td class="w">りょうり</td><td class="r">ryouri</td><td class="m">cooking</td>
+        <td class="arrow">&rarr;</td><td class="s">りょうり を する</td><td class="sm">do the cooking</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">る <small>out &amp; shiny (a hard kana)</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">るす</td><td class="r">rusu</td><td class="m">being out / away</td>
+        <td class="arrow">&rarr;</td><td class="s">いえ が るす</td><td class="sm">nobody's home</td></tr>
+<tr>
+        <td class="w">るーぺ</td><td class="r">rupe</td><td class="m">magnifier</td>
+        <td class="arrow">&rarr;</td><td class="s">るーぺ で みる</td><td class="sm">look with a magnifier</td></tr>
+<tr>
+        <td class="w">るびー</td><td class="r">rubi</td><td class="m">ruby</td>
+        <td class="arrow">&rarr;</td><td class="s">ひかる るびー</td><td class="sm">a shiny ruby</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">れ <small>the kitchen</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">れいぞうこ</td><td class="r">reizouko</td><td class="m">fridge</td>
+        <td class="arrow">&rarr;</td><td class="s">つめたい れいぞうこ</td><td class="sm">a cold fridge</td></tr>
+<tr>
+        <td class="w">れもん</td><td class="r">remon</td><td class="m">lemon</td>
+        <td class="arrow">&rarr;</td><td class="s">すっぱい れもん</td><td class="sm">a sour lemon</td></tr>
+<tr>
+        <td class="w">れんが</td><td class="r">renga</td><td class="m">brick</td>
+        <td class="arrow">&rarr;</td><td class="s">かたい れんが</td><td class="sm">a hard brick</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">ろ <small>candle &amp; rocket</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">ろうそく</td><td class="r">rousoku</td><td class="m">candle</td>
+        <td class="arrow">&rarr;</td><td class="s">ろうそく を つける</td><td class="sm">light a candle</td></tr>
+<tr>
+        <td class="w">ろぼっと</td><td class="r">robotto</td><td class="m">robot</td>
+        <td class="arrow">&rarr;</td><td class="s">おおきい ろぼっと</td><td class="sm">a big robot</td></tr>
+<tr>
+        <td class="w">ろけっと</td><td class="r">roketto</td><td class="m">rocket</td>
+        <td class="arrow">&rarr;</td><td class="s">ろけっと が とぶ</td><td class="sm">a rocket flies</td></tr></tbody></table></div></section>
+<section><div class="sec-head"><span class="sec-mark">05</span><h2>More</h2></div>
+    <div class="paste">
+      <div class="paste-head"><span class="t">Screen text (the video)</span><button class="copy">Copy</button></div>
+      <pre>らりるれろ（いえ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+Loanwords (らじお, ろぼっと…) are written in hiragana here — the point is reading kana.
+The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (きく, ふく, する, つめたい) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   ら り る れ ろ
+
+═══ PART 1 · LEARN ═══
+らじお
+らじお を きく
+らんぷ
+あかるい らんぷ
+らっぱ
+らっぱ を ふく
+ら り る れ ろ
+
+りんご
+あかい りんご
+りぼん
+かわいい りぼん
+りょうり
+りょうり を する
+ら り る れ ろ
+
+るす
+いえ が るす
+るーぺ
+るーぺ で みる
+るびー
+ひかる るびー
+ら り る れ ろ
+
+れいぞうこ
+つめたい れいぞうこ
+れもん
+すっぱい れもん
+れんが
+かたい れんが
+ら り る れ ろ
+
+ろうそく
+ろうそく を つける
+ろぼっと
+おおきい ろぼっと
+ろけっと
+ろけっと が とぶ
+ら り る れ ろ
+
+═══ BRIDGE · もの の いちにち ═══
+らじお を きく、らっぱ を ふく
+あかい りんご、かわいい りぼん
+るーぺ で みる、ひかる るびー
+つめたい れいぞうこ、すっぱい れもん
+ろうそく を つける、おおきい ろぼっと
+ろけっと が とぶ、たかい そら
+ら り る れ ろ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+らじお を きく
+あかるい らんぷ
+らっぱ を ふく
+あかい りんご
+かわいい りぼん
+りょうり を する
+いえ が るす
+るーぺ で みる
+ひかる るびー
+つめたい れいぞうこ
+すっぱい れもん
+かたい れんが
+ろうそく を つける
+おおきい ろぼっと
+ろけっと が とぶ
+ら り る れ ろ
+
+(outro)   ら り る れ ろ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+らじお=radio · らんぷ=lamp · らっぱ=trumpet · りんご=apple · りぼん=ribbon · りょうり=
+cooking · るす=empty house · るーぺ=magnifier · るびー=ruby · れいぞうこ=fridge · れもん=
+lemon · れんが=brick · ろうそく=candle · ろぼっと=robot · ろけっと=rocket. Verbs/adjs: きく
+listen · ふく blow · する do · みる look · つける light · あかるい bright · あかい red ·
+かわいい cute · ひかる shiny · つめたい cold · すっぱい sour · かたい hard · おおきい big ·
+とぶ fly. Recombined: きく · ふく · する · つめたい · すっぱい.</pre>
+    </div></section>
+<footer><span>らりるれろ</span><span>generated from song.json + *.txt</span><span>build_sheets.mjs</span></footer>
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const pre=btn.closest('.paste').querySelector('pre');
+    const text=pre.innerText;
+    const done=()=>{const o=btn.textContent;btn.textContent='Copied \u2713';btn.classList.add('done');setTimeout(()=>{btn.textContent=o;btn.classList.remove('done')},1400)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(done).catch(()=>fb(text,done))}else fb(text,done);
+  });
+});
+function fb(text,done){const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(_){}document.body.removeChild(ta)}
+</script>

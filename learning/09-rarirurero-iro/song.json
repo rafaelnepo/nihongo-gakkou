@@ -1,0 +1,70 @@
+{
+  "id": "09-rarirurero-iro",
+  "title": "らりるれろ",
+  "jp": "ら行 ・ gojuon row 9 ・ colours & pretty things",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "09-rarirurero", "theme": "colours", "index": 3, "siblings": ["ie", "doubutsu"] },
+  "render": {
+    "trackName": "いろ と ひかり",
+    "trackNo": "09",
+    "row": "らりるれろ",
+    "channel": "iconotes",
+    "style": "Koto × modern",
+    "bpm": 90,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the ら-row", "Gojuon by words", "Row 9 · ら行 · Colours"],
+  "meta": ["Koto × modern · male (house voice)", "~90 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 9 of the gojuon — ら り る れ ろ — through colours and pretty, quiet things: a white orchid and a daffodil, a blue gentian and a little bell, lapis and a ruby, lotus and lace, a candle's flame in a quiet alley. A calm variation of three ら-row songs.",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits in a small image — しろい らん, るり の いし, ろうそく の ひ — recombining earlier rows (いけ, いし, ひ return; F-13). Row closes every verse (F-07); the longer cut adds a bridge + review (F-12).",
+    "The five-kana row <em>ら り る れ ろ</em> is the sung-together refrain. This cut is calm and pretty — flowers, gems, lace, candlelight — for the koto × modern arrangement.",
+    "Honest note: <strong>ら行 has almost no nature vocabulary</strong> (and る is a near-wall kana), so this stands in for the usual 'nature' cut as a gentler <em>colours & pretty things</em> theme — the reachiest of the ら-row cuts. The koto's calm carries it. Pairs with the <strong>Male (koto)</strong> voice."
+  ],
+  "styles": [
+    { "label": "Koto × modern beat — the calm house take", "rec": true, "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "City pop — the house voice", "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "ら", "theme": "flowers & leaves", "items": [
+      { "w": "らん", "r": "ran", "m": "orchid", "s": "しろい らん", "sm": "a white orchid" },
+      { "w": "らっぱずいせん", "r": "rappazuisen", "m": "daffodil", "s": "きいろい らっぱずいせん", "sm": "a yellow daffodil" },
+      { "w": "らくよう", "r": "rakuyou", "m": "fallen leaves", "s": "あき の らくよう", "sm": "autumn fallen leaves" }
+    ]},
+    { "vowel": "り", "theme": "gentian & a bell", "items": [
+      { "w": "りんどう", "r": "rindou", "m": "gentian (flower)", "s": "あおい りんどう", "sm": "a blue gentian" },
+      { "w": "りん", "r": "rin", "m": "a little bell", "s": "ちいさい りん", "sm": "a little bell" },
+      { "w": "りぼん", "r": "ribon", "m": "ribbon", "s": "あかい りぼん", "sm": "a red ribbon" }
+    ]},
+    { "vowel": "る", "theme": "gems (a hard kana)", "items": [
+      { "w": "るり", "r": "ruri", "m": "azure / lapis", "s": "るり の いし", "sm": "a lapis stone" },
+      { "w": "るびー", "r": "rubi", "m": "ruby", "s": "あかい るびー", "sm": "a red ruby" },
+      { "w": "るーぺ", "r": "rupe", "m": "loupe", "s": "るーぺ で みる", "sm": "look through a loupe" }
+    ]},
+    { "vowel": "れ", "theme": "lotus & lace", "items": [
+      { "w": "れんげ", "r": "renge", "m": "lotus flower", "s": "いけ の れんげ", "sm": "lotus in the pond" },
+      { "w": "れんこん", "r": "renkon", "m": "lotus root", "s": "しろい れんこん", "sm": "white lotus root" },
+      { "w": "れーす", "r": "resu", "m": "lace", "s": "しろい れーす", "sm": "white lace" }
+    ]},
+    { "vowel": "ろ", "theme": "candle & quiet", "items": [
+      { "w": "ろうそく", "r": "rousoku", "m": "candle", "s": "ろうそく の ひ", "sm": "a candle's flame" },
+      { "w": "ろじ", "r": "roji", "m": "alley", "s": "しずかな ろじ", "sm": "a quiet alley" },
+      { "w": "ろうか", "r": "rouka", "m": "corridor", "s": "ながい ろうか", "sm": "a long corridor" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

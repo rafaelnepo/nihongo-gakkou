@@ -1,0 +1,93 @@
+らりるれろ（いろ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (いけ, いし, ひ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   ら り る れ ろ
+
+═══ PART 1 · LEARN ═══
+らん
+しろい らん
+らっぱずいせん
+きいろい らっぱずいせん
+らくよう
+あき の らくよう
+ら り る れ ろ
+
+りんどう
+あおい りんどう
+りん
+ちいさい りん
+りぼん
+あかい りぼん
+ら り る れ ろ
+
+るり
+るり の いし
+るびー
+あかい るびー
+るーぺ
+るーぺ で みる
+ら り る れ ろ
+
+れんげ
+いけ の れんげ
+れんこん
+しろい れんこん
+れーす
+しろい れーす
+ら り る れ ろ
+
+ろうそく
+ろうそく の ひ
+ろじ
+しずかな ろじ
+ろうか
+ながい ろうか
+ら り る れ ろ
+
+═══ BRIDGE · いろ と ひかり ═══
+しろい らん、きいろい らっぱずいせん
+あおい りんどう、あかい りぼん
+るり の いし、あかい るびー
+いけ の れんげ、しろい れんこん
+ろうそく の ひ、しずかな ろじ
+あき の らくよう、ちいさい りん
+ら り る れ ろ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+しろい らん
+きいろい らっぱずいせん
+あき の らくよう
+あおい りんどう
+ちいさい りん
+あかい りぼん
+るり の いし
+あかい るびー
+るーぺ で みる
+いけ の れんげ
+しろい れんこん
+しろい れーす
+ろうそく の ひ
+しずかな ろじ
+ながい ろうか
+ら り る れ ろ
+
+(outro)   ら り る れ ろ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+らん=orchid · らっぱずいせん=daffodil · らくよう=fallen leaves · りんどう=gentian · りん=
+small bell · りぼん=ribbon · るり=lapis blue · るびー=ruby · るーぺ=loupe · れんげ=lotus ·
+れんこん=lotus root · れーす=lace · ろうそく=candle · ろじ=quiet alley · ろうか=corridor.
+Adjs/verbs: みる look · しろい white · きいろい yellow · あおい blue · あかい red · ちいさい
+small · しずかな quiet · ながい long. Recombined: いけ · いし · ひ · あき.
