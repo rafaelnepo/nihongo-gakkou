@@ -1,0 +1,70 @@
+{
+  "id": "03-sashisuseso-gohan",
+  "title": "さしすせそ",
+  "jp": "さ行 ・ gojuon row 3 ・ mealtime",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "03-sashisuseso", "theme": "mealtime", "index": 1, "siblings": ["shizen", "doubutsu"] },
+  "render": {
+    "trackName": "ごはん の じかん",
+    "trackNo": "03",
+    "row": "さしすせそ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the さ-row", "Gojuon by words", "Row 3 · さ行 · Mealtime"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 3 of the gojuon — さ し す せ そ — taught through a day of meals: shop for fish and sugar, salt the soup, eat sushi and watermelon, sit at the table, and finish with warm soba at grandma's under the evening sky. Say the food, then <strong>use it</strong>. The mealtime variation of three さ-row songs (mealtime · nature · animals).",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small action</strong> — さかな を かう, しお を いれる, せき に すわる — and it recombines with earlier rows (かう from か行, あまい from nature, たべる/あらう, そら from あ行), so さ行 keeps the ladder going (F-13).",
+    "The five-kana row <em>さ し す せ そ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>meal-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>mealtime</strong> variation — さ行 is unusually rich in food and household words, so the everyday cut is a kitchen-and-table day. Sing it beside the <em>nature</em> and <em>animals</em> cuts to read さ行 cold."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → meal-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "さ", "theme": "shopping", "items": [
+      { "w": "さいふ", "r": "saifu", "m": "wallet", "s": "さいふ を もつ", "sm": "bring the wallet" },
+      { "w": "さかな", "r": "sakana", "m": "fish", "s": "さかな を かう", "sm": "buy fish" },
+      { "w": "さとう", "r": "satou", "m": "sugar", "s": "さとう は あまい", "sm": "sugar is sweet" }
+    ]},
+    { "vowel": "し", "theme": "cooking", "items": [
+      { "w": "しお", "r": "shio", "m": "salt", "s": "しお を いれる", "sm": "add salt" },
+      { "w": "しる", "r": "shiru", "m": "soup", "s": "あつい しる", "sm": "hot soup" },
+      { "w": "しめじ", "r": "shimeji", "m": "shimeji mushroom", "s": "しめじ を たべる", "sm": "eat the mushrooms" }
+    ]},
+    { "vowel": "す", "theme": "eating", "items": [
+      { "w": "すし", "r": "sushi", "m": "sushi", "s": "おいしい すし", "sm": "delicious sushi" },
+      { "w": "すいか", "r": "suika", "m": "watermelon", "s": "あまい すいか", "sm": "sweet watermelon" },
+      { "w": "す", "r": "su", "m": "vinegar", "s": "す は すっぱい", "sm": "vinegar is sour" }
+    ]},
+    { "vowel": "せ", "theme": "at the table", "items": [
+      { "w": "せんべい", "r": "senbei", "m": "rice cracker", "s": "せんべい を たべる", "sm": "eat a rice cracker" },
+      { "w": "せき", "r": "seki", "m": "seat", "s": "せき に すわる", "sm": "sit in your seat" },
+      { "w": "せっけん", "r": "sekken", "m": "soap", "s": "せっけん で あらう", "sm": "wash with soap" }
+    ]},
+    { "vowel": "そ", "theme": "a cozy close", "items": [
+      { "w": "そば", "r": "soba", "m": "soba noodles", "s": "あたたかい そば", "sm": "warm soba" },
+      { "w": "そぼ", "r": "sobo", "m": "grandmother", "s": "そぼ の ごはん", "sm": "grandma's cooking" },
+      { "w": "そら", "r": "sora", "m": "sky", "s": "ゆうやけ の そら", "sm": "the sunset sky" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

@@ -1,0 +1,98 @@
+さしすせそ（どうぶつ）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 3 (さ行), ANIMALS variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH → a zoo-day BRIDGE → a REVIEW of the SENTENCES ONLY. Round 2 differs from
+round 1, dodging the identical-repeat collapse (F-08).
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP") — a lively zoo dance-along. For the
+kids sound add "children's chorus answering, call-and-response" to the style; city-pop is
+the fallback. Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+さ し す せ そ
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+さる
+さる が あそぶ
+さい
+さい ワ おおきい
+さかな
+さかな が およぐ
+さ し す せ そ
+
+[Verse]
+しか
+しか が いる
+しまうま
+しまうま が はしる
+しろくま
+しろくま ワ しろい
+さ し す せ そ
+
+[Verse]
+すずめ
+すずめ が とぶ
+すずむし
+すずむし が なく
+す
+とり の す
+さ し す せ そ
+
+[Verse]
+せみ
+せみ が なく
+せいうち
+せいうち が およぐ
+せなか
+くま の せなか
+さ し す せ そ
+
+[Verse]
+そら
+そら の とり
+そこ
+うみ の そこ
+そと
+そと の いぬ
+さ し す せ そ
+
+# ═══ BRIDGE · どうぶつえん の ひ (recombine — new, flowing) ═══
+
+[Bridge]
+さる と さい、どうぶつえん
+しか と しまうま、はしる
+すずめ が とぶ、そら エ
+せみ が なく、なつ の おと
+しろくま と せいうち、およぐ
+くま の せなか、おおきい
+さ し す せ そ
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+さる が あそぶ
+さい ワ おおきい
+さかな が およぐ
+しか が いる
+しまうま が はしる
+しろくま ワ しろい
+すずめ が とぶ
+すずむし が なく
+とり の す
+せみ が なく
+せいうち が およぐ
+くま の せなか
+そら の とり
+うみ の そこ
+そと の いぬ
+さ し す せ そ
+
+[Outro]
+さ し す せ そ

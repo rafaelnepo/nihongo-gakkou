@@ -1,0 +1,70 @@
+{
+  "id": "03-sashisuseso-doubutsu",
+  "title": "さしすせそ",
+  "jp": "さ行 ・ gojuon row 3 ・ animals",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "03-sashisuseso", "theme": "animals", "index": 3, "siblings": ["gohan", "shizen"] },
+  "render": {
+    "trackName": "にぎやかな どうぶつえん",
+    "trackNo": "03",
+    "row": "さしすせそ",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the さ-row", "Gojuon by words", "Row 3 · さ行 · Animals"],
+  "meta": ["Kids / city pop · playful (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 3 of the gojuon — さ し す せ そ — through animals: a monkey and a rhino, a deer and a zebra, a sparrow and a cricket, a cicada and a walrus. Say the animal, then watch it <strong>do something</strong>. The animals variation of three さ-row songs — the toughest row for animals, so it leans on a couple of honest detours.",
+  "concept": [
+    "Words alone blend (findings F-10), so every animal is taught <strong>in a small action</strong> — さる が あそぶ, すずめ が とぶ — and it recombines with earlier rows (くま, いぬ, うみ, and the verbs あそぶ・いる・とぶ・なく return), keeping the ladder (F-13).",
+    "The five-kana row <em>さ し す せ そ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>zoo-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>animals</strong> variation. Honest note: さ行 is the hardest row for animals yet — <em>せ</em> has few (せみ cicada, せいうち walrus, then せなか 'a back'), and <em>そ</em> has essentially none, so the そ verse teaches position words (そら sky, そこ depths, そと outside) with an animal in each scene. Two documented detours, in the spirit of か行's け and あ行's え. Pairs with the <strong>kids</strong> voice — a lively zoo dance-along."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Kids — playful (call & response + kids chorus) · try me", "text": "Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → zoo-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "さ", "theme": "at the zoo", "items": [
+      { "w": "さる", "r": "saru", "m": "monkey", "s": "さる が あそぶ", "sm": "a monkey plays" },
+      { "w": "さい", "r": "sai", "m": "rhinoceros", "s": "さい は おおきい", "sm": "the rhino is big" },
+      { "w": "さかな", "r": "sakana", "m": "fish", "s": "さかな が およぐ", "sm": "a fish swims" }
+    ]},
+    { "vowel": "し", "theme": "the plains", "items": [
+      { "w": "しか", "r": "shika", "m": "deer", "s": "しか が いる", "sm": "there's a deer" },
+      { "w": "しまうま", "r": "shimauma", "m": "zebra", "s": "しまうま が はしる", "sm": "a zebra runs" },
+      { "w": "しろくま", "r": "shirokuma", "m": "polar bear", "s": "しろくま は しろい", "sm": "the polar bear is white" }
+    ]},
+    { "vowel": "す", "theme": "little ones", "items": [
+      { "w": "すずめ", "r": "suzume", "m": "sparrow", "s": "すずめ が とぶ", "sm": "a sparrow flies" },
+      { "w": "すずむし", "r": "suzumushi", "m": "bell cricket", "s": "すずむし が なく", "sm": "a cricket chirps" },
+      { "w": "す", "r": "su", "m": "nest", "s": "とり の す", "sm": "a bird's nest" }
+    ]},
+    { "vowel": "せ", "theme": "summer & the sea", "items": [
+      { "w": "せみ", "r": "semi", "m": "cicada", "s": "せみ が なく", "sm": "a cicada cries" },
+      { "w": "せいうち", "r": "seiuchi", "m": "walrus", "s": "せいうち が およぐ", "sm": "a walrus swims" },
+      { "w": "せなか", "r": "senaka", "m": "back (of the body)", "s": "くま の せなか", "sm": "a bear's back" }
+    ]},
+    { "vowel": "そ", "theme": "where they are", "items": [
+      { "w": "そら", "r": "sora", "m": "sky", "s": "そら の とり", "sm": "a bird in the sky" },
+      { "w": "そこ", "r": "soko", "m": "the depths / bottom", "s": "うみ の そこ", "sm": "the depths of the sea" },
+      { "w": "そと", "r": "soto", "m": "outside", "s": "そと の いぬ", "sm": "a dog outside" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

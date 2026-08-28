@@ -1,0 +1,70 @@
+{
+  "id": "03-sashisuseso-shizen",
+  "title": "さしすせそ",
+  "jp": "さ行 ・ gojuon row 3 ・ nature",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "03-sashisuseso", "theme": "nature", "index": 2, "siblings": ["gohan", "doubutsu"] },
+  "render": {
+    "trackName": "せせらぎ の みち",
+    "trackNo": "03",
+    "row": "さしすせそ",
+    "channel": "iconotes",
+    "style": "Koto × modern",
+    "bpm": 90,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the さ-row", "Gojuon by words", "Row 3 · さ行 · Nature"],
+  "meta": ["Koto × modern · female/male (house voice)", "~90 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 3 of the gojuon — さ し す せ そ — through the outdoors and the seasons: cherry blossoms on a slope, an island in the sea, white sand and violets, a mountain brook and a summer cicada, the blue sky and a spring breeze. The calm nature variation of three さ-row songs.",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small image</strong> — さくら の はな, やま の せせらぎ, あおい そら — and it recombines with earlier rows (あめ, あき, うみ, あおい, かぜ, はる return), keeping the ladder (F-13).",
+    "The five-kana row <em>さ し す せ そ</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>seasons-walk bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>nature</strong> variation — the calm one, for a koto × modern arrangement. さ行 has the poetic nature words (さくら, せせらぎ, そよかぜ) that suit it best, and it carries the hard せ row gracefully (a mountain brook, a summer cicada, a wide vista)."
+  ],
+  "styles": [
+    { "label": "Koto × modern beat — the calm house take", "rec": true, "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "City pop — the house voice", "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → seasons-walk bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "さ", "theme": "the hillside", "items": [
+      { "w": "さくら", "r": "sakura", "m": "cherry blossom", "s": "さくら の はな", "sm": "cherry blossoms" },
+      { "w": "さか", "r": "saka", "m": "slope / hill", "s": "ながい さか", "sm": "a long slope" },
+      { "w": "さんぽ", "r": "sanpo", "m": "a walk", "s": "やま の さんぽ", "sm": "a mountain walk" }
+    ]},
+    { "vowel": "し", "theme": "water", "items": [
+      { "w": "しま", "r": "shima", "m": "island", "s": "うみ の しま", "sm": "an island in the sea" },
+      { "w": "しずく", "r": "shizuku", "m": "droplet", "s": "あめ の しずく", "sm": "a raindrop" },
+      { "w": "しみず", "r": "shimizu", "m": "spring water", "s": "つめたい しみず", "sm": "cold spring water" }
+    ]},
+    { "vowel": "す", "theme": "earth & flowers", "items": [
+      { "w": "すな", "r": "suna", "m": "sand", "s": "しろい すな", "sm": "white sand" },
+      { "w": "すみれ", "r": "sumire", "m": "violet", "s": "むらさきの すみれ", "sm": "a purple violet" },
+      { "w": "すすき", "r": "susuki", "m": "pampas grass", "s": "あき の すすき", "sm": "autumn pampas grass" }
+    ]},
+    { "vowel": "せ", "theme": "brook & cicada", "items": [
+      { "w": "せせらぎ", "r": "seseragi", "m": "a babbling brook", "s": "やま の せせらぎ", "sm": "a mountain brook" },
+      { "w": "せみ", "r": "semi", "m": "cicada", "s": "なつ の せみ", "sm": "a summer cicada" },
+      { "w": "せかい", "r": "sekai", "m": "the world", "s": "ひろい せかい", "sm": "a wide world" }
+    ]},
+    { "vowel": "そ", "theme": "sky & wind", "items": [
+      { "w": "そら", "r": "sora", "m": "sky", "s": "あおい そら", "sm": "the blue sky" },
+      { "w": "そよかぜ", "r": "soyokaze", "m": "a gentle breeze", "s": "はる の そよかぜ", "sm": "a spring breeze" },
+      { "w": "そこ", "r": "soko", "m": "the depths / bottom", "s": "うみ の そこ", "sm": "the depths of the sea" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

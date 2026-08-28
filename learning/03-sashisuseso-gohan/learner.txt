@@ -1,0 +1,74 @@
+さしすせそ（ごはん）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 3 (さ行). MEALTIME variation. Written 2026-08-28.
+
+CONCEPT: say the food, then USE it. Each さ-row word is taught through a short sentence,
+and the words gather into a day of meals — shop, cook, eat, sit at the table, and a cozy
+close at grandma's. One of THREE さ-row songs (mealtime · nature · animals). Recombines
+earlier rows (かう, あまい, そら) — the F-13 ladder. All hiragana; kanji here only for
+meaning.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+さ  ── SHOPPING
+  さいふ      (saifu)  wallet (財布)
+     → さいふ を もつ        (saifu o motsu)         bring the wallet
+  さかな      (sakana) fish (魚)
+     → さかな を かう        (sakana o kau)          buy fish
+  さとう      (satō)   sugar (砂糖)
+     → さとう は あまい      (satō wa amai)          sugar is sweet
+
+し  ── COOKING
+  しお        (shio)   salt (塩)
+     → しお を いれる        (shio o ireru)          add salt
+  しる        (shiru)  soup (汁)
+     → あつい しる          (atsui shiru)           hot soup
+  しめじ      (shimeji) shimeji mushroom (しめじ)
+     → しめじ を たべる      (shimeji o taberu)      eat the mushrooms
+
+す  ── EATING
+  すし        (sushi)  sushi (寿司)
+     → おいしい すし        (oishii sushi)          delicious sushi
+  すいか      (suika)  watermelon (すいか)
+     → あまい すいか        (amai suika)            sweet watermelon
+  す          (su)     vinegar (酢)
+     → す は すっぱい        (su wa suppai)          vinegar is sour
+
+せ  ── AT THE TABLE
+  せんべい    (senbei) rice cracker (煎餅)
+     → せんべい を たべる    (senbei o taberu)       eat a rice cracker
+  せき        (seki)   seat (席)
+     → せき に すわる        (seki ni suwaru)        sit in your seat
+  せっけん    (sekken) soap (石鹸)
+     → せっけん で あらう    (sekken de arau)        wash with soap
+
+そ  ── A COZY CLOSE
+  そば        (soba)   soba noodles (そば)
+     → あたたかい そば      (atatakai soba)         warm soba
+  そぼ        (sobo)   grandmother (祖母)
+     → そぼ の ごはん        (sobo no gohan)         grandma's cooking
+  そら        (sora)   sky (空)
+     → ゆうやけ の そら      (yūyake no sora)        the sunset sky
+
+REFRAIN
+  さ し す せ そ  (sa shi su se so)   the さ-row
+────────────────────────────────────────────────────────────────────────
+
+QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs: もつ hold/bring, かう buy, いれる put in, たべる eat, すわる sit, あらう wash.
+· Adjectives (tastes!): あまい sweet, あつい hot, おいしい delicious, すっぱい sour,
+  あたたかい warm.
+· Particles: を (object, "o"), は (topic, "wa"), に (in/at), で (with/by), の (of).
+· Recombination WITH EARLIER ROWS: かう (from か行), あまい (from the nature cuts), そら
+  (from あ行) return — that re-meeting is the practice (F-13).
+
+The TARGET is the さ-row words; the sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 (learn) → a BRIDGE that strings the meal into one day →
+a REVIEW of the sentences only (sing along). Extra words in the bridge: かいもの (shopping),
+つくる (to make). Note the wordplay in the close — そぼ の そば = "beside grandma", the same
+そば as the noodles.
+
+SIBLINGS (same five kana): 03-sashisuseso-shizen (nature) and 03-sashisuseso-doubutsu
+(animals). Sing all three to read さ行 cold.

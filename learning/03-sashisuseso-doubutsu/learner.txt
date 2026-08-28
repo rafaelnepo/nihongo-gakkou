@@ -1,0 +1,74 @@
+さしすせそ（どうぶつ）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 3 (さ行). ANIMALS variation. Written 2026-08-28.
+
+CONCEPT: say the animal, then see it DO something. Each さ-row word is taught through a short
+sentence, gathered into a lively zoo day. One of THREE さ-row songs (mealtime · nature ·
+animals). Recombines earlier rows (くま, いぬ, うみ + verbs あそぶ・いる・とぶ・なく) — the
+F-13 ladder. All hiragana; kanji here only for meaning.
+
+HONEST NOTE: さ行 is the hardest row for animals. せ has few (せみ, せいうち, then せなか,
+a body part), and そ has essentially none — so the そ verse teaches POSITION words (そら sky,
+そこ depths, そと outside) with an animal in each scene. Two documented detours, like か行's
+け and あ行's え. (The mealtime and nature cuts are the cleaner さ-row songs.)
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+さ  ── AT THE ZOO
+  さる        (saru)   monkey (猿)
+     → さる が あそぶ        (saru ga asobu)         a monkey plays
+  さい        (sai)    rhinoceros (サイ)
+     → さい は おおきい      (sai wa ōkii)           the rhino is big
+  さかな      (sakana) fish (魚)
+     → さかな が およぐ      (sakana ga oyogu)       a fish swims
+
+し  ── THE PLAINS
+  しか        (shika)  deer (鹿)
+     → しか が いる          (shika ga iru)          there's a deer
+  しまうま    (shimauma) zebra (縞馬)
+     → しまうま が はしる    (shimauma ga hashiru)   a zebra runs
+  しろくま    (shirokuma) polar bear (白熊)
+     → しろくま は しろい    (shirokuma wa shiroi)   the polar bear is white
+
+す  ── LITTLE ONES
+  すずめ      (suzume) sparrow (雀)
+     → すずめ が とぶ        (suzume ga tobu)        a sparrow flies
+  すずむし    (suzumushi) bell cricket (鈴虫)
+     → すずむし が なく      (suzumushi ga naku)     a cricket chirps
+  す          (su)     nest (巣)
+     → とり の す            (tori no su)            a bird's nest
+
+せ  ── SUMMER & THE SEA   (few せ animals — せなか is the detour)
+  せみ        (semi)   cicada (蝉)
+     → せみ が なく          (semi ga naku)          a cicada cries
+  せいうち    (seiuchi) walrus (セイウチ)
+     → せいうち が およぐ    (seiuchi ga oyogu)      a walrus swims
+  せなか      (senaka) back (背中)
+     → くま の せなか        (kuma no senaka)        a bear's back
+
+そ  ── WHERE THEY ARE   (no さ-row animal — position words, an animal in each scene)
+  そら        (sora)   sky (空)
+     → そら の とり          (sora no tori)          a bird in the sky
+  そこ        (soko)   the depths / bottom (底)
+     → うみ の そこ          (umi no soko)           the depths of the sea
+  そと        (soto)   outside (外)
+     → そと の いぬ          (soto no inu)           a dog outside
+
+REFRAIN
+  さ し す せ そ  (sa shi su se so)   the さ-row
+────────────────────────────────────────────────────────────────────────
+
+QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs: あそぶ play, およぐ swim, いる be, はしる run, とぶ fly, なく cry/chirp.
+· Adjectives: おおきい big, しろい white. Position: そら sky, そこ depths, そと outside.
+· Particles: が (subject), は (topic, "wa"), の (of).
+· Recombination WITH EARLIER ROWS: くま (from か行), いぬ (from あ行), うみ all return.
+
+The TARGET is the さ-row words; the sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 (learn) → a zoo-day BRIDGE → a REVIEW of the sentences
+only (sing along). Extra word in the bridge: おと (sound).
+
+SIBLINGS (same five kana): 03-sashisuseso-gohan (mealtime) and 03-sashisuseso-shizen
+(nature) — the cleaner two さ-row cuts. Sing all three to read さ行 cold.

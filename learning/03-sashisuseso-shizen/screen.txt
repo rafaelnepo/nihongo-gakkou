@@ -1,0 +1,94 @@
+さしすせそ（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (あめ, あき, うみ, そら, かぜ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   さ し す せ そ
+
+═══ PART 1 · LEARN ═══
+さくら
+さくら の はな
+さか
+ながい さか
+さんぽ
+やま の さんぽ
+さ し す せ そ
+
+しま
+うみ の しま
+しずく
+あめ の しずく
+しみず
+つめたい しみず
+さ し す せ そ
+
+すな
+しろい すな
+すみれ
+むらさきの すみれ
+すすき
+あき の すすき
+さ し す せ そ
+
+せせらぎ
+やま の せせらぎ
+せみ
+なつ の せみ
+せかい
+ひろい せかい
+さ し す せ そ
+
+そら
+あおい そら
+そよかぜ
+はる の そよかぜ
+そこ
+うみ の そこ
+さ し す せ そ
+
+═══ BRIDGE · きせつ の さんぽ ═══
+さくら の さか、はる の みち
+うみ の しま、しろい すな
+やま の せせらぎ、なつ の せみ
+あき の すすき、すずしい かぜ
+あおい そら、そよかぜ
+しずかな しみず、つめたい
+さ し す せ そ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+さくら の はな
+ながい さか
+やま の さんぽ
+うみ の しま
+あめ の しずく
+つめたい しみず
+しろい すな
+むらさきの すみれ
+あき の すすき
+やま の せせらぎ
+なつ の せみ
+ひろい せかい
+あおい そら
+はる の そよかぜ
+うみ の そこ
+さ し す せ そ
+
+(outro)   さ し す せ そ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+さくら=cherry blossoms · さか=slope/hill · さんぽ=walking · しま=island · しずく=water
+droplet · しみず=spring/clear water · すな=sand · すみれ=violet flower · すすき=pampas
+grass · せせらぎ=brook/stream · せみ=cicada · せかい=world/vista · そら=blue sky ·
+そよかぜ=gentle breeze (leaves) · そこ=sea floor. Adjs: ながい long · つめたい cold ·
+しろい white · むらさきの purple · ひろい wide · あおい blue · すずしい cool. Recombined:
+あめ · あき · うみ · そら · かぜ · はる.

@@ -1,0 +1,62 @@
+さしすせそ（ごはん）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 3 (さ行), MEALTIME variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+The full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: house voice — city-pop + female Persona (F-11). Custom mode; don't re-set gender.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+さ し す せ そ
+
+[Verse]
+さいふ
+さいふ オ もつ
+さかな
+さかな オ かう
+さとう
+さとう ワ あまい
+さ し す せ そ
+
+[Verse]
+しお
+しお オ いれる
+しる
+あつい しる
+しめじ
+しめじ オ たべる
+さ し す せ そ
+
+[Verse]
+すし
+おいしい すし
+すいか
+あまい すいか
+す
+す ワ すっぱい
+さ し す せ そ
+
+[Verse]
+せんべい
+せんべい オ たべる
+せき
+せき に すわる
+せっけん
+せっけん で あらう
+さ し す せ そ
+
+[Verse]
+そば
+あたたかい そば
+そぼ
+そぼ の ごはん
+そら
+ゆうやけ の そら
+さ し す せ そ
+
+[Outro]
+さ し す せ そ

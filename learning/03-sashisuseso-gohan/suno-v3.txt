@@ -1,0 +1,98 @@
+さしすせそ（ごはん）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 3 (さ行), MEALTIME variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH (word→sentence) → a meal-day BRIDGE → a REVIEW of the SENTENCES ONLY. Round
+2 differs from round 1, dodging the identical-repeat collapse (F-08).
+  · The ~2:00 short / vertical cut = PART 1 only (this file's teach = v2).
+
+VOICE: house voice — city-pop + female Persona (F-11). Custom mode; don't re-set gender.
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+DURATION: Auto (ends on the [Outro]); do not pad to 3:00 with a longer Custom (F-15).
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+さ し す せ そ
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+さいふ
+さいふ オ もつ
+さかな
+さかな オ かう
+さとう
+さとう ワ あまい
+さ し す せ そ
+
+[Verse]
+しお
+しお オ いれる
+しる
+あつい しる
+しめじ
+しめじ オ たべる
+さ し す せ そ
+
+[Verse]
+すし
+おいしい すし
+すいか
+あまい すいか
+す
+す ワ すっぱい
+さ し す せ そ
+
+[Verse]
+せんべい
+せんべい オ たべる
+せき
+せき に すわる
+せっけん
+せっけん で あらう
+さ し す せ そ
+
+[Verse]
+そば
+あたたかい そば
+そぼ
+そぼ の ごはん
+そら
+ゆうやけ の そら
+さ し す せ そ
+
+# ═══ BRIDGE · ごはん の いちにち (recombine — new, flowing) ═══
+
+[Bridge]
+さいふ オ もって、かいもの
+さかな と しめじ、かう
+しお オ いれて、しる オ つくる
+すし と すいか、おいしい
+せき に すわって、たべる
+そぼ の そば、ゆうやけ
+さ し す せ そ
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+さいふ オ もつ
+さかな オ かう
+さとう ワ あまい
+しお オ いれる
+あつい しる
+しめじ オ たべる
+おいしい すし
+あまい すいか
+す ワ すっぱい
+せんべい オ たべる
+せき に すわる
+せっけん で あらう
+あたたかい そば
+そぼ の ごはん
+ゆうやけ の そら
+さ し す せ そ
+
+[Outro]
+さ し す せ そ

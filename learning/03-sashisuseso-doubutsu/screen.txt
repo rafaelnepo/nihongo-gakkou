@@ -1,0 +1,93 @@
+さしすせそ（どうぶつ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya animal, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (くま, いぬ, うみ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   さ し す せ そ
+
+═══ PART 1 · LEARN ═══
+さる
+さる が あそぶ
+さい
+さい は おおきい
+さかな
+さかな が およぐ
+さ し す せ そ
+
+しか
+しか が いる
+しまうま
+しまうま が はしる
+しろくま
+しろくま は しろい
+さ し す せ そ
+
+すずめ
+すずめ が とぶ
+すずむし
+すずむし が なく
+す
+とり の す
+さ し す せ そ
+
+せみ
+せみ が なく
+せいうち
+せいうち が およぐ
+せなか
+くま の せなか
+さ し す せ そ
+
+そら
+そら の とり
+そこ
+うみ の そこ
+そと
+そと の いぬ
+さ し す せ そ
+
+═══ BRIDGE · どうぶつえん の ひ ═══
+さる と さい、どうぶつえん
+しか と しまうま、はしる
+すずめ が とぶ、そら へ
+せみ が なく、なつ の おと
+しろくま と せいうち、およぐ
+くま の せなか、おおきい
+さ し す せ そ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+さる が あそぶ
+さい は おおきい
+さかな が およぐ
+しか が いる
+しまうま が はしる
+しろくま は しろい
+すずめ が とぶ
+すずむし が なく
+とり の す
+せみ が なく
+せいうち が およぐ
+くま の せなか
+そら の とり
+うみ の そこ
+そと の いぬ
+さ し す せ そ
+
+(outro)   さ し す せ そ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+さる=monkey · さい=rhino · さかな=fish · しか=deer · しまうま=zebra · しろくま=polar bear
+· すずめ=sparrow · すずむし=bell cricket · す=bird's nest · せみ=cicada · せいうち=walrus ·
+せなか=an animal's back (a bear from behind) · そら=bird in the sky · そこ=deep sea · そと=
+a dog outside. Verbs/adjs: あそぶ play · およぐ swim · いる be · はしる run · とぶ fly · なく
+cry · おおきい big · しろい white. Recombined: くま (ka-row) · いぬ (a-row) · うみ.

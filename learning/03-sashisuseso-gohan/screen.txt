@@ -1,0 +1,94 @@
+さしすせそ（ごはん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (かう, あまい, そら) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   さ し す せ そ
+
+═══ PART 1 · LEARN ═══
+さいふ
+さいふ を もつ
+さかな
+さかな を かう
+さとう
+さとう は あまい
+さ し す せ そ
+
+しお
+しお を いれる
+しる
+あつい しる
+しめじ
+しめじ を たべる
+さ し す せ そ
+
+すし
+おいしい すし
+すいか
+あまい すいか
+す
+す は すっぱい
+さ し す せ そ
+
+せんべい
+せんべい を たべる
+せき
+せき に すわる
+せっけん
+せっけん で あらう
+さ し す せ そ
+
+そば
+あたたかい そば
+そぼ
+そぼ の ごはん
+そら
+ゆうやけ の そら
+さ し す せ そ
+
+═══ BRIDGE · ごはん の いちにち ═══
+さいふ を もって、かいもの
+さかな と しめじ、かう
+しお を いれて、しる を つくる
+すし と すいか、おいしい
+せき に すわって、たべる
+そぼ の そば、ゆうやけ
+さ し す せ そ
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+さいふ を もつ
+さかな を かう
+さとう は あまい
+しお を いれる
+あつい しる
+しめじ を たべる
+おいしい すし
+あまい すいか
+す は すっぱい
+せんべい を たべる
+せき に すわる
+せっけん で あらう
+あたたかい そば
+そぼ の ごはん
+ゆうやけ の そら
+さ し す せ そ
+
+(outro)   さ し す せ そ
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+さいふ=wallet · さかな=fish · さとう=sugar · しお=salt · しる=bowl of soup · しめじ=
+shimeji mushrooms · すし=sushi · すいか=watermelon · す=vinegar bottle · せんべい=rice
+cracker · せき=chair/seat · せっけん=soap · そば=bowl of soba · そぼ=grandmother · そら=
+sunset sky. Verbs/adjs: もつ hold · かう buy · いれる put in · たべる eat · すわる sit ·
+あらう wash · あまい sweet · あつい hot · おいしい delicious · すっぱい sour · あたたかい
+warm. Recombined: かう (ka-row) · あまい (nature) · そら (a-row).
