@@ -24,6 +24,14 @@ video/public/*
 # local Suno exports (art/video), kept out of the repo
 assets/
 
+# ── Per-song generated + local render assets (source stays tracked; these don't) ──
+# audio/  = the chosen render take (staged into public/ by tools/sync.mjs)
+# il/     = illustrations fetched from the Irasutoya catalogue
+# build/  = generated, non-published artifacts (timing description, vocab export)
+learning/*/audio/
+learning/*/il/
+learning/*/build/
+
 # ── OS / editor ──
 .DS_Store
 *.log

@@ -125,3 +125,48 @@ text, what was excluded, what changed, what happened.
 → hand-timing → template. Each one is cheap and de-risks the next. The Remotion
 template is last because it is the most expensive thing to build and the easiest
 to build wrong.
+
+---
+
+## Implementation map — the stages as real commands
+
+The template exists now, and each stage below is a concrete command. Folder layout,
+naming, and the single-source-of-truth model are documented in `PROJECT-STRUCTURE.md`.
+`<id>` is the slug, e.g. `01-aiueo`.
+
+| Stage | Command(s) | Notes |
+|---|---|---|
+| 0 Strand | (read `learning/<id>/song.json` → `strand`) | `personal/` stops after stage 6. |
+| 1 Write | author `learner.txt`, `screen.txt`, `suno-*.txt` by hand | the three-document rule above. |
+| 2 Lint | `python3 tools/kanji_grade.py learning/<id>/screen.txt --grade N` | + the F-08 adjacency check; + slug-only path check. |
+| 3 Generate | (Suno, external) → take into `learning/<id>/Songs/` | one pass (F-09). |
+| 4 Audit | read `screen.txt` along with the take | eyes on every line — the only dropped-line detector. |
+| 5 Repair | (Suno paid, external) | mid-song pronunciation fixes. |
+| 6 Assemble | choose take → `learning/<id>/audio/master.wav` | sting + song + sign-off. **personal/ ends here.** |
+| 7 Timing | `node tools/build_learning_timing.mjs <id>` → `python3 tools/align/align_song.py <id>` → (opt.) `npm --prefix video run nudge` | scaffold → forced-align → hand-tune. Merge-preserving: re-running the scaffold on an aligned song only refreshes the header. |
+| 8 Video | `node tools/gen_registry.mjs` → `node tools/sync.mjs <id>` → `npm --prefix video run render -- <id>` (and `<id>-vertical`) | outputs to `video/out/<id>/` (canonical, overwrite). |
+| 9 Thumbnail | `npm --prefix video run still -- <id> …` + `tools/kanji_grade.py` panel | → `video/out/<id>/<id>-thumb.png`. |
+| 10 Publish | `node tools/gen_description.mjs <id>` → paste `build/description.txt`; upload `out/<id>/` cut + `build/vocab.md` | YouTube. |
+| 11 Log | append the recipe to `findings.md` | every entry cost a generation. |
+
+Adding a song is the stage-7/8 chain with no `.tsx` edits — see
+`PROJECT-STRUCTURE.md` → *Add a new song*.
+
+## Future — a thin orchestrator (not built yet)
+
+Today each stage is a separate manual command, which is the right amount of
+structure for a handful of songs. When the slate grows, wrap the above in one
+dispatcher so a stage span runs with precondition checks and logging:
+
+```
+node tools/pipeline/run.mjs <id> --stage=video      # one stage
+node tools/pipeline/run.mjs <id> --from=timing --to=publish   # a span
+```
+
+`run.mjs` would only *sequence* the existing scripts (each stage shells out to the
+command in the table above) — nothing gets rewritten. It would also gate by strand
+(personal stops at 6) and refuse a stage whose inputs are missing (no `audio/master.wav`
+before timing, no aligned timing before video). A repo-root `package.json` could then
+expose `npm run pipeline -- <id> …` as the single entrypoint the project currently
+lacks. Deferred deliberately: the value only appears past a few songs, and the design
+is captured here so it can be built without re-deciding it.

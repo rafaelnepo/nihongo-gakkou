@@ -1,122 +1,209 @@
 #!/usr/bin/env node
-// build_learning_timing.mjs — emit a PLACEHOLDER learning-video timing for a song.
+// build_learning_timing.mjs — emit / refresh a learning-video timing JSON for a song.
 //
-//   node tools/build_learning_timing.mjs
+//   node tools/build_learning_timing.mjs 01-aiueo          # header refresh or scaffold
+//   node tools/build_learning_timing.mjs 02-kakikukeko      # scaffold a new song
+//   node tools/build_learning_timing.mjs 01-aiueo --force   # rebuild lines from source
 //
-// The learning video shows two lines at a time (current fills red, next waits in
-// grey), illustrations orbiting the current verse, and corner metadata. This
-// script writes video/timing/01-aiueo.learning.json with lines distributed evenly
-// (weighted so sentences get more time) across the audio. It is a SCAFFOLD:
-// tools/align (WhisperX) later overwrites each line's start/end and adds per-char
-// `chars[]` from the real vocal. Text is screen form — all hiragana, no romaji.
+// SINGLE SOURCE OF TRUTH: everything derives from the song's folder:
+//   learning/<id>/song.json   -> `render` header block + `vocab[]` (the teach lines)
+//   learning/<id>/screen.txt   -> the creative tail (BRIDGE + REVIEW + outro)
+//   learning/<id>/audio/master.wav -> probed for the placeholder duration
 //
-// `illos` are romaji keys resolving to video/public/il/01-aiueo/<key>.png
-// (see tools/illustrations). `target` marks the word being taught on that line.
+// TEACH section (intro + one verse per vowel group + its refrain) is byte-exactly
+// rebuilt from vocab[]. The BRIDGE/REVIEW/outro tail is parsed from screen.txt and
+// scaffolded with default illustrations (marked for the author to confirm).
+//
+// MERGE-PRESERVING: if the timing file already exists and is ALIGNED
+// (placeholder:false), the aligned `chars[]` + nudge fields (startShift/endShift/
+// wordShifts/delay/offsetSeconds) are the real work — they are preserved and only
+// the HEADER is refreshed from song.json. Pass --force to rebuild lines[] anyway
+// (discards alignment — only for a song you are re-timing from scratch).
+//
+// The align pass (tools/align) later overwrites start/end and fills chars[] on a
+// freshly-scaffolded (placeholder:true) file.
 
-import { writeFileSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { execFileSync } from "node:child_process";
 
 const REPO = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+const STRANDS = ["learning", "personal"];
 
-// ---- the song's structure (from learning/01-aiueo/screen.txt) --------------
-const REFRAIN = "あ い う え お";
-const A = ["asa", "ame", "ao"], I = ["ie", "inu", "iku"], U = ["umi", "uta", "usagi"];
-const E = ["eki", "enpitsu", "en"], O = ["onigiri", "ocha", "okane"];
+const die = (msg) => { console.error(`build_learning_timing: ${msg}`); process.exit(1); };
 
-// a verse: word → sentence for each of its 3 words, then the row refrain
-const verse = (illos, rows) => [
-  ...rows.flatMap(([word, sentence, target]) => [
-    { text: word, section: "verse", illos, target, kind: "word" },
-    { text: sentence, section: "verse", illos, target, kind: "sentence" },
-  ]),
-  { text: REFRAIN, section: "refrain", illos, kind: "refrain" },
-];
-
-const LINES = [
-  { text: REFRAIN, section: "intro", illos: [...A], kind: "refrain" },
-
-  ...verse(A, [
-    ["あさ", "おはよう", "asa"],
-    ["あめ", "あさ から あめ", "ame"],
-    ["あお", "あめ の あと、そら は あおい", "ao"],
-  ]),
-  ...verse(I, [
-    ["いえ", "ただいま", "ie"],
-    ["いぬ", "いえ に いぬ が いる", "inu"],
-    ["いく", "いぬ と さんぽ に いく", "iku"],
-  ]),
-  ...verse(U, [
-    ["うみ", "うみ へ いく", "umi"],
-    ["うた", "うた を うたう", "uta"],
-    ["うさぎ", "うさぎ が いる", "usagi"],
-  ]),
-  ...verse(E, [
-    ["えき", "えき へ いく", "eki"],
-    ["えんぴつ", "えんぴつ を かう", "enpitsu"],
-    ["えん", "えんぴつ は ひゃくえん", "en"],
-  ]),
-  ...verse(O, [
-    ["おにぎり", "おにぎり を たべる", "onigiri"],
-    ["おちゃ", "おちゃ を のむ", "ocha"],
-    ["おかね", "おかね を はらう", "okane"],
-  ]),
-
-  // bridge — "the day": the words recombine into one little scene
-  { text: "おはよう、あさ だよ", section: "bridge", illos: [...A], kind: "sentence" },
-  { text: "あめ の あと、そら は あおい", section: "bridge", illos: [...A], kind: "sentence" },
-  { text: "いえ に かえって、いぬ と さんぽ", section: "bridge", illos: [...I], kind: "sentence" },
-  { text: "うみ で うた を うたう", section: "bridge", illos: [...U], kind: "sentence" },
-  { text: "えき で えんぴつ、ひゃくえん", section: "bridge", illos: [...E], kind: "sentence" },
-  { text: "おにぎり と おちゃ", section: "bridge", illos: [...O], kind: "sentence" },
-  { text: REFRAIN, section: "refrain", illos: [...A], kind: "refrain" },
-
-  // review — sentences only, sing along
-  ...[
-    ["おはよう", A], ["あさ から あめ", A], ["あめ の あと、そら は あおい", A],
-    ["ただいま", I], ["いえ に いぬ が いる", I], ["いぬ と さんぽ に いく", I],
-    ["うみ へ いく", U], ["うた を うたう", U], ["うさぎ が いる", U],
-    ["えき へ いく", E], ["えんぴつ を かう", E], ["ひゃくえん です", E],
-    ["おにぎり を たべる", O], ["おちゃ を のむ", O], ["おかね を はらう", O],
-  ].map(([text, illos]) => ({ text, section: "review", illos: [...illos], kind: "sentence" })),
-  { text: REFRAIN, section: "outro", illos: [...A], kind: "refrain" },
-];
-
-// ---- distribute placeholder timings across the audio ------------------------
-const DURATION = 179.47; // the 3-min city-pop cut (ffprobe); align pass refines
-const COUNT_IN = 2.5;   // dots count-in before the first line
-const TAIL = 1.5;
-const weightOf = (l) => (l.kind === "sentence" ? 1.5 : l.kind === "refrain" ? 1.2 : 1.0);
-
-const totalW = LINES.reduce((s, l) => s + weightOf(l), 0);
-const span = DURATION - COUNT_IN - TAIL;
-let t = COUNT_IN;
-const lines = LINES.map((l) => {
-  const dur = (weightOf(l) / totalW) * span;
-  const line = { text: l.text, start: +t.toFixed(2), end: +(t + dur * 0.92).toFixed(2), section: l.section, illos: l.illos };
-  if (l.target) line.target = l.target;
-  t += dur;
-  return line;
-});
-
-const timing = {
-  song: "01-aiueo",
-  title: "あいうえお",
-  channel: "iconotes",
-  style: "City Pop",
-  bpm: 92,
-  ilBase: "il/01-aiueo",
-  fps: 30,
-  width: 1920,
-  height: 1080,
-  audio: "01-aiueo.wav",
-  placeholder: true,
-  durationSeconds: DURATION,
-  countInSeconds: COUNT_IN,
-  tailSeconds: TAIL,
-  lines,
+const songDir = (id) => {
+  for (const s of STRANDS) {
+    const d = resolve(REPO, s, id);
+    if (existsSync(d)) return d;
+  }
+  return die(`no source folder for "${id}" under ${STRANDS.join("/ or ")}/`);
 };
 
-const out = resolve(REPO, "video/timing/01-aiueo.learning.json");
-writeFileSync(out, JSON.stringify(timing, null, 2) + "\n");
-console.log(`wrote ${lines.length} lines -> video/timing/01-aiueo.learning.json (${DURATION}s, placeholder)`);
+const stripSpaces = (s) => s.replace(/\s+/g, "");
+
+// Probe audio length (seconds) with ffprobe; fall back to a nominal 180s scaffold.
+const probeDuration = (wav) => {
+  try {
+    const out = execFileSync("ffprobe", [
+      "-v", "error", "-show_entries", "format=duration",
+      "-of", "default=noprint_wrappers=1:nokey=1", wav,
+    ], { encoding: "utf8" });
+    const d = parseFloat(out.trim());
+    return Number.isFinite(d) ? +d.toFixed(2) : null;
+  } catch {
+    return null;
+  }
+};
+
+// ── Teach section from vocab[] (deterministic, byte-exact) ───────────────────
+// vocab is an array of groups: { vowel, items: [{ w, r, m, s }, ...] }.
+const teachLines = (vocab, row) => {
+  const refrain = row.split("").join(" "); // "あいうえお" -> "あ い う え お"
+  const lines = [];
+  const groupIllos = vocab.map((g) => g.items.map((it) => it.r));
+
+  // intro refrain, illustrated with the first group
+  lines.push({ text: refrain, section: "intro", illos: groupIllos[0], kind: "refrain" });
+
+  vocab.forEach((g, gi) => {
+    const illos = groupIllos[gi];
+    for (const it of g.items) {
+      lines.push({ text: it.w, section: "verse", illos, target: it.r, kind: "word" });
+      lines.push({ text: it.s, section: "verse", illos, target: it.r, kind: "sentence" });
+    }
+    lines.push({ text: refrain, section: "refrain", illos, kind: "refrain" });
+  });
+
+  return lines;
+};
+
+// ── Creative tail from screen.txt (BRIDGE + REVIEW + outro) ──────────────────
+// These lines are authored recombinations, not in vocab[]. We take their text and
+// section from screen.txt; illustrations default to the first group and are flagged
+// for the author to assign per line.
+const tailLines = (screenTxt, row, defaultIllos) => {
+  const refrain = row.split("").join(" ");
+  const isRefrain = (t) => stripSpaces(t) === stripSpaces(row);
+  const raw = screenTxt.split(/\r?\n/).map((l) => l.trim());
+
+  const out = [];
+  let region = null; // "bridge" | "review" | "done"
+  let flagged = 0;
+  for (const line of raw) {
+    if (!line) continue;
+    // Section markers are ONLY the decorated header rules (═══ … ═══), never prose
+    // that happens to mention "BRIDGE"/"PART 2" (e.g. the "PART 1 + BRIDGE" note up top).
+    const isHeader = /^═+/.test(line);
+    if (isHeader && /BRIDGE/i.test(line)) { region = "bridge"; continue; }
+    if (isHeader && /(PART\s*2|REVIEW)/i.test(line)) { region = "review"; continue; }
+    if (isHeader) { region = "skip"; continue; }  // PART 1 / any other header: teach owns it
+    if (/^\(outro\)/i.test(line)) {
+      const t = line.replace(/^\(outro\)\s*/i, "").trim() || refrain;
+      out.push({ text: t, section: "outro", illos: defaultIllos, kind: "refrain" });
+      region = "done";
+      continue;
+    }
+    if (region === "done") break;               // ILLUSTRATION MAP etc. after outro
+    if (region === null || region === "skip") continue; // header / intro / PART 1 → vocab handles
+    if (/^─/.test(line)) continue;                // decorative rules
+    if (/^\(intro\)/i.test(line)) continue;
+
+    const section = isRefrain(line) ? "refrain" : region;
+    const l = { text: line, section, illos: defaultIllos, kind: isRefrain(line) ? "refrain" : "sentence" };
+    if (!isRefrain(line)) flagged++;
+    out.push(l);
+  }
+  return { lines: out, flagged };
+};
+
+// ── Placeholder timing distribution (align pass refines) ─────────────────────
+const weightOf = (l) => (l.kind === "sentence" ? 1.5 : l.kind === "refrain" ? 1.2 : 1.0);
+
+const distribute = (LINES, duration, countIn, tail) => {
+  const totalW = LINES.reduce((s, l) => s + weightOf(l), 0);
+  const span = duration - countIn - tail;
+  let t = countIn;
+  return LINES.map((l) => {
+    const dur = (weightOf(l) / totalW) * span;
+    const line = {
+      text: l.text, start: +t.toFixed(2), end: +(t + dur * 0.92).toFixed(2),
+      section: l.section, illos: l.illos,
+    };
+    if (l.target) line.target = l.target;
+    t += dur;
+    return line;
+  });
+};
+
+// ── Build the header from song.json.render (the single source of truth) ──────
+const buildHeader = (id, song, duration) => {
+  const r = song.render || {};
+  const need = ["trackName", "trackNo", "row", "channel", "style", "bpm"];
+  for (const k of need) if (r[k] === undefined) die(`song.json.render.${k} is required`);
+  return {
+    song: id,
+    title: song.title,
+    trackName: r.trackName,
+    trackNo: r.trackNo,
+    row: r.row,
+    channel: r.channel,
+    style: r.style,
+    bpm: r.bpm,
+    ilBase: `${id}/il`,
+    fps: r.fps ?? 30,
+    width: r.width ?? 1920,
+    height: r.height ?? 1080,
+    audio: `${id}/audio.wav`,
+    countInSeconds: r.countInSeconds ?? 1.1,
+    tailSeconds: r.tailSeconds ?? 1.5,
+    ...(duration ? { durationSeconds: duration } : {}),
+  };
+};
+
+const main = () => {
+  const args = process.argv.slice(2);
+  const force = args.includes("--force");
+  const id = args.find((a) => !a.startsWith("--"));
+  if (!id) die("usage: node tools/build_learning_timing.mjs <id> [--force]");
+
+  const dir = songDir(id);
+  const song = JSON.parse(readFileSync(resolve(dir, "song.json"), "utf8"));
+  const row = song.render?.row ?? die("song.json.render.row is required");
+  const wav = resolve(dir, "audio", "master.wav");
+  const duration = existsSync(wav) ? probeDuration(wav) : null;
+
+  const header = buildHeader(id, song, duration);
+  const outPath = resolve(REPO, "video/timing", `${id}.learning.json`);
+  const exists = existsSync(outPath);
+  const prior = exists ? JSON.parse(readFileSync(outPath, "utf8")) : null;
+
+  // MERGE-PRESERVE: aligned file, no --force -> keep everything (lines, chars[],
+  // nudge fields, align provenance like `_aligned`, global offsetSeconds) and only
+  // overlay the SSOT-owned header fields regenerated from song.json.
+  if (prior && prior.placeholder === false && !force) {
+    const merged = { ...prior, ...header, placeholder: false, lines: prior.lines };
+    writeFileSync(outPath, JSON.stringify(merged, null, 2) + "\n");
+    console.log(`refreshed header for ${id} (aligned lines preserved). Use --force to rebuild lines.`);
+    return;
+  }
+
+  // Fresh scaffold: teach (vocab) + tail (screen.txt).
+  const screen = readFileSync(resolve(dir, "screen.txt"), "utf8");
+  const groupIllos0 = song.vocab?.[0]?.items?.map((it) => it.r) ?? [];
+  const teach = teachLines(song.vocab, row);
+  const { lines: tail, flagged } = tailLines(screen, row, groupIllos0);
+  const LINES = [...teach, ...tail];
+
+  const dur = duration ?? 180;
+  const lines = distribute(LINES, dur, header.countInSeconds, header.tailSeconds);
+  const timing = { ...header, placeholder: true, durationSeconds: dur, lines };
+  writeFileSync(outPath, JSON.stringify(timing, null, 2) + "\n");
+  console.log(
+    `wrote ${lines.length} lines -> video/timing/${id}.learning.json ` +
+    `(${dur}s, placeholder). ${flagged} tail line(s) need illos confirmed by hand.`
+  );
+};
+
+main();

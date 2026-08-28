@@ -4,8 +4,13 @@ import { Player, type PlayerRef } from "@remotion/player";
 import { LearningVideo } from "../src/LearningVideo";
 import { learningDurationInFrames } from "../src/types";
 import type { LearningTiming } from "../src/types";
+import { LEARNING_IDS } from "../src/songs/learning-registry";
 
-const SONG_ID = "01-aiueo";
+// Which song to nudge: ?song=<id> in the URL, else the first registered song.
+const SONG_ID =
+  new URLSearchParams(window.location.search).get("song") ||
+  LEARNING_IDS[0] ||
+  "01-aiueo";
 const STEPS = [0.02, 0.05, 0.1, 0.2]; // seconds per arrow tap
 const PANE_PAD = 30; // left/right inset — title, video and shortcuts all start here
 
@@ -450,9 +455,25 @@ const App: React.FC = () => {
   return (
     <div style={S.app}>
       <header style={S.header}>
-        <div style={{ fontWeight: 800, fontSize: 15 }}>
-          Iconotes Nudger <span style={{ color: "#cbc1ac" }}>·</span>{" "}
-          <span style={{ color: "#e7481c" }}>{SONG_ID}</span>
+        <div style={{ fontWeight: 800, fontSize: 15, display: "flex", alignItems: "center", gap: 6 }}>
+          Iconotes Nudger <span style={{ color: "#cbc1ac" }}>·</span>
+          {LEARNING_IDS.length > 1 ? (
+            <select
+              value={SONG_ID}
+              onChange={(e) => {
+                window.location.search = `?song=${e.target.value}`;
+              }}
+              style={{ ...S.select, color: "#e7481c", fontWeight: 800 }}
+            >
+              {LEARNING_IDS.map((id) => (
+                <option key={id} value={id}>
+                  {id}
+                </option>
+              ))}
+            </select>
+          ) : (
+            <span style={{ color: "#e7481c" }}>{SONG_ID}</span>
+          )}
         </div>
         <div style={S.spacer} />
         <label style={S.control}>

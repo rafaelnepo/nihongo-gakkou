@@ -1,12 +1,12 @@
 import type { LearningTiming } from "../types";
-import aiueo from "../../timing/01-aiueo.learning.json";
+import { GENERATED_LEARNING_SONGS } from "./learning-registry.generated";
 
-// Learning songs use the LearningVideo template (cream, two-line, orbiting art).
-// Add a song: build its timing (tools/build_learning_timing.mjs → align) and add
-// one line here. The id is the render target: `npx remotion render 01-aiueo`.
-export const LEARNING_SONGS: { id: string; timing: LearningTiming }[] = [
-  { id: "01-aiueo", timing: aiueo as LearningTiming },
-];
+// The song LIST is GENERATED from video/timing/*.learning.json by
+// tools/gen_registry.mjs — do NOT hand-edit it. Add a song by building its timing
+// (tools/build_learning_timing.mjs <id> → tools/align) and running the generator;
+// the id is the render target, e.g. `npx remotion render 01-aiueo`.
+export const LEARNING_SONGS: { id: string; timing: LearningTiming }[] =
+  GENERATED_LEARNING_SONGS;
 
 export const LEARNING_IDS = LEARNING_SONGS.map((s) => s.id);
 

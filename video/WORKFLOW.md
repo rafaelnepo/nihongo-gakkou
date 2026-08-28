@@ -24,6 +24,13 @@ To add a song: drop `<audio>` in `public/`, write `timing/<id>.json`, align it
 (`../tools/align`), add one line to `src/songs/registry.ts`. Done — it's a new
 composition in Studio and a render target.
 
+> **This page covers the `LyricVideo` template (the night-sky lullaby, used by
+> `personal/` songs).** The `learning/` hiragana videos use the `LearningVideo`
+> template, whose song list is **generated** and whose assets are **synced** per
+> song — you never hand-edit a registry or drop loose files in `public/`. See
+> **`../PROJECT-STRUCTURE.md` → _Add a new song_** for that flow
+> (`tools/build_learning_timing.mjs` → `tools/gen_registry.mjs` → `tools/sync.mjs`).
+
 ---
 
 ## Architecture — why it's parametric
