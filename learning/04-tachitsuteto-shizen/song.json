@@ -1,0 +1,70 @@
+{
+  "id": "04-tachitsuteto-shizen",
+  "title": "たちつてと",
+  "jp": "た行 ・ gojuon row 4 ・ nature",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "04-tachitsuteto", "theme": "nature", "index": 2, "siblings": ["ouchi", "doubutsu"] },
+  "render": {
+    "trackName": "つき と たいよう",
+    "trackNo": "04",
+    "row": "たちつてと",
+    "channel": "iconotes",
+    "style": "Koto × modern",
+    "bpm": 90,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the た-row", "Gojuon by words", "Row 4 · た行 · Nature"],
+  "meta": ["Koto × modern · male (house voice)", "~90 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 4 of the gojuon — た ち つ て と — through the outdoors: the sun and tall bamboo, a mountain waterfall, dew on a flower, the night moon and the blue earth. A calm nature variation of three た-row songs (home · nature · animals).",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small image</strong> — やま の たき, はな の つゆ, あおい ちきゅう — and it recombines with earlier rows (あさ, やま, そら, はな, あおい, あかい return), keeping the ladder (F-13).",
+    "The five-kana row <em>た ち つ て と</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>day-in-nature bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>nature</strong> variation — the calm one, for a koto × modern arrangement. た行 has the sky-and-earth words (たいよう, つき, つち, ちきゅう) that suit a quiet, wide feel. Honest note: ち and て are thin rows, so they lean on a butterfly, the earth, a ladybug and a mountain temple."
+  ],
+  "styles": [
+    { "label": "Koto × modern beat — the calm house take", "rec": true, "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "City pop — the house voice", "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → day-in-nature bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "た", "theme": "sun & mountain", "items": [
+      { "w": "たいよう", "r": "taiyou", "m": "the sun", "s": "あかい たいよう", "sm": "the red sun" },
+      { "w": "たけ", "r": "take", "m": "bamboo", "s": "たかい たけ", "sm": "tall bamboo" },
+      { "w": "たき", "r": "taki", "m": "waterfall", "s": "やま の たき", "sm": "a mountain waterfall" }
+    ]},
+    { "vowel": "ち", "theme": "earth & wings", "items": [
+      { "w": "ちきゅう", "r": "chikyuu", "m": "the earth", "s": "あおい ちきゅう", "sm": "the blue earth" },
+      { "w": "ちょう", "r": "chou", "m": "butterfly", "s": "ちょう が とぶ", "sm": "a butterfly flies" },
+      { "w": "ちり", "r": "chiri", "m": "fallen petals / specks", "s": "はな の ちり", "sm": "fallen flower petals" }
+    ]},
+    { "vowel": "つ", "theme": "moon & soil", "items": [
+      { "w": "つき", "r": "tsuki", "m": "moon", "s": "よる の つき", "sm": "the moon at night" },
+      { "w": "つち", "r": "tsuchi", "m": "soil / earth", "s": "くろい つち", "sm": "black soil" },
+      { "w": "つゆ", "r": "tsuyu", "m": "dew", "s": "はな の つゆ", "sm": "dew on a flower" }
+    ]},
+    { "vowel": "て", "theme": "weather & a temple", "items": [
+      { "w": "てんき", "r": "tenki", "m": "weather", "s": "いい てんき", "sm": "nice weather" },
+      { "w": "てんとうむし", "r": "tentoumushi", "m": "ladybug", "s": "はっぱ の てんとうむし", "sm": "a ladybug on a leaf" },
+      { "w": "てら", "r": "tera", "m": "temple", "s": "やま の てら", "sm": "a mountain temple" }
+    ]},
+    { "vowel": "と", "theme": "sky & thorn", "items": [
+      { "w": "とり", "r": "tori", "m": "bird", "s": "そら の とり", "sm": "a bird in the sky" },
+      { "w": "とんぼ", "r": "tonbo", "m": "dragonfly", "s": "あかい とんぼ", "sm": "a red dragonfly" },
+      { "w": "とげ", "r": "toge", "m": "thorn", "s": "ばら の とげ", "sm": "a rose's thorn" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

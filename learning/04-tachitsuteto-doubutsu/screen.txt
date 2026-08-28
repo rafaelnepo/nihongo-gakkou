@@ -1,0 +1,93 @@
+たちつてと（どうぶつ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya animal, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (しか, さる, すな, す) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   た ち つ て と
+
+═══ PART 1 · LEARN ═══
+たぬき
+たぬき が いる
+たこ
+たこ が およぐ
+たか
+たか が とぶ
+た ち つ て と
+
+ちょう
+ちょう が とぶ
+ちどり
+ちどり が あるく
+ちんあなご
+すな の ちんあなご
+た ち つ て と
+
+つる
+つる が おどる
+つばめ
+つばめ の す
+つの
+しか の つの
+た ち つ て と
+
+てんとうむし
+はっぱ の てんとうむし
+てながざる
+てながざる が あそぶ
+て
+さる の て
+た ち つ て と
+
+とり
+そら の とり
+とんぼ
+とんぼ が とぶ
+とら
+とら は つよい
+た ち つ て と
+
+═══ BRIDGE · どうぶつえん の ひ ═══
+たぬき と たこ、どうぶつえん
+たか が とぶ、そら へ
+ちょう と とんぼ、はな の うえ
+つる が おどる、つばめ も とぶ
+とら は つよい、てながざる は あそぶ
+しか の つの、さる の て
+た ち つ て と
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+たぬき が いる
+たこ が およぐ
+たか が とぶ
+ちょう が とぶ
+ちどり が あるく
+すな の ちんあなご
+つる が おどる
+つばめ の す
+しか の つの
+はっぱ の てんとうむし
+てながざる が あそぶ
+さる の て
+そら の とり
+とんぼ が とぶ
+とら は つよい
+た ち つ て と
+
+(outro)   た ち つ て と
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+たぬき=raccoon dog · たこ=octopus · たか=hawk · ちょう=butterfly · ちどり=plover ·
+ちんあなご=garden eel · つる=crane · つばめ=swallow · つの=deer antlers · てんとうむし=
+ladybug · てながざる=gibbon · て=a monkey's paw · とり=bird · とんぼ=dragonfly · とら=tiger.
+Verbs/adjs: いる be · およぐ swim · とぶ fly · あるく walk · おどる dance · あそぶ play ·
+つよい strong. Recombined: しか · さる · すな · す · そら · うみ.

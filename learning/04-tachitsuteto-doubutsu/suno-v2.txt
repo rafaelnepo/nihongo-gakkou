@@ -1,0 +1,63 @@
+たちつてと（どうぶつ）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 4 (た行), ANIMALS variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP"); add "children's chorus answering,
+call-and-response" for the kids sound; city-pop fallback. Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+た ち つ て と
+
+[Verse]
+たぬき
+たぬき が いる
+たこ
+たこ が およぐ
+たか
+たか が とぶ
+た ち つ て と
+
+[Verse]
+ちょう
+ちょう が とぶ
+ちどり
+ちどり が あるく
+ちんあなご
+すな の ちんあなご
+た ち つ て と
+
+[Verse]
+つる
+つる が おどる
+つばめ
+つばめ の す
+つの
+しか の つの
+た ち つ て と
+
+[Verse]
+てんとうむし
+はっぱ の てんとうむし
+てながざる
+てながざる が あそぶ
+て
+さる の て
+た ち つ て と
+
+[Verse]
+とり
+そら の とり
+とんぼ
+とんぼ が とぶ
+とら
+とら ワ つよい
+た ち つ て と
+
+[Outro]
+た ち つ て と

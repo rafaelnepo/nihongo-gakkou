@@ -1,0 +1,70 @@
+{
+  "id": "04-tachitsuteto-doubutsu",
+  "title": "たちつてと",
+  "jp": "た行 ・ gojuon row 4 ・ animals",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "04-tachitsuteto", "theme": "animals", "index": 3, "siblings": ["ouchi", "shizen"] },
+  "render": {
+    "trackName": "げんきな どうぶつ",
+    "trackNo": "04",
+    "row": "たちつてと",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the た-row", "Gojuon by words", "Row 4 · た行 · Animals"],
+  "meta": ["Kids / city pop · playful (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 4 of the gojuon — た ち つ て と — through animals: a raccoon dog and an octopus, a butterfly and a garden eel, a crane and a swallow, a tiger and a dragonfly. Say the animal, then watch it <strong>do something</strong>. The animals variation of three た-row songs.",
+  "concept": [
+    "Words alone blend (findings F-10), so every animal is taught <strong>in a small action</strong> — たぬき が いる, つる が おどる — and it recombines with earlier rows (しか, さる, すな, す, うみ, そら + verbs いる・とぶ・およぐ return), keeping the ladder (F-13).",
+    "The five-kana row <em>た ち つ て と</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>zoo-day bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>animals</strong> variation — た行 has good animal coverage (たぬき, つる, とら, とんぼ…). Honest note: ち and て are the thin rows, so they use a garden eel, a gibbon, and a paw (さる の て) as small detours. Pairs with the <strong>kids</strong> voice — a lively zoo dance-along."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Kids — playful (call & response + kids chorus) · try me", "text": "Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → zoo-day bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "た", "theme": "land, sea & air", "items": [
+      { "w": "たぬき", "r": "tanuki", "m": "raccoon dog", "s": "たぬき が いる", "sm": "there's a raccoon dog" },
+      { "w": "たこ", "r": "tako", "m": "octopus", "s": "たこ が およぐ", "sm": "an octopus swims" },
+      { "w": "たか", "r": "taka", "m": "hawk", "s": "たか が とぶ", "sm": "a hawk flies" }
+    ]},
+    { "vowel": "ち", "theme": "little wings", "items": [
+      { "w": "ちょう", "r": "chou", "m": "butterfly", "s": "ちょう が とぶ", "sm": "a butterfly flies" },
+      { "w": "ちどり", "r": "chidori", "m": "plover", "s": "ちどり が あるく", "sm": "a plover walks" },
+      { "w": "ちんあなご", "r": "chinanago", "m": "garden eel", "s": "すな の ちんあなご", "sm": "garden eels in the sand" }
+    ]},
+    { "vowel": "つ", "theme": "cranes & horns", "items": [
+      { "w": "つる", "r": "tsuru", "m": "crane", "s": "つる が おどる", "sm": "a crane dances" },
+      { "w": "つばめ", "r": "tsubame", "m": "swallow", "s": "つばめ の す", "sm": "a swallow's nest" },
+      { "w": "つの", "r": "tsuno", "m": "horn / antler", "s": "しか の つの", "sm": "a deer's antlers" }
+    ]},
+    { "vowel": "て", "theme": "bugs & paws", "items": [
+      { "w": "てんとうむし", "r": "tentoumushi", "m": "ladybug", "s": "はっぱ の てんとうむし", "sm": "a ladybug on a leaf" },
+      { "w": "てながざる", "r": "tenagazaru", "m": "gibbon", "s": "てながざる が あそぶ", "sm": "a gibbon plays" },
+      { "w": "て", "r": "te", "m": "hand / paw", "s": "さる の て", "sm": "a monkey's hand" }
+    ]},
+    { "vowel": "と", "theme": "the big ones", "items": [
+      { "w": "とり", "r": "tori", "m": "bird", "s": "そら の とり", "sm": "a bird in the sky" },
+      { "w": "とんぼ", "r": "tonbo", "m": "dragonfly", "s": "とんぼ が とぶ", "sm": "a dragonfly flies" },
+      { "w": "とら", "r": "tora", "m": "tiger", "s": "とら は つよい", "sm": "the tiger is strong" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

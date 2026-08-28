@@ -1,0 +1,14 @@
+たちつてと（おうち）— STYLE NOTES
+
+HOUSE VOICE (F-11): city pop + FEMALE. Use the saved Persona "Female JP (City Pop)". Select
+the Persona in Custom mode; do NOT also specify gender.
+
+EPISODE STYLE (Persona selected — describe only the band, not the voice):
+  Japanese city pop, 92–96 BPM, warm electric piano, clean funk guitar, smooth bass,
+  light soft drums, cheerful and polished, clear enunciation of every kana, no ad-libs
+
+SETTINGS (house-style.md → Generation settings): Write lyrics; exclude autotune, heavy
+reverb, ad-libs, whisper, distortion, melisma, vocal runs; Weirdness ~20%; Style Influence
+~50–60%; Duration Auto (F-15).
+
+TEMPO: 92 floor (F-01). A warm, homey feel — morning to night indoors.

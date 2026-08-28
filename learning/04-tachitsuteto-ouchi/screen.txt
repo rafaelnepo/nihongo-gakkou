@@ -1,0 +1,94 @@
+たちつてと（おうち）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (たべる, のむ, みる, あらう) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   た ち つ て と
+
+═══ PART 1 · LEARN ═══
+たまご
+たまご を たべる
+たおる
+しろい たおる
+たいこ
+たいこ を たたく
+た ち つ て と
+
+ちゃ
+ちゃ を のむ
+ちゃわん
+ちゃわん の ごはん
+ちず
+ちず を みる
+た ち つ て と
+
+つくえ
+つくえ で かく
+つみき
+つみき で あそぶ
+つき
+よる の つき
+た ち つ て と
+
+て
+て を あらう
+てがみ
+てがみ を かく
+てぶくろ
+あたたかい てぶくろ
+た ち つ て と
+
+とけい
+とけい を みる
+とまと
+あかい とまと
+とびら
+とびら を あける
+た ち つ て と
+
+═══ BRIDGE · おうち の いちにち ═══
+たまご を たべて、ちゃ を のむ
+つくえ で てがみ を かく
+つみき で あそぶ、たいこ も
+とけい を みる、おひる だ
+あかい とまと、しろい たおる
+よる の つき、とびら を しめる
+た ち つ て と
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+たまご を たべる
+しろい たおる
+たいこ を たたく
+ちゃ を のむ
+ちゃわん の ごはん
+ちず を みる
+つくえ で かく
+つみき で あそぶ
+よる の つき
+て を あらう
+てがみ を かく
+あたたかい てぶくろ
+とけい を みる
+あかい とまと
+とびら を あける
+た ち つ て と
+
+(outro)   た ち つ て と
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+たまご=egg · たおる=towel · たいこ=drum · ちゃ=cup of tea · ちゃわん=rice bowl · ちず=map
+· つくえ=desk · つみき=building blocks · つき=moon · て=hand · てがみ=letter/envelope ·
+てぶくろ=gloves · とけい=clock · とまと=tomato · とびら=door. Verbs/adjs: たべる eat ·
+たたく beat · のむ drink · みる look · かく write · あそぶ play · あらう wash · あける open
+· しろい white · あかい red · あたたかい warm. Recombined from earlier rows: たべる · のむ ·
+みる · あらう · ごはん · あかい.

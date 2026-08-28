@@ -1,0 +1,72 @@
+たちつてと（どうぶつ）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 4 (た行). ANIMALS variation. Written 2026-08-28.
+
+CONCEPT: say the animal, then see it DO something. Each た-row word is taught through a short
+sentence, gathered into a lively zoo day. One of THREE た-row songs (home · nature · animals).
+Recombines earlier rows (しか, さる, すな, す + verbs いる・とぶ・およぐ) — the F-13 ladder.
+All hiragana; kanji here only for meaning.
+
+HONEST NOTE: た行 has good animal coverage, but ち and て are the thin rows — ち uses a
+garden eel (ちんあなご, a cute aquarium favourite) and a plover; て uses a gibbon and a paw
+(さる の て). Small detours, in the spirit of か行's け / あ行's え / さ行's せ.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+た  ── LAND, SEA & AIR
+  たぬき      (tanuki) raccoon dog (狸)
+     → たぬき が いる        (tanuki ga iru)         there's a raccoon dog
+  たこ        (tako)   octopus (蛸)
+     → たこ が およぐ        (tako ga oyogu)         an octopus swims
+  たか        (taka)   hawk (鷹)
+     → たか が とぶ          (taka ga tobu)          a hawk flies
+
+ち  ── LITTLE WINGS
+  ちょう      (chō)    butterfly (蝶)
+     → ちょう が とぶ        (chō ga tobu)           a butterfly flies
+  ちどり      (chidori) plover (千鳥)
+     → ちどり が あるく      (chidori ga aruku)      a plover walks
+  ちんあなご  (chin'anago) garden eel (チンアナゴ)
+     → すな の ちんあなご    (suna no chin'anago)    garden eels in the sand
+
+つ  ── CRANES & HORNS
+  つる        (tsuru)  crane (鶴)
+     → つる が おどる        (tsuru ga odoru)        a crane dances
+  つばめ      (tsubame) swallow (燕)
+     → つばめ の す          (tsubame no su)         a swallow's nest
+  つの        (tsuno)  horn / antler (角)
+     → しか の つの          (shika no tsuno)        a deer's antlers
+
+て  ── BUGS & PAWS   (few て animals — a gibbon and a paw carry it)
+  てんとうむし (tentōmushi) ladybug (てんとう虫)
+     → はっぱ の てんとうむし (happa no tentōmushi)  a ladybug on a leaf
+  てながざる  (tenagazaru) gibbon (手長猿)
+     → てながざる が あそぶ  (tenagazaru ga asobu)   a gibbon plays
+  て          (te)     hand / paw (手)
+     → さる の て            (saru no te)            a monkey's hand
+
+と  ── THE BIG ONES
+  とり        (tori)   bird (鳥)
+     → そら の とり          (sora no tori)          a bird in the sky
+  とんぼ      (tonbo)  dragonfly (蜻蛉)
+     → とんぼ が とぶ        (tonbo ga tobu)         a dragonfly flies
+  とら        (tora)   tiger (虎)
+     → とら は つよい        (tora wa tsuyoi)        the tiger is strong
+
+REFRAIN
+  た ち つ て と  (ta chi tsu te to)   the た-row
+────────────────────────────────────────────────────────────────────────
+
+QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs: いる be, およぐ swim, とぶ fly, あるく walk, おどる dance, あそぶ play.
+· Adjective: つよい strong. Particles: が (subject), は (topic, "wa"), の (of).
+· Recombination WITH EARLIER ROWS: しか, さる, すな, す (from さ行), そら, うみ all return.
+
+The TARGET is the た-row words; the sentence, the audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 (learn) → a zoo-day BRIDGE → a REVIEW of the sentences only
+(sing along). Extra word in the bridge: うえ (above / on top).
+
+SIBLINGS (same five kana): 04-tachitsuteto-ouchi (home) and 04-tachitsuteto-shizen (nature).
+Sing all three to read た行 cold.

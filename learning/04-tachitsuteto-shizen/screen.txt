@@ -1,0 +1,93 @@
+たちつてと（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (あさ, やま, そら, はな) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   た ち つ て と
+
+═══ PART 1 · LEARN ═══
+たいよう
+あかい たいよう
+たけ
+たかい たけ
+たき
+やま の たき
+た ち つ て と
+
+ちきゅう
+あおい ちきゅう
+ちょう
+ちょう が とぶ
+ちり
+はな の ちり
+た ち つ て と
+
+つき
+よる の つき
+つち
+くろい つち
+つゆ
+はな の つゆ
+た ち つ て と
+
+てんき
+いい てんき
+てんとうむし
+はっぱ の てんとうむし
+てら
+やま の てら
+た ち つ て と
+
+とり
+そら の とり
+とんぼ
+あかい とんぼ
+とげ
+ばら の とげ
+た ち つ て と
+
+═══ BRIDGE · しぜん の いちにち ═══
+あさ の たいよう、やま の たき
+たかい たけ、くろい つち
+はな の つゆ、ちょう が とぶ
+いい てんき、そら の とり
+あかい とんぼ、ばら の とげ
+よる の つき、あおい ちきゅう
+た ち つ て と
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+あかい たいよう
+たかい たけ
+やま の たき
+あおい ちきゅう
+ちょう が とぶ
+はな の ちり
+よる の つき
+くろい つち
+はな の つゆ
+いい てんき
+はっぱ の てんとうむし
+やま の てら
+そら の とり
+あかい とんぼ
+ばら の とげ
+た ち つ て と
+
+(outro)   た ち つ て と
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+たいよう=sun · たけ=bamboo · たき=waterfall · ちきゅう=the Earth · ちょう=butterfly ·
+ちり=falling petals · つき=moon · つち=soil · つゆ=dew drops · てんき=weather (sun/cloud)
+· てんとうむし=ladybug · てら=temple · とり=bird · とんぼ=dragonfly · とげ=thorn/rose.
+Adjs: あかい red · たかい tall · あおい blue · くろい black · いい good/nice. Recombined:
+あさ · やま · そら · はな · はっぱ · ばら.

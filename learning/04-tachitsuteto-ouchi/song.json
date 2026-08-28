@@ -1,0 +1,70 @@
+{
+  "id": "04-tachitsuteto-ouchi",
+  "title": "たちつてと",
+  "jp": "た行 ・ gojuon row 4 ・ a day at home",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "04-tachitsuteto", "theme": "home", "index": 1, "siblings": ["shizen", "doubutsu"] },
+  "render": {
+    "trackName": "おうち の いちにち",
+    "trackNo": "04",
+    "row": "たちつてと",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the た-row", "Gojuon by words", "Row 4 · た行 · At home"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 4 of the gojuon — た ち つ て と — through a day at home: an egg and tea, a desk and a letter, blocks and a drum, the clock and the night moon. Say the everyday thing, then <strong>use it</strong>. The home variation of three た-row songs (home · nature · animals).",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small action</strong> — たまご を たべる, てがみ を かく, とびら を あける — and it recombines with earlier rows (たべる, のむ, みる, あらう, ごはん, あかい return), keeping the ladder (F-13).",
+    "The five-kana row <em>た ち つ て と</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>day-at-home bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>home</strong> variation — た行 is rich in everyday objects, so the everyday cut is a cosy day indoors, morning to night. Pairs with the <strong>Female (city pop)</strong> voice."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → day-at-home bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "た", "theme": "morning", "items": [
+      { "w": "たまご", "r": "tamago", "m": "egg", "s": "たまご を たべる", "sm": "eat an egg" },
+      { "w": "たおる", "r": "taoru", "m": "towel", "s": "しろい たおる", "sm": "a white towel" },
+      { "w": "たいこ", "r": "taiko", "m": "drum", "s": "たいこ を たたく", "sm": "beat the drum" }
+    ]},
+    { "vowel": "ち", "theme": "the table", "items": [
+      { "w": "ちゃ", "r": "cha", "m": "tea", "s": "ちゃ を のむ", "sm": "drink tea" },
+      { "w": "ちゃわん", "r": "chawan", "m": "rice bowl", "s": "ちゃわん の ごはん", "sm": "rice in the bowl" },
+      { "w": "ちず", "r": "chizu", "m": "map", "s": "ちず を みる", "sm": "look at a map" }
+    ]},
+    { "vowel": "つ", "theme": "play & study", "items": [
+      { "w": "つくえ", "r": "tsukue", "m": "desk", "s": "つくえ で かく", "sm": "write at the desk" },
+      { "w": "つみき", "r": "tsumiki", "m": "building blocks", "s": "つみき で あそぶ", "sm": "play with blocks" },
+      { "w": "つき", "r": "tsuki", "m": "moon", "s": "よる の つき", "sm": "the moon at night" }
+    ]},
+    { "vowel": "て", "theme": "hands & letters", "items": [
+      { "w": "て", "r": "te", "m": "hand", "s": "て を あらう", "sm": "wash your hands" },
+      { "w": "てがみ", "r": "tegami", "m": "letter", "s": "てがみ を かく", "sm": "write a letter" },
+      { "w": "てぶくろ", "r": "tebukuro", "m": "gloves", "s": "あたたかい てぶくろ", "sm": "warm gloves" }
+    ]},
+    { "vowel": "と", "theme": "around the house", "items": [
+      { "w": "とけい", "r": "tokei", "m": "clock", "s": "とけい を みる", "sm": "look at the clock" },
+      { "w": "とまと", "r": "tomato", "m": "tomato", "s": "あかい とまと", "sm": "a red tomato" },
+      { "w": "とびら", "r": "tobira", "m": "door", "s": "とびら を あける", "sm": "open the door" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

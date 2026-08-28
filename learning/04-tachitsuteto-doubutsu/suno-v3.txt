@@ -1,0 +1,98 @@
+たちつてと（どうぶつ）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 4 (た行), ANIMALS variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH → a zoo-day BRIDGE → a REVIEW of the SENTENCES ONLY. Round 2 differs from
+round 1, dodging the identical-repeat collapse (F-08).
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP") — a lively zoo dance-along. For the
+kids sound add "children's chorus answering, call-and-response" to the style; city-pop
+fallback. Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+た ち つ て と
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+たぬき
+たぬき が いる
+たこ
+たこ が およぐ
+たか
+たか が とぶ
+た ち つ て と
+
+[Verse]
+ちょう
+ちょう が とぶ
+ちどり
+ちどり が あるく
+ちんあなご
+すな の ちんあなご
+た ち つ て と
+
+[Verse]
+つる
+つる が おどる
+つばめ
+つばめ の す
+つの
+しか の つの
+た ち つ て と
+
+[Verse]
+てんとうむし
+はっぱ の てんとうむし
+てながざる
+てながざる が あそぶ
+て
+さる の て
+た ち つ て と
+
+[Verse]
+とり
+そら の とり
+とんぼ
+とんぼ が とぶ
+とら
+とら ワ つよい
+た ち つ て と
+
+# ═══ BRIDGE · どうぶつえん の ひ (recombine — new, flowing) ═══
+
+[Bridge]
+たぬき と たこ、どうぶつえん
+たか が とぶ、そら エ
+ちょう と とんぼ、はな の うえ
+つる が おどる、つばめ も とぶ
+とら ワ つよい、てながざる ワ あそぶ
+しか の つの、さる の て
+た ち つ て と
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+たぬき が いる
+たこ が およぐ
+たか が とぶ
+ちょう が とぶ
+ちどり が あるく
+すな の ちんあなご
+つる が おどる
+つばめ の す
+しか の つの
+はっぱ の てんとうむし
+てながざる が あそぶ
+さる の て
+そら の とり
+とんぼ が とぶ
+とら ワ つよい
+た ち つ て と
+
+[Outro]
+た ち つ て と

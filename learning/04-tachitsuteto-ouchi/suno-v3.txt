@@ -1,0 +1,96 @@
+たちつてと（おうち）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 4 (た行), HOME variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH → a day-at-home BRIDGE → a REVIEW of the SENTENCES ONLY. Round 2 differs
+from round 1, dodging the identical-repeat collapse (F-08).
+
+VOICE: house voice — city-pop + female Persona (F-11; "Female JP (City Pop)"). Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+た ち つ て と
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+たまご
+たまご オ たべる
+たおる
+しろい たおる
+たいこ
+たいこ オ たたく
+た ち つ て と
+
+[Verse]
+ちゃ
+ちゃ オ のむ
+ちゃわん
+ちゃわん の ごはん
+ちず
+ちず オ みる
+た ち つ て と
+
+[Verse]
+つくえ
+つくえ で かく
+つみき
+つみき で あそぶ
+つき
+よる の つき
+た ち つ て と
+
+[Verse]
+て
+て オ あらう
+てがみ
+てがみ オ かく
+てぶくろ
+あたたかい てぶくろ
+た ち つ て と
+
+[Verse]
+とけい
+とけい オ みる
+とまと
+あかい とまと
+とびら
+とびら オ あける
+た ち つ て と
+
+# ═══ BRIDGE · おうち の いちにち (recombine — new, flowing) ═══
+
+[Bridge]
+たまご オ たべて、ちゃ オ のむ
+つくえ で てがみ オ かく
+つみき で あそぶ、たいこ も
+とけい オ みる、おひる だ
+あかい とまと、しろい たおる
+よる の つき、とびら オ しめる
+た ち つ て と
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+たまご オ たべる
+しろい たおる
+たいこ オ たたく
+ちゃ オ のむ
+ちゃわん の ごはん
+ちず オ みる
+つくえ で かく
+つみき で あそぶ
+よる の つき
+て オ あらう
+てがみ オ かく
+あたたかい てぶくろ
+とけい オ みる
+あかい とまと
+とびら オ あける
+た ち つ て と
+
+[Outro]
+た ち つ て と
