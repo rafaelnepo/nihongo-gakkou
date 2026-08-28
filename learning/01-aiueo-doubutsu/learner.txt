@@ -1,0 +1,75 @@
+あいうえお（どうぶつ）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 1 (あ行). ANIMALS variation. Written 2026-08-28.
+
+CONCEPT: say the animal, then see it DO something. Each あ-row word is taught through
+a short, natural sentence. This is a sibling of the original 01-aiueo (which teaches
+the row through a little day) — same five kana, fresh words — and it deliberately
+REUSES words from 01-aiueo (いぬ, うさぎ, うみ, たべる, うたう, あさ) as known ground, so
+the song is comprehensible because of the first one (validated: findings F-13). All
+hiragana — the point is reading kana; kanji shown here only for meaning.
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+あ  ── SMALL & FEATHERED
+  あり        (ari)    ant (蟻)
+     → あり が あるく        (ari ga aruku)          an ant walks
+  あひる      (ahiru)  duck (アヒル)
+     → あひる が およぐ      (ahiru ga oyogu)        a duck swims
+  あざらし    (azarashi) seal (アザラシ)
+     → あざらし が ねる      (azarashi ga neru)      a seal sleeps
+
+い  ── DOGS & THE WILD
+  いぬ        (inu)    dog (犬)   ← from 01-aiueo
+     → いぬ が はしる        (inu ga hashiru)        a dog runs
+  いるか      (iruka)  dolphin (イルカ)
+     → いるか が とぶ        (iruka ga tobu)         a dolphin leaps
+  いのしし    (inoshishi) wild boar (猪)
+     → いのしし は はやい    (inoshishi wa hayai)    the boar is fast
+
+う  ── ON THE FARM
+  うさぎ      (usagi)  rabbit (兎)   ← from 01-aiueo
+     → うさぎ が はねる      (usagi ga haneru)       a rabbit hops
+  うし        (ushi)   cow (牛)
+     → うし は おおきい      (ushi wa ōkii)          the cow is big
+  うま        (uma)    horse (馬)
+     → うま に のる          (uma ni noru)           ride a horse
+
+え  ── IN THE WATER   (あ行 has almost no beginner え animal — a small detour)
+  えび        (ebi)    shrimp (海老)
+     → うみ の えび          (umi no ebi)            shrimp in the sea
+  えい        (ei)     ray / stingray (エイ)
+     → えい が およぐ        (ei ga oyogu)           a ray swims
+  えさ        (esa)    (animal) feed (餌)
+     → えさ を たべる        (esa o taberu)          eat the feed
+
+お  ── THE LOUD ONES
+  おおかみ    (ōkami)  wolf (狼)
+     → おおかみ が なく      (ōkami ga naku)         a wolf howls
+  おうむ      (ōmu)    parrot (オウム)
+     → おうむ が うたう      (ōmu ga utau)           a parrot sings
+  おんどり    (ondori) rooster (雄鶏)
+     → あさ の おんどり      (asa no ondori)         the morning rooster
+
+REFRAIN
+  あ い う え お  (a i u e o)   the あ-row
+────────────────────────────────────────────────────────────────────────
+
+WHAT THIS SONG QUIETLY TEACHES BEYOND THE 15 WORDS:
+· Verbs (dictionary form): あるく walk, およぐ swim, ねる sleep, はしる run, とぶ
+  leap/fly, はねる hop, のる ride, たべる eat, なく cry/howl, うたう sing.
+· Adjectives: はやい fast, おおきい big.
+· Particles: が (subject), は (topic, "wa"), を (object, "o"), に (in/on), の (of).
+· Word recombination WITH 01-aiueo: いぬ, うさぎ, うみ, たべる, うたう, あさ all come
+  back in new sentences — that re-meeting is the practice, and the reason this song is
+  easy after the first (F-13).
+
+These are context, not the test — the TARGET is the あ-row words; the sentence, the
+audio and the illustration carry the rest.
+
+────────────────────────────────────────────────────────────────────────
+THE ~3-MIN CUT (suno-v3): PART 1 above (learn) → a BRIDGE that walks the animals into
+one day (farm → sea → dusk) → a REVIEW of the sentences only (sing along).
+
+SIBLINGS (same five kana, different worlds): 01-aiueo (the original — a little day) and
+01-aiueo-shizen (nature). Sing all three to read あ行 cold.

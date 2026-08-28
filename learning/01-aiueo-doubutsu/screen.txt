@@ -1,0 +1,94 @@
+あいうえお（どうぶつ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya animal, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from the first 01-aiueo (いぬ, うさぎ, うみ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   あ い う え お
+
+═══ PART 1 · LEARN ═══
+あり
+あり が あるく
+あひる
+あひる が およぐ
+あざらし
+あざらし が ねる
+あ い う え お
+
+いぬ
+いぬ が はしる
+いるか
+いるか が とぶ
+いのしし
+いのしし は はやい
+あ い う え お
+
+うさぎ
+うさぎ が はねる
+うし
+うし は おおきい
+うま
+うま に のる
+あ い う え お
+
+えび
+うみ の えび
+えい
+えい が およぐ
+えさ
+えさ を たべる
+あ い う え お
+
+おおかみ
+おおかみ が なく
+おうむ
+おうむ が うたう
+おんどり
+あさ の おんどり
+あ い う え お
+
+═══ BRIDGE · どうぶつ の ひ ═══
+あさ、あり が あるく
+いぬ と うさぎ、はしる
+うみ で えい と えび
+うま に のって、はしる
+おうむ が うたう、たかい そら
+おおかみ が なく、よる に
+あ い う え お
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+あり が あるく
+あひる が およぐ
+あざらし が ねる
+いぬ が はしる
+いるか が とぶ
+いのしし は はやい
+うさぎ が はねる
+うし は おおきい
+うま に のる
+うみ の えび
+えい が およぐ
+えさ を たべる
+おおかみ が なく
+おうむ が うたう
+あさ の おんどり
+あ い う え お
+
+(outro)   あ い う え お
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+あり=ant · あひる=duck · あざらし=seal · いぬ=dog · いるか=dolphin · いのしし=boar ·
+うさぎ=rabbit · うし=cow · うま=horse · えび=shrimp · えい=ray · えさ=pet food bowl ·
+おおかみ=wolf · おうむ=parrot · おんどり=rooster. Verbs/adjs in context: あるく walk ·
+およぐ swim · ねる sleep · はしる run · とぶ leap/fly · はねる hop · のる ride · たべる
+eat · なく howl/cry · うたう sing · はやい fast · おおきい big. Recombined from 01-aiueo:
+いぬ dog · うさぎ rabbit · うみ sea · たべる eat · うたう sing · あさ morning.

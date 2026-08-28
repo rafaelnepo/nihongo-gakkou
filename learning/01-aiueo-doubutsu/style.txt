@@ -1,0 +1,20 @@
+あいうえお（どうぶつ）— STYLE NOTES
+
+HOUSE VOICE (findings F-11): city pop + single clear FEMALE vocalist, the house sound
+for the basic learning songs. Reuse the 01-aiueo city-pop Persona so the voice is
+constant across the series ("one voice, many arrangements", house-style.md). Set the
+Persona in Custom mode; do NOT also specify gender.
+
+RECOMMENDED PROMPT (song.json styles[0]):
+  Japanese city pop, ~92–96 BPM, single bright clear female vocalist, warm electric
+  piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry
+  forward vocal, very clear enunciation, no ad-libs.
+
+TEMPO: 92 is the floor and correct (F-01) — sing-along on first listen.
+
+AN ANIMALS song for young learners — keep it bright and playful, same as the row-2
+animals cut. For variety across the あ-row trio, the nature sibling (shizen) is the one
+to try on koto × modern; keep the animals + original day cut on city pop.
+
+ALTERNATIVES kept for other content: koto × modern, acoustic, lo-fi. Full strings in
+song.json.styles[].

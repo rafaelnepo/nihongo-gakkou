@@ -1,0 +1,70 @@
+{
+  "id": "01-aiueo-shizen",
+  "title": "あいうえお",
+  "jp": "あ行 ・ gojuon row 1 ・ nature",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "01-aiueo", "theme": "nature", "index": 3, "siblings": ["hibi", "doubutsu"] },
+  "render": {
+    "trackName": "きせつ の あいうえお",
+    "trackNo": "01",
+    "row": "あいうえお",
+    "channel": "iconotes",
+    "style": "Koto × modern",
+    "bpm": 90,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the あ-row", "Gojuon by words", "Row 1 · あ行 · Nature"],
+  "meta": ["Koto × modern · female (house voice)", "~90 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 1 of the gojuon — あ い う え お — through the outdoors: rain and the morning sun, a pond and a stone, the blue sea, a hill and the big sky. A calm nature variation of 01-aiueo; the same five kana, practised again, leaning on the original (あめ, あお, あさ, うみ come back as known ground).",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small image</strong> — あめ が ふる, いけ の みず, あおい うみ — and the sentences reuse words from <em>01-aiueo</em> (あめ, あお→あおい, あさ, うみ), so the song is comprehensible because of the first (F-13).",
+    "The five-kana row <em>あ い う え お</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>seasons-walk bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>nature</strong> variation — the calm one, for a koto × modern arrangement. Honest note: あ行's <em>え</em> is a hard row (few beginner nature nouns), so its verse leans on trees and water — えだ (branch) · え (a cove) · えのき (a big tree)."
+  ],
+  "styles": [
+    { "label": "Koto × modern beat — the calm house take", "rec": true, "text": "modern Japanese pop with traditional koto, 90 BPM, single clear female vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "City pop — the house voice", "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → seasons-walk bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "あ", "theme": "sky & rain", "items": [
+      { "w": "あめ", "r": "ame", "m": "rain", "s": "あめ が ふる", "sm": "rain falls" },
+      { "w": "あさひ", "r": "asahi", "m": "morning sun", "s": "あさひ が のぼる", "sm": "the morning sun rises" },
+      { "w": "あき", "r": "aki", "m": "autumn", "s": "あき の はっぱ", "sm": "autumn leaves" }
+    ]},
+    { "vowel": "い", "theme": "water & stone", "items": [
+      { "w": "いけ", "r": "ike", "m": "pond", "s": "いけ の みず", "sm": "the pond's water" },
+      { "w": "いし", "r": "ishi", "m": "stone", "s": "おおきい いし", "sm": "a big stone" },
+      { "w": "いずみ", "r": "izumi", "m": "spring (water)", "s": "つめたい いずみ", "sm": "a cold spring" }
+    ]},
+    { "vowel": "う", "theme": "the sea", "items": [
+      { "w": "うみ", "r": "umi", "m": "sea", "s": "あおい うみ", "sm": "the blue sea" },
+      { "w": "うめ", "r": "ume", "m": "plum blossom", "s": "うめ の はな", "sm": "plum blossoms" },
+      { "w": "うず", "r": "uzu", "m": "swirl / eddy", "s": "みず の うず", "sm": "a swirl of water" }
+    ]},
+    { "vowel": "え", "theme": "branches & a cove", "items": [
+      { "w": "えだ", "r": "eda", "m": "branch", "s": "き の えだ", "sm": "a tree's branch" },
+      { "w": "え", "r": "e", "m": "cove / inlet", "s": "しずかな え", "sm": "a quiet cove" },
+      { "w": "えのき", "r": "enoki", "m": "hackberry tree", "s": "おおきい えのき", "sm": "a big hackberry tree" }
+    ]},
+    { "vowel": "お", "theme": "hills & sky", "items": [
+      { "w": "おか", "r": "oka", "m": "hill", "s": "みどりの おか", "sm": "a green hill" },
+      { "w": "おおぞら", "r": "oozora", "m": "the big sky", "s": "あおい おおぞら", "sm": "the big blue sky" },
+      { "w": "おちば", "r": "ochiba", "m": "fallen leaves", "s": "あき の おちば", "sm": "autumn fallen leaves" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

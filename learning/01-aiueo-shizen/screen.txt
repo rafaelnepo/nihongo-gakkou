@@ -1,0 +1,94 @@
+あいうえお（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from the first 01-aiueo (あめ, あお, あさ, うみ) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   あ い う え お
+
+═══ PART 1 · LEARN ═══
+あめ
+あめ が ふる
+あさひ
+あさひ が のぼる
+あき
+あき の はっぱ
+あ い う え お
+
+いけ
+いけ の みず
+いし
+おおきい いし
+いずみ
+つめたい いずみ
+あ い う え お
+
+うみ
+あおい うみ
+うめ
+うめ の はな
+うず
+みず の うず
+あ い う え お
+
+えだ
+き の えだ
+え
+しずかな え
+えのき
+おおきい えのき
+あ い う え お
+
+おか
+みどりの おか
+おおぞら
+あおい おおぞら
+おちば
+あき の おちば
+あ い う え お
+
+═══ BRIDGE · きせつ の さんぽ ═══
+あさひ が のぼる、あき の あさ
+あめ が ふって、いけ の みず
+あおい うみ、あおい おおぞら
+き の えだ、あき の はっぱ
+みどりの おか、しずかな え
+うめ の はな、はる の いろ
+あ い う え お
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+あめ が ふる
+あさひ が のぼる
+あき の はっぱ
+いけ の みず
+おおきい いし
+つめたい いずみ
+あおい うみ
+うめ の はな
+みず の うず
+き の えだ
+しずかな え
+おおきい えのき
+みどりの おか
+あおい おおぞら
+あき の おちば
+あ い う え お
+
+(outro)   あ い う え お
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+あめ=rain · あさひ=sunrise · あき=autumn (maple) · いけ=pond · いし=stone · いずみ=
+spring/fountain · うみ=sea · うめ=plum blossom · うず=water swirl · えだ=branch · え=
+cove/inlet · えのき=big tree · おか=hill · おおぞら=wide sky · おちば=fallen leaves.
+Adjs/verbs in context: ふる fall · のぼる rise · おおきい big · つめたい cold · あおい
+blue · みどりの green · しずかな quiet. Recombined from 01-aiueo: あめ rain · あお→あおい
+blue · あさ→あさひ morning · うみ sea · はっぱ leaf.

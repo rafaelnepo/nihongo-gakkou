@@ -1,0 +1,18 @@
+あいうえお（しぜん）— STYLE NOTES
+
+THE CALM CUT. This nature variation is the one to render on KOTO × MODERN rather than
+city pop — it suits the quiet outdoor scenes and gives the three あ-row siblings sonic
+variety (the original 01-aiueo and the animals cut are city pop). Still the house
+FEMALE voice (F-11), same Persona, just a calmer arrangement. Custom mode; do NOT
+specify gender on top of the Persona.
+
+RECOMMENDED PROMPT (song.json styles[0]):
+  modern Japanese pop with traditional koto, 90 BPM, single clear female vocalist,
+  koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward
+  vocal, extremely clear enunciation, no ad-libs.
+
+TEMPO: ~90 — a hair under the 92 floor (F-01) is fine for the calm koto cut; keep it
+sing-along-able on first listen.
+
+Alternatives kept for other content: city pop (styles[1]), acoustic, lo-fi. Full
+strings in song.json.styles[].

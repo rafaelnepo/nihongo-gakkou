@@ -275,6 +275,27 @@ of the SENTENCES ONLY** (drop the isolated word calls — the learner already ha
 them), which varies round 2 from round 1 and consolidates in context. See
 `01-aiueo/` for the 3-min test structure.
 
+## F-13 · Cross-song recombination works — an earlier row scaffolds a later one — VALIDATED
+*2026-08-28, か行 animals (02-kakikukeko-doubutsu), on first listen after 01-aiueo.*
+
+Nepô: *"I can clearly see how the first song helps identifying words in the doubutsu
+song. The i+1 is working beautifully as a ladder to learning."*
+
+The row-1 vocabulary deliberately recombined into the か-row sentences (いる, みる,
+さんぽ, うみ) carried its meaning across, so the only new load in each animals sentence
+was the **target word + its illustration**. The learner felt the second song as
+comprehensible *because of* the first — i + 1 confirmed **across songs**, not just
+within one. The ladder, not a single rung.
+
+**This upgrades a design assumption to an observation.** F-10 proved
+context-*within* a song teaches; this proves continuity *across* songs — a word met
+in song N returns as known scaffolding in song N+1, and the learner notices.
+
+**Design consequence, now a rule:** keep deliberately recombining prior-row words into
+every new row, and (within a row) across its themed variations. The series
+**compounds** — each song is easier because the ones before it were sung. When
+building the slate, seed later targets' sentences with earlier words on purpose.
+
 ---
 
 ## Sources

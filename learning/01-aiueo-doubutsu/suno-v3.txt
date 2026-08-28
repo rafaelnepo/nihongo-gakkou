@@ -1,0 +1,100 @@
+あいうえお（どうぶつ）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 1 (あ行), ANIMALS variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (findings F-12), so to reach
+~3:00 we ADD VARIED content: TEACH (word→sentence) → a farm/sea BRIDGE → a REVIEW of
+the SENTENCES ONLY. Round 2 differs from round 1, dodging the identical-repeat
+collapse (F-08) and consolidating in context.
+  · The ~2:00 short / vertical cut = PART 1 only (this file's teach = v2).
+  · This full file = the YouTube version.
+
+VOICE: house voice — city-pop + female Persona (F-11). Custom mode; don't re-set gender.
+PHONETIC FIXES (F-02): は(topic)→ワ, を→オ, へ→エ. ALL HIRAGANA.
+DURATION: Custom ~3:00. If one pass falls short, EXTEND (F-09) — never split.
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+あ い う え お
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+あり
+あり が あるく
+あひる
+あひる が およぐ
+あざらし
+あざらし が ねる
+あ い う え お
+
+[Verse]
+いぬ
+いぬ が はしる
+いるか
+いるか が とぶ
+いのしし
+いのしし ワ はやい
+あ い う え お
+
+[Verse]
+うさぎ
+うさぎ が はねる
+うし
+うし ワ おおきい
+うま
+うま に のる
+あ い う え お
+
+[Verse]
+えび
+うみ の えび
+えい
+えい が およぐ
+えさ
+えさ オ たべる
+あ い う え お
+
+[Verse]
+おおかみ
+おおかみ が なく
+おうむ
+おうむ が うたう
+おんどり
+あさ の おんどり
+あ い う え お
+
+# ═══ BRIDGE · どうぶつ の ひ (recombine — new, flowing) ═══
+
+[Bridge]
+あさ、あり が あるく
+いぬ と うさぎ、はしる
+うみ で えい と えび
+うま に のって、はしる
+おうむ が うたう、たかい そら
+おおかみ が なく、よる に
+あ い う え お
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+あり が あるく
+あひる が およぐ
+あざらし が ねる
+いぬ が はしる
+いるか が とぶ
+いのしし ワ はやい
+うさぎ が はねる
+うし ワ おおきい
+うま に のる
+うみ の えび
+えい が およぐ
+えさ オ たべる
+おおかみ が なく
+おうむ が うたう
+あさ の おんどり
+あ い う え お
+
+[Outro]
+あ い う え お

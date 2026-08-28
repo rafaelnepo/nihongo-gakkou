@@ -1,0 +1,70 @@
+{
+  "id": "01-aiueo-doubutsu",
+  "title": "あいうえお",
+  "jp": "あ行 ・ gojuon row 1 ・ animals",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "01-aiueo", "theme": "animals", "index": 2, "siblings": ["hibi", "shizen"] },
+  "render": {
+    "trackName": "あいうえお の どうぶつ",
+    "trackNo": "01",
+    "row": "あいうえお",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the あ-row", "Gojuon by words", "Row 1 · あ行 · Animals"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 1 of the gojuon — あ い う え お — through animals: an ant, a dog, a rabbit, a shrimp, a wolf. Say the animal, then watch it <strong>do something</strong>. An animals variation of 01-aiueo (which teaches the row through a little day); the same five kana, practised again with fresh words. Leans on the original 01-aiueo — いぬ, うさぎ, うみ come back as known ground.",
+  "concept": [
+    "Words alone blend (findings F-10), so every animal is taught <strong>in a tiny action</strong> — あり が あるく, いぬ が はしる — and the sentences deliberately reuse words the learner already met in <em>01-aiueo</em> (いぬ, うさぎ, うみ, たべる, うたう, あお, あさ), so this song is comprehensible <em>because of</em> the first (validated: findings F-13).",
+    "The five-kana row <em>あ い う え お</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>farm/sea bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>animals</strong> variation of row 1. Honest note: like か行's け, あ行's <em>え</em> has almost no beginner animal — the え verse is a small 'in the water' detour (えび shrimp · えい ray · えさ feed)."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → farm/sea bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "あ", "theme": "small & feathered", "items": [
+      { "w": "あり", "r": "ari", "m": "ant", "s": "あり が あるく", "sm": "an ant walks" },
+      { "w": "あひる", "r": "ahiru", "m": "duck", "s": "あひる が およぐ", "sm": "a duck swims" },
+      { "w": "あざらし", "r": "azarashi", "m": "seal", "s": "あざらし が ねる", "sm": "a seal sleeps" }
+    ]},
+    { "vowel": "い", "theme": "dogs & the wild", "items": [
+      { "w": "いぬ", "r": "inu", "m": "dog", "s": "いぬ が はしる", "sm": "a dog runs" },
+      { "w": "いるか", "r": "iruka", "m": "dolphin", "s": "いるか が とぶ", "sm": "a dolphin leaps" },
+      { "w": "いのしし", "r": "inoshishi", "m": "wild boar", "s": "いのしし は はやい", "sm": "the boar is fast" }
+    ]},
+    { "vowel": "う", "theme": "on the farm", "items": [
+      { "w": "うさぎ", "r": "usagi", "m": "rabbit", "s": "うさぎ が はねる", "sm": "a rabbit hops" },
+      { "w": "うし", "r": "ushi", "m": "cow", "s": "うし は おおきい", "sm": "the cow is big" },
+      { "w": "うま", "r": "uma", "m": "horse", "s": "うま に のる", "sm": "ride a horse" }
+    ]},
+    { "vowel": "え", "theme": "in the water", "items": [
+      { "w": "えび", "r": "ebi", "m": "shrimp", "s": "うみ の えび", "sm": "shrimp in the sea" },
+      { "w": "えい", "r": "ei", "m": "ray", "s": "えい が およぐ", "sm": "a ray swims" },
+      { "w": "えさ", "r": "esa", "m": "animal feed", "s": "えさ を たべる", "sm": "eat the feed" }
+    ]},
+    { "vowel": "お", "theme": "the loud ones", "items": [
+      { "w": "おおかみ", "r": "ookami", "m": "wolf", "s": "おおかみ が なく", "sm": "a wolf howls" },
+      { "w": "おうむ", "r": "oumu", "m": "parrot", "s": "おうむ が うたう", "sm": "a parrot sings" },
+      { "w": "おんどり", "r": "ondori", "m": "rooster", "s": "あさ の おんどり", "sm": "the morning rooster" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}
