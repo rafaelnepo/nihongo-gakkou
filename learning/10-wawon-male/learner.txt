@@ -1,0 +1,74 @@
+わをん（フィナーレ）— LEARNER SHEET  (learning/ strand — PUBLIC series)
+Gojuon ROW 10 (わ行) — the SERIES FINALE. Written 2026-08-28.
+
+CONCEPT: the last row can't be a normal song. Only わ starts words; を is only the object
+particle (always "o"); ん never starts a word — it ENDS them. So this is a graduation
+"last sounds" song: learn the わ-words, celebrate を (the little joiner) and ん (the finisher),
+then a WHOLE-GOJUON victory lap — one beloved word from every earlier row, あ→ら. The F-13
+ladder, cashed in. All hiragana. Rendered in all three voices (Female / Male / Kids).
+
+Format: `WORD  (romaji) meaning`  then  `→ SENTENCE  (romaji)  meaning`.
+
+────────────────────────────────────────────────────────────────────────
+わ  ── ANIMALS & FOOD
+  わに        (wani)   crocodile (鰐)
+     → わに が いる          (wani ga iru)           there's a crocodile
+  わし        (washi)  eagle (鷲)
+     → おおきい わし         (ōkii washi)            a big eagle
+  わかめ      (wakame) wakame seaweed (若布)
+     → わかめ を たべる      (wakame o taberu)       eat some wakame
+
+わ  ── THINGS YOU CAN HOLD
+  わた        (wata)   cotton (綿)
+     → ふわふわ の わた      (fuwafuwa no wata)      fluffy cotton
+  わふく      (wafuku) kimono / Japanese clothes (和服)
+     → わふく を きる        (wafuku o kiru)         wear a kimono
+  わっか      (wakka)  a hoop / ring (輪っか)
+     → ちいさい わっか       (chiisai wakka)         a little hoop
+
+を  ── THE JOINING SOUND  (always "o"; only ever the object particle — F-16)
+  りんご      (ringo)  apple (林檎)
+     → りんご を たべる      (ringo o taberu)        eat an apple
+  うた        (uta)    a song (歌)
+     → うた を うたう        (uta o utau)            sing a song
+  え          (e)      a picture (絵)
+     → え を かく            (e o kaku)              draw a picture
+  を is NOT a word-starter. This beat shows it doing its one job — joining a thing to
+  an action — in sentences you already know from earlier rows.
+
+ん  ── THE ENDING SOUND  (never starts a word; it finishes them)
+  ぱん        (pan)    bread (パン)
+     → おいしい ぱん         (oishii pan)            delicious bread
+  みかん      (mikan)  mandarin (蜜柑)
+     → あまい みかん         (amai mikan)            a sweet mandarin
+  きりん      (kirin)  giraffe (麒麟)
+     → おおきい きりん       (ōkii kirin)            a big giraffe
+  Every word here ENDS on ん — the perfect last sound of the whole gojuon.
+  Hold it: everybody hums ん…
+
+REFRAIN
+  わ を ん  (wa o n)   the last row
+
+REVIEW ── ぜんぶ よめた！  (zenbu yometa — "you read them all!")  one word per row, あ→ら:
+  あさ (asa) morning — あ行 ·  かに (kani) crab — か行 ·  さかな (sakana) fish — さ行 ·
+  つき (tsuki) moon — た行 ·  ねこ (neko) cat — な行 ·  ほし (hoshi) star — は行 ·
+  みかん (mikan) mandarin — ま行 ·  やぎ (yagi) goat — や行 ·  りんご (ringo) apple — ら行 ·
+  and わに (wani) — わ行, the new one.
+  Closing sweep: あ か さ た な は ま や ら わ を ん  — the ten row-leaders, in one breath.
+────────────────────────────────────────────────────────────────────────
+
+QUIETLY TEACHES BEYOND THE WORDS:
+· Particles: を (object, always "o"; never swapped — F-16), の (of), も (also — わに も いる).
+· Verbs: いる be, たべる eat, きる wear, うたう sing, かく draw. Adjectives: おおきい big,
+  ちいさい small, おいしい tasty, あまい sweet; ふわふわ fluffy (onomatopoeia).
+· Recombination ACROSS ALL 9 EARLIER ROWS — the REVIEW is the whole series returning as
+  known scaffolding (F-13). Nothing in it is new; that's the point of a finale.
+
+The TARGET is the わ-row words + を/ん as concepts; the sentence, audio and illustration
+carry the rest. The REVIEW teaches nothing new — it lets you feel how far you've come.
+
+────────────────────────────────────────────────────────────────────────
+THE CUTS: v2 = the わ teach only (~0:45, vertical); v3 = わ → を → ん → whole-gojuon review
+(~2:00). VOICES: the same finale is rendered Female (city pop) · Male (koto) · Kids
+(graduation singalong) — Strategy B (personas.md), one capstone per playlist. Sing it and
+you can read the whole gojuon cold.

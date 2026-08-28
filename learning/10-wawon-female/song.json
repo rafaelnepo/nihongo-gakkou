@@ -1,0 +1,65 @@
+{
+  "id": "10-wawon-female",
+  "title": "わをん・さいごの おと",
+  "jp": "わ行 ・ gojuon row 10 (FINALE) ・ the last sounds ・ female / city pop",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "10-wawon", "voice": "female", "index": 1, "siblings": ["male", "kids"] },
+  "render": {
+    "trackName": "さいごの おと",
+    "trackNo": "10",
+    "row": "わをん",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 94,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the わ-row", "The series finale", "Row 10 · わをん · The last sounds"],
+  "meta": ["Female / city pop · the house voice (P1)", "~94 BPM", "FINALE · わ を ん", "Vertical ~0:45 · YouTube ~2:00"],
+  "blurb": "The <strong>finale</strong> of the gojuon — <strong>わ を ん</strong>, the last row. It can't be a normal song: only <strong>わ</strong> starts words, <strong>を</strong> is only the object particle (always \"o\"), and <strong>ん</strong> never begins a word — it <em>ends</em> them. So instead of three theme-variations this is one graduation \"last sounds\" song: わ-words in sentences, a を beat that celebrates the little joiner you've used all series, a ん beat for the sound that finishes words, and a whole-gojuon victory lap — one beloved word from every row, あ→ら, <strong>you can read them all now</strong>. This is the <strong>female / city-pop</strong> cut — the same finale is rendered in all three house voices (Strategy B) so every playlist gets its capstone.",
+  "concept": [
+    "<strong>わ行 is the last row, and it is special.</strong> Only <strong>わ</strong> is a word-starter (わに, わし, わた…). <strong>を</strong> is <em>only</em> the object particle — essentially never begins a word, always read \"o\" (findings <strong>F-16</strong>). <strong>ん</strong> never starts a word either; it only <em>ends</em> syllables and words (ぱん, みかん, きりん). So you can't make 3 groups × 3 words — わ行 needs a different design.",
+    "<strong>The design: a graduation \"last sounds\" song.</strong> A わ teach (six わ-words, each in a small sentence — same onset blends, so context is essential, F-10), then a <strong>を</strong> beat that shows the joiner doing its job in already-known sentences (りんご を たべる, うた を うたう), then a <strong>ん</strong> beat for the finisher (おいしい ぱん, あまい みかん), and a <strong>whole-gojuon REVIEW</strong> — one word from every earlier row (あさ・かに・さかな・つき・ねこ・ほし・みかん・やぎ・りんご) recombined into a <em>ぜんぶ よめた！</em> victory lap. The ultimate <strong>F-13</strong> payoff.",
+    "<strong>This is the female / city-pop cut.</strong> The finale is written once and rendered in all three house voices — Female (city pop), Male (koto), Kids (graduation singalong) — Strategy B in <code>personas.md</code>, so each per-voice playlist ends on the same capstone. The refrain <strong>わ を ん</strong> is the whole point and lands last in every verse (F-07); the closing sweep <em>あ か さ た な は ま や ら わ を ん</em> is the series taking one last breath."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 94 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished with a gentle graduation warmth, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Kids — graduation singalong (the sibling cut)", "text": "Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, joyful and celebratory, extremely clear enunciation of every kana, call-and-response, no ad-libs" },
+    { "label": "Male koto — the calm sibling cut", "text": "modern Japanese pop with traditional koto, 90 BPM, single calm clear male vocalist, koto, soft shakuhachi accents, gentle modern beat, warm bass, elegant and serene, a graceful send-off, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, a fond farewell mood, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (YouTube cut ~2:00)", "file": "suno-v3.txt", "note": "わ teach → を → ん → whole-gojuon review" },
+    { "label": "Suno score — v2 (~0:45 short / vertical)", "file": "suno-v2.txt", "note": "the わ teach only" }
+  ],
+  "vocab": [
+    { "vowel": "わ", "theme": "animals & food", "items": [
+      { "w": "わに", "r": "wani", "m": "crocodile", "s": "わに が いる", "sm": "there's a crocodile" },
+      { "w": "わし", "r": "washi", "m": "eagle", "s": "おおきい わし", "sm": "a big eagle" },
+      { "w": "わかめ", "r": "wakame", "m": "wakame seaweed", "s": "わかめ を たべる", "sm": "eat some wakame" }
+    ]},
+    { "vowel": "わ", "theme": "things you can hold", "items": [
+      { "w": "わた", "r": "wata", "m": "cotton", "s": "ふわふわ の わた", "sm": "fluffy cotton" },
+      { "w": "わふく", "r": "wafuku", "m": "kimono (wafuku)", "s": "わふく を きる", "sm": "wear a kimono" },
+      { "w": "わっか", "r": "wakka", "m": "a hoop / ring", "s": "ちいさい わっか", "sm": "a little hoop" }
+    ]},
+    { "vowel": "を", "theme": "the joining sound — always \"o\" (F-16)", "items": [
+      { "w": "りんご", "r": "ringo", "m": "apple", "s": "りんご を たべる", "sm": "eat an apple" },
+      { "w": "うた", "r": "uta", "m": "a song", "s": "うた を うたう", "sm": "sing a song" },
+      { "w": "え", "r": "e", "m": "a picture", "s": "え を かく", "sm": "draw a picture" }
+    ]},
+    { "vowel": "ん", "theme": "the ending sound — never starts a word", "items": [
+      { "w": "ぱん", "r": "pan", "m": "bread", "s": "おいしい ぱん", "sm": "delicious bread" },
+      { "w": "みかん", "r": "mikan", "m": "mandarin", "s": "あまい みかん", "sm": "a sweet mandarin" },
+      { "w": "きりん", "r": "kirin", "m": "giraffe", "s": "おおきい きりん", "sm": "a big giraffe" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

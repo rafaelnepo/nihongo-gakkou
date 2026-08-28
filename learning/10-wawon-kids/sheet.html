@@ -1,0 +1,333 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>わをん・さいごの おと</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Maru+Gothic:wght@400;500;700&family=Klee+One:wght@400;600&display=swap">
+<style>:root{
+  --ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;
+  --ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;
+  --rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;
+  --shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -16px rgba(0,0,0,.7);
+  --f-display:"Shippori Mincho B1",'Hiragino Mincho ProN','Yu Mincho',serif;
+  --f-body:"Zen Maru Gothic",'Hiragino Maru Gothic ProN',system-ui,-apple-system,sans-serif;
+  --f-jp:"Klee One",'Hiragino Mincho ProN',serif;
+  --f-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;--ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;
+  --rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;
+  --shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);}}
+:root[data-theme="dark"]{--ground:#0b1226;--surface:#14203c;--surface-2:#1a2747;--ink:#eef2fb;--ink-2:#a4b3d3;--ink-3:#6f7ea3;--rule:#26345a;--rule-soft:#1a2748;--green:#ff5c48;--green-deep:#ff8574;--shu:#ff5c48;--shu-ink:#ff8574;--shu-soft:#3a1912;--shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -18px rgba(0,0,0,.8);}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--f-body);font-size:16.5px;line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto;padding:0 24px 90px}
+.back{display:inline-block;font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);text-decoration:none;padding:26px 0 0}
+.back:hover{color:var(--green-deep)}
+.mast{padding:22px 0 30px;border-bottom:1px solid var(--rule);margin-bottom:44px}
+.eyebrow{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--green);display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+.eyebrow span:not(:last-child)::after{content:"／";margin-left:10px;color:var(--rule)}
+h1{font-family:var(--f-display);font-weight:800;font-size:clamp(2.1rem,5.6vw,3.4rem);line-height:1.06;letter-spacing:-.015em;margin:0 0 6px}
+.h1-jp{font-family:var(--f-jp);font-weight:600;font-size:clamp(.98rem,2.5vw,1.22rem);color:var(--shu);letter-spacing:.14em;margin:0 0 18px}
+.tags{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 18px}
+.tag{font-family:var(--f-mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;padding:3px 8px;border-radius:2px;border:1px solid var(--rule);color:var(--ink-3)}
+.tag.strand{color:var(--green-deep);border-color:var(--green)}
+.tag.hot{color:#fff;background:var(--shu);border-color:var(--shu)}
+.tag.priv{color:var(--shu-ink);border-color:var(--shu);border-style:dashed}
+.standfirst{font-size:1.04rem;color:var(--ink-2);max-width:62ch;margin:0}
+.meta{font-family:var(--f-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.04em;display:flex;flex-wrap:wrap;gap:5px 16px;margin:16px 0 0}
+section{margin:0 0 54px}
+.sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:8px;flex-wrap:wrap}
+.sec-mark{font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--shu);border:1px solid var(--rule);border-radius:2px;padding:2px 7px}
+h2{font-family:var(--f-display);font-weight:700;font-size:clamp(1.34rem,3vw,1.7rem);line-height:1.22;margin:0}
+.sec-sub{color:var(--ink-3);margin:0 0 24px;max-width:64ch;font-size:.94rem}
+p{margin:0 0 16px}
+strong{font-weight:700}em{font-style:normal;color:var(--shu-ink);font-weight:500}
+.paste{background:var(--surface);border:1px solid var(--rule);border-radius:3px;overflow:hidden;margin:0 0 16px;box-shadow:var(--shadow)}
+.paste-head{padding:9px 12px 9px 15px;border-bottom:1px solid var(--rule);background:var(--surface-2);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.paste-head .t{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-2)}
+.paste-head .t .rec{color:var(--shu);margin-left:6px}
+.copy{font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 11px;border-radius:2px;border:1px solid var(--rule);background:var(--surface);color:var(--ink-2);cursor:pointer;white-space:nowrap}
+.copy:hover{border-color:var(--green);color:var(--green-deep)}
+.copy.done{color:var(--green-deep);border-color:var(--green)}
+@media (prefers-reduced-motion:no-preference){.copy{transition:border-color .15s,color .15s}}
+.paste pre{margin:0;padding:15px 15px;font-family:var(--f-mono);font-size:12.5px;line-height:1.85;color:var(--ink-2);overflow-x:auto;white-space:pre-wrap;max-height:560px}
+.paste pre .tag{color:var(--green)}
+.paste pre .mark{color:var(--shu);font-weight:600}
+.paste pre .cmt{color:var(--ink-3)}
+.paste.style pre{font-family:var(--f-body);font-size:13.5px;line-height:1.6;color:var(--ink)}
+/* vocab table */
+.vgroup{margin:0 0 22px}
+.vgroup .vh{font-family:var(--f-jp);font-weight:600;font-size:1.2rem;color:var(--green-deep);display:flex;align-items:baseline;gap:12px;margin:0 0 6px}
+.vgroup .vh small{font-family:var(--f-mono);font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);font-weight:400}
+.vtab{width:100%;border-collapse:collapse}
+.vtab td{padding:9px 14px 9px 0;border-top:1px solid var(--rule-soft);vertical-align:baseline}
+.vtab .w{font-family:var(--f-jp);font-size:1.1rem;color:var(--ink);white-space:nowrap}
+.vtab .r{font-family:var(--f-mono);font-size:10px;color:var(--ink-3);white-space:nowrap}
+.vtab .m{font-size:.86rem;color:var(--ink-2)}
+.vtab .arrow{color:var(--shu);font-family:var(--f-mono);font-size:11px}
+.vtab .s{font-family:var(--f-jp);font-size:1.02rem;color:var(--ink)}
+.vtab .sm{font-size:.8rem;color:var(--ink-3)}
+footer{margin-top:20px;padding-top:24px;border-top:1px solid var(--rule);font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px}
+@media (max-width:640px){.vtab td{display:block;padding:2px 0;border:none}.vgroup{border-top:1px solid var(--rule-soft);padding-top:12px}.vtab tr{display:block;padding:10px 0;border-top:1px solid var(--rule-soft)}}
+:focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}</style>
+<div class="wrap">
+<a class="back" href="../../index.html">&larr; All songs</a>
+<header class="mast">
+  <div class="eyebrow"><span>Read the わ-row</span><span>The series finale</span><span>Row 10 · わをん · The last sounds</span></div>
+  <h1>わをん・さいごの おと</h1>
+  <p class="h1-jp">わ行 ・ gojuon row 10 (FINALE) ・ the last sounds ・ kids / graduation singalong</p>
+  <div class="tags"><span class="tag strand">learning</span><span class="tag ">written</span></div>
+  <p class="standfirst">The <strong>finale</strong> of the gojuon — <strong>わ を ん</strong>, the last row — as a joyful <strong>graduation singalong</strong>. It can't be a normal song: only <strong>わ</strong> starts words, <strong>を</strong> is only the object particle (always "o"), and <strong>ん</strong> never begins a word — it <em>ends</em> them. So this is a "last sounds" celebration: わ-words in sentences, a を beat for the little joiner you've used all series, a ん beat for the sound that finishes words (everybody hums ん…), and a whole-gojuon victory lap — one beloved word from every row, あ→ら, <strong>you can read them all now!</strong> This is the <strong>kids</strong> cut — a lead + children's chorus, call-and-response (F-14); the natural way to land the series. The same finale is also rendered Female and Male (Strategy B).</p>
+  <div class="meta"><span>Kids / kodomo no uta · lead + chorus (P3, F-14)</span><span>~104 BPM</span><span>FINALE · わ を ん</span><span>Vertical ~0:45 · YouTube ~2:00</span></div>
+</header>
+<section><div class="sec-head"><span class="sec-mark">01</span><h2>The idea</h2></div><p><strong>わ行 is the last row, and it is special.</strong> Only <strong>わ</strong> is a word-starter (わに, わし, わた…). <strong>を</strong> is <em>only</em> the object particle — essentially never begins a word, always read "o" (findings <strong>F-16</strong>). <strong>ん</strong> never starts a word either; it only <em>ends</em> syllables and words (ぱん, みかん, きりん). So you can't make 3 groups × 3 words — わ行 needs a different design.</p>
+<p><strong>The design: a graduation "last sounds" song.</strong> A わ teach (six わ-words, each in a small sentence — same onset blends, so context is essential, F-10), then a <strong>を</strong> beat that shows the joiner doing its job in already-known sentences (りんご を たべる, うた を うたう), then a <strong>ん</strong> beat for the finisher (おいしい ぱん, あまい みかん), and a <strong>whole-gojuon REVIEW</strong> — one word from every earlier row (あさ・かに・さかな・つき・ねこ・ほし・みかん・やぎ・りんご) recombined into a <em>ぜんぶ よめた！</em> victory lap. The ultimate <strong>F-13</strong> payoff.</p>
+<p><strong>This is the kids cut — and the natural finale.</strong> A bright youthful lead calls, a <strong>children's chorus answers</strong>, call-and-response (P3, validated F-14). The refrain <strong>わ を ん</strong> is sung by the <em>whole chorus</em> — the classroom graduating together (F-07). The same finale is also rendered Female (city pop) and Male (koto) — Strategy B in <code>personas.md</code> — so every playlist gets its capstone, but the kids voice is where a "you can read them all now!" singalong belongs. The closing sweep <em>あ か さ た な は ま や ら わ を ん</em> is the whole class in one breath.</p></section>
+<section><div class="sec-head"><span class="sec-mark">02</span><h2>Style prompts</h2></div><p class="sec-sub">Paste one into Suno's style box. Copy buttons at right.</p>
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Kids — graduation singalong (lead + chorus) <span class="rec">★ house</span></span><button class="copy">Copy</button></div>
+      <pre>Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, joyful and celebratory like a graduation party, extremely clear enunciation of every kana, call-and-response, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">City pop — the female sibling cut</span><button class="copy">Copy</button></div>
+      <pre>Japanese city pop, 94 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished with a gentle graduation warmth, dry forward vocal, very clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Koto × modern — the calm male sibling cut</span><button class="copy">Copy</button></div>
+      <pre>modern Japanese pop with traditional koto, 90 BPM, single calm clear male vocalist, koto, soft shakuhachi accents, gentle modern beat, warm bass, elegant and serene, a graceful send-off, dry forward vocal, extremely clear enunciation, no ad-libs</pre>
+    </div>
+
+    <div class="paste style">
+      <div class="paste-head"><span class="t">Kids — clean recognition test (lead alone, no chorus)</span><button class="copy">Copy</button></div>
+      <pre>Japanese children's song, 104 BPM, ONE bright cheerful youthful female voice, solo — no chorus, no backing vocals — toy piano, xylophone, marimba, ukulele, hand claps, woodblock, light upright bass, warm and playful, dry forward vocal, extremely clear enunciation of every kana, no ad-libs</pre>
+    </div></section>
+<section><div class="sec-head"><span class="sec-mark">03</span><h2>Lyrics &mdash; paste into Suno</h2></div><p class="sec-sub">Pulled live from the suno-*.txt scores. <span class="mark" style="font-family:var(--f-mono)">ワ/オ/エ</span> are the particle fixes (は/を/へ).</p>
+    <div class="paste">
+      <div class="paste-head"><span class="t">Suno score — v3 (YouTube cut ~2:00) &middot; わ teach → を → ん → whole-gojuon review</span><button class="copy">Copy</button></div>
+      <pre>[A joyful, playful lead — a graduation party. A children's chorus answers and sings the
+ refrain in unison. Every syllable crisp. No ad-libs. Tempo ~104. Call-and-response.]
+
+<span class="tag">[Intro]</span>
+わ を ん
+
+<span class="cmt"># ═══ PART 1 · わ を まなぶ (word → sentence) ═══</span>
+
+<span class="tag">[Verse]</span>
+わに
+わに が いる
+わし
+おおきい わし
+わかめ
+わかめ を たべる
+わ を ん
+
+<span class="tag">[Verse]</span>
+わた
+ふわふわ の わた
+わふく
+わふく を きる
+わっか
+ちいさい わっか
+わ を ん
+
+<span class="cmt"># ═══ を · つなぐ おと — the little joiner, in sentences you know ═══</span>
+
+<span class="tag">[Verse]</span>
+りんご
+りんご を たべる
+うた
+うた を うたう
+え
+え を かく
+わ を ん
+
+<span class="cmt"># ═══ ん · おわりの おと — every line ends on ん; hold it, hum ん… ═══</span>
+
+<span class="tag">[Verse]</span>
+ぱん
+おいしい ぱん
+みかん
+あまい みかん
+きりん
+おおきい きりん
+わ を ん
+
+<span class="cmt"># ═══ ぜんぶ よめた · REVIEW — one word per row, あ→ら (the whole chorus) ═══</span>
+
+<span class="tag">[Chorus]</span>
+あさ、かに、さかな
+つき、ねこ、ほし
+みかん、やぎ、りんご
+わに も いる
+ぜんぶ よめた！
+わ を ん
+
+<span class="tag">[Outro]</span>
+あ か さ た な は ま や ら わ を ん
+わ を ん</pre>
+    </div>
+
+    <div class="paste">
+      <div class="paste-head"><span class="t">Suno score — v2 (~0:45 short / vertical) &middot; the わ teach only</span><button class="copy">Copy</button></div>
+      <pre>[A joyful, playful lead + a children's chorus answering. Every syllable crisp. No ad-libs.
+ Tempo ~104. Call-and-response.]
+
+<span class="tag">[Intro]</span>
+わ を ん
+
+<span class="tag">[Verse]</span>
+わに
+わに が いる
+わし
+おおきい わし
+わかめ
+わかめ を たべる
+わ を ん
+
+<span class="tag">[Verse]</span>
+わた
+ふわふわ の わた
+わふく
+わふく を きる
+わっか
+ちいさい わっか
+わ を ん
+
+<span class="tag">[Outro]</span>
+わ を ん</pre>
+    </div></section>
+<section><div class="sec-head"><span class="sec-mark">04</span><h2>What it teaches</h2></div><p class="sec-sub">Say the word, then see it used. Target word &rarr; a sentence in context.</p><div class="vgroup"><div class="vh">わ <small>animals &amp; food</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">わに</td><td class="r">wani</td><td class="m">crocodile</td>
+        <td class="arrow">&rarr;</td><td class="s">わに が いる</td><td class="sm">there's a crocodile</td></tr>
+<tr>
+        <td class="w">わし</td><td class="r">washi</td><td class="m">eagle</td>
+        <td class="arrow">&rarr;</td><td class="s">おおきい わし</td><td class="sm">a big eagle</td></tr>
+<tr>
+        <td class="w">わかめ</td><td class="r">wakame</td><td class="m">wakame seaweed</td>
+        <td class="arrow">&rarr;</td><td class="s">わかめ を たべる</td><td class="sm">eat some wakame</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">わ <small>things you can hold</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">わた</td><td class="r">wata</td><td class="m">cotton</td>
+        <td class="arrow">&rarr;</td><td class="s">ふわふわ の わた</td><td class="sm">fluffy cotton</td></tr>
+<tr>
+        <td class="w">わふく</td><td class="r">wafuku</td><td class="m">kimono (wafuku)</td>
+        <td class="arrow">&rarr;</td><td class="s">わふく を きる</td><td class="sm">wear a kimono</td></tr>
+<tr>
+        <td class="w">わっか</td><td class="r">wakka</td><td class="m">a hoop / ring</td>
+        <td class="arrow">&rarr;</td><td class="s">ちいさい わっか</td><td class="sm">a little hoop</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">を <small>the joining sound — always &quot;o&quot; (F-16)</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">りんご</td><td class="r">ringo</td><td class="m">apple</td>
+        <td class="arrow">&rarr;</td><td class="s">りんご を たべる</td><td class="sm">eat an apple</td></tr>
+<tr>
+        <td class="w">うた</td><td class="r">uta</td><td class="m">a song</td>
+        <td class="arrow">&rarr;</td><td class="s">うた を うたう</td><td class="sm">sing a song</td></tr>
+<tr>
+        <td class="w">え</td><td class="r">e</td><td class="m">a picture</td>
+        <td class="arrow">&rarr;</td><td class="s">え を かく</td><td class="sm">draw a picture</td></tr></tbody></table></div>
+<div class="vgroup"><div class="vh">ん <small>the ending sound — never starts a word</small></div>
+      <table class="vtab"><tbody><tr>
+        <td class="w">ぱん</td><td class="r">pan</td><td class="m">bread</td>
+        <td class="arrow">&rarr;</td><td class="s">おいしい ぱん</td><td class="sm">delicious bread</td></tr>
+<tr>
+        <td class="w">みかん</td><td class="r">mikan</td><td class="m">mandarin</td>
+        <td class="arrow">&rarr;</td><td class="s">あまい みかん</td><td class="sm">a sweet mandarin</td></tr>
+<tr>
+        <td class="w">きりん</td><td class="r">kirin</td><td class="m">giraffe</td>
+        <td class="arrow">&rarr;</td><td class="s">おおきい きりん</td><td class="sm">a big giraffe</td></tr></tbody></table></div></section>
+<section><div class="sec-head"><span class="sec-mark">05</span><h2>More</h2></div>
+    <div class="paste">
+      <div class="paste-head"><span class="t">Screen text (the video)</span><button class="copy">Copy</button></div>
+      <pre>わをん（フィナーレ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill being taught.
+
+The wa-row is the LAST row and it is SPECIAL: only わ starts words; を is only the object particle
+(always read &quot;o&quot;, F-16); ん never starts a word — it ENDS them. So this is not a 3-theme song
+but the SERIES FINALE — a graduation &quot;last sounds&quot; song, rendered in all three house voices
+(Strategy B, personas.md). Refrain: わ を ん.
+  · SHORT (~0:45, vertical Stories/Reels) = PART 1 (the わ teach) only  → suno-v2.txt
+  · YOUTUBE (~2:00) = PART 1 + を + ん + the whole-gojuon REVIEW  → suno-v3.txt (this screen)
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the SENTENCE with
+the target word HIGHLIGHTED as the ball reaches it. In the を / ん beats, blow up the single
+kana (を, then ん) as the &quot;sound of the day&quot;. In the REVIEW, flash each word's EARLIER
+illustration — one per row, あ→ら — the &quot;you can read them all now&quot; wall.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   わ を ん
+
+═══ PART 1 · わ を まなぶ ═══
+わに
+わに が いる
+わし
+おおきい わし
+わかめ
+わかめ を たべる
+わ を ん
+
+わた
+ふわふわ の わた
+わふく
+わふく を きる
+わっか
+ちいさい わっか
+わ を ん
+
+═══ を · つなぐ おと ═══
+りんご
+りんご を たべる
+うた
+うた を うたう
+え
+え を かく
+わ を ん
+
+═══ ん · おわりの おと ═══
+ぱん
+おいしい ぱん
+みかん
+あまい みかん
+きりん
+おおきい きりん
+わ を ん
+
+═══ ぜんぶ よめた · REVIEW (the whole gojuon) ═══
+あさ、かに、さかな
+つき、ねこ、ほし
+みかん、やぎ、りんご
+わに も いる
+ぜんぶ よめた！
+あ か さ た な は ま や ら わ を ん
+わ を ん
+
+(outro)   わ を ん
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+わに=crocodile · わし=eagle · わかめ=wakame seaweed · わた=cotton · わふく=kimono · わっか=hoop ·
+りんご=apple · うた=singing/music note · え=picture/drawing · ぱん=bread · みかん=mandarin ·
+きりん=giraffe. Verbs/adjs: いる be · たべる eat · きる wear · うたう sing · かく draw ·
+おおきい big · ちいさい small · おいしい tasty · あまい sweet · ふわふわ fluffy.
+REVIEW (recombined, one per row — flash each row's earlier illustration):
+あさ morning (a-row) · かに crab (ka-row) · さかな fish (sa-row) · つき moon (ta-row) · ねこ cat (na-row) ·
+ほし star (ha-row) · みかん mandarin (ma-row) · やぎ goat (ya-row) · りんご apple (ra-row) · わに (wa-row, new).</pre>
+    </div></section>
+<footer><span>わをん・さいごの おと</span><span>generated from song.json + *.txt</span><span>build_sheets.mjs</span></footer>
+</div>
+<script>
+document.querySelectorAll('.copy').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const pre=btn.closest('.paste').querySelector('pre');
+    const text=pre.innerText;
+    const done=()=>{const o=btn.textContent;btn.textContent='Copied \u2713';btn.classList.add('done');setTimeout(()=>{btn.textContent=o;btn.classList.remove('done')},1400)};
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(done).catch(()=>fb(text,done))}else fb(text,done);
+  });
+});
+function fb(text,done){const ta=document.createElement('textarea');ta.value=text;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();try{document.execCommand('copy');done()}catch(_){}document.body.removeChild(ta)}
+</script>

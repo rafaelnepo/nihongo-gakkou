@@ -1,0 +1,26 @@
+わをん（フィナーレ）— STYLE NOTES  ·  KIDS cut  (the natural finale)
+
+PAIRS WITH THE KIDS voice — Persona "Kodomo JP" (F-14). A bright youthful female LEAD + a
+CHILDREN'S CHORUS answering, call-and-response. Select the Persona in Custom mode. This is the
+graduation singalong — the "you can read them all now!" party. Joyful, a little silly.
+
+EPISODE STYLE (Kids Persona selected — describe the band + the chorus, not the voice):
+  Japanese children's song, 104 BPM, toy piano, xylophone, marimba, ukulele, hand claps,
+  woodblock, bouncy upright bass, simple happy drums, with a children's chorus answering,
+  call-and-response, joyful and celebratory like a graduation party, clear enunciation of
+  every kana, no ad-libs
+
+FALLBACK: the city-pop house voice (Female JP) — see the female sibling / song.json styles[1].
+
+SIBLING CUTS (same finale, other voices — Strategy B, personas.md):
+  · 10-wawon-female — Persona "Female JP" (city pop), ~94 BPM, warm house voice.
+  · 10-wawon-male   — Persona "Male JP" (koto × modern), ~90 BPM, calm send-off.
+
+SETTINGS (house-style.md → Generation settings): Write lyrics; exclude autotune, heavy reverb,
+ad-libs, whisper, distortion, melisma, vocal runs; Weirdness ~20%; Style Influence ~50–60%;
+Duration Auto (F-15).
+
+TEMPO: ~104. The refrain わ を ん is the WHOLE kids chorus in unison (F-07) — the class singing
+together. Don't name a second soloist; the chorus is a group texture ("a children's chorus
+answering"), not another singer (F-04/F-14). In the ん beat, the whole class HUMS the final ん.
+The closing sweep あ か さ た な は ま や ら わ を ん is everyone in one big breath.

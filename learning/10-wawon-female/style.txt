@@ -1,0 +1,21 @@
+わをん（フィナーレ）— STYLE NOTES  ·  FEMALE cut
+
+PAIRS WITH THE FEMALE house voice — Persona "Female JP" (city pop, F-11). Select the Persona
+in Custom mode. This is the graduation capstone in the house voice; keep it warm, not sappy.
+
+EPISODE STYLE (Female Persona selected — describe the band, not the voice):
+  Japanese city pop, 94 BPM, warm electric piano, clean funk guitar, smooth bass, light 80s
+  drums, cheerful and polished with a gentle graduation warmth, clear enunciation of every
+  kana, no ad-libs
+
+SIBLING CUTS (same finale, other voices — Strategy B, personas.md):
+  · 10-wawon-male  — Persona "Male JP" (koto × modern), ~90 BPM, elegant send-off.
+  · 10-wawon-kids  — Persona "Kodomo JP" (kids chorus + call-and-response), ~104 BPM, party.
+
+SETTINGS (house-style.md → Generation settings): Write lyrics; exclude autotune, heavy reverb,
+ad-libs, whisper, distortion, melisma, vocal runs; Weirdness ~20%; Style Influence ~50–60%;
+Duration Auto (F-15).
+
+TEMPO: ~94. The refrain わ を ん is the sing-along and lands last in every verse (F-07). In the
+ん beat, hold the final ん (everybody hums ん…). The closing sweep あ か さ た な は ま や ら わ を ん
+is the whole gojuon in one breath — keep it clean and unhurried.

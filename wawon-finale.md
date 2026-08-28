@@ -1,8 +1,13 @@
 # わ行 (row 10) — design sketch for the finale
 
-**Status: NOT drafted yet — this is the plan.** Written 2026-08-28 while closing a session.
-The other 9 rows are done (27 songs). わ行 is the last, and it's special, so decide the shape
-before writing lyrics.
+**Status: DRAFTED 2026-08-28 (stage 1).** This plan was executed. The finale ships as THREE
+voice-siblings under `learning/` — `10-wawon-female` (city pop, house voice), `10-wawon-male`
+(koto, calm send-off), `10-wawon-kids` (graduation singalong, lead + chorus) — Strategy B:
+one lyric, three capstones, one per playlist. Recommended shape below was followed almost
+verbatim. Decisions taken are recorded under *Open questions* at the bottom.
+
+Original sketch (written 2026-08-28 while closing a session): the other 9 rows are done
+(27 songs). わ行 is the last, and it's special, so decide the shape before writing lyrics.
 
 ## Why わ行 can't be a normal song
 
@@ -56,7 +61,24 @@ This is the natural place for the "same song × 3 personas" idea to shine.
 - **Fold わ into a pure whole-gojuon review** — good ideas overlap with step 5 above, but keep
   わ's own new words (わに/わし/…) so the last row still *teaches*, not only reviews.
 
-## Open questions for the next session
-- One song in three voices, or a kids-led finale + optional others?
-- How much of step 5 (whole-series recombination) — a light nod, or a full victory-lap verse?
-- Is `10-wawon` the right id, or `10-wawon-final` / a `finale/` folder?
+## Open questions — RESOLVED 2026-08-28 (Nepô's call)
+- **One song in three voices, or a kids-led finale?** → **One song × three voices (Strategy B).**
+  Three sibling folders `10-wawon-{female,male,kids}`, same lyric, each a per-voice-playlist
+  capstone. The kids cut is written as the natural lead (graduation singalong).
+- **How much of step 5 (whole-series recombination)?** → **Full victory-lap verse.** The REVIEW
+  section recombines one beloved word per row, あ→ら (あさ・かに・さかな・つき・ねこ・ほし・みかん・
+  やぎ・りんご — all verified as real prior targets), + わに も いる, + ぜんぶ よめた！, + the
+  ten-row-leader sweep あ か さ た な は ま や ら わ を ん. Lives in `screen.txt`'s REVIEW (tail),
+  not `vocab[]`, since it's recombination, not new teaching.
+- **id / folder naming?** → **`10-wawon` base, `-<voice>` per sibling** (`10-wawon-female` etc.),
+  not `10-wawon-final` and not a `finale/` folder — matches the `NN-<slug>` convention.
+
+### What shipped (stage 1)
+- `vocab[]` = FOUR groups so a `わ を ん` refrain lands after each (F-07): わ (animals & food:
+  わに・わし・わかめ), わ (things: わた・わふく・わっか), を (りんご・うた・え — the joiner in known
+  sentences, always "o", F-16), ん (ぱん・みかん・きりん — every phrase ends on ん).
+- `screen.txt` mirrors the full sung order; PART 1 / を / ん headers are plain `═══` rules the
+  timing scaffolder treats as `skip` (vocab owns them), and only the `REVIEW` header routes the
+  victory lap into the tail. No は/へ/を swaps needed (none present; を stays を).
+- Rendered: `sheet.html` for all three (dashboard now 30 public songs). Lint: screen.txt is
+  fully kana (no 行 in prose — write "wa-row"). Next: generate audio per voice, then stage 7→8.

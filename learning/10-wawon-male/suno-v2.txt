@@ -1,0 +1,35 @@
+わをん（フィナーレ）— SUNO SCORE v2  (the ~0:45 short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 10 (わ行) — the SERIES FINALE. The わ TEACH only.
+
+This short cut teaches the six わ-words (the only word-starters in the row). The full finale
+(わ → を → ん → whole-gojuon review, ~2:00) is suno-v3.txt. Same voice + rules.
+
+VOICE: the MALE house voice (Persona "Male JP", koto × modern). Custom mode.
+PHONETIC FIXES (F-02/F-16): no は/へ particles here → NO swaps. を STAYS を (F-16). ALL HIRAGANA.
+DURATION: Auto (F-15) — a short cut; don't pad.
+
+[A calm, elegant vocal — an unhurried farewell. Every syllable crisp. No ad-libs. Tempo ~90.]
+
+[Intro]
+わ を ん
+
+[Verse]
+わに
+わに が いる
+わし
+おおきい わし
+わかめ
+わかめ を たべる
+わ を ん
+
+[Verse]
+わた
+ふわふわ の わた
+わふく
+わふく を きる
+わっか
+ちいさい わっか
+わ を ん
+
+[Outro]
+わ を ん

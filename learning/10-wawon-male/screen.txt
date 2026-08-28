@@ -1,0 +1,74 @@
+わをん（フィナーレ）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill being taught.
+
+The wa-row is the LAST row and it is SPECIAL: only わ starts words; を is only the object particle
+(always read "o", F-16); ん never starts a word — it ENDS them. So this is not a 3-theme song
+but the SERIES FINALE — a graduation "last sounds" song, rendered in all three house voices
+(Strategy B, personas.md). Refrain: わ を ん.
+  · SHORT (~0:45, vertical Stories/Reels) = PART 1 (the わ teach) only  → suno-v2.txt
+  · YOUTUBE (~2:00) = PART 1 + を + ん + the whole-gojuon REVIEW  → suno-v3.txt (this screen)
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the SENTENCE with
+the target word HIGHLIGHTED as the ball reaches it. In the を / ん beats, blow up the single
+kana (を, then ん) as the "sound of the day". In the REVIEW, flash each word's EARLIER
+illustration — one per row, あ→ら — the "you can read them all now" wall.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   わ を ん
+
+═══ PART 1 · わ を まなぶ ═══
+わに
+わに が いる
+わし
+おおきい わし
+わかめ
+わかめ を たべる
+わ を ん
+
+わた
+ふわふわ の わた
+わふく
+わふく を きる
+わっか
+ちいさい わっか
+わ を ん
+
+═══ を · つなぐ おと ═══
+りんご
+りんご を たべる
+うた
+うた を うたう
+え
+え を かく
+わ を ん
+
+═══ ん · おわりの おと ═══
+ぱん
+おいしい ぱん
+みかん
+あまい みかん
+きりん
+おおきい きりん
+わ を ん
+
+═══ ぜんぶ よめた · REVIEW (the whole gojuon) ═══
+あさ、かに、さかな
+つき、ねこ、ほし
+みかん、やぎ、りんご
+わに も いる
+ぜんぶ よめた！
+あ か さ た な は ま や ら わ を ん
+わ を ん
+
+(outro)   わ を ん
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+わに=crocodile · わし=eagle · わかめ=wakame seaweed · わた=cotton · わふく=kimono · わっか=hoop ·
+りんご=apple · うた=singing/music note · え=picture/drawing · ぱん=bread · みかん=mandarin ·
+きりん=giraffe. Verbs/adjs: いる be · たべる eat · きる wear · うたう sing · かく draw ·
+おおきい big · ちいさい small · おいしい tasty · あまい sweet · ふわふわ fluffy.
+REVIEW (recombined, one per row — flash each row's earlier illustration):
+あさ morning (a-row) · かに crab (ka-row) · さかな fish (sa-row) · つき moon (ta-row) · ねこ cat (na-row) ·
+ほし star (ha-row) · みかん mandarin (ma-row) · やぎ goat (ya-row) · りんご apple (ra-row) · わに (wa-row, new).
