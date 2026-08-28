@@ -296,7 +296,8 @@ const App: React.FC = () => {
     <div style={S.app}>
       <header style={S.header}>
         <div style={{ fontWeight: 800, fontSize: 15 }}>
-          nudge · <span style={{ color: "#e7481c" }}>{SONG_ID}</span>
+          Iconotes Nudger <span style={{ color: "#cbc1ac" }}>·</span>{" "}
+          <span style={{ color: "#e7481c" }}>{SONG_ID}</span>
         </div>
         <div style={S.spacer} />
         <label style={S.control}>
@@ -360,18 +361,25 @@ const App: React.FC = () => {
               ) : null}
             </div>
             <div style={S.legend}>
-              <Legend k={["←", "→"]} d="start − / +" />
-              <Legend k={["⇧←", "⇧→"]} d="end − / +" />
-              <Legend k={["↑", "↓"]} d="prev / next line" />
+              <Legend k={["←", "/", "→"]} d="start − / +" />
+              <Legend k={["⇧", "+", "←", "/", "→"]} d="end − / +" />
+              <Legend k={["↑", "/", "↓"]} d="prev / next line" />
               <Legend k={["R"]} d="replay current line" />
               <Legend k={["Space"]} d="play / pause" />
-              <Legend k={["[", "]"]} d="step size" />
+              <Legend k={["[", "/", "]"]} d="step size" />
             </div>
           </div>
         </div>
 
         {/* draggable divider — widen the pane to enlarge the video */}
-        <div style={S.divider} onMouseDown={startDrag} title="drag to resize">
+        <div
+          style={S.divider}
+          onMouseDown={(e) => {
+            e.preventDefault(); // stop the browser starting a text selection
+            startDrag();
+          }}
+          title="drag to resize"
+        >
           <div style={S.dividerGrip} />
         </div>
 
@@ -456,14 +464,22 @@ const Group: React.FC<{
   </div>
 );
 
+// A legend row: each token is one key (→ its own <kbd>) or a separator ("+" / "/").
+const SEPARATORS = new Set(["+", "/"]);
 const Legend: React.FC<{ k: string[]; d: string }> = ({ k, d }) => (
   <div style={S.legendRow}>
-    <div style={{ display: "flex", gap: 3 }}>
-      {k.map((key) => (
-        <kbd key={key} style={S.kbd}>
-          {key}
-        </kbd>
-      ))}
+    <div style={S.keys}>
+      {k.map((t, i) =>
+        SEPARATORS.has(t) ? (
+          <span key={i} style={S.sep}>
+            {t}
+          </span>
+        ) : (
+          <kbd key={i} style={S.kbd}>
+            {t}
+          </kbd>
+        )
+      )}
     </div>
     <div style={S.legendDesc}>{d}</div>
   </div>
@@ -494,10 +510,12 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   scrub: { flex: 1, accentColor: "#e7481c", cursor: "pointer" },
   time: { fontFamily: "ui-monospace, monospace", fontSize: 12, color: "#6f685c", minWidth: 96, textAlign: "right" },
   playhead: { marginTop: 10, fontSize: 13, fontFamily: "ui-monospace, monospace", color: "#6f685c" },
-  legend: { marginTop: 14, display: "grid", gridTemplateColumns: "1fr 1fr", gap: "6px 16px" },
-  legendRow: { display: "flex", alignItems: "center", gap: 8 },
-  legendDesc: { fontSize: 12, color: "#8c8578" },
-  kbd: { fontFamily: "ui-monospace, monospace", fontSize: 11, minWidth: 16, textAlign: "center", padding: "2px 5px", borderRadius: 4, border: "1px solid #cbc1ac", borderBottomWidth: 2, background: "#fff", color: "#5a5348" },
+  legend: { marginTop: 16, display: "flex", flexDirection: "column", gap: 9 },
+  legendRow: { display: "flex", alignItems: "center", gap: 12 },
+  legendDesc: { fontSize: 13, color: "#8c8578" },
+  keys: { display: "flex", alignItems: "center", gap: 6, minWidth: 132 },
+  sep: { fontSize: 13, color: "#b6ab92", padding: "0 1px" },
+  kbd: { fontFamily: "ui-monospace, monospace", fontSize: 15, lineHeight: 1, minWidth: 30, height: 30, display: "inline-flex", alignItems: "center", justifyContent: "center", padding: "0 10px", borderRadius: 7, border: "1px solid #cbc1ac", borderBottomWidth: 3, background: "#fff", color: "#41403a", boxShadow: "0 1px 0 rgba(0,0,0,0.03)" },
   right: { flex: 1, overflowY: "auto", padding: "6px 10px" },
   row: { display: "flex", alignItems: "center", gap: 12, padding: "8px 10px", borderRadius: 8, cursor: "pointer", borderBottom: "1px solid #eee5d3" },
   rowSel: { background: "#fff", boxShadow: "inset 0 0 0 2px #e7481c" },
