@@ -1,0 +1,93 @@
+なにぬねの（しぜん）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (うみ, そら, あさ, はな) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   な に ぬ ね の
+
+═══ PART 1 · LEARN ═══
+なつ
+あつい なつ
+なみ
+うみ の なみ
+なのはな
+きいろい なのはな
+な に ぬ ね の
+
+にじ
+そら の にじ
+にわ
+はな の にわ
+にっこう
+あさ の にっこう
+な に ぬ ね の
+
+ぬま
+しずかな ぬま
+ぬかるみ
+あめ の ぬかるみ
+ぬくもり
+たいよう の ぬくもり
+な に ぬ ね の
+
+ねっこ
+き の ねっこ
+ねこやなぎ
+はる の ねこやなぎ
+ねぐら
+とり の ねぐら
+な に ぬ ね の
+
+のはら
+ひろい のはら
+のぎく
+しろい のぎく
+のやま
+とおい のやま
+な に ぬ ね の
+
+═══ BRIDGE · しぜん の いちにち ═══
+あつい なつ、うみ の なみ
+そら の にじ、あさ の にっこう
+しずかな ぬま、たいよう の ぬくもり
+き の ねっこ、はる の ねこやなぎ
+ひろい のはら、しろい のぎく
+きいろい なのはな、とおい のやま
+な に ぬ ね の
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+あつい なつ
+うみ の なみ
+きいろい なのはな
+そら の にじ
+はな の にわ
+あさ の にっこう
+しずかな ぬま
+あめ の ぬかるみ
+たいよう の ぬくもり
+き の ねっこ
+はる の ねこやなぎ
+とり の ねぐら
+ひろい のはら
+しろい のぎく
+とおい のやま
+な に ぬ ね の
+
+(outro)   な に ぬ ね の
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+なつ=summer (sun) · なみ=wave · なのはな=canola flowers · にじ=rainbow · にわ=garden ·
+にっこう=sunbeams · ぬま=marsh/pond · ぬかるみ=muddy ground · ぬくもり=warm sunlight ·
+ねっこ=tree roots · ねこやなぎ=pussy willow · ねぐら=bird roost · のはら=field · のぎく=
+wild daisy · のやま=distant hills. Adjs: あつい hot · きいろい yellow · しずかな quiet ·
+しろい white · ひろい wide · とおい far. Recombined: うみ · そら · あさ · はな · はる · たいよう.

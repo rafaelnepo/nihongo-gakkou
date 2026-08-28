@@ -1,0 +1,96 @@
+なにぬねの（おうち）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 5 (な行), HOME variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH → a day-at-home BRIDGE → a REVIEW of the SENTENCES ONLY. Round 2 differs
+from round 1, dodging the identical-repeat collapse (F-08).
+
+VOICE: house voice — city-pop + female Persona ("Female JP (City Pop)"). Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, clear vocal on a warm city-pop groove. Every syllable crisp.
+ Friendly, like a patient teacher. Tempo ~92. No ad-libs.]
+
+[Intro]
+な に ぬ ね の
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+なべ
+なべ で つくる
+なす
+むらさきの なす
+なし
+あまい なし
+な に ぬ ね の
+
+[Verse]
+にく
+にく オ やく
+にんじん
+にんじん オ きる
+にわ
+にわ の はな
+な に ぬ ね の
+
+[Verse]
+ぬいぐるみ
+くまの ぬいぐるみ
+ぬりえ
+ぬりえ オ する
+ぬの
+あおい ぬの
+な に ぬ ね の
+
+[Verse]
+ねこ
+ねこ が ねる
+ねぎ
+ねぎ オ きる
+ねんど
+ねんど で あそぶ
+な に ぬ ね の
+
+[Verse]
+のり
+のり の おにぎり
+のみもの
+つめたい のみもの
+のはら
+ひろい のはら
+な に ぬ ね の
+
+# ═══ BRIDGE · おうち の いちにち (recombine — new, flowing) ═══
+
+[Bridge]
+なべ で にく オ やく
+にんじん オ きる、ねぎ も
+くまの ぬいぐるみ、ぬりえ も
+ねこ が ねる、にわ で
+のり の おにぎり、つめたい のみもの
+ひろい のはら、はな の にわ
+な に ぬ ね の
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+なべ で つくる
+むらさきの なす
+あまい なし
+にく オ やく
+にんじん オ きる
+にわ の はな
+くまの ぬいぐるみ
+ぬりえ オ する
+あおい ぬの
+ねこ が ねる
+ねぎ オ きる
+ねんど で あそぶ
+のり の おにぎり
+つめたい のみもの
+ひろい のはら
+な に ぬ ね の
+
+[Outro]
+な に ぬ ね の

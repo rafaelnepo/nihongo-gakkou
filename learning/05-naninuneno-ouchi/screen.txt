@@ -1,0 +1,93 @@
+なにぬねの（おうち）— SCREEN TEXT  (the video)
+learning/ strand. Correct orthography, ALL HIRAGANA, no romaji, no gloss.
+No kanji, so nothing to furigana — the whole line is decodable kana, the skill
+being taught. The strictest doc: read in real time.
+
+Two cuts share this text:
+  · SHORT (~1–2 min, vertical Stories/Reels) = PART 1 only.
+  · YOUTUBE (~3 min) = PART 1 + BRIDGE + PART 2 (matches suno-v3.txt).
+
+LAYOUT INTENT (stage 8): show the WORD big + its Irasutoya picture, then the
+SENTENCE with the target word HIGHLIGHTED as the ball reaches it. Recurring words
+from earlier rows (くま, ねる, あそぶ, おにぎり) can flash their earlier illustration.
+
+────────────────────────────────────────────────────────────────────────
+(intro)   な に ぬ ね の
+
+═══ PART 1 · LEARN ═══
+なべ
+なべ で つくる
+なす
+むらさきの なす
+なし
+あまい なし
+な に ぬ ね の
+
+にく
+にく を やく
+にんじん
+にんじん を きる
+にわ
+にわ の はな
+な に ぬ ね の
+
+ぬいぐるみ
+くまの ぬいぐるみ
+ぬりえ
+ぬりえ を する
+ぬの
+あおい ぬの
+な に ぬ ね の
+
+ねこ
+ねこ が ねる
+ねぎ
+ねぎ を きる
+ねんど
+ねんど で あそぶ
+な に ぬ ね の
+
+のり
+のり の おにぎり
+のみもの
+つめたい のみもの
+のはら
+ひろい のはら
+な に ぬ ね の
+
+═══ BRIDGE · おうち の いちにち ═══
+なべ で にく を やく
+にんじん を きる、ねぎ も
+くまの ぬいぐるみ、ぬりえ も
+ねこ が ねる、にわ で
+のり の おにぎり、つめたい のみもの
+ひろい のはら、はな の にわ
+な に ぬ ね の
+
+═══ PART 2 · REVIEW (sentences, sing along) ═══
+なべ で つくる
+むらさきの なす
+あまい なし
+にく を やく
+にんじん を きる
+にわ の はな
+くまの ぬいぐるみ
+ぬりえ を する
+あおい ぬの
+ねこ が ねる
+ねぎ を きる
+ねんど で あそぶ
+のり の おにぎり
+つめたい のみもの
+ひろい のはら
+な に ぬ ね の
+
+(outro)   な に ぬ ね の
+────────────────────────────────────────────────────────────────────────
+
+ILLUSTRATION MAP (find via tools/illustrations, hi-res into video public/):
+なべ=pot · なす=eggplant · なし=pear · にく=meat · にんじん=carrot · にわ=garden ·
+ぬいぐるみ=teddy bear · ぬりえ=colouring book · ぬの=cloth · ねこ=cat · ねぎ=green onion ·
+ねんど=clay · のり=nori/rice ball · のみもの=drink · のはら=field. Verbs/adjs: つくる make
+· やく grill · きる cut · する do · ねる sleep · あそぶ play · むらさきの purple · あまい
+sweet · あおい blue · つめたい cold · ひろい wide. Recombined: くま · ねる · あそぶ · おにぎり.

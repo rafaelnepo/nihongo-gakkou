@@ -1,0 +1,70 @@
+{
+  "id": "05-naninuneno-ouchi",
+  "title": "なにぬねの",
+  "jp": "な行 ・ gojuon row 5 ・ a fun day at home",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "05-naninuneno", "theme": "home", "index": 1, "siblings": ["shizen", "doubutsu"] },
+  "render": {
+    "trackName": "たのしい おうち",
+    "trackNo": "05",
+    "row": "なにぬねの",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the な-row", "Gojuon by words", "Row 5 · な行 · At home"],
+  "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 5 of the gojuon — な に ぬ ね の — through a fun day at home: cook in a pot, grill meat, cuddle a teddy bear, colour a picture, play with clay, the cat naps. Say the thing, then <strong>use it</strong>. The home variation of three な-row songs (home · nature · animals).",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small action</strong> — にく を やく, ぬりえ を する, ねんど で あそぶ — and it recombines with earlier rows (くま, ねる, あそぶ, おにぎり, あまい, あおい return), keeping the ladder (F-13).",
+    "The five-kana row <em>な に ぬ ね の</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>day-at-home bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>home</strong> variation. Note: <em>ぬ</em> is the hardest kana in the whole gojuon (almost no beginner nouns), and the home cut is where it fits <em>best</em> — its words are the toy-box ones: ぬいぐるみ (a stuffed toy), ぬりえ (a colouring book), ぬの (cloth). Pairs with the <strong>Female (city pop)</strong> voice."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → day-at-home bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "な", "theme": "in the kitchen", "items": [
+      { "w": "なべ", "r": "nabe", "m": "pot", "s": "なべ で つくる", "sm": "cook in a pot" },
+      { "w": "なす", "r": "nasu", "m": "eggplant", "s": "むらさきの なす", "sm": "a purple eggplant" },
+      { "w": "なし", "r": "nashi", "m": "pear", "s": "あまい なし", "sm": "a sweet pear" }
+    ]},
+    { "vowel": "に", "theme": "cooking & the garden", "items": [
+      { "w": "にく", "r": "niku", "m": "meat", "s": "にく を やく", "sm": "grill meat" },
+      { "w": "にんじん", "r": "ninjin", "m": "carrot", "s": "にんじん を きる", "sm": "cut a carrot" },
+      { "w": "にわ", "r": "niwa", "m": "garden", "s": "にわ の はな", "sm": "garden flowers" }
+    ]},
+    { "vowel": "ぬ", "theme": "the toy box", "items": [
+      { "w": "ぬいぐるみ", "r": "nuigurumi", "m": "stuffed toy", "s": "くまの ぬいぐるみ", "sm": "a teddy bear" },
+      { "w": "ぬりえ", "r": "nurie", "m": "colouring book", "s": "ぬりえ を する", "sm": "do some colouring" },
+      { "w": "ぬの", "r": "nuno", "m": "cloth", "s": "あおい ぬの", "sm": "blue cloth" }
+    ]},
+    { "vowel": "ね", "theme": "the cat & clay", "items": [
+      { "w": "ねこ", "r": "neko", "m": "cat", "s": "ねこ が ねる", "sm": "a cat sleeps" },
+      { "w": "ねぎ", "r": "negi", "m": "green onion", "s": "ねぎ を きる", "sm": "cut green onion" },
+      { "w": "ねんど", "r": "nendo", "m": "clay", "s": "ねんど で あそぶ", "sm": "play with clay" }
+    ]},
+    { "vowel": "の", "theme": "a snack & out", "items": [
+      { "w": "のり", "r": "nori", "m": "seaweed", "s": "のり の おにぎり", "sm": "a seaweed rice ball" },
+      { "w": "のみもの", "r": "nomimono", "m": "a drink", "s": "つめたい のみもの", "sm": "a cold drink" },
+      { "w": "のはら", "r": "nohara", "m": "field", "s": "ひろい のはら", "sm": "a wide field" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

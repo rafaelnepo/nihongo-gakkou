@@ -1,0 +1,63 @@
+なにぬねの（どうぶつ）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 5 (な行), ANIMALS variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP"); add "children's chorus answering,
+call-and-response" for the kids sound; city-pop fallback. Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+な に ぬ ね の
+
+[Verse]
+なまず
+なまず が およぐ
+なまけもの
+なまけもの が ねる
+なめくじ
+はっぱ の なめくじ
+な に ぬ ね の
+
+[Verse]
+にわとり
+にわとり が なく
+にほんざる
+にほんざる が いる
+にしきへび
+にしきへび ワ ながい
+な に ぬ ね の
+
+[Verse]
+ぬいぐるみ
+くまの ぬいぐるみ
+ぬま
+ぬま の かえる
+ぬの
+ふわふわの ぬの
+な に ぬ ね の
+
+[Verse]
+ねこ
+ねこ が ねる
+ねずみ
+ねずみ が はしる
+ねぐら
+とり の ねぐら
+な に ぬ ね の
+
+[Verse]
+のねずみ
+のねずみ が いる
+のうさぎ
+のうさぎ が はねる
+のらねこ
+のらねこ が あるく
+な に ぬ ね の
+
+[Outro]
+な に ぬ ね の

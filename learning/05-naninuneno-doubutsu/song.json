@@ -1,0 +1,70 @@
+{
+  "id": "05-naninuneno-doubutsu",
+  "title": "なにぬねの",
+  "jp": "な行 ・ gojuon row 5 ・ animals",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "05-naninuneno", "theme": "animals", "index": 3, "siblings": ["ouchi", "shizen"] },
+  "render": {
+    "trackName": "のはら の なかまたち",
+    "trackNo": "05",
+    "row": "なにぬねの",
+    "channel": "iconotes",
+    "style": "City Pop",
+    "bpm": 92,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the な-row", "Gojuon by words", "Row 5 · な行 · Animals"],
+  "meta": ["Kids / city pop · playful (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 5 of the gojuon — な に ぬ ね の — through animals: a catfish and a sloth, a chicken and a monkey, a cat and a mouse, a field hare and a stray cat. Say the animal, then watch it <strong>do something</strong>. The animals variation — な行's toughest cut, since ぬ has no animal at all.",
+  "concept": [
+    "Words alone blend (findings F-10), so every animal is taught <strong>in a small action</strong> — なまけもの が ねる, のうさぎ が はねる — and it recombines with earlier rows (くま, かえる, はっぱ, とり + verbs ねる・はしる・はねる・いる return), keeping the ladder (F-13).",
+    "The five-kana row <em>な に ぬ ね の</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>field-friends bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>animals</strong> variation — <em>ぬ</em> is the single hardest kana in the gojuon and has <strong>no beginner animal at all</strong>, so its verse leans on a stuffed animal (ぬいぐるみ), a pond frog, and a soft cloth (a pet's blanket). な and に also reach a little (a slug, a macaque, a python). The cleaner な-row cuts are home and nature. Pairs with the <strong>kids</strong> voice."
+  ],
+  "styles": [
+    { "label": "City pop — the house voice", "rec": true, "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Kids — playful (call & response + kids chorus) · try me", "text": "Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano, ukulele, hand claps, woodblock, bouncy upright bass, simple happy drums, playful and joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs" },
+    { "label": "Koto × modern beat (classic × modern)", "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → field-friends bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "な", "theme": "slow & small", "items": [
+      { "w": "なまず", "r": "namazu", "m": "catfish", "s": "なまず が およぐ", "sm": "a catfish swims" },
+      { "w": "なまけもの", "r": "namakemono", "m": "sloth", "s": "なまけもの が ねる", "sm": "a sloth sleeps" },
+      { "w": "なめくじ", "r": "namekuji", "m": "slug", "s": "はっぱ の なめくじ", "sm": "a slug on a leaf" }
+    ]},
+    { "vowel": "に", "theme": "the farm & jungle", "items": [
+      { "w": "にわとり", "r": "niwatori", "m": "chicken", "s": "にわとり が なく", "sm": "a chicken clucks" },
+      { "w": "にほんざる", "r": "nihonzaru", "m": "Japanese macaque", "s": "にほんざる が いる", "sm": "there's a Japanese monkey" },
+      { "w": "にしきへび", "r": "nishikihebi", "m": "python", "s": "にしきへび は ながい", "sm": "the python is long" }
+    ]},
+    { "vowel": "ぬ", "theme": "no ぬ animal — a detour", "items": [
+      { "w": "ぬいぐるみ", "r": "nuigurumi", "m": "stuffed animal", "s": "くまの ぬいぐるみ", "sm": "a teddy bear" },
+      { "w": "ぬま", "r": "numa", "m": "pond / marsh", "s": "ぬま の かえる", "sm": "a frog in the pond" },
+      { "w": "ぬの", "r": "nuno", "m": "cloth", "s": "ふわふわの ぬの", "sm": "a fluffy cloth (the pet's blanket)" }
+    ]},
+    { "vowel": "ね", "theme": "cat & mouse", "items": [
+      { "w": "ねこ", "r": "neko", "m": "cat", "s": "ねこ が ねる", "sm": "a cat sleeps" },
+      { "w": "ねずみ", "r": "nezumi", "m": "mouse", "s": "ねずみ が はしる", "sm": "a mouse runs" },
+      { "w": "ねぐら", "r": "negura", "m": "roost / den", "s": "とり の ねぐら", "sm": "a bird's roost" }
+    ]},
+    { "vowel": "の", "theme": "out in the field", "items": [
+      { "w": "のねずみ", "r": "nonezumi", "m": "field mouse", "s": "のねずみ が いる", "sm": "there's a field mouse" },
+      { "w": "のうさぎ", "r": "nousagi", "m": "hare", "s": "のうさぎ が はねる", "sm": "a hare hops" },
+      { "w": "のらねこ", "r": "noraneko", "m": "stray cat", "s": "のらねこ が あるく", "sm": "a stray cat walks" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

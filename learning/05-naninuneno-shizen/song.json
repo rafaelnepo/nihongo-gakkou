@@ -1,0 +1,70 @@
+{
+  "id": "05-naninuneno-shizen",
+  "title": "なにぬねの",
+  "jp": "な行 ・ gojuon row 5 ・ nature",
+  "strand": "learning",
+  "status": "written",
+  "private": false,
+  "variation": { "of": "05-naninuneno", "theme": "nature", "index": 2, "siblings": ["ouchi", "doubutsu"] },
+  "render": {
+    "trackName": "のはら の みち",
+    "trackNo": "05",
+    "row": "なにぬねの",
+    "channel": "iconotes",
+    "style": "Koto × modern",
+    "bpm": 90,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080,
+    "countInSeconds": 1.1,
+    "tailSeconds": 1.5
+  },
+  "eyebrow": ["Read the な-row", "Gojuon by words", "Row 5 · な行 · Nature"],
+  "meta": ["Koto × modern · male (house voice)", "~90 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
+  "blurb": "Row 5 of the gojuon — な に ぬ ね の — through the outdoors: a hot summer and sea waves, a rainbow and morning light, a quiet marsh and the sun's warmth, tree roots and a wide field. A calm nature variation of three な-row songs.",
+  "concept": [
+    "Words alone blend (findings F-10), so every target sits <strong>in a small image</strong> — うみ の なみ, そら の にじ, き の ねっこ — and it recombines with earlier rows (うみ, そら, あさ, はな, はる, きいろい, たいよう return), keeping the ladder (F-13).",
+    "The five-kana row <em>な に ぬ ね の</em> closes every verse as the sung-together refrain (F-07). The 3-minute cut adds a <strong>day-in-nature bridge</strong> and a <strong>sentences-only review</strong>, not a loop (F-12).",
+    "This is the <strong>nature</strong> variation — the calm one, for koto × modern. Honest note: <em>ぬ</em> is the gojuon's hardest kana, so its verse reaches a little (a marsh, mud, the sun's warmth), and <em>ね</em> uses roots, a pussy willow and a roost. The mood carries the reach."
+  ],
+  "styles": [
+    { "label": "Koto × modern beat — the calm house take", "rec": true, "text": "modern Japanese pop with traditional koto, 90 BPM, single clear vocalist, koto, shakuhachi accents, soft modern beat, warm bass, elegant and calm, dry forward vocal, extremely clear enunciation, no ad-libs" },
+    { "label": "City pop — the house voice", "text": "Japanese city pop, 96 BPM, single bright clear female vocalist, warm electric piano, clean funk guitar, smooth bass, light 80s drums, cheerful and polished, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Acoustic café folk", "text": "warm acoustic folk pop, 92 BPM, single gentle clear vocalist, nylon acoustic guitar, soft brushed drums, light upright bass, glockenspiel, kind and unhurried, dry forward vocal, very clear enunciation, no ad-libs" },
+    { "label": "Lo-fi hip hop (kept for other content)", "text": "lo-fi hip hop, 86 BPM, single warm clear vocalist, dusty boom-bap drums, mellow Rhodes piano, soft upright bass, vinyl crackle, relaxed and cozy, dry forward vocal, no autotune, extremely clear enunciation of every kana, space between phrases, no ad-libs" }
+  ],
+  "lyrics": [
+    { "label": "Suno score — v3 (3-min YouTube cut)", "file": "suno-v3.txt", "note": "teach → day-in-nature bridge → review" },
+    { "label": "Suno score — v2 (~2-min short / vertical)", "file": "suno-v2.txt", "note": "the teach only" }
+  ],
+  "vocab": [
+    { "vowel": "な", "theme": "summer & sea", "items": [
+      { "w": "なつ", "r": "natsu", "m": "summer", "s": "あつい なつ", "sm": "a hot summer" },
+      { "w": "なみ", "r": "nami", "m": "wave", "s": "うみ の なみ", "sm": "waves on the sea" },
+      { "w": "なのはな", "r": "nanohana", "m": "canola flower", "s": "きいろい なのはな", "sm": "yellow canola flowers" }
+    ]},
+    { "vowel": "に", "theme": "light & the garden", "items": [
+      { "w": "にじ", "r": "niji", "m": "rainbow", "s": "そら の にじ", "sm": "a rainbow in the sky" },
+      { "w": "にわ", "r": "niwa", "m": "garden", "s": "はな の にわ", "sm": "a flower garden" },
+      { "w": "にっこう", "r": "nikkou", "m": "sunlight", "s": "あさ の にっこう", "sm": "morning sunlight" }
+    ]},
+    { "vowel": "ぬ", "theme": "marsh & warmth", "items": [
+      { "w": "ぬま", "r": "numa", "m": "marsh / pond", "s": "しずかな ぬま", "sm": "a quiet marsh" },
+      { "w": "ぬかるみ", "r": "nukarumi", "m": "mud", "s": "あめ の ぬかるみ", "sm": "mud after rain" },
+      { "w": "ぬくもり", "r": "nukumori", "m": "warmth", "s": "たいよう の ぬくもり", "sm": "the sun's warmth" }
+    ]},
+    { "vowel": "ね", "theme": "roots & branches", "items": [
+      { "w": "ねっこ", "r": "nekko", "m": "roots", "s": "き の ねっこ", "sm": "a tree's roots" },
+      { "w": "ねこやなぎ", "r": "nekoyanagi", "m": "pussy willow", "s": "はる の ねこやなぎ", "sm": "spring pussy willows" },
+      { "w": "ねぐら", "r": "negura", "m": "roost", "s": "とり の ねぐら", "sm": "a bird's roost" }
+    ]},
+    { "vowel": "の", "theme": "fields & hills", "items": [
+      { "w": "のはら", "r": "nohara", "m": "field", "s": "ひろい のはら", "sm": "a wide field" },
+      { "w": "のぎく", "r": "nogiku", "m": "wild daisy", "s": "しろい のぎく", "sm": "white wild daisies" },
+      { "w": "のやま", "r": "noyama", "m": "hills & fields", "s": "とおい のやま", "sm": "distant hills" }
+    ]}
+  ],
+  "extras": [
+    { "label": "Screen text (the video)", "file": "screen.txt" }
+  ]
+}

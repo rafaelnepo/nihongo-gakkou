@@ -1,0 +1,63 @@
+なにぬねの（しぜん）— SUNO SCORE v2  (the ~2-minute short / vertical cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 5 (な行), NATURE variation. The TEACH only.
+
+PART 1 of suno-v3 (word → sentence, five verses), sized for the ~1–2 min vertical cut.
+Full YouTube version (teach → bridge → review) is suno-v3.txt. Same voice + rules.
+
+VOICE: the CALM cut — koto × modern + Persona ("Male JP (Koto Pop)"). Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ — none occur (all が/の). ALL HIRAGANA.
+DURATION: Auto (F-15).
+
+[A calm, clear vocal over koto and a soft modern beat. Every syllable crisp.
+ Gentle, unhurried, like a patient teacher. Tempo ~90. No ad-libs.]
+
+[Intro]
+な に ぬ ね の
+
+[Verse]
+なつ
+あつい なつ
+なみ
+うみ の なみ
+なのはな
+きいろい なのはな
+な に ぬ ね の
+
+[Verse]
+にじ
+そら の にじ
+にわ
+はな の にわ
+にっこう
+あさ の にっこう
+な に ぬ ね の
+
+[Verse]
+ぬま
+しずかな ぬま
+ぬかるみ
+あめ の ぬかるみ
+ぬくもり
+たいよう の ぬくもり
+な に ぬ ね の
+
+[Verse]
+ねっこ
+き の ねっこ
+ねこやなぎ
+はる の ねこやなぎ
+ねぐら
+とり の ねぐら
+な に ぬ ね の
+
+[Verse]
+のはら
+ひろい のはら
+のぎく
+しろい のぎく
+のやま
+とおい のやま
+な に ぬ ね の
+
+[Outro]
+な に ぬ ね の

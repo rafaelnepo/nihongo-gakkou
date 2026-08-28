@@ -1,0 +1,97 @@
+なにぬねの（どうぶつ）— SUNO SCORE v3  (the ~3-minute YouTube cut · UNTESTED 2026-08-28)
+learning/ strand — PUBLIC. Gojuon ROW 5 (な行), ANIMALS variation. CONTEXTUAL, extended.
+
+WHY v3: Suno performs pasted lyrics ONCE and stops (F-12), so to reach ~3:00 we ADD VARIED
+content: TEACH → a field-friends BRIDGE → a REVIEW of the SENTENCES ONLY. Round 2 differs
+from round 1, dodging the identical-repeat collapse (F-08).
+
+VOICE: pairs with the KIDS voice (Persona "Kodomo JP"). For the kids sound add "children's
+chorus answering, call-and-response" to the style; city-pop fallback. Custom mode.
+PHONETIC FIXES (F-02): は→ワ, を→オ, へ→エ. ALL HIRAGANA.  DURATION: Auto (F-15).
+
+[A bright, playful vocal. Every syllable crisp. Friendly, like a patient teacher.
+ Tempo ~92 (or ~104 for the kids cut). No ad-libs.]
+
+[Intro]
+な に ぬ ね の
+
+# ═══ PART 1 · LEARN (word → sentence) ═══
+
+[Verse]
+なまず
+なまず が およぐ
+なまけもの
+なまけもの が ねる
+なめくじ
+はっぱ の なめくじ
+な に ぬ ね の
+
+[Verse]
+にわとり
+にわとり が なく
+にほんざる
+にほんざる が いる
+にしきへび
+にしきへび ワ ながい
+な に ぬ ね の
+
+[Verse]
+ぬいぐるみ
+くまの ぬいぐるみ
+ぬま
+ぬま の かえる
+ぬの
+ふわふわの ぬの
+な に ぬ ね の
+
+[Verse]
+ねこ
+ねこ が ねる
+ねずみ
+ねずみ が はしる
+ねぐら
+とり の ねぐら
+な に ぬ ね の
+
+[Verse]
+のねずみ
+のねずみ が いる
+のうさぎ
+のうさぎ が はねる
+のらねこ
+のらねこ が あるく
+な に ぬ ね の
+
+# ═══ BRIDGE · のはら の なかまたち (recombine — new, flowing) ═══
+
+[Bridge]
+なまず と なまけもの、どうぶつえん
+にわとり が なく、あさ だ
+ぬま の かえる、はっぱ の なめくじ
+ねこ と ねずみ、はしる
+のうさぎ が はねる、のはら エ
+にしきへび ワ ながい、にほんざる も いる
+な に ぬ ね の
+
+# ═══ PART 2 · REVIEW (sentences only, sing along) ═══
+
+[Chorus]
+なまず が およぐ
+なまけもの が ねる
+はっぱ の なめくじ
+にわとり が なく
+にほんざる が いる
+にしきへび ワ ながい
+くまの ぬいぐるみ
+ぬま の かえる
+ふわふわの ぬの
+ねこ が ねる
+ねずみ が はしる
+とり の ねぐら
+のねずみ が いる
+のうさぎ が はねる
+のらねこ が あるく
+な に ぬ ね の
+
+[Outro]
+な に ぬ ね の
