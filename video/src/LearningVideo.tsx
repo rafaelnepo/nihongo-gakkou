@@ -52,26 +52,47 @@ const evenTimes = (n: number, start: number, end: number): CharTime[] => {
   }));
 };
 
-// Bake a line's manual nudges into its timing. `delay` shifts both ends equally;
-// `startShift`/`endShift` move each end independently. The aligned `chars[]` are
-// re-mapped PROPORTIONALLY into the new [start, end] window, so the karaoke fill
-// keeps its internal rhythm while landing where the nudges put it. Pure and
-// non-destructive: the source line's original chars are never mutated.
-const withShift = (line: LearningLine): LearningLine => {
-  const d = line.delay ?? 0;
-  const os = line.start;
-  const oe = line.end;
-  const ns = os + d + (line.startShift ?? 0);
-  const ne = Math.max(ns + 1e-3, oe + d + (line.endShift ?? 0));
-  if (ns === os && ne === oe) return line; // untouched — no work, no new object
-  const span = Math.max(1e-6, oe - os);
-  const remap = (x: number) => ns + ((x - os) / span) * (ne - ns);
-  return {
-    ...line,
-    start: ns,
-    end: ne,
-    chars: line.chars?.map((c) => ({ start: remap(c.start), end: remap(c.end) })),
-  };
+// Bake every line's manual nudges into plain start/end/chars, then CASCADE.
+//
+// Per line: `delay` shifts both ends equally; `startShift`/`endShift` move each
+// end independently. Then a forward pass enforces order — a line can never start
+// before the previous line ends, so a nudged end that spills past the next line's
+// start pulls that next start up to meet it (rippling forward). Without this the
+// active-line hand-off stumbles wherever two windows overlap.
+//
+// Each line's aligned `chars[]` are re-mapped PROPORTIONALLY into its FINAL
+// (post-cascade) window, so the karaoke fill keeps its rhythm and lands where the
+// nudges put it. Pure and non-destructive: source lines are never mutated, and a
+// line with no nudge and no overlap is returned untouched.
+const bakeLines = (raw: LearningLine[]): LearningLine[] => {
+  // 1) each line's window after its own delay / start- / endShift
+  const wins = raw.map((l) => {
+    const d = l.delay ?? 0;
+    return { s: l.start + d + (l.startShift ?? 0), e: l.end + d + (l.endShift ?? 0) };
+  });
+  // 2) forward cascade: start >= previous end; keep the window from inverting
+  let floor = -Infinity;
+  const finals = wins.map((w) => {
+    const s = Math.max(w.s, floor);
+    const e = Math.max(w.e, s + 1e-3);
+    floor = e;
+    return { s, e };
+  });
+  // 3) re-map each line's original chars into its final window
+  return raw.map((l, k) => {
+    const { s, e } = finals[k];
+    const os = l.start;
+    const oe = l.end;
+    if (s === os && e === oe) return l; // untouched — no work, no new object
+    const span = Math.max(1e-6, oe - os);
+    const remap = (x: number) => s + ((x - os) / span) * (e - s);
+    return {
+      ...l,
+      start: s,
+      end: e,
+      chars: l.chars?.map((c) => ({ start: remap(c.start), end: remap(c.end) })),
+    };
+  });
 };
 
 // One illustration with a graceful placeholder fallback (missing art never
@@ -407,9 +428,9 @@ export const LearningVideo: React.FC<{ songId: string; timingOverride?: Learning
     ? 1 + Math.min(0.07, bass * 1.2)
     : 1 + 0.035 * (0.5 + 0.5 * Math.sin(beatPhase * Math.PI));
 
-  // Bake every line's manual nudges (delay / start-/endShift) into its timing up
-  // front, so the rest of the renderer just reads plain start/end/chars.
-  const lines = useMemo(() => timing.lines.map(withShift), [timing]);
+  // Bake nudges + cascade up front, so the rest of the renderer reads plain,
+  // ordered, non-overlapping start/end/chars.
+  const lines = useMemo(() => bakeLines(timing.lines), [timing]);
   const lineStart = (k: number) => lines[k].start;
 
   // Active line = the latest line that has STARTED (nudges already baked in).

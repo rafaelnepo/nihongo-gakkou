@@ -100,8 +100,15 @@ Timing lives in `timing/<id>.json` and has these levers, from coarse to fine:
 
 All nudges (`delay` / `startShift` / `endShift`) are **non-destructive** — the
 template bakes them onto a copy of the aligned `chars[]` at render time
-(`withShift` in `LearningVideo.tsx`), so the source `chars[]` are never mutated,
+(`bakeLines` in `LearningVideo.tsx`), so the source `chars[]` are never mutated,
 every nudge is reversible, and a re-align resets the slate.
+
+`bakeLines` then **cascades**: a line can never start before the previous line
+ends, so a nudged end that spills past the next line's start pulls that next
+start up to meet it, rippling forward. This keeps the windows ordered and
+non-overlapping — without it the active-line hand-off stumbles wherever two
+windows cross. The clamp is applied at render (and mirrored in the GUI's
+read-outs), so the stored shifts stay exactly as you set them.
 
 **Known aligner limit:** WhisperX **bunches characters on sustained/held sung
 notes** (a lullaby holds line-ends). `align_song.py` has a `debunch` pass that

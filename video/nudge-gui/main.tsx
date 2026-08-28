@@ -16,12 +16,19 @@ const fmt = (s: number) => {
 };
 const signed = (n: number) => (n > 0 ? `+${n.toFixed(2)}` : n.toFixed(2));
 
-// Mirror LearningVideo's withShift() for the read-outs (start/end after nudges).
-const effWindow = (l: LearningTiming["lines"][number]) => {
-  const d = l.delay ?? 0;
-  const s = l.start + d + (l.startShift ?? 0);
-  const e = Math.max(s + 1e-3, l.end + d + (l.endShift ?? 0));
-  return { s, e };
+// Mirror LearningVideo's bakeLines(): each line's window after its nudges, then a
+// forward cascade so a line never starts before the previous one ends. Returned
+// per line as { s, e } — used for the read-outs, seeks and active-line highlight,
+// so the GUI shows exactly what the player renders.
+const bakeWindows = (lines: LearningTiming["lines"]) => {
+  let floor = -Infinity;
+  return lines.map((l) => {
+    const d = l.delay ?? 0;
+    const s = Math.max(l.start + d + (l.startShift ?? 0), floor);
+    const e = Math.max(l.end + d + (l.endShift ?? 0), s + 1e-3);
+    floor = e;
+    return { s, e };
+  });
 };
 
 const App: React.FC = () => {
@@ -155,7 +162,7 @@ const App: React.FC = () => {
         });
         const next = { ...prev, lines };
         persist(next);
-        const w = effWindow(next.lines[idx]);
+        const w = bakeWindows(next.lines)[idx];
         seekToT(which === "start" ? w.s : Math.max(w.s, w.e - 0.4));
         return next;
       });
@@ -189,7 +196,7 @@ const App: React.FC = () => {
         if (!prev) return prev;
         const clamped = Math.max(0, Math.min(prev.lines.length - 1, idx));
         setSelected(clamped);
-        seekToT(effWindow(prev.lines[clamped]).s);
+        seekToT(bakeWindows(prev.lines)[clamped].s);
         return prev;
       });
     },
@@ -200,7 +207,7 @@ const App: React.FC = () => {
   const playLine = useCallback(
     (idx: number | null) => {
       if (idx == null || !timing) return;
-      const w = effWindow(timing.lines[idx]);
+      const w = bakeWindows(timing.lines)[idx];
       stopAtFrame.current = Math.round((w.e + offset) * fps) + Math.round(0.15 * fps);
       playerRef.current?.seekTo(Math.max(0, Math.round((w.s + offset) * fps)));
       playerRef.current?.play();
@@ -273,6 +280,8 @@ const App: React.FC = () => {
     () => (timing ? { songId: SONG_ID, timingOverride: timing } : { songId: SONG_ID }),
     [timing]
   );
+  // cascaded windows for display / highlight (same math the player renders)
+  const windows = useMemo(() => (timing ? bakeWindows(timing.lines) : []), [timing]);
 
   if (err) return <div style={S.center}>Failed to load timing: {err}</div>;
   if (!timing) return <div style={S.center}>Loading {SONG_ID}…</div>;
@@ -281,10 +290,7 @@ const App: React.FC = () => {
   const compH = vertical ? 1920 : 1080;
   const previewW = Math.min(1100, leftW - 36); // follows the pane width (drag)
 
-  const activeIdx = timing.lines.reduce((acc, l, k) => {
-    const { s } = effWindow(l);
-    return nowT >= s ? k : acc;
-  }, -1);
+  const activeIdx = windows.reduce((acc, w, k) => (nowT >= w.s ? k : acc), -1);
 
   return (
     <div style={S.app}>
@@ -372,7 +378,7 @@ const App: React.FC = () => {
         {/* right — the line list */}
         <div style={S.right}>
           {timing.lines.map((l, idx) => {
-            const w = effWindow(l);
+            const w = windows[idx];
             const ss = l.startShift ?? 0;
             const es = l.endShift ?? 0;
             const touched = ss !== 0 || es !== 0;
