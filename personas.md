@@ -126,11 +126,13 @@ a hand gesture + a kids chorus = an Ebi-Kani-kus-style **dance-along**. And our 
 songs literally contain **かに (crab)** and **えび (shrimp)** — the exact Ebi-Kani-kus
 creatures. Start P3 there (`01-aiueo-doubutsu`, `02-kakikukeko-doubutsu`).
 
-### Suno approach — UNTESTED, and the robust route
-Pure child-solo vocals in Suno are unreliable. The **robust** route is also the
-**authentic** one: a **bright, youthful lead + a children's chorus answering** — which is
-the おかあさんといっしょ format. Keep every existing rule (F-02 phonetic swaps in the Suno
-doc, count-in, refrain-last = now the kids chorus). Recommended style prompt:
+### Suno approach — VALIDATED (findings F-14): a lead + kids chorus
+The **robust** route is also the **authentic** one: a **bright, youthful lead + a
+children's chorus answering** — the おかあさんといっしょ format. First take came out
+great (F-14): clean, joyful, chorus held on the refrain, enunciation survived kid energy.
+Pure child-*solo* vocals are still the unreliable bit — keep the lead + chorus shape.
+Keep every existing rule (F-02 phonetic swaps in the Suno doc, count-in, refrain-last =
+now the kids chorus). The episode style prompt:
 
 > `Japanese children's song (kodomo no uta), 104 BPM, bright cheerful youthful female`
 > `lead with a children's chorus answering, glockenspiel, xylophone, marimba, toy piano,`
@@ -138,14 +140,54 @@ doc, count-in, refrain-last = now the kids chorus). Recommended style prompt:
 > `joyful, extremely clear enunciation of every kana, call-and-response, no ad-libs`
 
 This kids style is wired into the two **animals** songs' `song.json` `styles[]` (COPY
-STYLE on their dashboard cards) as the thing to try first.
+STYLE on their dashboard cards).
 
-### Test it, then log it
-Run the **recognition test** from `house-style.md` before adopting P3 as a persona: does a
-kids take of `01-aiueo-doubutsu` come out clear, joyful, and singable, with the chorus on
-the refrain surviving? Log the result to `findings.md` (the next free slot, F-14): the
-exact prompt, whether the kids chorus held, the tempo that worked, and whether Suno kept
-enunciation clean at kid energy.
+### The seed plan (P3 → a reusable Persona)
+
+P3 is proven per-song (F-14). To make it a **reusable Persona** — one kids voice across
+the whole kids playlist, not re-rolled per song — build a seed, following the
+`house-style.md` method. The wrinkle: **the shipped kids songs are lead + chorus + call
+-and-response, which is a poor Persona source** (mixed identity averages badly). So split
+the two jobs:
+
+> **The seed carries the VOICE. The chorus + call-and-response are added back per episode
+> as ARRANGEMENT.** The Persona only needs to lock "bright, youthful, clear, cheerful,
+> mid-range single voice"; every episode's style prompt re-adds the kids chorus.
+
+**1 · The seed track** (never ships; its only job is identity). A short, deliberately
+**single-voice** kids take — no chorus, no second singer, no register jumps — over the
+plainest possible bed, with emotionally-neutral, all-kana lyrics so there's nothing for
+the Persona to average. Both are in [`seeds/kids-seed.txt`](seeds/kids-seed.txt):
+
+- **Seed style prompt:** `Japanese children's song, 96 BPM, ONE bright cheerful youthful`
+  `female voice, solo — no chorus, no backing vocals, light toy piano and soft shaker,`
+  `warm and clear, dry forward vocal, extremely clear enunciation of every kana, gentle`
+  `and unhurried, no ad-libs`
+- **Seed lyric (neutral):** a plain count and two kana rows — `いち に さん / し ご ろく /`
+  `なな はち きゅう / じゅう`, then `あ い う え お / か き く け こ`. No meaning to lean on,
+  one voice, no duet.
+
+**2 · Make the Persona.** Custom mode → generate the seed → pick the cleanest **single-
+voice** take → create a Persona from it. Name it **"Iconotes Kids"** (parallel to the
+P1/P2 names to come). ⚠ Persona-from-song creation availability is account-dependent
+(house-style.md) — confirm the button exists on your account first.
+
+**3 · Apply to episodes.** Custom mode → select **Iconotes Kids** → read the auto-filled
+style, delete anything that fights it → add ONLY the per-episode arrangement: the kids
+chorus + call-and-response + ~104 BPM (the episode prompt above, minus the voice words the
+Persona now carries). **Never stack identity controls** (Persona *and* Voice *and* upload),
+and **don't name a second singer** — the chorus is a *group texture*, request it as
+"a children's chorus answering," not as another soloist.
+
+**4 · Test & log (per house-style.md).** Recognition (a second song in P3 still sounds like
+the same kid voice?), controlled variation (hold Persona + lyric, change one thing), and
+the boundary test (how far the arrangement can move before the voice stops being
+dependable). Log each to `findings.md`.
+
+**P1 and P2 get the same treatment later.** P1 (female city-pop) already has a de-facto
+identity from 01-aiueo; a seed would formalize it. P2 (male koto) needs a seed before it's
+a true Persona rather than just an arrangement. Do P3 first — it's the one with a live win
+and an eager audience of one.
 
 ---
 

@@ -296,6 +296,29 @@ every new row, and (within a row) across its themed variations. The series
 **compounds** — each song is easier because the ones before it were sung. When
 building the slate, seed later targets' sentences with earlier words on purpose.
 
+## F-14 · The KIDS voice works — a lead + children's chorus, playful arrangement — VALIDATED
+*2026-08-28, animals cut, first kids-style take (the P3 persona, `personas.md`).*
+
+Nepô: *"It came out great!! My son is going to love this version!"*
+
+The kids style (bright youthful female lead **+ a children's chorus answering**, toy-box
+instrumentation — glockenspiel/marimba/toy piano/ukulele/claps — ~104 BPM,
+call-and-response) generated clean and joyful. This is the **recognition test**
+(`house-style.md`) passed for a new voice, and it re-confirms **F-04/F-07**: a chorus is
+an *arrangement* texture, not a second soloist, so Suno handles a lead + answering group
+reliably — and the row refrain lands as a real kids-chorus unison, exactly the
+sing-along recruit. Kid energy did not wreck enunciation.
+
+**Consequences.**
+1. **P3 is a keeper** — the third house voice (after P1 female city-pop, P2 male koto).
+2. **Promote it from a per-song style to a reusable Persona.** But the shipped songs'
+   chorus/call-and-response makes a **poor Persona source** (house-style.md ⚠:
+   duets/choirs are hard to reuse). So build a deliberately **single-voice seed** that
+   carries only the voice; the chorus + call-and-response are added back **per episode**
+   as arrangement. The seed spec is in `personas.md` → "The seed plan".
+3. The animals cut is P3's natural home (かに/えび = the Ebi-Kani-kus creatures); it's
+   also the one a small child will replay — the affective-filter payoff, measured.
+
 ---
 
 ## Sources
