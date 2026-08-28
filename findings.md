@@ -319,6 +319,23 @@ sing-along recruit. Kid energy did not wreck enunciation.
 3. The animals cut is P3's natural home (かに/えび = the Ebi-Kani-kus creatures); it's
    also the one a small child will replay — the affective-filter payoff, measured.
 
+## F-15 · Length is set by LYRIC QUANTITY, not the duration slider — a long Custom pads with instrumental — VALIDATED
+*2026-08-28, across the persona takes. Nepô found it.*
+
+Our songs land **~2:30–2:45** naturally. If the requested **Duration** exceeds what the
+pasted lyric runs, Suno **fills the gap with ~30s of aimless instrumental** after the
+vocals end. This is F-12 seen from the other side: the lyric is performed once and stops;
+anything past that is padding.
+
+**Rules.**
+1. **Use `Auto`** (or `Custom` matched to the estimated real length ~2:40 — never longer).
+   Auto ends *with the lyric*, and every song closes on the `[Outro] あ い う え お`, so the
+   ending is clean, not filler.
+2. **Length comes from lyric quantity** (~8 word→sentence pairs/min, F-12): v2 teach ≈
+   2:00–2:30; v3 teach + bridge + review ≈ 2:45–3:00. To lengthen a song, add CONTENT (the
+   v3 bridge/review), don't raise the slider.
+3. A short instrumental tail is fine as a sign-off; 30s of filler is not — Auto avoids it.
+
 ---
 
 ## Sources

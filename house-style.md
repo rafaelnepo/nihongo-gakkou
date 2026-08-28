@@ -159,6 +159,23 @@ From the Persona literature, and worth running before committing to twelve episo
 Log the full recipe each time: Persona name, model version, lyrics, style text,
 what was excluded, what changed, what happened. That log belongs in `findings.md`.
 
+---
+
+## Generation settings (Suno "More Options") — hold these constant across all voices
+
+These are generation-*quality* settings, not voice settings, so they stay the same for
+P1/P2/P3 — only the Voice, the Style prompt, and the tempo change per song.
+
+| Control | Setting | Why |
+|---|---|---|
+| **Lyrics** | **Write** | we paste our own screen/suno text |
+| **Exclude styles** | `autotune, heavy reverb, ad-libs, whisper, distortion, melisma, vocal runs, mumbling` | every one smears syllable boundaries — a kana song lives on clear boundaries |
+| **Vocal Gender** | **off** | the selected Voice sets it; forcing it fights the Persona |
+| **Weirdness** | **~20%** | low = predictable, clean pronunciation; drop to ~10% only if a take gets odd |
+| **Style Influence** | **~50–60%** | enough for the arrangement to follow the prompt. If a Voice **drifts → lower it** (Voice dominates); if the arrangement **ignores the prompt → raise it** |
+| **Audio Influence** | **low (0–25%)** | only matters with an uploaded reference audio; with just a Voice selected, keep low — don't stack identity controls (⚠ above) |
+| **Duration** | **Auto** | ends with the lyric (clean, since every song closes on the `[Outro]`). Length comes from **lyric quantity**, not this slider — never set Custom longer than the lyric needs or it pads with instrumental. See `findings.md` **F-15** |
+
 ## Sources
 - [Suno Personas: Keep the Same Voice Across Songs — Jack Righteous](https://jackrighteous.com/en-us/blogs/guides-using-suno-ai-music-creation/suno-personas-keep-the-same-voice-across-songs)
 - [Suno Personas Guide — SongSmith](https://songsmith.studio/blog/suno-personas-guide)
