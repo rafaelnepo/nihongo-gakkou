@@ -1330,8 +1330,7 @@
       "section": "bridge",
       "illos": [
         "hasami",
-        "hako",
-        "hata"
+        "hako"
       ],
       "chars": [
         {
@@ -1414,9 +1413,8 @@
       "end": 71.695,
       "section": "bridge",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hikouki",
+        "himo"
       ],
       "chars": [
         {
@@ -1491,9 +1489,8 @@
       "end": 74.575,
       "section": "bridge",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "fude",
+        "fuusen"
       ],
       "chars": [
         {
@@ -1568,8 +1565,7 @@
       "end": 77.055,
       "section": "bridge",
       "illos": [
-        "hasami",
-        "hako",
+        "fue",
         "hata"
       ],
       "chars": [
@@ -1637,9 +1633,8 @@
       "end": 81.896,
       "section": "bridge",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "heya",
+        "hei"
       ],
       "chars": [
         {
@@ -1706,9 +1701,8 @@
       "end": 84.696,
       "section": "bridge",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hon",
+        "hoshi"
       ],
       "chars": [
         {
@@ -1828,9 +1822,7 @@
       "end": 91.186,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hasami"
       ],
       "chars": [
         {
@@ -1873,9 +1865,7 @@
       "end": 93.576,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hako"
       ],
       "chars": [
         {
@@ -1918,8 +1908,6 @@
       "end": 95.116,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
         "hata"
       ],
       "chars": [
@@ -1955,9 +1943,7 @@
       "end": 98.357,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hikouki"
       ],
       "chars": [
         {
@@ -2004,9 +1990,7 @@
       "end": 99.277,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "himo"
       ],
       "chars": [
         {
@@ -2041,9 +2025,7 @@
       "end": 101.717,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hikari"
       ],
       "chars": [
         {
@@ -2086,9 +2068,7 @@
       "end": 102.797,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "fude"
       ],
       "chars": [
         {
@@ -2127,9 +2107,7 @@
       "end": 104.917,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "fuusen"
       ],
       "chars": [
         {
@@ -2172,9 +2150,7 @@
       "end": 106.137,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "fue"
       ],
       "chars": [
         {
@@ -2213,9 +2189,7 @@
       "end": 107.877,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "heya"
       ],
       "chars": [
         {
@@ -2254,9 +2228,7 @@
       "end": 108.277,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hei"
       ],
       "chars": [
         {
@@ -2291,9 +2263,7 @@
       "end": 109.817,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hechima"
       ],
       "chars": [
         {
@@ -2336,9 +2306,7 @@
       "end": 111.958,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hon"
       ],
       "chars": [
         {
@@ -2377,9 +2345,7 @@
       "end": 112.538,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "houki"
       ],
       "chars": [
         {
@@ -2422,9 +2388,7 @@
       "end": 113.678,
       "section": "review",
       "illos": [
-        "hasami",
-        "hako",
-        "hata"
+        "hoshi"
       ],
       "chars": [
         {

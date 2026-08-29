@@ -1430,7 +1430,6 @@
       "section": "bridge",
       "illos": [
         "rajio",
-        "ranpu",
         "rappa"
       ],
       "chars": [
@@ -1510,9 +1509,8 @@
       "end": 60.715,
       "section": "bridge",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "ringo",
+        "ribon"
       ],
       "chars": [
         {
@@ -1587,9 +1585,8 @@
       "end": 63.155,
       "section": "bridge",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "rupe",
+        "rubi"
       ],
       "chars": [
         {
@@ -1664,9 +1661,8 @@
       "end": 65.935,
       "section": "bridge",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "reizouko",
+        "remon"
       ],
       "chars": [
         {
@@ -1753,9 +1749,8 @@
       "end": 69.896,
       "section": "bridge",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "rousoku",
+        "robotto"
       ],
       "chars": [
         {
@@ -1846,9 +1841,7 @@
       "end": 76.016,
       "section": "bridge",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "roketto"
       ],
       "chars": [
         {
@@ -1972,9 +1965,7 @@
       "end": 78.936,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "rajio"
       ],
       "chars": [
         {
@@ -2017,9 +2008,7 @@
       "end": 80.176,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "ranpu"
       ],
       "chars": [
         {
@@ -2062,8 +2051,6 @@
       "end": 81.397,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
         "rappa"
       ],
       "chars": [
@@ -2107,9 +2094,7 @@
       "end": 82.457,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "ringo"
       ],
       "chars": [
         {
@@ -2148,9 +2133,7 @@
       "end": 84.457,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "ribon"
       ],
       "chars": [
         {
@@ -2193,9 +2176,7 @@
       "end": 86.617,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "ryouri"
       ],
       "chars": [
         {
@@ -2242,9 +2223,7 @@
       "end": 89.847,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "rusu"
       ],
       "chars": [
         {
@@ -2283,9 +2262,7 @@
       "end": 93.507,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "rupe"
       ],
       "chars": [
         {
@@ -2328,9 +2305,7 @@
       "end": 94.698,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "rubi"
       ],
       "chars": [
         {
@@ -2369,9 +2344,7 @@
       "end": 97.778,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "reizouko"
       ],
       "chars": [
         {
@@ -2422,9 +2395,7 @@
       "end": 99.598,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "remon"
       ],
       "chars": [
         {
@@ -2467,9 +2438,7 @@
       "end": 100.698,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "renga"
       ],
       "chars": [
         {
@@ -2508,9 +2477,7 @@
       "end": 104.478,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "rousoku"
       ],
       "chars": [
         {
@@ -2561,9 +2528,7 @@
       "end": 106.799,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "robotto"
       ],
       "chars": [
         {
@@ -2610,9 +2575,7 @@
       "end": 109.239,
       "section": "review",
       "illos": [
-        "rajio",
-        "ranpu",
-        "rappa"
+        "roketto"
       ],
       "chars": [
         {

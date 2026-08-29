@@ -1321,9 +1321,7 @@
       "end": 68.235,
       "section": "bridge",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mado"
       ],
       "chars": [
         {
@@ -1386,9 +1384,8 @@
       "end": 71.035,
       "section": "bridge",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mikan",
+        "mizu"
       ],
       "chars": [
         {
@@ -1459,9 +1456,8 @@
       "end": 75.375,
       "section": "bridge",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mushi",
+        "murasaki"
       ],
       "chars": [
         {
@@ -1536,9 +1532,8 @@
       "end": 78.315,
       "section": "bridge",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "megane",
+        "me"
       ],
       "chars": [
         {
@@ -1605,9 +1600,8 @@
       "end": 81.236,
       "section": "bridge",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "momo",
+        "mochi"
       ],
       "chars": [
         {
@@ -1670,9 +1664,8 @@
       "end": 82.976,
       "section": "bridge",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "moufu",
+        "makura"
       ],
       "chars": [
         {
@@ -1751,9 +1744,7 @@
       "end": 83.316,
       "section": "refrain",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "me"
       ],
       "chars": [
         {
@@ -1800,9 +1791,7 @@
       "end": 83.636,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mado"
       ],
       "chars": [
         {
@@ -1845,9 +1834,7 @@
       "end": 85.576,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "makura"
       ],
       "chars": [
         {
@@ -1886,8 +1873,6 @@
       "end": 87.396,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
         "mame"
       ],
       "chars": [
@@ -1931,9 +1916,7 @@
       "end": 88.216,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mikan"
       ],
       "chars": [
         {
@@ -1972,9 +1955,7 @@
       "end": 89.296,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mizu"
       ],
       "chars": [
         {
@@ -2013,9 +1994,7 @@
       "end": 89.656,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mimi"
       ],
       "chars": [
         {
@@ -2058,9 +2037,7 @@
       "end": 90.216,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mushi"
       ],
       "chars": [
         {
@@ -2099,9 +2076,7 @@
       "end": 91.156,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "murasaki"
       ],
       "chars": [
         {
@@ -2144,9 +2119,7 @@
       "end": 93.016,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mugi"
       ],
       "chars": [
         {
@@ -2185,9 +2158,7 @@
       "end": 93.617,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "me"
       ],
       "chars": [
         {
@@ -2222,9 +2193,7 @@
       "end": 94.197,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "megane"
       ],
       "chars": [
         {
@@ -2263,9 +2232,7 @@
       "end": 95.017,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "medaka"
       ],
       "chars": [
         {
@@ -2312,9 +2279,7 @@
       "end": 95.497,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "momo"
       ],
       "chars": [
         {
@@ -2349,9 +2314,7 @@
       "end": 96.217,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "mochi"
       ],
       "chars": [
         {
@@ -2386,9 +2349,7 @@
       "end": 97.197,
       "section": "review",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "moufu"
       ],
       "chars": [
         {
@@ -2435,9 +2396,7 @@
       "end": 97.637,
       "section": "refrain",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "me"
       ],
       "chars": [
         {
@@ -2484,9 +2443,7 @@
       "end": 99.507,
       "section": "outro",
       "illos": [
-        "mado",
-        "makura",
-        "mame"
+        "me"
       ],
       "chars": [
         {

@@ -80,13 +80,15 @@
       "chars": [
         {
           "start": 2.68,
-          "end": 3.0
+          "end": 3
         },
         {
-          "start": 3.0,
+          "start": 3,
           "end": 3.15
         }
-      ]
+      ],
+      "startShift": 0.85,
+      "endShift": 1.05
     },
     {
       "text": "かお を あらう",
@@ -132,7 +134,8 @@
           "start": 4.854,
           "end": 5.09
         }
-      ]
+      ],
+      "endShift": 0.2
     },
     {
       "text": "かさ",
@@ -154,7 +157,8 @@
           "start": 5.76,
           "end": 6.61
         }
-      ]
+      ],
+      "endShift": -0.2
     },
     {
       "text": "あめ だから かさ",
@@ -204,6 +208,11 @@
           "start": 10.641,
           "end": 11.841
         }
+      ],
+      "endShift": -1.25,
+      "wordShifts": [
+        0,
+        -0.15
       ]
     },
     {
@@ -226,7 +235,8 @@
           "start": 13.261,
           "end": 14.291
         }
-      ]
+      ],
+      "endShift": -0.55
     },
     {
       "text": "いえ の かぎ",
@@ -268,7 +278,8 @@
           "start": 15.541,
           "end": 16.391
         }
-      ]
+      ],
+      "startShift": -0.35
     },
     {
       "text": "か き く け こ",
@@ -339,7 +350,8 @@
           "start": 22.202,
           "end": 22.492
         }
-      ]
+      ],
+      "endShift": -0.3
     },
     {
       "text": "ふく を きる",
@@ -381,7 +393,9 @@
           "start": 23.682,
           "end": 24.052
         }
-      ]
+      ],
+      "startShift": -0.1,
+      "endShift": -0.2
     },
     {
       "text": "きいろ",
@@ -407,7 +421,9 @@
           "start": 24.422,
           "end": 24.672
         }
-      ]
+      ],
+      "startShift": -0.1,
+      "endShift": -0.15
     },
     {
       "text": "きいろい ぼうし",
@@ -453,7 +469,9 @@
           "start": 26.082,
           "end": 26.812
         }
-      ]
+      ],
+      "startShift": -0.1,
+      "endShift": -0.3
     },
     {
       "text": "きっぷ",
@@ -479,7 +497,9 @@
           "start": 27.462,
           "end": 28.352
         }
-      ]
+      ],
+      "startShift": -0.15,
+      "endShift": -1.2
     },
     {
       "text": "きっぷ を かう",
@@ -525,7 +545,9 @@
           "start": 29.732,
           "end": 29.872
         }
-      ]
+      ],
+      "startShift": -1.05,
+      "endShift": -0.2
     },
     {
       "text": "か き く け こ",
@@ -574,7 +596,8 @@
           "start": 31.462,
           "end": 32.332
         }
-      ]
+      ],
+      "startShift": -0.15
     },
     {
       "text": "くつ",
@@ -596,7 +619,9 @@
           "start": 33.802,
           "end": 34.172
         }
-      ]
+      ],
+      "startShift": 1.67,
+      "endShift": 0.3
     },
     {
       "text": "くつ を はく",
@@ -638,7 +663,9 @@
           "start": 35.757,
           "end": 36.013
         }
-      ]
+      ],
+      "startShift": 0.38,
+      "endShift": 0.05
     },
     {
       "text": "くるま",
@@ -664,7 +691,9 @@
           "start": 36.443,
           "end": 36.633
         }
-      ]
+      ],
+      "startShift": 0.25,
+      "endShift": 0.1
     },
     {
       "text": "くるま に のる",
@@ -710,7 +739,8 @@
           "start": 38.063,
           "end": 38.753
         }
-      ]
+      ],
+      "startShift": 0.28
     },
     {
       "text": "くも",
@@ -911,7 +941,8 @@
           "start": 48.943,
           "end": 49.173
         }
-      ]
+      ],
+      "endShift": -0.2
     },
     {
       "text": "けいと",
@@ -1122,7 +1153,9 @@
           "start": 58.121,
           "end": 58.634
         }
-      ]
+      ],
+      "startShift": 1.75,
+      "endShift": 0.75
     },
     {
       "text": "こうえん で あそぶ",
@@ -1176,7 +1209,8 @@
           "start": 60.724,
           "end": 61.074
         }
-      ]
+      ],
+      "endShift": -0.7
     },
     {
       "text": "こども",
@@ -1202,7 +1236,8 @@
           "start": 61.464,
           "end": 61.694
         }
-      ]
+      ],
+      "endShift": -0.05
     },
     {
       "text": "こども が わらう",
@@ -1252,7 +1287,9 @@
           "start": 63.164,
           "end": 63.534
         }
-      ]
+      ],
+      "startShift": -0.2,
+      "endShift": -0.05
     },
     {
       "text": "こえ",
@@ -1274,7 +1311,9 @@
           "start": 63.719,
           "end": 63.854
         }
-      ]
+      ],
+      "startShift": 0.07,
+      "endShift": 0.15
     },
     {
       "text": "おおきい こえ",
@@ -1316,7 +1355,8 @@
           "start": 65.765,
           "end": 66.595
         }
-      ]
+      ],
+      "startShift": 0.13
     },
     {
       "text": "か き く け こ",
@@ -1373,9 +1413,8 @@
       "end": 74.275,
       "section": "bridge",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kesa",
+        "kasa"
       ],
       "chars": [
         {
@@ -1446,9 +1485,7 @@
       "end": 77.015,
       "section": "bridge",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kutsu"
       ],
       "chars": [
         {
@@ -1519,9 +1556,7 @@
       "end": 78.876,
       "section": "bridge",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kuruma"
       ],
       "chars": [
         {
@@ -1576,7 +1611,8 @@
           "start": 78.737,
           "end": 78.876
         }
-      ]
+      ],
+      "endShift": 0.4
     },
     {
       "text": "えき で きっぷ を かう",
@@ -1584,9 +1620,7 @@
       "end": 81.696,
       "section": "bridge",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kippu"
       ],
       "chars": [
         {
@@ -1641,7 +1675,8 @@
           "start": 80.926,
           "end": 81.696
         }
-      ]
+      ],
+      "endShift": -0.8
     },
     {
       "text": "えんぴつ と けしごむ、かう",
@@ -1649,9 +1684,7 @@
       "end": 83.936,
       "section": "bridge",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "keshigomu"
       ],
       "chars": [
         {
@@ -1710,7 +1743,9 @@
           "start": 83.786,
           "end": 83.936
         }
-      ]
+      ],
+      "startShift": -0.1,
+      "endShift": -0.25
     },
     {
       "text": "こうえん で こども が あそぶ",
@@ -1718,9 +1753,8 @@
       "end": 86.796,
       "section": "bridge",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kouen",
+        "kodomo"
       ],
       "chars": [
         {
@@ -1844,9 +1878,7 @@
       "end": 95.397,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kao"
       ],
       "chars": [
         {
@@ -1881,7 +1913,8 @@
           "start": 95.127,
           "end": 95.397
         }
-      ]
+      ],
+      "endShift": -0.75
     },
     {
       "text": "あめ だから かさ",
@@ -1889,9 +1922,7 @@
       "end": 97.237,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kasa"
       ],
       "chars": [
         {
@@ -1930,7 +1961,8 @@
           "start": 96.667,
           "end": 97.237
         }
-      ]
+      ],
+      "startShift": -0.77
     },
     {
       "text": "いえ の かぎ",
@@ -1938,8 +1970,6 @@
       "end": 98.977,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
         "kagi"
       ],
       "chars": [
@@ -1979,9 +2009,7 @@
       "end": 100.897,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kiru"
       ],
       "chars": [
         {
@@ -2057,7 +2085,9 @@
           "start": 103.247,
           "end": 103.657
         }
-      ]
+      ],
+      "startShift": 0.58,
+      "endShift": -0.1
     },
     {
       "text": "きっぷ を かう",
@@ -2065,9 +2095,7 @@
       "end": 105.797,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kippu"
       ],
       "chars": [
         {
@@ -2110,9 +2138,7 @@
       "end": 107.538,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kutsu"
       ],
       "chars": [
         {
@@ -2151,9 +2177,7 @@
       "end": 110.358,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kuruma"
       ],
       "chars": [
         {
@@ -2188,7 +2212,8 @@
           "start": 110.148,
           "end": 110.358
         }
-      ]
+      ],
+      "startShift": 0.75
     },
     {
       "text": "そら に くも",
@@ -2196,9 +2221,7 @@
       "end": 111.318,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kumo"
       ],
       "chars": [
         {
@@ -2237,9 +2260,7 @@
       "end": 114.238,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "keshigomu"
       ],
       "chars": [
         {
@@ -2294,9 +2315,7 @@
       "end": 115.898,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "keito"
       ],
       "chars": [
         {
@@ -2335,9 +2354,7 @@
       "end": 117.418,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kesa"
       ],
       "chars": [
         {
@@ -2376,9 +2393,7 @@
       "end": 121.099,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kouen"
       ],
       "chars": [
         {
@@ -2429,9 +2444,7 @@
       "end": 123.559,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "kodomo"
       ],
       "chars": [
         {
@@ -2478,9 +2491,7 @@
       "end": 127.269,
       "section": "review",
       "illos": [
-        "kao",
-        "kasa",
-        "kagi"
+        "koe"
       ],
       "chars": [
         {

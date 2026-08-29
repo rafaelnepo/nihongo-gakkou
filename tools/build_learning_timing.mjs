@@ -79,11 +79,33 @@ const teachLines = (vocab, row) => {
   return lines;
 };
 
+// Illustrations for a tail line = the vocab words actually sung in it. Tokens are
+// whole words (optionally + a trailing particle, so むらさきの matches むらさき); a
+// 1-kana word must match a token exactly, so て never matches inside たべて. Pairs
+// come in longest-word-first so a full word beats a shorter prefix.
+const TAIL_PARTICLES = new Set([
+  "", "の", "を", "は", "が", "に", "へ", "と", "も", "で", "や", "か", "ね", "よ", "さ", "わ",
+  "から", "には", "では", "でも", "まで", "より", "へは", "とは", "だ", "だよ",
+]);
+const illosForLine = (text, pairs) => {
+  const toks = text.split(/[\s、。，,・！？!?「」『』…（）()]+/).filter(Boolean);
+  const keys = [];
+  for (const tok of toks) {
+    for (const { w, r } of pairs) {
+      if (tok === w || (w.length >= 2 && tok.startsWith(w) && TAIL_PARTICLES.has(tok.slice(w.length)))) {
+        if (!keys.includes(r)) keys.push(r);
+        break;
+      }
+    }
+  }
+  return keys;
+};
+
 // ── Creative tail from screen.txt (BRIDGE + REVIEW + outro) ──────────────────
 // These lines are authored recombinations, not in vocab[]. We take their text and
-// section from screen.txt; illustrations default to the first group and are flagged
-// for the author to assign per line.
-const tailLines = (screenTxt, row, defaultIllos) => {
+// section from screen.txt, and illustrate each with the vocab words it sings
+// (falling back to the first group for a pure refrain / no match).
+const tailLines = (screenTxt, row, defaultIllos, vocabPairs) => {
   const refrain = row.split("").join(" ");
   const isRefrain = (t) => stripSpaces(t) === stripSpaces(row);
   const raw = screenTxt.split(/\r?\n/).map((l) => l.trim());
@@ -101,7 +123,8 @@ const tailLines = (screenTxt, row, defaultIllos) => {
     if (isHeader) { region = "skip"; continue; }  // PART 1 / any other header: teach owns it
     if (/^\(outro\)/i.test(line)) {
       const t = line.replace(/^\(outro\)\s*/i, "").trim() || refrain;
-      out.push({ text: t, section: "outro", illos: defaultIllos, kind: "refrain" });
+      const m = illosForLine(t, vocabPairs);
+      out.push({ text: t, section: "outro", illos: m.length ? m : defaultIllos, kind: "refrain" });
       region = "done";
       continue;
     }
@@ -111,8 +134,9 @@ const tailLines = (screenTxt, row, defaultIllos) => {
     if (/^\(intro\)/i.test(line)) continue;
 
     const section = isRefrain(line) ? "refrain" : region;
-    const l = { text: line, section, illos: defaultIllos, kind: isRefrain(line) ? "refrain" : "sentence" };
-    if (!isRefrain(line)) flagged++;
+    const matched = illosForLine(line, vocabPairs);
+    const l = { text: line, section, illos: matched.length ? matched : defaultIllos, kind: isRefrain(line) ? "refrain" : "sentence" };
+    if (!isRefrain(line) && matched.length === 0) flagged++; // a sung line we couldn't auto-illustrate
     out.push(l);
   }
   return { lines: out, flagged };
@@ -192,8 +216,13 @@ const main = () => {
   // Fresh scaffold: teach (vocab) + tail (screen.txt).
   const screen = readFileSync(resolve(dir, "screen.txt"), "utf8");
   const groupIllos0 = song.vocab?.[0]?.items?.map((it) => it.r) ?? [];
+  const vocabPairs = (song.vocab ?? [])
+    .flatMap((g) => g.items ?? [])
+    .filter((it) => it.w && it.r)
+    .map((it) => ({ w: it.w, r: it.r }))
+    .sort((a, b) => b.w.length - a.w.length);
   const teach = teachLines(song.vocab, row);
-  const { lines: tail, flagged } = tailLines(screen, row, groupIllos0);
+  const { lines: tail, flagged } = tailLines(screen, row, groupIllos0, vocabPairs);
   const LINES = [...teach, ...tail];
 
   const dur = duration ?? 180;

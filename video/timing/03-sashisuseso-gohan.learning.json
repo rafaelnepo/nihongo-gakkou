@@ -1381,9 +1381,7 @@
       "end": 86.155,
       "section": "bridge",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "saifu"
       ],
       "chars": [
         {
@@ -1450,9 +1448,8 @@
       "end": 88.076,
       "section": "bridge",
       "illos": [
-        "saifu",
         "sakana",
-        "satou"
+        "shimeji"
       ],
       "chars": [
         {
@@ -1511,9 +1508,8 @@
       "end": 92.326,
       "section": "bridge",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "shio",
+        "shiru"
       ],
       "chars": [
         {
@@ -1592,9 +1588,8 @@
       "end": 95.476,
       "section": "bridge",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "sushi",
+        "suika"
       ],
       "chars": [
         {
@@ -1657,9 +1652,7 @@
       "end": 97.916,
       "section": "bridge",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "seki"
       ],
       "chars": [
         {
@@ -1722,9 +1715,8 @@
       "end": 101.896,
       "section": "bridge",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "sobo",
+        "soba"
       ],
       "chars": [
         {
@@ -1783,9 +1775,7 @@
       "end": 106.987,
       "section": "refrain",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "su"
       ],
       "chars": [
         {
@@ -1832,9 +1822,7 @@
       "end": 109.257,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "saifu"
       ],
       "chars": [
         {
@@ -1877,9 +1865,7 @@
       "end": 111.697,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "sakana"
       ],
       "chars": [
         {
@@ -1922,8 +1908,6 @@
       "end": 114.117,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
         "satou"
       ],
       "chars": [
@@ -1971,9 +1955,7 @@
       "end": 116.807,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "shio"
       ],
       "chars": [
         {
@@ -2016,9 +1998,7 @@
       "end": 119.037,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "shiru"
       ],
       "chars": [
         {
@@ -2053,9 +2033,7 @@
       "end": 121.498,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "shimeji"
       ],
       "chars": [
         {
@@ -2102,9 +2080,7 @@
       "end": 123.938,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "sushi"
       ],
       "chars": [
         {
@@ -2143,9 +2119,7 @@
       "end": 125.778,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "suika"
       ],
       "chars": [
         {
@@ -2184,9 +2158,7 @@
       "end": 128.858,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "su"
       ],
       "chars": [
         {
@@ -2229,9 +2201,7 @@
       "end": 131.298,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "senbei"
       ],
       "chars": [
         {
@@ -2282,9 +2252,7 @@
       "end": 133.718,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "seki"
       ],
       "chars": [
         {
@@ -2327,9 +2295,7 @@
       "end": 136.599,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "sekken"
       ],
       "chars": [
         {
@@ -2380,9 +2346,7 @@
       "end": 138.659,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "soba"
       ],
       "chars": [
         {
@@ -2425,9 +2389,7 @@
       "end": 141.679,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "sobo"
       ],
       "chars": [
         {
@@ -2470,9 +2432,7 @@
       "end": 143.839,
       "section": "review",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "sora"
       ],
       "chars": [
         {
@@ -2519,9 +2479,7 @@
       "end": 150.599,
       "section": "refrain",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "su"
       ],
       "chars": [
         {
@@ -2568,9 +2526,7 @@
       "end": 152.749,
       "section": "outro",
       "illos": [
-        "saifu",
-        "sakana",
-        "satou"
+        "su"
       ],
       "chars": [
         {

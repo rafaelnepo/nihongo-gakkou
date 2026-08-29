@@ -1362,8 +1362,7 @@
       "section": "bridge",
       "illos": [
         "nabe",
-        "nasu",
-        "nashi"
+        "niku"
       ],
       "chars": [
         {
@@ -1422,9 +1421,8 @@
       "end": 39.935,
       "section": "bridge",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "ninjin",
+        "negi"
       ],
       "chars": [
         {
@@ -1491,9 +1489,8 @@
       "end": 41.395,
       "section": "bridge",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nuigurumi",
+        "nurie"
       ],
       "chars": [
         {
@@ -1564,9 +1561,8 @@
       "end": 42.775,
       "section": "bridge",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "neko",
+        "niwa"
       ],
       "chars": [
         {
@@ -1625,9 +1621,8 @@
       "end": 47.736,
       "section": "bridge",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nori",
+        "nomimono"
       ],
       "chars": [
         {
@@ -1714,9 +1709,8 @@
       "end": 49.976,
       "section": "bridge",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nohara",
+        "niwa"
       ],
       "chars": [
         {
@@ -1836,9 +1830,7 @@
       "end": 52.057,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nabe"
       ],
       "chars": [
         {
@@ -1881,9 +1873,7 @@
       "end": 54.057,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nasu"
       ],
       "chars": [
         {
@@ -1926,8 +1916,6 @@
       "end": 54.377,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
         "nashi"
       ],
       "chars": [
@@ -1963,9 +1951,7 @@
       "end": 55.077,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "niku"
       ],
       "chars": [
         {
@@ -2004,9 +1990,7 @@
       "end": 57.517,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "ninjin"
       ],
       "chars": [
         {
@@ -2053,9 +2037,7 @@
       "end": 58.117,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "niwa"
       ],
       "chars": [
         {
@@ -2094,9 +2076,7 @@
       "end": 59.037,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nuigurumi"
       ],
       "chars": [
         {
@@ -2143,9 +2123,7 @@
       "end": 59.918,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nurie"
       ],
       "chars": [
         {
@@ -2188,9 +2166,7 @@
       "end": 60.398,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nuno"
       ],
       "chars": [
         {
@@ -2225,9 +2201,7 @@
       "end": 61.958,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "neko"
       ],
       "chars": [
         {
@@ -2266,9 +2240,7 @@
       "end": 63.758,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "negi"
       ],
       "chars": [
         {
@@ -2307,9 +2279,7 @@
       "end": 66.838,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nendo"
       ],
       "chars": [
         {
@@ -2356,9 +2326,7 @@
       "end": 70.519,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nori"
       ],
       "chars": [
         {
@@ -2405,9 +2373,7 @@
       "end": 72.659,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nomimono"
       ],
       "chars": [
         {
@@ -2454,9 +2420,7 @@
       "end": 73.579,
       "section": "review",
       "illos": [
-        "nabe",
-        "nasu",
-        "nashi"
+        "nohara"
       ],
       "chars": [
         {

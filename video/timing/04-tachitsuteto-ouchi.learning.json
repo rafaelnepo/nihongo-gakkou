@@ -1394,8 +1394,7 @@
       "section": "bridge",
       "illos": [
         "tamago",
-        "taoru",
-        "taiko"
+        "cha"
       ],
       "chars": [
         {
@@ -1474,9 +1473,8 @@
       "end": 64.875,
       "section": "bridge",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tsukue",
+        "tegami"
       ],
       "chars": [
         {
@@ -1543,8 +1541,7 @@
       "end": 69.555,
       "section": "bridge",
       "illos": [
-        "tamago",
-        "taoru",
+        "tsumiki",
         "taiko"
       ],
       "chars": [
@@ -1616,9 +1613,7 @@
       "end": 72.815,
       "section": "bridge",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tokei"
       ],
       "chars": [
         {
@@ -1685,9 +1680,8 @@
       "end": 79.756,
       "section": "bridge",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tomato",
+        "taoru"
       ],
       "chars": [
         {
@@ -1758,9 +1752,8 @@
       "end": 84.786,
       "section": "bridge",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tsuki",
+        "tobira"
       ],
       "chars": [
         {
@@ -1839,9 +1832,7 @@
       "end": 87.876,
       "section": "refrain",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "te"
       ],
       "chars": [
         {
@@ -1888,9 +1879,7 @@
       "end": 90.336,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tamago"
       ],
       "chars": [
         {
@@ -1937,9 +1926,7 @@
       "end": 92.836,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "taoru"
       ],
       "chars": [
         {
@@ -1978,8 +1965,6 @@
       "end": 94.397,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
         "taiko"
       ],
       "chars": [
@@ -2027,9 +2012,7 @@
       "end": 94.957,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "cha"
       ],
       "chars": [
         {
@@ -2068,9 +2051,7 @@
       "end": 97.457,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "chawan"
       ],
       "chars": [
         {
@@ -2121,9 +2102,7 @@
       "end": 98.697,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "chizu"
       ],
       "chars": [
         {
@@ -2162,9 +2141,7 @@
       "end": 99.937,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tsukue"
       ],
       "chars": [
         {
@@ -2207,9 +2184,7 @@
       "end": 102.017,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tsumiki"
       ],
       "chars": [
         {
@@ -2256,9 +2231,7 @@
       "end": 103.257,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tsuki"
       ],
       "chars": [
         {
@@ -2297,9 +2270,7 @@
       "end": 104.477,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "te"
       ],
       "chars": [
         {
@@ -2338,9 +2309,7 @@
       "end": 105.377,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tegami"
       ],
       "chars": [
         {
@@ -2383,9 +2352,7 @@
       "end": 108.038,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tebukuro"
       ],
       "chars": [
         {
@@ -2436,9 +2403,7 @@
       "end": 109.918,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tokei"
       ],
       "chars": [
         {
@@ -2481,9 +2446,7 @@
       "end": 110.538,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tomato"
       ],
       "chars": [
         {
@@ -2522,9 +2485,7 @@
       "end": 112.258,
       "section": "review",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "tobira"
       ],
       "chars": [
         {
@@ -2571,9 +2532,7 @@
       "end": 112.998,
       "section": "refrain",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "te"
       ],
       "chars": [
         {
@@ -2620,9 +2579,7 @@
       "end": 114.868,
       "section": "outro",
       "illos": [
-        "tamago",
-        "taoru",
-        "taiko"
+        "te"
       ],
       "chars": [
         {
