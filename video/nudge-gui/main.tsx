@@ -292,7 +292,24 @@ const App: React.FC = () => {
         const lines = prev.lines.map((l, k) => {
           if (k !== idx) return l;
           const key = which === "start" ? "startShift" : "endShift";
-          const val = Math.round(((l[key] ?? 0) + dir * step) * 1000) / 1000;
+          const round3 = (x: number) => Math.round(x * 1000) / 1000;
+          let val = round3((l[key] ?? 0) + dir * step);
+          // Safeguard: a line can never be nudged narrower than MIN_W — START can't
+          // cross END and END can't cross START (delay shifts both, so it cancels
+          // out of the width). If it's already thinner than MIN_W, just don't let
+          // this nudge make it thinner still.
+          const MIN_W = 0.1;
+          const ss = l.startShift ?? 0;
+          const es = l.endShift ?? 0;
+          const dur = l.end - l.start;
+          const curW = dur + (es - ss);
+          const floorW = Math.min(MIN_W, curW);
+          const newW = which === "start" ? dur + (es - val) : dur + (val - ss);
+          if (newW < floorW - 1e-9) {
+            val = which === "start"
+              ? round3(dur + es - floorW)
+              : round3(floorW - dur + ss);
+          }
           const copy = { ...l };
           if (Math.abs(val) < 1e-6) delete copy[key];
           else copy[key] = val;
