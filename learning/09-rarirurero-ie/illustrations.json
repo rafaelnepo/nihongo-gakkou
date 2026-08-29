@@ -2,7 +2,7 @@
   "song": "09-rarirurero-ie",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/09-rarirurero-ie",
+  "dest": "learning/09-rarirurero-ie/il",
   "items": [
     {
       "w": "らじお",
@@ -10,7 +10,7 @@
       "m": "radio",
       "s": "らじお を きく",
       "cue": "radio",
-      "src": null
+      "src": "radio.png"
     },
     {
       "w": "らんぷ",
@@ -18,7 +18,7 @@
       "m": "lamp",
       "s": "あかるい らんぷ",
       "cue": "lamp",
-      "src": null
+      "src": "kagu_takujou_lamp.png"
     },
     {
       "w": "らっぱ",
@@ -26,7 +26,7 @@
       "m": "trumpet",
       "s": "らっぱ を ふく",
       "cue": "trumpet",
-      "src": null
+      "src": "omocha_rappa.png"
     },
     {
       "w": "りんご",
@@ -34,7 +34,7 @@
       "m": "apple",
       "s": "あかい りんご",
       "cue": "apple",
-      "src": null
+      "src": "fruit_apple.png"
     },
     {
       "w": "りぼん",
@@ -42,7 +42,7 @@
       "m": "ribbon",
       "s": "かわいい りぼん",
       "cue": "ribbon",
-      "src": null
+      "src": "fashion_ribbon1_red.png"
     },
     {
       "w": "りょうり",
@@ -50,7 +50,7 @@
       "m": "cooking",
       "s": "りょうり を する",
       "cue": "cooking",
-      "src": null
+      "src": "ryouri_woman.png"
     },
     {
       "w": "るす",
@@ -58,7 +58,7 @@
       "m": "being out / away",
       "s": "いえ が るす",
       "cue": "being out / away",
-      "src": null
+      "src": "building_akiya.png"
     },
     {
       "w": "るーぺ",
@@ -66,7 +66,7 @@
       "m": "magnifier",
       "s": "るーぺ で みる",
       "cue": "magnifier",
-      "src": null
+      "src": "magnifier_mushimegane_blank.png"
     },
     {
       "w": "るびー",
@@ -74,7 +74,7 @@
       "m": "ruby",
       "s": "ひかる るびー",
       "cue": "ruby",
-      "src": null
+      "src": "jewel07_ruby.png"
     },
     {
       "w": "れいぞうこ",
@@ -82,7 +82,7 @@
       "m": "fridge",
       "s": "つめたい れいぞうこ",
       "cue": "fridge",
-      "src": null
+      "src": "kaden_reizouko.png"
     },
     {
       "w": "れもん",
@@ -90,7 +90,7 @@
       "m": "lemon",
       "s": "すっぱい れもん",
       "cue": "lemon",
-      "src": null
+      "src": "fruit_lemon.png"
     },
     {
       "w": "れんが",
@@ -98,7 +98,7 @@
       "m": "brick",
       "s": "かたい れんが",
       "cue": "brick",
-      "src": null
+      "src": "renga.png"
     },
     {
       "w": "ろうそく",
@@ -106,7 +106,7 @@
       "m": "candle",
       "s": "ろうそく を つける",
       "cue": "candle",
-      "src": null
+      "src": "rousoku.png"
     },
     {
       "w": "ろぼっと",
@@ -114,7 +114,7 @@
       "m": "robot",
       "s": "おおきい ろぼっと",
       "cue": "robot",
-      "src": null
+      "src": "higogata_robot4_green.png"
     },
     {
       "w": "ろけっと",
@@ -122,7 +122,7 @@
       "m": "rocket",
       "s": "ろけっと が とぶ",
       "cue": "rocket",
-      "src": null
+      "src": "space_rocket.png"
     }
   ]
 }

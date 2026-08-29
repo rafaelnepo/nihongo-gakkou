@@ -2,7 +2,7 @@
   "song": "04-tachitsuteto-ouchi",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/04-tachitsuteto-ouchi",
+  "dest": "learning/04-tachitsuteto-ouchi/il",
   "items": [
     {
       "w": "たまご",
@@ -10,7 +10,7 @@
       "m": "egg",
       "s": "たまご を たべる",
       "cue": "egg",
-      "src": null
+      "src": "egg_white.png"
     },
     {
       "w": "たおる",
@@ -18,7 +18,7 @@
       "m": "towel",
       "s": "しろい たおる",
       "cue": "towel",
-      "src": null
+      "src": "pool_bath_towel.png"
     },
     {
       "w": "たいこ",
@@ -26,7 +26,7 @@
       "m": "drum",
       "s": "たいこ を たたく",
       "cue": "drum",
-      "src": null
+      "src": "music_oodaiko.png"
     },
     {
       "w": "ちゃ",
@@ -34,7 +34,7 @@
       "m": "tea",
       "s": "ちゃ を のむ",
       "cue": "tea",
-      "src": null
+      "src": "drink_greentea.png"
     },
     {
       "w": "ちゃわん",
@@ -42,7 +42,7 @@
       "m": "rice bowl",
       "s": "ちゃわん の ごはん",
       "cue": "rice bowl",
-      "src": null
+      "src": "food_gohan_ochawan.png"
     },
     {
       "w": "ちず",
@@ -50,7 +50,7 @@
       "m": "map",
       "s": "ちず を みる",
       "cue": "map",
-      "src": null
+      "src": "nihonchizu.png"
     },
     {
       "w": "つくえ",
@@ -58,7 +58,7 @@
       "m": "desk",
       "s": "つくえ で かく",
       "cue": "desk",
-      "src": null
+      "src": "desk_benkyoudukue.png"
     },
     {
       "w": "つみき",
@@ -66,7 +66,7 @@
       "m": "building blocks",
       "s": "つみき で あそぶ",
       "cue": "building blocks",
-      "src": null
+      "src": "omocha_tsumiki.png"
     },
     {
       "w": "つき",
@@ -74,7 +74,7 @@
       "m": "moon",
       "s": "よる の つき",
       "cue": "moon",
-      "src": null
+      "src": "moon_usagi_kage.png"
     },
     {
       "w": "て",
@@ -82,7 +82,7 @@
       "m": "hand",
       "s": "て を あらう",
       "cue": "hand",
-      "src": null
+      "src": "body_te.png"
     },
     {
       "w": "てがみ",
@@ -90,7 +90,7 @@
       "m": "letter",
       "s": "てがみ を かく",
       "cue": "letter",
-      "src": null
+      "src": "mail.png"
     },
     {
       "w": "てぶくろ",
@@ -98,7 +98,7 @@
       "m": "gloves",
       "s": "あたたかい てぶくろ",
       "cue": "gloves",
-      "src": null
+      "src": "tebukuro_cold.png"
     },
     {
       "w": "とけい",
@@ -106,7 +106,7 @@
       "m": "clock",
       "s": "とけい を みる",
       "cue": "clock",
-      "src": null
+      "src": "kakedokei.png"
     },
     {
       "w": "とまと",
@@ -114,7 +114,7 @@
       "m": "tomato",
       "s": "あかい とまと",
       "cue": "tomato",
-      "src": null
+      "src": "tomato_red.png"
     },
     {
       "w": "とびら",
@@ -122,7 +122,7 @@
       "m": "door",
       "s": "とびら を あける",
       "cue": "door",
-      "src": null
+      "src": "door.png"
     }
   ]
 }

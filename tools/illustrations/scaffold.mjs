@@ -64,7 +64,10 @@ function scaffold(id) {
       "`fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into " +
       "video/public (git-ignored) and credited to いらすとや in the description.",
     srcRoot: prior?.srcRoot ?? "../../Irasutoya/images",
-    dest: prior?.dest ?? `video/public/il/${id}`,
+    // Canonical source home for a song's art. sync.mjs copies learning/<id>/il/*.png
+    // -> video/public/<id>/il/ (what the render's `ilBase: "<id>/il"` reads). Fetching
+    // straight to video/public/il/<id> (the old layout) leaves it un-synced and unseen.
+    dest: prior?.dest ?? `learning/${id}/il`,
     items,
   };
 

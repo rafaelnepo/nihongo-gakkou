@@ -2,7 +2,7 @@
   "song": "03-sashisuseso-gohan",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/03-sashisuseso-gohan",
+  "dest": "learning/03-sashisuseso-gohan/il",
   "items": [
     {
       "w": "さいふ",
@@ -10,7 +10,7 @@
       "m": "wallet",
       "s": "さいふ を もつ",
       "cue": "wallet",
-      "src": null
+      "src": "saifu.png"
     },
     {
       "w": "さかな",
@@ -18,7 +18,7 @@
       "m": "fish",
       "s": "さかな を かう",
       "cue": "fish",
-      "src": null
+      "src": "fish_saba2.png"
     },
     {
       "w": "さとう",
@@ -26,7 +26,7 @@
       "m": "sugar",
       "s": "さとう は あまい",
       "cue": "sugar",
-      "src": null
+      "src": "cooking_sugar_jouhakutou.png"
     },
     {
       "w": "しお",
@@ -34,7 +34,7 @@
       "m": "salt",
       "s": "しお を いれる",
       "cue": "salt",
-      "src": null
+      "src": "salt.png"
     },
     {
       "w": "しる",
@@ -42,7 +42,7 @@
       "m": "soup",
       "s": "あつい しる",
       "cue": "soup",
-      "src": null
+      "src": "food_omisoshiru.png"
     },
     {
       "w": "しめじ",
@@ -50,7 +50,7 @@
       "m": "shimeji mushroom",
       "s": "しめじ を たべる",
       "cue": "shimeji mushroom",
-      "src": null
+      "src": "kinoko_shimeji.png"
     },
     {
       "w": "すし",
@@ -58,7 +58,7 @@
       "m": "sushi",
       "s": "おいしい すし",
       "cue": "sushi",
-      "src": null
+      "src": "food_sushi.png"
     },
     {
       "w": "すいか",
@@ -66,7 +66,7 @@
       "m": "watermelon",
       "s": "あまい すいか",
       "cue": "watermelon",
-      "src": null
+      "src": "fruit_suika_kodama.png"
     },
     {
       "w": "す",
@@ -74,7 +74,7 @@
       "m": "vinegar",
       "s": "す は すっぱい",
       "cue": "vinegar",
-      "src": null
+      "src": "cooking_osu.png"
     },
     {
       "w": "せんべい",
@@ -82,7 +82,7 @@
       "m": "rice cracker",
       "s": "せんべい を たべる",
       "cue": "rice cracker",
-      "src": null
+      "src": "sweets_senbei_yakisenbei.png"
     },
     {
       "w": "せき",
@@ -90,7 +90,7 @@
       "m": "seat",
       "s": "せき に すわる",
       "cue": "seat",
-      "src": null
+      "src": "zaseki_room_chair.png"
     },
     {
       "w": "せっけん",
@@ -98,7 +98,7 @@
       "m": "soap",
       "s": "せっけん で あらう",
       "cue": "soap",
-      "src": null
+      "src": "ofuro_sekken.png"
     },
     {
       "w": "そば",
@@ -106,7 +106,7 @@
       "m": "soba noodles",
       "s": "あたたかい そば",
       "cue": "soba noodles",
-      "src": null
+      "src": "food_men_soba.png"
     },
     {
       "w": "そぼ",
@@ -114,7 +114,7 @@
       "m": "grandmother",
       "s": "そぼ の ごはん",
       "cue": "grandmother",
-      "src": null
+      "src": "obaasan.png"
     },
     {
       "w": "そら",
@@ -122,7 +122,7 @@
       "m": "sky",
       "s": "ゆうやけ の そら",
       "cue": "sky",
-      "src": null
+      "src": "sora_yuuyake.png"
     }
   ]
 }

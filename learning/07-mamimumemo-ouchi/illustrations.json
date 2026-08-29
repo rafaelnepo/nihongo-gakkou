@@ -2,7 +2,7 @@
   "song": "07-mamimumemo-ouchi",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/07-mamimumemo-ouchi",
+  "dest": "learning/07-mamimumemo-ouchi/il",
   "items": [
     {
       "w": "まど",
@@ -10,7 +10,7 @@
       "m": "window",
       "s": "まど を あける",
       "cue": "window",
-      "src": null
+      "src": "window_open.png"
     },
     {
       "w": "まくら",
@@ -18,7 +18,7 @@
       "m": "pillow",
       "s": "しろい まくら",
       "cue": "pillow",
-      "src": null
+      "src": "makura.png"
     },
     {
       "w": "まめ",
@@ -26,7 +26,7 @@
       "m": "bean",
       "s": "まめ を たべる",
       "cue": "bean",
-      "src": null
+      "src": "vegetable_daizu.png"
     },
     {
       "w": "みかん",
@@ -34,7 +34,7 @@
       "m": "mandarin",
       "s": "あまい みかん",
       "cue": "mandarin",
-      "src": null
+      "src": "fruit_orange.png"
     },
     {
       "w": "みず",
@@ -42,7 +42,7 @@
       "m": "water",
       "s": "つめたい みず",
       "cue": "water",
-      "src": null
+      "src": "amount_water_glass3.png"
     },
     {
       "w": "みみ",
@@ -50,7 +50,7 @@
       "m": "ear",
       "s": "うさぎ の みみ",
       "cue": "ear",
-      "src": null
+      "src": "body_mimi.png"
     },
     {
       "w": "むし",
@@ -58,7 +58,7 @@
       "m": "bug",
       "s": "ちいさい むし",
       "cue": "bug",
-      "src": null
+      "src": "mushi_imomushi.png"
     },
     {
       "w": "むらさき",
@@ -66,7 +66,7 @@
       "m": "purple",
       "s": "むらさきの はな",
       "cue": "purple",
-      "src": null
+      "src": "flower_ajisai4_purple.png"
     },
     {
       "w": "むぎ",
@@ -74,7 +74,7 @@
       "m": "barley",
       "s": "むぎ の ちゃ",
       "cue": "barley",
-      "src": null
+      "src": "mugi.png"
     },
     {
       "w": "め",
@@ -82,7 +82,7 @@
       "m": "eye",
       "s": "おおきい め",
       "cue": "eye",
-      "src": null
+      "src": "body_me.png"
     },
     {
       "w": "めがね",
@@ -90,7 +90,7 @@
       "m": "glasses",
       "s": "まるい めがね",
       "cue": "glasses",
-      "src": null
+      "src": "glasses.png"
     },
     {
       "w": "めだか",
@@ -98,7 +98,7 @@
       "m": "killifish",
       "s": "めだか が およぐ",
       "cue": "killifish",
-      "src": null
+      "src": "fish_medaka_character.png"
     },
     {
       "w": "もも",
@@ -106,7 +106,7 @@
       "m": "peach",
       "s": "あまい もも",
       "cue": "peach",
-      "src": null
+      "src": "fruit_peach.png"
     },
     {
       "w": "もち",
@@ -114,7 +114,7 @@
       "m": "rice cake",
       "s": "しろい もち",
       "cue": "rice cake",
-      "src": null
+      "src": "mochi_maru.png"
     },
     {
       "w": "もうふ",
@@ -122,7 +122,7 @@
       "m": "blanket",
       "s": "あたたかい もうふ",
       "cue": "blanket",
-      "src": null
+      "src": "moufu.png"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "song": "01-aiueo-doubutsu",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/01-aiueo-doubutsu",
+  "dest": "learning/01-aiueo-doubutsu/il",
   "items": [
     {
       "w": "あり",
@@ -10,7 +10,7 @@
       "m": "ant",
       "s": "あり が あるく",
       "cue": "ant",
-      "src": null
+      "src": "bug_hatarakiari.png"
     },
     {
       "w": "あひる",
@@ -18,7 +18,7 @@
       "m": "duck",
       "s": "あひる が およぐ",
       "cue": "duck",
-      "src": null
+      "src": "bird_duck_ahiru.png"
     },
     {
       "w": "あざらし",
@@ -26,7 +26,7 @@
       "m": "seal",
       "s": "あざらし が ねる",
       "cue": "seal",
-      "src": null
+      "src": "animal_gomafu_azarashi.png"
     },
     {
       "w": "いぬ",
@@ -34,7 +34,7 @@
       "m": "dog",
       "s": "いぬ が はしる",
       "cue": "dog",
-      "src": null
+      "src": "dog_akitainu.png"
     },
     {
       "w": "いるか",
@@ -42,7 +42,7 @@
       "m": "dolphin",
       "s": "いるか が とぶ",
       "cue": "dolphin",
-      "src": null
+      "src": "dolphin_bandouiruka.png"
     },
     {
       "w": "いのしし",
@@ -50,7 +50,7 @@
       "m": "wild boar",
       "s": "いのしし は はやい",
       "cue": "wild boar",
-      "src": null
+      "src": "animal_inoshishi.png"
     },
     {
       "w": "うさぎ",
@@ -58,7 +58,7 @@
       "m": "rabbit",
       "s": "うさぎ が はねる",
       "cue": "rabbit",
-      "src": null
+      "src": "animal_usaghi_netherland_dwarf.png"
     },
     {
       "w": "うし",
@@ -66,7 +66,7 @@
       "m": "cow",
       "s": "うし は おおきい",
       "cue": "cow",
-      "src": null
+      "src": "ushi_nyugyu_milk.png"
     },
     {
       "w": "うま",
@@ -74,7 +74,7 @@
       "m": "horse",
       "s": "うま に のる",
       "cue": "horse",
-      "src": null
+      "src": "animal_uma_kodomo.png"
     },
     {
       "w": "えび",
@@ -82,7 +82,7 @@
       "m": "shrimp",
       "s": "うみ の えび",
       "cue": "shrimp",
-      "src": null
+      "src": "ebi_aka.png"
     },
     {
       "w": "えい",
@@ -90,7 +90,7 @@
       "m": "ray",
       "s": "えい が およぐ",
       "cue": "ray",
-      "src": null
+      "src": "fish_akaei.png"
     },
     {
       "w": "えさ",
@@ -98,7 +98,7 @@
       "m": "animal feed",
       "s": "えさ を たべる",
       "cue": "animal feed",
-      "src": null
+      "src": "pet_esa_sara_full.png"
     },
     {
       "w": "おおかみ",
@@ -106,7 +106,7 @@
       "m": "wolf",
       "s": "おおかみ が なく",
       "cue": "wolf",
-      "src": null
+      "src": "animal_ookami.png"
     },
     {
       "w": "おうむ",
@@ -114,7 +114,7 @@
       "m": "parrot",
       "s": "おうむ が うたう",
       "cue": "parrot",
-      "src": null
+      "src": "bird_inko_yellow.png"
     },
     {
       "w": "おんどり",
@@ -122,7 +122,7 @@
       "m": "rooster",
       "s": "あさ の おんどり",
       "cue": "rooster",
-      "src": null
+      "src": "eto_remake_tori.png"
     }
   ]
 }

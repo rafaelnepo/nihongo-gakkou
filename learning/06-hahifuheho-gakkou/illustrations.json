@@ -2,7 +2,7 @@
   "song": "06-hahifuheho-gakkou",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/06-hahifuheho-gakkou",
+  "dest": "learning/06-hahifuheho-gakkou/il",
   "items": [
     {
       "w": "はさみ",
@@ -10,7 +10,7 @@
       "m": "scissors",
       "s": "はさみ で きる",
       "cue": "scissors",
-      "src": null
+      "src": "bunbougu_hasami.png"
     },
     {
       "w": "はこ",
@@ -18,7 +18,7 @@
       "m": "box",
       "s": "はこ を あける",
       "cue": "box",
-      "src": null
+      "src": "box_danbo-ru_open.png"
     },
     {
       "w": "はた",
@@ -26,7 +26,7 @@
       "m": "flag",
       "s": "あかい はた",
       "cue": "flag",
-      "src": null
+      "src": "flag_white_shikaku1.png"
     },
     {
       "w": "ひこうき",
@@ -34,7 +34,7 @@
       "m": "airplane",
       "s": "かみ の ひこうき",
       "cue": "airplane",
-      "src": null
+      "src": "kamihikouki_omote.png"
     },
     {
       "w": "ひも",
@@ -42,7 +42,7 @@
       "m": "string",
       "s": "ながい ひも",
       "cue": "string",
-      "src": null
+      "src": "rope_taba.png"
     },
     {
       "w": "ひかり",
@@ -50,7 +50,7 @@
       "m": "light",
       "s": "あかるい ひかり",
       "cue": "light",
-      "src": null
+      "src": "denkyuu_on.png"
     },
     {
       "w": "ふで",
@@ -58,7 +58,7 @@
       "m": "brush",
       "s": "ふで で かく",
       "cue": "brush",
-      "src": null
+      "src": "shodo_fude.png"
     },
     {
       "w": "ふうせん",
@@ -66,7 +66,7 @@
       "m": "balloon",
       "s": "まるい ふうせん",
       "cue": "balloon",
-      "src": null
+      "src": "fusen.png"
     },
     {
       "w": "ふえ",
@@ -74,7 +74,7 @@
       "m": "whistle / flute",
       "s": "ふえ を ふく",
       "cue": "whistle / flute",
-      "src": null
+      "src": "referee_whistle.png"
     },
     {
       "w": "へや",
@@ -82,7 +82,7 @@
       "m": "room",
       "s": "あかるい へや",
       "cue": "room",
-      "src": null
+      "src": "room_kodomobeya.png"
     },
     {
       "w": "へい",
@@ -90,7 +90,7 @@
       "m": "fence / wall",
       "s": "しろい へい",
       "cue": "fence / wall",
-      "src": null
+      "src": "block_pattern.png"
     },
     {
       "w": "へちま",
@@ -98,7 +98,7 @@
       "m": "loofah gourd",
       "s": "みどりの へちま",
       "cue": "loofah gourd",
-      "src": null
+      "src": "vegetable_hechima.png"
     },
     {
       "w": "ほん",
@@ -106,7 +106,7 @@
       "m": "book",
       "s": "ほん を よむ",
       "cue": "book",
-      "src": null
+      "src": "book.png"
     },
     {
       "w": "ほうき",
@@ -114,7 +114,7 @@
       "m": "broom",
       "s": "ほうき で はく",
       "cue": "broom",
-      "src": null
+      "src": "oosouji_houki.png"
     },
     {
       "w": "ほし",
@@ -122,7 +122,7 @@
       "m": "star",
       "s": "よる の ほし",
       "cue": "star",
-      "src": null
+      "src": "small_star7_yellow.png"
     }
   ]
 }

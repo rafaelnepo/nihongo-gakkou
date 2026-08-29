@@ -2,7 +2,7 @@
   "song": "02-kakikukeko-machi",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/02-kakikukeko-machi",
+  "dest": "learning/02-kakikukeko-machi/il",
   "items": [
     {
       "w": "かお",
@@ -10,7 +10,7 @@
       "m": "face",
       "s": "かお を あらう",
       "cue": "face",
-      "src": null
+      "src": "youngwoman_38.png"
     },
     {
       "w": "かさ",
@@ -18,7 +18,7 @@
       "m": "umbrella",
       "s": "あめ だから かさ",
       "cue": "umbrella",
-      "src": null
+      "src": "rain_kasa_blue.png"
     },
     {
       "w": "かぎ",
@@ -26,7 +26,7 @@
       "m": "key",
       "s": "いえ の かぎ",
       "cue": "key",
-      "src": null
+      "src": "kagi_ie.png"
     },
     {
       "w": "きる",
@@ -34,7 +34,7 @@
       "m": "to wear",
       "s": "ふく を きる",
       "cue": "to wear",
-      "src": null
+      "src": "shichaku_woman.png"
     },
     {
       "w": "きいろ",
@@ -42,7 +42,7 @@
       "m": "yellow",
       "s": "きいろい ぼうし",
       "cue": "yellow",
-      "src": null
+      "src": "fashion_tsuugakubou_cap.png"
     },
     {
       "w": "きっぷ",
@@ -50,7 +50,7 @@
       "m": "ticket",
       "s": "きっぷ を かう",
       "cue": "ticket",
-      "src": null
+      "src": "ticket_koukuuken.png"
     },
     {
       "w": "くつ",
@@ -58,7 +58,7 @@
       "m": "shoes",
       "s": "くつ を はく",
       "cue": "shoes",
-      "src": null
+      "src": "fashion_slip-on.png"
     },
     {
       "w": "くるま",
@@ -66,7 +66,7 @@
       "m": "car",
       "s": "くるま に のる",
       "cue": "car",
-      "src": null
+      "src": "car4_red.png"
     },
     {
       "w": "くも",
@@ -74,7 +74,7 @@
       "m": "cloud",
       "s": "そら に くも",
       "cue": "cloud",
-      "src": null
+      "src": "kumo.png"
     },
     {
       "w": "けしごむ",
@@ -82,7 +82,7 @@
       "m": "eraser",
       "s": "えんぴつ と けしごむ",
       "cue": "eraser",
-      "src": null
+      "src": "bunbougu_keshigomu.png"
     },
     {
       "w": "けいと",
@@ -90,7 +90,7 @@
       "m": "yarn",
       "s": "あかい けいと",
       "cue": "yarn",
-      "src": null
+      "src": "keitodama04_green.png"
     },
     {
       "w": "けさ",
@@ -98,7 +98,7 @@
       "m": "this morning",
       "s": "けさ は あめ",
       "cue": "this morning",
-      "src": null
+      "src": "aisatsu1_ohayou.png"
     },
     {
       "w": "こうえん",
@@ -106,7 +106,7 @@
       "m": "park",
       "s": "こうえん で あそぶ",
       "cue": "park",
-      "src": null
+      "src": "suberidai.png"
     },
     {
       "w": "こども",
@@ -114,7 +114,7 @@
       "m": "child",
       "s": "こども が わらう",
       "cue": "child",
-      "src": null
+      "src": "jiko_pedal_nashi.png"
     },
     {
       "w": "こえ",
@@ -122,7 +122,7 @@
       "m": "voice",
       "s": "おおきい こえ",
       "cue": "voice",
-      "src": null
+      "src": "kakuseiki_woman_angry.png"
     }
   ]
 }

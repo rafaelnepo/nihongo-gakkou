@@ -2,7 +2,7 @@
   "song": "08-yayuyo-ie",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/08-yayuyo-ie",
+  "dest": "learning/08-yayuyo-ie/il",
   "items": [
     {
       "w": "やね",
@@ -10,7 +10,7 @@
       "m": "roof",
       "s": "あかい やね",
       "cue": "roof",
-      "src": null
+      "src": "house_1f.png"
     },
     {
       "w": "やかん",
@@ -18,7 +18,7 @@
       "m": "kettle",
       "s": "やかん の ゆげ",
       "cue": "kettle",
-      "src": null
+      "src": "cooking_yakan_gin.png"
     },
     {
       "w": "やさい",
@@ -26,7 +26,7 @@
       "m": "vegetables",
       "s": "やさい を たべる",
       "cue": "vegetables",
-      "src": null
+      "src": "vegetable.png"
     },
     {
       "w": "ゆび",
@@ -34,7 +34,7 @@
       "m": "finger",
       "s": "ちいさい ゆび",
       "cue": "finger",
-      "src": null
+      "src": "pose_hitosashiyubi.png"
     },
     {
       "w": "ゆか",
@@ -42,7 +42,7 @@
       "m": "floor",
       "s": "きれいな ゆか",
       "cue": "floor",
-      "src": null
+      "src": "room_yuka_flooring.png"
     },
     {
       "w": "ゆのみ",
@@ -50,7 +50,7 @@
       "m": "teacup",
       "s": "ゆのみ の おちゃ",
       "cue": "teacup",
-      "src": null
+      "src": "agari_yunomi.png"
     },
     {
       "w": "よる",
@@ -58,7 +58,7 @@
       "m": "night",
       "s": "しずかな よる",
       "cue": "night",
-      "src": null
+      "src": "time4_yoru.png"
     },
     {
       "w": "よこ",
@@ -66,7 +66,7 @@
       "m": "side / beside",
       "s": "いえ の よこ",
       "cue": "side / beside",
-      "src": null
+      "src": "mark_arrow_right.png"
     },
     {
       "w": "ようふく",
@@ -74,7 +74,7 @@
       "m": "clothes",
       "s": "あたらしい ようふく",
       "cue": "clothes",
-      "src": null
+      "src": "fashion_onepiece.png"
     }
   ]
 }
