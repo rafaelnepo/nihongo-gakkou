@@ -290,12 +290,22 @@ for (const folder of targets) {
 const dash = [];
 for (const folder of allDirs) {
   const song = JSON.parse(readFileSync(join(folder, "song.json"), "utf8"));
-  if (song.private) continue; // never expose private songs in the dashboard
+  // Dashboard shows only the learning strand (personal/yuba are excluded), grouped
+  // by the script it teaches. Everything so far is hiragana; katakana/kanji songs
+  // will declare "script" in their song.json and slot into those filters.
+  if (song.strand !== "learning") continue;
+  const script = song.script || "hiragana";
   const rel = folder.replace(SONGS_DIR + "/", "");
+  // A song has rendered videos once it has a timing file (the tracked signal that
+  // the render pipeline ran — true in CI too). out/ itself is gitignored, so the
+  // link only resolves when the dashboard is opened locally; on Pages there are
+  // no uploaded renders, which is why it's presented as a local convenience.
+  const hasVideo = existsSync(join(SONGS_DIR, "video", "timing", `${song.id}.learning.json`));
   dash.push({
-    id: song.id, title: song.title, jp: song.jp, strand: song.strand, status: song.status,
+    id: song.id, title: song.title, jp: song.jp, strand: song.strand, script, status: song.status,
     priv: false, meta: song.meta || [], blurb: stripHtml(song.blurb || ""),
     sheet: rel + "/sheet.html", folder: rel + "/",
+    out: hasVideo ? "video/out/" + song.id + "/" : null,
     style: (song.styles && song.styles[0] && song.styles[0].text) || "",
   });
 }
