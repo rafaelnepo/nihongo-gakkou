@@ -16,6 +16,25 @@ const SONGS_DIR = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const esc = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+// Illustration thumbnails on the sheet come from the catalog's Cloudflare R2
+// origin (same host the picker previews from), so they work on the deployed
+// GitHub Pages site with no local catalog present. <stem>.webp is the thumb.
+const IL_REMOTE = "https://img.encyclopedias.cc/";
+const ilStem = (src) => String(src).replace(/\.[^.]+$/, "").replace(/%/g, "%25");
+const ilThumb = (src) => IL_REMOTE + ilStem(src) + ".webp";
+
+// Map romaji -> chosen catalog filename from a song's illustrations.json.
+function loadIlMap(folder) {
+  const p = join(folder, "illustrations.json");
+  if (!existsSync(p)) return {};
+  try {
+    const items = JSON.parse(readFileSync(p, "utf8")).items || [];
+    return Object.fromEntries(items.filter((i) => i.src).map((i) => [i.r, i.src]));
+  } catch {
+    return {};
+  }
+}
+
 // Pull the singable lyric out of a suno-*.txt: everything from the first [tag].
 function extractLyrics(txt) {
   const lines = txt.replace(/\r/g, "").split("\n");
@@ -97,6 +116,9 @@ strong{font-weight:700}em{font-style:normal;color:var(--shu-ink);font-weight:500
 .vtab .arrow{color:var(--shu);font-family:var(--f-mono);font-size:11px}
 .vtab .s{font-family:var(--f-jp);font-size:1.02rem;color:var(--ink)}
 .vtab .sm{font-size:.8rem;color:var(--ink-3)}
+.vtab td.il{width:52px;padding:6px 12px 6px 0;vertical-align:middle}
+.vtab td.il.miss{background:none}
+.ilimg{width:44px;height:44px;object-fit:contain;background:#fff;border:1px solid var(--rule);border-radius:6px;padding:2px;display:block}
 footer{margin-top:20px;padding-top:24px;border-top:1px solid var(--rule);font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;color:var(--ink-3);display:flex;flex-wrap:wrap;gap:8px 20px}
 @media (max-width:640px){.vtab td{display:block;padding:2px 0;border:none}.vgroup{border-top:1px solid var(--rule-soft);padding-top:12px}.vtab tr{display:block;padding:10px 0;border-top:1px solid var(--rule-soft)}}
 :focus-visible{outline:2px solid var(--shu);outline-offset:3px;border-radius:2px}`;
@@ -152,13 +174,19 @@ function buildSheet(song, folder) {
     })
     .join("\n");
 
-  // Vocab table
+  // Vocab table — each word gets its Irasutoya illustration (from illustrations.json).
+  const ilMap = loadIlMap(folder);
+  const ilCell = (it) => {
+    const src = ilMap[it.r];
+    if (!src) return `<td class="il"></td>`;
+    return `<td class="il"><img class="ilimg" loading="lazy" src="${esc(ilThumb(src))}" alt="${esc(it.w)}" onerror="this.closest('.il').classList.add('miss');this.remove()"></td>`;
+  };
   const vocab = (song.vocab || [])
     .map((g) => {
       const rows = g.items
         .map(
           (it) => `<tr>
-        <td class="w">${esc(it.w)}</td><td class="r">${esc(it.r)}</td><td class="m">${esc(it.m)}</td>
+        ${ilCell(it)}<td class="w">${esc(it.w)}</td><td class="r">${esc(it.r)}</td><td class="m">${esc(it.m)}</td>
         <td class="arrow">&rarr;</td><td class="s">${esc(it.s)}</td><td class="sm">${esc(it.sm)}</td></tr>`
         )
         .join("\n");
