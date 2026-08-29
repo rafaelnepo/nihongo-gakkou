@@ -289,26 +289,32 @@ const App: React.FC = () => {
       setSelected(idx);
       setTiming((prev) => {
         if (!prev) return prev;
+        // The cascade floor for this line: it can never start before the previous
+        // line's (baked) end, so a START nudge is capped there — past that point
+        // the value would grow without moving anything.
+        const prevEnd = idx > 0 ? bakeWindows(prev.lines)[idx - 1].e : -Infinity;
         const lines = prev.lines.map((l, k) => {
           if (k !== idx) return l;
           const key = which === "start" ? "startShift" : "endShift";
           const round3 = (x: number) => Math.round(x * 1000) / 1000;
           let val = round3((l[key] ?? 0) + dir * step);
-          // Safeguard: a line can never be nudged narrower than MIN_W — START can't
-          // cross END and END can't cross START (delay shifts both, so it cancels
-          // out of the width). If it's already thinner than MIN_W, just don't let
-          // this nudge make it thinner still.
           const MIN_W = 0.1;
           const ss = l.startShift ?? 0;
           const es = l.endShift ?? 0;
+          const d = l.delay ?? 0;
           const dur = l.end - l.start;
           const curW = dur + (es - ss);
           const floorW = Math.min(MIN_W, curW);
-          const newW = which === "start" ? dur + (es - val) : dur + (val - ss);
-          if (newW < floorW - 1e-9) {
-            val = which === "start"
-              ? round3(dur + es - floorW)
-              : round3(floorW - dur + ss);
+          if (which === "start") {
+            // (a) START can't cross END — keep the line at least MIN_W wide.
+            val = Math.min(val, round3(dur + es - floorW));
+            // (b) START can't go earlier than the previous line's end. Beyond that
+            //     the line just clamps to the floor and stops moving, so pin the
+            //     value to the real limit instead of letting it grow uselessly.
+            if (prevEnd > -Infinity) val = Math.max(val, round3(prevEnd - l.start - d));
+          } else {
+            // END can't cross START — keep the line at least MIN_W wide.
+            val = Math.max(val, round3(floorW - dur + ss));
           }
           const copy = { ...l };
           if (Math.abs(val) < 1e-6) delete copy[key];
