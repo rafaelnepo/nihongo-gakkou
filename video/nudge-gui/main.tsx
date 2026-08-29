@@ -22,6 +22,7 @@ const SONG_OPTIONS = LEARNING_SONGS.map(({ id, timing }) => {
   return { id, label: `Row ${Number.isFinite(n) ? n : "?"}${row}${name}` };
 });
 const STEPS = [0.02, 0.05, 0.1, 0.2]; // seconds per arrow tap
+const WORD_MIN = 0.06; // a word's sound can't be dragged shorter than this (matches the render)
 const PANE_PAD = 30; // left/right inset — title, video and shortcuts all start here
 
 const fmt = (s: number) => {
@@ -134,7 +135,13 @@ const wordSpans = (line: Line, win: { s: number; e: number }): WordSpan[] => {
     wStart[w] = Math.min(wStart[w], remap(c.start) + sh);
     wEnd[w] = Math.max(wEnd[w], remap(c.end) + sh);
   });
-  // push-forward cascade (mirrors applyWordShifts) so bars never overlap
+  // per-word length: extend/clip the end, clamped to a minimum width
+  for (let w = 0; w < nWords; w++) {
+    if (!Number.isFinite(wStart[w])) continue;
+    const lg = line.wordLengths?.[w] ?? 0;
+    wEnd[w] = Math.max(wStart[w] + WORD_MIN, wEnd[w] + lg);
+  }
+  // push-forward cascade (mirrors applyWordEdits) so bars never overlap
   const out: WordSpan[] = [];
   let floor = -Infinity;
   for (let w = 0; w < nWords; w++) {
@@ -405,6 +412,34 @@ const App: React.FC = () => {
     [selected, selectedWord, step, persist, seekToT, timing]
   );
 
+  // WORD level: set one word's length delta (drag its right edge to hold the sound
+  // longer / clip it shorter). `length` is absolute seconds added to the word's end.
+  const setWordLength = useCallback(
+    (wi: number, length: number) => {
+      if (selected == null || !timing) return;
+      const wc = wordsOf(timing.lines[selected].text).length;
+      if (wi < 0 || wi >= wc) return;
+      setTiming((prev) => {
+        if (!prev) return prev;
+        const lines = prev.lines.map((l, k) => {
+          if (k !== selected) return l;
+          const arr = (l.wordLengths ?? []).slice();
+          while (arr.length <= wi) arr.push(0);
+          arr[wi] = Math.round(length * 1000) / 1000;
+          const copy = { ...l };
+          const trimmed = trimZeros(arr);
+          if (trimmed) copy.wordLengths = trimmed;
+          else delete copy.wordLengths;
+          return copy;
+        });
+        const next = { ...prev, lines };
+        persist(next);
+        return next;
+      });
+    },
+    [selected, timing, persist]
+  );
+
   // Move the selection (clamped) and cue the player to that line's start.
   const selectLine = useCallback(
     (idx: number) => {
@@ -636,6 +671,7 @@ const App: React.FC = () => {
                 onBlock={nudgeBlock}
                 onLine={(which, dir) => selected != null && nudge(selected, which, dir)}
                 onWord={nudgeWord}
+                onResize={setWordLength}
               />
             </div>
           </div>
@@ -751,17 +787,48 @@ const WordTimeline: React.FC<{
   words: string[];
   selectedWord: number | null;
   onPick: (wi: number) => void;
-}> = ({ line, win, words, selectedWord, onPick }) => {
+  onResize: (wi: number, length: number) => void;
+}> = ({ line, win, words, selectedWord, onPick, onResize }) => {
+  const ref = useRef<HTMLDivElement>(null);
   const spans = wordSpans(line, win);
   if (!spans.length) return null;
   const t0 = Math.min(win.s, ...spans.map((s) => s.start));
   const t1 = Math.max(win.e, ...spans.map((s) => s.end));
   const dur = Math.max(1e-6, t1 - t0);
+
+  // Drag a bar's right edge: pixels -> seconds via the timeline's own width, then
+  // set this word's length delta. Clamped so a bar can't shrink below WORD_MIN.
+  const startResize = (e: React.MouseEvent, sp: WordSpan) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const box = ref.current?.getBoundingClientRect();
+    if (!box) return;
+    const pxPerSec = box.width / dur;
+    const startX = e.clientX;
+    const startLen = line.wordLengths?.[sp.wi] ?? 0;
+    const naturalW = sp.end - sp.start - startLen; // bar width with no length delta
+    onPick(sp.wi);
+    const move = (ev: MouseEvent) => {
+      const len = startLen + (ev.clientX - startX) / pxPerSec;
+      onResize(sp.wi, Math.max(len, WORD_MIN - naturalW));
+    };
+    const up = () => {
+      window.removeEventListener("mousemove", move);
+      window.removeEventListener("mouseup", up);
+      document.body.style.cursor = "";
+      document.body.style.userSelect = "";
+    };
+    window.addEventListener("mousemove", move);
+    window.addEventListener("mouseup", up);
+    document.body.style.cursor = "ew-resize";
+    document.body.style.userSelect = "none";
+  };
+
   return (
-    <div style={S.timeline}>
+    <div ref={ref} style={S.timeline}>
       {spans.map((sp) => {
         const wi = sp.wi;
-        const touched = (line.wordShifts?.[wi] ?? 0) !== 0;
+        const touched = (line.wordShifts?.[wi] ?? 0) !== 0 || (line.wordLengths?.[wi] ?? 0) !== 0;
         const left = ((sp.start - t0) / dur) * 100;
         const width = Math.max(0.8, ((sp.end - sp.start) / dur) * 100);
         return (
@@ -779,6 +846,12 @@ const WordTimeline: React.FC<{
             }}
           >
             <span style={S.timelineLabel}>{words[wi]}</span>
+            <div
+              style={S.timelineHandle}
+              title="drag to lengthen / shorten this sound"
+              onMouseDown={(e) => startResize(e, sp)}
+              onClick={(e) => e.stopPropagation()}
+            />
           </div>
         );
       })}
@@ -796,7 +869,8 @@ const LevelsPanel: React.FC<{
   onBlock: (dir: 1 | -1) => void;
   onLine: (which: "start" | "end", dir: 1 | -1) => void;
   onWord: (dir: 1 | -1) => void;
-}> = ({ line, win, selectedWord, onPickWord, onBlock, onLine, onWord }) => {
+  onResize: (wi: number, length: number) => void;
+}> = ({ line, win, selectedWord, onPickWord, onBlock, onLine, onWord, onResize }) => {
   if (!line) return <div style={S.levelsHint}>Select a line to nudge its block · line · words.</div>;
   const words = wordsOf(line.text);
   const wordSelected = selectedWord != null && selectedWord >= 0 && selectedWord < words.length;
@@ -858,8 +932,9 @@ const LevelsPanel: React.FC<{
             </button>
           </div>
           {win ? (
-            <WordTimeline line={line} win={win} words={words} selectedWord={selectedWord} onPick={onPickWord} />
+            <WordTimeline line={line} win={win} words={words} selectedWord={selectedWord} onPick={onPickWord} onResize={onResize} />
           ) : null}
+          <div style={S.timelineHint}>tip: drag a bar's right edge to hold that sound longer or clip it shorter</div>
         </div>
       </div>
     </div>
@@ -930,6 +1005,8 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   timelineRect: { position: "absolute", top: 3, bottom: 3, borderRadius: 4, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", boxSizing: "border-box", border: "1px solid rgba(0,0,0,0.06)" },
   timelineRectSel: { outline: "2px solid #e7481c", outlineOffset: -1, zIndex: 2 },
   timelineLabel: { fontFamily: "'Zen Maru Gothic', ui-sans-serif, system-ui", fontSize: 11, color: "#3a352c", whiteSpace: "nowrap", padding: "0 3px", pointerEvents: "none" },
+  timelineHandle: { position: "absolute", top: 0, right: 0, width: 11, height: "100%", cursor: "ew-resize", borderRight: "3px solid rgba(58,53,44,0.4)", boxSizing: "border-box", borderTopRightRadius: 4, borderBottomRightRadius: 4 },
+  timelineHint: { fontSize: 10.5, color: "#8c8578", marginTop: 6, fontFamily: "ui-monospace, monospace" },
   wordChip: { position: "relative", fontFamily: "'Zen Maru Gothic', ui-sans-serif, system-ui", fontSize: 15, padding: "3px 9px", borderRadius: 6, border: "1px solid #cbc1ac", background: "#fff", cursor: "pointer", color: "#41403a", lineHeight: 1.3 },
   wordChipSel: { borderColor: "#e7481c", boxShadow: "inset 0 0 0 1px #e7481c" },
   wordChipTouched: { background: "#fbeee6", borderColor: "#eab9a5" },

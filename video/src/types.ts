@@ -80,6 +80,12 @@ export type LearningLine = {
   // singer holds or rushes a word in the middle so it drifts against the line.
   // Sparse/short arrays are fine (missing entries = 0). Also non-destructive.
   wordShifts?: number[];
+  // WORD level, part 2: one length delta (seconds) per space-separated word —
+  // added to that word's END so its sound is held longer (+) or clipped (-). The
+  // word's characters re-space proportionally into the resized window, and the
+  // forward cascade pushes later words so nothing overlaps. The nudge GUI drives
+  // this by dragging a word's right edge. Non-destructive (original chars[] stay).
+  wordLengths?: number[];
 };
 
 export type LearningTiming = {

@@ -81,7 +81,7 @@ const bakeLines = (raw: LearningLine[]): LearningLine[] => {
     const os = l.start;
     const oe = l.end;
     const windowMoved = s !== os || e !== oe;
-    const hasWords = !!l.wordShifts?.some((x) => x);
+    const hasWords = !!(l.wordShifts?.some((x) => x) || l.wordLengths?.some((x) => x));
     if (!windowMoved && !hasWords) return l; // untouched — no work, no new object
     let chars = l.chars;
     if (chars && windowMoved) {
@@ -89,7 +89,7 @@ const bakeLines = (raw: LearningLine[]): LearningLine[] => {
       const remap = (x: number) => s + ((x - os) / span) * (e - s);
       chars = chars.map((c) => ({ start: remap(c.start), end: remap(c.end) }));
     }
-    if (chars && hasWords) chars = applyWordShifts(l.text, chars, l.wordShifts!);
+    if (chars && hasWords) chars = applyWordEdits(l.text, chars, l.wordShifts ?? [], l.wordLengths ?? []);
     return { ...l, start: s, end: e, chars };
   });
 };
@@ -118,35 +118,51 @@ const wordOfGlyphs = (glyphs: string[]): number[] => {
   return out;
 };
 
-// Offset each word's characters by its wordShifts[] entry, then CASCADE within
-// the line: a word can't start before the previous word ends, so a word shifted
-// so far it runs into the next pushes that next word forward (rippling on). Word
-// boundaries follow wordOfGlyphs (spaces and commas); missing shifts = 0.
-const applyWordShifts = (text: string, chars: CharTime[], shifts: number[]): CharTime[] => {
+// Per word: shift moves its start (wordShifts[w]) and length extends its end
+// (wordLengths[w]); its characters re-space into the resized window, then CASCADE
+// within the line — a word can't start before the previous word ends, so a word
+// shifted/held so far it runs into the next pushes that next word forward
+// (rippling on). Boundaries follow wordOfGlyphs (spaces and commas); missing = 0.
+const WORD_MIN = 0.06; // a word's sound can't be dragged shorter than this
+const applyWordEdits = (
+  text: string,
+  chars: CharTime[],
+  shifts: number[],
+  lengths: number[],
+): CharTime[] => {
   const wmap = wordOfGlyphs(Array.from(text));
   const nWords = wmap.reduce((m, w) => Math.max(m, w), -1) + 1;
-  // each word's [start, end] after its own shift
-  const wStart = new Array<number>(nWords).fill(Infinity);
-  const wEnd = new Array<number>(nWords).fill(-Infinity);
+  // each word's ORIGINAL [start, end] from its chars
+  const os = new Array<number>(nWords).fill(Infinity);
+  const oe = new Array<number>(nWords).fill(-Infinity);
   chars.forEach((c, i) => {
     const w = wmap[i];
     if (w < 0) return;
-    const sh = shifts[w] ?? 0;
-    wStart[w] = Math.min(wStart[w], c.start + sh);
-    wEnd[w] = Math.max(wEnd[w], c.end + sh);
+    os[w] = Math.min(os[w], c.start);
+    oe[w] = Math.max(oe[w], c.end);
   });
-  // forward push so words never overlap; total per-word offset = own shift + push
-  const push = new Array<number>(nWords).fill(0);
+  // new windows: shift moves the start, length extends the end; forward-cascade so
+  // a lengthened word pushes later ones and nothing overlaps.
+  const ns = new Array<number>(nWords).fill(NaN);
+  const ne = new Array<number>(nWords).fill(NaN);
   let floor = -Infinity;
   for (let w = 0; w < nWords; w++) {
-    if (!Number.isFinite(wStart[w])) continue;
-    push[w] = Math.max(0, floor - wStart[w]);
-    floor = wEnd[w] + push[w];
+    if (!Number.isFinite(os[w])) continue;
+    let s = os[w] + (shifts[w] ?? 0);
+    let e = oe[w] + (shifts[w] ?? 0) + (lengths[w] ?? 0);
+    if (s < floor) { const push = floor - s; s += push; e += push; } // no overlap
+    e = Math.max(e, s + WORD_MIN);
+    ns[w] = s; ne[w] = e; floor = e;
   }
+  // re-space each word's chars proportionally into its new window
   return chars.map((c, i) => {
     const w = wmap[i];
-    const total = w >= 0 ? (shifts[w] ?? 0) + push[w] : 0;
-    return total ? { start: c.start + total, end: c.end + total } : c;
+    if (w < 0 || Number.isNaN(ns[w])) return c;
+    const untouched = ns[w] === os[w] && ne[w] === oe[w];
+    if (untouched) return c;
+    const span = Math.max(1e-6, oe[w] - os[w]);
+    const remap = (x: number) => ns[w] + ((x - os[w]) / span) * (ne[w] - ns[w]);
+    return { start: remap(c.start), end: remap(c.end) };
   });
 };
 
