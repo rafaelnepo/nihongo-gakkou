@@ -851,7 +851,9 @@ const WordTimeline: React.FC<{
               title="drag to lengthen / shorten this sound"
               onMouseDown={(e) => startResize(e, sp)}
               onClick={(e) => e.stopPropagation()}
-            />
+            >
+              <div style={S.timelineGrip} />
+            </div>
           </div>
         );
       })}
@@ -1005,7 +1007,8 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   timelineRect: { position: "absolute", top: 3, bottom: 3, borderRadius: 4, display: "flex", alignItems: "center", justifyContent: "center", overflow: "hidden", boxSizing: "border-box", border: "1px solid rgba(0,0,0,0.06)" },
   timelineRectSel: { outline: "2px solid #e7481c", outlineOffset: -1, zIndex: 2 },
   timelineLabel: { fontFamily: "'Zen Maru Gothic', ui-sans-serif, system-ui", fontSize: 11, color: "#3a352c", whiteSpace: "nowrap", padding: "0 3px", pointerEvents: "none" },
-  timelineHandle: { position: "absolute", top: 0, right: 0, width: 11, height: "100%", cursor: "ew-resize", borderRight: "3px solid rgba(58,53,44,0.4)", boxSizing: "border-box", borderTopRightRadius: 4, borderBottomRightRadius: 4 },
+  timelineHandle: { position: "absolute", top: 0, right: 0, width: 12, height: "100%", cursor: "ew-resize", display: "flex", alignItems: "center", justifyContent: "flex-end", paddingRight: 2, boxSizing: "border-box" },
+  timelineGrip: { width: 2, height: "46%", borderRadius: 2, background: "rgba(58,53,44,0.3)", pointerEvents: "none" },
   timelineHint: { fontSize: 10.5, color: "#8c8578", marginTop: 6, fontFamily: "ui-monospace, monospace" },
   wordChip: { position: "relative", fontFamily: "'Zen Maru Gothic', ui-sans-serif, system-ui", fontSize: 15, padding: "3px 9px", borderRadius: 6, border: "1px solid #cbc1ac", background: "#fff", cursor: "pointer", color: "#41403a", lineHeight: 1.3 },
   wordChipSel: { borderColor: "#e7481c", boxShadow: "inset 0 0 0 1px #e7481c" },
