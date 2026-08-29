@@ -1,7 +1,8 @@
 {
   "id": "01-aiueo",
   "title": "あいうえお・ちいさな いちにち",
-  "jp": "あ行 ・ gojuon row 1",
+  "jp": "あ行 ・ gojuon row 1 ・ a little day",
+  "theme": "a little day",
   "strand": "learning",
   "status": "generated",
   "private": false,
@@ -20,7 +21,7 @@
   },
   "eyebrow": ["Sing It Twice", "Gojuon by words", "Row 1 · あ行"],
   "meta": ["City pop · female (house voice)", "~92 BPM", "Comprehensible input", "YouTube ~3:00 · vertical ~1:00"],
-  "blurb": "Row 1 of the gojuon, taught not as bare vowels but through small, high-frequency <strong>daily words in context</strong> — say the word, then hear it used. It reads as a tiny day: morning → home &amp; dog → the sea → an errand → a snack.",
+  "blurb": "Taught not as bare vowels but through small, high-frequency <strong>daily words in context</strong> — say the word, then hear it used. It reads as a tiny day: morning at home with the dog, then out to the sea, an errand at the station, and a snack to finish.",
   "concept": [
     "Words alone teach recognition, not production — and a list of same-onset words even <em>blends</em> together (findings F-10). So every target word is shown <strong>in a short sentence</strong>, and the words recombine across the song (いく is taught with いえ, then reused at the sea and the station).",
     "The five-kana row <em>あ い う え お</em> closes every verse as the sung-together refrain — where Suno's unison habit recruits the listener (F-07). The 3-minute cut reaches length by adding a <strong>day bridge</strong> and a <strong>review pass</strong>, not by looping (F-12)."
