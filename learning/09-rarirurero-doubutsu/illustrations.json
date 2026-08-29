@@ -2,7 +2,7 @@
   "song": "09-rarirurero-doubutsu",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/09-rarirurero-doubutsu",
+  "dest": "learning/09-rarirurero-doubutsu/il",
   "items": [
     {
       "w": "らくだ",
@@ -10,7 +10,7 @@
       "m": "camel",
       "s": "らくだ が あるく",
       "cue": "camel",
-      "src": null
+      "src": "animal_rakuyda.png"
     },
     {
       "w": "らいおん",
@@ -18,7 +18,7 @@
       "m": "lion",
       "s": "らいおん が いる",
       "cue": "lion",
-      "src": null
+      "src": "animal_lion.png"
     },
     {
       "w": "らっこ",
@@ -26,7 +26,7 @@
       "m": "sea otter",
       "s": "らっこ が およぐ",
       "cue": "sea otter",
-      "src": null
+      "src": "character_animal_rakko.png"
     },
     {
       "w": "りす",
@@ -34,7 +34,7 @@
       "m": "squirrel",
       "s": "りす が いる",
       "cue": "squirrel",
-      "src": null
+      "src": "animal_nihon_risu.png"
     },
     {
       "w": "りくがめ",
@@ -42,7 +42,7 @@
       "m": "tortoise",
       "s": "りくがめ は おそい",
       "cue": "tortoise",
-      "src": null
+      "src": "turtle_kame_zougame.png"
     },
     {
       "w": "りゅう",
@@ -50,7 +50,7 @@
       "m": "dragon",
       "s": "りゅう が とぶ",
       "cue": "dragon",
-      "src": null
+      "src": "fantasy_dragon.png"
     },
     {
       "w": "るりびたき",
@@ -58,7 +58,7 @@
       "m": "azure-winged bird",
       "s": "あおい るりびたき",
       "cue": "azure-winged bird",
-      "src": null
+      "src": "bird_aoitori_bluebird.png"
     },
     {
       "w": "るり",
@@ -66,7 +66,7 @@
       "m": "azure / lapis blue",
       "s": "るり いろ の はね",
       "cue": "azure / lapis blue",
-      "src": null
+      "src": "fabric_circle_blue.png"
     },
     {
       "w": "るーぺ",
@@ -74,7 +74,7 @@
       "m": "magnifier",
       "s": "るーぺ で みる",
       "cue": "magnifier",
-      "src": null
+      "src": "magnifier_mushimegane_blank.png"
     },
     {
       "w": "れっさーぱんだ",
@@ -82,7 +82,7 @@
       "m": "red panda",
       "s": "れっさーぱんだ が いる",
       "cue": "red panda",
-      "src": null
+      "src": "animal_lesser_panda_stand.png"
     },
     {
       "w": "れいちょう",
@@ -90,7 +90,7 @@
       "m": "ptarmigan",
       "s": "れいちょう が とぶ",
       "cue": "ptarmigan",
-      "src": null
+      "src": "bird_raichou.png"
     },
     {
       "w": "れいよう",
@@ -98,7 +98,7 @@
       "m": "antelope",
       "s": "れいよう が はしる",
       "cue": "antelope",
-      "src": null
+      "src": "animal_sable_antelope.png"
     },
     {
       "w": "ろば",
@@ -106,7 +106,7 @@
       "m": "donkey",
       "s": "ろば が あるく",
       "cue": "donkey",
-      "src": null
+      "src": "animal_roba.png"
     },
     {
       "w": "ろじ",
@@ -114,7 +114,7 @@
       "m": "alley",
       "s": "ろじ の ねこ",
       "cue": "alley",
-      "src": null
+      "src": "bg_outside_jutaku.png"
     },
     {
       "w": "ろうか",
@@ -122,7 +122,7 @@
       "m": "corridor",
       "s": "ろうか の いぬ",
       "cue": "corridor",
-      "src": null
+      "src": "bg_school_rouka.png"
     }
   ]
 }

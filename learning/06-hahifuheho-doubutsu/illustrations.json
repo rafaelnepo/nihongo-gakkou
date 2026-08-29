@@ -2,7 +2,7 @@
   "song": "06-hahifuheho-doubutsu",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/06-hahifuheho-doubutsu",
+  "dest": "learning/06-hahifuheho-doubutsu/il",
   "items": [
     {
       "w": "はち",
@@ -10,7 +10,7 @@
       "m": "bee",
       "s": "はち が とぶ",
       "cue": "bee",
-      "src": null
+      "src": "mitsubachi_new.png"
     },
     {
       "w": "はと",
@@ -18,7 +18,7 @@
       "m": "pigeon / dove",
       "s": "はと が あるく",
       "cue": "pigeon / dove",
-      "src": null
+      "src": "bird_hato.png"
     },
     {
       "w": "はりねずみ",
@@ -26,7 +26,7 @@
       "m": "hedgehog",
       "s": "はりねずみ が いる",
       "cue": "hedgehog",
-      "src": null
+      "src": "animal_harinezumi.png"
     },
     {
       "w": "ひつじ",
@@ -34,7 +34,7 @@
       "m": "sheep",
       "s": "しろい ひつじ",
       "cue": "sheep",
-      "src": null
+      "src": "animal_hitsuji.png"
     },
     {
       "w": "ひよこ",
@@ -42,7 +42,7 @@
       "m": "chick",
       "s": "ひよこ が なく",
       "cue": "chick",
-      "src": null
+      "src": "hiyoko.png"
     },
     {
       "w": "ひょう",
@@ -50,7 +50,7 @@
       "m": "leopard",
       "s": "ひょう が はしる",
       "cue": "leopard",
-      "src": null
+      "src": "animal_hyou_panther.png"
     },
     {
       "w": "ふくろう",
@@ -58,7 +58,7 @@
       "m": "owl",
       "s": "ふくろう が とぶ",
       "cue": "owl",
-      "src": null
+      "src": "animal_fukurou.png"
     },
     {
       "w": "ふぐ",
@@ -66,7 +66,7 @@
       "m": "pufferfish",
       "s": "ふぐ が およぐ",
       "cue": "pufferfish",
-      "src": null
+      "src": "fish_fugu.png"
     },
     {
       "w": "ふな",
@@ -74,7 +74,7 @@
       "m": "crucian carp",
       "s": "いけ の ふな",
       "cue": "crucian carp",
-      "src": null
+      "src": "fish_funa.png"
     },
     {
       "w": "へび",
@@ -82,7 +82,7 @@
       "m": "snake",
       "s": "へび が ながい",
       "cue": "snake",
-      "src": null
+      "src": "hebi_shiro.png"
     },
     {
       "w": "へい",
@@ -90,7 +90,7 @@
       "m": "fence",
       "s": "へい の ねこ",
       "cue": "fence",
-      "src": null
+      "src": "block_pattern.png"
     },
     {
       "w": "へや",
@@ -98,7 +98,7 @@
       "m": "room",
       "s": "へや の いぬ",
       "cue": "room",
-      "src": null
+      "src": "room_kodomobeya.png"
     },
     {
       "w": "ほたる",
@@ -106,7 +106,7 @@
       "m": "firefly",
       "s": "ほたる が ひかる",
       "cue": "firefly",
-      "src": null
+      "src": "mushi_hotaru.png"
     },
     {
       "w": "ほたて",
@@ -114,7 +114,7 @@
       "m": "scallop",
       "s": "うみ の ほたて",
       "cue": "scallop",
-      "src": null
+      "src": "kai_hotate.png"
     },
     {
       "w": "ほっきょくぐま",
@@ -122,7 +122,7 @@
       "m": "polar bear",
       "s": "ほっきょくぐま は しろい",
       "cue": "polar bear",
-      "src": null
+      "src": "animal_bear_hokkyoku.png"
     }
   ]
 }

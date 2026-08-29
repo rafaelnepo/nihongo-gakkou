@@ -2,7 +2,7 @@
   "song": "02-kakikukeko-doubutsu",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/02-kakikukeko-doubutsu",
+  "dest": "learning/02-kakikukeko-doubutsu/il",
   "items": [
     {
       "w": "かに",
@@ -10,7 +10,7 @@
       "m": "crab",
       "s": "かに が あるく",
       "cue": "crab",
-      "src": null
+      "src": "umi_kani.png"
     },
     {
       "w": "かえる",
@@ -18,7 +18,7 @@
       "m": "frog",
       "s": "かえる が いる",
       "cue": "frog",
-      "src": null
+      "src": "animal_kaeru.png"
     },
     {
       "w": "かめ",
@@ -26,7 +26,7 @@
       "m": "turtle",
       "s": "かめ は おそい",
       "cue": "turtle",
-      "src": null
+      "src": "animal_kusagame.png"
     },
     {
       "w": "きつね",
@@ -34,7 +34,7 @@
       "m": "fox",
       "s": "きつね を みる",
       "cue": "fox",
-      "src": null
+      "src": "animal_fox_kitsune.png"
     },
     {
       "w": "きんぎょ",
@@ -42,7 +42,7 @@
       "m": "goldfish",
       "s": "きんぎょ が およぐ",
       "cue": "goldfish",
-      "src": null
+      "src": "fish_kingyo2.png"
     },
     {
       "w": "きりん",
@@ -50,7 +50,7 @@
       "m": "giraffe",
       "s": "きりん は おおきい",
       "cue": "giraffe",
-      "src": null
+      "src": "animal_kirin.png"
     },
     {
       "w": "くま",
@@ -58,7 +58,7 @@
       "m": "bear",
       "s": "くま は つよい",
       "cue": "bear",
-      "src": null
+      "src": "animal_bear_higuma.png"
     },
     {
       "w": "くじら",
@@ -66,7 +66,7 @@
       "m": "whale",
       "s": "うみ に くじら",
       "cue": "whale",
-      "src": null
+      "src": "kujira.png"
     },
     {
       "w": "くらげ",
@@ -74,7 +74,7 @@
       "m": "jellyfish",
       "s": "くらげ が およぐ",
       "cue": "jellyfish",
-      "src": null
+      "src": "fish_jellyfish.png"
     },
     {
       "w": "けさ",
@@ -82,7 +82,7 @@
       "m": "this morning",
       "s": "けさ の さんぽ",
       "cue": "this morning",
-      "src": null
+      "src": "aisatsu1_ohayou.png"
     },
     {
       "w": "けむし",
@@ -90,7 +90,7 @@
       "m": "caterpillar",
       "s": "はっぱ に けむし",
       "cue": "caterpillar",
-      "src": null
+      "src": "mushi_kemushi.png"
     },
     {
       "w": "けいと",
@@ -98,7 +98,7 @@
       "m": "yarn",
       "s": "あかい けいと",
       "cue": "yarn",
-      "src": null
+      "src": "keitodama04_green.png"
     },
     {
       "w": "こねこ",
@@ -106,7 +106,7 @@
       "m": "kitten",
       "s": "こねこ が かわいい",
       "cue": "kitten",
-      "src": null
+      "src": "baby_cat.png"
     },
     {
       "w": "こいぬ",
@@ -114,7 +114,7 @@
       "m": "puppy",
       "s": "こいぬ と あそぶ",
       "cue": "puppy",
-      "src": null
+      "src": "inu_akachan.png"
     },
     {
       "w": "ことり",
@@ -122,7 +122,7 @@
       "m": "little bird",
       "s": "ことり が なく",
       "cue": "little bird",
-      "src": null
+      "src": "kotori.png"
     }
   ]
 }

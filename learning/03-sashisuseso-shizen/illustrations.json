@@ -2,7 +2,7 @@
   "song": "03-sashisuseso-shizen",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/03-sashisuseso-shizen",
+  "dest": "learning/03-sashisuseso-shizen/il",
   "items": [
     {
       "w": "さくら",
@@ -10,7 +10,7 @@
       "m": "cherry blossom",
       "s": "さくら の はな",
       "cue": "cherry blossom",
-      "src": null
+      "src": "sakura_hanabira.png"
     },
     {
       "w": "さか",
@@ -18,7 +18,7 @@
       "m": "slope / hill",
       "s": "ながい さか",
       "cue": "slope / hill",
-      "src": null
+      "src": "noborizaka_saka.png"
     },
     {
       "w": "さんぽ",
@@ -26,7 +26,7 @@
       "m": "a walk",
       "s": "やま の さんぽ",
       "cue": "a walk",
-      "src": null
+      "src": "walk_boy.png"
     },
     {
       "w": "しま",
@@ -34,7 +34,7 @@
       "m": "island",
       "s": "うみ の しま",
       "cue": "island",
-      "src": null
+      "src": "mujintou_kojima.png"
     },
     {
       "w": "しずく",
@@ -42,7 +42,7 @@
       "m": "droplet",
       "s": "あめ の しずく",
       "cue": "droplet",
-      "src": null
+      "src": "water_shizuku.png"
     },
     {
       "w": "しみず",
@@ -50,7 +50,7 @@
       "m": "spring water",
       "s": "つめたい しみず",
       "cue": "spring water",
-      "src": null
+      "src": "wakimizu.png"
     },
     {
       "w": "すな",
@@ -58,7 +58,7 @@
       "m": "sand",
       "s": "しろい すな",
       "cue": "sand",
-      "src": null
+      "src": "beach_sunayama.png"
     },
     {
       "w": "すみれ",
@@ -66,7 +66,7 @@
       "m": "violet",
       "s": "むらさきの すみれ",
       "cue": "violet",
-      "src": null
+      "src": "flower_sumire.png"
     },
     {
       "w": "すすき",
@@ -74,7 +74,7 @@
       "m": "pampas grass",
       "s": "あき の すすき",
       "cue": "pampas grass",
-      "src": null
+      "src": "susuki.png"
     },
     {
       "w": "せせらぎ",
@@ -82,7 +82,7 @@
       "m": "a babbling brook",
       "s": "やま の せせらぎ",
       "cue": "a babbling brook",
-      "src": null
+      "src": "kawa.png"
     },
     {
       "w": "せみ",
@@ -90,7 +90,7 @@
       "m": "cicada",
       "s": "なつ の せみ",
       "cue": "cicada",
-      "src": null
+      "src": "mushi_semi.png"
     },
     {
       "w": "せかい",
@@ -98,7 +98,7 @@
       "m": "the world",
       "s": "ひろい せかい",
       "cue": "the world",
-      "src": null
+      "src": "chikyuu.png"
     },
     {
       "w": "そら",
@@ -106,7 +106,7 @@
       "m": "sky",
       "s": "あおい そら",
       "cue": "sky",
-      "src": null
+      "src": "sora_yuuyake.png"
     },
     {
       "w": "そよかぜ",
@@ -114,7 +114,7 @@
       "m": "a gentle breeze",
       "s": "はる の そよかぜ",
       "cue": "a gentle breeze",
-      "src": null
+      "src": "nature_kaze.png"
     },
     {
       "w": "そこ",
@@ -122,7 +122,7 @@
       "m": "the depths / bottom",
       "s": "うみ の そこ",
       "cue": "the depths / bottom",
-      "src": null
+      "src": "shinkai.png"
     }
   ]
 }

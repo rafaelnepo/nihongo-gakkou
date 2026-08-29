@@ -2,7 +2,7 @@
   "song": "02-kakikukeko-shizen",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/02-kakikukeko-shizen",
+  "dest": "learning/02-kakikukeko-shizen/il",
   "items": [
     {
       "w": "かぜ",
@@ -10,7 +10,7 @@
       "m": "wind",
       "s": "かぜ が ふく",
       "cue": "wind",
-      "src": null
+      "src": "nature_kaze.png"
     },
     {
       "w": "かわ",
@@ -18,7 +18,7 @@
       "m": "river",
       "s": "かわ で あそぶ",
       "cue": "river",
-      "src": null
+      "src": "kawa.png"
     },
     {
       "w": "かい",
@@ -26,7 +26,7 @@
       "m": "seashell",
       "s": "うみ の かい",
       "cue": "seashell",
-      "src": null
+      "src": "kaigara.png"
     },
     {
       "w": "き",
@@ -34,7 +34,7 @@
       "m": "tree",
       "s": "おおきい き",
       "cue": "tree",
-      "src": null
+      "src": "tree_green.png"
     },
     {
       "w": "きいろ",
@@ -42,7 +42,7 @@
       "m": "yellow",
       "s": "きいろい はっぱ",
       "cue": "yellow",
-      "src": null
+      "src": "fashion_tsuugakubou_cap.png"
     },
     {
       "w": "きのこ",
@@ -50,7 +50,7 @@
       "m": "mushroom",
       "s": "もり の きのこ",
       "cue": "mushroom",
-      "src": null
+      "src": "kinoko.png"
     },
     {
       "w": "くも",
@@ -58,7 +58,7 @@
       "m": "cloud",
       "s": "そら に くも",
       "cue": "cloud",
-      "src": null
+      "src": "kumo.png"
     },
     {
       "w": "くさ",
@@ -66,7 +66,7 @@
       "m": "grass",
       "s": "みどりの くさ",
       "cue": "grass",
-      "src": null
+      "src": "kusa_simple1.png"
     },
     {
       "w": "くだもの",
@@ -74,7 +74,7 @@
       "m": "fruit",
       "s": "あまい くだもの",
       "cue": "fruit",
-      "src": null
+      "src": "cut_fruit_moriawase.png"
     },
     {
       "w": "けさ",
@@ -82,7 +82,7 @@
       "m": "this morning",
       "s": "けさ は はれ",
       "cue": "this morning",
-      "src": null
+      "src": "aisatsu1_ohayou.png"
     },
     {
       "w": "けしき",
@@ -90,7 +90,7 @@
       "m": "scenery",
       "s": "きれいな けしき",
       "cue": "scenery",
-      "src": null
+      "src": "yama_fukei.png"
     },
     {
       "w": "けむり",
@@ -98,7 +98,7 @@
       "m": "smoke",
       "s": "えんとつ の けむり",
       "cue": "smoke",
-      "src": null
+      "src": "smoke_white1.png"
     },
     {
       "w": "こおり",
@@ -106,7 +106,7 @@
       "m": "ice",
       "s": "つめたい こおり",
       "cue": "ice",
-      "src": null
+      "src": "koori_ice.png"
     },
     {
       "w": "こえ",
@@ -114,7 +114,7 @@
       "m": "voice",
       "s": "とり の こえ",
       "cue": "voice",
-      "src": null
+      "src": "kakuseiki_woman_angry.png"
     },
     {
       "w": "こうえん",
@@ -122,7 +122,7 @@
       "m": "park",
       "s": "こうえん を あるく",
       "cue": "park",
-      "src": null
+      "src": "suberidai.png"
     }
   ]
 }

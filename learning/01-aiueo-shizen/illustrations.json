@@ -2,7 +2,7 @@
   "song": "01-aiueo-shizen",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/01-aiueo-shizen",
+  "dest": "learning/01-aiueo-shizen/il",
   "items": [
     {
       "w": "あめ",
@@ -10,7 +10,7 @@
       "m": "rain",
       "s": "あめ が ふる",
       "cue": "rain",
-      "src": null
+      "src": "tenki_mark06_kurmoriame.png"
     },
     {
       "w": "あさひ",
@@ -18,7 +18,7 @@
       "m": "morning sun",
       "s": "あさひ が のぼる",
       "cue": "morning sun",
-      "src": null
+      "src": "hatsuhinode.png"
     },
     {
       "w": "あき",
@@ -26,7 +26,7 @@
       "m": "autumn",
       "s": "あき の はっぱ",
       "cue": "autumn",
-      "src": null
+      "src": "kouyou_momiji.png"
     },
     {
       "w": "いけ",
@@ -34,7 +34,7 @@
       "m": "pond",
       "s": "いけ の みず",
       "cue": "pond",
-      "src": null
+      "src": "ike.png"
     },
     {
       "w": "いし",
@@ -42,7 +42,7 @@
       "m": "stone",
       "s": "おおきい いし",
       "cue": "stone",
-      "src": null
+      "src": "nature_stone_ishi.png"
     },
     {
       "w": "いずみ",
@@ -50,7 +50,7 @@
       "m": "spring (water)",
       "s": "つめたい いずみ",
       "cue": "spring (water)",
-      "src": null
+      "src": "wakimizu.png"
     },
     {
       "w": "うみ",
@@ -58,7 +58,7 @@
       "m": "sea",
       "s": "あおい うみ",
       "cue": "sea",
-      "src": null
+      "src": "wave_nami2.png"
     },
     {
       "w": "うめ",
@@ -66,7 +66,7 @@
       "m": "plum blossom",
       "s": "うめ の はな",
       "cue": "plum blossom",
-      "src": null
+      "src": "flower_ume.png"
     },
     {
       "w": "うず",
@@ -74,7 +74,7 @@
       "m": "swirl / eddy",
       "s": "みず の うず",
       "cue": "swirl / eddy",
-      "src": null
+      "src": "landmark_oean_uzushio.png"
     },
     {
       "w": "えだ",
@@ -82,7 +82,7 @@
       "m": "branch",
       "s": "き の えだ",
       "cue": "branch",
-      "src": null
+      "src": "plant_eda1.png"
     },
     {
       "w": "え",
@@ -90,7 +90,7 @@
       "m": "cove / inlet",
       "s": "しずかな え",
       "cue": "cove / inlet",
-      "src": null
+      "src": "oekaki_girl.png"
     },
     {
       "w": "えのき",
@@ -98,7 +98,7 @@
       "m": "hackberry tree",
       "s": "おおきい えのき",
       "cue": "hackberry tree",
-      "src": null
+      "src": "tree_keyaki.png"
     },
     {
       "w": "おか",
@@ -106,7 +106,7 @@
       "m": "hill",
       "s": "みどりの おか",
       "cue": "hill",
-      "src": null
+      "src": "mountain_yama.png"
     },
     {
       "w": "おおぞら",
@@ -114,7 +114,7 @@
       "m": "the big sky",
       "s": "あおい おおぞら",
       "cue": "the big sky",
-      "src": null
+      "src": "sora_aozora.png"
     },
     {
       "w": "おちば",
@@ -122,7 +122,7 @@
       "m": "fallen leaves",
       "s": "あき の おちば",
       "cue": "fallen leaves",
-      "src": null
+      "src": "ochiba3.png"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "song": "08-yayuyo-asobi",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/08-yayuyo-asobi",
+  "dest": "learning/08-yayuyo-asobi/il",
   "items": [
     {
       "w": "やきゅう",
@@ -10,7 +10,7 @@
       "m": "baseball",
       "s": "やきゅう を する",
       "cue": "baseball",
-      "src": null
+      "src": "sport_baseball_set.png"
     },
     {
       "w": "やぎ",
@@ -18,7 +18,7 @@
       "m": "goat",
       "s": "やぎ が いる",
       "cue": "goat",
-      "src": null
+      "src": "animal_yagi.png"
     },
     {
       "w": "やたい",
@@ -26,7 +26,7 @@
       "m": "festival stall",
       "s": "まつり の やたい",
       "cue": "festival stall",
-      "src": null
+      "src": "omatsuri_yatai.png"
     },
     {
       "w": "ゆうえんち",
@@ -34,7 +34,7 @@
       "m": "amusement park",
       "s": "たのしい ゆうえんち",
       "cue": "amusement park",
-      "src": null
+      "src": "yuenchi.png"
     },
     {
       "w": "ゆきだるま",
@@ -42,7 +42,7 @@
       "m": "snowman",
       "s": "おおきい ゆきだるま",
       "cue": "snowman",
-      "src": null
+      "src": "snowman_yukidaruma_man.png"
     },
     {
       "w": "ゆびわ",
@@ -50,7 +50,7 @@
       "m": "ring",
       "s": "ひかる ゆびわ",
       "cue": "ring",
-      "src": null
+      "src": "yubiwa_diamond.png"
     },
     {
       "w": "よっと",
@@ -58,7 +58,7 @@
       "m": "yacht",
       "s": "うみ の よっと",
       "cue": "yacht",
-      "src": null
+      "src": "norimono_yacht.png"
     },
     {
       "w": "ようちえん",
@@ -66,7 +66,7 @@
       "m": "kindergarten",
       "s": "ようちえん へ いく",
       "cue": "kindergarten",
-      "src": null
+      "src": "youchien_tatemono.png"
     },
     {
       "w": "ようかん",
@@ -74,7 +74,7 @@
       "m": "yokan (sweet)",
       "s": "あまい ようかん",
       "cue": "yokan (sweet)",
-      "src": null
+      "src": "sweets_youkan.png"
     }
   ]
 }

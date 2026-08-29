@@ -2,7 +2,7 @@
   "song": "07-mamimumemo-shizen",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/07-mamimumemo-shizen",
+  "dest": "learning/07-mamimumemo-shizen/il",
   "items": [
     {
       "w": "まつ",
@@ -10,7 +10,7 @@
       "m": "pine tree",
       "s": "みどりの まつ",
       "cue": "pine tree",
-      "src": null
+      "src": "bonsai_matsu.png"
     },
     {
       "w": "まりも",
@@ -18,7 +18,7 @@
       "m": "marimo (algae ball)",
       "s": "みずうみ の まりも",
       "cue": "marimo (algae ball)",
-      "src": null
+      "src": "plant_marimo.png"
     },
     {
       "w": "まき",
@@ -26,7 +26,7 @@
       "m": "firewood",
       "s": "やま の まき",
       "cue": "firewood",
-      "src": null
+      "src": "nenryou_maki.png"
     },
     {
       "w": "みずうみ",
@@ -34,7 +34,7 @@
       "m": "lake",
       "s": "しずかな みずうみ",
       "cue": "lake",
-      "src": null
+      "src": "mizuumi.png"
     },
     {
       "w": "みず",
@@ -42,7 +42,7 @@
       "m": "water",
       "s": "つめたい みず",
       "cue": "water",
-      "src": null
+      "src": "amount_water_glass3.png"
     },
     {
       "w": "みなと",
@@ -50,7 +50,7 @@
       "m": "harbour",
       "s": "ふね の みなと",
       "cue": "harbour",
-      "src": null
+      "src": "hashi_sanbashi.png"
     },
     {
       "w": "むし",
@@ -58,7 +58,7 @@
       "m": "bug",
       "s": "はっぱ の むし",
       "cue": "bug",
-      "src": null
+      "src": "mushi_imomushi.png"
     },
     {
       "w": "むぎ",
@@ -66,7 +66,7 @@
       "m": "wheat",
       "s": "きいろい むぎ",
       "cue": "wheat",
-      "src": null
+      "src": "mugi.png"
     },
     {
       "w": "むら",
@@ -74,7 +74,7 @@
       "m": "village",
       "s": "やま の むら",
       "cue": "village",
-      "src": null
+      "src": "fukei_mura.png"
     },
     {
       "w": "め",
@@ -82,7 +82,7 @@
       "m": "bud / sprout (芽)",
       "s": "き の め",
       "cue": "bud / sprout (芽)",
-      "src": null
+      "src": "body_me.png"
     },
     {
       "w": "めばえ",
@@ -90,7 +90,7 @@
       "m": "sprouting",
       "s": "はる の めばえ",
       "cue": "sprouting",
-      "src": null
+      "src": "tane_hatsuga.png"
     },
     {
       "w": "めじろ",
@@ -98,7 +98,7 @@
       "m": "white-eye (bird)",
       "s": "えだ の めじろ",
       "cue": "white-eye (bird)",
-      "src": null
+      "src": "bird_mejiro.png"
     },
     {
       "w": "もり",
@@ -106,7 +106,7 @@
       "m": "forest",
       "s": "ふかい もり",
       "cue": "forest",
-      "src": null
+      "src": "mori.png"
     },
     {
       "w": "もみじ",
@@ -114,7 +114,7 @@
       "m": "maple leaves",
       "s": "あかい もみじ",
       "cue": "maple leaves",
-      "src": null
+      "src": "kouyou_momiji.png"
     },
     {
       "w": "もや",
@@ -122,7 +122,7 @@
       "m": "mist / haze",
       "s": "あさ の もや",
       "cue": "mist / haze",
-      "src": null
+      "src": "yama_kiri.png"
     }
   ]
 }

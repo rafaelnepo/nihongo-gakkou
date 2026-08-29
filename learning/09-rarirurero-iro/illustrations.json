@@ -2,7 +2,7 @@
   "song": "09-rarirurero-iro",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/09-rarirurero-iro",
+  "dest": "learning/09-rarirurero-iro/il",
   "items": [
     {
       "w": "らん",
@@ -10,7 +10,7 @@
       "m": "orchid",
       "s": "しろい らん",
       "cue": "orchid",
-      "src": null
+      "src": "flower_ran.png"
     },
     {
       "w": "らっぱずいせん",
@@ -18,7 +18,7 @@
       "m": "daffodil",
       "s": "きいろい らっぱずいせん",
       "cue": "daffodil",
-      "src": null
+      "src": "flower_suisen.png"
     },
     {
       "w": "らくよう",
@@ -26,7 +26,7 @@
       "m": "fallen leaves",
       "s": "あき の らくよう",
       "cue": "fallen leaves",
-      "src": null
+      "src": "ochiba1.png"
     },
     {
       "w": "りんどう",
@@ -34,7 +34,7 @@
       "m": "gentian (flower)",
       "s": "あおい りんどう",
       "cue": "gentian (flower)",
-      "src": null
+      "src": "flower_kikyou.png"
     },
     {
       "w": "りん",
@@ -42,7 +42,7 @@
       "m": "a little bell",
       "s": "ちいさい りん",
       "cue": "a little bell",
-      "src": null
+      "src": "omocha_suzu.png"
     },
     {
       "w": "りぼん",
@@ -50,7 +50,7 @@
       "m": "ribbon",
       "s": "あかい りぼん",
       "cue": "ribbon",
-      "src": null
+      "src": "fashion_ribbon1_red.png"
     },
     {
       "w": "るり",
@@ -58,7 +58,7 @@
       "m": "azure / lapis",
       "s": "るり の いし",
       "cue": "azure / lapis",
-      "src": null
+      "src": "kouseki5_blue.png"
     },
     {
       "w": "るびー",
@@ -66,7 +66,7 @@
       "m": "ruby",
       "s": "あかい るびー",
       "cue": "ruby",
-      "src": null
+      "src": "jewel07_ruby.png"
     },
     {
       "w": "るーぺ",
@@ -74,7 +74,7 @@
       "m": "loupe",
       "s": "るーぺ で みる",
       "cue": "loupe",
-      "src": null
+      "src": "magnifier_mushimegane_blank.png"
     },
     {
       "w": "れんげ",
@@ -82,7 +82,7 @@
       "m": "lotus flower",
       "s": "いけ の れんげ",
       "cue": "lotus flower",
-      "src": null
+      "src": "flower_hasu.png"
     },
     {
       "w": "れんこん",
@@ -90,7 +90,7 @@
       "m": "lotus root",
       "s": "しろい れんこん",
       "cue": "lotus root",
-      "src": null
+      "src": "vegetable_renkon.png"
     },
     {
       "w": "れーす",
@@ -98,7 +98,7 @@
       "m": "lace",
       "s": "しろい れーす",
       "cue": "lace",
-      "src": null
+      "src": "frame_lace_white.png"
     },
     {
       "w": "ろうそく",
@@ -106,7 +106,7 @@
       "m": "candle",
       "s": "ろうそく の ひ",
       "cue": "candle",
-      "src": null
+      "src": "rousoku.png"
     },
     {
       "w": "ろじ",
@@ -114,7 +114,7 @@
       "m": "alley",
       "s": "しずかな ろじ",
       "cue": "alley",
-      "src": null
+      "src": "bg_outside_jutaku.png"
     },
     {
       "w": "ろうか",
@@ -122,7 +122,7 @@
       "m": "corridor",
       "s": "ながい ろうか",
       "cue": "corridor",
-      "src": null
+      "src": "bg_school_rouka.png"
     }
   ]
 }

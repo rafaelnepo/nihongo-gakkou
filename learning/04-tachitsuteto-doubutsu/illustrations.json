@@ -2,7 +2,7 @@
   "song": "04-tachitsuteto-doubutsu",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/04-tachitsuteto-doubutsu",
+  "dest": "learning/04-tachitsuteto-doubutsu/il",
   "items": [
     {
       "w": "たぬき",
@@ -10,7 +10,7 @@
       "m": "raccoon dog",
       "s": "たぬき が いる",
       "cue": "raccoon dog",
-      "src": null
+      "src": "animal_tanuki.png"
     },
     {
       "w": "たこ",
@@ -18,7 +18,7 @@
       "m": "octopus",
       "s": "たこ が およぐ",
       "cue": "octopus",
-      "src": null
+      "src": "fish_tako_oyogu.png"
     },
     {
       "w": "たか",
@@ -26,7 +26,7 @@
       "m": "hawk",
       "s": "たか が とぶ",
       "cue": "hawk",
-      "src": null
+      "src": "animal_taka.png"
     },
     {
       "w": "ちょう",
@@ -34,7 +34,7 @@
       "m": "butterfly",
       "s": "ちょう が とぶ",
       "cue": "butterfly",
-      "src": null
+      "src": "mushi_agehachou.png"
     },
     {
       "w": "ちどり",
@@ -42,7 +42,7 @@
       "m": "plover",
       "s": "ちどり が あるく",
       "cue": "plover",
-      "src": null
+      "src": "hawaii_bird_munaguro_kolea2.png"
     },
     {
       "w": "ちんあなご",
@@ -50,7 +50,7 @@
       "m": "garden eel",
       "s": "すな の ちんあなご",
       "cue": "garden eel",
-      "src": null
+      "src": "nettaigyo_chinanago.png"
     },
     {
       "w": "つる",
@@ -58,7 +58,7 @@
       "m": "crane",
       "s": "つる が おどる",
       "cue": "crane",
-      "src": null
+      "src": "animal_tsuru.png"
     },
     {
       "w": "つばめ",
@@ -66,7 +66,7 @@
       "m": "swallow",
       "s": "つばめ の す",
       "cue": "swallow",
-      "src": null
+      "src": "bird_tsubame.png"
     },
     {
       "w": "つの",
@@ -74,7 +74,7 @@
       "m": "horn / antler",
       "s": "しか の つの",
       "cue": "horn / antler",
-      "src": null
+      "src": "animal_nihonjika_tsuno.png"
     },
     {
       "w": "てんとうむし",
@@ -82,7 +82,7 @@
       "m": "ladybug",
       "s": "はっぱ の てんとうむし",
       "cue": "ladybug",
-      "src": null
+      "src": "mushi_tentoumushi.png"
     },
     {
       "w": "てながざる",
@@ -90,7 +90,7 @@
       "m": "gibbon",
       "s": "てながざる が あそぶ",
       "cue": "gibbon",
-      "src": null
+      "src": "animal_tenagazaru.png"
     },
     {
       "w": "て",
@@ -98,7 +98,7 @@
       "m": "hand / paw",
       "s": "さる の て",
       "cue": "hand / paw",
-      "src": null
+      "src": "body_te.png"
     },
     {
       "w": "とり",
@@ -106,7 +106,7 @@
       "m": "bird",
       "s": "そら の とり",
       "cue": "bird",
-      "src": null
+      "src": "bird_kamome.png"
     },
     {
       "w": "とんぼ",
@@ -114,7 +114,7 @@
       "m": "dragonfly",
       "s": "とんぼ が とぶ",
       "cue": "dragonfly",
-      "src": null
+      "src": "mushi_akatonbo.png"
     },
     {
       "w": "とら",
@@ -122,7 +122,7 @@
       "m": "tiger",
       "s": "とら は つよい",
       "cue": "tiger",
-      "src": null
+      "src": "animal_tora.png"
     }
   ]
 }

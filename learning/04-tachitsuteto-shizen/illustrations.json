@@ -2,7 +2,7 @@
   "song": "04-tachitsuteto-shizen",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/04-tachitsuteto-shizen",
+  "dest": "learning/04-tachitsuteto-shizen/il",
   "items": [
     {
       "w": "たいよう",
@@ -10,7 +10,7 @@
       "m": "the sun",
       "s": "あかい たいよう",
       "cue": "the sun",
-      "src": null
+      "src": "sun_red1.png"
     },
     {
       "w": "たけ",
@@ -18,7 +18,7 @@
       "m": "bamboo",
       "s": "たかい たけ",
       "cue": "bamboo",
-      "src": null
+      "src": "take.png"
     },
     {
       "w": "たき",
@@ -26,7 +26,7 @@
       "m": "waterfall",
       "s": "やま の たき",
       "cue": "waterfall",
-      "src": null
+      "src": "kawa_taki.png"
     },
     {
       "w": "ちきゅう",
@@ -34,7 +34,7 @@
       "m": "the earth",
       "s": "あおい ちきゅう",
       "cue": "the earth",
-      "src": null
+      "src": "chikyuu.png"
     },
     {
       "w": "ちょう",
@@ -42,7 +42,7 @@
       "m": "butterfly",
       "s": "ちょう が とぶ",
       "cue": "butterfly",
-      "src": null
+      "src": "mushi_monshirochou.png"
     },
     {
       "w": "ちり",
@@ -50,7 +50,7 @@
       "m": "fallen petals / specks",
       "s": "はな の ちり",
       "cue": "fallen petals / specks",
-      "src": null
+      "src": "sakura_fubuki.png"
     },
     {
       "w": "つき",
@@ -58,7 +58,7 @@
       "m": "moon",
       "s": "よる の つき",
       "cue": "moon",
-      "src": null
+      "src": "moon_usagi_kage.png"
     },
     {
       "w": "つち",
@@ -66,7 +66,7 @@
       "m": "soil / earth",
       "s": "くろい つち",
       "cue": "soil / earth",
-      "src": null
+      "src": "gardening_fuyoudo.png"
     },
     {
       "w": "つゆ",
@@ -74,7 +74,7 @@
       "m": "dew",
       "s": "はな の つゆ",
       "cue": "dew",
-      "src": null
+      "src": "water_shizuku.png"
     },
     {
       "w": "てんき",
@@ -82,7 +82,7 @@
       "m": "weather",
       "s": "いい てんき",
       "cue": "weather",
-      "src": null
+      "src": "mark_tenki_hare.png"
     },
     {
       "w": "てんとうむし",
@@ -90,7 +90,7 @@
       "m": "ladybug",
       "s": "はっぱ の てんとうむし",
       "cue": "ladybug",
-      "src": null
+      "src": "bug_mark12_tentoumushi.png"
     },
     {
       "w": "てら",
@@ -98,7 +98,7 @@
       "m": "temple",
       "s": "やま の てら",
       "cue": "temple",
-      "src": null
+      "src": "tatemono_otera.png"
     },
     {
       "w": "とり",
@@ -106,7 +106,7 @@
       "m": "bird",
       "s": "そら の とり",
       "cue": "bird",
-      "src": null
+      "src": "bird_kamome.png"
     },
     {
       "w": "とんぼ",
@@ -114,7 +114,7 @@
       "m": "dragonfly",
       "s": "あかい とんぼ",
       "cue": "dragonfly",
-      "src": null
+      "src": "mushi_akatonbo.png"
     },
     {
       "w": "とげ",
@@ -122,7 +122,7 @@
       "m": "thorn",
       "s": "ばら の とげ",
       "cue": "thorn",
-      "src": null
+      "src": "flower_rose.png"
     }
   ]
 }

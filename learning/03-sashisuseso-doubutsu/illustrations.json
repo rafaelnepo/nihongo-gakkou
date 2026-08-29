@@ -2,7 +2,7 @@
   "song": "03-sashisuseso-doubutsu",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/03-sashisuseso-doubutsu",
+  "dest": "learning/03-sashisuseso-doubutsu/il",
   "items": [
     {
       "w": "さる",
@@ -10,7 +10,7 @@
       "m": "monkey",
       "s": "さる が あそぶ",
       "cue": "monkey",
-      "src": null
+      "src": "animal_nihonzaru.png"
     },
     {
       "w": "さい",
@@ -18,7 +18,7 @@
       "m": "rhinoceros",
       "s": "さい は おおきい",
       "cue": "rhinoceros",
-      "src": null
+      "src": "animal_sai.png"
     },
     {
       "w": "さかな",
@@ -26,7 +26,7 @@
       "m": "fish",
       "s": "さかな が およぐ",
       "cue": "fish",
-      "src": null
+      "src": "fish_saba2.png"
     },
     {
       "w": "しか",
@@ -34,7 +34,7 @@
       "m": "deer",
       "s": "しか が いる",
       "cue": "deer",
-      "src": null
+      "src": "animal_deer.png"
     },
     {
       "w": "しまうま",
@@ -42,7 +42,7 @@
       "m": "zebra",
       "s": "しまうま が はしる",
       "cue": "zebra",
-      "src": null
+      "src": "animal_shimauma.png"
     },
     {
       "w": "しろくま",
@@ -50,7 +50,7 @@
       "m": "polar bear",
       "s": "しろくま は しろい",
       "cue": "polar bear",
-      "src": null
+      "src": "animal_shirokuma.png"
     },
     {
       "w": "すずめ",
@@ -58,7 +58,7 @@
       "m": "sparrow",
       "s": "すずめ が とぶ",
       "cue": "sparrow",
-      "src": null
+      "src": "bird_suzume.png"
     },
     {
       "w": "すずむし",
@@ -66,7 +66,7 @@
       "m": "bell cricket",
       "s": "すずむし が なく",
       "cue": "bell cricket",
-      "src": null
+      "src": "suzumushi.png"
     },
     {
       "w": "す",
@@ -74,7 +74,7 @@
       "m": "nest",
       "s": "とり の す",
       "cue": "nest",
-      "src": null
+      "src": "cooking_osu.png"
     },
     {
       "w": "せみ",
@@ -82,7 +82,7 @@
       "m": "cicada",
       "s": "せみ が なく",
       "cue": "cicada",
-      "src": null
+      "src": "mushi_semi.png"
     },
     {
       "w": "せいうち",
@@ -90,7 +90,7 @@
       "m": "walrus",
       "s": "せいうち が およぐ",
       "cue": "walrus",
-      "src": null
+      "src": "animal_seiuchi.png"
     },
     {
       "w": "せなか",
@@ -98,7 +98,7 @@
       "m": "back (of the body)",
       "s": "くま の せなか",
       "cue": "back (of the body)",
-      "src": null
+      "src": "body_woman_back.png"
     },
     {
       "w": "そら",
@@ -106,7 +106,7 @@
       "m": "sky",
       "s": "そら の とり",
       "cue": "sky",
-      "src": null
+      "src": "sora_yuuyake.png"
     },
     {
       "w": "そこ",
@@ -114,7 +114,7 @@
       "m": "the depths / bottom",
       "s": "うみ の そこ",
       "cue": "the depths / bottom",
-      "src": null
+      "src": "shinkai.png"
     },
     {
       "w": "そと",
@@ -122,7 +122,7 @@
       "m": "outside",
       "s": "そと の いぬ",
       "cue": "outside",
-      "src": null
+      "src": "inugoya_dog.png"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "song": "05-naninuneno-shizen",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/05-naninuneno-shizen",
+  "dest": "learning/05-naninuneno-shizen/il",
   "items": [
     {
       "w": "なつ",
@@ -10,7 +10,7 @@
       "m": "summer",
       "s": "あつい なつ",
       "cue": "summer",
-      "src": null
+      "src": "summer_taiyou.png"
     },
     {
       "w": "なみ",
@@ -18,7 +18,7 @@
       "m": "wave",
       "s": "うみ の なみ",
       "cue": "wave",
-      "src": null
+      "src": "wave_nami2.png"
     },
     {
       "w": "なのはな",
@@ -26,7 +26,7 @@
       "m": "canola flower",
       "s": "きいろい なのはな",
       "cue": "canola flower",
-      "src": null
+      "src": "flower_nanohana.png"
     },
     {
       "w": "にじ",
@@ -34,7 +34,7 @@
       "m": "rainbow",
       "s": "そら の にじ",
       "cue": "rainbow",
-      "src": null
+      "src": "niji.png"
     },
     {
       "w": "にわ",
@@ -42,7 +42,7 @@
       "m": "garden",
       "s": "はな の にわ",
       "cue": "garden",
-      "src": null
+      "src": "gardening.png"
     },
     {
       "w": "にっこう",
@@ -50,7 +50,7 @@
       "m": "sunlight",
       "s": "あさ の にっこう",
       "cue": "sunlight",
-      "src": null
+      "src": "hatsuhinode.png"
     },
     {
       "w": "ぬま",
@@ -58,7 +58,7 @@
       "m": "marsh / pond",
       "s": "しずかな ぬま",
       "cue": "marsh / pond",
-      "src": null
+      "src": "ike_numa.png"
     },
     {
       "w": "ぬかるみ",
@@ -66,7 +66,7 @@
       "m": "mud",
       "s": "あめ の ぬかるみ",
       "cue": "mud",
-      "src": null
+      "src": "mizutamari_blue.png"
     },
     {
       "w": "ぬくもり",
@@ -74,7 +74,7 @@
       "m": "warmth",
       "s": "たいよう の ぬくもり",
       "cue": "warmth",
-      "src": null
+      "src": "moufu.png"
     },
     {
       "w": "ねっこ",
@@ -82,7 +82,7 @@
       "m": "roots",
       "s": "き の ねっこ",
       "cue": "roots",
-      "src": null
+      "src": "tree_root_green.png"
     },
     {
       "w": "ねこやなぎ",
@@ -90,7 +90,7 @@
       "m": "pussy willow",
       "s": "はる の ねこやなぎ",
       "cue": "pussy willow",
-      "src": null
+      "src": "plant_nekojarashi.png"
     },
     {
       "w": "ねぐら",
@@ -98,7 +98,7 @@
       "m": "roost",
       "s": "とり の ねぐら",
       "cue": "roost",
-      "src": null
+      "src": "torinosu_hina.png"
     },
     {
       "w": "のはら",
@@ -106,7 +106,7 @@
       "m": "field",
       "s": "ひろい のはら",
       "cue": "field",
-      "src": null
+      "src": "bg_natural_sougen.png"
     },
     {
       "w": "のぎく",
@@ -114,7 +114,7 @@
       "m": "wild daisy",
       "s": "しろい のぎく",
       "cue": "wild daisy",
-      "src": null
+      "src": "flower_marguerite.png"
     },
     {
       "w": "のやま",
@@ -122,7 +122,7 @@
       "m": "hills & fields",
       "s": "とおい のやま",
       "cue": "hills & fields",
-      "src": null
+      "src": "mountain_yama.png"
     }
   ]
 }

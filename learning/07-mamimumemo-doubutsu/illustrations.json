@@ -2,7 +2,7 @@
   "song": "07-mamimumemo-doubutsu",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/07-mamimumemo-doubutsu",
+  "dest": "learning/07-mamimumemo-doubutsu/il",
   "items": [
     {
       "w": "まぐろ",
@@ -10,7 +10,7 @@
       "m": "tuna",
       "s": "まぐろ が およぐ",
       "cue": "tuna",
-      "src": null
+      "src": "fish_maguro.png"
     },
     {
       "w": "まんぼう",
@@ -18,7 +18,7 @@
       "m": "ocean sunfish",
       "s": "まんぼう は まるい",
       "cue": "ocean sunfish",
-      "src": null
+      "src": "fish_mola2.png"
     },
     {
       "w": "まがも",
@@ -26,7 +26,7 @@
       "m": "mallard duck",
       "s": "まがも が とぶ",
       "cue": "mallard duck",
-      "src": null
+      "src": "bird_magamo.png"
     },
     {
       "w": "みつばち",
@@ -34,7 +34,7 @@
       "m": "honeybee",
       "s": "みつばち が とぶ",
       "cue": "honeybee",
-      "src": null
+      "src": "mushi_mitsubachi.png"
     },
     {
       "w": "みみずく",
@@ -42,7 +42,7 @@
       "m": "horned owl",
       "s": "みみずく が いる",
       "cue": "horned owl",
-      "src": null
+      "src": "animal_mimizuku.png"
     },
     {
       "w": "みのむし",
@@ -50,7 +50,7 @@
       "m": "bagworm",
       "s": "えだ の みのむし",
       "cue": "bagworm",
-      "src": null
+      "src": "mushi_minomushi.png"
     },
     {
       "w": "むし",
@@ -58,7 +58,7 @@
       "m": "bug",
       "s": "ちいさい むし",
       "cue": "bug",
-      "src": null
+      "src": "mushi_imomushi.png"
     },
     {
       "w": "むかで",
@@ -66,7 +66,7 @@
       "m": "centipede",
       "s": "むかで が あるく",
       "cue": "centipede",
-      "src": null
+      "src": "bug_mukade.png"
     },
     {
       "w": "むささび",
@@ -74,7 +74,7 @@
       "m": "flying squirrel",
       "s": "むささび が とぶ",
       "cue": "flying squirrel",
-      "src": null
+      "src": "animal_musasabi.png"
     },
     {
       "w": "めだか",
@@ -82,7 +82,7 @@
       "m": "killifish",
       "s": "めだか が およぐ",
       "cue": "killifish",
-      "src": null
+      "src": "fish_medaka_character.png"
     },
     {
       "w": "めじろ",
@@ -90,7 +90,7 @@
       "m": "white-eye (bird)",
       "s": "めじろ が なく",
       "cue": "white-eye (bird)",
-      "src": null
+      "src": "bird_mejiro.png"
     },
     {
       "w": "めうし",
@@ -98,7 +98,7 @@
       "m": "cow",
       "s": "しろい めうし",
       "cue": "cow",
-      "src": null
+      "src": "ushi_nyugyu_milk.png"
     },
     {
       "w": "もぐら",
@@ -106,7 +106,7 @@
       "m": "mole",
       "s": "もぐら が いる",
       "cue": "mole",
-      "src": null
+      "src": "animal_mogura.png"
     },
     {
       "w": "もず",
@@ -114,7 +114,7 @@
       "m": "shrike (bird)",
       "s": "もず が なく",
       "cue": "shrike (bird)",
-      "src": null
+      "src": "bird_mozu.png"
     },
     {
       "w": "もんしろちょう",
@@ -122,7 +122,7 @@
       "m": "cabbage white butterfly",
       "s": "もんしろちょう が とぶ",
       "cue": "cabbage white butterfly",
-      "src": null
+      "src": "mushi_monshirochou.png"
     }
   ]
 }

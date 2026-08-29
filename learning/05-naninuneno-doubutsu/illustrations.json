@@ -2,7 +2,7 @@
   "song": "05-naninuneno-doubutsu",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/05-naninuneno-doubutsu",
+  "dest": "learning/05-naninuneno-doubutsu/il",
   "items": [
     {
       "w": "なまず",
@@ -10,7 +10,7 @@
       "m": "catfish",
       "s": "なまず が およぐ",
       "cue": "catfish",
-      "src": null
+      "src": "fish_namazu.png"
     },
     {
       "w": "なまけもの",
@@ -18,7 +18,7 @@
       "m": "sloth",
       "s": "なまけもの が ねる",
       "cue": "sloth",
-      "src": null
+      "src": "animal_namakemono.png"
     },
     {
       "w": "なめくじ",
@@ -26,7 +26,7 @@
       "m": "slug",
       "s": "はっぱ の なめくじ",
       "cue": "slug",
-      "src": null
+      "src": "bug_namekuji.png"
     },
     {
       "w": "にわとり",
@@ -34,7 +34,7 @@
       "m": "chicken",
       "s": "にわとり が なく",
       "cue": "chicken",
-      "src": null
+      "src": "bird_niwatori_brown.png"
     },
     {
       "w": "にほんざる",
@@ -42,7 +42,7 @@
       "m": "Japanese macaque",
       "s": "にほんざる が いる",
       "cue": "Japanese macaque",
-      "src": null
+      "src": "animal_nihonzaru.png"
     },
     {
       "w": "にしきへび",
@@ -50,7 +50,7 @@
       "m": "python",
       "s": "にしきへび は ながい",
       "cue": "python",
-      "src": null
+      "src": "animal_nishikihebi.png"
     },
     {
       "w": "ぬいぐるみ",
@@ -58,7 +58,7 @@
       "m": "stuffed animal",
       "s": "くまの ぬいぐるみ",
       "cue": "stuffed animal",
-      "src": null
+      "src": "nuigurumi_bear.png"
     },
     {
       "w": "ぬま",
@@ -66,7 +66,7 @@
       "m": "pond / marsh",
       "s": "ぬま の かえる",
       "cue": "pond / marsh",
-      "src": null
+      "src": "ike_numa.png"
     },
     {
       "w": "ぬの",
@@ -74,7 +74,7 @@
       "m": "cloth",
       "s": "ふわふわの ぬの",
       "cue": "cloth",
-      "src": null
+      "src": "nuno.png"
     },
     {
       "w": "ねこ",
@@ -82,7 +82,7 @@
       "m": "cat",
       "s": "ねこ が ねる",
       "cue": "cat",
-      "src": null
+      "src": "pet_cat_sit.png"
     },
     {
       "w": "ねずみ",
@@ -90,7 +90,7 @@
       "m": "mouse",
       "s": "ねずみ が はしる",
       "cue": "mouse",
-      "src": null
+      "src": "animal_stand_nezumi.png"
     },
     {
       "w": "ねぐら",
@@ -98,7 +98,7 @@
       "m": "roost / den",
       "s": "とり の ねぐら",
       "cue": "roost / den",
-      "src": null
+      "src": "torinosu_hina.png"
     },
     {
       "w": "のねずみ",
@@ -106,7 +106,7 @@
       "m": "field mouse",
       "s": "のねずみ が いる",
       "cue": "field mouse",
-      "src": null
+      "src": "animal_kayanezumi_natural.png"
     },
     {
       "w": "のうさぎ",
@@ -114,7 +114,7 @@
       "m": "hare",
       "s": "のうさぎ が はねる",
       "cue": "hare",
-      "src": null
+      "src": "animal_usagi_nihon_nousagi.png"
     },
     {
       "w": "のらねこ",
@@ -122,7 +122,7 @@
       "m": "stray cat",
       "s": "のらねこ が あるく",
       "cue": "stray cat",
-      "src": null
+      "src": "pet_suteneko.png"
     }
   ]
 }

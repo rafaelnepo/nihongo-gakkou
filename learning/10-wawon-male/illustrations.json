@@ -2,7 +2,7 @@
   "song": "10-wawon-male",
   "note": "Word -> Irasutoya illustration map. Fill each `src` with a catalog filename (picker page or manual search), then `node tools/illustrations/apply.mjs` / `fetch.mjs`. Sources live in ../../Irasutoya/images/<src>; art is copied into video/public (git-ignored) and credited to いらすとや in the description.",
   "srcRoot": "../../Irasutoya/images",
-  "dest": "video/public/il/10-wawon-male",
+  "dest": "learning/10-wawon-male/il",
   "items": [
     {
       "w": "わに",
@@ -10,7 +10,7 @@
       "m": "crocodile",
       "s": "わに が いる",
       "cue": "crocodile",
-      "src": null
+      "src": "animal_wani_crocodile.png"
     },
     {
       "w": "わし",
@@ -18,7 +18,7 @@
       "m": "eagle",
       "s": "おおきい わし",
       "cue": "eagle",
-      "src": null
+      "src": "animal_washi.png"
     },
     {
       "w": "わかめ",
@@ -26,7 +26,7 @@
       "m": "wakame seaweed",
       "s": "わかめ を たべる",
       "cue": "wakame seaweed",
-      "src": null
+      "src": "kaisou_wakame.png"
     },
     {
       "w": "わた",
@@ -34,7 +34,7 @@
       "m": "cotton",
       "s": "ふわふわ の わた",
       "cue": "cotton",
-      "src": null
+      "src": "saihou_men_wata.png"
     },
     {
       "w": "わふく",
@@ -42,7 +42,7 @@
       "m": "kimono (wafuku)",
       "s": "わふく を きる",
       "cue": "kimono (wafuku)",
-      "src": null
+      "src": "fashion_wafuku_woman.png"
     },
     {
       "w": "わっか",
@@ -50,7 +50,7 @@
       "m": "a hoop / ring",
       "s": "ちいさい わっか",
       "cue": "a hoop / ring",
-      "src": null
+      "src": "wagomu.png"
     },
     {
       "w": "りんご",
@@ -58,7 +58,7 @@
       "m": "apple",
       "s": "りんご を たべる",
       "cue": "apple",
-      "src": null
+      "src": "fruit_apple.png"
     },
     {
       "w": "うた",
@@ -66,7 +66,7 @@
       "m": "a song",
       "s": "うた を うたう",
       "cue": "a song",
-      "src": null
+      "src": "gassyou_onpu.png"
     },
     {
       "w": "え",
@@ -74,7 +74,7 @@
       "m": "a picture",
       "s": "え を かく",
       "cue": "a picture",
-      "src": null
+      "src": "oekaki_girl.png"
     },
     {
       "w": "ぱん",
@@ -82,7 +82,7 @@
       "m": "bread",
       "s": "おいしい ぱん",
       "cue": "bread",
-      "src": null
+      "src": "bread_syokupan.png"
     },
     {
       "w": "みかん",
@@ -90,7 +90,7 @@
       "m": "mandarin",
       "s": "あまい みかん",
       "cue": "mandarin",
-      "src": null
+      "src": "fruit_orange.png"
     },
     {
       "w": "きりん",
@@ -98,7 +98,7 @@
       "m": "giraffe",
       "s": "おおきい きりん",
       "cue": "giraffe",
-      "src": null
+      "src": "animal_kirin.png"
     }
   ]
 }
