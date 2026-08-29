@@ -4,13 +4,23 @@ import { Player, type PlayerRef } from "@remotion/player";
 import { LearningVideo } from "../src/LearningVideo";
 import { learningDurationInFrames } from "../src/types";
 import type { LearningTiming } from "../src/types";
-import { LEARNING_IDS } from "../src/songs/learning-registry";
+import { LEARNING_IDS, LEARNING_SONGS } from "../src/songs/learning-registry";
 
-// Which song to nudge: ?song=<id> in the URL, else the first registered song.
-const SONG_ID =
+// Which song to nudge on first load: ?song=<id> in the URL, else the first
+// registered song. After that the song is React state (switch without reload).
+const INITIAL_SONG =
   new URLSearchParams(window.location.search).get("song") ||
   LEARNING_IDS[0] ||
   "01-aiueo";
+
+// Friendly dropdown labels from each song's timing header, e.g.
+// "Row 1 · あいうえお — ちいさな いちにち".
+const SONG_OPTIONS = LEARNING_SONGS.map(({ id, timing }) => {
+  const n = parseInt(String(timing.trackNo ?? ""), 10);
+  const row = timing.row ? ` · ${timing.row}` : "";
+  const name = timing.trackName ? ` — ${timing.trackName}` : "";
+  return { id, label: `Row ${Number.isFinite(n) ? n : "?"}${row}${name}` };
+});
 const STEPS = [0.02, 0.05, 0.1, 0.2]; // seconds per arrow tap
 const PANE_PAD = 30; // left/right inset — title, video and shortcuts all start here
 
@@ -135,6 +145,11 @@ const wordSpans = (line: Line, win: { s: number; e: number }): WordSpan[] => {
 };
 
 const App: React.FC = () => {
+  const [songId, setSongId] = useState(INITIAL_SONG);
+  const songIdRef = useRef(songId); // for callbacks that must not re-create on switch
+  useEffect(() => {
+    songIdRef.current = songId;
+  }, [songId]);
   const [timing, setTiming] = useState<LearningTiming | null>(null);
   const [err, setErr] = useState<string | null>(null);
   const [vertical, setVertical] = useState(false);
@@ -190,13 +205,28 @@ const App: React.FC = () => {
     document.body.style.userSelect = "none";
   };
 
-  // ---- load -----------------------------------------------------------------
+  // ---- switch song (no page reload) — update the URL + swap the state --------
+  const switchSong = useCallback((id: string) => {
+    if (!id || id === songIdRef.current) return;
+    const url = new URL(window.location.href);
+    url.searchParams.set("song", id);
+    window.history.replaceState(null, "", url);
+    setSongId(id);
+  }, []);
+
+  // ---- load (re-runs when the song changes) ---------------------------------
   useEffect(() => {
-    fetch(`/api/timing?id=${SONG_ID}`)
+    setTiming(null);
+    setErr(null);
+    setFrame(0);
+    setPlaying(false);
+    setSelected(null);
+    setSave("idle");
+    fetch(`/api/timing?id=${songId}`)
       .then((r) => (r.ok ? r.json() : r.json().then((j) => Promise.reject(j.error))))
       .then((j) => setTiming(j as LearningTiming))
       .catch((e) => setErr(String(e)));
-  }, []);
+  }, [songId]);
 
   // ---- track the playhead to highlight the active line ----------------------
   useEffect(() => {
@@ -229,8 +259,9 @@ const App: React.FC = () => {
   const persist = useCallback((next: LearningTiming) => {
     setSave("saving");
     if (saveTimer.current) clearTimeout(saveTimer.current);
+    const forId = songIdRef.current; // pin the target so a mid-save switch is safe
     saveTimer.current = setTimeout(() => {
-      fetch(`/api/timing?id=${SONG_ID}`, {
+      fetch(`/api/timing?id=${forId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(next),
@@ -437,20 +468,21 @@ const App: React.FC = () => {
     [timing]
   );
   const inputProps = useMemo(
-    () => (timing ? { songId: SONG_ID, timingOverride: timing } : { songId: SONG_ID }),
-    [timing]
+    () => (timing ? { songId, timingOverride: timing } : { songId }),
+    [timing, songId]
   );
   // cascaded windows for display / highlight (same math the player renders)
   const windows = useMemo(() => (timing ? bakeWindows(timing.lines) : []), [timing]);
 
   if (err) return <div style={S.center}>Failed to load timing: {err}</div>;
-  if (!timing) return <div style={S.center}>Loading {SONG_ID}…</div>;
+  if (!timing) return <div style={S.center}>Loading {songId}…</div>;
 
   const compW = vertical ? 1080 : 1920;
   const compH = vertical ? 1920 : 1080;
   const previewW = Math.min(1100, leftW - 2 * PANE_PAD); // follows the pane width (drag)
 
   const activeIdx = windows.reduce((acc, w, k) => (nowT >= w.s ? k : acc), -1);
+  const songIdx = LEARNING_IDS.indexOf(songId);
 
   return (
     <div style={S.app}>
@@ -458,21 +490,37 @@ const App: React.FC = () => {
         <div style={{ fontWeight: 800, fontSize: 15, display: "flex", alignItems: "center", gap: 6 }}>
           Iconotes Nudger <span style={{ color: "#cbc1ac" }}>·</span>
           {LEARNING_IDS.length > 1 ? (
-            <select
-              value={SONG_ID}
-              onChange={(e) => {
-                window.location.search = `?song=${e.target.value}`;
-              }}
-              style={{ ...S.select, color: "#e7481c", fontWeight: 800 }}
-            >
-              {LEARNING_IDS.map((id) => (
-                <option key={id} value={id}>
-                  {id}
-                </option>
-              ))}
-            </select>
+            <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+              <button
+                style={{ ...S.navBtn, opacity: songIdx <= 0 ? 0.35 : 1 }}
+                title="previous song"
+                disabled={songIdx <= 0}
+                onClick={() => switchSong(LEARNING_IDS[songIdx - 1])}
+              >
+                ‹
+              </button>
+              <select
+                value={songId}
+                onChange={(e) => switchSong(e.target.value)}
+                style={{ ...S.select, color: "#e7481c", fontWeight: 800 }}
+              >
+                {SONG_OPTIONS.map((o) => (
+                  <option key={o.id} value={o.id}>
+                    {o.label}
+                  </option>
+                ))}
+              </select>
+              <button
+                style={{ ...S.navBtn, opacity: songIdx >= LEARNING_IDS.length - 1 ? 0.35 : 1 }}
+                title="next song"
+                disabled={songIdx >= LEARNING_IDS.length - 1}
+                onClick={() => switchSong(LEARNING_IDS[songIdx + 1])}
+              >
+                ›
+              </button>
+            </div>
           ) : (
-            <span style={{ color: "#e7481c" }}>{SONG_ID}</span>
+            <span style={{ color: "#e7481c" }}>{songId}</span>
           )}
         </div>
         <div style={S.spacer} />
@@ -497,6 +545,7 @@ const App: React.FC = () => {
         <div style={{ ...S.left, width: leftW }}>
           <div style={{ width: previewW, maxWidth: "100%" }}>
             <Player
+              key={songId}
               ref={playerRef}
               component={LearningVideo as React.ComponentType<Record<string, unknown>>}
               inputProps={inputProps}
@@ -822,6 +871,7 @@ const S: Record<string, React.CSSProperties> & { saveBadge: Record<string, React
   control: { display: "flex", alignItems: "center", gap: 6, fontSize: 13, color: "#6f685c" },
   select: { fontSize: 13, padding: "2px 4px", borderRadius: 5, border: "1px solid #cbc1ac", background: "#fff" },
   toggle: { fontSize: 13, padding: "4px 10px", borderRadius: 6, border: "1px solid #cbc1ac", background: "#fff", cursor: "pointer", color: "#3a352c" },
+  navBtn: { fontSize: 15, lineHeight: 1, padding: "2px 9px", borderRadius: 5, border: "1px solid #cbc1ac", background: "#fff", cursor: "pointer", color: "#e7481c", fontWeight: 800 },
   badge: { fontSize: 12, padding: "3px 8px", borderRadius: 20, fontVariant: "small-caps", minWidth: 52, textAlign: "center" },
   saveBadge: {
     idle: { background: "#e9e1cf", color: "#8c8578" },
