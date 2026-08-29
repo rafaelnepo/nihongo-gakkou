@@ -55,4 +55,5 @@ Previous: [YYYY-MM-DD](./YYYY-MM-DD.md)
 ```
 
 ## Index
+- [2026-08-29](./2026-08-29.md) — 10 city-pop videos shipped (art + tuned timing); dashboard + nudge tool overhauled; tail-illustration fix; offline fonts. **Next: row 4 timing.**
 - [2026-08-27](./2026-08-27.md) — genesis: songs → Remotion engine → split out to its own repo, published.
