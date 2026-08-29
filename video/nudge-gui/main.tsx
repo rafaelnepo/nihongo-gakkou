@@ -40,8 +40,10 @@ const bakeWindows = (lines: LearningTiming["lines"]) => {
   let floor = -Infinity;
   return lines.map((l) => {
     const d = l.delay ?? 0;
-    const s = Math.max(l.start + d + (l.startShift ?? 0), floor);
-    const e = Math.max(l.end + d + (l.endShift ?? 0), s + 1e-3);
+    const ws = l.start + d + (l.startShift ?? 0);
+    const we = l.end + d + (l.endShift ?? 0);
+    const s = Math.max(ws, floor);
+    const e = s + Math.max(we - ws, 1e-3); // pushed lines slide, keeping duration
     floor = e;
     return { s, e };
   });

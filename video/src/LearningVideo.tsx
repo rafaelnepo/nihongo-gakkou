@@ -63,11 +63,14 @@ const bakeLines = (raw: LearningLine[]): LearningLine[] => {
     const d = l.delay ?? 0;
     return { s: l.start + d + (l.startShift ?? 0), e: l.end + d + (l.endShift ?? 0) };
   });
-  // 2) forward cascade: start >= previous end; keep the window from inverting
+  // 2) forward cascade: a line never starts before the previous one ends, and
+  //    when it IS pushed it slides forward keeping its own duration (rather than
+  //    collapsing to a sliver) — so extending one line's end pushes the whole
+  //    tail forward, contiguous and non-overlapping.
   let floor = -Infinity;
   const finals = wins.map((w) => {
     const s = Math.max(w.s, floor);
-    const e = Math.max(w.e, s + 1e-3);
+    const e = s + Math.max(w.e - w.s, 1e-3);
     floor = e;
     return { s, e };
   });
