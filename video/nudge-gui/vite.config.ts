@@ -63,5 +63,12 @@ export default defineConfig({
     port: 3010,
     // Allow importing the template from ../src and its deps in the parent tree.
     fs: { allow: [resolve(__dirname, "..", "..")] },
+    // A nudge saves the timing JSON via the API above, and those files are
+    // statically imported by the registry — so Vite would force a full page
+    // reload on every single adjustment. Ignore the timing dir in the watcher:
+    // the app reads live timing from /api/timing and updates in place, so it
+    // never needs an HMR reload when a nudge is saved. (Vite merges this with
+    // its own node_modules/.git ignores.)
+    watch: { ignored: [`${TIMING_DIR}/**`] },
   },
 });
