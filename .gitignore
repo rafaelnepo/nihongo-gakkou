@@ -38,3 +38,6 @@ learning/*/build/
 
 # keep the public/ folder in the repo (audio itself stays ignored)
 !video/public/.gitkeep
+# vendored render font (Zen Maru Gothic) — tracked so renders are offline-safe
+!video/public/fonts/
+!video/public/fonts/**

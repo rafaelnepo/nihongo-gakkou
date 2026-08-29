@@ -10,18 +10,11 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { loadFont } from "@remotion/google-fonts/ZenMaruGothic";
 import { fitText } from "@remotion/layout-utils";
 import { useAudioData, visualizeAudio, type AudioData } from "@remotion/media-utils";
 import type { CharTime, LearningLine, LearningTiming } from "./types";
 import { getLearningTiming } from "./songs/learning-registry";
-
-const font = loadFont("normal", {
-  weights: ["500", "700", "900"],
-  subsets: ["japanese", "latin"],
-  ignoreTooManyRequestsWarning: true,
-});
-const fontFamily = font.fontFamily;
+import { fontFamily, fontsReady } from "./fonts";
 
 // The learning video's fixed warm-cream world (matches the approved storyboard).
 const P = {
@@ -468,8 +461,7 @@ export const LearningVideo: React.FC<{ songId: string; timingOverride?: Learning
   const [fontReady, setFontReady] = useState(false);
   const [handle] = useState(() => delayRender("load-font"));
   useEffect(() => {
-    font
-      .waitUntilDone()
+    fontsReady
       .then(() => {
         setFontReady(true);
         continueRender(handle);

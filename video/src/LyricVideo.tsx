@@ -9,20 +9,14 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { loadFont } from "@remotion/google-fonts/ZenMaruGothic";
 import { measureText } from "@remotion/layout-utils";
 import { NightSky } from "./NightSky";
 import { PALETTES, type Palette } from "./palettes";
 import type { VideoProps } from "./schema";
 import { getTiming } from "./songs/registry";
 import type { CharTime, LyricLine } from "./types";
+import { fontFamily, fontsReady } from "./fonts";
 
-const font = loadFont("normal", {
-  weights: ["500", "700"],
-  subsets: ["japanese", "latin"],
-  ignoreTooManyRequestsWarning: true,
-});
-const fontFamily = font.fontFamily;
 const WEIGHT = 700;
 
 // Fade a value in over `rise`s after start, out over `fall`s before end.
@@ -202,8 +196,7 @@ export const LyricVideo: React.FC<VideoProps> = ({
   const [fontReady, setFontReady] = useState(false);
   const [handle] = useState(() => delayRender("load-font"));
   useEffect(() => {
-    font
-      .waitUntilDone()
+    fontsReady
       .then(() => {
         setFontReady(true);
         continueRender(handle);
