@@ -90,7 +90,7 @@ label.chk{font-family:var(--f-mono);font-size:11px;letter-spacing:.05em;color:va
 .pill.over{border-color:var(--shu);color:var(--shu-ink)}
 .song .sactions{margin-left:auto;display:flex;gap:8px}
 .grid{padding:8px 18px 18px}
-.row{display:grid;grid-template-columns:150px 1fr;gap:14px;align-items:center;padding:11px 0;border-top:1px solid var(--rule-soft)}
+.row{display:grid;grid-template-columns:80px 150px minmax(0,1fr);gap:14px;align-items:center;padding:11px 0;border-top:1px solid var(--rule-soft)}
 .row:first-child{border-top:none}
 .wk{display:flex;flex-direction:column;gap:3px}
 .wk .kana-line{display:flex;align-items:center;gap:8px}
@@ -124,13 +124,14 @@ footer{margin-top:28px;padding-top:22px;border-top:1px solid var(--rule);font-fa
 .toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%) translateY(20px);background:var(--ok);color:#04140d;
   font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;padding:10px 18px;border-radius:5px;opacity:0;pointer-events:none;transition:.22s}
 .toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-@media(max-width:640px){.row{grid-template-columns:1fr}}`;
+@media(max-width:640px){.row{grid-template-columns:80px 1fr}.prev{grid-row:span 2}}`;
 
 function songBlock(s) {
   const rows = s.items.map((it) => {
     const val = esc(it.src || "");
     const setCls = it.src ? " set" : "";
     return `<div class="row" data-r="${esc(it.r)}">
+      <a class="prev" target="_blank" rel="noopener" title="open the full image in a new tab"><img alt=""></a>
       <div class="wk">
         <div class="kana-line"><span class="kana">${esc(it.w)}</span><button class="cw" data-w="${esc(it.w)}" title="copy ${esc(it.w)} to search">copy</button></div>
         <span class="rm">${esc(it.r)}.png</span>
@@ -142,7 +143,6 @@ function songBlock(s) {
           <input type="text" spellcheck="false" autocapitalize="off" autocomplete="off"
                  placeholder="paste Irasutoya filename, e.g. animal_wani.png"
                  data-id="${esc(s.id)}" data-r="${esc(it.r)}" value="${val}">
-          <a class="prev" target="_blank" rel="noopener" title="open the full image in a new tab"><img alt=""></a>
         </div>
       </div>
     </div>`;
@@ -209,7 +209,7 @@ function lsSet(k,v){try{v?localStorage.setItem(k,v):localStorage.removeItem(k)}c
 
 // Live preview: try the remote thumb, then the local catalog, then mark ?.
 function updatePreview(inp){
-  const a=inp.parentElement.querySelector('.prev');if(!a)return;
+  const a=inp.closest('.row').querySelector('.prev');if(!a)return;
   const img=a.querySelector('img');const v=inp.value.trim();
   a.classList.remove('ok','err');
   if(!v){a.removeAttribute('href');img.removeAttribute('src');img._stage=undefined;return}
