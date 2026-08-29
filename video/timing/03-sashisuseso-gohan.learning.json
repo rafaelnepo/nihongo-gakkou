@@ -1,0 +1,2620 @@
+{
+  "song": "03-sashisuseso-gohan",
+  "title": "さしすせそ・ごはん の じかん",
+  "trackName": "ごはん の じかん",
+  "trackNo": "03",
+  "row": "さしすせそ",
+  "channel": "iconotes",
+  "style": "City Pop",
+  "bpm": 92,
+  "ilBase": "03-sashisuseso-gohan/il",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "03-sashisuseso-gohan/audio.wav",
+  "countInSeconds": 1.1,
+  "tailSeconds": 1.5,
+  "durationSeconds": 159.67,
+  "placeholder": false,
+  "lines": [
+    {
+      "text": "さ し す せ そ",
+      "start": 0.45,
+      "end": 3.21,
+      "section": "intro",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 0.6,
+          "end": 0.89
+        },
+        {
+          "start": 0.89,
+          "end": 1.18
+        },
+        {
+          "start": 1.18,
+          "end": 1.5
+        },
+        {
+          "start": 1.5,
+          "end": 1.82
+        },
+        {
+          "start": 1.82,
+          "end": 2.14
+        },
+        {
+          "start": 2.14,
+          "end": 2.46
+        },
+        {
+          "start": 2.46,
+          "end": 2.7
+        },
+        {
+          "start": 2.7,
+          "end": 2.94
+        },
+        {
+          "start": 2.94,
+          "end": 3.21
+        }
+      ]
+    },
+    {
+      "text": "さいふ",
+      "start": 3.23,
+      "end": 8.44,
+      "section": "verse",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "target": "saifu",
+      "chars": [
+        {
+          "start": 3.26,
+          "end": 6.44
+        },
+        {
+          "start": 6.44,
+          "end": 7.24
+        },
+        {
+          "start": 7.24,
+          "end": 8.44
+        }
+      ]
+    },
+    {
+      "text": "さいふ を もつ",
+      "start": 10.271,
+      "end": 14.381,
+      "section": "verse",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "target": "saifu",
+      "chars": [
+        {
+          "start": 10.421,
+          "end": 11.961
+        },
+        {
+          "start": 11.961,
+          "end": 12.081
+        },
+        {
+          "start": 12.081,
+          "end": 12.191
+        },
+        {
+          "start": 12.191,
+          "end": 12.301
+        },
+        {
+          "start": 12.301,
+          "end": 12.481
+        },
+        {
+          "start": 12.481,
+          "end": 12.861
+        },
+        {
+          "start": 12.861,
+          "end": 13.181
+        },
+        {
+          "start": 13.181,
+          "end": 14.381
+        }
+      ]
+    },
+    {
+      "text": "さかな",
+      "start": 14.551,
+      "end": 16.191,
+      "section": "verse",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "target": "sakana",
+      "chars": [
+        {
+          "start": 14.701,
+          "end": 14.921
+        },
+        {
+          "start": 14.921,
+          "end": 15.181
+        },
+        {
+          "start": 15.181,
+          "end": 16.191
+        }
+      ]
+    },
+    {
+      "text": "さかな を かう",
+      "start": 16.211,
+      "end": 19.551,
+      "section": "verse",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "target": "sakana",
+      "chars": [
+        {
+          "start": 16.241,
+          "end": 16.541
+        },
+        {
+          "start": 16.541,
+          "end": 16.861
+        },
+        {
+          "start": 16.861,
+          "end": 17.121
+        },
+        {
+          "start": 17.121,
+          "end": 17.381
+        },
+        {
+          "start": 17.381,
+          "end": 18.341
+        },
+        {
+          "start": 18.341,
+          "end": 19.301
+        },
+        {
+          "start": 19.301,
+          "end": 19.441
+        },
+        {
+          "start": 19.441,
+          "end": 19.551
+        }
+      ]
+    },
+    {
+      "text": "さとう",
+      "start": 19.571,
+      "end": 21.091,
+      "section": "verse",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "target": "satou",
+      "chars": [
+        {
+          "start": 19.601,
+          "end": 19.801
+        },
+        {
+          "start": 19.801,
+          "end": 20.221
+        },
+        {
+          "start": 20.221,
+          "end": 21.091
+        }
+      ]
+    },
+    {
+      "text": "さとう は あまい",
+      "start": 21.111,
+      "end": 25.052,
+      "section": "verse",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "target": "satou",
+      "chars": [
+        {
+          "start": 21.141,
+          "end": 21.441
+        },
+        {
+          "start": 21.441,
+          "end": 21.881
+        },
+        {
+          "start": 21.881,
+          "end": 21.991
+        },
+        {
+          "start": 21.991,
+          "end": 22.101
+        },
+        {
+          "start": 22.101,
+          "end": 22.211
+        },
+        {
+          "start": 22.211,
+          "end": 22.321
+        },
+        {
+          "start": 22.321,
+          "end": 23.461
+        },
+        {
+          "start": 23.461,
+          "end": 23.901
+        },
+        {
+          "start": 23.901,
+          "end": 25.052
+        }
+      ]
+    },
+    {
+      "text": "さ し す せ そ",
+      "start": 25.072,
+      "end": 27.652,
+      "section": "refrain",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 25.102,
+          "end": 25.392
+        },
+        {
+          "start": 25.392,
+          "end": 25.682
+        },
+        {
+          "start": 25.682,
+          "end": 25.992
+        },
+        {
+          "start": 25.992,
+          "end": 26.302
+        },
+        {
+          "start": 26.302,
+          "end": 26.632
+        },
+        {
+          "start": 26.632,
+          "end": 26.962
+        },
+        {
+          "start": 26.962,
+          "end": 27.202
+        },
+        {
+          "start": 27.202,
+          "end": 27.442
+        },
+        {
+          "start": 27.442,
+          "end": 27.652
+        }
+      ]
+    },
+    {
+      "text": "しお",
+      "start": 27.672,
+      "end": 29.912,
+      "section": "verse",
+      "illos": [
+        "shio",
+        "shiru",
+        "shimeji"
+      ],
+      "target": "shio",
+      "chars": [
+        {
+          "start": 27.702,
+          "end": 29.802
+        },
+        {
+          "start": 29.802,
+          "end": 29.912
+        }
+      ]
+    },
+    {
+      "text": "しお を いれる",
+      "start": 29.932,
+      "end": 32.972,
+      "section": "verse",
+      "illos": [
+        "shio",
+        "shiru",
+        "shimeji"
+      ],
+      "target": "shio",
+      "chars": [
+        {
+          "start": 29.962,
+          "end": 30.542
+        },
+        {
+          "start": 30.542,
+          "end": 31.042
+        },
+        {
+          "start": 31.042,
+          "end": 31.542
+        },
+        {
+          "start": 31.542,
+          "end": 31.692
+        },
+        {
+          "start": 31.692,
+          "end": 31.842
+        },
+        {
+          "start": 31.842,
+          "end": 32.062
+        },
+        {
+          "start": 32.062,
+          "end": 32.362
+        },
+        {
+          "start": 32.362,
+          "end": 32.972
+        }
+      ]
+    },
+    {
+      "text": "しる",
+      "start": 32.992,
+      "end": 33.512,
+      "section": "verse",
+      "illos": [
+        "shio",
+        "shiru",
+        "shimeji"
+      ],
+      "target": "shiru",
+      "chars": [
+        {
+          "start": 33.022,
+          "end": 33.282
+        },
+        {
+          "start": 33.282,
+          "end": 33.512
+        }
+      ]
+    },
+    {
+      "text": "あつい しる",
+      "start": 33.532,
+      "end": 35.312,
+      "section": "verse",
+      "illos": [
+        "shio",
+        "shiru",
+        "shimeji"
+      ],
+      "target": "shiru",
+      "chars": [
+        {
+          "start": 33.562,
+          "end": 33.882
+        },
+        {
+          "start": 33.882,
+          "end": 34.242
+        },
+        {
+          "start": 34.242,
+          "end": 34.352
+        },
+        {
+          "start": 34.352,
+          "end": 34.462
+        },
+        {
+          "start": 34.462,
+          "end": 34.802
+        },
+        {
+          "start": 34.802,
+          "end": 35.312
+        }
+      ]
+    },
+    {
+      "text": "しめじ",
+      "start": 35.332,
+      "end": 35.932,
+      "section": "verse",
+      "illos": [
+        "shio",
+        "shiru",
+        "shimeji"
+      ],
+      "target": "shimeji",
+      "chars": [
+        {
+          "start": 35.362,
+          "end": 35.522
+        },
+        {
+          "start": 35.522,
+          "end": 35.722
+        },
+        {
+          "start": 35.722,
+          "end": 35.932
+        }
+      ]
+    },
+    {
+      "text": "しめじ を たべる",
+      "start": 35.952,
+      "end": 39.442,
+      "section": "verse",
+      "illos": [
+        "shio",
+        "shiru",
+        "shimeji"
+      ],
+      "target": "shimeji",
+      "chars": [
+        {
+          "start": 35.982,
+          "end": 36.442
+        },
+        {
+          "start": 36.442,
+          "end": 36.722
+        },
+        {
+          "start": 36.722,
+          "end": 36.832
+        },
+        {
+          "start": 36.832,
+          "end": 36.942
+        },
+        {
+          "start": 36.942,
+          "end": 37.052
+        },
+        {
+          "start": 37.052,
+          "end": 37.362
+        },
+        {
+          "start": 37.362,
+          "end": 37.982
+        },
+        {
+          "start": 37.982,
+          "end": 38.242
+        },
+        {
+          "start": 38.242,
+          "end": 39.442
+        }
+      ]
+    },
+    {
+      "text": "さ し す せ そ",
+      "start": 39.652,
+      "end": 42.093,
+      "section": "refrain",
+      "illos": [
+        "shio",
+        "shiru",
+        "shimeji"
+      ],
+      "chars": [
+        {
+          "start": 39.802,
+          "end": 40.057
+        },
+        {
+          "start": 40.057,
+          "end": 40.311
+        },
+        {
+          "start": 40.311,
+          "end": 40.566
+        },
+        {
+          "start": 40.566,
+          "end": 40.82
+        },
+        {
+          "start": 40.82,
+          "end": 41.075
+        },
+        {
+          "start": 41.075,
+          "end": 41.329
+        },
+        {
+          "start": 41.329,
+          "end": 41.584
+        },
+        {
+          "start": 41.584,
+          "end": 41.838
+        },
+        {
+          "start": 41.838,
+          "end": 42.093
+        }
+      ]
+    },
+    {
+      "text": "すし",
+      "start": 42.113,
+      "end": 45.433,
+      "section": "verse",
+      "illos": [
+        "sushi",
+        "suika",
+        "su"
+      ],
+      "target": "sushi",
+      "chars": [
+        {
+          "start": 42.143,
+          "end": 44.963
+        },
+        {
+          "start": 44.963,
+          "end": 45.433
+        }
+      ]
+    },
+    {
+      "text": "おいしい すし",
+      "start": 45.453,
+      "end": 47.393,
+      "section": "verse",
+      "illos": [
+        "sushi",
+        "suika",
+        "su"
+      ],
+      "target": "sushi",
+      "chars": [
+        {
+          "start": 45.483,
+          "end": 45.623
+        },
+        {
+          "start": 45.623,
+          "end": 45.763
+        },
+        {
+          "start": 45.763,
+          "end": 46.543
+        },
+        {
+          "start": 46.543,
+          "end": 46.693
+        },
+        {
+          "start": 46.693,
+          "end": 46.843
+        },
+        {
+          "start": 46.843,
+          "end": 47.023
+        },
+        {
+          "start": 47.023,
+          "end": 47.393
+        }
+      ]
+    },
+    {
+      "text": "すいか",
+      "start": 47.413,
+      "end": 47.873,
+      "section": "verse",
+      "illos": [
+        "sushi",
+        "suika",
+        "su"
+      ],
+      "target": "suika",
+      "chars": [
+        {
+          "start": 47.443,
+          "end": 47.623
+        },
+        {
+          "start": 47.623,
+          "end": 47.763
+        },
+        {
+          "start": 47.763,
+          "end": 47.873
+        }
+      ]
+    },
+    {
+      "text": "あまい すいか",
+      "start": 47.893,
+      "end": 49.553,
+      "section": "verse",
+      "illos": [
+        "sushi",
+        "suika",
+        "su"
+      ],
+      "target": "suika",
+      "chars": [
+        {
+          "start": 47.923,
+          "end": 48.263
+        },
+        {
+          "start": 48.263,
+          "end": 48.683
+        },
+        {
+          "start": 48.683,
+          "end": 48.793
+        },
+        {
+          "start": 48.793,
+          "end": 48.903
+        },
+        {
+          "start": 48.903,
+          "end": 49.163
+        },
+        {
+          "start": 49.163,
+          "end": 49.303
+        },
+        {
+          "start": 49.303,
+          "end": 49.553
+        }
+      ]
+    },
+    {
+      "text": "す",
+      "start": 49.573,
+      "end": 50.173,
+      "section": "verse",
+      "illos": [
+        "sushi",
+        "suika",
+        "su"
+      ],
+      "target": "su",
+      "chars": [
+        {
+          "start": 49.603,
+          "end": 50.173
+        }
+      ]
+    },
+    {
+      "text": "す は すっぱい",
+      "start": 50.193,
+      "end": 52.013,
+      "section": "verse",
+      "illos": [
+        "sushi",
+        "suika",
+        "su"
+      ],
+      "target": "su",
+      "chars": [
+        {
+          "start": 50.223,
+          "end": 50.473
+        },
+        {
+          "start": 50.473,
+          "end": 50.723
+        },
+        {
+          "start": 50.723,
+          "end": 50.833
+        },
+        {
+          "start": 50.833,
+          "end": 50.943
+        },
+        {
+          "start": 50.943,
+          "end": 51.053
+        },
+        {
+          "start": 51.053,
+          "end": 51.323
+        },
+        {
+          "start": 51.323,
+          "end": 51.763
+        },
+        {
+          "start": 51.763,
+          "end": 52.013
+        }
+      ]
+    },
+    {
+      "text": "さ し す せ そ",
+      "start": 52.033,
+      "end": 54.673,
+      "section": "refrain",
+      "illos": [
+        "sushi",
+        "suika",
+        "su"
+      ],
+      "chars": [
+        {
+          "start": 52.063,
+          "end": 52.343
+        },
+        {
+          "start": 52.343,
+          "end": 52.623
+        },
+        {
+          "start": 52.623,
+          "end": 52.953
+        },
+        {
+          "start": 52.953,
+          "end": 53.283
+        },
+        {
+          "start": 53.283,
+          "end": 53.593
+        },
+        {
+          "start": 53.593,
+          "end": 53.903
+        },
+        {
+          "start": 53.903,
+          "end": 54.143
+        },
+        {
+          "start": 54.143,
+          "end": 54.383
+        },
+        {
+          "start": 54.383,
+          "end": 54.673
+        }
+      ]
+    },
+    {
+      "text": "せんべい",
+      "start": 54.693,
+      "end": 56.914,
+      "section": "verse",
+      "illos": [
+        "senbei",
+        "seki",
+        "sekken"
+      ],
+      "target": "senbei",
+      "chars": [
+        {
+          "start": 54.723,
+          "end": 56.524
+        },
+        {
+          "start": 56.524,
+          "end": 56.634
+        },
+        {
+          "start": 56.634,
+          "end": 56.744
+        },
+        {
+          "start": 56.744,
+          "end": 56.914
+        }
+      ]
+    },
+    {
+      "text": "せんべい を たべる",
+      "start": 56.934,
+      "end": 59.954,
+      "section": "verse",
+      "illos": [
+        "senbei",
+        "seki",
+        "sekken"
+      ],
+      "target": "senbei",
+      "chars": [
+        {
+          "start": 56.964,
+          "end": 57.264
+        },
+        {
+          "start": 57.264,
+          "end": 57.374
+        },
+        {
+          "start": 57.374,
+          "end": 57.484
+        },
+        {
+          "start": 57.484,
+          "end": 57.594
+        },
+        {
+          "start": 57.594,
+          "end": 57.744
+        },
+        {
+          "start": 57.744,
+          "end": 57.904
+        },
+        {
+          "start": 57.904,
+          "end": 58.064
+        },
+        {
+          "start": 58.064,
+          "end": 59.004
+        },
+        {
+          "start": 59.004,
+          "end": 59.304
+        },
+        {
+          "start": 59.304,
+          "end": 59.954
+        }
+      ]
+    },
+    {
+      "text": "せき",
+      "start": 59.974,
+      "end": 60.454,
+      "section": "verse",
+      "illos": [
+        "senbei",
+        "seki",
+        "sekken"
+      ],
+      "target": "seki",
+      "chars": [
+        {
+          "start": 60.004,
+          "end": 60.224
+        },
+        {
+          "start": 60.224,
+          "end": 60.454
+        }
+      ]
+    },
+    {
+      "text": "せき に すわる",
+      "start": 60.474,
+      "end": 62.114,
+      "section": "verse",
+      "illos": [
+        "senbei",
+        "seki",
+        "sekken"
+      ],
+      "target": "seki",
+      "chars": [
+        {
+          "start": 60.504,
+          "end": 60.804
+        },
+        {
+          "start": 60.804,
+          "end": 60.914
+        },
+        {
+          "start": 60.914,
+          "end": 61.024
+        },
+        {
+          "start": 61.024,
+          "end": 61.134
+        },
+        {
+          "start": 61.134,
+          "end": 61.244
+        },
+        {
+          "start": 61.244,
+          "end": 61.444
+        },
+        {
+          "start": 61.444,
+          "end": 61.744
+        },
+        {
+          "start": 61.744,
+          "end": 62.114
+        }
+      ]
+    },
+    {
+      "text": "せっけん",
+      "start": 62.134,
+      "end": 62.894,
+      "section": "verse",
+      "illos": [
+        "senbei",
+        "seki",
+        "sekken"
+      ],
+      "target": "sekken",
+      "chars": [
+        {
+          "start": 62.164,
+          "end": 62.364
+        },
+        {
+          "start": 62.364,
+          "end": 62.474
+        },
+        {
+          "start": 62.474,
+          "end": 62.644
+        },
+        {
+          "start": 62.644,
+          "end": 62.894
+        }
+      ]
+    },
+    {
+      "text": "せっけん で あらう",
+      "start": 62.914,
+      "end": 66.564,
+      "section": "verse",
+      "illos": [
+        "senbei",
+        "seki",
+        "sekken"
+      ],
+      "target": "sekken",
+      "chars": [
+        {
+          "start": 62.944,
+          "end": 63.184
+        },
+        {
+          "start": 63.184,
+          "end": 63.294
+        },
+        {
+          "start": 63.294,
+          "end": 63.904
+        },
+        {
+          "start": 63.904,
+          "end": 64.014
+        },
+        {
+          "start": 64.014,
+          "end": 64.124
+        },
+        {
+          "start": 64.124,
+          "end": 64.234
+        },
+        {
+          "start": 64.234,
+          "end": 64.344
+        },
+        {
+          "start": 64.344,
+          "end": 65.084
+        },
+        {
+          "start": 65.084,
+          "end": 65.364
+        },
+        {
+          "start": 65.364,
+          "end": 66.564
+        }
+      ]
+    },
+    {
+      "text": "さ し す せ そ",
+      "start": 68.434,
+      "end": 69.034,
+      "section": "refrain",
+      "illos": [
+        "senbei",
+        "seki",
+        "sekken"
+      ],
+      "chars": [
+        {
+          "start": 68.584,
+          "end": 68.634
+        },
+        {
+          "start": 68.634,
+          "end": 68.684
+        },
+        {
+          "start": 68.684,
+          "end": 68.734
+        },
+        {
+          "start": 68.734,
+          "end": 68.784
+        },
+        {
+          "start": 68.784,
+          "end": 68.834
+        },
+        {
+          "start": 68.834,
+          "end": 68.884
+        },
+        {
+          "start": 68.884,
+          "end": 68.934
+        },
+        {
+          "start": 68.934,
+          "end": 68.984
+        },
+        {
+          "start": 68.984,
+          "end": 69.034
+        }
+      ]
+    },
+    {
+      "text": "そば",
+      "start": 69.054,
+      "end": 71.174,
+      "section": "verse",
+      "illos": [
+        "soba",
+        "sobo",
+        "sora"
+      ],
+      "target": "soba",
+      "chars": [
+        {
+          "start": 69.084,
+          "end": 70.584
+        },
+        {
+          "start": 70.584,
+          "end": 71.174
+        }
+      ]
+    },
+    {
+      "text": "あたたかい そば",
+      "start": 71.194,
+      "end": 74.355,
+      "section": "verse",
+      "illos": [
+        "soba",
+        "sobo",
+        "sora"
+      ],
+      "target": "soba",
+      "chars": [
+        {
+          "start": 71.224,
+          "end": 71.524
+        },
+        {
+          "start": 71.524,
+          "end": 72.545
+        },
+        {
+          "start": 72.545,
+          "end": 72.885
+        },
+        {
+          "start": 72.885,
+          "end": 73.125
+        },
+        {
+          "start": 73.125,
+          "end": 73.245
+        },
+        {
+          "start": 73.245,
+          "end": 73.365
+        },
+        {
+          "start": 73.365,
+          "end": 74.105
+        },
+        {
+          "start": 74.105,
+          "end": 74.355
+        }
+      ]
+    },
+    {
+      "text": "そぼ",
+      "start": 74.375,
+      "end": 74.835,
+      "section": "verse",
+      "illos": [
+        "soba",
+        "sobo",
+        "sora"
+      ],
+      "target": "sobo",
+      "chars": [
+        {
+          "start": 74.405,
+          "end": 74.585
+        },
+        {
+          "start": 74.585,
+          "end": 74.835
+        }
+      ]
+    },
+    {
+      "text": "そぼ の ごはん",
+      "start": 74.855,
+      "end": 76.075,
+      "section": "verse",
+      "illos": [
+        "soba",
+        "sobo",
+        "sora"
+      ],
+      "target": "sobo",
+      "chars": [
+        {
+          "start": 74.885,
+          "end": 75.025
+        },
+        {
+          "start": 75.025,
+          "end": 75.135
+        },
+        {
+          "start": 75.135,
+          "end": 75.245
+        },
+        {
+          "start": 75.245,
+          "end": 75.355
+        },
+        {
+          "start": 75.355,
+          "end": 75.465
+        },
+        {
+          "start": 75.465,
+          "end": 75.575
+        },
+        {
+          "start": 75.575,
+          "end": 75.785
+        },
+        {
+          "start": 75.785,
+          "end": 76.075
+        }
+      ]
+    },
+    {
+      "text": "そら",
+      "start": 76.095,
+      "end": 76.795,
+      "section": "verse",
+      "illos": [
+        "soba",
+        "sobo",
+        "sora"
+      ],
+      "target": "sora",
+      "chars": [
+        {
+          "start": 76.125,
+          "end": 76.685
+        },
+        {
+          "start": 76.685,
+          "end": 76.795
+        }
+      ]
+    },
+    {
+      "text": "ゆうやけ の そら",
+      "start": 76.815,
+      "end": 78.955,
+      "section": "verse",
+      "illos": [
+        "soba",
+        "sobo",
+        "sora"
+      ],
+      "target": "sora",
+      "chars": [
+        {
+          "start": 76.845,
+          "end": 77.005
+        },
+        {
+          "start": 77.005,
+          "end": 77.165
+        },
+        {
+          "start": 77.165,
+          "end": 77.465
+        },
+        {
+          "start": 77.465,
+          "end": 77.715
+        },
+        {
+          "start": 77.715,
+          "end": 77.965
+        },
+        {
+          "start": 77.965,
+          "end": 78.115
+        },
+        {
+          "start": 78.115,
+          "end": 78.265
+        },
+        {
+          "start": 78.265,
+          "end": 78.685
+        },
+        {
+          "start": 78.685,
+          "end": 78.955
+        }
+      ]
+    },
+    {
+      "text": "さ し す せ そ",
+      "start": 78.975,
+      "end": 81.715,
+      "section": "refrain",
+      "illos": [
+        "soba",
+        "sobo",
+        "sora"
+      ],
+      "chars": [
+        {
+          "start": 79.005,
+          "end": 79.285
+        },
+        {
+          "start": 79.285,
+          "end": 79.565
+        },
+        {
+          "start": 79.565,
+          "end": 79.885
+        },
+        {
+          "start": 79.885,
+          "end": 80.205
+        },
+        {
+          "start": 80.205,
+          "end": 80.525
+        },
+        {
+          "start": 80.525,
+          "end": 80.845
+        },
+        {
+          "start": 80.845,
+          "end": 81.085
+        },
+        {
+          "start": 81.085,
+          "end": 81.325
+        },
+        {
+          "start": 81.325,
+          "end": 81.715
+        }
+      ]
+    },
+    {
+      "text": "さいふ を もって、かいもの",
+      "start": 81.735,
+      "end": 86.155,
+      "section": "bridge",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 81.765,
+          "end": 83.725
+        },
+        {
+          "start": 83.725,
+          "end": 83.905
+        },
+        {
+          "start": 83.905,
+          "end": 84.045
+        },
+        {
+          "start": 84.045,
+          "end": 84.185
+        },
+        {
+          "start": 84.185,
+          "end": 84.345
+        },
+        {
+          "start": 84.345,
+          "end": 84.505
+        },
+        {
+          "start": 84.505,
+          "end": 84.725
+        },
+        {
+          "start": 84.725,
+          "end": 84.835
+        },
+        {
+          "start": 84.835,
+          "end": 84.945
+        },
+        {
+          "start": 84.945,
+          "end": 85.055
+        },
+        {
+          "start": 85.055,
+          "end": 85.205
+        },
+        {
+          "start": 85.205,
+          "end": 85.345
+        },
+        {
+          "start": 85.345,
+          "end": 85.605
+        },
+        {
+          "start": 85.605,
+          "end": 86.155
+        }
+      ]
+    },
+    {
+      "text": "さかな と しめじ、かう",
+      "start": 86.175,
+      "end": 88.076,
+      "section": "bridge",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 86.205,
+          "end": 86.315
+        },
+        {
+          "start": 86.315,
+          "end": 86.425
+        },
+        {
+          "start": 86.425,
+          "end": 86.535
+        },
+        {
+          "start": 86.535,
+          "end": 86.645
+        },
+        {
+          "start": 86.645,
+          "end": 86.755
+        },
+        {
+          "start": 86.755,
+          "end": 86.945
+        },
+        {
+          "start": 86.945,
+          "end": 87.145
+        },
+        {
+          "start": 87.145,
+          "end": 87.265
+        },
+        {
+          "start": 87.265,
+          "end": 87.375
+        },
+        {
+          "start": 87.375,
+          "end": 87.485
+        },
+        {
+          "start": 87.485,
+          "end": 87.886
+        },
+        {
+          "start": 87.886,
+          "end": 88.076
+        }
+      ]
+    },
+    {
+      "text": "しお を いれて、しる を つくる",
+      "start": 88.096,
+      "end": 92.326,
+      "section": "bridge",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 88.126,
+          "end": 88.236
+        },
+        {
+          "start": 88.236,
+          "end": 88.466
+        },
+        {
+          "start": 88.466,
+          "end": 88.786
+        },
+        {
+          "start": 88.786,
+          "end": 88.896
+        },
+        {
+          "start": 88.896,
+          "end": 89.006
+        },
+        {
+          "start": 89.006,
+          "end": 89.116
+        },
+        {
+          "start": 89.116,
+          "end": 89.266
+        },
+        {
+          "start": 89.266,
+          "end": 89.476
+        },
+        {
+          "start": 89.476,
+          "end": 89.686
+        },
+        {
+          "start": 89.686,
+          "end": 90.026
+        },
+        {
+          "start": 90.026,
+          "end": 90.166
+        },
+        {
+          "start": 90.166,
+          "end": 90.306
+        },
+        {
+          "start": 90.306,
+          "end": 90.466
+        },
+        {
+          "start": 90.466,
+          "end": 90.626
+        },
+        {
+          "start": 90.626,
+          "end": 90.846
+        },
+        {
+          "start": 90.846,
+          "end": 91.126
+        },
+        {
+          "start": 91.126,
+          "end": 92.326
+        }
+      ]
+    },
+    {
+      "text": "すし と すいか、おいしい",
+      "start": 93.056,
+      "end": 95.476,
+      "section": "bridge",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 93.206,
+          "end": 93.346
+        },
+        {
+          "start": 93.346,
+          "end": 93.456
+        },
+        {
+          "start": 93.456,
+          "end": 93.566
+        },
+        {
+          "start": 93.566,
+          "end": 93.676
+        },
+        {
+          "start": 93.676,
+          "end": 93.786
+        },
+        {
+          "start": 93.786,
+          "end": 93.896
+        },
+        {
+          "start": 93.896,
+          "end": 94.006
+        },
+        {
+          "start": 94.006,
+          "end": 94.136
+        },
+        {
+          "start": 94.136,
+          "end": 94.286
+        },
+        {
+          "start": 94.286,
+          "end": 94.526
+        },
+        {
+          "start": 94.526,
+          "end": 94.746
+        },
+        {
+          "start": 94.746,
+          "end": 95.186
+        },
+        {
+          "start": 95.186,
+          "end": 95.476
+        }
+      ]
+    },
+    {
+      "text": "せき に すわって、たべる",
+      "start": 95.496,
+      "end": 97.916,
+      "section": "bridge",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 95.526,
+          "end": 95.726
+        },
+        {
+          "start": 95.726,
+          "end": 95.836
+        },
+        {
+          "start": 95.836,
+          "end": 95.946
+        },
+        {
+          "start": 95.946,
+          "end": 96.056
+        },
+        {
+          "start": 96.056,
+          "end": 96.166
+        },
+        {
+          "start": 96.166,
+          "end": 96.276
+        },
+        {
+          "start": 96.276,
+          "end": 96.386
+        },
+        {
+          "start": 96.386,
+          "end": 96.496
+        },
+        {
+          "start": 96.496,
+          "end": 96.606
+        },
+        {
+          "start": 96.606,
+          "end": 96.746
+        },
+        {
+          "start": 96.746,
+          "end": 96.966
+        },
+        {
+          "start": 96.966,
+          "end": 97.246
+        },
+        {
+          "start": 97.246,
+          "end": 97.916
+        }
+      ]
+    },
+    {
+      "text": "そぼ の そば、ゆうやけ",
+      "start": 97.936,
+      "end": 101.896,
+      "section": "bridge",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 97.966,
+          "end": 98.206
+        },
+        {
+          "start": 98.206,
+          "end": 98.316
+        },
+        {
+          "start": 98.316,
+          "end": 98.426
+        },
+        {
+          "start": 98.426,
+          "end": 98.536
+        },
+        {
+          "start": 98.536,
+          "end": 98.646
+        },
+        {
+          "start": 98.646,
+          "end": 99.226
+        },
+        {
+          "start": 99.226,
+          "end": 99.826
+        },
+        {
+          "start": 99.826,
+          "end": 100.426
+        },
+        {
+          "start": 100.426,
+          "end": 100.706
+        },
+        {
+          "start": 100.706,
+          "end": 100.846
+        },
+        {
+          "start": 100.846,
+          "end": 101.046
+        },
+        {
+          "start": 101.046,
+          "end": 101.896
+        }
+      ]
+    },
+    {
+      "text": "さ し す せ そ",
+      "start": 101.916,
+      "end": 106.987,
+      "section": "refrain",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 101.946,
+          "end": 103.006
+        },
+        {
+          "start": 103.006,
+          "end": 104.067
+        },
+        {
+          "start": 104.067,
+          "end": 104.377
+        },
+        {
+          "start": 104.377,
+          "end": 104.687
+        },
+        {
+          "start": 104.687,
+          "end": 104.797
+        },
+        {
+          "start": 104.797,
+          "end": 104.907
+        },
+        {
+          "start": 104.907,
+          "end": 105.247
+        },
+        {
+          "start": 105.247,
+          "end": 105.787
+        },
+        {
+          "start": 105.787,
+          "end": 106.987
+        }
+      ]
+    },
+    {
+      "text": "さいふ を もつ",
+      "start": 107.017,
+      "end": 109.257,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 107.167,
+          "end": 107.428
+        },
+        {
+          "start": 107.428,
+          "end": 107.69
+        },
+        {
+          "start": 107.69,
+          "end": 107.951
+        },
+        {
+          "start": 107.951,
+          "end": 108.212
+        },
+        {
+          "start": 108.212,
+          "end": 108.473
+        },
+        {
+          "start": 108.473,
+          "end": 108.734
+        },
+        {
+          "start": 108.734,
+          "end": 108.996
+        },
+        {
+          "start": 108.996,
+          "end": 109.257
+        }
+      ]
+    },
+    {
+      "text": "さかな を かう",
+      "start": 109.277,
+      "end": 111.697,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 109.307,
+          "end": 109.487
+        },
+        {
+          "start": 109.487,
+          "end": 109.627
+        },
+        {
+          "start": 109.627,
+          "end": 110.227
+        },
+        {
+          "start": 110.227,
+          "end": 110.827
+        },
+        {
+          "start": 110.827,
+          "end": 110.987
+        },
+        {
+          "start": 110.987,
+          "end": 111.147
+        },
+        {
+          "start": 111.147,
+          "end": 111.307
+        },
+        {
+          "start": 111.307,
+          "end": 111.697
+        }
+      ]
+    },
+    {
+      "text": "さとう は あまい",
+      "start": 111.717,
+      "end": 114.117,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 111.747,
+          "end": 112.01
+        },
+        {
+          "start": 112.01,
+          "end": 112.274
+        },
+        {
+          "start": 112.274,
+          "end": 112.537
+        },
+        {
+          "start": 112.537,
+          "end": 112.8
+        },
+        {
+          "start": 112.8,
+          "end": 113.064
+        },
+        {
+          "start": 113.064,
+          "end": 113.327
+        },
+        {
+          "start": 113.327,
+          "end": 113.59
+        },
+        {
+          "start": 113.59,
+          "end": 113.854
+        },
+        {
+          "start": 113.854,
+          "end": 114.117
+        }
+      ]
+    },
+    {
+      "text": "しお を いれる",
+      "start": 114.137,
+      "end": 116.807,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 114.167,
+          "end": 114.507
+        },
+        {
+          "start": 114.507,
+          "end": 114.657
+        },
+        {
+          "start": 114.657,
+          "end": 114.807
+        },
+        {
+          "start": 114.807,
+          "end": 114.967
+        },
+        {
+          "start": 114.967,
+          "end": 115.127
+        },
+        {
+          "start": 115.127,
+          "end": 115.427
+        },
+        {
+          "start": 115.427,
+          "end": 115.607
+        },
+        {
+          "start": 115.607,
+          "end": 116.807
+        }
+      ]
+    },
+    {
+      "text": "あつい しる",
+      "start": 117.097,
+      "end": 119.037,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 117.247,
+          "end": 117.567
+        },
+        {
+          "start": 117.567,
+          "end": 117.907
+        },
+        {
+          "start": 117.907,
+          "end": 118.027
+        },
+        {
+          "start": 118.027,
+          "end": 118.147
+        },
+        {
+          "start": 118.147,
+          "end": 118.667
+        },
+        {
+          "start": 118.667,
+          "end": 119.037
+        }
+      ]
+    },
+    {
+      "text": "しめじ を たべる",
+      "start": 119.057,
+      "end": 121.498,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 119.087,
+          "end": 119.707
+        },
+        {
+          "start": 119.707,
+          "end": 120.008
+        },
+        {
+          "start": 120.008,
+          "end": 120.118
+        },
+        {
+          "start": 120.118,
+          "end": 120.228
+        },
+        {
+          "start": 120.228,
+          "end": 120.428
+        },
+        {
+          "start": 120.428,
+          "end": 120.628
+        },
+        {
+          "start": 120.628,
+          "end": 120.848
+        },
+        {
+          "start": 120.848,
+          "end": 121.128
+        },
+        {
+          "start": 121.128,
+          "end": 121.498
+        }
+      ]
+    },
+    {
+      "text": "おいしい すし",
+      "start": 121.518,
+      "end": 123.938,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 121.548,
+          "end": 121.848
+        },
+        {
+          "start": 121.848,
+          "end": 122.368
+        },
+        {
+          "start": 122.368,
+          "end": 122.788
+        },
+        {
+          "start": 122.788,
+          "end": 123.068
+        },
+        {
+          "start": 123.068,
+          "end": 123.348
+        },
+        {
+          "start": 123.348,
+          "end": 123.548
+        },
+        {
+          "start": 123.548,
+          "end": 123.938
+        }
+      ]
+    },
+    {
+      "text": "あまい すいか",
+      "start": 123.958,
+      "end": 125.778,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 123.988,
+          "end": 124.288
+        },
+        {
+          "start": 124.288,
+          "end": 124.608
+        },
+        {
+          "start": 124.608,
+          "end": 124.758
+        },
+        {
+          "start": 124.758,
+          "end": 124.908
+        },
+        {
+          "start": 124.908,
+          "end": 125.208
+        },
+        {
+          "start": 125.208,
+          "end": 125.408
+        },
+        {
+          "start": 125.408,
+          "end": 125.778
+        }
+      ]
+    },
+    {
+      "text": "す は すっぱい",
+      "start": 125.798,
+      "end": 128.858,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 125.828,
+          "end": 126.207
+        },
+        {
+          "start": 126.207,
+          "end": 126.585
+        },
+        {
+          "start": 126.585,
+          "end": 126.964
+        },
+        {
+          "start": 126.964,
+          "end": 127.343
+        },
+        {
+          "start": 127.343,
+          "end": 127.722
+        },
+        {
+          "start": 127.722,
+          "end": 128.101
+        },
+        {
+          "start": 128.101,
+          "end": 128.479
+        },
+        {
+          "start": 128.479,
+          "end": 128.858
+        }
+      ]
+    },
+    {
+      "text": "せんべい を たべる",
+      "start": 128.878,
+      "end": 131.298,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 128.908,
+          "end": 129.208
+        },
+        {
+          "start": 129.208,
+          "end": 129.508
+        },
+        {
+          "start": 129.508,
+          "end": 129.808
+        },
+        {
+          "start": 129.808,
+          "end": 129.968
+        },
+        {
+          "start": 129.968,
+          "end": 130.128
+        },
+        {
+          "start": 130.128,
+          "end": 130.278
+        },
+        {
+          "start": 130.278,
+          "end": 130.428
+        },
+        {
+          "start": 130.428,
+          "end": 130.628
+        },
+        {
+          "start": 130.628,
+          "end": 130.928
+        },
+        {
+          "start": 130.928,
+          "end": 131.298
+        }
+      ]
+    },
+    {
+      "text": "せき に すわる",
+      "start": 131.318,
+      "end": 133.718,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 131.348,
+          "end": 131.648
+        },
+        {
+          "start": 131.648,
+          "end": 131.958
+        },
+        {
+          "start": 131.958,
+          "end": 132.268
+        },
+        {
+          "start": 132.268,
+          "end": 132.568
+        },
+        {
+          "start": 132.568,
+          "end": 132.868
+        },
+        {
+          "start": 132.868,
+          "end": 133.188
+        },
+        {
+          "start": 133.188,
+          "end": 133.388
+        },
+        {
+          "start": 133.388,
+          "end": 133.718
+        }
+      ]
+    },
+    {
+      "text": "せっけん で あらう",
+      "start": 133.738,
+      "end": 136.599,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 133.768,
+          "end": 134.028
+        },
+        {
+          "start": 134.028,
+          "end": 134.138
+        },
+        {
+          "start": 134.138,
+          "end": 134.248
+        },
+        {
+          "start": 134.248,
+          "end": 134.358
+        },
+        {
+          "start": 134.358,
+          "end": 134.468
+        },
+        {
+          "start": 134.468,
+          "end": 134.578
+        },
+        {
+          "start": 134.578,
+          "end": 134.708
+        },
+        {
+          "start": 134.708,
+          "end": 134.928
+        },
+        {
+          "start": 134.928,
+          "end": 135.488
+        },
+        {
+          "start": 135.488,
+          "end": 136.599
+        }
+      ]
+    },
+    {
+      "text": "あたたかい そば",
+      "start": 136.619,
+      "end": 138.659,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 136.649,
+          "end": 136.869
+        },
+        {
+          "start": 136.869,
+          "end": 137.169
+        },
+        {
+          "start": 137.169,
+          "end": 137.489
+        },
+        {
+          "start": 137.489,
+          "end": 137.829
+        },
+        {
+          "start": 137.829,
+          "end": 138.049
+        },
+        {
+          "start": 138.049,
+          "end": 138.269
+        },
+        {
+          "start": 138.269,
+          "end": 138.409
+        },
+        {
+          "start": 138.409,
+          "end": 138.659
+        }
+      ]
+    },
+    {
+      "text": "そぼ の ごはん",
+      "start": 138.679,
+      "end": 141.679,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 138.709,
+          "end": 139.509
+        },
+        {
+          "start": 139.509,
+          "end": 139.659
+        },
+        {
+          "start": 139.659,
+          "end": 139.809
+        },
+        {
+          "start": 139.809,
+          "end": 140.009
+        },
+        {
+          "start": 140.009,
+          "end": 140.209
+        },
+        {
+          "start": 140.209,
+          "end": 140.509
+        },
+        {
+          "start": 140.509,
+          "end": 140.849
+        },
+        {
+          "start": 140.849,
+          "end": 141.679
+        }
+      ]
+    },
+    {
+      "text": "ゆうやけ の そら",
+      "start": 141.699,
+      "end": 143.839,
+      "section": "review",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 141.729,
+          "end": 141.969
+        },
+        {
+          "start": 141.969,
+          "end": 142.129
+        },
+        {
+          "start": 142.129,
+          "end": 142.369
+        },
+        {
+          "start": 142.369,
+          "end": 142.529
+        },
+        {
+          "start": 142.529,
+          "end": 142.689
+        },
+        {
+          "start": 142.689,
+          "end": 142.929
+        },
+        {
+          "start": 142.929,
+          "end": 143.169
+        },
+        {
+          "start": 143.169,
+          "end": 143.589
+        },
+        {
+          "start": 143.589,
+          "end": 143.839
+        }
+      ]
+    },
+    {
+      "text": "さ し す せ そ",
+      "start": 143.859,
+      "end": 150.599,
+      "section": "refrain",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 143.889,
+          "end": 144.635
+        },
+        {
+          "start": 144.635,
+          "end": 145.38
+        },
+        {
+          "start": 145.38,
+          "end": 146.126
+        },
+        {
+          "start": 146.126,
+          "end": 146.871
+        },
+        {
+          "start": 146.871,
+          "end": 147.617
+        },
+        {
+          "start": 147.617,
+          "end": 148.362
+        },
+        {
+          "start": 148.362,
+          "end": 149.108
+        },
+        {
+          "start": 149.108,
+          "end": 149.853
+        },
+        {
+          "start": 149.853,
+          "end": 150.599
+        }
+      ]
+    },
+    {
+      "text": "さ し す せ そ",
+      "start": 150.619,
+      "end": 152.749,
+      "section": "outro",
+      "illos": [
+        "saifu",
+        "sakana",
+        "satou"
+      ],
+      "chars": [
+        {
+          "start": 150.649,
+          "end": 150.799
+        },
+        {
+          "start": 150.799,
+          "end": 150.949
+        },
+        {
+          "start": 150.949,
+          "end": 151.059
+        },
+        {
+          "start": 151.059,
+          "end": 151.169
+        },
+        {
+          "start": 151.169,
+          "end": 151.279
+        },
+        {
+          "start": 151.279,
+          "end": 151.389
+        },
+        {
+          "start": 151.389,
+          "end": 151.499
+        },
+        {
+          "start": 151.499,
+          "end": 151.609
+        },
+        {
+          "start": 151.609,
+          "end": 152.749
+        }
+      ]
+    }
+  ],
+  "_aligned": {
+    "tool": "whisperx",
+    "anchored_chars": 338,
+    "total_chars": 338
+  }
+}

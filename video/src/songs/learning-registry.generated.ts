@@ -2,7 +2,25 @@
 // Regenerate after adding/removing a learning song: node tools/gen_registry.mjs
 import type { LearningTiming } from "../types";
 import t_01_aiueo from "../../timing/01-aiueo.learning.json";
+import t_02_kakikukeko_machi from "../../timing/02-kakikukeko-machi.learning.json";
+import t_03_sashisuseso_gohan from "../../timing/03-sashisuseso-gohan.learning.json";
+import t_04_tachitsuteto_ouchi from "../../timing/04-tachitsuteto-ouchi.learning.json";
+import t_05_naninuneno_ouchi from "../../timing/05-naninuneno-ouchi.learning.json";
+import t_06_hahifuheho_gakkou from "../../timing/06-hahifuheho-gakkou.learning.json";
+import t_07_mamimumemo_ouchi from "../../timing/07-mamimumemo-ouchi.learning.json";
+import t_08_yayuyo_ie from "../../timing/08-yayuyo-ie.learning.json";
+import t_09_rarirurero_ie from "../../timing/09-rarirurero-ie.learning.json";
+import t_10_wawon_female from "../../timing/10-wawon-female.learning.json";
 
 export const GENERATED_LEARNING_SONGS: { id: string; timing: LearningTiming }[] = [
   { id: "01-aiueo", timing: t_01_aiueo as unknown as LearningTiming },
+  { id: "02-kakikukeko-machi", timing: t_02_kakikukeko_machi as unknown as LearningTiming },
+  { id: "03-sashisuseso-gohan", timing: t_03_sashisuseso_gohan as unknown as LearningTiming },
+  { id: "04-tachitsuteto-ouchi", timing: t_04_tachitsuteto_ouchi as unknown as LearningTiming },
+  { id: "05-naninuneno-ouchi", timing: t_05_naninuneno_ouchi as unknown as LearningTiming },
+  { id: "06-hahifuheho-gakkou", timing: t_06_hahifuheho_gakkou as unknown as LearningTiming },
+  { id: "07-mamimumemo-ouchi", timing: t_07_mamimumemo_ouchi as unknown as LearningTiming },
+  { id: "08-yayuyo-ie", timing: t_08_yayuyo_ie as unknown as LearningTiming },
+  { id: "09-rarirurero-ie", timing: t_09_rarirurero_ie as unknown as LearningTiming },
+  { id: "10-wawon-female", timing: t_10_wawon_female as unknown as LearningTiming },
 ];

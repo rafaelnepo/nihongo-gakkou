@@ -1,0 +1,2536 @@
+{
+  "song": "07-mamimumemo-ouchi",
+  "title": "まみむめも・おへや の いちにち",
+  "trackName": "おへや の いちにち",
+  "trackNo": "07",
+  "row": "まみむめも",
+  "channel": "iconotes",
+  "style": "City Pop",
+  "bpm": 92,
+  "ilBase": "07-mamimumemo-ouchi/il",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "07-mamimumemo-ouchi/audio.wav",
+  "countInSeconds": 1.1,
+  "tailSeconds": 1.5,
+  "durationSeconds": 143.83,
+  "placeholder": false,
+  "lines": [
+    {
+      "text": "ま み む め も",
+      "start": 0.41,
+      "end": 4.23,
+      "section": "intro",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 0.56,
+          "end": 0.968
+        },
+        {
+          "start": 0.968,
+          "end": 1.376
+        },
+        {
+          "start": 1.376,
+          "end": 1.783
+        },
+        {
+          "start": 1.783,
+          "end": 2.191
+        },
+        {
+          "start": 2.191,
+          "end": 2.599
+        },
+        {
+          "start": 2.599,
+          "end": 3.007
+        },
+        {
+          "start": 3.007,
+          "end": 3.414
+        },
+        {
+          "start": 3.414,
+          "end": 3.822
+        },
+        {
+          "start": 3.822,
+          "end": 4.23
+        }
+      ]
+    },
+    {
+      "text": "まど",
+      "start": 4.25,
+      "end": 5.15,
+      "section": "verse",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "target": "mado",
+      "chars": [
+        {
+          "start": 4.28,
+          "end": 4.58
+        },
+        {
+          "start": 4.58,
+          "end": 5.15
+        }
+      ]
+    },
+    {
+      "text": "まど を あける",
+      "start": 5.17,
+      "end": 6.69,
+      "section": "verse",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "target": "mado",
+      "chars": [
+        {
+          "start": 5.2,
+          "end": 5.38
+        },
+        {
+          "start": 5.38,
+          "end": 5.52
+        },
+        {
+          "start": 5.52,
+          "end": 5.66
+        },
+        {
+          "start": 5.66,
+          "end": 5.77
+        },
+        {
+          "start": 5.77,
+          "end": 5.88
+        },
+        {
+          "start": 5.88,
+          "end": 6.14
+        },
+        {
+          "start": 6.14,
+          "end": 6.44
+        },
+        {
+          "start": 6.44,
+          "end": 6.69
+        }
+      ]
+    },
+    {
+      "text": "まくら",
+      "start": 6.71,
+      "end": 7.591,
+      "section": "verse",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "target": "makura",
+      "chars": [
+        {
+          "start": 6.74,
+          "end": 6.92
+        },
+        {
+          "start": 6.92,
+          "end": 7.08
+        },
+        {
+          "start": 7.08,
+          "end": 7.591
+        }
+      ]
+    },
+    {
+      "text": "しろい まくら",
+      "start": 7.611,
+      "end": 9.171,
+      "section": "verse",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "target": "makura",
+      "chars": [
+        {
+          "start": 7.641,
+          "end": 7.841
+        },
+        {
+          "start": 7.841,
+          "end": 8.161
+        },
+        {
+          "start": 8.161,
+          "end": 8.301
+        },
+        {
+          "start": 8.301,
+          "end": 8.441
+        },
+        {
+          "start": 8.441,
+          "end": 8.601
+        },
+        {
+          "start": 8.601,
+          "end": 8.781
+        },
+        {
+          "start": 8.781,
+          "end": 9.171
+        }
+      ]
+    },
+    {
+      "text": "まめ",
+      "start": 9.191,
+      "end": 10.091,
+      "section": "verse",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "target": "mame",
+      "chars": [
+        {
+          "start": 9.221,
+          "end": 9.521
+        },
+        {
+          "start": 9.521,
+          "end": 10.091
+        }
+      ]
+    },
+    {
+      "text": "まめ を たべる",
+      "start": 10.111,
+      "end": 11.351,
+      "section": "verse",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "target": "mame",
+      "chars": [
+        {
+          "start": 10.141,
+          "end": 10.292
+        },
+        {
+          "start": 10.292,
+          "end": 10.444
+        },
+        {
+          "start": 10.444,
+          "end": 10.595
+        },
+        {
+          "start": 10.595,
+          "end": 10.746
+        },
+        {
+          "start": 10.746,
+          "end": 10.897
+        },
+        {
+          "start": 10.897,
+          "end": 11.049
+        },
+        {
+          "start": 11.049,
+          "end": 11.2
+        },
+        {
+          "start": 11.2,
+          "end": 11.351
+        }
+      ]
+    },
+    {
+      "text": "ま み む め も",
+      "start": 11.371,
+      "end": 15.361,
+      "section": "refrain",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 11.401,
+          "end": 12.001
+        },
+        {
+          "start": 12.001,
+          "end": 12.601
+        },
+        {
+          "start": 12.601,
+          "end": 12.901
+        },
+        {
+          "start": 12.901,
+          "end": 13.201
+        },
+        {
+          "start": 13.201,
+          "end": 13.461
+        },
+        {
+          "start": 13.461,
+          "end": 13.721
+        },
+        {
+          "start": 13.721,
+          "end": 13.941
+        },
+        {
+          "start": 13.941,
+          "end": 14.161
+        },
+        {
+          "start": 14.161,
+          "end": 15.361
+        }
+      ]
+    },
+    {
+      "text": "みかん",
+      "start": 16.491,
+      "end": 17.511,
+      "section": "verse",
+      "illos": [
+        "mikan",
+        "mizu",
+        "mimi"
+      ],
+      "target": "mikan",
+      "chars": [
+        {
+          "start": 16.641,
+          "end": 16.961
+        },
+        {
+          "start": 16.961,
+          "end": 17.361
+        },
+        {
+          "start": 17.361,
+          "end": 17.511
+        }
+      ]
+    },
+    {
+      "text": "あまい みかん",
+      "start": 17.531,
+      "end": 19.071,
+      "section": "verse",
+      "illos": [
+        "mikan",
+        "mizu",
+        "mimi"
+      ],
+      "target": "mikan",
+      "chars": [
+        {
+          "start": 17.561,
+          "end": 17.761
+        },
+        {
+          "start": 17.761,
+          "end": 18.041
+        },
+        {
+          "start": 18.041,
+          "end": 18.191
+        },
+        {
+          "start": 18.191,
+          "end": 18.341
+        },
+        {
+          "start": 18.341,
+          "end": 18.501
+        },
+        {
+          "start": 18.501,
+          "end": 18.881
+        },
+        {
+          "start": 18.881,
+          "end": 19.071
+        }
+      ]
+    },
+    {
+      "text": "みず",
+      "start": 19.091,
+      "end": 19.711,
+      "section": "verse",
+      "illos": [
+        "mikan",
+        "mizu",
+        "mimi"
+      ],
+      "target": "mizu",
+      "chars": [
+        {
+          "start": 19.121,
+          "end": 19.441
+        },
+        {
+          "start": 19.441,
+          "end": 19.711
+        }
+      ]
+    },
+    {
+      "text": "つめたい みず",
+      "start": 19.731,
+      "end": 21.532,
+      "section": "verse",
+      "illos": [
+        "mikan",
+        "mizu",
+        "mimi"
+      ],
+      "target": "mizu",
+      "chars": [
+        {
+          "start": 19.761,
+          "end": 20.221
+        },
+        {
+          "start": 20.221,
+          "end": 20.521
+        },
+        {
+          "start": 20.521,
+          "end": 20.661
+        },
+        {
+          "start": 20.661,
+          "end": 20.811
+        },
+        {
+          "start": 20.811,
+          "end": 20.961
+        },
+        {
+          "start": 20.961,
+          "end": 21.071
+        },
+        {
+          "start": 21.071,
+          "end": 21.532
+        }
+      ]
+    },
+    {
+      "text": "みみ",
+      "start": 21.552,
+      "end": 22.192,
+      "section": "verse",
+      "illos": [
+        "mikan",
+        "mizu",
+        "mimi"
+      ],
+      "target": "mimi",
+      "chars": [
+        {
+          "start": 21.582,
+          "end": 21.902
+        },
+        {
+          "start": 21.902,
+          "end": 22.192
+        }
+      ]
+    },
+    {
+      "text": "うさぎ の みみ",
+      "start": 22.212,
+      "end": 24.332,
+      "section": "verse",
+      "illos": [
+        "mikan",
+        "mizu",
+        "mimi"
+      ],
+      "target": "mimi",
+      "chars": [
+        {
+          "start": 22.242,
+          "end": 22.702
+        },
+        {
+          "start": 22.702,
+          "end": 23.002
+        },
+        {
+          "start": 23.002,
+          "end": 23.162
+        },
+        {
+          "start": 23.162,
+          "end": 23.322
+        },
+        {
+          "start": 23.322,
+          "end": 23.532
+        },
+        {
+          "start": 23.532,
+          "end": 23.742
+        },
+        {
+          "start": 23.742,
+          "end": 23.852
+        },
+        {
+          "start": 23.852,
+          "end": 24.332
+        }
+      ]
+    },
+    {
+      "text": "ま み む め も",
+      "start": 24.352,
+      "end": 27.742,
+      "section": "refrain",
+      "illos": [
+        "mikan",
+        "mizu",
+        "mimi"
+      ],
+      "chars": [
+        {
+          "start": 24.382,
+          "end": 24.682
+        },
+        {
+          "start": 24.682,
+          "end": 24.982
+        },
+        {
+          "start": 24.982,
+          "end": 25.292
+        },
+        {
+          "start": 25.292,
+          "end": 25.602
+        },
+        {
+          "start": 25.602,
+          "end": 25.842
+        },
+        {
+          "start": 25.842,
+          "end": 26.082
+        },
+        {
+          "start": 26.082,
+          "end": 26.312
+        },
+        {
+          "start": 26.312,
+          "end": 26.542
+        },
+        {
+          "start": 26.542,
+          "end": 27.742
+        }
+      ]
+    },
+    {
+      "text": "むし",
+      "start": 28.872,
+      "end": 29.872,
+      "section": "verse",
+      "illos": [
+        "mushi",
+        "murasaki",
+        "mugi"
+      ],
+      "target": "mushi",
+      "chars": [
+        {
+          "start": 29.022,
+          "end": 29.302
+        },
+        {
+          "start": 29.302,
+          "end": 29.872
+        }
+      ]
+    },
+    {
+      "text": "ちいさい むし",
+      "start": 29.892,
+      "end": 31.732,
+      "section": "verse",
+      "illos": [
+        "mushi",
+        "murasaki",
+        "mugi"
+      ],
+      "target": "mushi",
+      "chars": [
+        {
+          "start": 29.922,
+          "end": 30.262
+        },
+        {
+          "start": 30.262,
+          "end": 30.582
+        },
+        {
+          "start": 30.582,
+          "end": 30.882
+        },
+        {
+          "start": 30.882,
+          "end": 30.992
+        },
+        {
+          "start": 30.992,
+          "end": 31.102
+        },
+        {
+          "start": 31.102,
+          "end": 31.322
+        },
+        {
+          "start": 31.322,
+          "end": 31.732
+        }
+      ]
+    },
+    {
+      "text": "むらさき",
+      "start": 31.752,
+      "end": 32.372,
+      "section": "verse",
+      "illos": [
+        "mushi",
+        "murasaki",
+        "mugi"
+      ],
+      "target": "murasaki",
+      "chars": [
+        {
+          "start": 31.782,
+          "end": 31.93
+        },
+        {
+          "start": 31.93,
+          "end": 32.077
+        },
+        {
+          "start": 32.077,
+          "end": 32.224
+        },
+        {
+          "start": 32.224,
+          "end": 32.372
+        }
+      ]
+    },
+    {
+      "text": "むらさきの はな",
+      "start": 32.392,
+      "end": 34.212,
+      "section": "verse",
+      "illos": [
+        "mushi",
+        "murasaki",
+        "mugi"
+      ],
+      "target": "murasaki",
+      "chars": [
+        {
+          "start": 32.422,
+          "end": 32.582
+        },
+        {
+          "start": 32.582,
+          "end": 32.722
+        },
+        {
+          "start": 32.722,
+          "end": 32.902
+        },
+        {
+          "start": 32.902,
+          "end": 33.222
+        },
+        {
+          "start": 33.222,
+          "end": 33.332
+        },
+        {
+          "start": 33.332,
+          "end": 33.442
+        },
+        {
+          "start": 33.442,
+          "end": 33.842
+        },
+        {
+          "start": 33.842,
+          "end": 34.212
+        }
+      ]
+    },
+    {
+      "text": "むぎ",
+      "start": 34.232,
+      "end": 35.172,
+      "section": "verse",
+      "illos": [
+        "mushi",
+        "murasaki",
+        "mugi"
+      ],
+      "target": "mugi",
+      "chars": [
+        {
+          "start": 34.262,
+          "end": 34.582
+        },
+        {
+          "start": 34.582,
+          "end": 35.172
+        }
+      ]
+    },
+    {
+      "text": "むぎ の ちゃ",
+      "start": 35.192,
+      "end": 36.693,
+      "section": "verse",
+      "illos": [
+        "mushi",
+        "murasaki",
+        "mugi"
+      ],
+      "target": "mugi",
+      "chars": [
+        {
+          "start": 35.222,
+          "end": 35.522
+        },
+        {
+          "start": 35.522,
+          "end": 35.632
+        },
+        {
+          "start": 35.632,
+          "end": 35.742
+        },
+        {
+          "start": 35.742,
+          "end": 35.852
+        },
+        {
+          "start": 35.852,
+          "end": 35.983
+        },
+        {
+          "start": 35.983,
+          "end": 36.093
+        },
+        {
+          "start": 36.093,
+          "end": 36.693
+        }
+      ]
+    },
+    {
+      "text": "ま み む め も",
+      "start": 36.713,
+      "end": 41.633,
+      "section": "refrain",
+      "illos": [
+        "mushi",
+        "murasaki",
+        "mugi"
+      ],
+      "chars": [
+        {
+          "start": 36.743,
+          "end": 37.043
+        },
+        {
+          "start": 37.043,
+          "end": 37.343
+        },
+        {
+          "start": 37.343,
+          "end": 37.663
+        },
+        {
+          "start": 37.663,
+          "end": 37.983
+        },
+        {
+          "start": 37.983,
+          "end": 38.453
+        },
+        {
+          "start": 38.453,
+          "end": 38.923
+        },
+        {
+          "start": 38.923,
+          "end": 39.683
+        },
+        {
+          "start": 39.683,
+          "end": 40.443
+        },
+        {
+          "start": 40.443,
+          "end": 41.633
+        }
+      ]
+    },
+    {
+      "text": "め",
+      "start": 41.653,
+      "end": 42.253,
+      "section": "verse",
+      "illos": [
+        "me",
+        "megane",
+        "medaka"
+      ],
+      "target": "me",
+      "chars": [
+        {
+          "start": 41.683,
+          "end": 42.253
+        }
+      ]
+    },
+    {
+      "text": "おおきい め",
+      "start": 42.273,
+      "end": 43.373,
+      "section": "verse",
+      "illos": [
+        "me",
+        "megane",
+        "medaka"
+      ],
+      "target": "me",
+      "chars": [
+        {
+          "start": 42.303,
+          "end": 42.481
+        },
+        {
+          "start": 42.481,
+          "end": 42.66
+        },
+        {
+          "start": 42.66,
+          "end": 42.838
+        },
+        {
+          "start": 42.838,
+          "end": 43.016
+        },
+        {
+          "start": 43.016,
+          "end": 43.195
+        },
+        {
+          "start": 43.195,
+          "end": 43.373
+        }
+      ]
+    },
+    {
+      "text": "めがね",
+      "start": 43.393,
+      "end": 44.733,
+      "section": "verse",
+      "illos": [
+        "me",
+        "megane",
+        "medaka"
+      ],
+      "target": "megane",
+      "chars": [
+        {
+          "start": 43.423,
+          "end": 44.023
+        },
+        {
+          "start": 44.023,
+          "end": 44.163
+        },
+        {
+          "start": 44.163,
+          "end": 44.733
+        }
+      ]
+    },
+    {
+      "text": "まるい めがね",
+      "start": 44.753,
+      "end": 46.893,
+      "section": "verse",
+      "illos": [
+        "me",
+        "megane",
+        "medaka"
+      ],
+      "target": "megane",
+      "chars": [
+        {
+          "start": 44.783,
+          "end": 44.983
+        },
+        {
+          "start": 44.983,
+          "end": 45.163
+        },
+        {
+          "start": 45.163,
+          "end": 45.293
+        },
+        {
+          "start": 45.293,
+          "end": 45.423
+        },
+        {
+          "start": 45.423,
+          "end": 45.843
+        },
+        {
+          "start": 45.843,
+          "end": 46.503
+        },
+        {
+          "start": 46.503,
+          "end": 46.893
+        }
+      ]
+    },
+    {
+      "text": "めだか",
+      "start": 46.913,
+      "end": 47.513,
+      "section": "verse",
+      "illos": [
+        "me",
+        "megane",
+        "medaka"
+      ],
+      "target": "medaka",
+      "chars": [
+        {
+          "start": 46.943,
+          "end": 47.123
+        },
+        {
+          "start": 47.123,
+          "end": 47.263
+        },
+        {
+          "start": 47.263,
+          "end": 47.513
+        }
+      ]
+    },
+    {
+      "text": "めだか が およぐ",
+      "start": 47.533,
+      "end": 48.913,
+      "section": "verse",
+      "illos": [
+        "me",
+        "megane",
+        "medaka"
+      ],
+      "target": "medaka",
+      "chars": [
+        {
+          "start": 47.563,
+          "end": 47.713
+        },
+        {
+          "start": 47.713,
+          "end": 47.863
+        },
+        {
+          "start": 47.863,
+          "end": 48.013
+        },
+        {
+          "start": 48.013,
+          "end": 48.163
+        },
+        {
+          "start": 48.163,
+          "end": 48.313
+        },
+        {
+          "start": 48.313,
+          "end": 48.463
+        },
+        {
+          "start": 48.463,
+          "end": 48.613
+        },
+        {
+          "start": 48.613,
+          "end": 48.763
+        },
+        {
+          "start": 48.763,
+          "end": 48.913
+        }
+      ]
+    },
+    {
+      "text": "ま み む め も",
+      "start": 48.933,
+      "end": 52.484,
+      "section": "refrain",
+      "illos": [
+        "me",
+        "megane",
+        "medaka"
+      ],
+      "chars": [
+        {
+          "start": 48.963,
+          "end": 49.353
+        },
+        {
+          "start": 49.353,
+          "end": 49.743
+        },
+        {
+          "start": 49.743,
+          "end": 50.053
+        },
+        {
+          "start": 50.053,
+          "end": 50.364
+        },
+        {
+          "start": 50.364,
+          "end": 50.604
+        },
+        {
+          "start": 50.604,
+          "end": 50.844
+        },
+        {
+          "start": 50.844,
+          "end": 51.064
+        },
+        {
+          "start": 51.064,
+          "end": 51.284
+        },
+        {
+          "start": 51.284,
+          "end": 52.484
+        }
+      ]
+    },
+    {
+      "text": "もも",
+      "start": 53.594,
+      "end": 54.314,
+      "section": "verse",
+      "illos": [
+        "momo",
+        "mochi",
+        "moufu"
+      ],
+      "target": "momo",
+      "chars": [
+        {
+          "start": 53.744,
+          "end": 53.854
+        },
+        {
+          "start": 53.854,
+          "end": 54.314
+        }
+      ]
+    },
+    {
+      "text": "あまい もも",
+      "start": 54.334,
+      "end": 56.174,
+      "section": "verse",
+      "illos": [
+        "momo",
+        "mochi",
+        "moufu"
+      ],
+      "target": "momo",
+      "chars": [
+        {
+          "start": 54.364,
+          "end": 54.864
+        },
+        {
+          "start": 54.864,
+          "end": 55.464
+        },
+        {
+          "start": 55.464,
+          "end": 55.574
+        },
+        {
+          "start": 55.574,
+          "end": 55.684
+        },
+        {
+          "start": 55.684,
+          "end": 55.904
+        },
+        {
+          "start": 55.904,
+          "end": 56.174
+        }
+      ]
+    },
+    {
+      "text": "もち",
+      "start": 56.194,
+      "end": 56.814,
+      "section": "verse",
+      "illos": [
+        "momo",
+        "mochi",
+        "moufu"
+      ],
+      "target": "mochi",
+      "chars": [
+        {
+          "start": 56.224,
+          "end": 56.544
+        },
+        {
+          "start": 56.544,
+          "end": 56.814
+        }
+      ]
+    },
+    {
+      "text": "しろい もち",
+      "start": 56.834,
+      "end": 58.654,
+      "section": "verse",
+      "illos": [
+        "momo",
+        "mochi",
+        "moufu"
+      ],
+      "target": "mochi",
+      "chars": [
+        {
+          "start": 56.864,
+          "end": 57.344
+        },
+        {
+          "start": 57.344,
+          "end": 57.664
+        },
+        {
+          "start": 57.664,
+          "end": 57.874
+        },
+        {
+          "start": 57.874,
+          "end": 58.084
+        },
+        {
+          "start": 58.084,
+          "end": 58.384
+        },
+        {
+          "start": 58.384,
+          "end": 58.654
+        }
+      ]
+    },
+    {
+      "text": "もうふ",
+      "start": 58.674,
+      "end": 59.594,
+      "section": "verse",
+      "illos": [
+        "momo",
+        "mochi",
+        "moufu"
+      ],
+      "target": "moufu",
+      "chars": [
+        {
+          "start": 58.704,
+          "end": 58.884
+        },
+        {
+          "start": 58.884,
+          "end": 59.024
+        },
+        {
+          "start": 59.024,
+          "end": 59.594
+        }
+      ]
+    },
+    {
+      "text": "あたたかい もうふ",
+      "start": 59.614,
+      "end": 61.454,
+      "section": "verse",
+      "illos": [
+        "momo",
+        "mochi",
+        "moufu"
+      ],
+      "target": "moufu",
+      "chars": [
+        {
+          "start": 59.644,
+          "end": 59.964
+        },
+        {
+          "start": 59.964,
+          "end": 60.144
+        },
+        {
+          "start": 60.144,
+          "end": 60.254
+        },
+        {
+          "start": 60.254,
+          "end": 60.404
+        },
+        {
+          "start": 60.404,
+          "end": 60.514
+        },
+        {
+          "start": 60.514,
+          "end": 60.624
+        },
+        {
+          "start": 60.624,
+          "end": 60.734
+        },
+        {
+          "start": 60.734,
+          "end": 60.864
+        },
+        {
+          "start": 60.864,
+          "end": 61.454
+        }
+      ]
+    },
+    {
+      "text": "ま み む め も",
+      "start": 61.474,
+      "end": 64.864,
+      "section": "refrain",
+      "illos": [
+        "momo",
+        "mochi",
+        "moufu"
+      ],
+      "chars": [
+        {
+          "start": 61.504,
+          "end": 61.804
+        },
+        {
+          "start": 61.804,
+          "end": 62.104
+        },
+        {
+          "start": 62.104,
+          "end": 62.424
+        },
+        {
+          "start": 62.424,
+          "end": 62.744
+        },
+        {
+          "start": 62.744,
+          "end": 62.974
+        },
+        {
+          "start": 62.974,
+          "end": 63.204
+        },
+        {
+          "start": 63.204,
+          "end": 63.434
+        },
+        {
+          "start": 63.434,
+          "end": 63.664
+        },
+        {
+          "start": 63.664,
+          "end": 64.864
+        }
+      ]
+    },
+    {
+      "text": "まど を あける、あさ だ",
+      "start": 65.375,
+      "end": 68.235,
+      "section": "bridge",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 65.525,
+          "end": 65.733
+        },
+        {
+          "start": 65.733,
+          "end": 65.942
+        },
+        {
+          "start": 65.942,
+          "end": 66.15
+        },
+        {
+          "start": 66.15,
+          "end": 66.359
+        },
+        {
+          "start": 66.359,
+          "end": 66.567
+        },
+        {
+          "start": 66.567,
+          "end": 66.776
+        },
+        {
+          "start": 66.776,
+          "end": 66.984
+        },
+        {
+          "start": 66.984,
+          "end": 67.193
+        },
+        {
+          "start": 67.193,
+          "end": 67.401
+        },
+        {
+          "start": 67.401,
+          "end": 67.61
+        },
+        {
+          "start": 67.61,
+          "end": 67.818
+        },
+        {
+          "start": 67.818,
+          "end": 68.027
+        },
+        {
+          "start": 68.027,
+          "end": 68.235
+        }
+      ]
+    },
+    {
+      "text": "あまい みかん、つめたい みず",
+      "start": 68.255,
+      "end": 71.035,
+      "section": "bridge",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 68.285,
+          "end": 68.605
+        },
+        {
+          "start": 68.605,
+          "end": 68.785
+        },
+        {
+          "start": 68.785,
+          "end": 68.895
+        },
+        {
+          "start": 68.895,
+          "end": 69.005
+        },
+        {
+          "start": 69.005,
+          "end": 69.225
+        },
+        {
+          "start": 69.225,
+          "end": 69.585
+        },
+        {
+          "start": 69.585,
+          "end": 69.695
+        },
+        {
+          "start": 69.695,
+          "end": 69.805
+        },
+        {
+          "start": 69.805,
+          "end": 69.915
+        },
+        {
+          "start": 69.915,
+          "end": 70.025
+        },
+        {
+          "start": 70.025,
+          "end": 70.325
+        },
+        {
+          "start": 70.325,
+          "end": 70.435
+        },
+        {
+          "start": 70.435,
+          "end": 70.545
+        },
+        {
+          "start": 70.545,
+          "end": 70.785
+        },
+        {
+          "start": 70.785,
+          "end": 71.035
+        }
+      ]
+    },
+    {
+      "text": "ちいさい むし、むらさきの はな",
+      "start": 71.055,
+      "end": 75.375,
+      "section": "bridge",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 71.085,
+          "end": 71.645
+        },
+        {
+          "start": 71.645,
+          "end": 71.755
+        },
+        {
+          "start": 71.755,
+          "end": 71.905
+        },
+        {
+          "start": 71.905,
+          "end": 72.015
+        },
+        {
+          "start": 72.015,
+          "end": 72.125
+        },
+        {
+          "start": 72.125,
+          "end": 72.235
+        },
+        {
+          "start": 72.235,
+          "end": 72.345
+        },
+        {
+          "start": 72.345,
+          "end": 72.485
+        },
+        {
+          "start": 72.485,
+          "end": 72.945
+        },
+        {
+          "start": 72.945,
+          "end": 73.245
+        },
+        {
+          "start": 73.245,
+          "end": 73.565
+        },
+        {
+          "start": 73.565,
+          "end": 73.865
+        },
+        {
+          "start": 73.865,
+          "end": 74.125
+        },
+        {
+          "start": 74.125,
+          "end": 74.385
+        },
+        {
+          "start": 74.385,
+          "end": 74.965
+        },
+        {
+          "start": 74.965,
+          "end": 75.375
+        }
+      ]
+    },
+    {
+      "text": "まるい めがね、おおきい め",
+      "start": 75.395,
+      "end": 78.315,
+      "section": "bridge",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 75.425,
+          "end": 75.725
+        },
+        {
+          "start": 75.725,
+          "end": 76.045
+        },
+        {
+          "start": 76.045,
+          "end": 76.195
+        },
+        {
+          "start": 76.195,
+          "end": 76.345
+        },
+        {
+          "start": 76.345,
+          "end": 76.665
+        },
+        {
+          "start": 76.665,
+          "end": 76.965
+        },
+        {
+          "start": 76.965,
+          "end": 77.115
+        },
+        {
+          "start": 77.115,
+          "end": 77.265
+        },
+        {
+          "start": 77.265,
+          "end": 77.405
+        },
+        {
+          "start": 77.405,
+          "end": 77.585
+        },
+        {
+          "start": 77.585,
+          "end": 77.765
+        },
+        {
+          "start": 77.765,
+          "end": 77.915
+        },
+        {
+          "start": 77.915,
+          "end": 78.065
+        },
+        {
+          "start": 78.065,
+          "end": 78.315
+        }
+      ]
+    },
+    {
+      "text": "あまい もも、しろい もち",
+      "start": 78.335,
+      "end": 81.236,
+      "section": "bridge",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 78.365,
+          "end": 78.505
+        },
+        {
+          "start": 78.505,
+          "end": 78.705
+        },
+        {
+          "start": 78.705,
+          "end": 78.815
+        },
+        {
+          "start": 78.815,
+          "end": 78.925
+        },
+        {
+          "start": 78.925,
+          "end": 79.105
+        },
+        {
+          "start": 79.105,
+          "end": 79.346
+        },
+        {
+          "start": 79.346,
+          "end": 79.586
+        },
+        {
+          "start": 79.586,
+          "end": 79.906
+        },
+        {
+          "start": 79.906,
+          "end": 80.226
+        },
+        {
+          "start": 80.226,
+          "end": 80.336
+        },
+        {
+          "start": 80.336,
+          "end": 80.446
+        },
+        {
+          "start": 80.446,
+          "end": 80.666
+        },
+        {
+          "start": 80.666,
+          "end": 81.236
+        }
+      ]
+    },
+    {
+      "text": "あたたかい もうふ、しろい まくら",
+      "start": 81.256,
+      "end": 82.976,
+      "section": "bridge",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 81.286,
+          "end": 81.385
+        },
+        {
+          "start": 81.385,
+          "end": 81.485
+        },
+        {
+          "start": 81.485,
+          "end": 81.584
+        },
+        {
+          "start": 81.584,
+          "end": 81.684
+        },
+        {
+          "start": 81.684,
+          "end": 81.783
+        },
+        {
+          "start": 81.783,
+          "end": 81.882
+        },
+        {
+          "start": 81.882,
+          "end": 81.982
+        },
+        {
+          "start": 81.982,
+          "end": 82.081
+        },
+        {
+          "start": 82.081,
+          "end": 82.181
+        },
+        {
+          "start": 82.181,
+          "end": 82.28
+        },
+        {
+          "start": 82.28,
+          "end": 82.38
+        },
+        {
+          "start": 82.38,
+          "end": 82.479
+        },
+        {
+          "start": 82.479,
+          "end": 82.578
+        },
+        {
+          "start": 82.578,
+          "end": 82.678
+        },
+        {
+          "start": 82.678,
+          "end": 82.777
+        },
+        {
+          "start": 82.777,
+          "end": 82.877
+        },
+        {
+          "start": 82.877,
+          "end": 82.976
+        }
+      ]
+    },
+    {
+      "text": "ま み む め も",
+      "start": 82.996,
+      "end": 83.316,
+      "section": "refrain",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 83.026,
+          "end": 83.058
+        },
+        {
+          "start": 83.058,
+          "end": 83.09
+        },
+        {
+          "start": 83.09,
+          "end": 83.123
+        },
+        {
+          "start": 83.123,
+          "end": 83.155
+        },
+        {
+          "start": 83.155,
+          "end": 83.187
+        },
+        {
+          "start": 83.187,
+          "end": 83.219
+        },
+        {
+          "start": 83.219,
+          "end": 83.252
+        },
+        {
+          "start": 83.252,
+          "end": 83.284
+        },
+        {
+          "start": 83.284,
+          "end": 83.316
+        }
+      ]
+    },
+    {
+      "text": "まど を あける",
+      "start": 83.336,
+      "end": 83.636,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 83.366,
+          "end": 83.4
+        },
+        {
+          "start": 83.4,
+          "end": 83.433
+        },
+        {
+          "start": 83.433,
+          "end": 83.467
+        },
+        {
+          "start": 83.467,
+          "end": 83.501
+        },
+        {
+          "start": 83.501,
+          "end": 83.535
+        },
+        {
+          "start": 83.535,
+          "end": 83.569
+        },
+        {
+          "start": 83.569,
+          "end": 83.602
+        },
+        {
+          "start": 83.602,
+          "end": 83.636
+        }
+      ]
+    },
+    {
+      "text": "しろい まくら",
+      "start": 83.656,
+      "end": 85.576,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 83.626,
+          "end": 83.786
+        },
+        {
+          "start": 83.786,
+          "end": 84.066
+        },
+        {
+          "start": 84.066,
+          "end": 84.526
+        },
+        {
+          "start": 84.526,
+          "end": 84.986
+        },
+        {
+          "start": 84.986,
+          "end": 85.096
+        },
+        {
+          "start": 85.096,
+          "end": 85.206
+        },
+        {
+          "start": 85.206,
+          "end": 85.576
+        }
+      ]
+    },
+    {
+      "text": "まめ を たべる",
+      "start": 85.596,
+      "end": 87.396,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 85.626,
+          "end": 85.847
+        },
+        {
+          "start": 85.847,
+          "end": 86.069
+        },
+        {
+          "start": 86.069,
+          "end": 86.29
+        },
+        {
+          "start": 86.29,
+          "end": 86.511
+        },
+        {
+          "start": 86.511,
+          "end": 86.732
+        },
+        {
+          "start": 86.732,
+          "end": 86.954
+        },
+        {
+          "start": 86.954,
+          "end": 87.175
+        },
+        {
+          "start": 87.175,
+          "end": 87.396
+        }
+      ]
+    },
+    {
+      "text": "あまい みかん",
+      "start": 87.416,
+      "end": 88.216,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 87.446,
+          "end": 87.556
+        },
+        {
+          "start": 87.556,
+          "end": 87.666
+        },
+        {
+          "start": 87.666,
+          "end": 87.776
+        },
+        {
+          "start": 87.776,
+          "end": 87.886
+        },
+        {
+          "start": 87.886,
+          "end": 87.996
+        },
+        {
+          "start": 87.996,
+          "end": 88.106
+        },
+        {
+          "start": 88.106,
+          "end": 88.216
+        }
+      ]
+    },
+    {
+      "text": "つめたい みず",
+      "start": 88.236,
+      "end": 89.296,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 88.266,
+          "end": 88.413
+        },
+        {
+          "start": 88.413,
+          "end": 88.56
+        },
+        {
+          "start": 88.56,
+          "end": 88.707
+        },
+        {
+          "start": 88.707,
+          "end": 88.855
+        },
+        {
+          "start": 88.855,
+          "end": 89.002
+        },
+        {
+          "start": 89.002,
+          "end": 89.149
+        },
+        {
+          "start": 89.149,
+          "end": 89.296
+        }
+      ]
+    },
+    {
+      "text": "うさぎ の みみ",
+      "start": 89.316,
+      "end": 89.656,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 89.346,
+          "end": 89.385
+        },
+        {
+          "start": 89.385,
+          "end": 89.424
+        },
+        {
+          "start": 89.424,
+          "end": 89.462
+        },
+        {
+          "start": 89.462,
+          "end": 89.501
+        },
+        {
+          "start": 89.501,
+          "end": 89.54
+        },
+        {
+          "start": 89.54,
+          "end": 89.579
+        },
+        {
+          "start": 89.579,
+          "end": 89.617
+        },
+        {
+          "start": 89.617,
+          "end": 89.656
+        }
+      ]
+    },
+    {
+      "text": "ちいさい むし",
+      "start": 89.676,
+      "end": 90.216,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 89.706,
+          "end": 89.779
+        },
+        {
+          "start": 89.779,
+          "end": 89.852
+        },
+        {
+          "start": 89.852,
+          "end": 89.925
+        },
+        {
+          "start": 89.925,
+          "end": 89.997
+        },
+        {
+          "start": 89.997,
+          "end": 90.07
+        },
+        {
+          "start": 90.07,
+          "end": 90.143
+        },
+        {
+          "start": 90.143,
+          "end": 90.216
+        }
+      ]
+    },
+    {
+      "text": "むらさきの はな",
+      "start": 90.236,
+      "end": 91.156,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 90.266,
+          "end": 90.377
+        },
+        {
+          "start": 90.377,
+          "end": 90.489
+        },
+        {
+          "start": 90.489,
+          "end": 90.6
+        },
+        {
+          "start": 90.6,
+          "end": 90.711
+        },
+        {
+          "start": 90.711,
+          "end": 90.822
+        },
+        {
+          "start": 90.822,
+          "end": 90.934
+        },
+        {
+          "start": 90.934,
+          "end": 91.045
+        },
+        {
+          "start": 91.045,
+          "end": 91.156
+        }
+      ]
+    },
+    {
+      "text": "むぎ の ちゃ",
+      "start": 91.176,
+      "end": 93.016,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 91.206,
+          "end": 91.465
+        },
+        {
+          "start": 91.465,
+          "end": 91.723
+        },
+        {
+          "start": 91.723,
+          "end": 91.982
+        },
+        {
+          "start": 91.982,
+          "end": 92.24
+        },
+        {
+          "start": 92.24,
+          "end": 92.499
+        },
+        {
+          "start": 92.499,
+          "end": 92.757
+        },
+        {
+          "start": 92.757,
+          "end": 93.016
+        }
+      ]
+    },
+    {
+      "text": "おおきい め",
+      "start": 93.036,
+      "end": 93.617,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 93.066,
+          "end": 93.158
+        },
+        {
+          "start": 93.158,
+          "end": 93.25
+        },
+        {
+          "start": 93.25,
+          "end": 93.341
+        },
+        {
+          "start": 93.341,
+          "end": 93.433
+        },
+        {
+          "start": 93.433,
+          "end": 93.525
+        },
+        {
+          "start": 93.525,
+          "end": 93.617
+        }
+      ]
+    },
+    {
+      "text": "まるい めがね",
+      "start": 93.637,
+      "end": 94.197,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 93.667,
+          "end": 93.743
+        },
+        {
+          "start": 93.743,
+          "end": 93.818
+        },
+        {
+          "start": 93.818,
+          "end": 93.894
+        },
+        {
+          "start": 93.894,
+          "end": 93.97
+        },
+        {
+          "start": 93.97,
+          "end": 94.046
+        },
+        {
+          "start": 94.046,
+          "end": 94.121
+        },
+        {
+          "start": 94.121,
+          "end": 94.197
+        }
+      ]
+    },
+    {
+      "text": "めだか が およぐ",
+      "start": 94.217,
+      "end": 95.017,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 94.247,
+          "end": 94.333
+        },
+        {
+          "start": 94.333,
+          "end": 94.418
+        },
+        {
+          "start": 94.418,
+          "end": 94.504
+        },
+        {
+          "start": 94.504,
+          "end": 94.589
+        },
+        {
+          "start": 94.589,
+          "end": 94.675
+        },
+        {
+          "start": 94.675,
+          "end": 94.76
+        },
+        {
+          "start": 94.76,
+          "end": 94.846
+        },
+        {
+          "start": 94.846,
+          "end": 94.931
+        },
+        {
+          "start": 94.931,
+          "end": 95.017
+        }
+      ]
+    },
+    {
+      "text": "あまい もも",
+      "start": 95.037,
+      "end": 95.497,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 95.067,
+          "end": 95.139
+        },
+        {
+          "start": 95.139,
+          "end": 95.21
+        },
+        {
+          "start": 95.21,
+          "end": 95.282
+        },
+        {
+          "start": 95.282,
+          "end": 95.354
+        },
+        {
+          "start": 95.354,
+          "end": 95.425
+        },
+        {
+          "start": 95.425,
+          "end": 95.497
+        }
+      ]
+    },
+    {
+      "text": "しろい もち",
+      "start": 95.517,
+      "end": 96.217,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 95.547,
+          "end": 95.659
+        },
+        {
+          "start": 95.659,
+          "end": 95.77
+        },
+        {
+          "start": 95.77,
+          "end": 95.882
+        },
+        {
+          "start": 95.882,
+          "end": 95.994
+        },
+        {
+          "start": 95.994,
+          "end": 96.105
+        },
+        {
+          "start": 96.105,
+          "end": 96.217
+        }
+      ]
+    },
+    {
+      "text": "あたたかい もうふ",
+      "start": 96.237,
+      "end": 97.197,
+      "section": "review",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 96.267,
+          "end": 96.37
+        },
+        {
+          "start": 96.37,
+          "end": 96.474
+        },
+        {
+          "start": 96.474,
+          "end": 96.577
+        },
+        {
+          "start": 96.577,
+          "end": 96.68
+        },
+        {
+          "start": 96.68,
+          "end": 96.784
+        },
+        {
+          "start": 96.784,
+          "end": 96.887
+        },
+        {
+          "start": 96.887,
+          "end": 96.99
+        },
+        {
+          "start": 96.99,
+          "end": 97.094
+        },
+        {
+          "start": 97.094,
+          "end": 97.197
+        }
+      ]
+    },
+    {
+      "text": "ま み む め も",
+      "start": 97.217,
+      "end": 97.637,
+      "section": "refrain",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 97.247,
+          "end": 97.29
+        },
+        {
+          "start": 97.29,
+          "end": 97.334
+        },
+        {
+          "start": 97.334,
+          "end": 97.377
+        },
+        {
+          "start": 97.377,
+          "end": 97.42
+        },
+        {
+          "start": 97.42,
+          "end": 97.464
+        },
+        {
+          "start": 97.464,
+          "end": 97.507
+        },
+        {
+          "start": 97.507,
+          "end": 97.55
+        },
+        {
+          "start": 97.55,
+          "end": 97.594
+        },
+        {
+          "start": 97.594,
+          "end": 97.637
+        }
+      ]
+    },
+    {
+      "text": "ま み む め も",
+      "start": 97.657,
+      "end": 99.507,
+      "section": "outro",
+      "illos": [
+        "mado",
+        "makura",
+        "mame"
+      ],
+      "chars": [
+        {
+          "start": 97.687,
+          "end": 97.797
+        },
+        {
+          "start": 97.797,
+          "end": 97.907
+        },
+        {
+          "start": 97.907,
+          "end": 98.017
+        },
+        {
+          "start": 98.017,
+          "end": 98.127
+        },
+        {
+          "start": 98.127,
+          "end": 98.237
+        },
+        {
+          "start": 98.237,
+          "end": 98.347
+        },
+        {
+          "start": 98.347,
+          "end": 98.457
+        },
+        {
+          "start": 98.457,
+          "end": 98.567
+        },
+        {
+          "start": 98.567,
+          "end": 99.507
+        }
+      ]
+    }
+  ],
+  "_aligned": {
+    "tool": "whisperx",
+    "anchored_chars": 330,
+    "total_chars": 330
+  }
+}

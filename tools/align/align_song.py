@@ -197,6 +197,9 @@ def main():
         "anchored_chars": aligned,
         "total_chars": len(align_text),
     }
+    # Alignment IS the real timing — clear the scaffold's placeholder flag so the
+    # video stops rendering the "placeholder timing · align for real sync" footer.
+    timing["placeholder"] = False
 
     # Report per line
     print("\nLine windows after alignment:")

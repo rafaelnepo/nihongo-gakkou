@@ -1,0 +1,2564 @@
+{
+  "song": "06-hahifuheho-gakkou",
+  "title": "はひふへほ・つくって あそぼう",
+  "trackName": "つくって あそぼう",
+  "trackNo": "06",
+  "row": "はひふへほ",
+  "channel": "iconotes",
+  "style": "City Pop",
+  "bpm": 92,
+  "ilBase": "06-hahifuheho-gakkou/il",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "06-hahifuheho-gakkou/audio.wav",
+  "countInSeconds": 1.1,
+  "tailSeconds": 1.5,
+  "durationSeconds": 148.75,
+  "placeholder": false,
+  "lines": [
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 0.69,
+      "end": 3.74,
+      "section": "intro",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 0.84,
+          "end": 1.14
+        },
+        {
+          "start": 1.14,
+          "end": 1.44
+        },
+        {
+          "start": 1.44,
+          "end": 1.76
+        },
+        {
+          "start": 1.76,
+          "end": 2.08
+        },
+        {
+          "start": 2.08,
+          "end": 2.19
+        },
+        {
+          "start": 2.19,
+          "end": 2.3
+        },
+        {
+          "start": 2.3,
+          "end": 2.41
+        },
+        {
+          "start": 2.41,
+          "end": 2.54
+        },
+        {
+          "start": 2.54,
+          "end": 3.74
+        }
+      ]
+    },
+    {
+      "text": "はさみ",
+      "start": 3.76,
+      "end": 4.63,
+      "section": "verse",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "target": "hasami",
+      "chars": [
+        {
+          "start": 3.88,
+          "end": 4.1
+        },
+        {
+          "start": 4.1,
+          "end": 4.26
+        },
+        {
+          "start": 4.26,
+          "end": 4.63
+        }
+      ]
+    },
+    {
+      "text": "はさみ で きる",
+      "start": 4.65,
+      "end": 6.29,
+      "section": "verse",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "target": "hasami",
+      "chars": [
+        {
+          "start": 4.68,
+          "end": 4.86
+        },
+        {
+          "start": 4.86,
+          "end": 5.02
+        },
+        {
+          "start": 5.02,
+          "end": 5.18
+        },
+        {
+          "start": 5.18,
+          "end": 5.34
+        },
+        {
+          "start": 5.34,
+          "end": 5.45
+        },
+        {
+          "start": 5.45,
+          "end": 5.56
+        },
+        {
+          "start": 5.56,
+          "end": 6.1
+        },
+        {
+          "start": 6.1,
+          "end": 6.29
+        }
+      ]
+    },
+    {
+      "text": "はこ",
+      "start": 6.31,
+      "end": 7.11,
+      "section": "verse",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "target": "hako",
+      "chars": [
+        {
+          "start": 6.34,
+          "end": 6.68
+        },
+        {
+          "start": 6.68,
+          "end": 7.11
+        }
+      ]
+    },
+    {
+      "text": "はこ を あける",
+      "start": 7.13,
+      "end": 8.431,
+      "section": "verse",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "target": "hako",
+      "chars": [
+        {
+          "start": 7.16,
+          "end": 7.319
+        },
+        {
+          "start": 7.319,
+          "end": 7.478
+        },
+        {
+          "start": 7.478,
+          "end": 7.637
+        },
+        {
+          "start": 7.637,
+          "end": 7.795
+        },
+        {
+          "start": 7.795,
+          "end": 7.954
+        },
+        {
+          "start": 7.954,
+          "end": 8.113
+        },
+        {
+          "start": 8.113,
+          "end": 8.272
+        },
+        {
+          "start": 8.272,
+          "end": 8.431
+        }
+      ]
+    },
+    {
+      "text": "はた",
+      "start": 8.451,
+      "end": 9.251,
+      "section": "verse",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "target": "hata",
+      "chars": [
+        {
+          "start": 8.481,
+          "end": 8.841
+        },
+        {
+          "start": 8.841,
+          "end": 9.251
+        }
+      ]
+    },
+    {
+      "text": "あかい はた",
+      "start": 9.271,
+      "end": 11.121,
+      "section": "verse",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "target": "hata",
+      "chars": [
+        {
+          "start": 9.301,
+          "end": 9.411
+        },
+        {
+          "start": 9.411,
+          "end": 9.521
+        },
+        {
+          "start": 9.521,
+          "end": 9.631
+        },
+        {
+          "start": 9.631,
+          "end": 9.741
+        },
+        {
+          "start": 9.741,
+          "end": 9.921
+        },
+        {
+          "start": 9.921,
+          "end": 11.121
+        }
+      ]
+    },
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 11.141,
+      "end": 15.671,
+      "section": "refrain",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 11.241,
+          "end": 11.851
+        },
+        {
+          "start": 11.851,
+          "end": 12.461
+        },
+        {
+          "start": 12.461,
+          "end": 13.001
+        },
+        {
+          "start": 13.001,
+          "end": 13.541
+        },
+        {
+          "start": 13.541,
+          "end": 13.871
+        },
+        {
+          "start": 13.871,
+          "end": 14.201
+        },
+        {
+          "start": 14.201,
+          "end": 14.421
+        },
+        {
+          "start": 14.421,
+          "end": 14.641
+        },
+        {
+          "start": 14.641,
+          "end": 15.671
+        }
+      ]
+    },
+    {
+      "text": "ひこうき",
+      "start": 15.691,
+      "end": 16.711,
+      "section": "verse",
+      "illos": [
+        "hikouki",
+        "himo",
+        "hikari"
+      ],
+      "target": "hikouki",
+      "chars": [
+        {
+          "start": 15.721,
+          "end": 16.021
+        },
+        {
+          "start": 16.021,
+          "end": 16.321
+        },
+        {
+          "start": 16.321,
+          "end": 16.481
+        },
+        {
+          "start": 16.481,
+          "end": 16.711
+        }
+      ]
+    },
+    {
+      "text": "かみ の ひこうき",
+      "start": 16.731,
+      "end": 18.171,
+      "section": "verse",
+      "illos": [
+        "hikouki",
+        "himo",
+        "hikari"
+      ],
+      "target": "hikouki",
+      "chars": [
+        {
+          "start": 16.761,
+          "end": 16.961
+        },
+        {
+          "start": 16.961,
+          "end": 17.071
+        },
+        {
+          "start": 17.071,
+          "end": 17.181
+        },
+        {
+          "start": 17.181,
+          "end": 17.291
+        },
+        {
+          "start": 17.291,
+          "end": 17.401
+        },
+        {
+          "start": 17.401,
+          "end": 17.511
+        },
+        {
+          "start": 17.511,
+          "end": 17.621
+        },
+        {
+          "start": 17.621,
+          "end": 17.881
+        },
+        {
+          "start": 17.881,
+          "end": 18.171
+        }
+      ]
+    },
+    {
+      "text": "ひも",
+      "start": 18.191,
+      "end": 18.911,
+      "section": "verse",
+      "illos": [
+        "hikouki",
+        "himo",
+        "hikari"
+      ],
+      "target": "himo",
+      "chars": [
+        {
+          "start": 18.221,
+          "end": 18.601
+        },
+        {
+          "start": 18.601,
+          "end": 18.911
+        }
+      ]
+    },
+    {
+      "text": "ながい ひも",
+      "start": 18.931,
+      "end": 20.371,
+      "section": "verse",
+      "illos": [
+        "hikouki",
+        "himo",
+        "hikari"
+      ],
+      "target": "himo",
+      "chars": [
+        {
+          "start": 18.961,
+          "end": 19.241
+        },
+        {
+          "start": 19.241,
+          "end": 19.421
+        },
+        {
+          "start": 19.421,
+          "end": 19.531
+        },
+        {
+          "start": 19.531,
+          "end": 19.641
+        },
+        {
+          "start": 19.641,
+          "end": 20.021
+        },
+        {
+          "start": 20.021,
+          "end": 20.371
+        }
+      ]
+    },
+    {
+      "text": "ひかり",
+      "start": 20.391,
+      "end": 21.511,
+      "section": "verse",
+      "illos": [
+        "hikouki",
+        "himo",
+        "hikari"
+      ],
+      "target": "hikari",
+      "chars": [
+        {
+          "start": 20.421,
+          "end": 20.761
+        },
+        {
+          "start": 20.761,
+          "end": 21.081
+        },
+        {
+          "start": 21.081,
+          "end": 21.511
+        }
+      ]
+    },
+    {
+      "text": "あかるい ひかり",
+      "start": 21.531,
+      "end": 23.432,
+      "section": "verse",
+      "illos": [
+        "hikouki",
+        "himo",
+        "hikari"
+      ],
+      "target": "hikari",
+      "chars": [
+        {
+          "start": 21.561,
+          "end": 21.681
+        },
+        {
+          "start": 21.681,
+          "end": 21.861
+        },
+        {
+          "start": 21.861,
+          "end": 21.971
+        },
+        {
+          "start": 21.971,
+          "end": 22.081
+        },
+        {
+          "start": 22.081,
+          "end": 22.191
+        },
+        {
+          "start": 22.191,
+          "end": 22.462
+        },
+        {
+          "start": 22.462,
+          "end": 22.802
+        },
+        {
+          "start": 22.802,
+          "end": 23.432
+        }
+      ]
+    },
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 23.452,
+      "end": 26.092,
+      "section": "refrain",
+      "illos": [
+        "hikouki",
+        "himo",
+        "hikari"
+      ],
+      "chars": [
+        {
+          "start": 23.482,
+          "end": 23.772
+        },
+        {
+          "start": 23.772,
+          "end": 24.062
+        },
+        {
+          "start": 24.062,
+          "end": 24.382
+        },
+        {
+          "start": 24.382,
+          "end": 24.702
+        },
+        {
+          "start": 24.702,
+          "end": 25.182
+        },
+        {
+          "start": 25.182,
+          "end": 25.662
+        },
+        {
+          "start": 25.662,
+          "end": 25.772
+        },
+        {
+          "start": 25.772,
+          "end": 25.882
+        },
+        {
+          "start": 25.882,
+          "end": 26.092
+        }
+      ]
+    },
+    {
+      "text": "ふで",
+      "start": 26.112,
+      "end": 27.312,
+      "section": "verse",
+      "illos": [
+        "fude",
+        "fuusen",
+        "fue"
+      ],
+      "target": "fude",
+      "chars": [
+        {
+          "start": 26.142,
+          "end": 27.202
+        },
+        {
+          "start": 27.202,
+          "end": 27.312
+        }
+      ]
+    },
+    {
+      "text": "ふで で かく",
+      "start": 27.332,
+      "end": 30.432,
+      "section": "verse",
+      "illos": [
+        "fude",
+        "fuusen",
+        "fue"
+      ],
+      "target": "fude",
+      "chars": [
+        {
+          "start": 27.362,
+          "end": 27.472
+        },
+        {
+          "start": 27.472,
+          "end": 28.052
+        },
+        {
+          "start": 28.052,
+          "end": 28.722
+        },
+        {
+          "start": 28.722,
+          "end": 29.272
+        },
+        {
+          "start": 29.272,
+          "end": 29.822
+        },
+        {
+          "start": 29.822,
+          "end": 30.122
+        },
+        {
+          "start": 30.122,
+          "end": 30.432
+        }
+      ]
+    },
+    {
+      "text": "ふうせん",
+      "start": 30.452,
+      "end": 31.312,
+      "section": "verse",
+      "illos": [
+        "fude",
+        "fuusen",
+        "fue"
+      ],
+      "target": "fuusen",
+      "chars": [
+        {
+          "start": 30.482,
+          "end": 30.702
+        },
+        {
+          "start": 30.702,
+          "end": 30.882
+        },
+        {
+          "start": 30.882,
+          "end": 31.202
+        },
+        {
+          "start": 31.202,
+          "end": 31.312
+        }
+      ]
+    },
+    {
+      "text": "まるい ふうせん",
+      "start": 31.332,
+      "end": 33.872,
+      "section": "verse",
+      "illos": [
+        "fude",
+        "fuusen",
+        "fue"
+      ],
+      "target": "fuusen",
+      "chars": [
+        {
+          "start": 31.362,
+          "end": 31.676
+        },
+        {
+          "start": 31.676,
+          "end": 31.989
+        },
+        {
+          "start": 31.989,
+          "end": 32.303
+        },
+        {
+          "start": 32.303,
+          "end": 32.617
+        },
+        {
+          "start": 32.617,
+          "end": 32.931
+        },
+        {
+          "start": 32.931,
+          "end": 33.245
+        },
+        {
+          "start": 33.245,
+          "end": 33.558
+        },
+        {
+          "start": 33.558,
+          "end": 33.872
+        }
+      ]
+    },
+    {
+      "text": "ふえ",
+      "start": 33.892,
+      "end": 34.192,
+      "section": "verse",
+      "illos": [
+        "fude",
+        "fuusen",
+        "fue"
+      ],
+      "target": "fue",
+      "chars": [
+        {
+          "start": 33.922,
+          "end": 34.057
+        },
+        {
+          "start": 34.057,
+          "end": 34.192
+        }
+      ]
+    },
+    {
+      "text": "ふえ を ふく",
+      "start": 34.212,
+      "end": 35.692,
+      "section": "verse",
+      "illos": [
+        "fude",
+        "fuusen",
+        "fue"
+      ],
+      "target": "fue",
+      "chars": [
+        {
+          "start": 34.142,
+          "end": 34.252
+        },
+        {
+          "start": 34.252,
+          "end": 34.362
+        },
+        {
+          "start": 34.362,
+          "end": 34.472
+        },
+        {
+          "start": 34.472,
+          "end": 34.582
+        },
+        {
+          "start": 34.582,
+          "end": 34.692
+        },
+        {
+          "start": 34.692,
+          "end": 34.802
+        },
+        {
+          "start": 34.802,
+          "end": 35.692
+        }
+      ]
+    },
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 35.712,
+      "end": 38.933,
+      "section": "refrain",
+      "illos": [
+        "fude",
+        "fuusen",
+        "fue"
+      ],
+      "chars": [
+        {
+          "start": 35.742,
+          "end": 36.032
+        },
+        {
+          "start": 36.032,
+          "end": 36.322
+        },
+        {
+          "start": 36.322,
+          "end": 36.642
+        },
+        {
+          "start": 36.642,
+          "end": 36.962
+        },
+        {
+          "start": 36.962,
+          "end": 37.142
+        },
+        {
+          "start": 37.142,
+          "end": 37.323
+        },
+        {
+          "start": 37.323,
+          "end": 37.683
+        },
+        {
+          "start": 37.683,
+          "end": 38.043
+        },
+        {
+          "start": 38.043,
+          "end": 38.933
+        }
+      ]
+    },
+    {
+      "text": "へや",
+      "start": 38.953,
+      "end": 40.433,
+      "section": "verse",
+      "illos": [
+        "heya",
+        "hei",
+        "hechima"
+      ],
+      "target": "heya",
+      "chars": [
+        {
+          "start": 38.983,
+          "end": 40.263
+        },
+        {
+          "start": 40.263,
+          "end": 40.433
+        }
+      ]
+    },
+    {
+      "text": "あかるい へや",
+      "start": 40.453,
+      "end": 41.613,
+      "section": "verse",
+      "illos": [
+        "heya",
+        "hei",
+        "hechima"
+      ],
+      "target": "heya",
+      "chars": [
+        {
+          "start": 40.483,
+          "end": 40.683
+        },
+        {
+          "start": 40.683,
+          "end": 40.843
+        },
+        {
+          "start": 40.843,
+          "end": 41.003
+        },
+        {
+          "start": 41.003,
+          "end": 41.113
+        },
+        {
+          "start": 41.113,
+          "end": 41.223
+        },
+        {
+          "start": 41.223,
+          "end": 41.333
+        },
+        {
+          "start": 41.333,
+          "end": 41.613
+        }
+      ]
+    },
+    {
+      "text": "へい",
+      "start": 41.633,
+      "end": 42.133,
+      "section": "verse",
+      "illos": [
+        "heya",
+        "hei",
+        "hechima"
+      ],
+      "target": "hei",
+      "chars": [
+        {
+          "start": 41.663,
+          "end": 41.898
+        },
+        {
+          "start": 41.898,
+          "end": 42.133
+        }
+      ]
+    },
+    {
+      "text": "しろい へい",
+      "start": 42.153,
+      "end": 43.393,
+      "section": "verse",
+      "illos": [
+        "heya",
+        "hei",
+        "hechima"
+      ],
+      "target": "hei",
+      "chars": [
+        {
+          "start": 42.183,
+          "end": 42.385
+        },
+        {
+          "start": 42.385,
+          "end": 42.586
+        },
+        {
+          "start": 42.586,
+          "end": 42.788
+        },
+        {
+          "start": 42.788,
+          "end": 42.99
+        },
+        {
+          "start": 42.99,
+          "end": 43.191
+        },
+        {
+          "start": 43.191,
+          "end": 43.393
+        }
+      ]
+    },
+    {
+      "text": "へちま",
+      "start": 43.413,
+      "end": 44.913,
+      "section": "verse",
+      "illos": [
+        "heya",
+        "hei",
+        "hechima"
+      ],
+      "target": "hechima",
+      "chars": [
+        {
+          "start": 43.443,
+          "end": 44.043
+        },
+        {
+          "start": 44.043,
+          "end": 44.203
+        },
+        {
+          "start": 44.203,
+          "end": 44.913
+        }
+      ]
+    },
+    {
+      "text": "みどりの へちま",
+      "start": 44.933,
+      "end": 47.843,
+      "section": "verse",
+      "illos": [
+        "heya",
+        "hei",
+        "hechima"
+      ],
+      "target": "hechima",
+      "chars": [
+        {
+          "start": 44.963,
+          "end": 45.143
+        },
+        {
+          "start": 45.143,
+          "end": 45.423
+        },
+        {
+          "start": 45.423,
+          "end": 45.883
+        },
+        {
+          "start": 45.883,
+          "end": 46.003
+        },
+        {
+          "start": 46.003,
+          "end": 46.123
+        },
+        {
+          "start": 46.123,
+          "end": 46.363
+        },
+        {
+          "start": 46.363,
+          "end": 46.643
+        },
+        {
+          "start": 46.643,
+          "end": 47.843
+        }
+      ]
+    },
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 47.863,
+      "end": 51.333,
+      "section": "refrain",
+      "illos": [
+        "heya",
+        "hei",
+        "hechima"
+      ],
+      "chars": [
+        {
+          "start": 47.963,
+          "end": 48.583
+        },
+        {
+          "start": 48.583,
+          "end": 49.203
+        },
+        {
+          "start": 49.203,
+          "end": 49.393
+        },
+        {
+          "start": 49.393,
+          "end": 49.583
+        },
+        {
+          "start": 49.583,
+          "end": 49.813
+        },
+        {
+          "start": 49.813,
+          "end": 50.043
+        },
+        {
+          "start": 50.043,
+          "end": 50.163
+        },
+        {
+          "start": 50.163,
+          "end": 50.283
+        },
+        {
+          "start": 50.283,
+          "end": 51.333
+        }
+      ]
+    },
+    {
+      "text": "ほん",
+      "start": 51.353,
+      "end": 52.394,
+      "section": "verse",
+      "illos": [
+        "hon",
+        "houki",
+        "hoshi"
+      ],
+      "target": "hon",
+      "chars": [
+        {
+          "start": 51.383,
+          "end": 51.863
+        },
+        {
+          "start": 51.863,
+          "end": 52.394
+        }
+      ]
+    },
+    {
+      "text": "ほん を よむ",
+      "start": 52.414,
+      "end": 54.274,
+      "section": "verse",
+      "illos": [
+        "hon",
+        "houki",
+        "hoshi"
+      ],
+      "target": "hon",
+      "chars": [
+        {
+          "start": 52.444,
+          "end": 52.705
+        },
+        {
+          "start": 52.705,
+          "end": 52.967
+        },
+        {
+          "start": 52.967,
+          "end": 53.228
+        },
+        {
+          "start": 53.228,
+          "end": 53.49
+        },
+        {
+          "start": 53.49,
+          "end": 53.751
+        },
+        {
+          "start": 53.751,
+          "end": 54.013
+        },
+        {
+          "start": 54.013,
+          "end": 54.274
+        }
+      ]
+    },
+    {
+      "text": "ほうき",
+      "start": 54.294,
+      "end": 55.274,
+      "section": "verse",
+      "illos": [
+        "hon",
+        "houki",
+        "hoshi"
+      ],
+      "target": "houki",
+      "chars": [
+        {
+          "start": 54.324,
+          "end": 54.884
+        },
+        {
+          "start": 54.884,
+          "end": 55.064
+        },
+        {
+          "start": 55.064,
+          "end": 55.274
+        }
+      ]
+    },
+    {
+      "text": "ほうき で はく",
+      "start": 55.294,
+      "end": 57.054,
+      "section": "verse",
+      "illos": [
+        "hon",
+        "houki",
+        "hoshi"
+      ],
+      "target": "houki",
+      "chars": [
+        {
+          "start": 55.324,
+          "end": 55.664
+        },
+        {
+          "start": 55.664,
+          "end": 55.964
+        },
+        {
+          "start": 55.964,
+          "end": 56.074
+        },
+        {
+          "start": 56.074,
+          "end": 56.184
+        },
+        {
+          "start": 56.184,
+          "end": 56.294
+        },
+        {
+          "start": 56.294,
+          "end": 56.404
+        },
+        {
+          "start": 56.404,
+          "end": 56.764
+        },
+        {
+          "start": 56.764,
+          "end": 57.054
+        }
+      ]
+    },
+    {
+      "text": "ほし",
+      "start": 57.074,
+      "end": 58.014,
+      "section": "verse",
+      "illos": [
+        "hon",
+        "houki",
+        "hoshi"
+      ],
+      "target": "hoshi",
+      "chars": [
+        {
+          "start": 57.104,
+          "end": 57.484
+        },
+        {
+          "start": 57.484,
+          "end": 58.014
+        }
+      ]
+    },
+    {
+      "text": "よる の ほし",
+      "start": 58.034,
+      "end": 60.174,
+      "section": "verse",
+      "illos": [
+        "hon",
+        "houki",
+        "hoshi"
+      ],
+      "target": "hoshi",
+      "chars": [
+        {
+          "start": 58.064,
+          "end": 58.304
+        },
+        {
+          "start": 58.304,
+          "end": 58.454
+        },
+        {
+          "start": 58.454,
+          "end": 58.604
+        },
+        {
+          "start": 58.604,
+          "end": 58.714
+        },
+        {
+          "start": 58.714,
+          "end": 58.824
+        },
+        {
+          "start": 58.824,
+          "end": 59.204
+        },
+        {
+          "start": 59.204,
+          "end": 60.174
+        }
+      ]
+    },
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 60.194,
+      "end": 66.915,
+      "section": "refrain",
+      "illos": [
+        "hon",
+        "houki",
+        "hoshi"
+      ],
+      "chars": [
+        {
+          "start": 60.224,
+          "end": 60.967
+        },
+        {
+          "start": 60.967,
+          "end": 61.711
+        },
+        {
+          "start": 61.711,
+          "end": 62.454
+        },
+        {
+          "start": 62.454,
+          "end": 63.198
+        },
+        {
+          "start": 63.198,
+          "end": 63.941
+        },
+        {
+          "start": 63.941,
+          "end": 64.685
+        },
+        {
+          "start": 64.685,
+          "end": 65.428
+        },
+        {
+          "start": 65.428,
+          "end": 66.172
+        },
+        {
+          "start": 66.172,
+          "end": 66.915
+        }
+      ]
+    },
+    {
+      "text": "はさみ で きって、はこ を あける",
+      "start": 66.935,
+      "end": 69.555,
+      "section": "bridge",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 66.965,
+          "end": 67.165
+        },
+        {
+          "start": 67.165,
+          "end": 67.325
+        },
+        {
+          "start": 67.325,
+          "end": 67.435
+        },
+        {
+          "start": 67.435,
+          "end": 67.545
+        },
+        {
+          "start": 67.545,
+          "end": 67.655
+        },
+        {
+          "start": 67.655,
+          "end": 67.765
+        },
+        {
+          "start": 67.765,
+          "end": 67.875
+        },
+        {
+          "start": 67.875,
+          "end": 67.985
+        },
+        {
+          "start": 67.985,
+          "end": 68.095
+        },
+        {
+          "start": 68.095,
+          "end": 68.205
+        },
+        {
+          "start": 68.205,
+          "end": 68.405
+        },
+        {
+          "start": 68.405,
+          "end": 68.555
+        },
+        {
+          "start": 68.555,
+          "end": 68.705
+        },
+        {
+          "start": 68.705,
+          "end": 68.815
+        },
+        {
+          "start": 68.815,
+          "end": 68.925
+        },
+        {
+          "start": 68.925,
+          "end": 69.035
+        },
+        {
+          "start": 69.035,
+          "end": 69.325
+        },
+        {
+          "start": 69.325,
+          "end": 69.555
+        }
+      ]
+    },
+    {
+      "text": "かみ の ひこうき、ながい ひも",
+      "start": 69.575,
+      "end": 71.695,
+      "section": "bridge",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 69.605,
+          "end": 69.736
+        },
+        {
+          "start": 69.736,
+          "end": 69.866
+        },
+        {
+          "start": 69.866,
+          "end": 69.997
+        },
+        {
+          "start": 69.997,
+          "end": 70.127
+        },
+        {
+          "start": 70.127,
+          "end": 70.258
+        },
+        {
+          "start": 70.258,
+          "end": 70.389
+        },
+        {
+          "start": 70.389,
+          "end": 70.519
+        },
+        {
+          "start": 70.519,
+          "end": 70.65
+        },
+        {
+          "start": 70.65,
+          "end": 70.781
+        },
+        {
+          "start": 70.781,
+          "end": 70.911
+        },
+        {
+          "start": 70.911,
+          "end": 71.042
+        },
+        {
+          "start": 71.042,
+          "end": 71.172
+        },
+        {
+          "start": 71.172,
+          "end": 71.303
+        },
+        {
+          "start": 71.303,
+          "end": 71.434
+        },
+        {
+          "start": 71.434,
+          "end": 71.564
+        },
+        {
+          "start": 71.564,
+          "end": 71.695
+        }
+      ]
+    },
+    {
+      "text": "ふで で かく、まるい ふうせん",
+      "start": 71.715,
+      "end": 74.575,
+      "section": "bridge",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 71.745,
+          "end": 71.922
+        },
+        {
+          "start": 71.922,
+          "end": 72.099
+        },
+        {
+          "start": 72.099,
+          "end": 72.276
+        },
+        {
+          "start": 72.276,
+          "end": 72.453
+        },
+        {
+          "start": 72.453,
+          "end": 72.629
+        },
+        {
+          "start": 72.629,
+          "end": 72.806
+        },
+        {
+          "start": 72.806,
+          "end": 72.983
+        },
+        {
+          "start": 72.983,
+          "end": 73.16
+        },
+        {
+          "start": 73.16,
+          "end": 73.337
+        },
+        {
+          "start": 73.337,
+          "end": 73.514
+        },
+        {
+          "start": 73.514,
+          "end": 73.691
+        },
+        {
+          "start": 73.691,
+          "end": 73.868
+        },
+        {
+          "start": 73.868,
+          "end": 74.044
+        },
+        {
+          "start": 74.044,
+          "end": 74.221
+        },
+        {
+          "start": 74.221,
+          "end": 74.398
+        },
+        {
+          "start": 74.398,
+          "end": 74.575
+        }
+      ]
+    },
+    {
+      "text": "ふえ を ふく、あかい はた",
+      "start": 74.595,
+      "end": 77.055,
+      "section": "bridge",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 74.625,
+          "end": 74.799
+        },
+        {
+          "start": 74.799,
+          "end": 74.972
+        },
+        {
+          "start": 74.972,
+          "end": 75.146
+        },
+        {
+          "start": 75.146,
+          "end": 75.319
+        },
+        {
+          "start": 75.319,
+          "end": 75.493
+        },
+        {
+          "start": 75.493,
+          "end": 75.666
+        },
+        {
+          "start": 75.666,
+          "end": 75.84
+        },
+        {
+          "start": 75.84,
+          "end": 76.014
+        },
+        {
+          "start": 76.014,
+          "end": 76.187
+        },
+        {
+          "start": 76.187,
+          "end": 76.361
+        },
+        {
+          "start": 76.361,
+          "end": 76.534
+        },
+        {
+          "start": 76.534,
+          "end": 76.708
+        },
+        {
+          "start": 76.708,
+          "end": 76.881
+        },
+        {
+          "start": 76.881,
+          "end": 77.055
+        }
+      ]
+    },
+    {
+      "text": "あかるい へや、しろい へい",
+      "start": 77.075,
+      "end": 81.896,
+      "section": "bridge",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 77.105,
+          "end": 77.265
+        },
+        {
+          "start": 77.265,
+          "end": 77.375
+        },
+        {
+          "start": 77.375,
+          "end": 77.745
+        },
+        {
+          "start": 77.745,
+          "end": 77.855
+        },
+        {
+          "start": 77.855,
+          "end": 77.965
+        },
+        {
+          "start": 77.965,
+          "end": 78.665
+        },
+        {
+          "start": 78.665,
+          "end": 79.095
+        },
+        {
+          "start": 79.095,
+          "end": 79.525
+        },
+        {
+          "start": 79.525,
+          "end": 79.725
+        },
+        {
+          "start": 79.725,
+          "end": 80.745
+        },
+        {
+          "start": 80.745,
+          "end": 80.905
+        },
+        {
+          "start": 80.905,
+          "end": 81.065
+        },
+        {
+          "start": 81.065,
+          "end": 81.175
+        },
+        {
+          "start": 81.175,
+          "end": 81.896
+        }
+      ]
+    },
+    {
+      "text": "ほん を よむ、よる の ほし",
+      "start": 81.916,
+      "end": 84.696,
+      "section": "bridge",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 81.946,
+          "end": 82.306
+        },
+        {
+          "start": 82.306,
+          "end": 82.416
+        },
+        {
+          "start": 82.416,
+          "end": 82.526
+        },
+        {
+          "start": 82.526,
+          "end": 82.686
+        },
+        {
+          "start": 82.686,
+          "end": 82.926
+        },
+        {
+          "start": 82.926,
+          "end": 83.126
+        },
+        {
+          "start": 83.126,
+          "end": 83.286
+        },
+        {
+          "start": 83.286,
+          "end": 83.446
+        },
+        {
+          "start": 83.446,
+          "end": 83.706
+        },
+        {
+          "start": 83.706,
+          "end": 83.816
+        },
+        {
+          "start": 83.816,
+          "end": 83.926
+        },
+        {
+          "start": 83.926,
+          "end": 84.036
+        },
+        {
+          "start": 84.036,
+          "end": 84.146
+        },
+        {
+          "start": 84.146,
+          "end": 84.306
+        },
+        {
+          "start": 84.306,
+          "end": 84.696
+        }
+      ]
+    },
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 84.716,
+      "end": 88.956,
+      "section": "refrain",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 84.746,
+          "end": 85.026
+        },
+        {
+          "start": 85.026,
+          "end": 85.306
+        },
+        {
+          "start": 85.306,
+          "end": 85.626
+        },
+        {
+          "start": 85.626,
+          "end": 85.946
+        },
+        {
+          "start": 85.946,
+          "end": 86.676
+        },
+        {
+          "start": 86.676,
+          "end": 87.406
+        },
+        {
+          "start": 87.406,
+          "end": 88.076
+        },
+        {
+          "start": 88.076,
+          "end": 88.746
+        },
+        {
+          "start": 88.746,
+          "end": 88.956
+        }
+      ]
+    },
+    {
+      "text": "はさみ で きる",
+      "start": 88.976,
+      "end": 91.186,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 89.006,
+          "end": 89.116
+        },
+        {
+          "start": 89.116,
+          "end": 89.226
+        },
+        {
+          "start": 89.226,
+          "end": 89.336
+        },
+        {
+          "start": 89.336,
+          "end": 89.446
+        },
+        {
+          "start": 89.446,
+          "end": 89.556
+        },
+        {
+          "start": 89.556,
+          "end": 89.666
+        },
+        {
+          "start": 89.666,
+          "end": 89.986
+        },
+        {
+          "start": 89.986,
+          "end": 91.186
+        }
+      ]
+    },
+    {
+      "text": "はこ を あける",
+      "start": 91.296,
+      "end": 93.576,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 91.446,
+          "end": 91.666
+        },
+        {
+          "start": 91.666,
+          "end": 91.776
+        },
+        {
+          "start": 91.776,
+          "end": 91.886
+        },
+        {
+          "start": 91.886,
+          "end": 91.996
+        },
+        {
+          "start": 91.996,
+          "end": 92.106
+        },
+        {
+          "start": 92.106,
+          "end": 92.216
+        },
+        {
+          "start": 92.216,
+          "end": 92.426
+        },
+        {
+          "start": 92.426,
+          "end": 93.576
+        }
+      ]
+    },
+    {
+      "text": "あかい はた",
+      "start": 93.596,
+      "end": 95.116,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 93.626,
+          "end": 93.946
+        },
+        {
+          "start": 93.946,
+          "end": 94.266
+        },
+        {
+          "start": 94.266,
+          "end": 94.376
+        },
+        {
+          "start": 94.376,
+          "end": 94.486
+        },
+        {
+          "start": 94.486,
+          "end": 94.746
+        },
+        {
+          "start": 94.746,
+          "end": 95.116
+        }
+      ]
+    },
+    {
+      "text": "かみ の ひこうき",
+      "start": 95.136,
+      "end": 98.357,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 95.166,
+          "end": 95.946
+        },
+        {
+          "start": 95.946,
+          "end": 96.326
+        },
+        {
+          "start": 96.326,
+          "end": 96.707
+        },
+        {
+          "start": 96.707,
+          "end": 96.827
+        },
+        {
+          "start": 96.827,
+          "end": 96.947
+        },
+        {
+          "start": 96.947,
+          "end": 97.607
+        },
+        {
+          "start": 97.607,
+          "end": 98.047
+        },
+        {
+          "start": 98.047,
+          "end": 98.227
+        },
+        {
+          "start": 98.227,
+          "end": 98.357
+        }
+      ]
+    },
+    {
+      "text": "ながい ひも",
+      "start": 98.377,
+      "end": 99.277,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 98.407,
+          "end": 98.552
+        },
+        {
+          "start": 98.552,
+          "end": 98.697
+        },
+        {
+          "start": 98.697,
+          "end": 98.842
+        },
+        {
+          "start": 98.842,
+          "end": 98.987
+        },
+        {
+          "start": 98.987,
+          "end": 99.132
+        },
+        {
+          "start": 99.132,
+          "end": 99.277
+        }
+      ]
+    },
+    {
+      "text": "あかるい ひかり",
+      "start": 99.297,
+      "end": 101.717,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 99.327,
+          "end": 99.626
+        },
+        {
+          "start": 99.626,
+          "end": 99.924
+        },
+        {
+          "start": 99.924,
+          "end": 100.223
+        },
+        {
+          "start": 100.223,
+          "end": 100.522
+        },
+        {
+          "start": 100.522,
+          "end": 100.821
+        },
+        {
+          "start": 100.821,
+          "end": 101.12
+        },
+        {
+          "start": 101.12,
+          "end": 101.418
+        },
+        {
+          "start": 101.418,
+          "end": 101.717
+        }
+      ]
+    },
+    {
+      "text": "ふで で かく",
+      "start": 101.737,
+      "end": 102.797,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 101.767,
+          "end": 101.914
+        },
+        {
+          "start": 101.914,
+          "end": 102.061
+        },
+        {
+          "start": 102.061,
+          "end": 102.208
+        },
+        {
+          "start": 102.208,
+          "end": 102.356
+        },
+        {
+          "start": 102.356,
+          "end": 102.503
+        },
+        {
+          "start": 102.503,
+          "end": 102.65
+        },
+        {
+          "start": 102.65,
+          "end": 102.797
+        }
+      ]
+    },
+    {
+      "text": "まるい ふうせん",
+      "start": 102.817,
+      "end": 104.917,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 102.847,
+          "end": 103.007
+        },
+        {
+          "start": 103.007,
+          "end": 103.117
+        },
+        {
+          "start": 103.117,
+          "end": 103.457
+        },
+        {
+          "start": 103.457,
+          "end": 103.807
+        },
+        {
+          "start": 103.807,
+          "end": 103.927
+        },
+        {
+          "start": 103.927,
+          "end": 104.227
+        },
+        {
+          "start": 104.227,
+          "end": 104.647
+        },
+        {
+          "start": 104.647,
+          "end": 104.917
+        }
+      ]
+    },
+    {
+      "text": "ふえ を ふく",
+      "start": 104.937,
+      "end": 106.137,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 104.967,
+          "end": 105.127
+        },
+        {
+          "start": 105.127,
+          "end": 105.237
+        },
+        {
+          "start": 105.237,
+          "end": 105.347
+        },
+        {
+          "start": 105.347,
+          "end": 105.457
+        },
+        {
+          "start": 105.457,
+          "end": 105.567
+        },
+        {
+          "start": 105.567,
+          "end": 105.887
+        },
+        {
+          "start": 105.887,
+          "end": 106.137
+        }
+      ]
+    },
+    {
+      "text": "あかるい へや",
+      "start": 106.157,
+      "end": 107.877,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 106.187,
+          "end": 106.387
+        },
+        {
+          "start": 106.387,
+          "end": 106.807
+        },
+        {
+          "start": 106.807,
+          "end": 106.987
+        },
+        {
+          "start": 106.987,
+          "end": 107.097
+        },
+        {
+          "start": 107.097,
+          "end": 107.207
+        },
+        {
+          "start": 107.207,
+          "end": 107.387
+        },
+        {
+          "start": 107.387,
+          "end": 107.877
+        }
+      ]
+    },
+    {
+      "text": "しろい へい",
+      "start": 107.897,
+      "end": 108.277,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 107.927,
+          "end": 107.985
+        },
+        {
+          "start": 107.985,
+          "end": 108.044
+        },
+        {
+          "start": 108.044,
+          "end": 108.102
+        },
+        {
+          "start": 108.102,
+          "end": 108.16
+        },
+        {
+          "start": 108.16,
+          "end": 108.219
+        },
+        {
+          "start": 108.219,
+          "end": 108.277
+        }
+      ]
+    },
+    {
+      "text": "みどりの へちま",
+      "start": 108.297,
+      "end": 109.817,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 108.327,
+          "end": 108.437
+        },
+        {
+          "start": 108.437,
+          "end": 108.547
+        },
+        {
+          "start": 108.547,
+          "end": 108.657
+        },
+        {
+          "start": 108.657,
+          "end": 108.767
+        },
+        {
+          "start": 108.767,
+          "end": 108.877
+        },
+        {
+          "start": 108.877,
+          "end": 109.107
+        },
+        {
+          "start": 109.107,
+          "end": 109.547
+        },
+        {
+          "start": 109.547,
+          "end": 109.817
+        }
+      ]
+    },
+    {
+      "text": "ほん を よむ",
+      "start": 109.837,
+      "end": 111.958,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 109.867,
+          "end": 110.047
+        },
+        {
+          "start": 110.047,
+          "end": 110.257
+        },
+        {
+          "start": 110.257,
+          "end": 110.467
+        },
+        {
+          "start": 110.467,
+          "end": 110.777
+        },
+        {
+          "start": 110.777,
+          "end": 111.087
+        },
+        {
+          "start": 111.087,
+          "end": 111.588
+        },
+        {
+          "start": 111.588,
+          "end": 111.958
+        }
+      ]
+    },
+    {
+      "text": "ほうき で はく",
+      "start": 111.978,
+      "end": 112.538,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 112.008,
+          "end": 112.074
+        },
+        {
+          "start": 112.074,
+          "end": 112.141
+        },
+        {
+          "start": 112.141,
+          "end": 112.207
+        },
+        {
+          "start": 112.207,
+          "end": 112.273
+        },
+        {
+          "start": 112.273,
+          "end": 112.339
+        },
+        {
+          "start": 112.339,
+          "end": 112.405
+        },
+        {
+          "start": 112.405,
+          "end": 112.472
+        },
+        {
+          "start": 112.472,
+          "end": 112.538
+        }
+      ]
+    },
+    {
+      "text": "よる の ほし",
+      "start": 112.558,
+      "end": 113.678,
+      "section": "review",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 112.588,
+          "end": 112.768
+        },
+        {
+          "start": 112.768,
+          "end": 112.998
+        },
+        {
+          "start": 112.998,
+          "end": 113.228
+        },
+        {
+          "start": 113.228,
+          "end": 113.338
+        },
+        {
+          "start": 113.338,
+          "end": 113.448
+        },
+        {
+          "start": 113.448,
+          "end": 113.558
+        },
+        {
+          "start": 113.558,
+          "end": 113.678
+        }
+      ]
+    },
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 113.698,
+      "end": 114.878,
+      "section": "refrain",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 113.728,
+          "end": 113.856
+        },
+        {
+          "start": 113.856,
+          "end": 113.984
+        },
+        {
+          "start": 113.984,
+          "end": 114.111
+        },
+        {
+          "start": 114.111,
+          "end": 114.239
+        },
+        {
+          "start": 114.239,
+          "end": 114.367
+        },
+        {
+          "start": 114.367,
+          "end": 114.495
+        },
+        {
+          "start": 114.495,
+          "end": 114.622
+        },
+        {
+          "start": 114.622,
+          "end": 114.75
+        },
+        {
+          "start": 114.75,
+          "end": 114.878
+        }
+      ]
+    },
+    {
+      "text": "は ひ ふ へ ほ",
+      "start": 114.898,
+      "end": 117.048,
+      "section": "outro",
+      "illos": [
+        "hasami",
+        "hako",
+        "hata"
+      ],
+      "chars": [
+        {
+          "start": 114.928,
+          "end": 115.038
+        },
+        {
+          "start": 115.038,
+          "end": 115.148
+        },
+        {
+          "start": 115.148,
+          "end": 115.258
+        },
+        {
+          "start": 115.258,
+          "end": 115.368
+        },
+        {
+          "start": 115.368,
+          "end": 115.478
+        },
+        {
+          "start": 115.478,
+          "end": 115.588
+        },
+        {
+          "start": 115.588,
+          "end": 115.698
+        },
+        {
+          "start": 115.698,
+          "end": 115.808
+        },
+        {
+          "start": 115.808,
+          "end": 117.048
+        }
+      ]
+    }
+  ],
+  "_aligned": {
+    "tool": "whisperx",
+    "anchored_chars": 325,
+    "total_chars": 325
+  }
+}

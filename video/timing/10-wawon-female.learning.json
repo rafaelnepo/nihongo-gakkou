@@ -1,0 +1,1419 @@
+{
+  "song": "10-wawon-female",
+  "title": "わをん・さいごの おと",
+  "trackName": "さいごの おと",
+  "trackNo": "10",
+  "row": "わをん",
+  "channel": "iconotes",
+  "style": "City Pop",
+  "bpm": 94,
+  "ilBase": "10-wawon-female/il",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "10-wawon-female/audio.wav",
+  "countInSeconds": 1.1,
+  "tailSeconds": 1.5,
+  "durationSeconds": 70.97,
+  "placeholder": false,
+  "lines": [
+    {
+      "text": "わ を ん",
+      "start": 0.47,
+      "end": 2.89,
+      "section": "intro",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 0.62,
+          "end": 1.0
+        },
+        {
+          "start": 1.0,
+          "end": 1.38
+        },
+        {
+          "start": 1.38,
+          "end": 1.69
+        },
+        {
+          "start": 1.69,
+          "end": 2.0
+        },
+        {
+          "start": 2.0,
+          "end": 2.89
+        }
+      ]
+    },
+    {
+      "text": "わに",
+      "start": 2.91,
+      "end": 3.37,
+      "section": "verse",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "target": "wani",
+      "chars": [
+        {
+          "start": 2.94,
+          "end": 3.24
+        },
+        {
+          "start": 3.24,
+          "end": 3.37
+        }
+      ]
+    },
+    {
+      "text": "わに が いる",
+      "start": 3.39,
+      "end": 6.001,
+      "section": "verse",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "target": "wani",
+      "chars": [
+        {
+          "start": 3.42,
+          "end": 4.021
+        },
+        {
+          "start": 4.021,
+          "end": 4.161
+        },
+        {
+          "start": 4.161,
+          "end": 4.301
+        },
+        {
+          "start": 4.301,
+          "end": 4.411
+        },
+        {
+          "start": 4.411,
+          "end": 4.521
+        },
+        {
+          "start": 4.521,
+          "end": 4.801
+        },
+        {
+          "start": 4.801,
+          "end": 6.001
+        }
+      ]
+    },
+    {
+      "text": "わし",
+      "start": 6.311,
+      "end": 8.041,
+      "section": "verse",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "target": "washi",
+      "chars": [
+        {
+          "start": 6.461,
+          "end": 6.841
+        },
+        {
+          "start": 6.841,
+          "end": 8.041
+        }
+      ]
+    },
+    {
+      "text": "おおきい わし",
+      "start": 9.051,
+      "end": 11.592,
+      "section": "verse",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "target": "washi",
+      "chars": [
+        {
+          "start": 9.201,
+          "end": 9.821
+        },
+        {
+          "start": 9.821,
+          "end": 10.141
+        },
+        {
+          "start": 10.141,
+          "end": 10.441
+        },
+        {
+          "start": 10.441,
+          "end": 10.591
+        },
+        {
+          "start": 10.591,
+          "end": 10.742
+        },
+        {
+          "start": 10.742,
+          "end": 11.042
+        },
+        {
+          "start": 11.042,
+          "end": 11.592
+        }
+      ]
+    },
+    {
+      "text": "わかめ",
+      "start": 11.612,
+      "end": 12.212,
+      "section": "verse",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "target": "wakame",
+      "chars": [
+        {
+          "start": 11.642,
+          "end": 11.822
+        },
+        {
+          "start": 11.822,
+          "end": 11.962
+        },
+        {
+          "start": 11.962,
+          "end": 12.212
+        }
+      ]
+    },
+    {
+      "text": "わかめ を たべる",
+      "start": 12.232,
+      "end": 14.862,
+      "section": "verse",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "target": "wakame",
+      "chars": [
+        {
+          "start": 12.262,
+          "end": 12.442
+        },
+        {
+          "start": 12.442,
+          "end": 12.562
+        },
+        {
+          "start": 12.562,
+          "end": 12.722
+        },
+        {
+          "start": 12.722,
+          "end": 12.882
+        },
+        {
+          "start": 12.882,
+          "end": 12.992
+        },
+        {
+          "start": 12.992,
+          "end": 13.102
+        },
+        {
+          "start": 13.102,
+          "end": 13.362
+        },
+        {
+          "start": 13.362,
+          "end": 13.662
+        },
+        {
+          "start": 13.662,
+          "end": 14.862
+        }
+      ]
+    },
+    {
+      "text": "わ を ん",
+      "start": 15.172,
+      "end": 17.462,
+      "section": "refrain",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 15.322,
+          "end": 15.682
+        },
+        {
+          "start": 15.682,
+          "end": 16.042
+        },
+        {
+          "start": 16.042,
+          "end": 16.152
+        },
+        {
+          "start": 16.152,
+          "end": 16.262
+        },
+        {
+          "start": 16.262,
+          "end": 17.462
+        }
+      ]
+    },
+    {
+      "text": "わた",
+      "start": 17.973,
+      "end": 19.253,
+      "section": "verse",
+      "illos": [
+        "wata",
+        "wafuku",
+        "wakka"
+      ],
+      "target": "wata",
+      "chars": [
+        {
+          "start": 18.123,
+          "end": 18.703
+        },
+        {
+          "start": 18.703,
+          "end": 19.253
+        }
+      ]
+    },
+    {
+      "text": "ふわふわ の わた",
+      "start": 19.273,
+      "end": 21.413,
+      "section": "verse",
+      "illos": [
+        "wata",
+        "wafuku",
+        "wakka"
+      ],
+      "target": "wata",
+      "chars": [
+        {
+          "start": 19.303,
+          "end": 19.483
+        },
+        {
+          "start": 19.483,
+          "end": 19.743
+        },
+        {
+          "start": 19.743,
+          "end": 20.103
+        },
+        {
+          "start": 20.103,
+          "end": 20.243
+        },
+        {
+          "start": 20.243,
+          "end": 20.383
+        },
+        {
+          "start": 20.383,
+          "end": 20.563
+        },
+        {
+          "start": 20.563,
+          "end": 20.743
+        },
+        {
+          "start": 20.743,
+          "end": 21.003
+        },
+        {
+          "start": 21.003,
+          "end": 21.413
+        }
+      ]
+    },
+    {
+      "text": "わふく",
+      "start": 21.433,
+      "end": 22.053,
+      "section": "verse",
+      "illos": [
+        "wata",
+        "wafuku",
+        "wakka"
+      ],
+      "target": "wafuku",
+      "chars": [
+        {
+          "start": 21.463,
+          "end": 21.763
+        },
+        {
+          "start": 21.763,
+          "end": 21.873
+        },
+        {
+          "start": 21.873,
+          "end": 22.053
+        }
+      ]
+    },
+    {
+      "text": "わふく を きる",
+      "start": 22.073,
+      "end": 23.433,
+      "section": "verse",
+      "illos": [
+        "wata",
+        "wafuku",
+        "wakka"
+      ],
+      "target": "wafuku",
+      "chars": [
+        {
+          "start": 22.103,
+          "end": 22.213
+        },
+        {
+          "start": 22.213,
+          "end": 22.383
+        },
+        {
+          "start": 22.383,
+          "end": 22.523
+        },
+        {
+          "start": 22.523,
+          "end": 22.663
+        },
+        {
+          "start": 22.663,
+          "end": 22.823
+        },
+        {
+          "start": 22.823,
+          "end": 22.983
+        },
+        {
+          "start": 22.983,
+          "end": 23.163
+        },
+        {
+          "start": 23.163,
+          "end": 23.433
+        }
+      ]
+    },
+    {
+      "text": "わっか",
+      "start": 23.453,
+      "end": 24.593,
+      "section": "verse",
+      "illos": [
+        "wata",
+        "wafuku",
+        "wakka"
+      ],
+      "target": "wakka",
+      "chars": [
+        {
+          "start": 23.483,
+          "end": 23.863
+        },
+        {
+          "start": 23.863,
+          "end": 24.223
+        },
+        {
+          "start": 24.223,
+          "end": 24.593
+        }
+      ]
+    },
+    {
+      "text": "ちいさい わっか",
+      "start": 24.613,
+      "end": 27.494,
+      "section": "verse",
+      "illos": [
+        "wata",
+        "wafuku",
+        "wakka"
+      ],
+      "target": "wakka",
+      "chars": [
+        {
+          "start": 24.643,
+          "end": 24.823
+        },
+        {
+          "start": 24.823,
+          "end": 25.144
+        },
+        {
+          "start": 25.144,
+          "end": 25.304
+        },
+        {
+          "start": 25.304,
+          "end": 25.414
+        },
+        {
+          "start": 25.414,
+          "end": 25.524
+        },
+        {
+          "start": 25.524,
+          "end": 25.684
+        },
+        {
+          "start": 25.684,
+          "end": 26.684
+        },
+        {
+          "start": 26.684,
+          "end": 27.494
+        }
+      ]
+    },
+    {
+      "text": "わ を ん",
+      "start": 27.514,
+      "end": 29.234,
+      "section": "refrain",
+      "illos": [
+        "wata",
+        "wafuku",
+        "wakka"
+      ],
+      "chars": [
+        {
+          "start": 27.544,
+          "end": 27.904
+        },
+        {
+          "start": 27.904,
+          "end": 28.264
+        },
+        {
+          "start": 28.264,
+          "end": 28.384
+        },
+        {
+          "start": 28.384,
+          "end": 28.504
+        },
+        {
+          "start": 28.504,
+          "end": 29.234
+        }
+      ]
+    },
+    {
+      "text": "りんご",
+      "start": 29.254,
+      "end": 31.955,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "uta",
+        "e"
+      ],
+      "target": "ringo",
+      "chars": [
+        {
+          "start": 29.284,
+          "end": 29.394
+        },
+        {
+          "start": 29.394,
+          "end": 31.544
+        },
+        {
+          "start": 31.544,
+          "end": 31.955
+        }
+      ]
+    },
+    {
+      "text": "りんご を たべる",
+      "start": 31.975,
+      "end": 33.335,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "uta",
+        "e"
+      ],
+      "target": "ringo",
+      "chars": [
+        {
+          "start": 32.005,
+          "end": 32.153
+        },
+        {
+          "start": 32.153,
+          "end": 32.301
+        },
+        {
+          "start": 32.301,
+          "end": 32.448
+        },
+        {
+          "start": 32.448,
+          "end": 32.596
+        },
+        {
+          "start": 32.596,
+          "end": 32.744
+        },
+        {
+          "start": 32.744,
+          "end": 32.892
+        },
+        {
+          "start": 32.892,
+          "end": 33.039
+        },
+        {
+          "start": 33.039,
+          "end": 33.187
+        },
+        {
+          "start": 33.187,
+          "end": 33.335
+        }
+      ]
+    },
+    {
+      "text": "うた",
+      "start": 33.355,
+      "end": 34.435,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "uta",
+        "e"
+      ],
+      "target": "uta",
+      "chars": [
+        {
+          "start": 33.385,
+          "end": 34.025
+        },
+        {
+          "start": 34.025,
+          "end": 34.435
+        }
+      ]
+    },
+    {
+      "text": "うた を うたう",
+      "start": 34.455,
+      "end": 36.095,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "uta",
+        "e"
+      ],
+      "target": "uta",
+      "chars": [
+        {
+          "start": 34.485,
+          "end": 34.805
+        },
+        {
+          "start": 34.805,
+          "end": 34.935
+        },
+        {
+          "start": 34.935,
+          "end": 35.065
+        },
+        {
+          "start": 35.065,
+          "end": 35.175
+        },
+        {
+          "start": 35.175,
+          "end": 35.285
+        },
+        {
+          "start": 35.285,
+          "end": 35.425
+        },
+        {
+          "start": 35.425,
+          "end": 35.825
+        },
+        {
+          "start": 35.825,
+          "end": 36.095
+        }
+      ]
+    },
+    {
+      "text": "え",
+      "start": 36.115,
+      "end": 36.415,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "uta",
+        "e"
+      ],
+      "target": "e",
+      "chars": [
+        {
+          "start": 36.145,
+          "end": 36.415
+        }
+      ]
+    },
+    {
+      "text": "え を かく",
+      "start": 36.435,
+      "end": 37.615,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "uta",
+        "e"
+      ],
+      "target": "e",
+      "chars": [
+        {
+          "start": 36.445,
+          "end": 36.555
+        },
+        {
+          "start": 36.555,
+          "end": 36.665
+        },
+        {
+          "start": 36.665,
+          "end": 36.785
+        },
+        {
+          "start": 36.785,
+          "end": 36.925
+        },
+        {
+          "start": 36.925,
+          "end": 37.225
+        },
+        {
+          "start": 37.225,
+          "end": 37.615
+        }
+      ]
+    },
+    {
+      "text": "わ を ん",
+      "start": 37.635,
+      "end": 39.505,
+      "section": "refrain",
+      "illos": [
+        "ringo",
+        "uta",
+        "e"
+      ],
+      "chars": [
+        {
+          "start": 37.665,
+          "end": 37.875
+        },
+        {
+          "start": 37.875,
+          "end": 38.085
+        },
+        {
+          "start": 38.085,
+          "end": 38.195
+        },
+        {
+          "start": 38.195,
+          "end": 38.305
+        },
+        {
+          "start": 38.305,
+          "end": 39.505
+        }
+      ]
+    },
+    {
+      "text": "ぱん",
+      "start": 40.596,
+      "end": 41.296,
+      "section": "verse",
+      "illos": [
+        "pan",
+        "mikan",
+        "kirin"
+      ],
+      "target": "pan",
+      "chars": [
+        {
+          "start": 40.746,
+          "end": 41.066
+        },
+        {
+          "start": 41.066,
+          "end": 41.296
+        }
+      ]
+    },
+    {
+      "text": "おいしい ぱん",
+      "start": 41.316,
+      "end": 42.836,
+      "section": "verse",
+      "illos": [
+        "pan",
+        "mikan",
+        "kirin"
+      ],
+      "target": "pan",
+      "chars": [
+        {
+          "start": 41.346,
+          "end": 41.506
+        },
+        {
+          "start": 41.506,
+          "end": 41.646
+        },
+        {
+          "start": 41.646,
+          "end": 41.806
+        },
+        {
+          "start": 41.806,
+          "end": 41.916
+        },
+        {
+          "start": 41.916,
+          "end": 42.026
+        },
+        {
+          "start": 42.026,
+          "end": 42.136
+        },
+        {
+          "start": 42.136,
+          "end": 42.836
+        }
+      ]
+    },
+    {
+      "text": "みかん",
+      "start": 42.856,
+      "end": 43.616,
+      "section": "verse",
+      "illos": [
+        "pan",
+        "mikan",
+        "kirin"
+      ],
+      "target": "mikan",
+      "chars": [
+        {
+          "start": 42.886,
+          "end": 42.996
+        },
+        {
+          "start": 42.996,
+          "end": 43.106
+        },
+        {
+          "start": 43.106,
+          "end": 43.616
+        }
+      ]
+    },
+    {
+      "text": "あまい みかん",
+      "start": 43.636,
+      "end": 45.256,
+      "section": "verse",
+      "illos": [
+        "pan",
+        "mikan",
+        "kirin"
+      ],
+      "target": "mikan",
+      "chars": [
+        {
+          "start": 43.666,
+          "end": 43.806
+        },
+        {
+          "start": 43.806,
+          "end": 43.966
+        },
+        {
+          "start": 43.966,
+          "end": 44.076
+        },
+        {
+          "start": 44.076,
+          "end": 44.186
+        },
+        {
+          "start": 44.186,
+          "end": 44.426
+        },
+        {
+          "start": 44.426,
+          "end": 44.886
+        },
+        {
+          "start": 44.886,
+          "end": 45.256
+        }
+      ]
+    },
+    {
+      "text": "きりん",
+      "start": 45.276,
+      "end": 45.976,
+      "section": "verse",
+      "illos": [
+        "pan",
+        "mikan",
+        "kirin"
+      ],
+      "target": "kirin",
+      "chars": [
+        {
+          "start": 45.306,
+          "end": 45.526
+        },
+        {
+          "start": 45.526,
+          "end": 45.666
+        },
+        {
+          "start": 45.666,
+          "end": 45.976
+        }
+      ]
+    },
+    {
+      "text": "おおきい きりん",
+      "start": 45.996,
+      "end": 49.557,
+      "section": "verse",
+      "illos": [
+        "pan",
+        "mikan",
+        "kirin"
+      ],
+      "target": "kirin",
+      "chars": [
+        {
+          "start": 46.026,
+          "end": 46.136
+        },
+        {
+          "start": 46.136,
+          "end": 46.847
+        },
+        {
+          "start": 46.847,
+          "end": 47.187
+        },
+        {
+          "start": 47.187,
+          "end": 47.317
+        },
+        {
+          "start": 47.317,
+          "end": 47.447
+        },
+        {
+          "start": 47.447,
+          "end": 48.407
+        },
+        {
+          "start": 48.407,
+          "end": 48.727
+        },
+        {
+          "start": 48.727,
+          "end": 49.557
+        }
+      ]
+    },
+    {
+      "text": "わ を ん",
+      "start": 49.577,
+      "end": 50.197,
+      "section": "refrain",
+      "illos": [
+        "pan",
+        "mikan",
+        "kirin"
+      ],
+      "chars": [
+        {
+          "start": 49.607,
+          "end": 49.725
+        },
+        {
+          "start": 49.725,
+          "end": 49.843
+        },
+        {
+          "start": 49.843,
+          "end": 49.961
+        },
+        {
+          "start": 49.961,
+          "end": 50.079
+        },
+        {
+          "start": 50.079,
+          "end": 50.197
+        }
+      ]
+    },
+    {
+      "text": "あさ、かに、さかな",
+      "start": 50.217,
+      "end": 52.937,
+      "section": "review",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 50.247,
+          "end": 50.747
+        },
+        {
+          "start": 50.747,
+          "end": 50.957
+        },
+        {
+          "start": 50.957,
+          "end": 51.167
+        },
+        {
+          "start": 51.167,
+          "end": 51.347
+        },
+        {
+          "start": 51.347,
+          "end": 51.557
+        },
+        {
+          "start": 51.557,
+          "end": 51.767
+        },
+        {
+          "start": 51.767,
+          "end": 52.527
+        },
+        {
+          "start": 52.527,
+          "end": 52.687
+        },
+        {
+          "start": 52.687,
+          "end": 52.937
+        }
+      ]
+    },
+    {
+      "text": "つき、ねこ、ほし",
+      "start": 52.957,
+      "end": 55.078,
+      "section": "review",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 52.987,
+          "end": 53.167
+        },
+        {
+          "start": 53.167,
+          "end": 53.377
+        },
+        {
+          "start": 53.377,
+          "end": 53.588
+        },
+        {
+          "start": 53.588,
+          "end": 53.788
+        },
+        {
+          "start": 53.788,
+          "end": 53.978
+        },
+        {
+          "start": 53.978,
+          "end": 54.168
+        },
+        {
+          "start": 54.168,
+          "end": 54.508
+        },
+        {
+          "start": 54.508,
+          "end": 55.078
+        }
+      ]
+    },
+    {
+      "text": "みかん、やぎ、りんご",
+      "start": 55.098,
+      "end": 59.218,
+      "section": "review",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 55.128,
+          "end": 55.428
+        },
+        {
+          "start": 55.428,
+          "end": 55.908
+        },
+        {
+          "start": 55.908,
+          "end": 56.018
+        },
+        {
+          "start": 56.018,
+          "end": 56.128
+        },
+        {
+          "start": 56.128,
+          "end": 56.238
+        },
+        {
+          "start": 56.238,
+          "end": 56.448
+        },
+        {
+          "start": 56.448,
+          "end": 56.668
+        },
+        {
+          "start": 56.668,
+          "end": 57.908
+        },
+        {
+          "start": 57.908,
+          "end": 58.488
+        },
+        {
+          "start": 58.488,
+          "end": 59.218
+        }
+      ]
+    },
+    {
+      "text": "わに も いる",
+      "start": 59.238,
+      "end": 60.299,
+      "section": "review",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 59.268,
+          "end": 59.428
+        },
+        {
+          "start": 59.428,
+          "end": 59.538
+        },
+        {
+          "start": 59.538,
+          "end": 59.648
+        },
+        {
+          "start": 59.648,
+          "end": 59.758
+        },
+        {
+          "start": 59.758,
+          "end": 59.868
+        },
+        {
+          "start": 59.868,
+          "end": 60.008
+        },
+        {
+          "start": 60.008,
+          "end": 60.299
+        }
+      ]
+    },
+    {
+      "text": "ぜんぶ よめた！",
+      "start": 60.319,
+      "end": 63.689,
+      "section": "review",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 60.349,
+          "end": 60.989
+        },
+        {
+          "start": 60.989,
+          "end": 61.549
+        },
+        {
+          "start": 61.549,
+          "end": 61.719
+        },
+        {
+          "start": 61.719,
+          "end": 61.889
+        },
+        {
+          "start": 61.889,
+          "end": 62.149
+        },
+        {
+          "start": 62.149,
+          "end": 62.489
+        },
+        {
+          "start": 62.489,
+          "end": 63.089
+        },
+        {
+          "start": 63.089,
+          "end": 63.689
+        }
+      ]
+    },
+    {
+      "text": "あ か さ た な は ま や ら わ を ん",
+      "start": 64.139,
+      "end": 67.94,
+      "section": "review",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 64.289,
+          "end": 64.448
+        },
+        {
+          "start": 64.448,
+          "end": 64.606
+        },
+        {
+          "start": 64.606,
+          "end": 64.765
+        },
+        {
+          "start": 64.765,
+          "end": 64.924
+        },
+        {
+          "start": 64.924,
+          "end": 65.083
+        },
+        {
+          "start": 65.083,
+          "end": 65.241
+        },
+        {
+          "start": 65.241,
+          "end": 65.4
+        },
+        {
+          "start": 65.4,
+          "end": 65.559
+        },
+        {
+          "start": 65.559,
+          "end": 65.718
+        },
+        {
+          "start": 65.718,
+          "end": 65.876
+        },
+        {
+          "start": 65.876,
+          "end": 66.035
+        },
+        {
+          "start": 66.035,
+          "end": 66.194
+        },
+        {
+          "start": 66.194,
+          "end": 66.353
+        },
+        {
+          "start": 66.353,
+          "end": 66.511
+        },
+        {
+          "start": 66.511,
+          "end": 66.67
+        },
+        {
+          "start": 66.67,
+          "end": 66.829
+        },
+        {
+          "start": 66.829,
+          "end": 66.988
+        },
+        {
+          "start": 66.988,
+          "end": 67.146
+        },
+        {
+          "start": 67.146,
+          "end": 67.305
+        },
+        {
+          "start": 67.305,
+          "end": 67.464
+        },
+        {
+          "start": 67.464,
+          "end": 67.623
+        },
+        {
+          "start": 67.623,
+          "end": 67.781
+        },
+        {
+          "start": 67.781,
+          "end": 67.94
+        }
+      ]
+    },
+    {
+      "text": "わ を ん",
+      "start": 67.96,
+      "end": 69.16,
+      "section": "refrain",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 67.99,
+          "end": 68.1
+        },
+        {
+          "start": 68.1,
+          "end": 68.21
+        },
+        {
+          "start": 68.21,
+          "end": 68.32
+        },
+        {
+          "start": 68.32,
+          "end": 68.43
+        },
+        {
+          "start": 68.43,
+          "end": 69.16
+        }
+      ]
+    },
+    {
+      "text": "わ を ん",
+      "start": 69.18,
+      "end": 70.97,
+      "section": "outro",
+      "illos": [
+        "wani",
+        "washi",
+        "wakame"
+      ],
+      "chars": [
+        {
+          "start": 69.21,
+          "end": 69.53
+        },
+        {
+          "start": 69.53,
+          "end": 69.85
+        },
+        {
+          "start": 69.85,
+          "end": 70.0
+        },
+        {
+          "start": 70.0,
+          "end": 70.15
+        },
+        {
+          "start": 70.15,
+          "end": 70.97
+        }
+      ]
+    }
+  ],
+  "_aligned": {
+    "tool": "whisperx",
+    "anchored_chars": 168,
+    "total_chars": 168
+  }
+}

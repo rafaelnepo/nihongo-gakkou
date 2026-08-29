@@ -1,0 +1,2620 @@
+{
+  "song": "02-kakikukeko-machi",
+  "title": "かきくけこ・まちへ おでかけ",
+  "trackName": "まちへ おでかけ",
+  "trackNo": "02",
+  "row": "かきくけこ",
+  "channel": "iconotes",
+  "style": "City Pop",
+  "bpm": 92,
+  "ilBase": "02-kakikukeko-machi/il",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "02-kakikukeko-machi/audio.wav",
+  "countInSeconds": 1.1,
+  "tailSeconds": 1.5,
+  "durationSeconds": 141.67,
+  "placeholder": false,
+  "lines": [
+    {
+      "text": "か き く け こ",
+      "start": 0.27,
+      "end": 2.63,
+      "section": "intro",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 0.42,
+          "end": 0.57
+        },
+        {
+          "start": 0.57,
+          "end": 0.72
+        },
+        {
+          "start": 0.72,
+          "end": 0.94
+        },
+        {
+          "start": 0.94,
+          "end": 1.16
+        },
+        {
+          "start": 1.16,
+          "end": 1.46
+        },
+        {
+          "start": 1.46,
+          "end": 1.76
+        },
+        {
+          "start": 1.76,
+          "end": 1.99
+        },
+        {
+          "start": 1.99,
+          "end": 2.22
+        },
+        {
+          "start": 2.22,
+          "end": 2.63
+        }
+      ]
+    },
+    {
+      "text": "かお",
+      "start": 2.65,
+      "end": 3.15,
+      "section": "verse",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "target": "kao",
+      "chars": [
+        {
+          "start": 2.68,
+          "end": 3.0
+        },
+        {
+          "start": 3.0,
+          "end": 3.15
+        }
+      ]
+    },
+    {
+      "text": "かお を あらう",
+      "start": 3.17,
+      "end": 5.09,
+      "section": "verse",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "target": "kao",
+      "chars": [
+        {
+          "start": 3.2,
+          "end": 3.436
+        },
+        {
+          "start": 3.436,
+          "end": 3.673
+        },
+        {
+          "start": 3.673,
+          "end": 3.909
+        },
+        {
+          "start": 3.909,
+          "end": 4.145
+        },
+        {
+          "start": 4.145,
+          "end": 4.381
+        },
+        {
+          "start": 4.381,
+          "end": 4.617
+        },
+        {
+          "start": 4.617,
+          "end": 4.854
+        },
+        {
+          "start": 4.854,
+          "end": 5.09
+        }
+      ]
+    },
+    {
+      "text": "かさ",
+      "start": 5.11,
+      "end": 6.61,
+      "section": "verse",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "target": "kasa",
+      "chars": [
+        {
+          "start": 5.14,
+          "end": 5.76
+        },
+        {
+          "start": 5.76,
+          "end": 6.61
+        }
+      ]
+    },
+    {
+      "text": "あめ だから かさ",
+      "start": 6.63,
+      "end": 11.841,
+      "section": "verse",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "target": "kasa",
+      "chars": [
+        {
+          "start": 6.66,
+          "end": 7.461
+        },
+        {
+          "start": 7.461,
+          "end": 7.831
+        },
+        {
+          "start": 7.831,
+          "end": 8.201
+        },
+        {
+          "start": 8.201,
+          "end": 9.721
+        },
+        {
+          "start": 9.721,
+          "end": 9.881
+        },
+        {
+          "start": 9.881,
+          "end": 10.101
+        },
+        {
+          "start": 10.101,
+          "end": 10.321
+        },
+        {
+          "start": 10.321,
+          "end": 10.641
+        },
+        {
+          "start": 10.641,
+          "end": 11.841
+        }
+      ]
+    },
+    {
+      "text": "かぎ",
+      "start": 12.631,
+      "end": 14.291,
+      "section": "verse",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "target": "kagi",
+      "chars": [
+        {
+          "start": 12.781,
+          "end": 13.261
+        },
+        {
+          "start": 13.261,
+          "end": 14.291
+        }
+      ]
+    },
+    {
+      "text": "いえ の かぎ",
+      "start": 14.311,
+      "end": 16.391,
+      "section": "verse",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "target": "kagi",
+      "chars": [
+        {
+          "start": 14.341,
+          "end": 14.451
+        },
+        {
+          "start": 14.451,
+          "end": 14.561
+        },
+        {
+          "start": 14.561,
+          "end": 14.671
+        },
+        {
+          "start": 14.671,
+          "end": 14.871
+        },
+        {
+          "start": 14.871,
+          "end": 15.121
+        },
+        {
+          "start": 15.121,
+          "end": 15.541
+        },
+        {
+          "start": 15.541,
+          "end": 16.391
+        }
+      ]
+    },
+    {
+      "text": "か き く け こ",
+      "start": 16.411,
+      "end": 20.581,
+      "section": "refrain",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 16.441,
+          "end": 16.751
+        },
+        {
+          "start": 16.751,
+          "end": 17.061
+        },
+        {
+          "start": 17.061,
+          "end": 17.671
+        },
+        {
+          "start": 17.671,
+          "end": 18.281
+        },
+        {
+          "start": 18.281,
+          "end": 18.591
+        },
+        {
+          "start": 18.591,
+          "end": 18.901
+        },
+        {
+          "start": 18.901,
+          "end": 19.141
+        },
+        {
+          "start": 19.141,
+          "end": 19.381
+        },
+        {
+          "start": 19.381,
+          "end": 20.581
+        }
+      ]
+    },
+    {
+      "text": "きる",
+      "start": 21.792,
+      "end": 22.492,
+      "section": "verse",
+      "illos": [
+        "kiru",
+        "kiiro",
+        "kippu"
+      ],
+      "target": "kiru",
+      "chars": [
+        {
+          "start": 21.942,
+          "end": 22.202
+        },
+        {
+          "start": 22.202,
+          "end": 22.492
+        }
+      ]
+    },
+    {
+      "text": "ふく を きる",
+      "start": 22.512,
+      "end": 24.052,
+      "section": "verse",
+      "illos": [
+        "kiru",
+        "kiiro",
+        "kippu"
+      ],
+      "target": "kiru",
+      "chars": [
+        {
+          "start": 22.542,
+          "end": 22.762
+        },
+        {
+          "start": 22.762,
+          "end": 22.902
+        },
+        {
+          "start": 22.902,
+          "end": 23.042
+        },
+        {
+          "start": 23.042,
+          "end": 23.202
+        },
+        {
+          "start": 23.202,
+          "end": 23.362
+        },
+        {
+          "start": 23.362,
+          "end": 23.682
+        },
+        {
+          "start": 23.682,
+          "end": 24.052
+        }
+      ]
+    },
+    {
+      "text": "きいろ",
+      "start": 24.072,
+      "end": 24.672,
+      "section": "verse",
+      "illos": [
+        "kiru",
+        "kiiro",
+        "kippu"
+      ],
+      "target": "kiiro",
+      "chars": [
+        {
+          "start": 24.102,
+          "end": 24.262
+        },
+        {
+          "start": 24.262,
+          "end": 24.422
+        },
+        {
+          "start": 24.422,
+          "end": 24.672
+        }
+      ]
+    },
+    {
+      "text": "きいろい ぼうし",
+      "start": 24.692,
+      "end": 26.812,
+      "section": "verse",
+      "illos": [
+        "kiru",
+        "kiiro",
+        "kippu"
+      ],
+      "target": "kiiro",
+      "chars": [
+        {
+          "start": 24.722,
+          "end": 24.902
+        },
+        {
+          "start": 24.902,
+          "end": 25.042
+        },
+        {
+          "start": 25.042,
+          "end": 25.282
+        },
+        {
+          "start": 25.282,
+          "end": 25.392
+        },
+        {
+          "start": 25.392,
+          "end": 25.502
+        },
+        {
+          "start": 25.502,
+          "end": 25.822
+        },
+        {
+          "start": 25.822,
+          "end": 26.082
+        },
+        {
+          "start": 26.082,
+          "end": 26.812
+        }
+      ]
+    },
+    {
+      "text": "きっぷ",
+      "start": 26.832,
+      "end": 28.352,
+      "section": "verse",
+      "illos": [
+        "kiru",
+        "kiiro",
+        "kippu"
+      ],
+      "target": "kippu",
+      "chars": [
+        {
+          "start": 26.862,
+          "end": 27.322
+        },
+        {
+          "start": 27.322,
+          "end": 27.462
+        },
+        {
+          "start": 27.462,
+          "end": 28.352
+        }
+      ]
+    },
+    {
+      "text": "きっぷ を かう",
+      "start": 28.372,
+      "end": 29.872,
+      "section": "verse",
+      "illos": [
+        "kiru",
+        "kiiro",
+        "kippu"
+      ],
+      "target": "kippu",
+      "chars": [
+        {
+          "start": 28.402,
+          "end": 28.562
+        },
+        {
+          "start": 28.562,
+          "end": 28.842
+        },
+        {
+          "start": 28.842,
+          "end": 28.952
+        },
+        {
+          "start": 28.952,
+          "end": 29.062
+        },
+        {
+          "start": 29.062,
+          "end": 29.312
+        },
+        {
+          "start": 29.312,
+          "end": 29.622
+        },
+        {
+          "start": 29.622,
+          "end": 29.732
+        },
+        {
+          "start": 29.732,
+          "end": 29.872
+        }
+      ]
+    },
+    {
+      "text": "か き く け こ",
+      "start": 29.892,
+      "end": 32.332,
+      "section": "refrain",
+      "illos": [
+        "kiru",
+        "kiiro",
+        "kippu"
+      ],
+      "chars": [
+        {
+          "start": 29.922,
+          "end": 30.222
+        },
+        {
+          "start": 30.222,
+          "end": 30.522
+        },
+        {
+          "start": 30.522,
+          "end": 30.682
+        },
+        {
+          "start": 30.682,
+          "end": 30.842
+        },
+        {
+          "start": 30.842,
+          "end": 31.002
+        },
+        {
+          "start": 31.002,
+          "end": 31.162
+        },
+        {
+          "start": 31.162,
+          "end": 31.312
+        },
+        {
+          "start": 31.312,
+          "end": 31.462
+        },
+        {
+          "start": 31.462,
+          "end": 32.332
+        }
+      ]
+    },
+    {
+      "text": "くつ",
+      "start": 32.352,
+      "end": 34.172,
+      "section": "verse",
+      "illos": [
+        "kutsu",
+        "kuruma",
+        "kumo"
+      ],
+      "target": "kutsu",
+      "chars": [
+        {
+          "start": 32.382,
+          "end": 33.802
+        },
+        {
+          "start": 33.802,
+          "end": 34.172
+        }
+      ]
+    },
+    {
+      "text": "くつ を はく",
+      "start": 34.192,
+      "end": 36.013,
+      "section": "verse",
+      "illos": [
+        "kutsu",
+        "kuruma",
+        "kumo"
+      ],
+      "target": "kutsu",
+      "chars": [
+        {
+          "start": 34.222,
+          "end": 34.478
+        },
+        {
+          "start": 34.478,
+          "end": 34.734
+        },
+        {
+          "start": 34.734,
+          "end": 34.99
+        },
+        {
+          "start": 34.99,
+          "end": 35.245
+        },
+        {
+          "start": 35.245,
+          "end": 35.501
+        },
+        {
+          "start": 35.501,
+          "end": 35.757
+        },
+        {
+          "start": 35.757,
+          "end": 36.013
+        }
+      ]
+    },
+    {
+      "text": "くるま",
+      "start": 36.033,
+      "end": 36.633,
+      "section": "verse",
+      "illos": [
+        "kutsu",
+        "kuruma",
+        "kumo"
+      ],
+      "target": "kuruma",
+      "chars": [
+        {
+          "start": 36.063,
+          "end": 36.253
+        },
+        {
+          "start": 36.253,
+          "end": 36.443
+        },
+        {
+          "start": 36.443,
+          "end": 36.633
+        }
+      ]
+    },
+    {
+      "text": "くるま に のる",
+      "start": 36.653,
+      "end": 38.753,
+      "section": "verse",
+      "illos": [
+        "kutsu",
+        "kuruma",
+        "kumo"
+      ],
+      "target": "kuruma",
+      "chars": [
+        {
+          "start": 36.683,
+          "end": 37.183
+        },
+        {
+          "start": 37.183,
+          "end": 37.293
+        },
+        {
+          "start": 37.293,
+          "end": 37.403
+        },
+        {
+          "start": 37.403,
+          "end": 37.513
+        },
+        {
+          "start": 37.513,
+          "end": 37.633
+        },
+        {
+          "start": 37.633,
+          "end": 37.763
+        },
+        {
+          "start": 37.763,
+          "end": 38.063
+        },
+        {
+          "start": 38.063,
+          "end": 38.753
+        }
+      ]
+    },
+    {
+      "text": "くも",
+      "start": 38.773,
+      "end": 39.673,
+      "section": "verse",
+      "illos": [
+        "kutsu",
+        "kuruma",
+        "kumo"
+      ],
+      "target": "kumo",
+      "chars": [
+        {
+          "start": 38.803,
+          "end": 39.103
+        },
+        {
+          "start": 39.103,
+          "end": 39.673
+        }
+      ]
+    },
+    {
+      "text": "そら に くも",
+      "start": 39.693,
+      "end": 42.113,
+      "section": "verse",
+      "illos": [
+        "kutsu",
+        "kuruma",
+        "kumo"
+      ],
+      "target": "kumo",
+      "chars": [
+        {
+          "start": 39.723,
+          "end": 39.923
+        },
+        {
+          "start": 39.923,
+          "end": 40.063
+        },
+        {
+          "start": 40.063,
+          "end": 40.203
+        },
+        {
+          "start": 40.203,
+          "end": 40.573
+        },
+        {
+          "start": 40.573,
+          "end": 40.943
+        },
+        {
+          "start": 40.943,
+          "end": 41.263
+        },
+        {
+          "start": 41.263,
+          "end": 42.113
+        }
+      ]
+    },
+    {
+      "text": "か き く け こ",
+      "start": 42.133,
+      "end": 44.903,
+      "section": "refrain",
+      "illos": [
+        "kutsu",
+        "kuruma",
+        "kumo"
+      ],
+      "chars": [
+        {
+          "start": 42.163,
+          "end": 42.473
+        },
+        {
+          "start": 42.473,
+          "end": 42.783
+        },
+        {
+          "start": 42.783,
+          "end": 42.933
+        },
+        {
+          "start": 42.933,
+          "end": 43.083
+        },
+        {
+          "start": 43.083,
+          "end": 43.243
+        },
+        {
+          "start": 43.243,
+          "end": 43.403
+        },
+        {
+          "start": 43.403,
+          "end": 43.553
+        },
+        {
+          "start": 43.553,
+          "end": 43.703
+        },
+        {
+          "start": 43.703,
+          "end": 44.903
+        }
+      ]
+    },
+    {
+      "text": "けしごむ",
+      "start": 45.373,
+      "end": 46.593,
+      "section": "verse",
+      "illos": [
+        "keshigomu",
+        "keito",
+        "kesa"
+      ],
+      "target": "keshigomu",
+      "chars": [
+        {
+          "start": 45.523,
+          "end": 45.723
+        },
+        {
+          "start": 45.723,
+          "end": 45.833
+        },
+        {
+          "start": 45.833,
+          "end": 45.943
+        },
+        {
+          "start": 45.943,
+          "end": 46.593
+        }
+      ]
+    },
+    {
+      "text": "えんぴつ と けしごむ",
+      "start": 46.613,
+      "end": 49.173,
+      "section": "verse",
+      "illos": [
+        "keshigomu",
+        "keito",
+        "kesa"
+      ],
+      "target": "keshigomu",
+      "chars": [
+        {
+          "start": 46.643,
+          "end": 46.873
+        },
+        {
+          "start": 46.873,
+          "end": 47.103
+        },
+        {
+          "start": 47.103,
+          "end": 47.333
+        },
+        {
+          "start": 47.333,
+          "end": 47.563
+        },
+        {
+          "start": 47.563,
+          "end": 47.793
+        },
+        {
+          "start": 47.793,
+          "end": 48.023
+        },
+        {
+          "start": 48.023,
+          "end": 48.253
+        },
+        {
+          "start": 48.253,
+          "end": 48.483
+        },
+        {
+          "start": 48.483,
+          "end": 48.713
+        },
+        {
+          "start": 48.713,
+          "end": 48.943
+        },
+        {
+          "start": 48.943,
+          "end": 49.173
+        }
+      ]
+    },
+    {
+      "text": "けいと",
+      "start": 49.193,
+      "end": 50.374,
+      "section": "verse",
+      "illos": [
+        "keshigomu",
+        "keito",
+        "kesa"
+      ],
+      "target": "keito",
+      "chars": [
+        {
+          "start": 49.223,
+          "end": 49.523
+        },
+        {
+          "start": 49.523,
+          "end": 50.144
+        },
+        {
+          "start": 50.144,
+          "end": 50.374
+        }
+      ]
+    },
+    {
+      "text": "あかい けいと",
+      "start": 50.394,
+      "end": 52.514,
+      "section": "verse",
+      "illos": [
+        "keshigomu",
+        "keito",
+        "kesa"
+      ],
+      "target": "keito",
+      "chars": [
+        {
+          "start": 50.424,
+          "end": 50.744
+        },
+        {
+          "start": 50.744,
+          "end": 51.084
+        },
+        {
+          "start": 51.084,
+          "end": 51.224
+        },
+        {
+          "start": 51.224,
+          "end": 51.364
+        },
+        {
+          "start": 51.364,
+          "end": 51.624
+        },
+        {
+          "start": 51.624,
+          "end": 51.844
+        },
+        {
+          "start": 51.844,
+          "end": 52.514
+        }
+      ]
+    },
+    {
+      "text": "けさ",
+      "start": 52.534,
+      "end": 53.454,
+      "section": "verse",
+      "illos": [
+        "keshigomu",
+        "keito",
+        "kesa"
+      ],
+      "target": "kesa",
+      "chars": [
+        {
+          "start": 52.564,
+          "end": 52.904
+        },
+        {
+          "start": 52.904,
+          "end": 53.454
+        }
+      ]
+    },
+    {
+      "text": "けさ は あめ",
+      "start": 53.474,
+      "end": 54.854,
+      "section": "verse",
+      "illos": [
+        "keshigomu",
+        "keito",
+        "kesa"
+      ],
+      "target": "kesa",
+      "chars": [
+        {
+          "start": 53.504,
+          "end": 53.684
+        },
+        {
+          "start": 53.684,
+          "end": 53.794
+        },
+        {
+          "start": 53.794,
+          "end": 53.904
+        },
+        {
+          "start": 53.904,
+          "end": 54.014
+        },
+        {
+          "start": 54.014,
+          "end": 54.124
+        },
+        {
+          "start": 54.124,
+          "end": 54.424
+        },
+        {
+          "start": 54.424,
+          "end": 54.854
+        }
+      ]
+    },
+    {
+      "text": "か き く け こ",
+      "start": 54.874,
+      "end": 56.534,
+      "section": "refrain",
+      "illos": [
+        "keshigomu",
+        "keito",
+        "kesa"
+      ],
+      "chars": [
+        {
+          "start": 54.904,
+          "end": 55.064
+        },
+        {
+          "start": 55.064,
+          "end": 55.224
+        },
+        {
+          "start": 55.224,
+          "end": 55.434
+        },
+        {
+          "start": 55.434,
+          "end": 55.644
+        },
+        {
+          "start": 55.644,
+          "end": 55.794
+        },
+        {
+          "start": 55.794,
+          "end": 55.944
+        },
+        {
+          "start": 55.944,
+          "end": 56.104
+        },
+        {
+          "start": 56.104,
+          "end": 56.264
+        },
+        {
+          "start": 56.264,
+          "end": 56.534
+        }
+      ]
+    },
+    {
+      "text": "こうえん",
+      "start": 56.554,
+      "end": 58.634,
+      "section": "verse",
+      "illos": [
+        "kouen",
+        "kodomo",
+        "koe"
+      ],
+      "target": "kouen",
+      "chars": [
+        {
+          "start": 56.584,
+          "end": 57.097
+        },
+        {
+          "start": 57.097,
+          "end": 57.609
+        },
+        {
+          "start": 57.609,
+          "end": 58.121
+        },
+        {
+          "start": 58.121,
+          "end": 58.634
+        }
+      ]
+    },
+    {
+      "text": "こうえん で あそぶ",
+      "start": 58.654,
+      "end": 61.074,
+      "section": "verse",
+      "illos": [
+        "kouen",
+        "kodomo",
+        "koe"
+      ],
+      "target": "kouen",
+      "chars": [
+        {
+          "start": 58.684,
+          "end": 58.904
+        },
+        {
+          "start": 58.904,
+          "end": 59.044
+        },
+        {
+          "start": 59.044,
+          "end": 59.304
+        },
+        {
+          "start": 59.304,
+          "end": 59.474
+        },
+        {
+          "start": 59.474,
+          "end": 59.644
+        },
+        {
+          "start": 59.644,
+          "end": 59.784
+        },
+        {
+          "start": 59.784,
+          "end": 59.924
+        },
+        {
+          "start": 59.924,
+          "end": 60.424
+        },
+        {
+          "start": 60.424,
+          "end": 60.724
+        },
+        {
+          "start": 60.724,
+          "end": 61.074
+        }
+      ]
+    },
+    {
+      "text": "こども",
+      "start": 61.094,
+      "end": 61.694,
+      "section": "verse",
+      "illos": [
+        "kouen",
+        "kodomo",
+        "koe"
+      ],
+      "target": "kodomo",
+      "chars": [
+        {
+          "start": 61.124,
+          "end": 61.234
+        },
+        {
+          "start": 61.234,
+          "end": 61.464
+        },
+        {
+          "start": 61.464,
+          "end": 61.694
+        }
+      ]
+    },
+    {
+      "text": "こども が わらう",
+      "start": 61.714,
+      "end": 63.534,
+      "section": "verse",
+      "illos": [
+        "kouen",
+        "kodomo",
+        "koe"
+      ],
+      "target": "kodomo",
+      "chars": [
+        {
+          "start": 61.744,
+          "end": 61.964
+        },
+        {
+          "start": 61.964,
+          "end": 62.084
+        },
+        {
+          "start": 62.084,
+          "end": 62.334
+        },
+        {
+          "start": 62.334,
+          "end": 62.584
+        },
+        {
+          "start": 62.584,
+          "end": 62.694
+        },
+        {
+          "start": 62.694,
+          "end": 62.804
+        },
+        {
+          "start": 62.804,
+          "end": 62.914
+        },
+        {
+          "start": 62.914,
+          "end": 63.164
+        },
+        {
+          "start": 63.164,
+          "end": 63.534
+        }
+      ]
+    },
+    {
+      "text": "こえ",
+      "start": 63.554,
+      "end": 63.854,
+      "section": "verse",
+      "illos": [
+        "kouen",
+        "kodomo",
+        "koe"
+      ],
+      "target": "koe",
+      "chars": [
+        {
+          "start": 63.584,
+          "end": 63.719
+        },
+        {
+          "start": 63.719,
+          "end": 63.854
+        }
+      ]
+    },
+    {
+      "text": "おおきい こえ",
+      "start": 63.874,
+      "end": 66.595,
+      "section": "verse",
+      "illos": [
+        "kouen",
+        "kodomo",
+        "koe"
+      ],
+      "target": "koe",
+      "chars": [
+        {
+          "start": 63.865,
+          "end": 64.205
+        },
+        {
+          "start": 64.205,
+          "end": 64.685
+        },
+        {
+          "start": 64.685,
+          "end": 65.145
+        },
+        {
+          "start": 65.145,
+          "end": 65.285
+        },
+        {
+          "start": 65.285,
+          "end": 65.425
+        },
+        {
+          "start": 65.425,
+          "end": 65.765
+        },
+        {
+          "start": 65.765,
+          "end": 66.595
+        }
+      ]
+    },
+    {
+      "text": "か き く け こ",
+      "start": 66.615,
+      "end": 70.805,
+      "section": "refrain",
+      "illos": [
+        "kouen",
+        "kodomo",
+        "koe"
+      ],
+      "chars": [
+        {
+          "start": 66.645,
+          "end": 66.955
+        },
+        {
+          "start": 66.955,
+          "end": 67.265
+        },
+        {
+          "start": 67.265,
+          "end": 67.975
+        },
+        {
+          "start": 67.975,
+          "end": 68.685
+        },
+        {
+          "start": 68.685,
+          "end": 68.895
+        },
+        {
+          "start": 68.895,
+          "end": 69.105
+        },
+        {
+          "start": 69.105,
+          "end": 69.355
+        },
+        {
+          "start": 69.355,
+          "end": 69.605
+        },
+        {
+          "start": 69.605,
+          "end": 70.805
+        }
+      ]
+    },
+    {
+      "text": "けさ は あめ、かさ を もつ",
+      "start": 72.015,
+      "end": 74.275,
+      "section": "bridge",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 72.165,
+          "end": 72.306
+        },
+        {
+          "start": 72.306,
+          "end": 72.446
+        },
+        {
+          "start": 72.446,
+          "end": 72.587
+        },
+        {
+          "start": 72.587,
+          "end": 72.728
+        },
+        {
+          "start": 72.728,
+          "end": 72.868
+        },
+        {
+          "start": 72.868,
+          "end": 73.009
+        },
+        {
+          "start": 73.009,
+          "end": 73.15
+        },
+        {
+          "start": 73.15,
+          "end": 73.29
+        },
+        {
+          "start": 73.29,
+          "end": 73.431
+        },
+        {
+          "start": 73.431,
+          "end": 73.572
+        },
+        {
+          "start": 73.572,
+          "end": 73.712
+        },
+        {
+          "start": 73.712,
+          "end": 73.853
+        },
+        {
+          "start": 73.853,
+          "end": 73.994
+        },
+        {
+          "start": 73.994,
+          "end": 74.134
+        },
+        {
+          "start": 74.134,
+          "end": 74.275
+        }
+      ]
+    },
+    {
+      "text": "ふく を きて、くつ を はく",
+      "start": 74.295,
+      "end": 77.015,
+      "section": "bridge",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 74.325,
+          "end": 74.625
+        },
+        {
+          "start": 74.625,
+          "end": 74.805
+        },
+        {
+          "start": 74.805,
+          "end": 74.985
+        },
+        {
+          "start": 74.985,
+          "end": 75.115
+        },
+        {
+          "start": 75.115,
+          "end": 75.245
+        },
+        {
+          "start": 75.245,
+          "end": 75.425
+        },
+        {
+          "start": 75.425,
+          "end": 75.575
+        },
+        {
+          "start": 75.575,
+          "end": 75.725
+        },
+        {
+          "start": 75.725,
+          "end": 76.005
+        },
+        {
+          "start": 76.005,
+          "end": 76.115
+        },
+        {
+          "start": 76.115,
+          "end": 76.225
+        },
+        {
+          "start": 76.225,
+          "end": 76.335
+        },
+        {
+          "start": 76.335,
+          "end": 76.445
+        },
+        {
+          "start": 76.445,
+          "end": 76.765
+        },
+        {
+          "start": 76.765,
+          "end": 77.015
+        }
+      ]
+    },
+    {
+      "text": "くるま に のって、まちへ",
+      "start": 77.035,
+      "end": 78.876,
+      "section": "bridge",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 77.065,
+          "end": 77.204
+        },
+        {
+          "start": 77.204,
+          "end": 77.344
+        },
+        {
+          "start": 77.344,
+          "end": 77.483
+        },
+        {
+          "start": 77.483,
+          "end": 77.622
+        },
+        {
+          "start": 77.622,
+          "end": 77.762
+        },
+        {
+          "start": 77.762,
+          "end": 77.901
+        },
+        {
+          "start": 77.901,
+          "end": 78.04
+        },
+        {
+          "start": 78.04,
+          "end": 78.179
+        },
+        {
+          "start": 78.179,
+          "end": 78.319
+        },
+        {
+          "start": 78.319,
+          "end": 78.458
+        },
+        {
+          "start": 78.458,
+          "end": 78.597
+        },
+        {
+          "start": 78.597,
+          "end": 78.737
+        },
+        {
+          "start": 78.737,
+          "end": 78.876
+        }
+      ]
+    },
+    {
+      "text": "えき で きっぷ を かう",
+      "start": 78.896,
+      "end": 81.696,
+      "section": "bridge",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 78.926,
+          "end": 79.706
+        },
+        {
+          "start": 79.706,
+          "end": 79.816
+        },
+        {
+          "start": 79.816,
+          "end": 79.926
+        },
+        {
+          "start": 79.926,
+          "end": 80.036
+        },
+        {
+          "start": 80.036,
+          "end": 80.146
+        },
+        {
+          "start": 80.146,
+          "end": 80.256
+        },
+        {
+          "start": 80.256,
+          "end": 80.366
+        },
+        {
+          "start": 80.366,
+          "end": 80.476
+        },
+        {
+          "start": 80.476,
+          "end": 80.586
+        },
+        {
+          "start": 80.586,
+          "end": 80.696
+        },
+        {
+          "start": 80.696,
+          "end": 80.806
+        },
+        {
+          "start": 80.806,
+          "end": 80.926
+        },
+        {
+          "start": 80.926,
+          "end": 81.696
+        }
+      ]
+    },
+    {
+      "text": "えんぴつ と けしごむ、かう",
+      "start": 81.716,
+      "end": 83.936,
+      "section": "bridge",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 81.746,
+          "end": 81.856
+        },
+        {
+          "start": 81.856,
+          "end": 81.986
+        },
+        {
+          "start": 81.986,
+          "end": 82.206
+        },
+        {
+          "start": 82.206,
+          "end": 82.316
+        },
+        {
+          "start": 82.316,
+          "end": 82.426
+        },
+        {
+          "start": 82.426,
+          "end": 82.536
+        },
+        {
+          "start": 82.536,
+          "end": 82.646
+        },
+        {
+          "start": 82.646,
+          "end": 82.766
+        },
+        {
+          "start": 82.766,
+          "end": 82.886
+        },
+        {
+          "start": 82.886,
+          "end": 83.066
+        },
+        {
+          "start": 83.066,
+          "end": 83.176
+        },
+        {
+          "start": 83.176,
+          "end": 83.286
+        },
+        {
+          "start": 83.286,
+          "end": 83.786
+        },
+        {
+          "start": 83.786,
+          "end": 83.936
+        }
+      ]
+    },
+    {
+      "text": "こうえん で こども が あそぶ",
+      "start": 83.956,
+      "end": 86.796,
+      "section": "bridge",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 83.986,
+          "end": 84.266
+        },
+        {
+          "start": 84.266,
+          "end": 84.446
+        },
+        {
+          "start": 84.446,
+          "end": 84.626
+        },
+        {
+          "start": 84.626,
+          "end": 84.736
+        },
+        {
+          "start": 84.736,
+          "end": 84.846
+        },
+        {
+          "start": 84.846,
+          "end": 84.956
+        },
+        {
+          "start": 84.956,
+          "end": 85.066
+        },
+        {
+          "start": 85.066,
+          "end": 85.226
+        },
+        {
+          "start": 85.226,
+          "end": 85.366
+        },
+        {
+          "start": 85.366,
+          "end": 85.476
+        },
+        {
+          "start": 85.476,
+          "end": 85.586
+        },
+        {
+          "start": 85.586,
+          "end": 85.696
+        },
+        {
+          "start": 85.696,
+          "end": 85.806
+        },
+        {
+          "start": 85.806,
+          "end": 85.946
+        },
+        {
+          "start": 85.946,
+          "end": 86.166
+        },
+        {
+          "start": 86.166,
+          "end": 86.796
+        }
+      ]
+    },
+    {
+      "text": "か き く け こ",
+      "start": 86.816,
+      "end": 91.736,
+      "section": "refrain",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 86.846,
+          "end": 87.476
+        },
+        {
+          "start": 87.476,
+          "end": 88.106
+        },
+        {
+          "start": 88.106,
+          "end": 89.016
+        },
+        {
+          "start": 89.016,
+          "end": 89.926
+        },
+        {
+          "start": 89.926,
+          "end": 90.536
+        },
+        {
+          "start": 90.536,
+          "end": 91.146
+        },
+        {
+          "start": 91.146,
+          "end": 91.386
+        },
+        {
+          "start": 91.386,
+          "end": 91.626
+        },
+        {
+          "start": 91.626,
+          "end": 91.736
+        }
+      ]
+    },
+    {
+      "text": "かお を あらう",
+      "start": 91.756,
+      "end": 95.397,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 91.786,
+          "end": 92.367
+        },
+        {
+          "start": 92.367,
+          "end": 92.677
+        },
+        {
+          "start": 92.677,
+          "end": 92.987
+        },
+        {
+          "start": 92.987,
+          "end": 93.137
+        },
+        {
+          "start": 93.137,
+          "end": 93.287
+        },
+        {
+          "start": 93.287,
+          "end": 93.607
+        },
+        {
+          "start": 93.607,
+          "end": 95.127
+        },
+        {
+          "start": 95.127,
+          "end": 95.397
+        }
+      ]
+    },
+    {
+      "text": "あめ だから かさ",
+      "start": 95.417,
+      "end": 97.237,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 95.447,
+          "end": 95.747
+        },
+        {
+          "start": 95.747,
+          "end": 95.897
+        },
+        {
+          "start": 95.897,
+          "end": 96.047
+        },
+        {
+          "start": 96.047,
+          "end": 96.157
+        },
+        {
+          "start": 96.157,
+          "end": 96.267
+        },
+        {
+          "start": 96.267,
+          "end": 96.377
+        },
+        {
+          "start": 96.377,
+          "end": 96.487
+        },
+        {
+          "start": 96.487,
+          "end": 96.667
+        },
+        {
+          "start": 96.667,
+          "end": 97.237
+        }
+      ]
+    },
+    {
+      "text": "いえ の かぎ",
+      "start": 97.257,
+      "end": 98.977,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 97.287,
+          "end": 97.467
+        },
+        {
+          "start": 97.467,
+          "end": 97.607
+        },
+        {
+          "start": 97.607,
+          "end": 97.747
+        },
+        {
+          "start": 97.747,
+          "end": 97.977
+        },
+        {
+          "start": 97.977,
+          "end": 98.207
+        },
+        {
+          "start": 98.207,
+          "end": 98.827
+        },
+        {
+          "start": 98.827,
+          "end": 98.977
+        }
+      ]
+    },
+    {
+      "text": "ふく を きる",
+      "start": 98.997,
+      "end": 100.897,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 99.027,
+          "end": 99.407
+        },
+        {
+          "start": 99.407,
+          "end": 99.557
+        },
+        {
+          "start": 99.557,
+          "end": 99.707
+        },
+        {
+          "start": 99.707,
+          "end": 99.867
+        },
+        {
+          "start": 99.867,
+          "end": 100.027
+        },
+        {
+          "start": 100.027,
+          "end": 100.347
+        },
+        {
+          "start": 100.347,
+          "end": 100.897
+        }
+      ]
+    },
+    {
+      "text": "きいろい ぼうし",
+      "start": 100.917,
+      "end": 103.657,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 100.947,
+          "end": 101.057
+        },
+        {
+          "start": 101.057,
+          "end": 101.167
+        },
+        {
+          "start": 101.167,
+          "end": 101.277
+        },
+        {
+          "start": 101.277,
+          "end": 101.387
+        },
+        {
+          "start": 101.387,
+          "end": 101.567
+        },
+        {
+          "start": 101.567,
+          "end": 102.187
+        },
+        {
+          "start": 102.187,
+          "end": 103.247
+        },
+        {
+          "start": 103.247,
+          "end": 103.657
+        }
+      ]
+    },
+    {
+      "text": "きっぷ を かう",
+      "start": 103.677,
+      "end": 105.797,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 103.707,
+          "end": 103.817
+        },
+        {
+          "start": 103.817,
+          "end": 104.307
+        },
+        {
+          "start": 104.307,
+          "end": 104.417
+        },
+        {
+          "start": 104.417,
+          "end": 104.527
+        },
+        {
+          "start": 104.527,
+          "end": 104.717
+        },
+        {
+          "start": 104.717,
+          "end": 104.927
+        },
+        {
+          "start": 104.927,
+          "end": 105.387
+        },
+        {
+          "start": 105.387,
+          "end": 105.797
+        }
+      ]
+    },
+    {
+      "text": "くつ を はく",
+      "start": 105.817,
+      "end": 107.538,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 105.847,
+          "end": 106.067
+        },
+        {
+          "start": 106.067,
+          "end": 106.177
+        },
+        {
+          "start": 106.177,
+          "end": 106.287
+        },
+        {
+          "start": 106.287,
+          "end": 106.397
+        },
+        {
+          "start": 106.397,
+          "end": 106.507
+        },
+        {
+          "start": 106.507,
+          "end": 106.788
+        },
+        {
+          "start": 106.788,
+          "end": 107.538
+        }
+      ]
+    },
+    {
+      "text": "くるま に のる",
+      "start": 107.558,
+      "end": 110.358,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 107.588,
+          "end": 108.508
+        },
+        {
+          "start": 108.508,
+          "end": 108.748
+        },
+        {
+          "start": 108.748,
+          "end": 108.988
+        },
+        {
+          "start": 108.988,
+          "end": 109.228
+        },
+        {
+          "start": 109.228,
+          "end": 109.518
+        },
+        {
+          "start": 109.518,
+          "end": 109.808
+        },
+        {
+          "start": 109.808,
+          "end": 110.148
+        },
+        {
+          "start": 110.148,
+          "end": 110.358
+        }
+      ]
+    },
+    {
+      "text": "そら に くも",
+      "start": 110.378,
+      "end": 111.318,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 110.408,
+          "end": 110.538
+        },
+        {
+          "start": 110.538,
+          "end": 110.668
+        },
+        {
+          "start": 110.668,
+          "end": 110.798
+        },
+        {
+          "start": 110.798,
+          "end": 110.928
+        },
+        {
+          "start": 110.928,
+          "end": 111.058
+        },
+        {
+          "start": 111.058,
+          "end": 111.188
+        },
+        {
+          "start": 111.188,
+          "end": 111.318
+        }
+      ]
+    },
+    {
+      "text": "えんぴつ と けしごむ",
+      "start": 111.338,
+      "end": 114.238,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 111.368,
+          "end": 111.828
+        },
+        {
+          "start": 111.828,
+          "end": 112.168
+        },
+        {
+          "start": 112.168,
+          "end": 112.468
+        },
+        {
+          "start": 112.468,
+          "end": 112.578
+        },
+        {
+          "start": 112.578,
+          "end": 112.688
+        },
+        {
+          "start": 112.688,
+          "end": 112.798
+        },
+        {
+          "start": 112.798,
+          "end": 112.908
+        },
+        {
+          "start": 112.908,
+          "end": 113.108
+        },
+        {
+          "start": 113.108,
+          "end": 113.218
+        },
+        {
+          "start": 113.218,
+          "end": 113.528
+        },
+        {
+          "start": 113.528,
+          "end": 114.238
+        }
+      ]
+    },
+    {
+      "text": "あかい けいと",
+      "start": 114.258,
+      "end": 115.898,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 114.288,
+          "end": 114.398
+        },
+        {
+          "start": 114.398,
+          "end": 114.688
+        },
+        {
+          "start": 114.688,
+          "end": 114.798
+        },
+        {
+          "start": 114.798,
+          "end": 114.908
+        },
+        {
+          "start": 114.908,
+          "end": 115.228
+        },
+        {
+          "start": 115.228,
+          "end": 115.528
+        },
+        {
+          "start": 115.528,
+          "end": 115.898
+        }
+      ]
+    },
+    {
+      "text": "けさ は あめ",
+      "start": 115.918,
+      "end": 117.418,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 115.948,
+          "end": 116.128
+        },
+        {
+          "start": 116.128,
+          "end": 116.348
+        },
+        {
+          "start": 116.348,
+          "end": 116.568
+        },
+        {
+          "start": 116.568,
+          "end": 116.718
+        },
+        {
+          "start": 116.718,
+          "end": 116.868
+        },
+        {
+          "start": 116.868,
+          "end": 117.188
+        },
+        {
+          "start": 117.188,
+          "end": 117.418
+        }
+      ]
+    },
+    {
+      "text": "こうえん で あそぶ",
+      "start": 117.438,
+      "end": 121.099,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 117.468,
+          "end": 117.968
+        },
+        {
+          "start": 117.968,
+          "end": 118.128
+        },
+        {
+          "start": 118.128,
+          "end": 118.288
+        },
+        {
+          "start": 118.288,
+          "end": 118.398
+        },
+        {
+          "start": 118.398,
+          "end": 118.508
+        },
+        {
+          "start": 118.508,
+          "end": 118.718
+        },
+        {
+          "start": 118.718,
+          "end": 119.008
+        },
+        {
+          "start": 119.008,
+          "end": 119.328
+        },
+        {
+          "start": 119.328,
+          "end": 120.549
+        },
+        {
+          "start": 120.549,
+          "end": 121.099
+        }
+      ]
+    },
+    {
+      "text": "こども が わらう",
+      "start": 121.119,
+      "end": 123.559,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 121.149,
+          "end": 121.369
+        },
+        {
+          "start": 121.369,
+          "end": 121.629
+        },
+        {
+          "start": 121.629,
+          "end": 121.739
+        },
+        {
+          "start": 121.739,
+          "end": 121.849
+        },
+        {
+          "start": 121.849,
+          "end": 122.019
+        },
+        {
+          "start": 122.019,
+          "end": 122.389
+        },
+        {
+          "start": 122.389,
+          "end": 122.609
+        },
+        {
+          "start": 122.609,
+          "end": 123.229
+        },
+        {
+          "start": 123.229,
+          "end": 123.559
+        }
+      ]
+    },
+    {
+      "text": "おおきい こえ",
+      "start": 123.579,
+      "end": 127.269,
+      "section": "review",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 123.609,
+          "end": 123.889
+        },
+        {
+          "start": 123.889,
+          "end": 124.809
+        },
+        {
+          "start": 124.809,
+          "end": 125.469
+        },
+        {
+          "start": 125.469,
+          "end": 125.609
+        },
+        {
+          "start": 125.609,
+          "end": 125.749
+        },
+        {
+          "start": 125.749,
+          "end": 126.069
+        },
+        {
+          "start": 126.069,
+          "end": 127.269
+        }
+      ]
+    },
+    {
+      "text": "か き く け こ",
+      "start": 128.979,
+      "end": 130.899,
+      "section": "refrain",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 129.129,
+          "end": 129.429
+        },
+        {
+          "start": 129.429,
+          "end": 129.729
+        },
+        {
+          "start": 129.729,
+          "end": 129.959
+        },
+        {
+          "start": 129.959,
+          "end": 130.189
+        },
+        {
+          "start": 130.189,
+          "end": 130.339
+        },
+        {
+          "start": 130.339,
+          "end": 130.489
+        },
+        {
+          "start": 130.489,
+          "end": 130.599
+        },
+        {
+          "start": 130.599,
+          "end": 130.709
+        },
+        {
+          "start": 130.709,
+          "end": 130.899
+        }
+      ]
+    },
+    {
+      "text": "か き く け こ",
+      "start": 130.919,
+      "end": 135.509,
+      "section": "outro",
+      "illos": [
+        "kao",
+        "kasa",
+        "kagi"
+      ],
+      "chars": [
+        {
+          "start": 130.949,
+          "end": 131.359
+        },
+        {
+          "start": 131.359,
+          "end": 131.769
+        },
+        {
+          "start": 131.769,
+          "end": 132.279
+        },
+        {
+          "start": 132.279,
+          "end": 132.789
+        },
+        {
+          "start": 132.789,
+          "end": 133.259
+        },
+        {
+          "start": 133.259,
+          "end": 133.729
+        },
+        {
+          "start": 133.729,
+          "end": 133.869
+        },
+        {
+          "start": 133.869,
+          "end": 134.009
+        },
+        {
+          "start": 134.009,
+          "end": 135.509
+        }
+      ]
+    }
+  ],
+  "_aligned": {
+    "tool": "whisperx",
+    "anchored_chars": 332,
+    "total_chars": 332
+  }
+}

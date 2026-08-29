@@ -1,0 +1,2760 @@
+{
+  "song": "09-rarirurero-ie",
+  "title": "らりるれろ・おうち の もの",
+  "trackName": "おうち の もの",
+  "trackNo": "09",
+  "row": "らりるれろ",
+  "channel": "iconotes",
+  "style": "City Pop",
+  "bpm": 92,
+  "ilBase": "09-rarirurero-ie/il",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "09-rarirurero-ie/audio.wav",
+  "countInSeconds": 1.1,
+  "tailSeconds": 1.5,
+  "durationSeconds": 124.75,
+  "placeholder": false,
+  "lines": [
+    {
+      "text": "ら り る れ ろ",
+      "start": 0.35,
+      "end": 1.53,
+      "section": "intro",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 0.5,
+          "end": 0.614
+        },
+        {
+          "start": 0.614,
+          "end": 0.729
+        },
+        {
+          "start": 0.729,
+          "end": 0.843
+        },
+        {
+          "start": 0.843,
+          "end": 0.958
+        },
+        {
+          "start": 0.958,
+          "end": 1.072
+        },
+        {
+          "start": 1.072,
+          "end": 1.187
+        },
+        {
+          "start": 1.187,
+          "end": 1.301
+        },
+        {
+          "start": 1.301,
+          "end": 1.416
+        },
+        {
+          "start": 1.416,
+          "end": 1.53
+        }
+      ]
+    },
+    {
+      "text": "らじお",
+      "start": 1.55,
+      "end": 3.19,
+      "section": "verse",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "target": "rajio",
+      "chars": [
+        {
+          "start": 1.58,
+          "end": 2.48
+        },
+        {
+          "start": 2.48,
+          "end": 3.08
+        },
+        {
+          "start": 3.08,
+          "end": 3.19
+        }
+      ]
+    },
+    {
+      "text": "らじお を きく",
+      "start": 3.21,
+      "end": 4.51,
+      "section": "verse",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "target": "rajio",
+      "chars": [
+        {
+          "start": 3.24,
+          "end": 3.4
+        },
+        {
+          "start": 3.4,
+          "end": 3.64
+        },
+        {
+          "start": 3.64,
+          "end": 3.75
+        },
+        {
+          "start": 3.75,
+          "end": 3.86
+        },
+        {
+          "start": 3.86,
+          "end": 3.97
+        },
+        {
+          "start": 3.97,
+          "end": 4.08
+        },
+        {
+          "start": 4.08,
+          "end": 4.19
+        },
+        {
+          "start": 4.19,
+          "end": 4.51
+        }
+      ]
+    },
+    {
+      "text": "らんぷ",
+      "start": 4.53,
+      "end": 5.01,
+      "section": "verse",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "target": "ranpu",
+      "chars": [
+        {
+          "start": 4.56,
+          "end": 4.67
+        },
+        {
+          "start": 4.67,
+          "end": 4.78
+        },
+        {
+          "start": 4.78,
+          "end": 5.01
+        }
+      ]
+    },
+    {
+      "text": "あかるい らんぷ",
+      "start": 5.03,
+      "end": 6.831,
+      "section": "verse",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "target": "ranpu",
+      "chars": [
+        {
+          "start": 5.06,
+          "end": 5.36
+        },
+        {
+          "start": 5.36,
+          "end": 5.98
+        },
+        {
+          "start": 5.98,
+          "end": 6.14
+        },
+        {
+          "start": 6.14,
+          "end": 6.25
+        },
+        {
+          "start": 6.25,
+          "end": 6.36
+        },
+        {
+          "start": 6.36,
+          "end": 6.47
+        },
+        {
+          "start": 6.47,
+          "end": 6.581
+        },
+        {
+          "start": 6.581,
+          "end": 6.831
+        }
+      ]
+    },
+    {
+      "text": "らっぱ",
+      "start": 6.851,
+      "end": 7.931,
+      "section": "verse",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "target": "rappa",
+      "chars": [
+        {
+          "start": 6.881,
+          "end": 7.121
+        },
+        {
+          "start": 7.121,
+          "end": 7.231
+        },
+        {
+          "start": 7.231,
+          "end": 7.931
+        }
+      ]
+    },
+    {
+      "text": "らっぱ を ふく",
+      "start": 7.951,
+      "end": 8.971,
+      "section": "verse",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "target": "rappa",
+      "chars": [
+        {
+          "start": 7.981,
+          "end": 8.105
+        },
+        {
+          "start": 8.105,
+          "end": 8.229
+        },
+        {
+          "start": 8.229,
+          "end": 8.352
+        },
+        {
+          "start": 8.352,
+          "end": 8.476
+        },
+        {
+          "start": 8.476,
+          "end": 8.6
+        },
+        {
+          "start": 8.6,
+          "end": 8.723
+        },
+        {
+          "start": 8.723,
+          "end": 8.847
+        },
+        {
+          "start": 8.847,
+          "end": 8.971
+        }
+      ]
+    },
+    {
+      "text": "ら り る れ ろ",
+      "start": 8.991,
+      "end": 12.031,
+      "section": "refrain",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 9.021,
+          "end": 9.141
+        },
+        {
+          "start": 9.141,
+          "end": 9.261
+        },
+        {
+          "start": 9.261,
+          "end": 9.371
+        },
+        {
+          "start": 9.371,
+          "end": 9.481
+        },
+        {
+          "start": 9.481,
+          "end": 9.631
+        },
+        {
+          "start": 9.631,
+          "end": 9.921
+        },
+        {
+          "start": 9.921,
+          "end": 10.631
+        },
+        {
+          "start": 10.631,
+          "end": 11.341
+        },
+        {
+          "start": 11.341,
+          "end": 12.031
+        }
+      ]
+    },
+    {
+      "text": "りんご",
+      "start": 12.051,
+      "end": 13.011,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "ribon",
+        "ryouri"
+      ],
+      "target": "ringo",
+      "chars": [
+        {
+          "start": 12.081,
+          "end": 12.381
+        },
+        {
+          "start": 12.381,
+          "end": 12.861
+        },
+        {
+          "start": 12.861,
+          "end": 13.011
+        }
+      ]
+    },
+    {
+      "text": "あかい りんご",
+      "start": 13.031,
+      "end": 15.871,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "ribon",
+        "ryouri"
+      ],
+      "target": "ringo",
+      "chars": [
+        {
+          "start": 13.061,
+          "end": 13.301
+        },
+        {
+          "start": 13.301,
+          "end": 13.521
+        },
+        {
+          "start": 13.521,
+          "end": 13.961
+        },
+        {
+          "start": 13.961,
+          "end": 14.401
+        },
+        {
+          "start": 14.401,
+          "end": 15.141
+        },
+        {
+          "start": 15.141,
+          "end": 15.461
+        },
+        {
+          "start": 15.461,
+          "end": 15.871
+        }
+      ]
+    },
+    {
+      "text": "りぼん",
+      "start": 15.891,
+      "end": 16.631,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "ribon",
+        "ryouri"
+      ],
+      "target": "ribon",
+      "chars": [
+        {
+          "start": 15.921,
+          "end": 16.061
+        },
+        {
+          "start": 16.061,
+          "end": 16.361
+        },
+        {
+          "start": 16.361,
+          "end": 16.631
+        }
+      ]
+    },
+    {
+      "text": "かわいい りぼん",
+      "start": 16.651,
+      "end": 19.072,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "ribon",
+        "ryouri"
+      ],
+      "target": "ribon",
+      "chars": [
+        {
+          "start": 16.681,
+          "end": 16.981
+        },
+        {
+          "start": 16.981,
+          "end": 17.301
+        },
+        {
+          "start": 17.301,
+          "end": 17.761
+        },
+        {
+          "start": 17.761,
+          "end": 17.921
+        },
+        {
+          "start": 17.921,
+          "end": 18.081
+        },
+        {
+          "start": 18.081,
+          "end": 18.501
+        },
+        {
+          "start": 18.501,
+          "end": 18.822
+        },
+        {
+          "start": 18.822,
+          "end": 19.072
+        }
+      ]
+    },
+    {
+      "text": "りょうり",
+      "start": 19.092,
+      "end": 20.312,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "ribon",
+        "ryouri"
+      ],
+      "target": "ryouri",
+      "chars": [
+        {
+          "start": 19.122,
+          "end": 19.232
+        },
+        {
+          "start": 19.232,
+          "end": 19.742
+        },
+        {
+          "start": 19.742,
+          "end": 20.022
+        },
+        {
+          "start": 20.022,
+          "end": 20.312
+        }
+      ]
+    },
+    {
+      "text": "りょうり を する",
+      "start": 20.332,
+      "end": 22.332,
+      "section": "verse",
+      "illos": [
+        "ringo",
+        "ribon",
+        "ryouri"
+      ],
+      "target": "ryouri",
+      "chars": [
+        {
+          "start": 20.362,
+          "end": 20.581
+        },
+        {
+          "start": 20.581,
+          "end": 20.8
+        },
+        {
+          "start": 20.8,
+          "end": 21.019
+        },
+        {
+          "start": 21.019,
+          "end": 21.238
+        },
+        {
+          "start": 21.238,
+          "end": 21.456
+        },
+        {
+          "start": 21.456,
+          "end": 21.675
+        },
+        {
+          "start": 21.675,
+          "end": 21.894
+        },
+        {
+          "start": 21.894,
+          "end": 22.113
+        },
+        {
+          "start": 22.113,
+          "end": 22.332
+        }
+      ]
+    },
+    {
+      "text": "ら り る れ ろ",
+      "start": 22.352,
+      "end": 23.352,
+      "section": "refrain",
+      "illos": [
+        "ringo",
+        "ribon",
+        "ryouri"
+      ],
+      "chars": [
+        {
+          "start": 22.382,
+          "end": 22.49
+        },
+        {
+          "start": 22.49,
+          "end": 22.598
+        },
+        {
+          "start": 22.598,
+          "end": 22.705
+        },
+        {
+          "start": 22.705,
+          "end": 22.813
+        },
+        {
+          "start": 22.813,
+          "end": 22.921
+        },
+        {
+          "start": 22.921,
+          "end": 23.029
+        },
+        {
+          "start": 23.029,
+          "end": 23.136
+        },
+        {
+          "start": 23.136,
+          "end": 23.244
+        },
+        {
+          "start": 23.244,
+          "end": 23.352
+        }
+      ]
+    },
+    {
+      "text": "るす",
+      "start": 23.372,
+      "end": 23.972,
+      "section": "verse",
+      "illos": [
+        "rusu",
+        "rupe",
+        "rubi"
+      ],
+      "target": "rusu",
+      "chars": [
+        {
+          "start": 23.402,
+          "end": 23.702
+        },
+        {
+          "start": 23.702,
+          "end": 23.972
+        }
+      ]
+    },
+    {
+      "text": "いえ が るす",
+      "start": 23.992,
+      "end": 25.972,
+      "section": "verse",
+      "illos": [
+        "rusu",
+        "rupe",
+        "rubi"
+      ],
+      "target": "rusu",
+      "chars": [
+        {
+          "start": 24.022,
+          "end": 24.301
+        },
+        {
+          "start": 24.301,
+          "end": 24.579
+        },
+        {
+          "start": 24.579,
+          "end": 24.858
+        },
+        {
+          "start": 24.858,
+          "end": 25.136
+        },
+        {
+          "start": 25.136,
+          "end": 25.415
+        },
+        {
+          "start": 25.415,
+          "end": 25.693
+        },
+        {
+          "start": 25.693,
+          "end": 25.972
+        }
+      ]
+    },
+    {
+      "text": "るーぺ",
+      "start": 25.992,
+      "end": 27.172,
+      "section": "verse",
+      "illos": [
+        "rusu",
+        "rupe",
+        "rubi"
+      ],
+      "target": "rupe",
+      "chars": [
+        {
+          "start": 26.022,
+          "end": 26.172
+        },
+        {
+          "start": 26.172,
+          "end": 26.322
+        },
+        {
+          "start": 26.322,
+          "end": 27.172
+        }
+      ]
+    },
+    {
+      "text": "るーぺ で みる",
+      "start": 27.192,
+      "end": 28.272,
+      "section": "verse",
+      "illos": [
+        "rusu",
+        "rupe",
+        "rubi"
+      ],
+      "target": "rupe",
+      "chars": [
+        {
+          "start": 27.222,
+          "end": 27.353
+        },
+        {
+          "start": 27.353,
+          "end": 27.485
+        },
+        {
+          "start": 27.485,
+          "end": 27.616
+        },
+        {
+          "start": 27.616,
+          "end": 27.747
+        },
+        {
+          "start": 27.747,
+          "end": 27.878
+        },
+        {
+          "start": 27.878,
+          "end": 28.009
+        },
+        {
+          "start": 28.009,
+          "end": 28.141
+        },
+        {
+          "start": 28.141,
+          "end": 28.272
+        }
+      ]
+    },
+    {
+      "text": "るびー",
+      "start": 28.292,
+      "end": 28.592,
+      "section": "verse",
+      "illos": [
+        "rusu",
+        "rupe",
+        "rubi"
+      ],
+      "target": "rubi",
+      "chars": [
+        {
+          "start": 28.322,
+          "end": 28.412
+        },
+        {
+          "start": 28.412,
+          "end": 28.502
+        },
+        {
+          "start": 28.502,
+          "end": 28.592
+        }
+      ]
+    },
+    {
+      "text": "ひかる るびー",
+      "start": 28.612,
+      "end": 29.752,
+      "section": "verse",
+      "illos": [
+        "rusu",
+        "rupe",
+        "rubi"
+      ],
+      "target": "rubi",
+      "chars": [
+        {
+          "start": 28.622,
+          "end": 28.783
+        },
+        {
+          "start": 28.783,
+          "end": 28.945
+        },
+        {
+          "start": 28.945,
+          "end": 29.106
+        },
+        {
+          "start": 29.106,
+          "end": 29.268
+        },
+        {
+          "start": 29.268,
+          "end": 29.429
+        },
+        {
+          "start": 29.429,
+          "end": 29.591
+        },
+        {
+          "start": 29.591,
+          "end": 29.752
+        }
+      ]
+    },
+    {
+      "text": "ら り る れ ろ",
+      "start": 29.772,
+      "end": 31.313,
+      "section": "refrain",
+      "illos": [
+        "rusu",
+        "rupe",
+        "rubi"
+      ],
+      "chars": [
+        {
+          "start": 29.802,
+          "end": 29.912
+        },
+        {
+          "start": 29.912,
+          "end": 30.022
+        },
+        {
+          "start": 30.022,
+          "end": 30.162
+        },
+        {
+          "start": 30.162,
+          "end": 30.322
+        },
+        {
+          "start": 30.322,
+          "end": 30.472
+        },
+        {
+          "start": 30.472,
+          "end": 30.622
+        },
+        {
+          "start": 30.622,
+          "end": 30.842
+        },
+        {
+          "start": 30.842,
+          "end": 31.062
+        },
+        {
+          "start": 31.062,
+          "end": 31.313
+        }
+      ]
+    },
+    {
+      "text": "れいぞうこ",
+      "start": 31.333,
+      "end": 32.233,
+      "section": "verse",
+      "illos": [
+        "reizouko",
+        "remon",
+        "renga"
+      ],
+      "target": "reizouko",
+      "chars": [
+        {
+          "start": 31.363,
+          "end": 31.523
+        },
+        {
+          "start": 31.523,
+          "end": 31.663
+        },
+        {
+          "start": 31.663,
+          "end": 31.843
+        },
+        {
+          "start": 31.843,
+          "end": 31.963
+        },
+        {
+          "start": 31.963,
+          "end": 32.233
+        }
+      ]
+    },
+    {
+      "text": "つめたい れいぞうこ",
+      "start": 32.253,
+      "end": 35.253,
+      "section": "verse",
+      "illos": [
+        "reizouko",
+        "remon",
+        "renga"
+      ],
+      "target": "reizouko",
+      "chars": [
+        {
+          "start": 32.283,
+          "end": 32.743
+        },
+        {
+          "start": 32.743,
+          "end": 33.083
+        },
+        {
+          "start": 33.083,
+          "end": 33.363
+        },
+        {
+          "start": 33.363,
+          "end": 33.473
+        },
+        {
+          "start": 33.473,
+          "end": 33.583
+        },
+        {
+          "start": 33.583,
+          "end": 33.783
+        },
+        {
+          "start": 33.783,
+          "end": 34.123
+        },
+        {
+          "start": 34.123,
+          "end": 34.263
+        },
+        {
+          "start": 34.263,
+          "end": 34.403
+        },
+        {
+          "start": 34.403,
+          "end": 35.253
+        }
+      ]
+    },
+    {
+      "text": "れもん",
+      "start": 35.273,
+      "end": 36.213,
+      "section": "verse",
+      "illos": [
+        "reizouko",
+        "remon",
+        "renga"
+      ],
+      "target": "remon",
+      "chars": [
+        {
+          "start": 35.303,
+          "end": 35.503
+        },
+        {
+          "start": 35.503,
+          "end": 36.063
+        },
+        {
+          "start": 36.063,
+          "end": 36.213
+        }
+      ]
+    },
+    {
+      "text": "すっぱい れもん",
+      "start": 36.233,
+      "end": 37.613,
+      "section": "verse",
+      "illos": [
+        "reizouko",
+        "remon",
+        "renga"
+      ],
+      "target": "remon",
+      "chars": [
+        {
+          "start": 36.263,
+          "end": 36.432
+        },
+        {
+          "start": 36.432,
+          "end": 36.6
+        },
+        {
+          "start": 36.6,
+          "end": 36.769
+        },
+        {
+          "start": 36.769,
+          "end": 36.938
+        },
+        {
+          "start": 36.938,
+          "end": 37.107
+        },
+        {
+          "start": 37.107,
+          "end": 37.276
+        },
+        {
+          "start": 37.276,
+          "end": 37.444
+        },
+        {
+          "start": 37.444,
+          "end": 37.613
+        }
+      ]
+    },
+    {
+      "text": "れんが",
+      "start": 37.633,
+      "end": 38.353,
+      "section": "verse",
+      "illos": [
+        "reizouko",
+        "remon",
+        "renga"
+      ],
+      "target": "renga",
+      "chars": [
+        {
+          "start": 37.663,
+          "end": 37.803
+        },
+        {
+          "start": 37.803,
+          "end": 38.083
+        },
+        {
+          "start": 38.083,
+          "end": 38.353
+        }
+      ]
+    },
+    {
+      "text": "かたい れんが",
+      "start": 38.373,
+      "end": 39.873,
+      "section": "verse",
+      "illos": [
+        "reizouko",
+        "remon",
+        "renga"
+      ],
+      "target": "renga",
+      "chars": [
+        {
+          "start": 38.403,
+          "end": 39.023
+        },
+        {
+          "start": 39.023,
+          "end": 39.223
+        },
+        {
+          "start": 39.223,
+          "end": 39.333
+        },
+        {
+          "start": 39.333,
+          "end": 39.443
+        },
+        {
+          "start": 39.443,
+          "end": 39.553
+        },
+        {
+          "start": 39.553,
+          "end": 39.663
+        },
+        {
+          "start": 39.663,
+          "end": 39.873
+        }
+      ]
+    },
+    {
+      "text": "ら り る れ ろ",
+      "start": 39.893,
+      "end": 41.413,
+      "section": "refrain",
+      "illos": [
+        "reizouko",
+        "remon",
+        "renga"
+      ],
+      "chars": [
+        {
+          "start": 39.923,
+          "end": 40.043
+        },
+        {
+          "start": 40.043,
+          "end": 40.163
+        },
+        {
+          "start": 40.163,
+          "end": 40.293
+        },
+        {
+          "start": 40.293,
+          "end": 40.423
+        },
+        {
+          "start": 40.423,
+          "end": 40.573
+        },
+        {
+          "start": 40.573,
+          "end": 40.723
+        },
+        {
+          "start": 40.723,
+          "end": 40.883
+        },
+        {
+          "start": 40.883,
+          "end": 41.043
+        },
+        {
+          "start": 41.043,
+          "end": 41.413
+        }
+      ]
+    },
+    {
+      "text": "ろうそく",
+      "start": 41.433,
+      "end": 42.193,
+      "section": "verse",
+      "illos": [
+        "rousoku",
+        "robotto",
+        "roketto"
+      ],
+      "target": "rousoku",
+      "chars": [
+        {
+          "start": 41.463,
+          "end": 41.623
+        },
+        {
+          "start": 41.623,
+          "end": 41.763
+        },
+        {
+          "start": 41.763,
+          "end": 41.963
+        },
+        {
+          "start": 41.963,
+          "end": 42.193
+        }
+      ]
+    },
+    {
+      "text": "ろうそく を つける",
+      "start": 42.213,
+      "end": 45.094,
+      "section": "verse",
+      "illos": [
+        "rousoku",
+        "robotto",
+        "roketto"
+      ],
+      "target": "rousoku",
+      "chars": [
+        {
+          "start": 42.243,
+          "end": 42.503
+        },
+        {
+          "start": 42.503,
+          "end": 42.663
+        },
+        {
+          "start": 42.663,
+          "end": 42.883
+        },
+        {
+          "start": 42.883,
+          "end": 43.033
+        },
+        {
+          "start": 43.033,
+          "end": 43.183
+        },
+        {
+          "start": 43.183,
+          "end": 43.333
+        },
+        {
+          "start": 43.333,
+          "end": 43.483
+        },
+        {
+          "start": 43.483,
+          "end": 43.804
+        },
+        {
+          "start": 43.804,
+          "end": 44.084
+        },
+        {
+          "start": 44.084,
+          "end": 45.094
+        }
+      ]
+    },
+    {
+      "text": "ろぼっと",
+      "start": 45.114,
+      "end": 45.694,
+      "section": "verse",
+      "illos": [
+        "rousoku",
+        "robotto",
+        "roketto"
+      ],
+      "target": "robotto",
+      "chars": [
+        {
+          "start": 45.144,
+          "end": 45.282
+        },
+        {
+          "start": 45.282,
+          "end": 45.419
+        },
+        {
+          "start": 45.419,
+          "end": 45.556
+        },
+        {
+          "start": 45.556,
+          "end": 45.694
+        }
+      ]
+    },
+    {
+      "text": "おおきい ろぼっと",
+      "start": 45.714,
+      "end": 48.014,
+      "section": "verse",
+      "illos": [
+        "rousoku",
+        "robotto",
+        "roketto"
+      ],
+      "target": "robotto",
+      "chars": [
+        {
+          "start": 45.744,
+          "end": 46.064
+        },
+        {
+          "start": 46.064,
+          "end": 46.384
+        },
+        {
+          "start": 46.384,
+          "end": 46.704
+        },
+        {
+          "start": 46.704,
+          "end": 46.814
+        },
+        {
+          "start": 46.814,
+          "end": 46.924
+        },
+        {
+          "start": 46.924,
+          "end": 47.144
+        },
+        {
+          "start": 47.144,
+          "end": 47.404
+        },
+        {
+          "start": 47.404,
+          "end": 47.514
+        },
+        {
+          "start": 47.514,
+          "end": 48.014
+        }
+      ]
+    },
+    {
+      "text": "ろけっと",
+      "start": 48.034,
+      "end": 49.234,
+      "section": "verse",
+      "illos": [
+        "rousoku",
+        "robotto",
+        "roketto"
+      ],
+      "target": "roketto",
+      "chars": [
+        {
+          "start": 48.064,
+          "end": 48.224
+        },
+        {
+          "start": 48.224,
+          "end": 48.444
+        },
+        {
+          "start": 48.444,
+          "end": 48.554
+        },
+        {
+          "start": 48.554,
+          "end": 49.234
+        }
+      ]
+    },
+    {
+      "text": "ろけっと が とぶ",
+      "start": 49.254,
+      "end": 51.514,
+      "section": "verse",
+      "illos": [
+        "rousoku",
+        "robotto",
+        "roketto"
+      ],
+      "target": "roketto",
+      "chars": [
+        {
+          "start": 49.284,
+          "end": 49.444
+        },
+        {
+          "start": 49.444,
+          "end": 49.644
+        },
+        {
+          "start": 49.644,
+          "end": 49.754
+        },
+        {
+          "start": 49.754,
+          "end": 49.874
+        },
+        {
+          "start": 49.874,
+          "end": 50.024
+        },
+        {
+          "start": 50.024,
+          "end": 50.184
+        },
+        {
+          "start": 50.184,
+          "end": 50.344
+        },
+        {
+          "start": 50.344,
+          "end": 50.664
+        },
+        {
+          "start": 50.664,
+          "end": 51.514
+        }
+      ]
+    },
+    {
+      "text": "ら り る れ ろ",
+      "start": 51.534,
+      "end": 54.454,
+      "section": "refrain",
+      "illos": [
+        "rousoku",
+        "robotto",
+        "roketto"
+      ],
+      "chars": [
+        {
+          "start": 51.564,
+          "end": 51.874
+        },
+        {
+          "start": 51.874,
+          "end": 52.184
+        },
+        {
+          "start": 52.184,
+          "end": 52.294
+        },
+        {
+          "start": 52.294,
+          "end": 52.404
+        },
+        {
+          "start": 52.404,
+          "end": 52.584
+        },
+        {
+          "start": 52.584,
+          "end": 52.784
+        },
+        {
+          "start": 52.784,
+          "end": 53.024
+        },
+        {
+          "start": 53.024,
+          "end": 53.264
+        },
+        {
+          "start": 53.264,
+          "end": 54.454
+        }
+      ]
+    },
+    {
+      "text": "らじお を きく、らっぱ を ふく",
+      "start": 54.474,
+      "end": 58.255,
+      "section": "bridge",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 54.504,
+          "end": 54.804
+        },
+        {
+          "start": 54.804,
+          "end": 55.544
+        },
+        {
+          "start": 55.544,
+          "end": 55.944
+        },
+        {
+          "start": 55.944,
+          "end": 56.345
+        },
+        {
+          "start": 56.345,
+          "end": 56.455
+        },
+        {
+          "start": 56.455,
+          "end": 56.565
+        },
+        {
+          "start": 56.565,
+          "end": 56.675
+        },
+        {
+          "start": 56.675,
+          "end": 56.795
+        },
+        {
+          "start": 56.795,
+          "end": 56.945
+        },
+        {
+          "start": 56.945,
+          "end": 57.205
+        },
+        {
+          "start": 57.205,
+          "end": 57.315
+        },
+        {
+          "start": 57.315,
+          "end": 57.425
+        },
+        {
+          "start": 57.425,
+          "end": 57.565
+        },
+        {
+          "start": 57.565,
+          "end": 57.675
+        },
+        {
+          "start": 57.675,
+          "end": 57.785
+        },
+        {
+          "start": 57.785,
+          "end": 58.005
+        },
+        {
+          "start": 58.005,
+          "end": 58.255
+        }
+      ]
+    },
+    {
+      "text": "あかい りんご、かわいい りぼん",
+      "start": 58.275,
+      "end": 60.715,
+      "section": "bridge",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 58.305,
+          "end": 58.456
+        },
+        {
+          "start": 58.456,
+          "end": 58.606
+        },
+        {
+          "start": 58.606,
+          "end": 58.757
+        },
+        {
+          "start": 58.757,
+          "end": 58.907
+        },
+        {
+          "start": 58.907,
+          "end": 59.058
+        },
+        {
+          "start": 59.058,
+          "end": 59.209
+        },
+        {
+          "start": 59.209,
+          "end": 59.359
+        },
+        {
+          "start": 59.359,
+          "end": 59.51
+        },
+        {
+          "start": 59.51,
+          "end": 59.661
+        },
+        {
+          "start": 59.661,
+          "end": 59.811
+        },
+        {
+          "start": 59.811,
+          "end": 59.962
+        },
+        {
+          "start": 59.962,
+          "end": 60.113
+        },
+        {
+          "start": 60.113,
+          "end": 60.263
+        },
+        {
+          "start": 60.263,
+          "end": 60.414
+        },
+        {
+          "start": 60.414,
+          "end": 60.564
+        },
+        {
+          "start": 60.564,
+          "end": 60.715
+        }
+      ]
+    },
+    {
+      "text": "るーぺ で みる、ひかる るびー",
+      "start": 60.735,
+      "end": 63.155,
+      "section": "bridge",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 60.765,
+          "end": 60.925
+        },
+        {
+          "start": 60.925,
+          "end": 61.085
+        },
+        {
+          "start": 61.085,
+          "end": 61.195
+        },
+        {
+          "start": 61.195,
+          "end": 61.305
+        },
+        {
+          "start": 61.305,
+          "end": 61.415
+        },
+        {
+          "start": 61.415,
+          "end": 61.525
+        },
+        {
+          "start": 61.525,
+          "end": 61.635
+        },
+        {
+          "start": 61.635,
+          "end": 61.745
+        },
+        {
+          "start": 61.745,
+          "end": 61.855
+        },
+        {
+          "start": 61.855,
+          "end": 62.165
+        },
+        {
+          "start": 62.165,
+          "end": 62.485
+        },
+        {
+          "start": 62.485,
+          "end": 62.595
+        },
+        {
+          "start": 62.595,
+          "end": 62.705
+        },
+        {
+          "start": 62.705,
+          "end": 62.815
+        },
+        {
+          "start": 62.815,
+          "end": 62.98
+        },
+        {
+          "start": 62.98,
+          "end": 63.155
+        }
+      ]
+    },
+    {
+      "text": "つめたい れいぞうこ、すっぱい れもん",
+      "start": 63.175,
+      "end": 65.935,
+      "section": "bridge",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 63.205,
+          "end": 63.365
+        },
+        {
+          "start": 63.365,
+          "end": 63.525
+        },
+        {
+          "start": 63.525,
+          "end": 63.705
+        },
+        {
+          "start": 63.705,
+          "end": 63.815
+        },
+        {
+          "start": 63.815,
+          "end": 63.925
+        },
+        {
+          "start": 63.925,
+          "end": 64.035
+        },
+        {
+          "start": 64.035,
+          "end": 64.145
+        },
+        {
+          "start": 64.145,
+          "end": 64.265
+        },
+        {
+          "start": 64.265,
+          "end": 64.425
+        },
+        {
+          "start": 64.425,
+          "end": 64.535
+        },
+        {
+          "start": 64.535,
+          "end": 64.645
+        },
+        {
+          "start": 64.645,
+          "end": 64.845
+        },
+        {
+          "start": 64.845,
+          "end": 64.955
+        },
+        {
+          "start": 64.955,
+          "end": 65.065
+        },
+        {
+          "start": 65.065,
+          "end": 65.175
+        },
+        {
+          "start": 65.175,
+          "end": 65.285
+        },
+        {
+          "start": 65.285,
+          "end": 65.395
+        },
+        {
+          "start": 65.395,
+          "end": 65.665
+        },
+        {
+          "start": 65.665,
+          "end": 65.935
+        }
+      ]
+    },
+    {
+      "text": "ろうそく を つける、おおきい ろぼっと",
+      "start": 65.955,
+      "end": 69.896,
+      "section": "bridge",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 65.985,
+          "end": 66.095
+        },
+        {
+          "start": 66.095,
+          "end": 66.265
+        },
+        {
+          "start": 66.265,
+          "end": 66.565
+        },
+        {
+          "start": 66.565,
+          "end": 66.805
+        },
+        {
+          "start": 66.805,
+          "end": 67.045
+        },
+        {
+          "start": 67.045,
+          "end": 67.155
+        },
+        {
+          "start": 67.155,
+          "end": 67.265
+        },
+        {
+          "start": 67.265,
+          "end": 67.375
+        },
+        {
+          "start": 67.375,
+          "end": 67.505
+        },
+        {
+          "start": 67.505,
+          "end": 67.615
+        },
+        {
+          "start": 67.615,
+          "end": 67.725
+        },
+        {
+          "start": 67.725,
+          "end": 67.965
+        },
+        {
+          "start": 67.965,
+          "end": 68.405
+        },
+        {
+          "start": 68.405,
+          "end": 68.585
+        },
+        {
+          "start": 68.585,
+          "end": 68.736
+        },
+        {
+          "start": 68.736,
+          "end": 68.886
+        },
+        {
+          "start": 68.886,
+          "end": 69.186
+        },
+        {
+          "start": 69.186,
+          "end": 69.446
+        },
+        {
+          "start": 69.446,
+          "end": 69.556
+        },
+        {
+          "start": 69.556,
+          "end": 69.896
+        }
+      ]
+    },
+    {
+      "text": "ろけっと が とぶ、たかい そら",
+      "start": 69.916,
+      "end": 76.016,
+      "section": "bridge",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 69.946,
+          "end": 70.266
+        },
+        {
+          "start": 70.266,
+          "end": 70.506
+        },
+        {
+          "start": 70.506,
+          "end": 70.616
+        },
+        {
+          "start": 70.616,
+          "end": 70.956
+        },
+        {
+          "start": 70.956,
+          "end": 71.346
+        },
+        {
+          "start": 71.346,
+          "end": 71.456
+        },
+        {
+          "start": 71.456,
+          "end": 71.566
+        },
+        {
+          "start": 71.566,
+          "end": 71.686
+        },
+        {
+          "start": 71.686,
+          "end": 72.346
+        },
+        {
+          "start": 72.346,
+          "end": 73.006
+        },
+        {
+          "start": 73.006,
+          "end": 73.626
+        },
+        {
+          "start": 73.626,
+          "end": 74.186
+        },
+        {
+          "start": 74.186,
+          "end": 74.496
+        },
+        {
+          "start": 74.496,
+          "end": 74.806
+        },
+        {
+          "start": 74.806,
+          "end": 75.126
+        },
+        {
+          "start": 75.126,
+          "end": 76.016
+        }
+      ]
+    },
+    {
+      "text": "ら り る れ ろ",
+      "start": 76.036,
+      "end": 77.836,
+      "section": "refrain",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 76.066,
+          "end": 76.386
+        },
+        {
+          "start": 76.386,
+          "end": 76.706
+        },
+        {
+          "start": 76.706,
+          "end": 76.816
+        },
+        {
+          "start": 76.816,
+          "end": 76.926
+        },
+        {
+          "start": 76.926,
+          "end": 77.036
+        },
+        {
+          "start": 77.036,
+          "end": 77.166
+        },
+        {
+          "start": 77.166,
+          "end": 77.376
+        },
+        {
+          "start": 77.376,
+          "end": 77.586
+        },
+        {
+          "start": 77.586,
+          "end": 77.836
+        }
+      ]
+    },
+    {
+      "text": "らじお を きく",
+      "start": 77.856,
+      "end": 78.936,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 77.886,
+          "end": 78.017
+        },
+        {
+          "start": 78.017,
+          "end": 78.148
+        },
+        {
+          "start": 78.148,
+          "end": 78.28
+        },
+        {
+          "start": 78.28,
+          "end": 78.411
+        },
+        {
+          "start": 78.411,
+          "end": 78.542
+        },
+        {
+          "start": 78.542,
+          "end": 78.674
+        },
+        {
+          "start": 78.674,
+          "end": 78.805
+        },
+        {
+          "start": 78.805,
+          "end": 78.936
+        }
+      ]
+    },
+    {
+      "text": "あかるい らんぷ",
+      "start": 78.956,
+      "end": 80.176,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 78.986,
+          "end": 79.286
+        },
+        {
+          "start": 79.286,
+          "end": 79.396
+        },
+        {
+          "start": 79.396,
+          "end": 79.606
+        },
+        {
+          "start": 79.606,
+          "end": 79.716
+        },
+        {
+          "start": 79.716,
+          "end": 79.826
+        },
+        {
+          "start": 79.826,
+          "end": 79.936
+        },
+        {
+          "start": 79.936,
+          "end": 80.046
+        },
+        {
+          "start": 80.046,
+          "end": 80.176
+        }
+      ]
+    },
+    {
+      "text": "らっぱ を ふく",
+      "start": 80.196,
+      "end": 81.397,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 80.226,
+          "end": 80.466
+        },
+        {
+          "start": 80.466,
+          "end": 80.576
+        },
+        {
+          "start": 80.576,
+          "end": 80.686
+        },
+        {
+          "start": 80.686,
+          "end": 80.826
+        },
+        {
+          "start": 80.826,
+          "end": 80.936
+        },
+        {
+          "start": 80.936,
+          "end": 81.046
+        },
+        {
+          "start": 81.046,
+          "end": 81.167
+        },
+        {
+          "start": 81.167,
+          "end": 81.397
+        }
+      ]
+    },
+    {
+      "text": "あかい りんご",
+      "start": 81.417,
+      "end": 82.457,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 81.447,
+          "end": 81.591
+        },
+        {
+          "start": 81.591,
+          "end": 81.736
+        },
+        {
+          "start": 81.736,
+          "end": 81.88
+        },
+        {
+          "start": 81.88,
+          "end": 82.024
+        },
+        {
+          "start": 82.024,
+          "end": 82.168
+        },
+        {
+          "start": 82.168,
+          "end": 82.313
+        },
+        {
+          "start": 82.313,
+          "end": 82.457
+        }
+      ]
+    },
+    {
+      "text": "かわいい りぼん",
+      "start": 82.477,
+      "end": 84.457,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 82.507,
+          "end": 82.807
+        },
+        {
+          "start": 82.807,
+          "end": 83.107
+        },
+        {
+          "start": 83.107,
+          "end": 83.217
+        },
+        {
+          "start": 83.217,
+          "end": 83.367
+        },
+        {
+          "start": 83.367,
+          "end": 83.607
+        },
+        {
+          "start": 83.607,
+          "end": 83.887
+        },
+        {
+          "start": 83.887,
+          "end": 84.207
+        },
+        {
+          "start": 84.207,
+          "end": 84.457
+        }
+      ]
+    },
+    {
+      "text": "りょうり を する",
+      "start": 84.477,
+      "end": 86.617,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 84.507,
+          "end": 84.827
+        },
+        {
+          "start": 84.827,
+          "end": 85.127
+        },
+        {
+          "start": 85.127,
+          "end": 85.567
+        },
+        {
+          "start": 85.567,
+          "end": 85.717
+        },
+        {
+          "start": 85.717,
+          "end": 85.867
+        },
+        {
+          "start": 85.867,
+          "end": 86.027
+        },
+        {
+          "start": 86.027,
+          "end": 86.187
+        },
+        {
+          "start": 86.187,
+          "end": 86.367
+        },
+        {
+          "start": 86.367,
+          "end": 86.617
+        }
+      ]
+    },
+    {
+      "text": "いえ が るす",
+      "start": 86.637,
+      "end": 89.847,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 86.667,
+          "end": 87.107
+        },
+        {
+          "start": 87.107,
+          "end": 87.217
+        },
+        {
+          "start": 87.217,
+          "end": 87.327
+        },
+        {
+          "start": 87.327,
+          "end": 87.897
+        },
+        {
+          "start": 87.897,
+          "end": 88.507
+        },
+        {
+          "start": 88.507,
+          "end": 88.647
+        },
+        {
+          "start": 88.647,
+          "end": 89.847
+        }
+      ]
+    },
+    {
+      "text": "るーぺ で みる",
+      "start": 90.477,
+      "end": 93.507,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 90.627,
+          "end": 90.787
+        },
+        {
+          "start": 90.787,
+          "end": 90.947
+        },
+        {
+          "start": 90.947,
+          "end": 91.267
+        },
+        {
+          "start": 91.267,
+          "end": 91.587
+        },
+        {
+          "start": 91.587,
+          "end": 91.787
+        },
+        {
+          "start": 91.787,
+          "end": 91.987
+        },
+        {
+          "start": 91.987,
+          "end": 92.307
+        },
+        {
+          "start": 92.307,
+          "end": 93.507
+        }
+      ]
+    },
+    {
+      "text": "ひかる るびー",
+      "start": 93.678,
+      "end": 94.698,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 93.828,
+          "end": 94.028
+        },
+        {
+          "start": 94.028,
+          "end": 94.148
+        },
+        {
+          "start": 94.148,
+          "end": 94.258
+        },
+        {
+          "start": 94.258,
+          "end": 94.368
+        },
+        {
+          "start": 94.368,
+          "end": 94.478
+        },
+        {
+          "start": 94.478,
+          "end": 94.588
+        },
+        {
+          "start": 94.588,
+          "end": 94.698
+        }
+      ]
+    },
+    {
+      "text": "つめたい れいぞうこ",
+      "start": 94.718,
+      "end": 97.778,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 94.748,
+          "end": 94.908
+        },
+        {
+          "start": 94.908,
+          "end": 95.668
+        },
+        {
+          "start": 95.668,
+          "end": 95.928
+        },
+        {
+          "start": 95.928,
+          "end": 96.038
+        },
+        {
+          "start": 96.038,
+          "end": 96.148
+        },
+        {
+          "start": 96.148,
+          "end": 96.258
+        },
+        {
+          "start": 96.258,
+          "end": 96.368
+        },
+        {
+          "start": 96.368,
+          "end": 96.588
+        },
+        {
+          "start": 96.588,
+          "end": 96.868
+        },
+        {
+          "start": 96.868,
+          "end": 97.778
+        }
+      ]
+    },
+    {
+      "text": "すっぱい れもん",
+      "start": 97.798,
+      "end": 99.598,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 97.828,
+          "end": 98.049
+        },
+        {
+          "start": 98.049,
+          "end": 98.27
+        },
+        {
+          "start": 98.27,
+          "end": 98.492
+        },
+        {
+          "start": 98.492,
+          "end": 98.713
+        },
+        {
+          "start": 98.713,
+          "end": 98.934
+        },
+        {
+          "start": 98.934,
+          "end": 99.156
+        },
+        {
+          "start": 99.156,
+          "end": 99.377
+        },
+        {
+          "start": 99.377,
+          "end": 99.598
+        }
+      ]
+    },
+    {
+      "text": "かたい れんが",
+      "start": 99.618,
+      "end": 100.698,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 99.648,
+          "end": 99.798
+        },
+        {
+          "start": 99.798,
+          "end": 99.948
+        },
+        {
+          "start": 99.948,
+          "end": 100.098
+        },
+        {
+          "start": 100.098,
+          "end": 100.248
+        },
+        {
+          "start": 100.248,
+          "end": 100.398
+        },
+        {
+          "start": 100.398,
+          "end": 100.548
+        },
+        {
+          "start": 100.548,
+          "end": 100.698
+        }
+      ]
+    },
+    {
+      "text": "ろうそく を つける",
+      "start": 100.718,
+      "end": 104.478,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 100.748,
+          "end": 101.768
+        },
+        {
+          "start": 101.768,
+          "end": 102.388
+        },
+        {
+          "start": 102.388,
+          "end": 102.608
+        },
+        {
+          "start": 102.608,
+          "end": 102.718
+        },
+        {
+          "start": 102.718,
+          "end": 102.828
+        },
+        {
+          "start": 102.828,
+          "end": 102.938
+        },
+        {
+          "start": 102.938,
+          "end": 103.168
+        },
+        {
+          "start": 103.168,
+          "end": 103.328
+        },
+        {
+          "start": 103.328,
+          "end": 103.608
+        },
+        {
+          "start": 103.608,
+          "end": 104.478
+        }
+      ]
+    },
+    {
+      "text": "おおきい ろぼっと",
+      "start": 104.498,
+      "end": 106.799,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 104.528,
+          "end": 104.848
+        },
+        {
+          "start": 104.848,
+          "end": 105.128
+        },
+        {
+          "start": 105.128,
+          "end": 105.468
+        },
+        {
+          "start": 105.468,
+          "end": 105.578
+        },
+        {
+          "start": 105.578,
+          "end": 105.688
+        },
+        {
+          "start": 105.688,
+          "end": 105.948
+        },
+        {
+          "start": 105.948,
+          "end": 106.189
+        },
+        {
+          "start": 106.189,
+          "end": 106.299
+        },
+        {
+          "start": 106.299,
+          "end": 106.799
+        }
+      ]
+    },
+    {
+      "text": "ろけっと が とぶ",
+      "start": 106.819,
+      "end": 109.239,
+      "section": "review",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 106.849,
+          "end": 107.009
+        },
+        {
+          "start": 107.009,
+          "end": 107.229
+        },
+        {
+          "start": 107.229,
+          "end": 107.339
+        },
+        {
+          "start": 107.339,
+          "end": 107.689
+        },
+        {
+          "start": 107.689,
+          "end": 108.069
+        },
+        {
+          "start": 108.069,
+          "end": 108.179
+        },
+        {
+          "start": 108.179,
+          "end": 108.289
+        },
+        {
+          "start": 108.289,
+          "end": 109.129
+        },
+        {
+          "start": 109.129,
+          "end": 109.239
+        }
+      ]
+    },
+    {
+      "text": "ら り る れ ろ",
+      "start": 109.259,
+      "end": 109.559,
+      "section": "refrain",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 109.289,
+          "end": 109.319
+        },
+        {
+          "start": 109.319,
+          "end": 109.349
+        },
+        {
+          "start": 109.349,
+          "end": 109.379
+        },
+        {
+          "start": 109.379,
+          "end": 109.409
+        },
+        {
+          "start": 109.409,
+          "end": 109.439
+        },
+        {
+          "start": 109.439,
+          "end": 109.469
+        },
+        {
+          "start": 109.469,
+          "end": 109.499
+        },
+        {
+          "start": 109.499,
+          "end": 109.529
+        },
+        {
+          "start": 109.529,
+          "end": 109.559
+        }
+      ]
+    },
+    {
+      "text": "ら り る れ ろ",
+      "start": 109.579,
+      "end": 111.849,
+      "section": "outro",
+      "illos": [
+        "rajio",
+        "ranpu",
+        "rappa"
+      ],
+      "chars": [
+        {
+          "start": 109.489,
+          "end": 109.599
+        },
+        {
+          "start": 109.599,
+          "end": 109.709
+        },
+        {
+          "start": 109.709,
+          "end": 109.819
+        },
+        {
+          "start": 109.819,
+          "end": 109.929
+        },
+        {
+          "start": 109.929,
+          "end": 110.039
+        },
+        {
+          "start": 110.039,
+          "end": 110.149
+        },
+        {
+          "start": 110.149,
+          "end": 110.259
+        },
+        {
+          "start": 110.259,
+          "end": 110.369
+        },
+        {
+          "start": 110.369,
+          "end": 111.849
+        }
+      ]
+    }
+  ],
+  "_aligned": {
+    "tool": "whisperx",
+    "anchored_chars": 370,
+    "total_chars": 370
+  }
+}

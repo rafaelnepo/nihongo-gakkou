@@ -1,0 +1,2596 @@
+{
+  "song": "05-naninuneno-ouchi",
+  "title": "なにぬねの・たのしい おうち",
+  "trackName": "たのしい おうち",
+  "trackNo": "05",
+  "row": "なにぬねの",
+  "channel": "iconotes",
+  "style": "City Pop",
+  "bpm": 92,
+  "ilBase": "05-naninuneno-ouchi/il",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "audio": "05-naninuneno-ouchi/audio.wav",
+  "countInSeconds": 1.1,
+  "tailSeconds": 1.5,
+  "durationSeconds": 159.84,
+  "placeholder": false,
+  "lines": [
+    {
+      "text": "な に ぬ ね の",
+      "start": 0.61,
+      "end": 1.61,
+      "section": "intro",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 0.76,
+          "end": 0.854
+        },
+        {
+          "start": 0.854,
+          "end": 0.949
+        },
+        {
+          "start": 0.949,
+          "end": 1.043
+        },
+        {
+          "start": 1.043,
+          "end": 1.138
+        },
+        {
+          "start": 1.138,
+          "end": 1.232
+        },
+        {
+          "start": 1.232,
+          "end": 1.327
+        },
+        {
+          "start": 1.327,
+          "end": 1.421
+        },
+        {
+          "start": 1.421,
+          "end": 1.516
+        },
+        {
+          "start": 1.516,
+          "end": 1.61
+        }
+      ]
+    },
+    {
+      "text": "なべ",
+      "start": 1.63,
+      "end": 2.05,
+      "section": "verse",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "target": "nabe",
+      "chars": [
+        {
+          "start": 1.66,
+          "end": 1.82
+        },
+        {
+          "start": 1.82,
+          "end": 2.05
+        }
+      ]
+    },
+    {
+      "text": "なべ で つくる",
+      "start": 2.07,
+      "end": 2.69,
+      "section": "verse",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "target": "nabe",
+      "chars": [
+        {
+          "start": 2.1,
+          "end": 2.174
+        },
+        {
+          "start": 2.174,
+          "end": 2.248
+        },
+        {
+          "start": 2.248,
+          "end": 2.321
+        },
+        {
+          "start": 2.321,
+          "end": 2.395
+        },
+        {
+          "start": 2.395,
+          "end": 2.469
+        },
+        {
+          "start": 2.469,
+          "end": 2.542
+        },
+        {
+          "start": 2.542,
+          "end": 2.616
+        },
+        {
+          "start": 2.616,
+          "end": 2.69
+        }
+      ]
+    },
+    {
+      "text": "なす",
+      "start": 2.71,
+      "end": 3.01,
+      "section": "verse",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "target": "nasu",
+      "chars": [
+        {
+          "start": 2.74,
+          "end": 2.86
+        },
+        {
+          "start": 2.86,
+          "end": 3.01
+        }
+      ]
+    },
+    {
+      "text": "むらさきの なす",
+      "start": 3.03,
+      "end": 3.91,
+      "section": "verse",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "target": "nasu",
+      "chars": [
+        {
+          "start": 2.88,
+          "end": 2.99
+        },
+        {
+          "start": 2.99,
+          "end": 3.1
+        },
+        {
+          "start": 3.1,
+          "end": 3.21
+        },
+        {
+          "start": 3.21,
+          "end": 3.32
+        },
+        {
+          "start": 3.32,
+          "end": 3.43
+        },
+        {
+          "start": 3.43,
+          "end": 3.54
+        },
+        {
+          "start": 3.54,
+          "end": 3.65
+        },
+        {
+          "start": 3.65,
+          "end": 3.91
+        }
+      ]
+    },
+    {
+      "text": "なし",
+      "start": 3.93,
+      "end": 4.331,
+      "section": "verse",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "target": "nashi",
+      "chars": [
+        {
+          "start": 3.96,
+          "end": 4.141
+        },
+        {
+          "start": 4.141,
+          "end": 4.331
+        }
+      ]
+    },
+    {
+      "text": "あまい なし",
+      "start": 4.351,
+      "end": 6.811,
+      "section": "verse",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "target": "nashi",
+      "chars": [
+        {
+          "start": 4.381,
+          "end": 4.786
+        },
+        {
+          "start": 4.786,
+          "end": 5.191
+        },
+        {
+          "start": 5.191,
+          "end": 5.596
+        },
+        {
+          "start": 5.596,
+          "end": 6.001
+        },
+        {
+          "start": 6.001,
+          "end": 6.406
+        },
+        {
+          "start": 6.406,
+          "end": 6.811
+        }
+      ]
+    },
+    {
+      "text": "な に ぬ ね の",
+      "start": 6.831,
+      "end": 7.611,
+      "section": "refrain",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 6.861,
+          "end": 6.944
+        },
+        {
+          "start": 6.944,
+          "end": 7.028
+        },
+        {
+          "start": 7.028,
+          "end": 7.111
+        },
+        {
+          "start": 7.111,
+          "end": 7.194
+        },
+        {
+          "start": 7.194,
+          "end": 7.278
+        },
+        {
+          "start": 7.278,
+          "end": 7.361
+        },
+        {
+          "start": 7.361,
+          "end": 7.444
+        },
+        {
+          "start": 7.444,
+          "end": 7.528
+        },
+        {
+          "start": 7.528,
+          "end": 7.611
+        }
+      ]
+    },
+    {
+      "text": "にく",
+      "start": 7.631,
+      "end": 7.931,
+      "section": "verse",
+      "illos": [
+        "niku",
+        "ninjin",
+        "niwa"
+      ],
+      "target": "niku",
+      "chars": [
+        {
+          "start": 7.661,
+          "end": 7.771
+        },
+        {
+          "start": 7.771,
+          "end": 7.931
+        }
+      ]
+    },
+    {
+      "text": "にく を やく",
+      "start": 7.951,
+      "end": 9.871,
+      "section": "verse",
+      "illos": [
+        "niku",
+        "ninjin",
+        "niwa"
+      ],
+      "target": "niku",
+      "chars": [
+        {
+          "start": 7.761,
+          "end": 8.241
+        },
+        {
+          "start": 8.241,
+          "end": 8.621
+        },
+        {
+          "start": 8.621,
+          "end": 9.001
+        },
+        {
+          "start": 9.001,
+          "end": 9.161
+        },
+        {
+          "start": 9.161,
+          "end": 9.321
+        },
+        {
+          "start": 9.321,
+          "end": 9.461
+        },
+        {
+          "start": 9.461,
+          "end": 9.871
+        }
+      ]
+    },
+    {
+      "text": "にんじん",
+      "start": 9.891,
+      "end": 10.471,
+      "section": "verse",
+      "illos": [
+        "niku",
+        "ninjin",
+        "niwa"
+      ],
+      "target": "ninjin",
+      "chars": [
+        {
+          "start": 9.921,
+          "end": 10.058
+        },
+        {
+          "start": 10.058,
+          "end": 10.196
+        },
+        {
+          "start": 10.196,
+          "end": 10.334
+        },
+        {
+          "start": 10.334,
+          "end": 10.471
+        }
+      ]
+    },
+    {
+      "text": "にんじん を きる",
+      "start": 10.491,
+      "end": 11.391,
+      "section": "verse",
+      "illos": [
+        "niku",
+        "ninjin",
+        "niwa"
+      ],
+      "target": "ninjin",
+      "chars": [
+        {
+          "start": 10.521,
+          "end": 10.618
+        },
+        {
+          "start": 10.618,
+          "end": 10.714
+        },
+        {
+          "start": 10.714,
+          "end": 10.811
+        },
+        {
+          "start": 10.811,
+          "end": 10.908
+        },
+        {
+          "start": 10.908,
+          "end": 11.004
+        },
+        {
+          "start": 11.004,
+          "end": 11.101
+        },
+        {
+          "start": 11.101,
+          "end": 11.198
+        },
+        {
+          "start": 11.198,
+          "end": 11.294
+        },
+        {
+          "start": 11.294,
+          "end": 11.391
+        }
+      ]
+    },
+    {
+      "text": "にわ",
+      "start": 11.411,
+      "end": 11.711,
+      "section": "verse",
+      "illos": [
+        "niku",
+        "ninjin",
+        "niwa"
+      ],
+      "target": "niwa",
+      "chars": [
+        {
+          "start": 11.441,
+          "end": 11.601
+        },
+        {
+          "start": 11.601,
+          "end": 11.711
+        }
+      ]
+    },
+    {
+      "text": "にわ の はな",
+      "start": 11.731,
+      "end": 12.612,
+      "section": "verse",
+      "illos": [
+        "niku",
+        "ninjin",
+        "niwa"
+      ],
+      "target": "niwa",
+      "chars": [
+        {
+          "start": 11.741,
+          "end": 11.865
+        },
+        {
+          "start": 11.865,
+          "end": 11.99
+        },
+        {
+          "start": 11.99,
+          "end": 12.114
+        },
+        {
+          "start": 12.114,
+          "end": 12.239
+        },
+        {
+          "start": 12.239,
+          "end": 12.363
+        },
+        {
+          "start": 12.363,
+          "end": 12.488
+        },
+        {
+          "start": 12.488,
+          "end": 12.612
+        }
+      ]
+    },
+    {
+      "text": "な に ぬ ね の",
+      "start": 12.632,
+      "end": 13.392,
+      "section": "refrain",
+      "illos": [
+        "niku",
+        "ninjin",
+        "niwa"
+      ],
+      "chars": [
+        {
+          "start": 12.662,
+          "end": 12.743
+        },
+        {
+          "start": 12.743,
+          "end": 12.824
+        },
+        {
+          "start": 12.824,
+          "end": 12.905
+        },
+        {
+          "start": 12.905,
+          "end": 12.986
+        },
+        {
+          "start": 12.986,
+          "end": 13.068
+        },
+        {
+          "start": 13.068,
+          "end": 13.149
+        },
+        {
+          "start": 13.149,
+          "end": 13.23
+        },
+        {
+          "start": 13.23,
+          "end": 13.311
+        },
+        {
+          "start": 13.311,
+          "end": 13.392
+        }
+      ]
+    },
+    {
+      "text": "ぬいぐるみ",
+      "start": 13.412,
+      "end": 14.472,
+      "section": "verse",
+      "illos": [
+        "nuigurumi",
+        "nurie",
+        "nuno"
+      ],
+      "target": "nuigurumi",
+      "chars": [
+        {
+          "start": 13.442,
+          "end": 13.562
+        },
+        {
+          "start": 13.562,
+          "end": 13.672
+        },
+        {
+          "start": 13.672,
+          "end": 13.902
+        },
+        {
+          "start": 13.902,
+          "end": 14.322
+        },
+        {
+          "start": 14.322,
+          "end": 14.472
+        }
+      ]
+    },
+    {
+      "text": "くまの ぬいぐるみ",
+      "start": 14.492,
+      "end": 16.292,
+      "section": "verse",
+      "illos": [
+        "nuigurumi",
+        "nurie",
+        "nuno"
+      ],
+      "target": "nuigurumi",
+      "chars": [
+        {
+          "start": 14.522,
+          "end": 14.719
+        },
+        {
+          "start": 14.719,
+          "end": 14.915
+        },
+        {
+          "start": 14.915,
+          "end": 15.112
+        },
+        {
+          "start": 15.112,
+          "end": 15.309
+        },
+        {
+          "start": 15.309,
+          "end": 15.505
+        },
+        {
+          "start": 15.505,
+          "end": 15.702
+        },
+        {
+          "start": 15.702,
+          "end": 15.899
+        },
+        {
+          "start": 15.899,
+          "end": 16.095
+        },
+        {
+          "start": 16.095,
+          "end": 16.292
+        }
+      ]
+    },
+    {
+      "text": "ぬりえ",
+      "start": 16.312,
+      "end": 17.212,
+      "section": "verse",
+      "illos": [
+        "nuigurumi",
+        "nurie",
+        "nuno"
+      ],
+      "target": "nurie",
+      "chars": [
+        {
+          "start": 16.342,
+          "end": 16.622
+        },
+        {
+          "start": 16.622,
+          "end": 16.962
+        },
+        {
+          "start": 16.962,
+          "end": 17.212
+        }
+      ]
+    },
+    {
+      "text": "ぬりえ を する",
+      "start": 17.232,
+      "end": 17.992,
+      "section": "verse",
+      "illos": [
+        "nuigurumi",
+        "nurie",
+        "nuno"
+      ],
+      "target": "nurie",
+      "chars": [
+        {
+          "start": 17.262,
+          "end": 17.353
+        },
+        {
+          "start": 17.353,
+          "end": 17.445
+        },
+        {
+          "start": 17.445,
+          "end": 17.536
+        },
+        {
+          "start": 17.536,
+          "end": 17.627
+        },
+        {
+          "start": 17.627,
+          "end": 17.718
+        },
+        {
+          "start": 17.718,
+          "end": 17.809
+        },
+        {
+          "start": 17.809,
+          "end": 17.901
+        },
+        {
+          "start": 17.901,
+          "end": 17.992
+        }
+      ]
+    },
+    {
+      "text": "ぬの",
+      "start": 18.012,
+      "end": 18.312,
+      "section": "verse",
+      "illos": [
+        "nuigurumi",
+        "nurie",
+        "nuno"
+      ],
+      "target": "nuno",
+      "chars": [
+        {
+          "start": 18.042,
+          "end": 18.182
+        },
+        {
+          "start": 18.182,
+          "end": 18.312
+        }
+      ]
+    },
+    {
+      "text": "あおい ぬの",
+      "start": 18.332,
+      "end": 20.273,
+      "section": "verse",
+      "illos": [
+        "nuigurumi",
+        "nurie",
+        "nuno"
+      ],
+      "target": "nuno",
+      "chars": [
+        {
+          "start": 18.302,
+          "end": 18.802
+        },
+        {
+          "start": 18.802,
+          "end": 19.082
+        },
+        {
+          "start": 19.082,
+          "end": 19.342
+        },
+        {
+          "start": 19.342,
+          "end": 19.602
+        },
+        {
+          "start": 19.602,
+          "end": 20.003
+        },
+        {
+          "start": 20.003,
+          "end": 20.273
+        }
+      ]
+    },
+    {
+      "text": "な に ぬ ね の",
+      "start": 20.293,
+      "end": 21.873,
+      "section": "refrain",
+      "illos": [
+        "nuigurumi",
+        "nurie",
+        "nuno"
+      ],
+      "chars": [
+        {
+          "start": 20.323,
+          "end": 20.473
+        },
+        {
+          "start": 20.473,
+          "end": 20.623
+        },
+        {
+          "start": 20.623,
+          "end": 20.783
+        },
+        {
+          "start": 20.783,
+          "end": 20.943
+        },
+        {
+          "start": 20.943,
+          "end": 21.093
+        },
+        {
+          "start": 21.093,
+          "end": 21.243
+        },
+        {
+          "start": 21.243,
+          "end": 21.393
+        },
+        {
+          "start": 21.393,
+          "end": 21.543
+        },
+        {
+          "start": 21.543,
+          "end": 21.873
+        }
+      ]
+    },
+    {
+      "text": "ねこ",
+      "start": 21.893,
+      "end": 22.273,
+      "section": "verse",
+      "illos": [
+        "neko",
+        "negi",
+        "nendo"
+      ],
+      "target": "neko",
+      "chars": [
+        {
+          "start": 21.923,
+          "end": 22.043
+        },
+        {
+          "start": 22.043,
+          "end": 22.273
+        }
+      ]
+    },
+    {
+      "text": "ねこ が ねる",
+      "start": 22.293,
+      "end": 23.333,
+      "section": "verse",
+      "illos": [
+        "neko",
+        "negi",
+        "nendo"
+      ],
+      "target": "neko",
+      "chars": [
+        {
+          "start": 22.323,
+          "end": 22.467
+        },
+        {
+          "start": 22.467,
+          "end": 22.612
+        },
+        {
+          "start": 22.612,
+          "end": 22.756
+        },
+        {
+          "start": 22.756,
+          "end": 22.9
+        },
+        {
+          "start": 22.9,
+          "end": 23.044
+        },
+        {
+          "start": 23.044,
+          "end": 23.189
+        },
+        {
+          "start": 23.189,
+          "end": 23.333
+        }
+      ]
+    },
+    {
+      "text": "ねぎ",
+      "start": 23.353,
+      "end": 23.653,
+      "section": "verse",
+      "illos": [
+        "neko",
+        "negi",
+        "nendo"
+      ],
+      "target": "negi",
+      "chars": [
+        {
+          "start": 23.383,
+          "end": 23.518
+        },
+        {
+          "start": 23.518,
+          "end": 23.653
+        }
+      ]
+    },
+    {
+      "text": "ねぎ を きる",
+      "start": 23.673,
+      "end": 24.733,
+      "section": "verse",
+      "illos": [
+        "neko",
+        "negi",
+        "nendo"
+      ],
+      "target": "negi",
+      "chars": [
+        {
+          "start": 23.683,
+          "end": 23.833
+        },
+        {
+          "start": 23.833,
+          "end": 23.983
+        },
+        {
+          "start": 23.983,
+          "end": 24.133
+        },
+        {
+          "start": 24.133,
+          "end": 24.283
+        },
+        {
+          "start": 24.283,
+          "end": 24.433
+        },
+        {
+          "start": 24.433,
+          "end": 24.583
+        },
+        {
+          "start": 24.583,
+          "end": 24.733
+        }
+      ]
+    },
+    {
+      "text": "ねんど",
+      "start": 24.753,
+      "end": 25.653,
+      "section": "verse",
+      "illos": [
+        "neko",
+        "negi",
+        "nendo"
+      ],
+      "target": "nendo",
+      "chars": [
+        {
+          "start": 24.783,
+          "end": 25.223
+        },
+        {
+          "start": 25.223,
+          "end": 25.523
+        },
+        {
+          "start": 25.523,
+          "end": 25.653
+        }
+      ]
+    },
+    {
+      "text": "ねんど で あそぶ",
+      "start": 25.673,
+      "end": 26.413,
+      "section": "verse",
+      "illos": [
+        "neko",
+        "negi",
+        "nendo"
+      ],
+      "target": "nendo",
+      "chars": [
+        {
+          "start": 25.703,
+          "end": 25.782
+        },
+        {
+          "start": 25.782,
+          "end": 25.861
+        },
+        {
+          "start": 25.861,
+          "end": 25.94
+        },
+        {
+          "start": 25.94,
+          "end": 26.019
+        },
+        {
+          "start": 26.019,
+          "end": 26.097
+        },
+        {
+          "start": 26.097,
+          "end": 26.176
+        },
+        {
+          "start": 26.176,
+          "end": 26.255
+        },
+        {
+          "start": 26.255,
+          "end": 26.334
+        },
+        {
+          "start": 26.334,
+          "end": 26.413
+        }
+      ]
+    },
+    {
+      "text": "な に ぬ ね の",
+      "start": 26.433,
+      "end": 26.893,
+      "section": "refrain",
+      "illos": [
+        "neko",
+        "negi",
+        "nendo"
+      ],
+      "chars": [
+        {
+          "start": 26.463,
+          "end": 26.511
+        },
+        {
+          "start": 26.511,
+          "end": 26.559
+        },
+        {
+          "start": 26.559,
+          "end": 26.606
+        },
+        {
+          "start": 26.606,
+          "end": 26.654
+        },
+        {
+          "start": 26.654,
+          "end": 26.702
+        },
+        {
+          "start": 26.702,
+          "end": 26.75
+        },
+        {
+          "start": 26.75,
+          "end": 26.797
+        },
+        {
+          "start": 26.797,
+          "end": 26.845
+        },
+        {
+          "start": 26.845,
+          "end": 26.893
+        }
+      ]
+    },
+    {
+      "text": "のり",
+      "start": 26.913,
+      "end": 27.313,
+      "section": "verse",
+      "illos": [
+        "nori",
+        "nomimono",
+        "nohara"
+      ],
+      "target": "nori",
+      "chars": [
+        {
+          "start": 26.943,
+          "end": 27.128
+        },
+        {
+          "start": 27.128,
+          "end": 27.313
+        }
+      ]
+    },
+    {
+      "text": "のり の おにぎり",
+      "start": 27.333,
+      "end": 29.754,
+      "section": "verse",
+      "illos": [
+        "nori",
+        "nomimono",
+        "nohara"
+      ],
+      "target": "nori",
+      "chars": [
+        {
+          "start": 27.363,
+          "end": 27.473
+        },
+        {
+          "start": 27.473,
+          "end": 27.583
+        },
+        {
+          "start": 27.583,
+          "end": 27.693
+        },
+        {
+          "start": 27.693,
+          "end": 27.803
+        },
+        {
+          "start": 27.803,
+          "end": 27.913
+        },
+        {
+          "start": 27.913,
+          "end": 28.384
+        },
+        {
+          "start": 28.384,
+          "end": 28.884
+        },
+        {
+          "start": 28.884,
+          "end": 29.484
+        },
+        {
+          "start": 29.484,
+          "end": 29.754
+        }
+      ]
+    },
+    {
+      "text": "のみもの",
+      "start": 29.774,
+      "end": 30.974,
+      "section": "verse",
+      "illos": [
+        "nori",
+        "nomimono",
+        "nohara"
+      ],
+      "target": "nomimono",
+      "chars": [
+        {
+          "start": 29.804,
+          "end": 30.096
+        },
+        {
+          "start": 30.096,
+          "end": 30.389
+        },
+        {
+          "start": 30.389,
+          "end": 30.681
+        },
+        {
+          "start": 30.681,
+          "end": 30.974
+        }
+      ]
+    },
+    {
+      "text": "つめたい のみもの",
+      "start": 30.994,
+      "end": 33.134,
+      "section": "verse",
+      "illos": [
+        "nori",
+        "nomimono",
+        "nohara"
+      ],
+      "target": "nomimono",
+      "chars": [
+        {
+          "start": 31.024,
+          "end": 31.364
+        },
+        {
+          "start": 31.364,
+          "end": 31.644
+        },
+        {
+          "start": 31.644,
+          "end": 31.944
+        },
+        {
+          "start": 31.944,
+          "end": 32.054
+        },
+        {
+          "start": 32.054,
+          "end": 32.164
+        },
+        {
+          "start": 32.164,
+          "end": 32.564
+        },
+        {
+          "start": 32.564,
+          "end": 32.744
+        },
+        {
+          "start": 32.744,
+          "end": 32.884
+        },
+        {
+          "start": 32.884,
+          "end": 33.134
+        }
+      ]
+    },
+    {
+      "text": "のはら",
+      "start": 33.154,
+      "end": 33.774,
+      "section": "verse",
+      "illos": [
+        "nori",
+        "nomimono",
+        "nohara"
+      ],
+      "target": "nohara",
+      "chars": [
+        {
+          "start": 33.184,
+          "end": 33.381
+        },
+        {
+          "start": 33.381,
+          "end": 33.577
+        },
+        {
+          "start": 33.577,
+          "end": 33.774
+        }
+      ]
+    },
+    {
+      "text": "ひろい のはら",
+      "start": 33.794,
+      "end": 34.974,
+      "section": "verse",
+      "illos": [
+        "nori",
+        "nomimono",
+        "nohara"
+      ],
+      "target": "nohara",
+      "chars": [
+        {
+          "start": 33.824,
+          "end": 33.944
+        },
+        {
+          "start": 33.944,
+          "end": 34.054
+        },
+        {
+          "start": 34.054,
+          "end": 34.164
+        },
+        {
+          "start": 34.164,
+          "end": 34.274
+        },
+        {
+          "start": 34.274,
+          "end": 34.384
+        },
+        {
+          "start": 34.384,
+          "end": 34.494
+        },
+        {
+          "start": 34.494,
+          "end": 34.974
+        }
+      ]
+    },
+    {
+      "text": "な に ぬ ね の",
+      "start": 34.994,
+      "end": 36.515,
+      "section": "refrain",
+      "illos": [
+        "nori",
+        "nomimono",
+        "nohara"
+      ],
+      "chars": [
+        {
+          "start": 35.024,
+          "end": 35.184
+        },
+        {
+          "start": 35.184,
+          "end": 35.344
+        },
+        {
+          "start": 35.344,
+          "end": 35.494
+        },
+        {
+          "start": 35.494,
+          "end": 35.644
+        },
+        {
+          "start": 35.644,
+          "end": 35.794
+        },
+        {
+          "start": 35.794,
+          "end": 35.944
+        },
+        {
+          "start": 35.944,
+          "end": 36.094
+        },
+        {
+          "start": 36.094,
+          "end": 36.245
+        },
+        {
+          "start": 36.245,
+          "end": 36.515
+        }
+      ]
+    },
+    {
+      "text": "なべ で にく を やく",
+      "start": 36.535,
+      "end": 37.935,
+      "section": "bridge",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 36.565,
+          "end": 36.725
+        },
+        {
+          "start": 36.725,
+          "end": 36.835
+        },
+        {
+          "start": 36.835,
+          "end": 36.945
+        },
+        {
+          "start": 36.945,
+          "end": 37.055
+        },
+        {
+          "start": 37.055,
+          "end": 37.165
+        },
+        {
+          "start": 37.165,
+          "end": 37.275
+        },
+        {
+          "start": 37.275,
+          "end": 37.385
+        },
+        {
+          "start": 37.385,
+          "end": 37.495
+        },
+        {
+          "start": 37.495,
+          "end": 37.605
+        },
+        {
+          "start": 37.605,
+          "end": 37.715
+        },
+        {
+          "start": 37.715,
+          "end": 37.825
+        },
+        {
+          "start": 37.825,
+          "end": 37.935
+        }
+      ]
+    },
+    {
+      "text": "にんじん を きる、ねぎ も",
+      "start": 37.955,
+      "end": 39.935,
+      "section": "bridge",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 37.985,
+          "end": 38.124
+        },
+        {
+          "start": 38.124,
+          "end": 38.264
+        },
+        {
+          "start": 38.264,
+          "end": 38.403
+        },
+        {
+          "start": 38.403,
+          "end": 38.542
+        },
+        {
+          "start": 38.542,
+          "end": 38.681
+        },
+        {
+          "start": 38.681,
+          "end": 38.821
+        },
+        {
+          "start": 38.821,
+          "end": 38.96
+        },
+        {
+          "start": 38.96,
+          "end": 39.099
+        },
+        {
+          "start": 39.099,
+          "end": 39.239
+        },
+        {
+          "start": 39.239,
+          "end": 39.378
+        },
+        {
+          "start": 39.378,
+          "end": 39.517
+        },
+        {
+          "start": 39.517,
+          "end": 39.656
+        },
+        {
+          "start": 39.656,
+          "end": 39.796
+        },
+        {
+          "start": 39.796,
+          "end": 39.935
+        }
+      ]
+    },
+    {
+      "text": "くまの ぬいぐるみ、ぬりえ も",
+      "start": 39.955,
+      "end": 41.395,
+      "section": "bridge",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 39.985,
+          "end": 40.079
+        },
+        {
+          "start": 40.079,
+          "end": 40.173
+        },
+        {
+          "start": 40.173,
+          "end": 40.267
+        },
+        {
+          "start": 40.267,
+          "end": 40.361
+        },
+        {
+          "start": 40.361,
+          "end": 40.455
+        },
+        {
+          "start": 40.455,
+          "end": 40.549
+        },
+        {
+          "start": 40.549,
+          "end": 40.643
+        },
+        {
+          "start": 40.643,
+          "end": 40.737
+        },
+        {
+          "start": 40.737,
+          "end": 40.831
+        },
+        {
+          "start": 40.831,
+          "end": 40.925
+        },
+        {
+          "start": 40.925,
+          "end": 41.019
+        },
+        {
+          "start": 41.019,
+          "end": 41.113
+        },
+        {
+          "start": 41.113,
+          "end": 41.207
+        },
+        {
+          "start": 41.207,
+          "end": 41.301
+        },
+        {
+          "start": 41.301,
+          "end": 41.395
+        }
+      ]
+    },
+    {
+      "text": "ねこ が ねる、にわ で",
+      "start": 41.415,
+      "end": 42.775,
+      "section": "bridge",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 41.445,
+          "end": 41.556
+        },
+        {
+          "start": 41.556,
+          "end": 41.667
+        },
+        {
+          "start": 41.667,
+          "end": 41.778
+        },
+        {
+          "start": 41.778,
+          "end": 41.888
+        },
+        {
+          "start": 41.888,
+          "end": 41.999
+        },
+        {
+          "start": 41.999,
+          "end": 42.11
+        },
+        {
+          "start": 42.11,
+          "end": 42.221
+        },
+        {
+          "start": 42.221,
+          "end": 42.332
+        },
+        {
+          "start": 42.332,
+          "end": 42.442
+        },
+        {
+          "start": 42.442,
+          "end": 42.553
+        },
+        {
+          "start": 42.553,
+          "end": 42.664
+        },
+        {
+          "start": 42.664,
+          "end": 42.775
+        }
+      ]
+    },
+    {
+      "text": "のり の おにぎり、つめたい のみもの",
+      "start": 42.795,
+      "end": 47.736,
+      "section": "bridge",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 42.825,
+          "end": 43.083
+        },
+        {
+          "start": 43.083,
+          "end": 43.342
+        },
+        {
+          "start": 43.342,
+          "end": 43.6
+        },
+        {
+          "start": 43.6,
+          "end": 43.859
+        },
+        {
+          "start": 43.859,
+          "end": 44.117
+        },
+        {
+          "start": 44.117,
+          "end": 44.376
+        },
+        {
+          "start": 44.376,
+          "end": 44.634
+        },
+        {
+          "start": 44.634,
+          "end": 44.893
+        },
+        {
+          "start": 44.893,
+          "end": 45.151
+        },
+        {
+          "start": 45.151,
+          "end": 45.41
+        },
+        {
+          "start": 45.41,
+          "end": 45.668
+        },
+        {
+          "start": 45.668,
+          "end": 45.927
+        },
+        {
+          "start": 45.927,
+          "end": 46.185
+        },
+        {
+          "start": 46.185,
+          "end": 46.444
+        },
+        {
+          "start": 46.444,
+          "end": 46.702
+        },
+        {
+          "start": 46.702,
+          "end": 46.961
+        },
+        {
+          "start": 46.961,
+          "end": 47.219
+        },
+        {
+          "start": 47.219,
+          "end": 47.478
+        },
+        {
+          "start": 47.478,
+          "end": 47.736
+        }
+      ]
+    },
+    {
+      "text": "ひろい のはら、はな の にわ",
+      "start": 47.756,
+      "end": 49.976,
+      "section": "bridge",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 47.786,
+          "end": 47.896
+        },
+        {
+          "start": 47.896,
+          "end": 48.006
+        },
+        {
+          "start": 48.006,
+          "end": 48.116
+        },
+        {
+          "start": 48.116,
+          "end": 48.226
+        },
+        {
+          "start": 48.226,
+          "end": 48.336
+        },
+        {
+          "start": 48.336,
+          "end": 48.446
+        },
+        {
+          "start": 48.446,
+          "end": 48.556
+        },
+        {
+          "start": 48.556,
+          "end": 48.666
+        },
+        {
+          "start": 48.666,
+          "end": 48.776
+        },
+        {
+          "start": 48.776,
+          "end": 48.886
+        },
+        {
+          "start": 48.886,
+          "end": 48.996
+        },
+        {
+          "start": 48.996,
+          "end": 49.106
+        },
+        {
+          "start": 49.106,
+          "end": 49.326
+        },
+        {
+          "start": 49.326,
+          "end": 49.726
+        },
+        {
+          "start": 49.726,
+          "end": 49.976
+        }
+      ]
+    },
+    {
+      "text": "な に ぬ ね の",
+      "start": 49.996,
+      "end": 51.376,
+      "section": "refrain",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 50.026,
+          "end": 50.196
+        },
+        {
+          "start": 50.196,
+          "end": 50.366
+        },
+        {
+          "start": 50.366,
+          "end": 50.476
+        },
+        {
+          "start": 50.476,
+          "end": 50.586
+        },
+        {
+          "start": 50.586,
+          "end": 50.726
+        },
+        {
+          "start": 50.726,
+          "end": 50.946
+        },
+        {
+          "start": 50.946,
+          "end": 51.056
+        },
+        {
+          "start": 51.056,
+          "end": 51.166
+        },
+        {
+          "start": 51.166,
+          "end": 51.376
+        }
+      ]
+    },
+    {
+      "text": "なべ で つくる",
+      "start": 51.396,
+      "end": 52.057,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 51.426,
+          "end": 51.505
+        },
+        {
+          "start": 51.505,
+          "end": 51.584
+        },
+        {
+          "start": 51.584,
+          "end": 51.663
+        },
+        {
+          "start": 51.663,
+          "end": 51.742
+        },
+        {
+          "start": 51.742,
+          "end": 51.82
+        },
+        {
+          "start": 51.82,
+          "end": 51.899
+        },
+        {
+          "start": 51.899,
+          "end": 51.978
+        },
+        {
+          "start": 51.978,
+          "end": 52.057
+        }
+      ]
+    },
+    {
+      "text": "むらさきの なす",
+      "start": 52.077,
+      "end": 54.057,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 52.107,
+          "end": 52.217
+        },
+        {
+          "start": 52.217,
+          "end": 52.327
+        },
+        {
+          "start": 52.327,
+          "end": 52.787
+        },
+        {
+          "start": 52.787,
+          "end": 53.127
+        },
+        {
+          "start": 53.127,
+          "end": 53.237
+        },
+        {
+          "start": 53.237,
+          "end": 53.347
+        },
+        {
+          "start": 53.347,
+          "end": 53.587
+        },
+        {
+          "start": 53.587,
+          "end": 54.057
+        }
+      ]
+    },
+    {
+      "text": "あまい なし",
+      "start": 54.077,
+      "end": 54.377,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 54.107,
+          "end": 54.152
+        },
+        {
+          "start": 54.152,
+          "end": 54.197
+        },
+        {
+          "start": 54.197,
+          "end": 54.242
+        },
+        {
+          "start": 54.242,
+          "end": 54.287
+        },
+        {
+          "start": 54.287,
+          "end": 54.332
+        },
+        {
+          "start": 54.332,
+          "end": 54.377
+        }
+      ]
+    },
+    {
+      "text": "にく を やく",
+      "start": 54.397,
+      "end": 55.077,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 54.327,
+          "end": 54.434
+        },
+        {
+          "start": 54.434,
+          "end": 54.541
+        },
+        {
+          "start": 54.541,
+          "end": 54.648
+        },
+        {
+          "start": 54.648,
+          "end": 54.756
+        },
+        {
+          "start": 54.756,
+          "end": 54.863
+        },
+        {
+          "start": 54.863,
+          "end": 54.97
+        },
+        {
+          "start": 54.97,
+          "end": 55.077
+        }
+      ]
+    },
+    {
+      "text": "にんじん を きる",
+      "start": 55.097,
+      "end": 57.517,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 55.127,
+          "end": 55.347
+        },
+        {
+          "start": 55.347,
+          "end": 55.457
+        },
+        {
+          "start": 55.457,
+          "end": 55.567
+        },
+        {
+          "start": 55.567,
+          "end": 55.757
+        },
+        {
+          "start": 55.757,
+          "end": 55.967
+        },
+        {
+          "start": 55.967,
+          "end": 56.097
+        },
+        {
+          "start": 56.097,
+          "end": 56.227
+        },
+        {
+          "start": 56.227,
+          "end": 56.447
+        },
+        {
+          "start": 56.447,
+          "end": 57.517
+        }
+      ]
+    },
+    {
+      "text": "にわ の はな",
+      "start": 57.537,
+      "end": 58.117,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 57.567,
+          "end": 57.646
+        },
+        {
+          "start": 57.646,
+          "end": 57.724
+        },
+        {
+          "start": 57.724,
+          "end": 57.803
+        },
+        {
+          "start": 57.803,
+          "end": 57.881
+        },
+        {
+          "start": 57.881,
+          "end": 57.96
+        },
+        {
+          "start": 57.96,
+          "end": 58.038
+        },
+        {
+          "start": 58.038,
+          "end": 58.117
+        }
+      ]
+    },
+    {
+      "text": "くまの ぬいぐるみ",
+      "start": 58.137,
+      "end": 59.037,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 58.167,
+          "end": 58.264
+        },
+        {
+          "start": 58.264,
+          "end": 58.36
+        },
+        {
+          "start": 58.36,
+          "end": 58.457
+        },
+        {
+          "start": 58.457,
+          "end": 58.554
+        },
+        {
+          "start": 58.554,
+          "end": 58.65
+        },
+        {
+          "start": 58.65,
+          "end": 58.747
+        },
+        {
+          "start": 58.747,
+          "end": 58.844
+        },
+        {
+          "start": 58.844,
+          "end": 58.94
+        },
+        {
+          "start": 58.94,
+          "end": 59.037
+        }
+      ]
+    },
+    {
+      "text": "ぬりえ を する",
+      "start": 59.057,
+      "end": 59.918,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 59.087,
+          "end": 59.191
+        },
+        {
+          "start": 59.191,
+          "end": 59.295
+        },
+        {
+          "start": 59.295,
+          "end": 59.399
+        },
+        {
+          "start": 59.399,
+          "end": 59.502
+        },
+        {
+          "start": 59.502,
+          "end": 59.606
+        },
+        {
+          "start": 59.606,
+          "end": 59.71
+        },
+        {
+          "start": 59.71,
+          "end": 59.814
+        },
+        {
+          "start": 59.814,
+          "end": 59.918
+        }
+      ]
+    },
+    {
+      "text": "あおい ぬの",
+      "start": 59.938,
+      "end": 60.398,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 59.968,
+          "end": 60.04
+        },
+        {
+          "start": 60.04,
+          "end": 60.111
+        },
+        {
+          "start": 60.111,
+          "end": 60.183
+        },
+        {
+          "start": 60.183,
+          "end": 60.255
+        },
+        {
+          "start": 60.255,
+          "end": 60.326
+        },
+        {
+          "start": 60.326,
+          "end": 60.398
+        }
+      ]
+    },
+    {
+      "text": "ねこ が ねる",
+      "start": 60.418,
+      "end": 61.958,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 60.448,
+          "end": 60.608
+        },
+        {
+          "start": 60.608,
+          "end": 60.718
+        },
+        {
+          "start": 60.718,
+          "end": 60.828
+        },
+        {
+          "start": 60.828,
+          "end": 60.998
+        },
+        {
+          "start": 60.998,
+          "end": 61.368
+        },
+        {
+          "start": 61.368,
+          "end": 61.568
+        },
+        {
+          "start": 61.568,
+          "end": 61.958
+        }
+      ]
+    },
+    {
+      "text": "ねぎ を きる",
+      "start": 61.978,
+      "end": 63.758,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 62.008,
+          "end": 62.168
+        },
+        {
+          "start": 62.168,
+          "end": 62.378
+        },
+        {
+          "start": 62.378,
+          "end": 62.588
+        },
+        {
+          "start": 62.588,
+          "end": 62.728
+        },
+        {
+          "start": 62.728,
+          "end": 62.868
+        },
+        {
+          "start": 62.868,
+          "end": 63.208
+        },
+        {
+          "start": 63.208,
+          "end": 63.758
+        }
+      ]
+    },
+    {
+      "text": "ねんど で あそぶ",
+      "start": 63.778,
+      "end": 66.838,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 63.808,
+          "end": 64.128
+        },
+        {
+          "start": 64.128,
+          "end": 64.748
+        },
+        {
+          "start": 64.748,
+          "end": 64.858
+        },
+        {
+          "start": 64.858,
+          "end": 64.968
+        },
+        {
+          "start": 64.968,
+          "end": 65.078
+        },
+        {
+          "start": 65.078,
+          "end": 65.228
+        },
+        {
+          "start": 65.228,
+          "end": 65.508
+        },
+        {
+          "start": 65.508,
+          "end": 66.548
+        },
+        {
+          "start": 66.548,
+          "end": 66.838
+        }
+      ]
+    },
+    {
+      "text": "のり の おにぎり",
+      "start": 66.858,
+      "end": 70.519,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 66.888,
+          "end": 67.208
+        },
+        {
+          "start": 67.208,
+          "end": 67.659
+        },
+        {
+          "start": 67.659,
+          "end": 68.109
+        },
+        {
+          "start": 68.109,
+          "end": 68.279
+        },
+        {
+          "start": 68.279,
+          "end": 68.449
+        },
+        {
+          "start": 68.449,
+          "end": 68.729
+        },
+        {
+          "start": 68.729,
+          "end": 69.029
+        },
+        {
+          "start": 69.029,
+          "end": 69.849
+        },
+        {
+          "start": 69.849,
+          "end": 70.519
+        }
+      ]
+    },
+    {
+      "text": "つめたい のみもの",
+      "start": 70.539,
+      "end": 72.659,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 70.569,
+          "end": 70.801
+        },
+        {
+          "start": 70.801,
+          "end": 71.033
+        },
+        {
+          "start": 71.033,
+          "end": 71.266
+        },
+        {
+          "start": 71.266,
+          "end": 71.498
+        },
+        {
+          "start": 71.498,
+          "end": 71.73
+        },
+        {
+          "start": 71.73,
+          "end": 71.962
+        },
+        {
+          "start": 71.962,
+          "end": 72.195
+        },
+        {
+          "start": 72.195,
+          "end": 72.427
+        },
+        {
+          "start": 72.427,
+          "end": 72.659
+        }
+      ]
+    },
+    {
+      "text": "ひろい のはら",
+      "start": 72.679,
+      "end": 73.579,
+      "section": "review",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 72.709,
+          "end": 72.833
+        },
+        {
+          "start": 72.833,
+          "end": 72.958
+        },
+        {
+          "start": 72.958,
+          "end": 73.082
+        },
+        {
+          "start": 73.082,
+          "end": 73.206
+        },
+        {
+          "start": 73.206,
+          "end": 73.33
+        },
+        {
+          "start": 73.33,
+          "end": 73.455
+        },
+        {
+          "start": 73.455,
+          "end": 73.579
+        }
+      ]
+    },
+    {
+      "text": "な に ぬ ね の",
+      "start": 73.599,
+      "end": 74.499,
+      "section": "refrain",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 73.629,
+          "end": 73.726
+        },
+        {
+          "start": 73.726,
+          "end": 73.822
+        },
+        {
+          "start": 73.822,
+          "end": 73.919
+        },
+        {
+          "start": 73.919,
+          "end": 74.016
+        },
+        {
+          "start": 74.016,
+          "end": 74.112
+        },
+        {
+          "start": 74.112,
+          "end": 74.209
+        },
+        {
+          "start": 74.209,
+          "end": 74.306
+        },
+        {
+          "start": 74.306,
+          "end": 74.402
+        },
+        {
+          "start": 74.402,
+          "end": 74.499
+        }
+      ]
+    },
+    {
+      "text": "な に ぬ ね の",
+      "start": 74.519,
+      "end": 77.61,
+      "section": "outro",
+      "illos": [
+        "nabe",
+        "nasu",
+        "nashi"
+      ],
+      "chars": [
+        {
+          "start": 74.549,
+          "end": 74.659
+        },
+        {
+          "start": 74.659,
+          "end": 74.769
+        },
+        {
+          "start": 74.769,
+          "end": 74.879
+        },
+        {
+          "start": 74.879,
+          "end": 74.989
+        },
+        {
+          "start": 74.989,
+          "end": 75.309
+        },
+        {
+          "start": 75.309,
+          "end": 75.769
+        },
+        {
+          "start": 75.769,
+          "end": 75.94
+        },
+        {
+          "start": 75.94,
+          "end": 76.11
+        },
+        {
+          "start": 76.11,
+          "end": 77.61
+        }
+      ]
+    }
+  ],
+  "_aligned": {
+    "tool": "whisperx",
+    "anchored_chars": 333,
+    "total_chars": 333
+  }
+}
