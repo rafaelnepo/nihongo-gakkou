@@ -13,12 +13,6 @@ import { fileURLToPath } from "node:url";
 
 const SONGS_DIR = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-// Absolute path to the repo on the machine that grabs the renders, so the
-// dashboard "Videos" link opens the local video/out folder even when the page
-// is served from GitHub Pages. Hardcoded (not derived from SONGS_DIR) so CI —
-// which builds from a different checkout path — still emits this Mac's path.
-const LOCAL_ROOT = "/Users/nepo/Desktop/claude-projects/2-medium-priority/nihongo-gakkou";
-
 const esc = (s) =>
   String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -303,16 +297,18 @@ for (const folder of allDirs) {
   const script = song.script || "hiragana";
   const rel = folder.replace(SONGS_DIR + "/", "");
   // A song has rendered videos once it has a timing file (the tracked signal that
-  // the render pipeline ran — true in CI too). out/ itself is gitignored, so the
-  // link points at the absolute local folder (LOCAL_ROOT) and opens it when the
-  // dashboard is viewed on that Mac; songs without a render get a disabled button.
+  // the render pipeline ran — true in CI too). out/ is gitignored, so the link is
+  // relative to the dashboard: it opens the local video/out folder when index.html
+  // is viewed on the Mac that holds the renders; songs without one get a disabled
+  // button. (Relative, not an absolute file:// path, to avoid leaking a local path
+  // into the public page.)
   const hasVideo = existsSync(join(SONGS_DIR, "video", "timing", `${song.id}.learning.json`));
-  // Card header parts: "Row N › <kana row>" + the English theme. Derived from the
-  // existing fields — kana from the title's first segment, row + theme from `jp`
-  // ("〈row〉 ・ gojuon row N ・ 〈theme〉"); a song may also set `theme` explicitly.
+  // Card header parts: "Row N › <kana row>" + the English theme. kana is the row's
+  // kana (render.row), row + theme come from `jp` ("〈row〉 ・ gojuon row N ・ 〈theme〉");
+  // a song may also set `theme` explicitly.
   const seg = String(song.jp || "").split("・").map((s) => s.trim());
   const rowNo = (String(song.jp || "").match(/row\s*(\d+)/i) || [])[1] || "";
-  const kana = String(song.title || "").split("・")[0].trim();
+  const kana = (song.render && song.render.row) || String(song.title || "").split("・")[0].trim();
   let theme = song.theme || "";
   if (!theme && seg.length >= 3 && !/gojuon\s+row/i.test(seg[seg.length - 1])) theme = seg[seg.length - 1];
   dash.push({
@@ -320,7 +316,7 @@ for (const folder of allDirs) {
     row: rowNo, kana, theme,
     priv: false, meta: song.meta || [], blurb: stripHtml(song.blurb || ""),
     sheet: rel + "/sheet.html", folder: rel + "/",
-    out: hasVideo ? `file://${LOCAL_ROOT}/video/out/${song.id}/` : null,
+    out: hasVideo ? `video/out/${song.id}/` : null,
     style: (song.styles && song.styles[0] && song.styles[0].text) || "",
   });
 }
